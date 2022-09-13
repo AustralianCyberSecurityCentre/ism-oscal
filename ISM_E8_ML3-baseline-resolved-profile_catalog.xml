@@ -1,0 +1,2468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+          uuid="d46f107f-8e7a-4ba4-b2d2-4d40521b2416">
+   <metadata>
+      <title>Information Security Manual Essential Eight Maturity Level Three Baseline</title>
+      <last-modified>2022-09-14T03:01:44.451651Z</last-modified>
+      <version>2022.09.14</version>
+      <oscal-version>1.0.4</oscal-version>
+      <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
+      <link rel="source-profile"
+             href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
+      <role id="prepared-by">
+         <title>Document creator</title>
+      </role>
+      <party type="organization" uuid="ae0012b5-2a98-4610-ba74-08928451a4c0">
+         <name>Australian Cyber Security Centre</name>
+         <short-name>ACSC</short-name>
+         <link href="https://www.cyber.gov.au" rel="homepage"/>
+         <email-address>asd.assist@defence.gov.au</email-address>
+         <address type="work">
+            <addr-line>Australian Cyber Security Centre</addr-line>
+            <addr-line>General enquiries</addr-line>
+            <addr-line>PO Box 5076</addr-line>
+            <city>Kingston</city>
+            <state>ACT</state>
+            <postal-code>2604</postal-code>
+            <country>AU</country>
+         </address>
+      </party>
+      <responsible-party role-id="prepared-by">
+         <party-uuid>ae0012b5-2a98-4610-ba74-08928451a4c0</party-uuid>
+      </responsible-party>
+   </metadata>
+   <group>
+      <title>Guidelines for Personnel Security</title>
+      <prop name="sort-id" value="catalog[1].group[08]"/>
+      <group>
+         <title>Access to systems and their resources</title>
+         <prop name="sort-id" value="catalog[1].group[08].group[2]"/>
+         <part name="overview">
+            <h1>Security clearances</h1>
+            <p>Where these guidelines refer to security clearances, it applies to Australian security clearances or security clearances from a foreign government which are formally recognised by Australia.</p>
+            <h1>Further information</h1>
+            <p>Further information on access to government resources, including required security clearances, can be found in the Attorney-General’s Department’s 
+          <a href="#92679127-f61d-486a-a93e-df2a26dfb07a">Protective Security Policy Framework</a>, 
+          <a href="#3e4cd135-5fa3-4a1e-a192-1793ff42067c">Access to information</a> policy.
+        </p>
+            <p>Further information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.</p>
+            <p>Further information on restricting the use of privileged accounts can be found in the ACSC’s 
+          <a href="#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b">Restricting Administrative Privileges</a> publication.
+        </p>
+            <p>Further information on event logging can be found in the event logging and monitoring section of the 
+          <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.
+        </p>
+         </part>
+         <group>
+            <title>Privileged access to systems</title>
+            <prop name="sort-id" value="catalog[1].group[08].group[2].group[05]"/>
+            <part name="overview">
+               <p>Privileged accounts are considered to be those which can alter or circumvent a system’s controls. This can also apply to users who have only limited privileges, such as software developers, but can still bypass controls. A privileged account often has the ability to modify system configurations, account privileges, event logs and security configurations for applications.</p>
+               <p>Privileged users, and in some cases privileged service accounts, are often targeted by an adversary as they can potentially give full access to systems. As such, ensuring that privileged accounts do not have the ability to access the internet, email and web services minimises opportunities for these accounts to be compromised.</p>
+               <p>Finally, to assist with incident response activities, it is important that privileged access event logs and privileged account and group change event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+            </part>
+            <control id="ism-1507" class="ISM-control">
+               <title>Control: ism-1507</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[01]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="2"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1507_smt" name="statement">
+                  <p>Requests for privileged access to systems and applications are validated when first requested.</p>
+               </part>
+            </control>
+            <control id="ism-1508" class="ISM-control">
+               <title>Control: ism-1508</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[03]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="2"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1508_smt" name="statement">
+                  <p>Privileged access to systems and applications is limited to only what is required for users and services to undertake their duties.</p>
+               </part>
+            </control>
+            <control id="ism-1175" class="ISM-control">
+               <title>Control: ism-1175</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[04]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="4"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1175_smt" name="statement">
+                  <p>Privileged user accounts are prevented from accessing the internet, email and web services.</p>
+               </part>
+            </control>
+            <control id="ism-1653" class="ISM-control">
+               <title>Control: ism-1653</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[05]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1653_smt" name="statement">
+                  <p>Privileged service accounts are prevented from accessing the internet, email and web services.</p>
+               </part>
+            </control>
+            <control id="ism-1649" class="ISM-control">
+               <title>Control: ism-1649</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[06]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1649_smt" name="statement">
+                  <p>Just-in-time administration is used for administering systems and applications.</p>
+               </part>
+            </control>
+            <control id="ism-1509" class="ISM-control">
+               <title>Control: ism-1509</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[08]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1509_smt" name="statement">
+                  <p>Use of privileged access is logged.</p>
+               </part>
+            </control>
+            <control id="ism-1650" class="ISM-control">
+               <title>Control: ism-1650</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[09]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1650_smt" name="statement">
+                  <p>Changes to privileged accounts and groups are logged.</p>
+               </part>
+            </control>
+            <control id="ism-1651" class="ISM-control">
+               <title>Control: ism-1651</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[10]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1651_smt" name="statement">
+                  <p>Privileged access event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+               </part>
+            </control>
+            <control id="ism-1652" class="ISM-control">
+               <title>Control: ism-1652</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[11]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1652_smt" name="statement">
+                  <p>Privileged account and group change event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Suspension of access to systems</title>
+            <prop name="sort-id" value="catalog[1].group[08].group[2].group[07]"/>
+            <part name="overview">
+               <p>Removing or suspending access to systems, applications and data repositories can prevent them from being accessed when there is no longer a legitimate business requirement for their use, such as when personnel change duties, leave an organisation or are detected undertaking malicious activities.</p>
+            </part>
+            <control id="ism-1648" class="ISM-control">
+               <title>Control: ism-1648</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[07].control[4]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1648_smt" name="statement">
+                  <p>Privileged access to systems and applications is automatically disabled after 45 days of inactivity.</p>
+               </part>
+            </control>
+            <control id="ism-1647" class="ISM-control">
+               <title>Control: ism-1647</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[07].control[6]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1647_smt" name="statement">
+                  <p>Privileged access to systems and applications is automatically disabled after 12 months unless revalidated.</p>
+               </part>
+            </control>
+         </group>
+      </group>
+   </group>
+   <group>
+      <title>Guidelines for System Hardening</title>
+      <prop name="sort-id" value="catalog[1].group[15]"/>
+      <group>
+         <title>Operating system hardening</title>
+         <prop name="sort-id" value="catalog[1].group[15].group[1]"/>
+         <part name="overview">
+            <h1>Further information</h1>
+            <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the 
+          <a href="#5947ab89-3110-4aec-861a-91b74c6aa742">Guidelines for Outsourcing</a>.
+        </p>
+            <p>Further information on patching or updating operating systems can be found in the system patching section of the 
+          <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for System Management</a>.
+        </p>
+            <p>Further information on end of support for Microsoft Windows operating systems can be found in the ACSC’s 
+          <a href="#57d28ba3-6fe4-4c6b-94ad-78a17e3ef995">End of Support for Microsoft Windows 10</a> and 
+          <a href="#644b3aef-d9c4-4480-8563-df83ad361c08">End of Support for Microsoft Windows Server 2008 and Windows Server 2008 R2</a> publications.
+        </p>
+            <p>Further information on securely configuring Microsoft Windows operating systems can be found in the ACSC’s 
+          <a href="#6e801c68-61f6-4c28-bf72-df91f7e232cc">Hardening Microsoft Windows 10 version 21H1 Workstations</a> publication.
+        </p>
+            <p>Further information on securely configuring Linux workstations and servers can be found in the ACSC’s 
+          <a href="#8132c47e-a2dc-4dd9-81d6-38db96e5cec6">Hardening Linux Workstations and Servers</a> publication.
+        </p>
+            <p>Further information on 
+          <a href="#d0df96bb-7236-4784-8f54-2cb6335ad228">exploit protection functionality</a> within Microsoft Windows is available from Microsoft.
+        </p>
+            <p>Further information on implementing application control can be found in the ACSC’s 
+          <a href="#4eeff329-cea0-4baf-a80b-8b0b76436075">Implementing Application Control</a> publication.
+        </p>
+            <p>Further information on Microsoft’s ‘
+          <a href="#5a2ed3ef-afcc-485e-8014-5107e9ed97e3">recommended block rules</a>’ and ‘
+          <a href="#4a3a265f-7772-433b-9906-7f784052f28b">recommended driver block rules</a>’ are available from Microsoft.
+        </p>
+            <p>Further information on the use of PowerShell can be found in the ACSC’s 
+          <a href="#8ffea524-0974-4b53-a8f5-41166073ede5">Securing PowerShell in the Enterprise</a> publication.
+        </p>
+            <p>Further information on 
+          <a href="#7d22400c-ddef-4cbb-90f1-7502dc569e5b">the use of PowerShell by blue teams</a> is available from Microsoft while further information on obtaining 
+          <a href="#af0810aa-3486-4ca6-a48a-fad8ce9ac193">greater visibility through PowerShell logging</a> is available from FireEye.
+        </p>
+            <p>Further information on independent testing of security products’ ability to 
+          <a href="#3a1a00f6-2f56-4d04-b99d-6f1682b95a98">detect or prevent various stages of network intrusions</a> is available from The MITRE Corporation.
+        </p>
+            <p>Further information on independent testing of antivirus software is available from 
+          <a href="#c852e735-4920-4616-8e34-2fddfb49eea8">AV-Comparatives</a> and 
+          <a href="#18203e18-2aca-492e-be44-770b2f47242f">AV-TEST</a>.
+        </p>
+            <p>Further information on the use of removable media can be found in the media usage section of the 
+          <a href="#b594c9c0-b42f-4f06-b643-38023275a5c7">Guidelines for Media</a>.
+        </p>
+            <p>Further information on event logging can be found in the event logging and monitoring section of the 
+          <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.
+        </p>
+         </part>
+         <group>
+            <title>Operating system releases and versions</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[1].group[02]"/>
+            <part name="overview">
+               <p>Newer releases of operating systems often introduce improvements in security functionality. This can make it more difficult for an adversary to craft reliable exploits for security vulnerabilities they discover. Using older releases of operating systems, especially those no longer supported by vendors, may expose an organisation to security vulnerabilities or exploitation techniques that have since been mitigated. In addition, 64-bit versions of operating systems support additional security functionality that 32-bit versions do not.</p>
+            </part>
+            <control id="ism-1407" class="ISM-control">
+               <title>Control: ism-1407</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[02].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="4"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1407_smt" name="statement">
+                  <p>The latest release, or the previous release, of operating systems are used for workstations, servers and network devices.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Hardening operating system configurations</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[1].group[04]"/>
+            <part name="overview">
+               <p>When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. Many configuration settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Cyber Security Centre (ACSC) and vendors often produce guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ACSC and vendor guidance conflicts, preference should be given to implementing ACSC hardening guidance.</p>
+            </part>
+            <control id="ism-1654" class="ISM-control">
+               <title>Control: ism-1654</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[04].control[05]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1654_smt" name="statement">
+                  <p>Internet Explorer 11 is disabled or removed.</p>
+               </part>
+            </control>
+            <control id="ism-1655" class="ISM-control">
+               <title>Control: ism-1655</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[04].control[06]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1655_smt" name="statement">
+                  <p>.NET Framework 3.5 (includes .NET 2.0 and 3.0) is disabled or removed.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Application control</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[1].group[06]"/>
+            <part name="overview">
+               <p>Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm), HTML applications (e.g. .hta), control panel applets (e.g. .cpl) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.</p>
+               <p>In implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by an adversary.</p>
+               <p>Finally, to assist with incident response activities, it is important that application control event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+            </part>
+            <control id="ism-0843" class="ISM-control">
+               <title>Control: ism-0843</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[01]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="9"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-0843_smt" name="statement">
+                  <p>Application control is implemented on workstations.</p>
+               </part>
+            </control>
+            <control id="ism-1490" class="ISM-control">
+               <title>Control: ism-1490</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[02]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="3"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1490_smt" name="statement">
+                  <p>Application control is implemented on internet-facing servers.</p>
+               </part>
+            </control>
+            <control id="ism-1656" class="ISM-control">
+               <title>Control: ism-1656</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[03]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1656_smt" name="statement">
+                  <p>Application control is implemented on non-internet-facing servers.</p>
+               </part>
+            </control>
+            <control id="ism-1657" class="ISM-control">
+               <title>Control: ism-1657</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[04]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1657_smt" name="statement">
+                  <p>Application control restricts the execution of executables, software libraries, scripts, installers, compiled HTML, HTML applications and control panel applets to an organisation-approved set.</p>
+               </part>
+            </control>
+            <control id="ism-1658" class="ISM-control">
+               <title>Control: ism-1658</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[05]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1658_smt" name="statement">
+                  <p>Application control restricts the execution of drivers to an organisation-approved set.</p>
+               </part>
+            </control>
+            <control id="ism-1582" class="ISM-control">
+               <title>Control: ism-1582</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[07]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1582_smt" name="statement">
+                  <p>Application control rulesets are validated on an annual or more frequent basis.</p>
+               </part>
+            </control>
+            <control id="ism-1544" class="ISM-control">
+               <title>Control: ism-1544</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[11]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="2"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1544_smt" name="statement">
+                  <p>Microsoft’s ‘recommended block rules’ are implemented.</p>
+               </part>
+            </control>
+            <control id="ism-1659" class="ISM-control">
+               <title>Control: ism-1659</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[12]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1659_smt" name="statement">
+                  <p>Microsoft’s ‘recommended driver block rules’ are implemented.</p>
+               </part>
+            </control>
+            <control id="ism-1660" class="ISM-control">
+               <title>Control: ism-1660</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[14]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1660_smt" name="statement">
+                  <p>Allowed and blocked executions on workstations are logged.</p>
+               </part>
+            </control>
+            <control id="ism-1661" class="ISM-control">
+               <title>Control: ism-1661</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[15]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1661_smt" name="statement">
+                  <p>Allowed and blocked executions on internet-facing servers are logged.</p>
+               </part>
+            </control>
+            <control id="ism-1662" class="ISM-control">
+               <title>Control: ism-1662</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[16]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1662_smt" name="statement">
+                  <p>Allowed and blocked executions on non-internet-facing servers are logged.</p>
+               </part>
+            </control>
+            <control id="ism-1663" class="ISM-control">
+               <title>Control: ism-1663</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[06].control[17]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1663_smt" name="statement">
+                  <p>Application control event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>PowerShell</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[1].group[07]"/>
+            <part name="overview">
+               <p>PowerShell is a powerful scripting language developed by Microsoft and, due to its ubiquity and ease with which it can be used to fully control operating systems, is an important part of system administrator toolkits. However, PowerShell can also be a dangerous exploitation tool in the hands of an adversary.</p>
+               <p>In order to prevent attacks leveraging security vulnerabilities in earlier PowerShell versions, Windows PowerShell 2.0 should be disabled or removed from operating systems. Additionally, PowerShell’s language mode should be set to Constrained Language Mode to achieve a balance between security and functionality.</p>
+               <p>Finally, logging and transcription functionality available in PowerShell can provide invaluable information for incident responders. As such, it is important that PowerShell event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+            </part>
+            <control id="ism-1621" class="ISM-control">
+               <title>Control: ism-1621</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[07].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1621_smt" name="statement">
+                  <p>Windows PowerShell 2.0 is disabled or removed.</p>
+               </part>
+            </control>
+            <control id="ism-1622" class="ISM-control">
+               <title>Control: ism-1622</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[07].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Oct-20"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1622_smt" name="statement">
+                  <p>PowerShell is configured to use Constrained Language Mode.</p>
+               </part>
+            </control>
+            <control id="ism-1664" class="ISM-control">
+               <title>Control: ism-1664</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[07].control[5]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1664_smt" name="statement">
+                  <p>Blocked PowerShell script executions are logged.</p>
+               </part>
+            </control>
+            <control id="ism-1665" class="ISM-control">
+               <title>Control: ism-1665</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[1].group[07].control[6]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1665_smt" name="statement">
+                  <p>PowerShell event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+               </part>
+            </control>
+         </group>
+      </group>
+      <group>
+         <title>Application hardening</title>
+         <prop name="sort-id" value="catalog[1].group[15].group[2]"/>
+         <part name="overview">
+            <h1>Further information</h1>
+            <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the 
+          <a href="#5947ab89-3110-4aec-861a-91b74c6aa742">Guidelines for Outsourcing</a>.
+        </p>
+            <p>Further information on patching or updating applications can be found in the system patching section of the 
+          <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for System Management</a>.
+        </p>
+            <p>Further information on securely configuring Microsoft Office can be found in the ACSC’s 
+          <a href="#58c9abfb-58fe-416e-a279-dfbfe123c99f">Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</a> publication.
+        </p>
+            <p>Further information on configuring Microsoft Office macro settings can be found in the ACSC’s 
+          <a href="#dfb52998-0e7e-420d-97e1-d1313c8f919a">Microsoft Office Macro Security</a> publication.
+        </p>
+            <p>Further information on event logging can be found in the event logging and monitoring section of the 
+          <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.
+        </p>
+         </part>
+         <group>
+            <title>Hardening application configurations</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[2].group[3]"/>
+            <part name="overview">
+               <p>When applications are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers, email clients, PDF software and security products as such applications are routinely targeted for exploitation. Many configuration settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, the ACSC and vendors often produce guidance to assist in hardening the configuration of such applications. Note, however, in situations where ACSC and vendor guidance conflicts, preference should be given to implementing ACSC hardening guidance.</p>
+            </part>
+            <control id="ism-1412" class="ISM-control">
+               <title>Control: ism-1412</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[01]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="3"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1412_smt" name="statement">
+                  <p>ACSC or vendor hardening guidance for web browsers, Microsoft Office and PDF software is implemented.</p>
+               </part>
+            </control>
+            <control id="ism-1486" class="ISM-control">
+               <title>Control: ism-1486</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[04]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1486_smt" name="statement">
+                  <p>Web browsers do not process Java from the internet.</p>
+               </part>
+            </control>
+            <control id="ism-1485" class="ISM-control">
+               <title>Control: ism-1485</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[05]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1485_smt" name="statement">
+                  <p>Web browsers do not process web advertisements from the internet.</p>
+               </part>
+            </control>
+            <control id="ism-1667" class="ISM-control">
+               <title>Control: ism-1667</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[07]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1667_smt" name="statement">
+                  <p>Microsoft Office is blocked from creating child processes.</p>
+               </part>
+            </control>
+            <control id="ism-1668" class="ISM-control">
+               <title>Control: ism-1668</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[08]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1668_smt" name="statement">
+                  <p>Microsoft Office is blocked from creating executable content.</p>
+               </part>
+            </control>
+            <control id="ism-1669" class="ISM-control">
+               <title>Control: ism-1669</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[09]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1669_smt" name="statement">
+                  <p>Microsoft Office is blocked from injecting code into other processes.</p>
+               </part>
+            </control>
+            <control id="ism-1542" class="ISM-control">
+               <title>Control: ism-1542</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[10]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jan-19"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1542_smt" name="statement">
+                  <p>Microsoft Office is configured to prevent activation of Object Linking and Embedding packages.</p>
+               </part>
+            </control>
+            <control id="ism-1670" class="ISM-control">
+               <title>Control: ism-1670</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[11]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1670_smt" name="statement">
+                  <p>PDF software is blocked from creating child processes.</p>
+               </part>
+            </control>
+            <control id="ism-1585" class="ISM-control">
+               <title>Control: ism-1585</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[13]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1585_smt" name="statement">
+                  <p>Web browser, Microsoft Office and PDF software security settings cannot be changed by users.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Microsoft Office macros</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[2].group[4]"/>
+            <part name="overview">
+               <p>Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed at a later time to automate repetitive tasks. Macros are powerful tools that can be easily created by users to greatly improve their productivity. However, an adversary can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations in order to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do.</p>
+               <p>Finally, to assist with incident response activities, it is important that Microsoft Office macro event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+            </part>
+            <control id="ism-1671" class="ISM-control">
+               <title>Control: ism-1671</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[01]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1671_smt" name="statement">
+                  <p>Microsoft Office macros are disabled for users that do not have a demonstrated business requirement.</p>
+               </part>
+            </control>
+            <control id="ism-1488" class="ISM-control">
+               <title>Control: ism-1488</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[02]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1488_smt" name="statement">
+                  <p>Microsoft Office macros in files originating from the internet are blocked.</p>
+               </part>
+            </control>
+            <control id="ism-1672" class="ISM-control">
+               <title>Control: ism-1672</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[03]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1672_smt" name="statement">
+                  <p>Microsoft Office macro antivirus scanning is enabled.</p>
+               </part>
+            </control>
+            <control id="ism-1673" class="ISM-control">
+               <title>Control: ism-1673</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[04]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1673_smt" name="statement">
+                  <p>Microsoft Office macros are blocked from making Win32 API calls.</p>
+               </part>
+            </control>
+            <control id="ism-1674" class="ISM-control">
+               <title>Control: ism-1674</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[05]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1674_smt" name="statement">
+                  <p>Only Microsoft Office macros running from within a sandboxed environment, a Trusted Location or that are digitally signed by a trusted publisher are allowed to execute.</p>
+               </part>
+            </control>
+            <control id="ism-1487" class="ISM-control">
+               <title>Control: ism-1487</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[06]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1487_smt" name="statement">
+                  <p>Only privileged users responsible for validating that Microsoft Office macros are free of malicious code can write to and modify content within Trusted Locations.</p>
+               </part>
+            </control>
+            <control id="ism-1675" class="ISM-control">
+               <title>Control: ism-1675</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[07]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1675_smt" name="statement">
+                  <p>Microsoft Office macros digitally signed by an untrusted publisher cannot be enabled via the Message Bar or Backstage View.</p>
+               </part>
+            </control>
+            <control id="ism-1676" class="ISM-control">
+               <title>Control: ism-1676</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[08]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1676_smt" name="statement">
+                  <p>Microsoft Office’s list of trusted publishers is validated on an annual or more frequent basis.</p>
+               </part>
+            </control>
+            <control id="ism-1489" class="ISM-control">
+               <title>Control: ism-1489</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[09]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-18"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1489_smt" name="statement">
+                  <p>Microsoft Office macro security settings cannot be changed by users.</p>
+               </part>
+            </control>
+            <control id="ism-1677" class="ISM-control">
+               <title>Control: ism-1677</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[10]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1677_smt" name="statement">
+                  <p>Allowed and blocked Microsoft Office macro executions are logged.</p>
+               </part>
+            </control>
+            <control id="ism-1678" class="ISM-control">
+               <title>Control: ism-1678</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[4].control[11]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1678_smt" name="statement">
+                  <p>Microsoft Office macro event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+               </part>
+            </control>
+         </group>
+      </group>
+      <group>
+         <title>Authentication hardening</title>
+         <prop name="sort-id" value="catalog[1].group[15].group[3]"/>
+         <part name="overview">
+            <h1>Account and authentication types</h1>
+            <p>The guidance within this section is equally applicable to all account types. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.</p>
+            <h1>Further information</h1>
+            <p>Further information on implementing multi-factor authentication can be found in the ACSC’s 
+          <a href="#83e3a9b1-5057-4531-91dd-03c8d92634b0">Implementing Multi-Factor Authentication</a> publication.
+        </p>
+            <p>Further information on event logging can be found in the event logging and monitoring section of the 
+          <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.
+        </p>
+            <p>Further information on 
+          <a href="#58282062-5c17-476a-98b1-105a627cd28d">randomly generating passphrases</a> (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a 
+          <a href="#0508be6f-cb97-44da-b212-42416a0048b0">random dice roller</a> is available from RANDOM.ORG.
+        </p>
+            <p>Further information on mitigating the use of stolen credentials can be found in the ACSC’s 
+          <a href="#824e4353-a9ae-4869-88fb-cb0675dc5d1c">Mitigating the Use of Stolen Credentials</a> publication.
+        </p>
+            <p>Further information on mitigating the use of stolen credentials can also be found in Microsoft’s 
+          <a href="#f9fb4c57-8c12-4edf-9e34-cb422664aae9">Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2</a> publication.
+        </p>
+         </part>
+         <group>
+            <title>Multi-factor authentication</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[3].group[02]"/>
+            <part name="overview">
+               <p>Multi-factor authentication uses two or more authentication factors. This may include:</p>
+               <ul>
+                  <li>something a user knows, such as a memorised secret (i.e. personal identification number, password or passphrase)</li>
+                  <li>something a user has, such as a security key, smart card, smartphone or physical one-time password token</li>
+                  <li>something a user is, such as a fingerprint pattern or their facial geometry.</li>
+               </ul>
+               <p>Note, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that a user has rather than something a user knows.</p>
+               <p>Privileged users, users of remote access solutions and users with access to important data repositories are more likely to be targeted by an adversary due to their access. For this reason, it is especially important that multi-factor authentication is used for these accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing an adversary’s ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.</p>
+               <p>When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something a user has should be used as part of multi-factor authentication. Furthermore, for increased security, the use of verifier impersonation resistant authentication factors are recommended to protect against real-time phishing attacks.</p>
+               <p>Finally, to assist with incident response activities, it is important that multi-factor authentication event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+            </part>
+            <control id="ism-1173" class="ISM-control">
+               <title>Control: ism-1173</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[02]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="4"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1173_smt" name="statement">
+                  <p>Multi-factor authentication is used to authenticate privileged users of systems.</p>
+               </part>
+            </control>
+            <control id="ism-1504" class="ISM-control">
+               <title>Control: ism-1504</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[03]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1504_smt" name="statement">
+                  <p>Multi-factor authentication is used by an organisation’s users if they authenticate to their organisation’s internet-facing services.</p>
+               </part>
+            </control>
+            <control id="ism-1679" class="ISM-control">
+               <title>Control: ism-1679</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[04]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1679_smt" name="statement">
+                  <p>Multi-factor authentication is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation's sensitive data.</p>
+               </part>
+            </control>
+            <control id="ism-1680" class="ISM-control">
+               <title>Control: ism-1680</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[05]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1680_smt" name="statement">
+                  <p>Multi-factor authentication (where available) is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation's non-sensitive data.</p>
+               </part>
+            </control>
+            <control id="ism-1681" class="ISM-control">
+               <title>Control: ism-1681</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[06]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1681_smt" name="statement">
+                  <p>Multi-factor authentication is enabled by default for non-organisational users (but users can choose to opt out) if they authenticate to an organisation’s internet-facing services.</p>
+               </part>
+            </control>
+            <control id="ism-1505" class="ISM-control">
+               <title>Control: ism-1505</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[07]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1505_smt" name="statement">
+                  <p>Multi-factor authentication is used to authenticate users accessing important data repositories.</p>
+               </part>
+            </control>
+            <control id="ism-1401" class="ISM-control">
+               <title>Control: ism-1401</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[08]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="5"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1401_smt" name="statement">
+                  <p>Multi-factor authentication uses either: something users have and something users know, or something users have that is unlocked by something users know or are.</p>
+               </part>
+            </control>
+            <control id="ism-1682" class="ISM-control">
+               <title>Control: ism-1682</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[09]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1682_smt" name="statement">
+                  <p>Multi-factor authentication is verifier impersonation resistant.</p>
+               </part>
+            </control>
+            <control id="ism-1683" class="ISM-control">
+               <title>Control: ism-1683</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[13]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1683_smt" name="statement">
+                  <p>Successful and unsuccessful multi-factor authentications are logged.</p>
+               </part>
+            </control>
+            <control id="ism-1684" class="ISM-control">
+               <title>Control: ism-1684</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[02].control[14]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1684_smt" name="statement">
+                  <p>Multi-factor authentication event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Setting credentials for service accounts</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[3].group[05]"/>
+            <part name="overview">
+               <p>To provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically manages the credentials. This ensures that service account credentials are not misplaced or forgotten, and that they are automatically changed on a regular basis.</p>
+            </part>
+            <control id="ism-1619" class="ISM-control">
+               <title>Control: ism-1619</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[05].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Oct-20"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1619_smt" name="statement">
+                  <p>Service accounts are created as group Managed Service Accounts.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Protecting credentials</title>
+            <prop name="sort-id" value="catalog[1].group[15].group[3].group[08]"/>
+            <part name="overview">
+               <p>When local administrator accounts use common usernames and credentials, it can allow an adversary that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for local administrator accounts and service accounts are unique, unpredictable and managed.</p>
+               <p>Storing physical credentials with a system, such as security keys, smart cards, one-time password tokens and written down memorised secrets, increases the likelihood of an adversary gaining access to the system. For example, when passphrases are written down and stuck to a computer monitor, smart cards are left on desks or security keys are left in laptop bags. Furthermore, obscuring credentials as they are entered into systems can assist in protecting them against screen scrapers and shoulder surfers.</p>
+               <p>If storing credentials on a system, sufficient protection should be implemented to prevent them from being compromised. For example, credentials can be stored in a password manager or hardware security module, while credentials stored in a database should be hashed, salted and stretched. In addition, Windows Defender Credential Guard and Windows Defender Remote Credential Guard can be enabled to provide additional protection for credentials.</p>
+               <p>When using Microsoft Windows systems, cached credentials are stored in the Security Accounts Manager database and can allow a user to logon to a workstation they have previously logged onto even if the domain is not available. Whilst this functionality may be desirable from an availability perspective, this functionality can be abused by an adversary who can retrieve these cached credentials. To reduce this security risk, cached credentials should be limited to only one previous logon.</p>
+            </part>
+            <control id="ism-1685" class="ISM-control">
+               <title>Control: ism-1685</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[08].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1685_smt" name="statement">
+                  <p>Credentials for local administrator accounts and service accounts are unique, unpredictable and managed.</p>
+               </part>
+            </control>
+            <control id="ism-1686" class="ISM-control">
+               <title>Control: ism-1686</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[3].group[08].control[5]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1686_smt" name="statement">
+                  <p>Windows Defender Credential Guard and Windows Defender Remote Credential Guard are enabled.</p>
+               </part>
+            </control>
+         </group>
+      </group>
+   </group>
+   <group>
+      <title>Guidelines for System Management</title>
+      <prop name="sort-id" value="catalog[1].group[16]"/>
+      <group>
+         <title>System administration</title>
+         <prop name="sort-id" value="catalog[1].group[16].group[1]"/>
+         <part name="overview">
+            <h1>System administration of cloud services</h1>
+            <p>System administration of cloud services brings unique challenges when compared to system administration of on-premises assets. Notably, responsibility for system administration of cloud services is often shared between service providers and their customers. As the system administration processes and procedures implemented by service providers are often opaque to their customers, customers should consider a service provider’s control plane to operate within a different security domain.</p>
+            <h1>Further information</h1>
+            <p>Further information on system administration can be found in the Australian Cyber Security Centre (ACSC)’s 
+          <a href="#131048c7-a2e7-4da3-9257-7a058b06c1f8">Secure Administration</a> publication.
+        </p>
+            <p>Further information on the use of privileged accounts can be found in the access to systems and their resources section of the 
+          <a href="#7d16ae67-87a7-4861-b939-e13ec279b5a2">Guidelines for Personnel Security</a>.
+        </p>
+            <p>Further information on multi-factor authentication can be found in the authentication hardening section of the 
+          <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.
+        </p>
+            <p>Further information on event logging can be found in the event logging and monitoring section of the 
+          <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.
+        </p>
+            <p>Further information on network segmentation and segregation can be found in the network design and configuration section of the 
+          <a href="#f145ff5b-d396-4248-8f48-621349d6f0ed">Guidelines for Networking</a>.
+        </p>
+         </part>
+         <group>
+            <title>Separate privileged operating environments</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[1].group[2]"/>
+            <part name="overview">
+               <p>One of the greatest threats to the security of networks is the compromise of privileged accounts. Providing a separate privileged operating environment for system administrators, in addition to their unprivileged operating environment, makes it much harder for administrative activities and privileged accounts to be compromised by an adversary.</p>
+               <p>Using different physical workstations is the most secure approach to separating privileged and unprivileged operating environments for system administrators. However, a virtualisation-based solution may be sufficient for separating privileged and unprivileged operating environments. In such cases, privileged operating environments should not be virtualised within unprivileged operating environments.</p>
+            </part>
+            <control id="ism-1380" class="ISM-control">
+               <title>Control: ism-1380</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[1].group[2].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="5"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1380_smt" name="statement">
+                  <p>Privileged users use separate privileged and unprivileged operating environments.</p>
+               </part>
+            </control>
+            <control id="ism-1687" class="ISM-control">
+               <title>Control: ism-1687</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[1].group[2].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1687_smt" name="statement">
+                  <p>Privileged operating environments are not virtualised within unprivileged operating environments.</p>
+               </part>
+            </control>
+            <control id="ism-1688" class="ISM-control">
+               <title>Control: ism-1688</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[1].group[2].control[3]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1688_smt" name="statement">
+                  <p>Unprivileged accounts cannot logon to privileged operating environments.</p>
+               </part>
+            </control>
+            <control id="ism-1689" class="ISM-control">
+               <title>Control: ism-1689</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[1].group[2].control[4]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1689_smt" name="statement">
+                  <p>Privileged accounts (excluding local administrator accounts) cannot logon to unprivileged operating environments.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Administrative infrastructure</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[1].group[3]"/>
+            <part name="overview">
+               <p>The security of administrative activities can be improved by segregating administrative infrastructure from the wider network. In doing so, the use of a jump server (also known as a jump host or jump box) can be an effective way of simplifying and securing administrative activities. Specifically, a jump server can provide filtering of network management traffic while also acting as a focal point to perform multi-factor authentication; store and manage administrative tools; and perform logging, monitoring and alerting activities. Finally, using separate jump servers for the administration of critical servers, high-value servers and regular servers can further assist in protecting these assets.</p>
+            </part>
+            <control id="ism-1387" class="ISM-control">
+               <title>Control: ism-1387</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[1].group[3].control[4]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="2"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1387_smt" name="statement">
+                  <p>Administrative activities are conducted through jump servers.</p>
+               </part>
+            </control>
+         </group>
+      </group>
+      <group>
+         <title>System patching</title>
+         <prop name="sort-id" value="catalog[1].group[16].group[2]"/>
+         <part name="overview">
+            <h1>Further information</h1>
+            <p>Further information on system patching can be found in the ACSC’s 
+          <a href="#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a">Assessing Security Vulnerabilities and Applying Patches</a> publication.
+        </p>
+            <p>Further information on patching evaluated products can be found in the evaluated product usage section of the 
+          <a href="#a699a3aa-828d-479b-b50b-98127bb19437">Guidelines for Evaluated Products</a>.
+        </p>
+         </part>
+         <group>
+            <title>When to patch security vulnerabilities</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[2].group[3]"/>
+            <part name="overview">
+               <p>When patches or updates are released by vendors for security vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by an adversary. For example, by prioritising patches or updates for security vulnerabilities in internet-facing services and their operating systems, especially when exploitation code exists or active exploitation is occurring.</p>
+               <p>If no patches or updates are available for security vulnerabilities, mitigation advice from vendors, trusted authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to security vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.</p>
+               <p>If a patch or update is released for high assurance ICT equipment, the ACSC will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, the ACSC will provide guidance on the methods and timeframes in which it is to be applied.</p>
+            </part>
+            <control id="ism-1690" class="ISM-control">
+               <title>Control: ism-1690</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[3].control[01]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1690_smt" name="statement">
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in internet-facing services are applied within two weeks of release, or within 48 hours if an exploit exists.</p>
+               </part>
+            </control>
+            <control id="ism-1691" class="ISM-control">
+               <title>Control: ism-1691</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[3].control[02]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1691_smt" name="statement">
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within two weeks of release.</p>
+               </part>
+            </control>
+            <control id="ism-1692" class="ISM-control">
+               <title>Control: ism-1692</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[3].control[03]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1692_smt" name="statement">
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within 48 hours if an exploit exists.</p>
+               </part>
+            </control>
+            <control id="ism-1693" class="ISM-control">
+               <title>Control: ism-1693</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[3].control[04]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1693_smt" name="statement">
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in other applications are applied within one month of release.</p>
+               </part>
+            </control>
+            <control id="ism-1694" class="ISM-control">
+               <title>Control: ism-1694</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[3].control[05]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1694_smt" name="statement">
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in operating systems of internet-facing services are applied within two weeks of release, or within 48 hours if an exploit exists.</p>
+               </part>
+            </control>
+            <control id="ism-1695" class="ISM-control">
+               <title>Control: ism-1695</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[3].control[06]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1695_smt" name="statement">
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in operating systems of workstations, servers and network devices are applied within two weeks of release.</p>
+               </part>
+            </control>
+            <control id="ism-1696" class="ISM-control">
+               <title>Control: ism-1696</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[3].control[07]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1696_smt" name="statement">
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in operating systems of workstations, servers and network devices are applied within 48 hours if an exploit exists.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Scanning for missing patches or updates</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[2].group[4]"/>
+            <part name="overview">
+               <p>To ensure that patches or updates have been applied to applications, operating systems, drivers and firmware, it is essential that an organisation scan for missing patches or updates on a regular basis using a vulnerability scanner, preferably in an automated manner. Ideally, vulnerability scanning should take place at half the frequency in which patches or updates need to be applied. For example, if patches or updates are applied fortnightly then vulnerability scanning should be undertaken weekly.</p>
+            </part>
+            <control id="ism-1698" class="ISM-control">
+               <title>Control: ism-1698</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[4].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1698_smt" name="statement">
+                  <p>A vulnerability scanner is used at least daily to identify missing patches or updates for security vulnerabilities in internet-facing services.</p>
+               </part>
+            </control>
+            <control id="ism-1699" class="ISM-control">
+               <title>Control: ism-1699</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[4].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1699_smt" name="statement">
+                  <p>A vulnerability scanner is used at least weekly to identify missing patches or updates for security vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF software, and security products.</p>
+               </part>
+            </control>
+            <control id="ism-1700" class="ISM-control">
+               <title>Control: ism-1700</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[4].control[3]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1700_smt" name="statement">
+                  <p>A vulnerability scanner is used at least fortnightly to identify missing patches or updates for security vulnerabilities in other applications.</p>
+               </part>
+            </control>
+            <control id="ism-1701" class="ISM-control">
+               <title>Control: ism-1701</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[4].control[4]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1701_smt" name="statement">
+                  <p>A vulnerability scanner is used at least daily to identify missing patches or updates for security vulnerabilities in operating systems of internet-facing services.</p>
+               </part>
+            </control>
+            <control id="ism-1702" class="ISM-control">
+               <title>Control: ism-1702</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[4].control[5]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1702_smt" name="statement">
+                  <p>A vulnerability scanner is used at least weekly to identify missing patches or updates for security vulnerabilities in operating systems of workstations, servers and network devices.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Cessation of support</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[2].group[5]"/>
+            <part name="overview">
+               <p>When applications, operating systems, network devices and other ICT equipment reach their cessation date for support, an organisation will find it increasingly difficult to protect them against security vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and other ICT equipment should be removed or replaced. In planning for such activities, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and other ICT equipment may cease to receive support immediately after newer versions are released.</p>
+            </part>
+            <control id="ism-1704" class="ISM-control">
+               <title>Control: ism-1704</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[5].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1704_smt" name="statement">
+                  <p>Internet-facing services, office productivity suites, web browsers and their extensions, email clients, PDF software, Adobe Flash Player, and security products that are no longer supported by vendors are removed.</p>
+               </part>
+            </control>
+            <control id="ism-0304" class="ISM-control">
+               <title>Control: ism-0304</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[5].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="6"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-0304_smt" name="statement">
+                  <p>Applications that are no longer supported by vendors are removed.</p>
+               </part>
+            </control>
+            <control id="ism-1501" class="ISM-control">
+               <title>Control: ism-1501</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[2].group[5].control[3]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1501_smt" name="statement">
+                  <p>Operating systems that are no longer supported by vendors are replaced.</p>
+               </part>
+            </control>
+         </group>
+      </group>
+      <group>
+         <title>Data backup and restoration</title>
+         <prop name="sort-id" value="catalog[1].group[16].group[3]"/>
+         <part name="overview">
+            <h1>Further information</h1>
+            <p>Further information on 
+          <a href="#3ae678b7-dcb5-4ab5-a46e-251900f39425">preserving digital information</a> is available from the National Archives of Australia.
+        </p>
+            <p>Further information on business continuity and disaster recovery planning can be found in the Chief Information Security Officer section of the 
+          <a href="#626dab35-81ab-45fe-8c12-0faff1c23c07">Guidelines for Cyber Security Roles</a>.
+        </p>
+         </part>
+         <group>
+            <title>Performing and retaining backups</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[3].group[3]"/>
+            <part name="overview">
+               <p>When performing backups, all important data, software and configuration settings should be captured in a coordinated and resilient manner on a regular basis in accordance with business continuity requirements. This will ensure that should a system fall victim to a ransomware attack, important data will not be lost and, if necessary, systems can be quickly restored.</p>
+            </part>
+            <control id="ism-1511" class="ISM-control">
+               <title>Control: ism-1511</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[3].group[3].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="2"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1511_smt" name="statement">
+                  <p>Backups of important data, software and configuration settings are performed and retained in a coordinated and resilient manner in accordance with business continuity requirements.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Backup access and modification</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[3].group[4]"/>
+            <part name="overview">
+               <p>To mitigate the security risk of backups being accidentally or maliciously modified or deleted, an organisation should ensure that backups are sufficiently protected from unauthorised modification and deletion through the use of appropriate access controls.</p>
+            </part>
+            <control id="ism-1705" class="ISM-control">
+               <title>Control: ism-1705</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[3].group[4].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1705_smt" name="statement">
+                  <p>Unprivileged accounts, and privileged accounts (excluding backup administrators) cannot access other account’s backups.</p>
+               </part>
+            </control>
+            <control id="ism-1706" class="ISM-control">
+               <title>Control: ism-1706</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[3].group[4].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1706_smt" name="statement">
+                  <p>Unprivileged accounts, and privileged accounts (excluding backup administrators) cannot access their own account’s backups.</p>
+               </part>
+            </control>
+            <control id="ism-1707" class="ISM-control">
+               <title>Control: ism-1707</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[3].group[4].control[3]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1707_smt" name="statement">
+                  <p>Unprivileged accounts, and privileged accounts (excluding backup administrators), are prevented from modifying or deleting backups.</p>
+               </part>
+            </control>
+            <control id="ism-1708" class="ISM-control">
+               <title>Control: ism-1708</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[3].group[4].control[4]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1708_smt" name="statement">
+                  <p>Backup administrators (excluding backup break glass accounts), are prevented from modifying or deleting backups.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Testing restoration of backups</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[3].group[5]"/>
+            <part name="overview">
+               <p>To ensure that backups can be restored when the need arises, and that any dependencies can be identified and managed beforehand, it is important that the restoration of systems, software and important data from backups is tested in a coordinated manner as part of disaster recovery exercises.</p>
+            </part>
+            <control id="ism-1515" class="ISM-control">
+               <title>Control: ism-1515</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[16].group[3].group[5].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="2"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Sep-21"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1515_smt" name="statement">
+                  <p>Restoration of systems, software and important data from backups is tested in a coordinated manner as part of disaster recovery exercises.</p>
+               </part>
+            </control>
+         </group>
+      </group>
+   </group>
+   <back-matter>
+      <resource uuid="02fb4cb5-e4c4-4097-97a2-f1b6aa04131a">
+         <title>Assessing Security Vulnerabilities and Applying Patches</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/assessing-security-vulnerabilities-and-applying-patches"/>
+      </resource>
+      <resource uuid="0508be6f-cb97-44da-b212-42416a0048b0">
+         <title>random dice roller</title>
+         <rlink href="https://www.random.org/dice/?num=5"/>
+      </resource>
+      <resource uuid="131048c7-a2e7-4da3-9257-7a058b06c1f8">
+         <title>Secure Administration</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/secure-administration"/>
+      </resource>
+      <resource uuid="18203e18-2aca-492e-be44-770b2f47242f">
+         <title>AV-TEST</title>
+         <rlink href="https://www.av-test.org/en/"/>
+      </resource>
+      <resource uuid="3a1a00f6-2f56-4d04-b99d-6f1682b95a98">
+         <title>detect or prevent various stages of network intrusions</title>
+         <rlink href="https://attackevals.mitre-engenuity.org/"/>
+      </resource>
+      <resource uuid="3ae678b7-dcb5-4ab5-a46e-251900f39425">
+         <title>preserving digital information</title>
+         <rlink href="https://www.naa.gov.au/information-management/store-and-preserve-information/preserving-information/preserving-digital-information/digital-preservation-planning"/>
+      </resource>
+      <resource uuid="3ccea9a8-a728-4f5b-a0a8-43f2f206f76b">
+         <title>Restricting Administrative Privileges</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/restricting-administrative-privileges"/>
+      </resource>
+      <resource uuid="3e4cd135-5fa3-4a1e-a192-1793ff42067c">
+         <title>Access to information</title>
+         <rlink href="https://www.protectivesecurity.gov.au/publications-library/policy-9-access-information"/>
+      </resource>
+      <resource uuid="4a3a265f-7772-433b-9906-7f784052f28b">
+         <title>recommended driver block rules</title>
+         <rlink href="https://docs.microsoft.com/en-au/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules"/>
+      </resource>
+      <resource uuid="4eeff329-cea0-4baf-a80b-8b0b76436075">
+         <title>Implementing Application Control</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control"/>
+      </resource>
+      <resource uuid="57d28ba3-6fe4-4c6b-94ad-78a17e3ef995">
+         <title>End of Support for Microsoft Windows 10</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/end-support-microsoft-windows-10"/>
+      </resource>
+      <resource uuid="58282062-5c17-476a-98b1-105a627cd28d">
+         <title>randomly generating passphrases</title>
+         <rlink href="https://www.eff.org/dice"/>
+      </resource>
+      <resource uuid="58c9abfb-58fe-416e-a279-dfbfe123c99f">
+         <title>Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016"/>
+      </resource>
+      <resource uuid="5947ab89-3110-4aec-861a-91b74c6aa742">
+         <title>Guidelines for Outsourcing</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-outsourcing"/>
+      </resource>
+      <resource uuid="5a2ed3ef-afcc-485e-8014-5107e9ed97e3">
+         <title>recommended block rules</title>
+         <rlink href="https://docs.microsoft.com/en-au/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules"/>
+      </resource>
+      <resource uuid="626dab35-81ab-45fe-8c12-0faff1c23c07">
+         <title>Guidelines for Cyber Security Roles</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-cyber-security-roles"/>
+      </resource>
+      <resource uuid="644b3aef-d9c4-4480-8563-df83ad361c08">
+         <title>End of Support for Microsoft Windows Server 2008 and Windows Server 2008 R2</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/end-support-microsoft-windows-server-2008-and-windows-server-2008-r2"/>
+      </resource>
+      <resource uuid="6e801c68-61f6-4c28-bf72-df91f7e232cc">
+         <title>Hardening Microsoft Windows 10 version 21H1 Workstations</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21H1-workstations"/>
+      </resource>
+      <resource uuid="7d16ae67-87a7-4861-b939-e13ec279b5a2">
+         <title>Guidelines for Personnel Security</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-personnel-security"/>
+      </resource>
+      <resource uuid="7d22400c-ddef-4cbb-90f1-7502dc569e5b">
+         <title>the use of PowerShell by blue teams</title>
+         <rlink href="https://devblogs.microsoft.com/powershell/powershell-the-blue-team/"/>
+      </resource>
+      <resource uuid="8132c47e-a2dc-4dd9-81d6-38db96e5cec6">
+         <title>Hardening Linux Workstations and Servers</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-linux-workstations-and-servers"/>
+      </resource>
+      <resource uuid="824e4353-a9ae-4869-88fb-cb0675dc5d1c">
+         <title>Mitigating the Use of Stolen Credentials</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/mitigating-use-stolen-credentials"/>
+      </resource>
+      <resource uuid="83e3a9b1-5057-4531-91dd-03c8d92634b0">
+         <title>Implementing Multi-Factor Authentication</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-multi-factor-authentication"/>
+      </resource>
+      <resource uuid="8ffea524-0974-4b53-a8f5-41166073ede5">
+         <title>Securing PowerShell in the Enterprise</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/securing-powershell-enterprise"/>
+      </resource>
+      <resource uuid="92679127-f61d-486a-a93e-df2a26dfb07a">
+         <title>Protective Security Policy Framework</title>
+         <rlink href="https://www.protectivesecurity.gov.au/"/>
+      </resource>
+      <resource uuid="a699a3aa-828d-479b-b50b-98127bb19437">
+         <title>Guidelines for Evaluated Products</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-evaluated-products"/>
+      </resource>
+      <resource uuid="af0810aa-3486-4ca6-a48a-fad8ce9ac193">
+         <title>greater visibility through PowerShell logging</title>
+         <rlink href="https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html"/>
+      </resource>
+      <resource uuid="b594c9c0-b42f-4f06-b643-38023275a5c7">
+         <title>Guidelines for Media</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-media"/>
+      </resource>
+      <resource uuid="c6ca6620-ccd5-4c5d-b97c-9d92f1162948">
+         <title>Guidelines for System Management</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-management"/>
+      </resource>
+      <resource uuid="c852e735-4920-4616-8e34-2fddfb49eea8">
+         <title>AV-Comparatives</title>
+         <rlink href="https://www.av-comparatives.org/"/>
+      </resource>
+      <resource uuid="d0df96bb-7236-4784-8f54-2cb6335ad228">
+         <title>exploit protection functionality</title>
+         <rlink href="https://docs.microsoft.com/en-au/microsoft-365/security/defender-endpoint/exploit-protection?view=o365-worldwide"/>
+      </resource>
+      <resource uuid="de7525f3-a466-40a5-abdd-3ae24a6d1b44">
+         <title>Guidelines for System Hardening</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-hardening"/>
+      </resource>
+      <resource uuid="dfb52998-0e7e-420d-97e1-d1313c8f919a">
+         <title>Microsoft Office Macro Security</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security"/>
+      </resource>
+      <resource uuid="edc24216-f52b-4513-bcda-5fa564661999">
+         <title>Guidelines for System Monitoring</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-monitoring"/>
+      </resource>
+      <resource uuid="f145ff5b-d396-4248-8f48-621349d6f0ed">
+         <title>Guidelines for Networking</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-networking"/>
+      </resource>
+      <resource uuid="f9fb4c57-8c12-4edf-9e34-cb422664aae9">
+         <title>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2</title>
+         <rlink href="https://www.microsoft.com/en-au/download/confirmation.aspx?id=36036"/>
+      </resource>
+   </back-matter>
+</catalog>
