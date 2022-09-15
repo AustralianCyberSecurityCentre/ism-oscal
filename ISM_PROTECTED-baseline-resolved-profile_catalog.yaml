@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: b8661b1a-94ff-4ff4-8238-d778a5f8618c
+  uuid: 37130c2c-04ae-4fc7-8d67-5595b66ebe83
   metadata:
     title: Information Security Manual PROTECTED Baseline
-    last-modified: 2022-09-14T03:01:42.629776Z
-    version: 2022.09.14
+    last-modified: 2022-09-15T06:59:23.325857Z
+    version: 2022.09.15
     oscal-version: 1.0.4
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_PROTECTED-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_PROTECTED-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -430,6 +430,20 @@ catalog:
           # Required skills and experience
 
           The role of the Chief Information Security Officer (CISO) requires a combination of technical and soft skills, such as business acumen, leadership, communications and relationship building. Additionally, a CISO must adopt a continuous approach to learning and up-skilling in order to maintain pace with the cyber threat landscape and new technologies. It is expected that a CISO show innovation and imagination in conceiving and delivering cyber security strategies for their organisation.
+
+          # Further information
+
+          Further information on responding to cyber security incidents can be found in the managing cyber security incidents section of the
+          [Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on the procurement of outsourced services can be found in the managed services and cloud services section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on cyber security awareness training programs can be found in the cyber security awareness training section of the
+          [Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
       groups:
       - title: Providing cyber security leadership and guidance
         props:
@@ -710,13 +724,13 @@ catalog:
           - id: ism-0720_smt
             name: statement
             prose: The CISO develops and maintains a cyber security communications strategy for their organisation.
-      - title: Working with suppliers and service providers
+      - title: Working with suppliers
         props:
         - name: sort-id
           value: "catalog[1].group[03].group[1].group[08]"
         parts:
         - name: overview
-          prose: "The CISO is responsible for ensuring that consistent vendor management processes are applied across their organisation, from discovery through to ongoing management. As supplier and service provider relationships come with additional security risks, the CISO should assist personnel with assessing cyber supply chain risks and understand the security impacts of entering into contracts with suppliers and service providers."
+          prose: "The CISO is responsible for ensuring that consistent vendor management processes are applied across their organisation, from discovery through to ongoing management. As supplier relationships come with additional security risks, the CISO should assist personnel with assessing cyber supply chain risks and understand the security impacts of entering into contracts with suppliers."
         controls:
         - id: ism-0731
           class: ISM-control
@@ -1036,7 +1050,7 @@ catalog:
     - name: sort-id
       value: "catalog[1].group[04]"
     groups:
-    - title: Detecting cyber security incidents
+    - title: Managing cyber security incidents
       props:
       - name: sort-id
         value: "catalog[1].group[04].group[1]"
@@ -1073,22 +1087,26 @@ catalog:
           Further information on event logging can be found in the event logging and monitoring section of the
           [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
 
+          Further information on incident response plans can be found in the system-specific security documentation section of the
+          [Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).
+
           Further information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s
           [Common Sense Guide to Mitigating Insider Threats](#cad720b4-e47a-437d-b272-6958e738131d) publication.
       groups:
-      - title: Intrusion detection and prevention policy
+      - title: Incident management policy
         props:
         - name: sort-id
           value: "catalog[1].group[04].group[1].group[1]"
         parts:
         - name: overview
           prose: |-
-            Establishing an intrusion detection and prevention policy can increase the likelihood of detecting, and subsequently preventing, malicious activity on networks and hosts. In doing so, an intrusion detection and prevention policy will likely cover the following:
+            Establishing an incident management policy can increase the likelihood of successfully planning for, detecting and responding to malicious activity on networks and hosts, such as cyber security events and cyber security incidents. In doing so, an incident management policy will likely cover the following:
 
-            * methods of network-based intrusion detection and prevention used
-            * methods of host-based intrusion detection and prevention used
-            * guidelines for reporting and responding to detected intrusions
-            * resources assigned to intrusion detection and prevention activities.
+            * responsibilities for planning for, detecting and responding to cyber security incidents
+            * resources assigned to cyber security incident planning, detection and response activities
+            * guidelines for triaging and responding to cyber security events and cyber security incidents.
+
+            Furthermore, as part of maintaining the incident management policy, it is important that it is, along with its associated incident response plan, exercised at least annually to ensure it remains fit for purpose.
         controls:
         - id: ism-0576
           class: ISM-control
@@ -1098,118 +1116,40 @@ catalog:
             value: "catalog[1].group[04].group[1].group[1].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "7"
+            value: "8"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Aug-19
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-0576_smt
             name: statement
-            prose: An intrusion detection and prevention policy is developed and implemented.
-      - title: Trusted insider program
-        props:
-        - name: sort-id
-          value: "catalog[1].group[04].group[1].group[2]"
-        parts:
-        - name: overview
-          prose: |-
-            As a trusted insider's system access and knowledge of business processes often makes them harder to detect, establishing a trusted insider program can assist an organisation to detect and respond to trusted insider threats before they occur, or limit damage if they do occur. In doing so, an organisation will likely obtain the most benefit by logging and analysing the following user activities:
-
-            * excessive copying or modification of files
-            * unauthorised or excessive use of removable media
-            * connecting devices capable of data storage to systems
-            * unusual system usage outside of normal business hours
-            * excessive data access or printing compared to their peers
-            * data transfers to unauthorised cloud services or webmail
-            * use of unauthorised Virtual Private Networks, file transfer applications or anonymity networks.
-        controls:
-        - id: ism-1625
+            prose: An incident management policy is developed and implemented.
+        - id: ism-1784
           class: ISM-control
-          title: "Control: ism-1625"
+          title: "Control: ism-1784"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[1].group[2].control[1]"
+            value: "catalog[1].group[04].group[1].group[1].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Nov-20
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
-          - id: ism-1625_smt
+          - id: ism-1784_smt
             name: statement
-            prose: A trusted insider program is developed and implemented.
-        - id: ism-1626
-          class: ISM-control
-          title: "Control: ism-1626"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[04].group[1].group[2].control[2]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "0"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Nov-20
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          parts:
-          - id: ism-1626_smt
-            name: statement
-            prose: Legal advice is sought regarding the development and implementation of a trusted insider program.
-      - title: Access to sufficient data sources and tools
-        props:
-        - name: sort-id
-          value: "catalog[1].group[04].group[1].group[3]"
-        parts:
-        - name: overview
-          prose: "Successful detection of cyber security incidents requires trained cyber security personnel with access to sufficient data sources complemented by tools that support both manual and automated analysis. As such, it is important that during system design and development activities, functionality is added to systems to ensure that sufficient data sources can be captured and provided to cyber security personnel."
-        controls:
-        - id: ism-0120
-          class: ISM-control
-          title: "Control: ism-0120"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[04].group[1].group[3].control[1]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "5"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: May-20
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          parts:
-          - id: ism-0120_smt
-            name: statement
-            prose: Cyber security personnel have access to sufficient data sources and tools to ensure that systems can be monitored for key indicators of compromise.
-    - title: Managing cyber security incidents
-      props:
-      - name: sort-id
-        value: "catalog[1].group[04].group[2]"
-      parts:
-      - name: overview
-        prose: |-
-          # Further information
-
-          Further information on incident response plans can be found in the system-specific security documentation section of the
-          [Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).
-
-          Further information on handling and managing data spills can be found in the ACSC’s
-          [Data Spill Management Guide](#705a6552-7266-4d4a-9643-77a21c6a2104) publication.
-      groups:
+            prose: "The incident management policy, including the associated incident response plan, is exercised at least annually."
       - title: Cyber security incident register
         props:
         - name: sort-id
-          value: "catalog[1].group[04].group[2].group[1]"
+          value: "catalog[1].group[04].group[1].group[2]"
         parts:
         - name: overview
           prose: "Recording cyber security incidents in a register can assist with ensuring that appropriate remediation activities are undertaken. In addition, the types and frequency of cyber security incidents, along with the costs of any remediation activities, can be used as an input to future risk assessment activities."
@@ -1219,7 +1159,7 @@ catalog:
           title: "Control: ism-0125"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[1].control[1]"
+            value: "catalog[1].group[04].group[1].group[2].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "5"
@@ -1240,10 +1180,110 @@ catalog:
               * a description of the cyber security incident
               * any actions taken in response to the cyber security incident
               * to whom the cyber security incident was reported.
+      - title: Trusted insider program
+        props:
+        - name: sort-id
+          value: "catalog[1].group[04].group[1].group[3]"
+        parts:
+        - name: overview
+          prose: |-
+            As a trusted insider's system access and knowledge of business processes often makes them harder to detect, establishing a trusted insider program can assist an organisation to detect and respond to trusted insider threats before they occur, or limit damage if they do occur. In doing so, an organisation will likely obtain the most benefit by logging and analysing the following user activities:
+
+            * excessive copying or modification of files
+            * unauthorised or excessive use of removable media
+            * connecting devices capable of data storage to systems
+            * unusual system usage outside of normal business hours
+            * excessive data access or printing compared to their peers
+            * data transfers to unauthorised cloud services or webmail
+            * use of unauthorised Virtual Private Networks, file transfer applications or anonymity networks.
+        controls:
+        - id: ism-1625
+          class: ISM-control
+          title: "Control: ism-1625"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[04].group[1].group[3].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Nov-20
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1625_smt
+            name: statement
+            prose: A trusted insider program is developed and implemented.
+        - id: ism-1626
+          class: ISM-control
+          title: "Control: ism-1626"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[04].group[1].group[3].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Nov-20
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1626_smt
+            name: statement
+            prose: Legal advice is sought regarding the development and implementation of a trusted insider program.
+      - title: Access to sufficient data sources and tools
+        props:
+        - name: sort-id
+          value: "catalog[1].group[04].group[1].group[4]"
+        parts:
+        - name: overview
+          prose: "Successful detection of cyber security incidents requires trained cyber security personnel with access to sufficient data sources complemented by tools that support both manual and automated analysis. As such, it is important that during system design and development activities, functionality is added to systems to ensure that sufficient data sources can be captured and provided to cyber security personnel."
+        controls:
+        - id: ism-0120
+          class: ISM-control
+          title: "Control: ism-0120"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[04].group[1].group[4].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "5"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: May-20
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-0120_smt
+            name: statement
+            prose: Cyber security personnel have access to sufficient data sources and tools to ensure that systems can be monitored for key indicators of compromise.
+    - title: Responding to cyber security incidents
+      props:
+      - name: sort-id
+        value: "catalog[1].group[04].group[2]"
+      parts:
+      - name: overview
+        prose: |-
+          # Further information
+
+          Further information on incident response plans can be found in the system-specific security documentation section of the
+          [Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).
+
+          Further information on handling and managing data spills can be found in the ACSC’s
+          [Data Spill Management Guide](#705a6552-7266-4d4a-9643-77a21c6a2104) publication.
+
+          Further information on handling malicious code infections can be found in National Institute of Standards and Technology Special Publication 800-61 Rev. 2,
+          [Computer Security Incident Handling Guide](#f48c0d05-5173-4c8e-8748-e5591518c1fb).
+      groups:
       - title: Handling and containing data spills
         props:
         - name: sort-id
-          value: "catalog[1].group[04].group[2].group[2]"
+          value: "catalog[1].group[04].group[2].group[1]"
         parts:
         - name: overview
           prose: "When a data spill occurs, an organisation should inform data owners and restrict access to the data. In doing so, affected systems can be powered off, have their network connectivity removed or have additional access controls applied to the data. It should be noted though that powering off systems could destroy data that would be useful for forensic investigations. Furthermore, users should be made aware of appropriate actions to take in the event of a data spill, such as not deleting, copying, printing or emailing the data."
@@ -1253,7 +1293,7 @@ catalog:
           title: "Control: ism-0133"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[2].control[1]"
+            value: "catalog[1].group[04].group[2].group[1].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -1270,7 +1310,7 @@ catalog:
       - title: Handling and containing malicious code infections
         props:
         - name: sort-id
-          value: "catalog[1].group[04].group[2].group[3]"
+          value: "catalog[1].group[04].group[2].group[2]"
         parts:
         - name: overview
           prose: "Taking immediate remediation steps after the discovery of malicious code can minimise the time and cost spent eradicating and recovering from the infection. As a priority, all infected systems and media should be isolated to prevent the infection from spreading. Once isolated, infected systems and media can be scanned by antivirus software to potentially remove the infection or recover data. It is important to note though, a complete system restoration from a known good backup or rebuild may be the only reliable way to ensure that malicious code can be truly eradicated or data recovered."
@@ -1280,7 +1320,7 @@ catalog:
           title: "Control: ism-0917"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[3].control[1]"
+            value: "catalog[1].group[04].group[2].group[2].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "7"
@@ -1303,7 +1343,7 @@ catalog:
       - title: Handling and containing intrusions
         props:
         - name: sort-id
-          value: "catalog[1].group[04].group[2].group[4]"
+          value: "catalog[1].group[04].group[2].group[3]"
         parts:
         - name: overview
           prose: |-
@@ -1319,7 +1359,7 @@ catalog:
           title: "Control: ism-0137"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[4].control[1]"
+            value: "catalog[1].group[04].group[2].group[3].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "4"
@@ -1338,7 +1378,7 @@ catalog:
           title: "Control: ism-1609"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[4].control[2]"
+            value: "catalog[1].group[04].group[2].group[3].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -1357,7 +1397,7 @@ catalog:
           title: "Control: ism-1731"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[4].control[3]"
+            value: "catalog[1].group[04].group[2].group[3].control[3]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -1376,7 +1416,7 @@ catalog:
           title: "Control: ism-1732"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[4].control[4]"
+            value: "catalog[1].group[04].group[2].group[3].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -1395,7 +1435,7 @@ catalog:
           title: "Control: ism-1213"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[4].control[5]"
+            value: "catalog[1].group[04].group[2].group[3].control[5]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -1412,7 +1452,7 @@ catalog:
       - title: Integrity of evidence
         props:
         - name: sort-id
-          value: "catalog[1].group[04].group[2].group[5]"
+          value: "catalog[1].group[04].group[2].group[4]"
         parts:
         - name: overview
           prose: "When gathering evidence following a cyber security incident, it is important that its integrity is maintained. In addition, if the Australian Cyber Security Centre (ACSC) is requested to assist with investigations, no actions which could affect the integrity of evidence should be carried out before the ACSC becomes involved."
@@ -1422,7 +1462,7 @@ catalog:
           title: "Control: ism-0138"
           props:
           - name: sort-id
-            value: "catalog[1].group[04].group[2].group[5].control[1]"
+            value: "catalog[1].group[04].group[2].group[4].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "4"
@@ -1451,6 +1491,9 @@ catalog:
         prose: |-
           # Further information
 
+          Further information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
           Further information on
           [reporting cyber security incidents](#626d3582-3caf-49d6-89d5-4b8fdbbf1f31) is available from the ACSC.
       groups:
@@ -1460,7 +1503,7 @@ catalog:
           value: "catalog[1].group[04].group[3].group[1]"
         parts:
         - name: overview
-          prose: "Reporting cyber security incidents, including unplanned outages, to an organisation’s Chief Information Security Officer (CISO), or one of their delegates, as soon as possible after they occur or are discovered provides senior management with the opportunity to assess the impact to their organisation and to take remediation actions if necessary. Note, an organisation should also be cognisant of any legislative obligations in regards to reporting cyber security incidents to authorities, customers or the public."
+          prose: "Reporting cyber security incidents, including unplanned outages, to an organisation’s Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered provides senior management with the opportunity to assess the impact to their organisation and to take remediation actions if necessary. Note, an organisation should also be cognisant of any legislative obligations in regards to reporting cyber security incidents to authorities, customers or the public."
         controls:
         - id: ism-0123
           class: ISM-control
@@ -1480,45 +1523,7 @@ catalog:
           parts:
           - id: ism-0123_smt
             name: statement
-            prose: "Cyber security incidents are reported to an organisation’s CISO, or one of their delegates, as soon as possible after they occur or are discovered."
-        - id: ism-0141
-          class: ISM-control
-          title: "Control: ism-0141"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[04].group[3].group[1].control[2]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "5"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Dec-21
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          parts:
-          - id: ism-0141_smt
-            name: statement
-            prose: "Service providers report cyber security incidents to their customer’s CISO, or one of their delegates, as soon as possible after they occur or are discovered."
-        - id: ism-1433
-          class: ISM-control
-          title: "Control: ism-1433"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[04].group[3].group[1].control[3]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "3"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Dec-21
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          parts:
-          - id: ism-1433_smt
-            name: statement
-            prose: "Service providers and their customers maintain 24/7 contact details for each other, including additional out-of-band contact details for when normal communication channels fail, in order to report cyber security incidents."
+            prose: "Cyber security incidents are reported to an organisation’s Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered."
       - title: Reporting cyber security incidents to the ACSC
         props:
         - name: sort-id
@@ -1557,7 +1562,7 @@ catalog:
           - id: ism-0140_smt
             name: statement
             prose: Cyber security incidents are reported to the ACSC.
-  - title: Guidelines for Outsourcing
+  - title: Guidelines for Procurement and Outsourcing
     props:
     - name: sort-id
       value: "catalog[1].group[05]"
@@ -1575,12 +1580,22 @@ catalog:
           [Cyber Supply Chain Risk Management](#37f65b5b-ce8c-4137-9c84-41678af1e70e) and
           [Identifying Cyber Supply Chain Risks](#85ee803a-b711-443b-98bf-b279de8fbed0) publications.
 
-          Further information on supply chain integrity can be found in National Institute of Standards and Technology Special Publication 800-161,
+          Further information on cyber supply chain risk management can also be found in:
+
+          * Canadian Centre for Cyber Security’s Cyber supply chain: An approach to assessing risk
+          * New Zealand’s National Cyber Security Centre’s Supply Chain Cyber Security: In Safe Hands
+          * United Kingdom’s National Cyber Security Centre’s Supply chain security guidance.
+          * Further information on cyber supply chain risk management can also be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s ICT supply chain resource library.
+
+          Further information on cyber supply chain integrity can be found in National Institute of Standards and Technology Special Publication 800-161,
           [Supply Chain Risk Management Practices for Federal Information Systems and Organizations](#d64a8257-f1f8-44c0-88a6-fe9128cb94d5).
 
-          Further information on outsourced goods and services can be found in the Attorney-General’s Department’s
+          Further information on outsourced products and services can be found in the Attorney-General’s Department’s
           [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a),
           [Security governance for contracted goods and service providers](#8bb7bf2c-a933-4a80-8ad7-ca4426839c5d) policy.
+
+          Further information on the procurement and use of evaluated applications and ICT equipment can be found in the evaluated product procurement and evaluated product use sections of the
+          [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
       groups:
       - title: Cyber supply chain risk management activities
         props:
@@ -1589,9 +1604,9 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            Cyber supply chain risk management activities should be conducted during the earliest possible stage of procurement processes. In particular, an organisation should consider the security risks that may arise as systems, software and hardware are being designed, built, stored, delivered, installed, operated, maintained and decommissioned. This includes identifying and managing jurisdictional, governance, privacy and security risks associated with the use of suppliers and service providers. For example, outsourced cloud services may be located offshore and subject to lawful and covert data collection without their customers’ knowledge. Additionally, use of offshore services introduces jurisdictional risks as foreign countries’ laws could change with little warning. Finally, foreign owned service providers operating in Australia may be subject to a foreign government’s lawful access to data belonging to their customers.
+            Cyber supply chain risk management activities should be conducted during the earliest possible stage of procurement of applications, ICT equipment and services. In particular, an organisation should consider the security risks that may arise as systems, software and hardware are being designed, built, stored, delivered, installed, operated, maintained and decommissioned. This includes identifying and managing jurisdictional, governance, privacy and security risks associated with the use of suppliers, such as application developers, ICT equipment manufacturers, service providers and other organisations involved in distribution channels. For example, outsourced cloud services may be located offshore and subject to lawful and covert data collection without their customers’ knowledge. Additionally, use of offshore services introduces jurisdictional risks as foreign countries’ laws could change with little warning. Finally, foreign owned suppliers operating in Australia may be subject to a foreign government’s lawful access to data belonging to their customers.
 
-            In managing cyber supply chain risks, it is important that an organisation preferences suppliers and service providers that have demonstrated a commitment to secure-by-design principles, secure programming practices and maintaining the security of their products. In addition, suppliers and service providers should have a strong track record of transparency and maintaining the security of their own systems and cyber supply chains. Also, in some cases, a shared responsibly model which clearly defines the responsibilities of suppliers, service providers and their customers can be highly beneficial.
+            In managing cyber supply chain risks, it is important that an organisation preferences suppliers that have demonstrated a commitment to the security of their products and services – including throughout distribution channels. In addition, suppliers should have a strong track record of transparency and maintaining the security of their own systems and cyber supply chains. Also, in some cases, a shared responsibly model which clearly defines the responsibilities of suppliers and their customers can be highly beneficial.
         controls:
         - id: ism-1631
           class: ISM-control
@@ -1601,17 +1616,17 @@ catalog:
             value: "catalog[1].group[05].group[1].group[1].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Dec-20
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1631_smt
             name: statement
-            prose: Components and services relevant to the security of systems are identified and understood.
+            prose: "Applications, ICT equipment and services associated with systems are identified and understood."
         - id: ism-1452
           class: ISM-control
           title: "Control: ism-1452"
@@ -1620,17 +1635,17 @@ catalog:
             value: "catalog[1].group[05].group[1].group[1].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "3"
+            value: "4"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Dec-20
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1452_smt
             name: statement
-            prose: "Before obtaining components and services relevant to the security of systems, a review of suppliers and service providers (including their country of origin) is performed to assess the potential increase to systems’ security risk profile, including by identifying those that are high risk."
+            prose: "A supply chain risk assessment is performed for suppliers of applications, ICT equipment and services in order to assess the impact to a system’s security risk profile."
         - id: ism-1567
           class: ISM-control
           title: "Control: ism-1567"
@@ -1639,17 +1654,17 @@ catalog:
             value: "catalog[1].group[05].group[1].group[1].control[3]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Dec-20
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1567_smt
             name: statement
-            prose: Suppliers and service providers identified as high risk are not used.
+            prose: Suppliers identified as high risk by a cyber supply chain risk assessment are not used.
         - id: ism-1568
           class: ISM-control
           title: "Control: ism-1568"
@@ -1658,17 +1673,17 @@ catalog:
             value: "catalog[1].group[05].group[1].group[1].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-22
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1568_smt
             name: statement
-            prose: "Components and services relevant to the security of systems are chosen from suppliers and service providers that have made a commitment to secure-by-design principles, secure programming practices and maintaining the security of their products."
+            prose: "Applications, ICT equipment and services are chosen from suppliers that have made a commitment to the security of their products and services."
         - id: ism-1632
           class: ISM-control
           title: "Control: ism-1632"
@@ -1677,17 +1692,17 @@ catalog:
             value: "catalog[1].group[05].group[1].group[1].control[5]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-22
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1632_smt
             name: statement
-            prose: Components and services relevant to the security of systems are chosen from suppliers and service providers that have a strong track record of transparency and maintaining the security of their own systems and cyber supply chains.
+            prose: "Applications, ICT equipment and services are chosen from suppliers that have a strong track record of transparency and maintaining the security of their own systems and cyber supply chains."
         - id: ism-1569
           class: ISM-control
           title: "Control: ism-1569"
@@ -1696,17 +1711,199 @@ catalog:
             value: "catalog[1].group[05].group[1].group[1].control[6]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Dec-20
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1569_smt
             name: statement
-            prose: "A shared responsibility model is created, documented and shared between suppliers, service providers and their customers in order to articulate the security responsibilities of each party."
+            prose: "A shared responsibility model is created, documented and shared between suppliers and their customers in order to articulate the security responsibilities of each party."
+      - title: Supplier relationship management
+        props:
+        - name: sort-id
+          value: "catalog[1].group[05].group[1].group[2]"
+        parts:
+        - name: overview
+          prose: "Developing and implementing a supplier relationship management policy can assist an organisation in identifying, prioritising and maintaining strong relationships with suppliers that have demonstrated a commitment to the security of their products and services. In doing so, these suppliers should be recorded on an approved supplier list."
+        controls:
+        - id: ism-1785
+          class: ISM-control
+          title: "Control: ism-1785"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[1].group[2].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1785_smt
+            name: statement
+            prose: A supplier relationship management policy is developed and implemented.
+        - id: ism-1786
+          class: ISM-control
+          title: "Control: ism-1786"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[1].group[2].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1786_smt
+            name: statement
+            prose: An approved supplier list is developed and implemented.
+      - title: "Purchasing of applications, ICT equipment and services"
+        props:
+        - name: sort-id
+          value: "catalog[1].group[05].group[1].group[3]"
+        parts:
+        - name: overview
+          prose: |-
+            In purchasing applications, ICT equipment and services, an organisation should use trusted suppliers that they have previously vetted as part of cyber supply chain risk management assessments and subsequently recorded on their approved supplier list.
+
+            Furthermore, in order to support system availability, an organisation should aim to identify multiple potential suppliers for critical applications, ICT equipment and services. This coupled with keeping sufficient spares of critical ICT equipment in reserve, can assist in mitigating the impact of cyber supply chain disruptions.
+        controls:
+        - id: ism-1787
+          class: ISM-control
+          title: "Control: ism-1787"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[1].group[3].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1787_smt
+            name: statement
+            prose: "Applications, ICT equipment and services are purchased from approved suppliers."
+        - id: ism-1788
+          class: ISM-control
+          title: "Control: ism-1788"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[1].group[3].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1788_smt
+            name: statement
+            prose: "Multiple potential suppliers are identified for the purchase of critical applications, ICT equipment and services."
+        - id: ism-1789
+          class: ISM-control
+          title: "Control: ism-1789"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[1].group[3].control[3]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1789_smt
+            name: statement
+            prose: Sufficient spares of critical ICT equipment is purchased and kept in reserve.
+      - title: "Delivery of applications, ICT equipment and services"
+        props:
+        - name: sort-id
+          value: "catalog[1].group[05].group[1].group[4]"
+        parts:
+        - name: overview
+          prose: |-
+            As part of the delivery of applications, ICT equipment and services, measures should be implemented to protect their integrity, noting that such measures will differ depending on whether delivery relates to digital or physical distribution channels. For example, applications may benefit from delivery via encrypted communication channels while ICT equipment may benefit from tracking and tamper-evident packaging. In doing so, such measures are only beneficial if they are assessed as part of acceptance of products and services. In all cases, suppliers should be consulted on how best to confirm the integrity of their products and services.
+
+            While ensuring the integrity of applications, ICT equipment and services is important, so is ensuring their authenticity. For example, a counterfeit product or service securely delivered is still a counterfeit product or service that may not operate as intended or pose a risk to the security of a system. To assist in identifying counterfeit products and services, suppliers should be consulted on how best to confirm the authenticity of their products and services.
+        controls:
+        - id: ism-1790
+          class: ISM-control
+          title: "Control: ism-1790"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[1].group[4].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1790_smt
+            name: statement
+            prose: "Applications, ICT equipment and services are delivered in a manner that maintains their integrity."
+        - id: ism-1791
+          class: ISM-control
+          title: "Control: ism-1791"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[1].group[4].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1791_smt
+            name: statement
+            prose: "The integrity of applications, ICT equipment and services are assessed as part of acceptance of products and services."
+        - id: ism-1792
+          class: ISM-control
+          title: "Control: ism-1792"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[1].group[4].control[3]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1792_smt
+            name: statement
+            prose: "The authenticity of applications, ICT equipment and services are assessed as part of acceptance of products and services."
     - title: Managed services and cloud services
       props:
       - name: sort-id
@@ -1715,6 +1912,12 @@ catalog:
       - name: overview
         prose: |-
           # Further information
+
+          Further information on the use of outsourced cloud services can be found in the service continuity for online services section of the
+          [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
+
+          Further information on the use of outsourced gateway services can be found in the gateways section of the
+          [Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).
 
           Further information on managed service providers can be found in the ACSC’s
           [How to Manage Your Security When Engaging a Managed Service Provider](#45899752-c83f-4976-bc99-03f6824a0793) and
@@ -1738,6 +1941,9 @@ catalog:
 
           Further information on the whole-of-government policy for secure cloud computing can be found in the Digital Transformation Agency’s
           [Secure Cloud Strategy](#6ba86dff-e078-4896-8884-344e491a9cc4) publication.
+
+          Further information on reporting cyber security incidents can be found in the reporting cyber security incidents section of the
+          [Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).
       groups:
       - title: Managed services
         props:
@@ -1774,10 +1980,10 @@ catalog:
             value: "catalog[1].group[05].group[2].group[1].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-22
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
@@ -1788,14 +1994,44 @@ catalog:
               A managed service register contains the following for each managed service:
 
               * managed service provider’s name
+              * managed service’s name
               * purpose for using the managed service
               * sensitivity or classification of data involved
+              * due date for the next security assessment of the managed service
+              * contractual arrangements for the managed service
               * point of contact for users of the managed service
-              * point of contact for the managed service provider.
-      - title: Outsourced cloud services
+              * 24/7 contact details for the managed service provider.
+      - title: Assessment of managed service providers
         props:
         - name: sort-id
           value: "catalog[1].group[05].group[2].group[2]"
+        parts:
+        - name: overview
+          prose: "Managed service providers will need to undergo regular security assessments by an Infosec Registered Assessor Program (IRAP) assessor to determine their security posture and security risks associated with their use. Following an initial security assessment by an IRAP assessor, subsequent security assessments should focus on any new services that are being offered as well as any security-related changes that have occurred since the previous security assessment."
+        controls:
+        - id: ism-1793
+          class: ISM-control
+          title: "Control: ism-1793"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[2].group[2].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1793_smt
+            name: statement
+            prose: Managed service providers and their managed services undergo a security assessment by an IRAP assessor at least every 24 months.
+      - title: Outsourced cloud services
+        props:
+        - name: sort-id
+          value: "catalog[1].group[05].group[2].group[3]"
         parts:
         - name: overview
           prose: "Outsourcing can be a cost-effective option for providing cloud services, as well as potentially delivering a superior service. However, outsourcing can affect an organisation’s security risk profile. Ultimately, an organisation will still need to decide whether a particular outsourced cloud service represents an acceptable security risk and, if appropriate to do so, authorise it for their own use."
@@ -1805,7 +2041,7 @@ catalog:
           title: "Control: ism-1637"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[2].control[1]"
+            value: "catalog[1].group[05].group[2].group[3].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "1"
@@ -1824,13 +2060,13 @@ catalog:
           title: "Control: ism-1638"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[2].control[2]"
+            value: "catalog[1].group[05].group[2].group[3].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-22
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
@@ -1845,22 +2081,23 @@ catalog:
               * purpose for using the cloud service
               * sensitivity or classification of data involved
               * due date for the next security assessment of the cloud service
+              * contractual arrangements for the cloud service
               * point of contact for users of the cloud service
-              * point of contact for the cloud service provider.
-      - title: Assessment of outsourced cloud services
+              * 24/7 contact details for the cloud service provider.
+      - title: Assessment of outsourced cloud service providers
         props:
         - name: sort-id
-          value: "catalog[1].group[05].group[2].group[3]"
+          value: "catalog[1].group[05].group[2].group[4]"
         parts:
         - name: overview
-          prose: "Outsourced cloud service providers and their cloud services will need to undergo regular security assessments by an Infosec Registered Assessor Program (IRAP) assessor to determine their security posture and security risks associated with their use. Following an initial security assessment by an IRAP assessor, subsequent security assessments should focus on any new cloud services that are being offered as well as any security-related changes that have occurred since the previous security assessment."
+          prose: "Outsourced cloud service providers and their cloud services will need to undergo regular security assessments by an IRAP assessor to determine their security posture and security risks associated with their use. Following an initial security assessment by an IRAP assessor, subsequent security assessments should focus on any new cloud services that are being offered as well as any security-related changes that have occurred since the previous security assessment."
         controls:
         - id: ism-1570
           class: ISM-control
           title: "Control: ism-1570"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[3].control[1]"
+            value: "catalog[1].group[05].group[2].group[4].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "1"
@@ -1877,7 +2114,7 @@ catalog:
       - title: Contractual security requirements
         props:
         - name: sort-id
-          value: "catalog[1].group[05].group[2].group[4]"
+          value: "catalog[1].group[05].group[2].group[5]"
         parts:
         - name: overview
           prose: |-
@@ -1894,7 +2131,7 @@ catalog:
           title: "Control: ism-1395"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[1]"
+            value: "catalog[1].group[05].group[2].group[5].control[01]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "6"
@@ -1913,26 +2150,45 @@ catalog:
           title: "Control: ism-0072"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[2]"
+            value: "catalog[1].group[05].group[2].group[5].control[02]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "7"
+            value: "8"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Jun-21
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-0072_smt
             name: statement
-            prose: "Security requirements associated with the confidentiality, integrity and availability of data entrusted to a service provider are documented in contractual arrangements."
+            prose: "Security requirements associated with the confidentiality, integrity and availability of data entrusted to a service provider are documented in contractual arrangements and reviewed on a regular and ongoing basis to ensure they remain fit for purpose."
+        - id: ism-0141
+          class: ISM-control
+          title: "Control: ism-0141"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[2].group[5].control[03]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "6"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-0141_smt
+            name: statement
+            prose: The requirement for service providers to report cyber security incidents to a designated point of contact as soon as possible after they occur or are discovered is documented in contractual arrangements.
         - id: ism-1571
           class: ISM-control
           title: "Control: ism-1571"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[3]"
+            value: "catalog[1].group[05].group[2].group[5].control[04]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -1951,7 +2207,7 @@ catalog:
           title: "Control: ism-1738"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[4]"
+            value: "catalog[1].group[05].group[2].group[5].control[05]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -1965,12 +2221,31 @@ catalog:
           - id: ism-1738_smt
             name: statement
             prose: The right to verify compliance with security requirements documented in contractual arrangements is exercised on a regular and ongoing basis.
+        - id: ism-1794
+          class: ISM-control
+          title: "Control: ism-1794"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[05].group[2].group[5].control[06]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1794_smt
+            name: statement
+            prose: Notification by service providers of significant changes to their own service provider arrangements is documented in contractual arrangements.
         - id: ism-1451
           class: ISM-control
           title: "Control: ism-1451"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[5]"
+            value: "catalog[1].group[05].group[2].group[5].control[07]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "3"
@@ -1989,7 +2264,7 @@ catalog:
           title: "Control: ism-1572"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[6]"
+            value: "catalog[1].group[05].group[2].group[5].control[08]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "1"
@@ -2008,7 +2283,7 @@ catalog:
           title: "Control: ism-1573"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[7]"
+            value: "catalog[1].group[05].group[2].group[5].control[09]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -2027,7 +2302,7 @@ catalog:
           title: "Control: ism-1574"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[8]"
+            value: "catalog[1].group[05].group[2].group[5].control[10]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -2046,7 +2321,7 @@ catalog:
           title: "Control: ism-1575"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[4].control[9]"
+            value: "catalog[1].group[05].group[2].group[5].control[11]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -2063,7 +2338,7 @@ catalog:
       - title: Access to systems and data by service providers
         props:
         - name: sort-id
-          value: "catalog[1].group[05].group[2].group[5]"
+          value: "catalog[1].group[05].group[2].group[6]"
         parts:
         - name: overview
           prose: "To perform their contracted duties, service providers may need to access their customers’ systems and data. However, without proper controls in place, this could leave systems and data vulnerable – especially when access occurs from outside of Australian borders. As such, an organisation should ensure that their systems and data are not accessed or administered by service providers unless such requirements, and associated measures to control such requirements, are documented in contractual arrangements. In doing so, it is important that sufficient measures are also in place to detect and record any unauthorised access, such as customer support representatives or platform engineers accessing encryption keys. In such cases, the service provider should immediately report the cyber security incident to their customer and make available all logs pertaining to the unauthorised access."
@@ -2073,7 +2348,7 @@ catalog:
           title: "Control: ism-1073"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[5].control[1]"
+            value: "catalog[1].group[05].group[2].group[6].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "5"
@@ -2092,7 +2367,7 @@ catalog:
           title: "Control: ism-1576"
           props:
           - name: sort-id
-            value: "catalog[1].group[05].group[2].group[5].control[2]"
+            value: "catalog[1].group[05].group[2].group[6].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -2128,17 +2403,23 @@ catalog:
           Further information on cyber security communication strategies can be found in the Chief Information Security Officer section of the
           [Guidelines for Cyber Security Roles](#626dab35-81ab-45fe-8c12-0faff1c23c07).
 
-          Further information on intrusion detection and prevent policy can be found in the detecting cyber security incidents section of the
+          Further information on incident management policy can be found in the managing cyber security incidents section of the
           [Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).
 
           Further information on cyber security incident registers can be found in the managing cyber security incidents section of the
           [Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).
 
+          Further information on supplier relationship management policy can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on approved supplier lists can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
           Further information on managed service registers can be found in the managed services and cloud services section of the
-          [Guidelines for Outsourcing](#5947ab89-3110-4aec-861a-91b74c6aa742).
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on outsourced cloud service registers can be found in the managed services and cloud services section of the
-          [Guidelines for Outsourcing](#5947ab89-3110-4aec-861a-91b74c6aa742).
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on authorised Radio Frequency and infrared device registers can be found in the facilities and systems section of the
           [Guidelines for Physical Security](#4deea7ea-18a2-4fd7-8b25-0b3603215df2).
@@ -5631,7 +5912,7 @@ catalog:
         prose: |-
           # Using cryptographic equipment with fax machines and multifunction devices
 
-          Further information on processes and procedures for sending classified fax messages using High Assurance Cryptographic Equipment can be requested from the Australian Cyber Security Centre.
+          Further information on processes and procedures for sending classified fax messages using Australian Signals Directorate-approved High Assurance Cryptographic Equipment can be requested from the Australian Cyber Security Centre.
 
           # Further information
 
@@ -5881,7 +6162,13 @@ catalog:
           Further information and specific guidance on enterprise mobility can be found in the ACSC’s
           [Risk Management of Enterprise Mobility Including Bring Your Own Device (BYOD)](#e8ec7a1f-775d-4b79-a164-0752278177fa) publication.
 
-          Further information on ACSC-approved platforms can be found in the following ACSC publications:
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on evaluated products can be found in the evaluated product procurement section of the
+          [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
+
+          Further information on ASD-approved platforms can be found in the following ACSC publications:
 
           * Security Configuration Guide – Apple iOS 14 Devices
           * Security Configuration Guide – Samsung Galaxy S10, S20 and Note 20 Devices
@@ -5950,7 +6237,7 @@ catalog:
             [Privacy Act 1988](#6fac5a84-b86e-405f-b2b3-8c13ecee4a02) and the
             [Archives Act 1983](#e0d3b5ea-6a5a-400c-8daa-8a8059816a06), and also consider whether the increased liability risks are acceptable to the organisation.
 
-            If an organisation chooses to allow personnel to use a privately-owned mobile device to access their organisation’s systems or data, they should ensure that it does not present an unacceptable security risk. This can be achieved by encouraging the use of an ACSC-approved platform, with a security configuration in accordance with ACSC guidance, along with enforced separation of work data from any personal data.
+            If an organisation chooses to allow personnel to use a privately-owned mobile device to access their organisation’s systems or data, they should ensure that it does not present an unacceptable security risk. This can be achieved by encouraging the use of an ASD-approved platform, with a security configuration in accordance with Australian Cyber Security Centre (ACSC) guidance, along with enforced separation of work and personal data.
         controls:
         - id: ism-1297
           class: ISM-control
@@ -5979,10 +6266,10 @@ catalog:
             value: "catalog[1].group[11].group[1].group[3].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "6"
+            value: "7"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Dec-21
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: O
@@ -5992,14 +6279,14 @@ catalog:
           parts:
           - id: ism-1400_smt
             name: statement
-            prose: "Personnel accessing OFFICIAL and PROTECTED systems or data using a privately-owned mobile device use an ACSC-approved platform, a security configuration in accordance with ACSC guidance and have enforced separation of work data from any personal data."
+            prose: "Personnel accessing OFFICIAL and PROTECTED systems or data using a privately-owned mobile device use an ASD-approved platform, a security configuration in accordance with ACSC guidance, and have enforced separation of work and personal data."
       - title: Organisation-owned mobile devices
         props:
         - name: sort-id
           value: "catalog[1].group[11].group[1].group[4]"
         parts:
         - name: overview
-          prose: "If an organisation chooses to issue personnel with an organisation-owned mobile device to access their organisation’s systems or data, they should ensure that it does not present an unacceptable security risk. This can be achieved by using an ACSC-approved platform with a security configuration in accordance with ACSC guidance."
+          prose: "If an organisation chooses to issue personnel with an organisation-owned mobile device to access their organisation’s systems or data, they should ensure that it does not present an unacceptable security risk. This can be achieved by using an ASD-approved platform, with a security configuration in accordance with ACSC guidance, along with enforced separation of work and personal data."
         controls:
         - id: ism-1482
           class: ISM-control
@@ -6009,10 +6296,10 @@ catalog:
             value: "catalog[1].group[11].group[1].group[4].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "5"
+            value: "6"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Dec-21
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: O
@@ -6028,7 +6315,7 @@ catalog:
           parts:
           - id: ism-1482_smt
             name: statement
-            prose: Personnel accessing systems or data using an organisation-owned mobile device use an ACSC-approved platform with a security configuration in accordance with ACSC guidance.
+            prose: "Personnel accessing systems or data using an organisation-owned mobile device use an ASD-approved platform, a security configuration in accordance with ACSC guidance, and have enforced separation of work and personal data."
       - title: Storage encryption
         props:
         - name: sort-id
@@ -6745,7 +7032,7 @@ catalog:
     - name: sort-id
       value: "catalog[1].group[12]"
     groups:
-    - title: Evaluated product acquisition
+    - title: Evaluated product procurement
       props:
       - name: sort-id
         value: "catalog[1].group[12].group[1]"
@@ -6756,13 +7043,13 @@ catalog:
 
           An evaluated product provides a level of assurance in its security functionality that an unevaluated product does not. To assist in providing this assurance, the Australian Cyber Security Centre (ACSC) performs product evaluations through the following programs:
 
-          * Enterprise Mobility Evaluation Program: For enterprise mobility products used to protect sensitive or classified data.
-          * High Assurance Evaluation Program: For products used to protect SECRET and TOP SECRET data.
+          * Australian Signals Directorate (ASD) Enterprise Mobility Evaluation Program: For enterprise mobility products used to protect sensitive or classified data.
+          * ASD High Assurance Evaluation Program: For products used to protect SECRET and TOP SECRET data.
 
           The Australian Certification Authority within the ACSC also certifies product evaluations conducted by licensed commercial facilities, in accordance with the Common Criteria, as part of the Australian Information Security Evaluation Program (AISEP).
 
           For an organisation seeking to procure evaluated products, the Common Criteria’s
-          [Certified Products List](#29b04eaf-5f57-4ea1-a453-8047826dccf5) contains a list of products that have been evaluated and certified in accordance with the Common Criteria. Alternatively, the ACSC can be contacted for information on both products that are in-evaluation as well as those that have completed evaluation via the Enterprise Mobility Evaluation Program or the High Assurance Evaluation Program.
+          [Certified Products List](#29b04eaf-5f57-4ea1-a453-8047826dccf5) contains a list of products that have been evaluated and certified in accordance with the Common Criteria. Alternatively, the ACSC can be contacted for information on both products that are in-evaluation as well as those that have completed evaluation via the ASD Enterprise Mobility Evaluation Program or the ASD High Assurance Evaluation Program.
 
           # Cryptographic evaluations
 
@@ -6785,13 +7072,16 @@ catalog:
           # Further information
 
           Further information on the
-          [High Assurance Evaluation Program](#e4ef23da-2683-4356-93c4-a2412c9d52ee) is available from the ACSC.
+          [ASD High Assurance Evaluation Program](#92da50be-4afa-4be0-9124-bc7a638d9bf4) is available from the ACSC.
 
           Further information on the
           [AISEP](#57c58870-2ebb-4fce-b995-0c86cb64002f) is available from the ACSC.
 
           Further information on Common Criteria evaluated products can be found on the Common Criteria’s
           [Certified Products List](#29b04eaf-5f57-4ea1-a453-8047826dccf5).
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
       groups:
       - title: Evaluated product selection
         props:
@@ -6923,6 +7213,9 @@ catalog:
       - name: overview
         prose: |-
           # Further information
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on securing ICT equipment when not in use can be found in the ICT equipment and media section of the
           [Guidelines for Physical Security](#4deea7ea-18a2-4fd7-8b25-0b3603215df2).
@@ -7083,6 +7376,9 @@ catalog:
       - name: overview
         prose: |-
           # Further information
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on the sanitisation of media can be found in the media sanitisation section of the
           [Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).
@@ -7687,6 +7983,9 @@ catalog:
       - name: overview
         prose: |-
           # Further information
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on the protection of media can be found in the Attorney-General’s Department’s
           [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a),
@@ -8323,6 +8622,13 @@ catalog:
       props:
       - name: sort-id
         value: "catalog[1].group[14].group[3]"
+      parts:
+      - name: overview
+        prose: |-
+          # Further information
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
       groups:
       - title: Media destruction processes and procedures
         props:
@@ -8927,7 +9233,7 @@ catalog:
           # Further information
 
           Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
-          [Guidelines for Outsourcing](#5947ab89-3110-4aec-861a-91b74c6aa742).
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on patching or updating operating systems can be found in the system patching section of the
           [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
@@ -10164,7 +10470,7 @@ catalog:
           # Further information
 
           Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
-          [Guidelines for Outsourcing](#5947ab89-3110-4aec-861a-91b74c6aa742).
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on patching or updating applications can be found in the system patching section of the
           [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
@@ -10866,6 +11172,9 @@ catalog:
 
           # Further information
 
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
           Further information on implementing multi-factor authentication can be found in the ACSC’s
           [Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.
 
@@ -10875,6 +11184,9 @@ catalog:
           Further information on
           [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a
           [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.
+
+          Further information on
+          [group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.
 
           Further information on mitigating the use of stolen credentials can be found in the ACSC’s
           [Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.
@@ -11545,12 +11857,31 @@ catalog:
           - id: ism-1685_smt
             name: statement
             prose: "Credentials for local administrator accounts and service accounts are unique, unpredictable and managed."
+        - id: ism-1795
+          class: ISM-control
+          title: "Control: ism-1795"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[3].group[08].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1795_smt
+            name: statement
+            prose: Credentials for local administrator accounts and service accounts are a minimum of 30 characters.
         - id: ism-0418
           class: ISM-control
           title: "Control: ism-0418"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[08].control[2]"
+            value: "catalog[1].group[15].group[3].group[08].control[3]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "5"
@@ -11569,7 +11900,7 @@ catalog:
           title: "Control: ism-1597"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[08].control[3]"
+            value: "catalog[1].group[15].group[3].group[08].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -11588,7 +11919,7 @@ catalog:
           title: "Control: ism-1402"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[08].control[4]"
+            value: "catalog[1].group[15].group[3].group[08].control[5]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "6"
@@ -11607,7 +11938,7 @@ catalog:
           title: "Control: ism-1686"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[08].control[5]"
+            value: "catalog[1].group[15].group[3].group[08].control[6]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -11629,7 +11960,7 @@ catalog:
           title: "Control: ism-1749"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[08].control[6]"
+            value: "catalog[1].group[15].group[3].group[08].control[7]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -11648,7 +11979,7 @@ catalog:
           title: "Control: ism-1590"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[08].control[7]"
+            value: "catalog[1].group[15].group[3].group[08].control[8]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "1"
@@ -11677,7 +12008,7 @@ catalog:
           value: "catalog[1].group[15].group[3].group[09]"
         parts:
         - name: overview
-          prose: "Implementing measures to automatically terminate user sessions and reboot workstations outside of business hours, after an appropriate period of inactivity, can assist in both system maintenance activities as well as removing an adversary that may have compromised a system but failed to gain persistence."
+          prose: "Implementing measures to terminate user sessions and restart workstations on a daily basis, outside of business hours and after an appropriate period of inactivity, can assist in both system maintenance activities as well as removing an adversary that may have compromised a system but failed to gain persistence."
         controls:
         - id: ism-0853
           class: ISM-control
@@ -11687,17 +12018,17 @@ catalog:
             value: "catalog[1].group[15].group[3].group[09].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-22
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-0853_smt
             name: statement
-            prose: "Outside of business hours, after an appropriate period of inactivity, user sessions are automatically terminated and workstations are rebooted."
+            prose: "On a daily basis, outside of business hours and after an appropriate period of inactivity, user sessions are terminated and workstations are restarted."
       - title: Session and screen locking
         props:
         - name: sort-id
@@ -11802,11 +12133,11 @@ catalog:
           Further information on container security can be found in National Institute of Standards and Technology Special Publication 800-190,
           [Application Container Security Guide](#887c65c3-c853-41c6-89d5-3f297108889e).
 
-          Further information on the use of cloud services can be found in the managed services and cloud services section of the
-          [Guidelines for Outsourcing](#5947ab89-3110-4aec-861a-91b74c6aa742).
-
           Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
-          [Guidelines for Outsourcing](#5947ab89-3110-4aec-861a-91b74c6aa742).
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on the use of cloud services can be found in the managed services and cloud services section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on hardening operating systems can be found in the operating system hardening section of these guidelines.
 
@@ -13119,7 +13450,7 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on logging intrusion activity can be found in the detecting cyber security incidents section of the
+          Further information on logging intrusion activity can be found in the managing cyber security incidents section of the
           [Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).
 
           Further information on event logging for user activity on systems can be found in the access to systems and their resources section of the
@@ -13470,7 +13801,7 @@ catalog:
           value: "catalog[1].group[18].group[1].group[2]"
         parts:
         - name: overview
-          prose: "Secure-by-design principles and secure programming practices, supported by agile software development practices and threat modelling, are an important part of application development as they can assist with the identification and mitigation of at risk software components and risky programming practices."
+          prose: "Secure-by-design principles and secure programming practices, supported by agile software development practices and threat modelling, are an important part of application development as they can assist with the identification and mitigation of at risk software components and risky programming practices. In addition, providing mechanisms to assist in determining the authenticity and integrity of applications, while configuring them in a secure manner, can assist with software supply chain security activities."
         controls:
         - id: ism-0401
           class: ISM-control
@@ -13529,6 +13860,63 @@ catalog:
           - id: ism-1238_smt
             name: statement
             prose: Threat modelling is used in support of application development.
+        - id: ism-1796
+          class: ISM-control
+          title: "Control: ism-1796"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[18].group[1].group[2].control[4]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1796_smt
+            name: statement
+            prose: Files containing executable content are digitally signed as part of application development.
+        - id: ism-1797
+          class: ISM-control
+          title: "Control: ism-1797"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[18].group[1].group[2].control[5]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1797_smt
+            name: statement
+            prose: "Installers, patches and updates are digitally signed or provided with cryptographic checksums as part of application development."
+        - id: ism-1798
+          class: ISM-control
+          title: "Control: ism-1798"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[18].group[1].group[2].control[6]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1798_smt
+            name: statement
+            prose: Secure configuration guidance is produced as part of application development.
       - title: Software bill of materials
         props:
         - name: sort-id
@@ -14191,7 +14579,7 @@ catalog:
           value: "catalog[1].group[19].group[2].group[3]"
         parts:
         - name: overview
-          prose: "If DBMS software operating as a local administrator or root account is compromised by an adversary, it can present a significant security risk to the underlying database server. In addition, DBMS software is often capable of accessing files that it has read access to on the database server. For example, an adversary performing a Structured Query Language (SQL) injection attack could use the command LOAD DATA LOCAL INFILE ‘etc/passwd’ INTO TABLE Users; or SELECT LOAD_FILE(‘/etc/passwd’); to access the contents of a Linux password file. Disabling the ability of the DBMS software to read local files from its database server will prevent such SQL injection attacks from succeeding."
+          prose: "If DBMS software operating as a local administrator or root account is compromised by an adversary, it can present a significant security risk to the underlying database server. In addition, DBMS software is often capable of accessing files that it has read access to on the database server. Therefore, disabling the ability of the DBMS software to read local files from its database server will prevent such SQL injection attacks from succeeding."
         controls:
         - id: ism-1249
           class: ISM-control
@@ -14978,17 +15366,17 @@ catalog:
             value: "catalog[1].group[20].group[2].group[03].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "4"
+            value: "5"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-19
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-0567_smt
             name: statement
-            prose: Email servers only relay emails destined for or originating from their domains.
+            prose: Email servers only relay emails destined for or originating from their domains (including subdomains).
       - title: Email server transport encryption
         props:
         - name: sort-id
@@ -15027,24 +15415,24 @@ catalog:
             value: "catalog[1].group[20].group[2].group[04].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Sep-21
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1589_smt
             name: statement
-            prose: MTA-STS is enabled to prevent the transfer of unencrypted emails between complying servers.
+            prose: MTA-STS is enabled to prevent the unencrypted transfer of emails between complying servers.
       - title: Sender Policy Framework
         props:
         - name: sort-id
           value: "catalog[1].group[20].group[2].group[05]"
         parts:
         - name: overview
-          prose: "SPF aids in the detection of spoofed emails by specifying a list of domains that are allowed to send emails. If an email server is not in the SPF record for a domain, SPF verification will fail. In specifying SPF records, domain owners should ensure that they delegate the minimum necessary set of hosts or Internet Protocol addresses necessary for sending emails. In addition, extra care should be taken when delegating to hosts or Internet Protocol addresses not under an organisation’s control."
+          prose: "SPF aids in the detection of spoofed emails by specifying a list of hosts or Internet Protocol (IP) addresses that are allowed to send emails on behalf of a specified domain or subdomain. If an email server is not in the SPF record for a domain or subdomain, SPF verification will not pass. In specifying SPF records, domain owners should ensure that they delegate the minimum necessary set of hosts or IP addresses necessary for sending emails. In addition, extra care should be taken when delegating to hosts or IP addresses not under an organisation’s control."
         controls:
         - id: ism-0574
           class: ISM-control
@@ -15054,17 +15442,17 @@ catalog:
             value: "catalog[1].group[20].group[2].group[05].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "5"
+            value: "6"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-22
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-0574_smt
             name: statement
-            prose: SPF is used to specify authorised email servers (or lack thereof) for all domains.
+            prose: SPF is used to specify authorised email servers (or lack thereof) for all domains (including subdomains).
         - id: ism-1183
           class: ISM-control
           title: "Control: ism-1183"
@@ -15073,17 +15461,17 @@ catalog:
             value: "catalog[1].group[20].group[2].group[05].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Sep-18
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1183_smt
             name: statement
-            prose: A hard fail SPF record is used when specifying email servers.
+            prose: A hard fail SPF record is used when specifying authorised email servers (or lack thereof) for all domains (including subdomains).
         - id: ism-1151
           class: ISM-control
           title: "Control: ism-1151"
@@ -15103,32 +15491,13 @@ catalog:
           - id: ism-1151_smt
             name: statement
             prose: SPF is used to verify the authenticity of incoming emails.
-        - id: ism-1152
-          class: ISM-control
-          title: "Control: ism-1152"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[20].group[2].group[05].control[4]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "3"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-19
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          parts:
-          - id: ism-1152_smt
-            name: statement
-            prose: Incoming emails that fail SPF checks are blocked or marked in a manner that is visible to the recipients.
       - title: DomainKeys Identified Mail
         props:
         - name: sort-id
           value: "catalog[1].group[20].group[2].group[06]"
         parts:
         - name: overview
-          prose: "DKIM enables the detection of spoofed email contents. This is achieved by DKIM records specifying the public key used to sign email contents. Specifically, if the signed digest in an email header does not match the signed contents of the email, verification will fail."
+          prose: "DKIM enables the detection of spoofed email contents. This is achieved by DKIM records specifying the public key used to verify the digital signature in an email. Specifically, if the signed digest in an email header does not match the signed contents of the email, verification will not pass."
         controls:
         - id: ism-0861
           class: ISM-control
@@ -15138,17 +15507,17 @@ catalog:
             value: "catalog[1].group[20].group[2].group[06].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-19
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-0861_smt
             name: statement
-            prose: DKIM signing is enabled on emails originating from an organisation’s domains.
+            prose: DKIM signing is enabled on emails originating from an organisation’s domains (including subdomains).
         - id: ism-1026
           class: ISM-control
           title: "Control: ism-1026"
@@ -15194,7 +15563,7 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            DMARC enables a domain owner to specify what action receiving email servers should take if they receive emails that fail SPF or DKIM checks. This includes ‘reject’ (emails are rejected), ‘quarantine’ (emails are marked as spam) or ‘none’ (no action is taken).
+            DMARC enables a domain owner to specify what action receiving email servers should take as a result of domain alignment, SPF and DKIM checks. For emails that do not pass DMARC checks, this includes ‘reject’ (emails are rejected), ‘quarantine’ (emails are marked as spam) or ‘none’ (no action is taken).
 
             DMARC also provides a reporting feature which enables a domain owner to receive reports on the actions taken by receiving email servers. While this feature does not mitigate malicious emails sent to the domain owner’s organisation, it can give the domain owner some visibility of attempts by an adversary to spoof their organisation’s domains.
         controls:
@@ -15206,17 +15575,36 @@ catalog:
             value: "catalog[1].group[20].group[2].group[07].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Oct-19
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1540_smt
             name: statement
-            prose: DMARC records are configured for all domains such that emails are rejected if they fail SPF or DKIM checks.
+            prose: DMARC records are configured for all domains (including subdomains) such that emails are rejected if they do not pass DMARC checks.
+        - id: ism-1799
+          class: ISM-control
+          title: "Control: ism-1799"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[20].group[2].group[07].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1799_smt
+            name: statement
+            prose: Incoming emails are rejected if they do not pass DMARC checks.
       - title: Email content filtering
         props:
         - name: sort-id
@@ -15250,7 +15638,7 @@ catalog:
           value: "catalog[1].group[20].group[2].group[09]"
         parts:
         - name: overview
-          prose: "Blocking specific types of suspicious emails, such as where the source address uses an internal domain name, reduces the likelihood of phishing emails entering an organisation’s network."
+          prose: "Blocking specific types of suspicious emails, such as where the email source address uses an internal domain, or internal subdomain, reduces the likelihood of phishing emails entering an organisation’s network."
         controls:
         - id: ism-1502
           class: ISM-control
@@ -15260,17 +15648,17 @@ catalog:
             value: "catalog[1].group[20].group[2].group[09].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-19
+            value: Sep-22
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
           parts:
           - id: ism-1502_smt
             name: statement
-            prose: Emails arriving via an external connection where the source address uses an internal domain name are blocked at the email gateway.
+            prose: "Emails arriving via an external connection where the email source address uses an internal domain, or internal subdomain, are blocked at the email gateway."
       - title: Notifications of undeliverable emails
         props:
         - name: sort-id
@@ -15347,6 +15735,9 @@ catalog:
 
           Further information on network design and configuration can be found in the United States’ National Security Agency’s
           [Network Infrastructure Security Guidance](#ab106d60-5405-4cae-8d6f-eff6dca81965) publication.
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
       groups:
       - title: Network documentation
         props:
@@ -15746,64 +16137,10 @@ catalog:
           - id: ism-1182_smt
             name: statement
             prose: Network access controls are implemented to limit network traffic within and between network segments to only those required for business purposes.
-      - title: Default accounts for network devices
-        props:
-        - name: sort-id
-          value: "catalog[1].group[21].group[1].group[07]"
-        parts:
-        - name: overview
-          prose: "Network devices can come pre-configured with default credentials. For example, wireless access points with an account named ‘admin’ and a password of ‘admin’. Ensuring default accounts are disabled, renamed or have their credentials changed can assist in reducing the likelihood of their exploitation by an adversary."
-        controls:
-        - id: ism-1304
-          class: ISM-control
-          title: "Control: ism-1304"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[21].group[1].group[07].control[1]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "3"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Mar-22
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          parts:
-          - id: ism-1304_smt
-            name: statement
-            prose: "Default accounts for network devices are disabled, renamed or have their credentials changed."
-      - title: Disabling unused physical ports on network devices
-        props:
-        - name: sort-id
-          value: "catalog[1].group[21].group[1].group[08]"
-        parts:
-        - name: overview
-          prose: Disabling unused physical ports on network devices reduces the opportunity for an adversary to connect to networks if they can gain physical access to network devices.
-        controls:
-        - id: ism-0534
-          class: ISM-control
-          title: "Control: ism-0534"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[21].group[1].group[08].control[1]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "2"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Sep-18
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          parts:
-          - id: ism-0534_smt
-            name: statement
-            prose: Unused physical ports on network devices are disabled.
       - title: Functional separation between servers
         props:
         - name: sort-id
-          value: "catalog[1].group[21].group[1].group[09]"
+          value: "catalog[1].group[21].group[1].group[07]"
         parts:
         - name: overview
           prose: Implementing functional separation between servers reduces the likelihood that a server compromised by an adversary will pose an increased security risk to other servers.
@@ -15813,7 +16150,7 @@ catalog:
           title: "Control: ism-0385"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[09].control[1]"
+            value: "catalog[1].group[21].group[1].group[07].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "6"
@@ -15832,7 +16169,7 @@ catalog:
           title: "Control: ism-1479"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[09].control[2]"
+            value: "catalog[1].group[21].group[1].group[07].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -15849,7 +16186,7 @@ catalog:
       - title: Network management traffic
         props:
         - name: sort-id
-          value: "catalog[1].group[21].group[1].group[10]"
+          value: "catalog[1].group[21].group[1].group[08]"
         parts:
         - name: overview
           prose: "Implementing security measures specifically for network management traffic provides another layer of defence should an adversary find an opportunity to connect to networks. In addition, this also makes it more difficult for an adversary to enumerate networks."
@@ -15859,7 +16196,7 @@ catalog:
           title: "Control: ism-1006"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[10].control[1]"
+            value: "catalog[1].group[21].group[1].group[08].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "6"
@@ -15876,7 +16213,7 @@ catalog:
       - title: Use of Simple Network Management Protocol
         props:
         - name: sort-id
-          value: "catalog[1].group[21].group[1].group[11]"
+          value: "catalog[1].group[21].group[1].group[09]"
         parts:
         - name: overview
           prose: "The Simple Network Management Protocol (SNMP) can be used to monitor the status of network devices. The first two iterations of SNMP were inherently insecure as they used trivial authentication methods. Furthermore, changing all default SNMP community strings on network devices, and limiting their access to read-only, is strongly encouraged."
@@ -15886,7 +16223,7 @@ catalog:
           title: "Control: ism-1311"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[11].control[1]"
+            value: "catalog[1].group[21].group[1].group[09].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -15905,7 +16242,7 @@ catalog:
           title: "Control: ism-1312"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[11].control[2]"
+            value: "catalog[1].group[21].group[1].group[09].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "3"
@@ -15922,7 +16259,7 @@ catalog:
       - title: Using Network-based Intrusion Detection and Prevention Systems
         props:
         - name: sort-id
-          value: "catalog[1].group[21].group[1].group[12]"
+          value: "catalog[1].group[21].group[1].group[10]"
         parts:
         - name: overview
           prose: "A Network-based Intrusion Detection System (NIDS) or Network-based Intrusion Prevention System (NIPS) can be an effective way of identifying and responding to network intrusions. In addition, generating event logs and alerts for network traffic that contravenes any rule in a firewall ruleset can help identify suspicious or malicious network traffic entering networks due to a failure of, or configuration change to, firewalls."
@@ -15932,7 +16269,7 @@ catalog:
           title: "Control: ism-1028"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[12].control[1]"
+            value: "catalog[1].group[21].group[1].group[10].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "8"
@@ -15951,7 +16288,7 @@ catalog:
           title: "Control: ism-1030"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[12].control[2]"
+            value: "catalog[1].group[21].group[1].group[10].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "8"
@@ -15968,7 +16305,7 @@ catalog:
       - title: Blocking anonymity network traffic
         props:
         - name: sort-id
-          value: "catalog[1].group[21].group[1].group[13]"
+          value: "catalog[1].group[21].group[1].group[11]"
         parts:
         - name: overview
           prose: "Inbound network connections from anonymity networks, such as the Tor network, to an organisation’s internet-facing services can be used by an adversary for reconnaissance and malware delivery purposes with minimal risk of detection and attribution. As such, this network traffic should be blocked. However, an organisation might choose to support anonymous connections to their websites to cater for individuals who want to remain anonymous for privacy reasons. In such cases, it is suggested that network traffic from anonymity networks be logged and monitored instead. Additionally, outbound network connections to anonymity networks can be used by malware for command and control or data exfiltration purposes and should be blocked."
@@ -15978,7 +16315,7 @@ catalog:
           title: "Control: ism-1627"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[13].control[1]"
+            value: "catalog[1].group[21].group[1].group[11].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -15997,7 +16334,7 @@ catalog:
           title: "Control: ism-1628"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[13].control[2]"
+            value: "catalog[1].group[21].group[1].group[11].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -16014,7 +16351,7 @@ catalog:
       - title: Protective Domain Name System Services
         props:
         - name: sort-id
-          value: "catalog[1].group[21].group[1].group[14]"
+          value: "catalog[1].group[21].group[1].group[12]"
         parts:
         - name: overview
           prose: |-
@@ -16027,7 +16364,7 @@ catalog:
           title: "Control: ism-1782"
           props:
           - name: sort-id
-            value: "catalog[1].group[21].group[1].group[14].control[1]"
+            value: "catalog[1].group[21].group[1].group[12].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -16041,6 +16378,114 @@ catalog:
           - id: ism-1782_smt
             name: statement
             prose: A protective DNS service is used for networks.
+      - title: Flashing network devices with trusted firmware before first use
+        props:
+        - name: sort-id
+          value: "catalog[1].group[21].group[1].group[13]"
+        parts:
+        - name: overview
+          prose: "Flashing network devices with trusted firmware, obtained from vendors via trusted means, before network devices are used for the first time can assist in reducing cyber supply chain risks, such as the introduction of malicious firmware resulting from a cyber supply chain interdiction attack or a compromised vendor development environment or source code repository."
+        controls:
+        - id: ism-1800
+          class: ISM-control
+          title: "Control: ism-1800"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[21].group[1].group[13].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1800_smt
+            name: statement
+            prose: Network devices are flashed with trusted firmware before they are used for the first time.
+      - title: Default accounts for network devices
+        props:
+        - name: sort-id
+          value: "catalog[1].group[21].group[1].group[14]"
+        parts:
+        - name: overview
+          prose: "Network devices can come pre-configured with default credentials. For example, wireless access points with an account named ‘admin’ and a password of ‘admin’. Ensuring default accounts are disabled, renamed or have their credentials changed can assist in reducing the likelihood of their exploitation by an adversary."
+        controls:
+        - id: ism-1304
+          class: ISM-control
+          title: "Control: ism-1304"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[21].group[1].group[14].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "3"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Mar-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1304_smt
+            name: statement
+            prose: "Default accounts for network devices are disabled, renamed or have their credentials changed."
+      - title: Disabling unused physical ports on network devices
+        props:
+        - name: sort-id
+          value: "catalog[1].group[21].group[1].group[15]"
+        parts:
+        - name: overview
+          prose: Disabling unused physical ports on network devices reduces the opportunity for an adversary to connect to networks if they can gain physical access to network devices.
+        controls:
+        - id: ism-0534
+          class: ISM-control
+          title: "Control: ism-0534"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[21].group[1].group[15].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "2"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-18
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-0534_smt
+            name: statement
+            prose: Unused physical ports on network devices are disabled.
+      - title: Regularly restarting network devices
+        props:
+        - name: sort-id
+          value: "catalog[1].group[21].group[1].group[16]"
+        parts:
+        - name: overview
+          prose: Implementing measures to restart network devices on at least a monthly basis can assist in maintaining network device performance as well as removing an adversary that may have compromised a network device but failed to gain persistence.
+        controls:
+        - id: ism-1801
+          class: ISM-control
+          title: "Control: ism-1801"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[21].group[1].group[16].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          parts:
+          - id: ism-1801_smt
+            name: statement
+            prose: Network devices are restarted on at least a monthly basis.
     - title: Wireless networks
       props:
       - name: sort-id
@@ -16058,7 +16503,10 @@ catalog:
           [Wi-Fi technologies](#a9b6660b-fc4c-4a08-8db6-1130370b6b09) and associated
           [certification programs](#86b273d9-e9d7-4919-9a41-631a5ae5bf88) are available from the Wi-Fi Alliance.
 
-          Further information on evaluated products can be found in the evaluated product acquisition section of the
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on evaluated products can be found in the evaluated product procurement section of the
           [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
 
           Further information on encrypting communications can be found in the cryptographic fundamentals section of the
@@ -16658,6 +17106,12 @@ catalog:
         prose: |-
           # Further information
 
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on the use of cloud service providers can be found in the managed services and cloud services section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
           Further information on business continuity and disaster recovery planning can be found in the Chief Information Security Officer section of the
           [Guidelines for Cyber Security Roles](#626dab35-81ab-45fe-8c12-0faff1c23c07).
 
@@ -17058,9 +17512,12 @@ catalog:
           Further information on cryptographic key management practices can be found in NIST SP 800-57 Part 1 Rev. 5,
           [Recommendation for Key Management: Part 1 – General](#ffc8a1f6-f4e3-4ff5-a7f9-f41f766274eb).
 
-          Further information on cryptographic key management practices for HACE is available from the ACSC.
+          Further information on cryptographic key management practices for ASD-approved HACE is available from the ACSC.
 
-          Further information on evaluated products can be found in the evaluated product acquisition section of the
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on evaluated products can be found in the evaluated product procurement section of the
           [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
 
           Further information on the evaluation of cryptographic modules, including testing requirements, is available as part of the
@@ -17350,7 +17807,7 @@ catalog:
         prose: |-
           # High assurance cryptographic algorithms
 
-          High assurance cryptographic algorithms, which are not covered in this section, can be used for the protection of SECRET and TOP SECRET data if they are suitably implemented in HACE. Further information on high assurance cryptographic algorithms can be obtained from the ACSC.
+          High assurance cryptographic algorithms, which are not covered in this section, can be used for the protection of SECRET and TOP SECRET data if they are suitably implemented in ASD-approved HACE. Further information on high assurance cryptographic algorithms can be obtained from the ACSC.
 
           # ASD-Approved Cryptographic Algorithms
 
@@ -17762,7 +18219,7 @@ catalog:
         prose: |-
           # High assurance cryptographic protocols
 
-          High assurance cryptographic protocols, which are not covered in this section, can be used for the protection of SECRET and TOP SECRET data if they are suitably implemented in HACE. Further information on high assurance cryptographic protocols can be obtained from the ACSC.
+          High assurance cryptographic protocols, which are not covered in this section, can be used for the protection of SECRET and TOP SECRET data if they are suitably implemented in ASD-approved HACE. Further information on high assurance cryptographic protocols can be obtained from the ACSC.
 
           # ASD-Approved Cryptographic Protocols
 
@@ -18554,7 +19011,16 @@ catalog:
 
           This section describes controls applicable to all types of gateways. Additional sections of these guidelines should also be consulted depending on the types of gateways being deployed and the security domains involved. For example, the Cross Domain Solutions section should be consulted for gateways between different security domains where at least one security domain is classified SECRET or TOP SECRET.
 
+          Personnel involved in the planning, design, implementation or assessment of gateways should also refer to the Australian Cyber Security Centre (ACSC)’s
+          [gateway security guidance package](#3df21b72-0559-4bbf-a990-5ee509f70747) of publications.
+
           # Further information
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on the procurement of outsourced services can be found in the managed services and cloud services section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on designing, configuring and managing networks can be found in the network design and configuration section of the
           [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
@@ -18580,10 +19046,7 @@ catalog:
 
           Further information on
           [the purpose of IRAP](#84d3cbab-ab84-4981-a4f7-2bd469c8deaf), and
-          [a list of current IRAP assessors](#bdd11ace-cb4e-470a-92ad-556c79b6c14a), is available from the Australian Cyber Security Centre (ACSC).
-
-          Further information on the procurement of outsourced services can be found in the managed services and cloud services section of the
-          [Guidelines for Outsourcing](#5947ab89-3110-4aec-861a-91b74c6aa742).
+          [a list of current IRAP assessors](#bdd11ace-cb4e-470a-92ad-556c79b6c14a), is available from the ACSC.
       groups:
       - title: Implementing gateways
         props:
@@ -19023,6 +19486,12 @@ catalog:
 
           # Further information
 
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on evaluated products can be found in the evaluated product procurement section of the
+          [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
+
           Further information on designing, configuring and managing networks can be found in the network design and configuration section of the
           [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
 
@@ -19068,7 +19537,10 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on evaluated products can be found in the evaluated product acquisition section of the
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on evaluated products can be found in the evaluated product procurement section of the
           [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
       groups:
       - title: Using firewalls
@@ -19126,7 +19598,10 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on evaluated products can be found in the evaluated product acquisition section of the
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on evaluated products can be found in the evaluated product procurement section of the
           [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
       groups:
       - title: Using diodes
@@ -19183,6 +19658,9 @@ catalog:
       - name: overview
         prose: |-
           # Further information
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on event logging can be found in the event logging and monitoring section of the
           [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
@@ -19303,6 +19781,9 @@ catalog:
         prose: |-
           # Further information
 
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
           Further information on content filtering techniques can be found in the content filtering section of these guidelines.
 
           Further information and
@@ -19407,7 +19888,7 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            Defining an organisation-approved list of domain names, and blocking all others, removes one of the most common data exfiltration paths used by an adversary. In doing so, even a relatively permissive list of allowed domain names, such as the entire Australian subdomain (‘\*.au’) or the top 1,000 websites from the Alexa website ranking, offers better security than relying solely on a list of malicious domain names.
+            Defining an organisation-approved list of domain names, and blocking all others, removes one of the most common data exfiltration paths used by an adversary. In doing so, even a relatively permissive list of allowed domain names, such as the entire Australian top-level domain (‘\*.au’) or the top 1,000 websites from the Alexa website ranking, offers better security than relying solely on a list of malicious domain names.
 
             Furthermore, in cases where an organisation chooses to implement a relatively permissive list of allowed domain names, or list of website categories, security risks can be further mitigated by blocking dynamic domain names, or domain names that can be registered anonymously for free, as these are often used by an adversary due to their lack of attribution. Finally, as users rarely have a requirement to access websites via their IP addresses instead of their domain names, the presence of such activities could indicate malicious code attempting to communicate with an adversary’s command and control infrastructure and should be blocked.
         controls:
@@ -19490,6 +19971,9 @@ catalog:
           * Manual inspections: Involves the manual inspection of files for suspicious or undesirable content that an automated system may miss, which is particularly important for multimedia and content rich files.
 
           # Further information
+
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
           Further information on performing data transfers can be found in the data transfers section of the
           [Guidelines for Data Transfers](#1eefdaf7-3991-4ba2-9439-79565f508c44).
@@ -19842,7 +20326,10 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on evaluated products can be found in the evaluated product acquisition section of the
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
+          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+
+          Further information on evaluated products can be found in the evaluated product procurement section of the
           [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
       groups:
       - title: Using peripheral switches
@@ -20091,6 +20578,10 @@ catalog:
             prose: Data transfer logs for systems are partially verified at least monthly.
   back-matter:
     resources:
+    - uuid: 014064b7-5b77-4a79-af6c-79a16f4d0cb2
+      title: ICT supply chain resource library
+      rlinks:
+      - href: https://www.cisa.gov/ict-supply-chain-library
     - uuid: 02fb4cb5-e4c4-4097-97a2-f1b6aa04131a
       title: Assessing Security Vulnerabilities and Applying Patches
       rlinks:
@@ -20131,6 +20622,10 @@ catalog:
       title: "FIPS 140-3 Derived Test Requirements (DTR): CMVP Validation Authority Updates to ISO/IEC 24759"
       rlinks:
       - href: https://csrc.nist.gov/publications/detail/sp/800-140/final
+    - uuid: 19947ae5-678c-4dc0-a35e-283e4af1284c
+      title: Supply chain security guidance
+      rlinks:
+      - href: https://www.ncsc.gov.uk/collection/supply-chain-security
     - uuid: 1eefdaf7-3991-4ba2-9439-79565f508c44
       title: Guidelines for Data Transfers
       rlinks:
@@ -20195,6 +20690,10 @@ catalog:
       title: Restricting Administrative Privileges
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/publications/restricting-administrative-privileges
+    - uuid: 3df21b72-0559-4bbf-a990-5ee509f70747
+      title: gateway security guidance package
+      rlinks:
+      - href: https://www.cyber.gov.au/acsc/government/gateway-security-guidance
     - uuid: 3e4cd135-5fa3-4a1e-a192-1793ff42067c
       title: Access to information
       rlinks:
@@ -20279,10 +20778,6 @@ catalog:
       title: "Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016"
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016
-    - uuid: 5947ab89-3110-4aec-861a-91b74c6aa742
-      title: Guidelines for Outsourcing
-      rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-outsourcing
     - uuid: 5a2ed3ef-afcc-485e-8014-5107e9ed97e3
       title: recommended block rules
       rlinks:
@@ -20407,6 +20902,10 @@ catalog:
       title: Application Container Security Guide
       rlinks:
       - href: https://csrc.nist.gov/publications/detail/sp/800-190/final
+    - uuid: 8a0daed2-8840-443f-a83e-68252d2dcdc5
+      title: "Supply Chain Cyber Security: In Safe Hands"
+      rlinks:
+      - href: https://www.ncsc.govt.nz/guidance/in-safe-hands/
     - uuid: 8a965432-7e2e-4020-86e4-b38837f9be60
       title: Using the Information Security Manual
       rlinks:
@@ -20423,10 +20922,22 @@ catalog:
       title: Securing PowerShell in the Enterprise
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/publications/securing-powershell-enterprise
+    - uuid: 91b92563-d991-40fa-9adc-548df9f6c496
+      title: group Managed Service Accounts
+      rlinks:
+      - href: https://docs.microsoft.com/en-au/azure/active-directory/fundamentals/service-accounts-group-managed
     - uuid: 92679127-f61d-486a-a93e-df2a26dfb07a
       title: Protective Security Policy Framework
       rlinks:
       - href: https://www.protectivesecurity.gov.au/
+    - uuid: 92da50be-4afa-4be0-9124-bc7a638d9bf4
+      title: ASD High Assurance Evaluation Program
+      rlinks:
+      - href: https://www.cyber.gov.au/acsc/view-all-content/programs/asd-high-assurance-evaluation-program
+    - uuid: 971c6452-6e97-4b4f-b5e4-64e457cb8320
+      title: "Cyber supply chain: An approach to assessing risk"
+      rlinks:
+      - href: https://cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070
     - uuid: 98951624-a06e-4d9a-96a3-f89ac944bcaa
       title: Protecting Against Business Email Compromise
       rlinks:
@@ -20627,10 +21138,6 @@ catalog:
       title: Marketing and Filtering Email Service Providers
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/publications/marketing-and-filtering-email-service-providers
-    - uuid: e4ef23da-2683-4356-93c4-a2412c9d52ee
-      title: High Assurance Evaluation Program
-      rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/programs/high-assurance-evaluation-program
     - uuid: e7ce6e23-4bbb-45c1-a657-7e563c0837ed
       title: Information Security Manual
       rlinks:
@@ -20671,6 +21178,14 @@ catalog:
       title: Fundamentals of Cross Domain Solutions
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/publications/fundamentals-cross-domain-solutions
+    - uuid: f37a4848-0791-4870-b316-5536c2681c28
+      title: Guidelines for Procurement and Outsourcing
+      rlinks:
+      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-procurement-outsourcing
+    - uuid: f48c0d05-5173-4c8e-8748-e5591518c1fb
+      title: Computer Security Incident Handling Guide
+      rlinks:
+      - href: https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final
     - uuid: f7e13f7b-eb48-4294-bd01-9c22c756d96b
       title: Security Equipment Evaluated Products List
       rlinks:

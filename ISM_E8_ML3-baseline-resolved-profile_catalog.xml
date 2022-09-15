@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-          uuid="d46f107f-8e7a-4ba4-b2d2-4d40521b2416">
+          uuid="c628967d-3c2d-4487-aefc-b334d2d9afb3">
    <metadata>
       <title>Information Security Manual Essential Eight Maturity Level Three Baseline</title>
-      <last-modified>2022-09-14T03:01:44.451651Z</last-modified>
-      <version>2022.09.14</version>
+      <last-modified>2022-09-15T06:59:25.317571Z</last-modified>
+      <version>2022.09.15</version>
       <oscal-version>1.0.4</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-             href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
+             href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -318,7 +318,7 @@
          <part name="overview">
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the 
-          <a href="#5947ab89-3110-4aec-861a-91b74c6aa742">Guidelines for Outsourcing</a>.
+          <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.
         </p>
             <p>Further information on patching or updating operating systems can be found in the system patching section of the 
           <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for System Management</a>.
@@ -801,7 +801,7 @@
          <part name="overview">
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the 
-          <a href="#5947ab89-3110-4aec-861a-91b74c6aa742">Guidelines for Outsourcing</a>.
+          <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.
         </p>
             <p>Further information on patching or updating applications can be found in the system patching section of the 
           <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for System Management</a>.
@@ -1284,6 +1284,9 @@
             <h1>Account and authentication types</h1>
             <p>The guidance within this section is equally applicable to all account types. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.</p>
             <h1>Further information</h1>
+            <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the 
+          <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.
+        </p>
             <p>Further information on implementing multi-factor authentication can be found in the ACSC’s 
           <a href="#83e3a9b1-5057-4531-91dd-03c8d92634b0">Implementing Multi-Factor Authentication</a> publication.
         </p>
@@ -1293,6 +1296,9 @@
             <p>Further information on 
           <a href="#58282062-5c17-476a-98b1-105a627cd28d">randomly generating passphrases</a> (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a 
           <a href="#0508be6f-cb97-44da-b212-42416a0048b0">random dice roller</a> is available from RANDOM.ORG.
+        </p>
+            <p>Further information on 
+          <a href="#91b92563-d991-40fa-9adc-548df9f6c496">group Managed Service Accounts</a> in Microsoft Windows Server is available from Microsoft.
         </p>
             <p>Further information on mitigating the use of stolen credentials can be found in the ACSC’s 
           <a href="#824e4353-a9ae-4869-88fb-cb0675dc5d1c">Mitigating the Use of Stolen Credentials</a> publication.
@@ -1603,7 +1609,7 @@
             <control id="ism-1686" class="ISM-control">
                <title>Control: ism-1686</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[3].group[08].control[5]"/>
+                      value="catalog[1].group[15].group[3].group[08].control[6]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -2372,10 +2378,6 @@
          <title>Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</title>
          <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016"/>
       </resource>
-      <resource uuid="5947ab89-3110-4aec-861a-91b74c6aa742">
-         <title>Guidelines for Outsourcing</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-outsourcing"/>
-      </resource>
       <resource uuid="5a2ed3ef-afcc-485e-8014-5107e9ed97e3">
          <title>recommended block rules</title>
          <rlink href="https://docs.microsoft.com/en-au/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules"/>
@@ -2415,6 +2417,10 @@
       <resource uuid="8ffea524-0974-4b53-a8f5-41166073ede5">
          <title>Securing PowerShell in the Enterprise</title>
          <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/securing-powershell-enterprise"/>
+      </resource>
+      <resource uuid="91b92563-d991-40fa-9adc-548df9f6c496">
+         <title>group Managed Service Accounts</title>
+         <rlink href="https://docs.microsoft.com/en-au/azure/active-directory/fundamentals/service-accounts-group-managed"/>
       </resource>
       <resource uuid="92679127-f61d-486a-a93e-df2a26dfb07a">
          <title>Protective Security Policy Framework</title>
@@ -2459,6 +2465,10 @@
       <resource uuid="f145ff5b-d396-4248-8f48-621349d6f0ed">
          <title>Guidelines for Networking</title>
          <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-networking"/>
+      </resource>
+      <resource uuid="f37a4848-0791-4870-b316-5536c2681c28">
+         <title>Guidelines for Procurement and Outsourcing</title>
+         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-procurement-outsourcing"/>
       </resource>
       <resource uuid="f9fb4c57-8c12-4edf-9e34-cb422664aae9">
          <title>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2</title>

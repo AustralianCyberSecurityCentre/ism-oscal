@@ -3,9 +3,9 @@
           uuid="79ef771e-3c85-4fa6-9f0e-7a650c0e32d9">
    <metadata>
       <title>Information Security Manual All Baseline</title>
-      <published>2022-09-14T09:43:56.8965833+10:00</published>
-      <last-modified>2022-09-14T09:43:56.8965833+10:00</last-modified>
-      <version>2022.09.14</version>
+      <published>2022-09-15T06:31:53.197452Z</published>
+      <last-modified>2022-09-15T06:31:53.197452Z</last-modified>
+      <version>2022.09.15</version>
       <oscal-version>1.0.4</oscal-version>
       <link rel="canonical" href="#b6c89b8b-9360-4ae4-b392-fff537c6eda2"/>
       <link rel="latest-version" href="#8a4cd265-98a7-4d6d-b264-614eaf5475ac"/>
@@ -84,10 +84,11 @@
          <with-id>ism-1526</with-id>
          <with-id>ism-1587</with-id>
          <with-id>ism-0576</with-id>
+         <with-id>ism-1784</with-id>
+         <with-id>ism-0125</with-id>
          <with-id>ism-1625</with-id>
          <with-id>ism-1626</with-id>
          <with-id>ism-0120</with-id>
-         <with-id>ism-0125</with-id>
          <with-id>ism-0133</with-id>
          <with-id>ism-0917</with-id>
          <with-id>ism-0137</with-id>
@@ -97,8 +98,6 @@
          <with-id>ism-1213</with-id>
          <with-id>ism-0138</with-id>
          <with-id>ism-0123</with-id>
-         <with-id>ism-0141</with-id>
-         <with-id>ism-1433</with-id>
          <with-id>ism-0140</with-id>
          <with-id>ism-1631</with-id>
          <with-id>ism-1452</with-id>
@@ -106,15 +105,26 @@
          <with-id>ism-1568</with-id>
          <with-id>ism-1632</with-id>
          <with-id>ism-1569</with-id>
+         <with-id>ism-1785</with-id>
+         <with-id>ism-1786</with-id>
+         <with-id>ism-1787</with-id>
+         <with-id>ism-1788</with-id>
+         <with-id>ism-1789</with-id>
+         <with-id>ism-1790</with-id>
+         <with-id>ism-1791</with-id>
+         <with-id>ism-1792</with-id>
          <with-id>ism-1736</with-id>
          <with-id>ism-1737</with-id>
+         <with-id>ism-1793</with-id>
          <with-id>ism-1637</with-id>
          <with-id>ism-1638</with-id>
          <with-id>ism-1570</with-id>
          <with-id>ism-1395</with-id>
          <with-id>ism-0072</with-id>
+         <with-id>ism-0141</with-id>
          <with-id>ism-1571</with-id>
          <with-id>ism-1738</with-id>
+         <with-id>ism-1794</with-id>
          <with-id>ism-1451</with-id>
          <with-id>ism-1572</with-id>
          <with-id>ism-1573</with-id>
@@ -438,6 +448,7 @@
          <with-id>ism-1055</with-id>
          <with-id>ism-1620</with-id>
          <with-id>ism-1685</with-id>
+         <with-id>ism-1795</with-id>
          <with-id>ism-0418</with-id>
          <with-id>ism-1597</with-id>
          <with-id>ism-1402</with-id>
@@ -513,6 +524,9 @@
          <with-id>ism-0401</with-id>
          <with-id>ism-1780</with-id>
          <with-id>ism-1238</with-id>
+         <with-id>ism-1796</with-id>
+         <with-id>ism-1797</with-id>
+         <with-id>ism-1798</with-id>
          <with-id>ism-1730</with-id>
          <with-id>ism-0402</with-id>
          <with-id>ism-1754</with-id>
@@ -573,11 +587,11 @@
          <with-id>ism-0574</with-id>
          <with-id>ism-1183</with-id>
          <with-id>ism-1151</with-id>
-         <with-id>ism-1152</with-id>
          <with-id>ism-0861</with-id>
          <with-id>ism-1026</with-id>
          <with-id>ism-1027</with-id>
          <with-id>ism-1540</with-id>
+         <with-id>ism-1799</with-id>
          <with-id>ism-1234</with-id>
          <with-id>ism-1502</with-id>
          <with-id>ism-1024</with-id>
@@ -599,8 +613,6 @@
          <with-id>ism-1430</with-id>
          <with-id>ism-0520</with-id>
          <with-id>ism-1182</with-id>
-         <with-id>ism-1304</with-id>
-         <with-id>ism-0534</with-id>
          <with-id>ism-0385</with-id>
          <with-id>ism-1479</with-id>
          <with-id>ism-1006</with-id>
@@ -611,6 +623,10 @@
          <with-id>ism-1627</with-id>
          <with-id>ism-1628</with-id>
          <with-id>ism-1782</with-id>
+         <with-id>ism-1800</with-id>
+         <with-id>ism-1304</with-id>
+         <with-id>ism-0534</with-id>
+         <with-id>ism-1801</with-id>
          <with-id>ism-1314</with-id>
          <with-id>ism-0536</with-id>
          <with-id>ism-1315</with-id>
@@ -756,20 +772,20 @@
       <resource uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
          <title>Information Security Manual</title>
          <rlink media-type="application/xml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_catalog.xml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_catalog.json"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_catalog.yaml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="b6c89b8b-9360-4ae4-b392-fff537c6eda2">
          <title>Information Security Manual All Baseline</title>
          <rlink media-type="application/xml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_ALL-baseline_profile.xml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_ALL-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_ALL-baseline_profile.json"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_ALL-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/artifacts/ISM_ALL-baseline_profile.yaml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_ALL-baseline_profile.yaml"/>
       </resource>
       <resource uuid="8a4cd265-98a7-4d6d-b264-614eaf5475ac">
          <title>Information Security Manual All Baseline - latest version</title>
@@ -783,20 +799,20 @@
       <resource uuid="d97f9b45-6ca1-462a-ba81-c9946ef98923">
          <title>Information Security Manual All Baseline - predecessor version</title>
          <rlink media-type="application/xml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/predecessor-version/artifacts/ISM_ALL-baseline_profile.xml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/predecessor-version/artifacts/ISM_ALL-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/predecessor-version/artifacts/ISM_ALL-baseline_profile.json"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/predecessor-version/artifacts/ISM_ALL-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/predecessor-version/artifacts/ISM_ALL-baseline_profile.yaml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/predecessor-version/artifacts/ISM_ALL-baseline_profile.yaml"/>
       </resource>
       <resource uuid="dbe5932d-0b51-4fcc-9fcd-9bcc6a39c036">
          <title>Information Security Manual All Baseline - successor version</title>
          <rlink media-type="application/xml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/successor-version/artifacts/ISM_ALL-baseline_profile.xml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/successor-version/artifacts/ISM_ALL-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/successor-version/artifacts/ISM_ALL-baseline_profile.json"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/successor-version/artifacts/ISM_ALL-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.14/successor-version/artifacts/ISM_ALL-baseline_profile.yaml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2022.09.15/successor-version/artifacts/ISM_ALL-baseline_profile.yaml"/>
       </resource>
    </back-matter>
 </profile>
