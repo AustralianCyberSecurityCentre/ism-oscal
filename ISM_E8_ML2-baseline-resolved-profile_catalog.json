@@ -1,17 +1,17 @@
 {
   "catalog" : {
-    "uuid" : "df5f719f-4190-4490-a019-6aa4522c9e47",
+    "uuid" : "95d4fadc-7fbe-4e02-97ec-7fbe82926ccd",
     "metadata" : {
       "title" : "Information Security Manual Essential Eight Maturity Level Two Baseline",
-      "last-modified" : "2022-09-15T06:59:17.797483Z",
-      "version" : "2022.09.15",
+      "last-modified" : "2022-12-01T00:10:42.752098Z",
+      "version" : "2022.12.1",
       "oscal-version" : "1.0.4",
       "props" : [ {
         "name" : "resolution-tool",
         "value" : "libOSCAL-Java+xslt"
       } ],
       "links" : [ {
-        "href" : "https://www.cyber.gov.au/ism/oscal/v2022.09.15/artifacts/ISM_E8_ML2-baseline_profile.xml",
+        "href" : "https://www.cyber.gov.au/ism/oscal/v2022.12.1/artifacts/ISM_E8_ML2-baseline_profile.xml",
         "rel" : "source-profile"
       } ],
       "roles" : [ {
@@ -66,7 +66,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Privileged accounts are considered to be those which can alter or circumvent a system’s controls. This can also apply to users who have only limited privileges, such as software developers, but can still bypass controls. A privileged account often has the ability to modify system configurations, account privileges, event logs and security configurations for applications.\n\nPrivileged users, and in some cases privileged service accounts, are often targeted by an adversary as they can potentially give full access to systems. As such, ensuring that privileged accounts do not have the ability to access the internet, email and web services minimises opportunities for these accounts to be compromised.\n\nFinally, to assist with incident response activities, it is important that privileged access event logs and privileged account and group change event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected."
+            "prose" : "Privileged accounts are considered to be those which can alter or circumvent a system’s controls. This can also apply to users who have only limited privileges, such as software developers, but can still bypass controls. A privileged account often has the ability to modify system configurations, account privileges, event logs and security configurations for applications.\n\nPrivileged users, and in some cases privileged service accounts, are often targeted by an adversary as they can potentially give full access to systems. As such, ensuring that privileged accounts do not have the ability to access the internet, email and web services minimises opportunities for these accounts to be compromised.\n\nFinally, privileged access event logs, privileged account management event logs and privileged group management logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, privileged access event logs, privileged account management event logs and privileged group management logs should be captured and stored centrally."
           } ],
           "controls" : [ {
             "id" : "ism-1507",
@@ -144,11 +144,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "1"
+              "value" : "2"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -165,7 +165,7 @@
             "parts" : [ {
               "id" : "ism-1509_smt",
               "name" : "statement",
-              "prose" : "Use of privileged access is logged."
+              "prose" : "Privileged access events are logged."
             } ]
           }, {
             "id" : "ism-1650",
@@ -173,15 +173,15 @@
             "title" : "Control: ism-1650",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[05].control[09]"
+              "value" : "catalog[1].group[08].group[2].group[05].control[10]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -198,7 +198,7 @@
             "parts" : [ {
               "id" : "ism-1650_smt",
               "name" : "statement",
-              "prose" : "Changes to privileged accounts and groups are logged."
+              "prose" : "Privileged account and group management events are logged."
             } ]
           } ]
         }, {
@@ -294,7 +294,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on patching or updating operating systems can be found in the system patching section of the\n[Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on end of support for Microsoft Windows operating systems can be found in the ACSC’s\n[End of Support for Microsoft Windows 10](#57d28ba3-6fe4-4c6b-94ad-78a17e3ef995) and\n[End of Support for Microsoft Windows Server 2008 and Windows Server 2008 R2](#644b3aef-d9c4-4480-8563-df83ad361c08) publications.\n\nFurther information on securely configuring Microsoft Windows operating systems can be found in the ACSC’s\n[Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.\n\nFurther information on securely configuring Linux workstations and servers can be found in the ACSC’s\n[Hardening Linux Workstations and Servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.\n\nFurther information on\n[exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.\n\nFurther information on implementing application control can be found in the ACSC’s\n[Implementing Application Control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.\n\nFurther information on Microsoft’s ‘\n[recommended block rules](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3)’ and ‘\n[recommended driver block rules](#4a3a265f-7772-433b-9906-7f784052f28b)’ are available from Microsoft.\n\nFurther information on the use of PowerShell can be found in the ACSC’s\n[Securing PowerShell in the Enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.\n\nFurther information on\n[the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft while further information on obtaining\n[greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from FireEye.\n\nFurther information on independent testing of security products’ ability to\n[detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.\n\nFurther information on independent testing of antivirus software is available from\n[AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and\n[AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).\n\nFurther information on the use of removable media can be found in the media usage section of the\n[Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
+          "prose" : "# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on patching or updating operating systems can be found in the system patching section of the\n[Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on securely configuring Microsoft Windows operating systems can be found in the ACSC’s\n[Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.\n\nFurther information on securely configuring Linux workstations and servers can be found in the ACSC’s\n[Hardening Linux Workstations and Servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.\n\nFurther information on\n[exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.\n\nFurther information on implementing application control can be found in the ACSC’s\n[Implementing Application Control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.\n\nFurther information on Microsoft’s ‘\n[recommended block rules](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3)’ and ‘\n[recommended driver block rules](#4a3a265f-7772-433b-9906-7f784052f28b)’ are available from Microsoft.\n\nFurther information on the use of PowerShell can be found in the ACSC’s\n[Securing PowerShell in the Enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.\n\nFurther information on\n[the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft while further information on obtaining\n[greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from FireEye.\n\nFurther information on independent testing of security products’ ability to\n[detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.\n\nFurther information on independent testing of antivirus software is available from\n[AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and\n[AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).\n\nFurther information on the use of removable media can be found in the media usage section of the\n[Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
         } ],
         "groups" : [ {
           "title" : "Application control",
@@ -304,7 +304,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm), HTML applications (e.g. .hta), control panel applets (e.g. .cpl) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.\n\nIn implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by an adversary.\n\nFinally, to assist with incident response activities, it is important that application control event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected."
+            "prose" : "Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm), HTML applications (e.g. .hta), control panel applets (e.g. .cpl) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.\n\nIn implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by an adversary.\n\nFinally, application control event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, application control event logs should be captured and stored centrally."
           } ],
           "controls" : [ {
             "id" : "ism-0843",
@@ -415,11 +415,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -436,7 +436,7 @@
             "parts" : [ {
               "id" : "ism-1660_smt",
               "name" : "statement",
-              "prose" : "Allowed and blocked executions on workstations are logged."
+              "prose" : "Allowed and blocked execution events on workstations are logged."
             } ]
           }, {
             "id" : "ism-1661",
@@ -448,11 +448,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -469,7 +469,7 @@
             "parts" : [ {
               "id" : "ism-1661_smt",
               "name" : "statement",
-              "prose" : "Allowed and blocked executions on internet-facing servers are logged."
+              "prose" : "Allowed and blocked execution events on internet-facing servers are logged."
             } ]
           } ]
         }, {
@@ -480,7 +480,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "PowerShell is a powerful scripting language developed by Microsoft and, due to its ubiquity and ease with which it can be used to fully control operating systems, is an important part of system administrator toolkits. However, PowerShell can also be a dangerous exploitation tool in the hands of an adversary.\n\nIn order to prevent attacks leveraging security vulnerabilities in earlier PowerShell versions, Windows PowerShell 2.0 should be disabled or removed from operating systems. Additionally, PowerShell’s language mode should be set to Constrained Language Mode to achieve a balance between security and functionality.\n\nFinally, logging and transcription functionality available in PowerShell can provide invaluable information for incident responders. As such, it is important that PowerShell event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected."
+            "prose" : "PowerShell is a powerful scripting language developed by Microsoft and, due to its ubiquity and ease with which it can be used to fully control operating systems, is an important part of system administrator toolkits. However, PowerShell can also be a dangerous exploitation tool in the hands of an adversary.\n\nIn order to prevent attacks leveraging security vulnerabilities in earlier PowerShell versions, Windows PowerShell 2.0 should be disabled or removed from operating systems. Additionally, PowerShell’s language mode should be set to Constrained Language Mode to achieve a balance between security and functionality.\n\nFinally, PowerShell event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, PowerShell event logs should be captured and stored centrally."
           } ],
           "controls" : [ {
             "id" : "ism-1664",
@@ -492,11 +492,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -513,7 +513,7 @@
             "parts" : [ {
               "id" : "ism-1664_smt",
               "name" : "statement",
-              "prose" : "Blocked PowerShell script executions are logged."
+              "prose" : "Blocked PowerShell script execution events are logged."
             } ]
           } ]
         } ]
@@ -543,7 +543,7 @@
             "title" : "Control: ism-1412",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[01]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[02]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -576,7 +576,7 @@
             "title" : "Control: ism-1486",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[04]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[05]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -609,7 +609,7 @@
             "title" : "Control: ism-1485",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[05]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[06]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -642,7 +642,7 @@
             "title" : "Control: ism-1666",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[06]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[07]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -671,7 +671,7 @@
             "title" : "Control: ism-1667",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[07]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[08]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -704,7 +704,7 @@
             "title" : "Control: ism-1668",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[08]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[09]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -737,7 +737,7 @@
             "title" : "Control: ism-1669",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[09]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[10]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -770,7 +770,7 @@
             "title" : "Control: ism-1542",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[10]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[11]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -803,7 +803,7 @@
             "title" : "Control: ism-1670",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[11]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[12]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -836,7 +836,7 @@
             "title" : "Control: ism-1585",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[13]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[14]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -872,7 +872,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed at a later time to automate repetitive tasks. Macros are powerful tools that can be easily created by users to greatly improve their productivity. However, an adversary can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations in order to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do.\n\nFinally, to assist with incident response activities, it is important that Microsoft Office macro event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected."
+            "prose" : "Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed at a later time to automate repetitive tasks. Macros are powerful tools that can be easily created by users to greatly improve their productivity. However, an adversary can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations in order to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do.\n\nFinally, Microsoft Office macro event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, Microsoft Office macro event logs should be captured and stored centrally."
           } ],
           "controls" : [ {
             "id" : "ism-1671",
@@ -1049,11 +1049,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1070,7 +1070,7 @@
             "parts" : [ {
               "id" : "ism-1677_smt",
               "name" : "statement",
-              "prose" : "Allowed and blocked Microsoft Office macro executions are logged."
+              "prose" : "Allowed and blocked Microsoft Office macro execution events are logged."
             } ]
           } ]
         } ]
@@ -1092,7 +1092,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Multi-factor authentication uses two or more authentication factors. This may include:\n\n* something a user knows, such as a memorised secret (i.e. personal identification number, password or passphrase)\n* something a user has, such as a security key, smart card, smartphone or physical one-time password token\n* something a user is, such as a fingerprint pattern or their facial geometry.\n\nNote, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that a user has rather than something a user knows.\n\nPrivileged users, users of remote access solutions and users with access to important data repositories are more likely to be targeted by an adversary due to their access. For this reason, it is especially important that multi-factor authentication is used for these accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing an adversary’s ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.\n\nWhen implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something a user has should be used as part of multi-factor authentication. Furthermore, for increased security, the use of verifier impersonation resistant authentication factors are recommended to protect against real-time phishing attacks.\n\nFinally, to assist with incident response activities, it is important that multi-factor authentication event logs are centrally stored and protected from unauthorised modification and deletion, monitored for signs of compromise, and actioned when cyber security events are detected."
+            "prose" : "Multi-factor authentication uses two or more authentication factors. This may include:\n\n* something a user knows, such as a memorised secret (i.e. personal identification number, password or passphrase)\n* something a user has, such as a security key, smart card, smartphone or one-time password token\n* something a user is, such as a fingerprint pattern or their facial geometry.\n\nNote, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that a user has rather than something a user knows.\n\nPrivileged users, users of remote access solutions and users with access to important data repositories are more likely to be targeted by an adversary due to their access. For this reason, it is especially important that multi-factor authentication is used for these accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing an adversary’s ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.\n\nWhen implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something a user has should be used as part of multi-factor authentication. Furthermore, for increased security, the use of verifier impersonation resistant authentication factors are recommended to protect against real-time phishing attacks.\n\nFinally, multi-factor authentication event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, multi-factor authentication event logs should be captured and stored centrally."
           } ],
           "controls" : [ {
             "id" : "ism-1173",
@@ -1302,11 +1302,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1323,62 +1323,18 @@
             "parts" : [ {
               "id" : "ism-1683_smt",
               "name" : "statement",
-              "prose" : "Successful and unsuccessful multi-factor authentications are logged."
-            } ]
-          } ]
-        }, {
-          "title" : "Setting credentials for service accounts",
-          "props" : [ {
-            "name" : "sort-id",
-            "value" : "catalog[1].group[15].group[3].group[05]"
-          } ],
-          "parts" : [ {
-            "name" : "overview",
-            "prose" : "To provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically manages the credentials. This ensures that service account credentials are not misplaced or forgotten, and that they are automatically changed on a regular basis."
-          } ],
-          "controls" : [ {
-            "id" : "ism-1619",
-            "class" : "ISM-control",
-            "title" : "Control: ism-1619",
-            "props" : [ {
-              "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[3].group[05].control[1]"
-            }, {
-              "name" : "revision",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
-            }, {
-              "name" : "updated",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Oct-20"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ALL"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML2"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML3"
-            } ],
-            "parts" : [ {
-              "id" : "ism-1619_smt",
-              "name" : "statement",
-              "prose" : "Service accounts are created as group Managed Service Accounts."
+              "prose" : "Successful and unsuccessful multi-factor authentication events are logged."
             } ]
           } ]
         }, {
           "title" : "Protecting credentials",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[15].group[3].group[08]"
+            "value" : "catalog[1].group[15].group[3].group[07]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When local administrator accounts use common usernames and credentials, it can allow an adversary that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for local administrator accounts and service accounts are unique, unpredictable and managed.\n\nStoring physical credentials with a system, such as security keys, smart cards, one-time password tokens and written down memorised secrets, increases the likelihood of an adversary gaining access to the system. For example, when passphrases are written down and stuck to a computer monitor, smart cards are left on desks or security keys are left in laptop bags. Furthermore, obscuring credentials as they are entered into systems can assist in protecting them against screen scrapers and shoulder surfers.\n\nIf storing credentials on a system, sufficient protection should be implemented to prevent them from being compromised. For example, credentials can be stored in a password manager or hardware security module, while credentials stored in a database should be hashed, salted and stretched. In addition, Windows Defender Credential Guard and Windows Defender Remote Credential Guard can be enabled to provide additional protection for credentials.\n\nWhen using Microsoft Windows systems, cached credentials are stored in the Security Accounts Manager database and can allow a user to logon to a workstation they have previously logged onto even if the domain is not available. Whilst this functionality may be desirable from an availability perspective, this functionality can be abused by an adversary who can retrieve these cached credentials. To reduce this security risk, cached credentials should be limited to only one previous logon."
+            "prose" : "When local administrator accounts and service accounts use common usernames and credentials, it can allow an adversary that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for local administrator accounts and service accounts are long, unique, unpredictable and managed.\n\nTo provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically ensures that they are long, unique, unpredictable and managed. This ensures that service account credentials are secure, not misplaced or forgotten, and that they are automatically changed on a regular basis. However, in cases where the use of group Managed Service Accounts is not possible, credentials for service accounts should still be unique and unpredictable with a minimum length of 30 characters.\n\nWritten down credentials (e.g. memorised secrets), and dedicated devices that store or generate credentials (e.g. security keys, smart cards and one-time password tokens), when kept together with systems they are used to authenticate to can increase the likelihood of an adversary gaining unauthorised access to systems. For example, when smart cards are left on desks, one-time password tokens are left in laptop bags, security keys are left connected to computers or passphrases are written down and stuck to computer monitors. Furthermore, obscuring credentials as they are entered into systems can assist in protecting them against screen scrapers and shoulder surfers.\n\nIf storing credentials on systems, sufficient protection should be implemented to prevent them from being compromised. For example, credentials can be stored in a password manager or hardware security module, while credentials stored in a database should be hashed, salted and stretched. In addition, Windows Defender Credential Guard and Windows Defender Remote Credential Guard can be enabled to provide additional protection for credentials.\n\nWhen using Microsoft Windows systems, cached credentials are stored in the Security Accounts Manager database and can allow a user to logon to a workstation they have previously logged onto even if the domain is not available. Whilst this functionality may be desirable from an availability perspective, this functionality can be abused by an adversary who can retrieve these cached credentials. To reduce this security risk, cached credentials should be limited to only one previous logon."
           } ],
           "controls" : [ {
             "id" : "ism-1685",
@@ -1386,15 +1342,15 @@
             "title" : "Control: ism-1685",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[3].group[08].control[1]"
+              "value" : "catalog[1].group[15].group[3].group[07].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1411,7 +1367,7 @@
             "parts" : [ {
               "id" : "ism-1685_smt",
               "name" : "statement",
-              "prose" : "Credentials for local administrator accounts and service accounts are unique, unpredictable and managed."
+              "prose" : "Credentials for local administrator accounts and service accounts are long, unique, unpredictable and managed."
             } ]
           } ]
         } ]
@@ -1628,25 +1584,25 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on system patching can be found in the ACSC’s\n[Assessing Security Vulnerabilities and Applying Patches](#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a) publication.\n\nFurther information on patching evaluated products can be found in the evaluated product usage section of the\n[Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437)."
+          "prose" : "# Further information\n\nFurther information on system patching can be found in the ACSC’s\n[Assessing Security Vulnerabilities and Applying Patches](#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a) publication.\n\nFurther information on patching evaluated products can be found in the evaluated product usage section of the\n[Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).\n\nFurther information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in the ACSC’s\n[End of Support for Microsoft Windows 10](#57d28ba3-6fe4-4c6b-94ad-78a17e3ef995) and\n[End of Support for Microsoft Windows Server 2008 and Windows Server 2008 R2](#644b3aef-d9c4-4480-8563-df83ad361c08) publications."
         } ],
         "groups" : [ {
-          "title" : "When to patch security vulnerabilities",
+          "title" : "Scanning for missing patches or updates",
           "props" : [ {
             "name" : "sort-id",
             "value" : "catalog[1].group[16].group[2].group[3]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When patches or updates are released by vendors for security vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by an adversary. For example, by prioritising patches or updates for security vulnerabilities in internet-facing services and their operating systems, especially when exploitation code exists or active exploitation is occurring.\n\nIf no patches or updates are available for security vulnerabilities, mitigation advice from vendors, trusted authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to security vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.\n\nIf a patch or update is released for high assurance ICT equipment, the ACSC will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, the ACSC will provide guidance on the methods and timeframes in which it is to be applied."
+            "prose" : "To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identifies all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at half the frequency in which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release then vulnerability scanning should be undertaken at least weekly."
           } ],
           "controls" : [ {
-            "id" : "ism-1690",
+            "id" : "ism-1807",
             "class" : "ISM-control",
-            "title" : "Control: ism-1690",
+            "title" : "Control: ism-1807",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[3].control[01]"
+              "value" : "catalog[1].group[16].group[2].group[3].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1654,7 +1610,7 @@
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1669,17 +1625,17 @@
               "value" : "ML3"
             } ],
             "parts" : [ {
-              "id" : "ism-1690_smt",
+              "id" : "ism-1807_smt",
               "name" : "statement",
-              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in internet-facing services are applied within two weeks of release, or within 48 hours if an exploit exists."
+              "prose" : "An automated method of asset discovery is used at least fortnightly to support the detection of assets for subsequent vulnerability scanning activities."
             } ]
           }, {
-            "id" : "ism-1691",
+            "id" : "ism-1808",
             "class" : "ISM-control",
-            "title" : "Control: ism-1691",
+            "title" : "Control: ism-1808",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[3].control[02]"
+              "value" : "catalog[1].group[16].group[2].group[3].control[2]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1687,7 +1643,7 @@
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1702,127 +1658,17 @@
               "value" : "ML3"
             } ],
             "parts" : [ {
-              "id" : "ism-1691_smt",
+              "id" : "ism-1808_smt",
               "name" : "statement",
-              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within two weeks of release."
+              "prose" : "A vulnerability scanner with an up-to-date vulnerability database is used for vulnerability scanning activities."
             } ]
           }, {
-            "id" : "ism-1693",
-            "class" : "ISM-control",
-            "title" : "Control: ism-1693",
-            "props" : [ {
-              "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[3].control[04]"
-            }, {
-              "name" : "revision",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
-            }, {
-              "name" : "updated",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ALL"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML2"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML3"
-            } ],
-            "parts" : [ {
-              "id" : "ism-1693_smt",
-              "name" : "statement",
-              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in other applications are applied within one month of release."
-            } ]
-          }, {
-            "id" : "ism-1694",
-            "class" : "ISM-control",
-            "title" : "Control: ism-1694",
-            "props" : [ {
-              "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[3].control[05]"
-            }, {
-              "name" : "revision",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
-            }, {
-              "name" : "updated",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ALL"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML2"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML3"
-            } ],
-            "parts" : [ {
-              "id" : "ism-1694_smt",
-              "name" : "statement",
-              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in operating systems of internet-facing services are applied within two weeks of release, or within 48 hours if an exploit exists."
-            } ]
-          }, {
-            "id" : "ism-1695",
-            "class" : "ISM-control",
-            "title" : "Control: ism-1695",
-            "props" : [ {
-              "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[3].control[06]"
-            }, {
-              "name" : "revision",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
-            }, {
-              "name" : "updated",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ALL"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML2"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML3"
-            } ],
-            "parts" : [ {
-              "id" : "ism-1695_smt",
-              "name" : "statement",
-              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in operating systems of workstations, servers and network devices are applied within two weeks of release."
-            } ]
-          } ]
-        }, {
-          "title" : "Scanning for missing patches or updates",
-          "props" : [ {
-            "name" : "sort-id",
-            "value" : "catalog[1].group[16].group[2].group[4]"
-          } ],
-          "parts" : [ {
-            "name" : "overview",
-            "prose" : "To ensure that patches or updates have been applied to applications, operating systems, drivers and firmware, it is essential that an organisation scan for missing patches or updates on a regular basis using a vulnerability scanner, preferably in an automated manner. Ideally, vulnerability scanning should take place at half the frequency in which patches or updates need to be applied. For example, if patches or updates are applied fortnightly then vulnerability scanning should be undertaken weekly."
-          } ],
-          "controls" : [ {
             "id" : "ism-1698",
             "class" : "ISM-control",
             "title" : "Control: ism-1698",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[4].control[1]"
+              "value" : "catalog[1].group[16].group[2].group[3].control[3]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1855,7 +1701,7 @@
             "title" : "Control: ism-1699",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[4].control[2]"
+              "value" : "catalog[1].group[16].group[2].group[3].control[4]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1888,7 +1734,7 @@
             "title" : "Control: ism-1700",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[4].control[3]"
+              "value" : "catalog[1].group[16].group[2].group[3].control[5]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1921,7 +1767,7 @@
             "title" : "Control: ism-1701",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[4].control[4]"
+              "value" : "catalog[1].group[16].group[2].group[3].control[6]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1954,7 +1800,7 @@
             "title" : "Control: ism-1702",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[2].group[4].control[5]"
+              "value" : "catalog[1].group[16].group[2].group[3].control[7]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1983,6 +1829,182 @@
             } ]
           } ]
         }, {
+          "title" : "When to patch security vulnerabilities",
+          "props" : [ {
+            "name" : "sort-id",
+            "value" : "catalog[1].group[16].group[2].group[4]"
+          } ],
+          "parts" : [ {
+            "name" : "overview",
+            "prose" : "When patches or updates are released by vendors for security vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by an adversary. For example, by prioritising patches or updates for security vulnerabilities in internet-facing services and their operating systems, especially when exploitation code exists or active exploitation is occurring.\n\nIf no patches or updates are available for security vulnerabilities, mitigation advice from vendors, trusted authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to security vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.\n\nIf a patch or update is released for high assurance ICT equipment, the ACSC will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, the ACSC will provide guidance on the methods and timeframes in which it is to be applied."
+          } ],
+          "controls" : [ {
+            "id" : "ism-1690",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1690",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[2].group[4].control[01]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Sep-21"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1690_smt",
+              "name" : "statement",
+              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in internet-facing services are applied within two weeks of release, or within 48 hours if an exploit exists."
+            } ]
+          }, {
+            "id" : "ism-1691",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1691",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[2].group[4].control[02]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Sep-21"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1691_smt",
+              "name" : "statement",
+              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within two weeks of release."
+            } ]
+          }, {
+            "id" : "ism-1693",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1693",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[2].group[4].control[04]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Sep-21"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1693_smt",
+              "name" : "statement",
+              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in other applications are applied within one month of release."
+            } ]
+          }, {
+            "id" : "ism-1694",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1694",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[2].group[4].control[05]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Sep-21"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1694_smt",
+              "name" : "statement",
+              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in operating systems of internet-facing services are applied within two weeks of release, or within 48 hours if an exploit exists."
+            } ]
+          }, {
+            "id" : "ism-1695",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1695",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[2].group[4].control[06]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Sep-21"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1695_smt",
+              "name" : "statement",
+              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in operating systems of workstations, servers and network devices are applied within two weeks of release."
+            } ]
+          } ]
+        }, {
           "title" : "Cessation of support",
           "props" : [ {
             "name" : "sort-id",
@@ -1990,7 +2012,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When applications, operating systems, network devices and other ICT equipment reach their cessation date for support, an organisation will find it increasingly difficult to protect them against security vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and other ICT equipment should be removed or replaced. In planning for such activities, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and other ICT equipment may cease to receive support immediately after newer versions are released."
+            "prose" : "When applications, operating systems, network devices and other ICT equipment reach their cessation date for support, an organisation will find it increasingly difficult to protect them against security vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and other ICT equipment should be removed or replaced.\n\nIn planning for cessation of support, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and other ICT equipment may cease to receive support immediately after newer versions are released.\n\nFinally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or other ICT equipment is not possible, compensating controls should be implemented until such time that they can be removed or replaced."
           } ],
           "controls" : [ {
             "id" : "ism-1704",
@@ -2078,7 +2100,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When performing backups, all important data, software and configuration settings should be captured in a coordinated and resilient manner on a regular basis in accordance with business continuity requirements. This will ensure that should a system fall victim to a ransomware attack, important data will not be lost and, if necessary, systems can be quickly restored."
+            "prose" : "To mitigate the security risk of losing system availability or important data as part of a ransomware attack, or other form of destructive attack, backups of important data, software and configuration settings should be performed and retained with a frequency and retention timeframe in accordance with an organisation’s business continuity requirements. In doing so, backups of all important data, software and configuration settings should be synchronised to enable restoration to a common point in time. Furthermore, it is essential that all backups are retained in a secure and resilient manner. This will ensure that should a system fall victim to a ransomware attack, or other form of destructive attack, important data will not be lost and, if necessary, systems can be quickly restored."
           } ],
           "controls" : [ {
             "id" : "ism-1511",
@@ -2090,11 +2112,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "2"
+              "value" : "3"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2111,23 +2133,89 @@
             "parts" : [ {
               "id" : "ism-1511_smt",
               "name" : "statement",
-              "prose" : "Backups of important data, software and configuration settings are performed and retained in a coordinated and resilient manner in accordance with business continuity requirements."
+              "prose" : "Backups of important data, software and configuration settings are performed and retained with a frequency and retention timeframe in accordance with business continuity requirements."
+            } ]
+          }, {
+            "id" : "ism-1810",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1810",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[3].group[3].control[2]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Dec-22"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1810_smt",
+              "name" : "statement",
+              "prose" : "Backups of important data, software and configuration settings are synchronised to enable restoration to a common point in time."
+            } ]
+          }, {
+            "id" : "ism-1811",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1811",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[3].group[3].control[3]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Dec-22"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1811_smt",
+              "name" : "statement",
+              "prose" : "Backups of important data, software and configuration settings are retained in a secure and resilient manner."
             } ]
           } ]
         }, {
-          "title" : "Backup access and modification",
+          "title" : "Backup access",
           "props" : [ {
             "name" : "sort-id",
             "value" : "catalog[1].group[16].group[3].group[4]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "To mitigate the security risk of backups being accidentally or maliciously modified or deleted, an organisation should ensure that backups are sufficiently protected from unauthorised modification and deletion through the use of appropriate access controls."
+            "prose" : "To mitigate the security risk of unauthorised access to backups, an organisation should ensure that access to backups is controlled through the use of appropriate access controls."
           } ],
           "controls" : [ {
-            "id" : "ism-1705",
+            "id" : "ism-1812",
             "class" : "ISM-control",
-            "title" : "Control: ism-1705",
+            "title" : "Control: ism-1812",
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[16].group[3].group[4].control[1]"
@@ -2138,7 +2226,40 @@
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1812_smt",
+              "name" : "statement",
+              "prose" : "Unprivileged accounts cannot access backups belonging to other accounts."
+            } ]
+          }, {
+            "id" : "ism-1705",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1705",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[3].group[4].control[3]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "1"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2155,15 +2276,26 @@
             "parts" : [ {
               "id" : "ism-1705_smt",
               "name" : "statement",
-              "prose" : "Unprivileged accounts, and privileged accounts (excluding backup administrators) cannot access other account’s backups."
+              "prose" : "Privileged accounts (excluding backup administrator accounts) cannot access backups belonging to other accounts."
             } ]
-          }, {
-            "id" : "ism-1707",
+          } ]
+        }, {
+          "title" : "Backup modification and deletion",
+          "props" : [ {
+            "name" : "sort-id",
+            "value" : "catalog[1].group[16].group[3].group[5]"
+          } ],
+          "parts" : [ {
+            "name" : "overview",
+            "prose" : "To mitigate the security risk of backups being accidentally or maliciously modified or deleted, an organisation should ensure that backups are sufficiently protected from unauthorised modification and deletion through the use of appropriate access controls during their retention period."
+          } ],
+          "controls" : [ {
+            "id" : "ism-1814",
             "class" : "ISM-control",
-            "title" : "Control: ism-1707",
+            "title" : "Control: ism-1814",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[3].group[4].control[3]"
+              "value" : "catalog[1].group[16].group[3].group[5].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2171,7 +2303,40 @@
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1814_smt",
+              "name" : "statement",
+              "prose" : "Unprivileged accounts are prevented from modifying and deleting backups."
+            } ]
+          }, {
+            "id" : "ism-1707",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1707",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[16].group[3].group[5].control[2]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "1"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2188,18 +2353,18 @@
             "parts" : [ {
               "id" : "ism-1707_smt",
               "name" : "statement",
-              "prose" : "Unprivileged accounts, and privileged accounts (excluding backup administrators), are prevented from modifying or deleting backups."
+              "prose" : "Privileged accounts (excluding backup administrator accounts) are prevented from modifying and deleting backups."
             } ]
           } ]
         }, {
           "title" : "Testing restoration of backups",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[16].group[3].group[5]"
+            "value" : "catalog[1].group[16].group[3].group[6]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "To ensure that backups can be restored when the need arises, and that any dependencies can be identified and managed beforehand, it is important that the restoration of systems, software and important data from backups is tested in a coordinated manner as part of disaster recovery exercises."
+            "prose" : "To ensure that backups can be restored when the need arises, and that any dependencies can be identified and managed beforehand, it is important that the restoration of important data, software and configuration settings from backups to a common point in time is tested in a coordinated manner as part of disaster recovery exercises."
           } ],
           "controls" : [ {
             "id" : "ism-1515",
@@ -2207,15 +2372,15 @@
             "title" : "Control: ism-1515",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[16].group[3].group[5].control[1]"
+              "value" : "catalog[1].group[16].group[3].group[6].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "2"
+              "value" : "3"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Dec-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2232,7 +2397,7 @@
             "parts" : [ {
               "id" : "ism-1515_smt",
               "name" : "statement",
-              "prose" : "Restoration of systems, software and important data from backups is tested in a coordinated manner as part of disaster recovery exercises."
+              "prose" : "Restoration of important data, software and configuration settings from backups to a common point of time is tested as part of disaster recovery exercises."
             } ]
           } ]
         } ]
@@ -2453,7 +2618,7 @@
         "uuid" : "f37a4848-0791-4870-b316-5536c2681c28",
         "title" : "Guidelines for Procurement and Outsourcing",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-procurement-outsourcing"
+          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-procurement-and-outsourcing"
         } ]
       }, {
         "uuid" : "f9fb4c57-8c12-4edf-9e34-cb422664aae9",
