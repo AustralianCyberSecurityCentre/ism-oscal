@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 95d4fadc-7fbe-4e02-97ec-7fbe82926ccd
+  uuid: 38bfbf16-f716-4dd0-8b11-8b818876597d
   metadata:
     title: Information Security Manual Essential Eight Maturity Level Two Baseline
-    last-modified: 2022-12-01T00:10:42.752098Z
-    version: 2022.12.1
+    last-modified: 2023-03-03T11:06:36.067346Z
+    version: 2023.03.3
     oscal-version: 1.0.4
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2022.12.1/artifacts/ISM_E8_ML2-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_E8_ML2-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -66,6 +66,9 @@ catalog:
 
           Further information on restricting the use of privileged accounts can be found in the ACSC’s
           [Restricting Administrative Privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.
+
+          Further information on administering systems and applications can be found in the system administration section of the
+          [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
           Further information on event logging can be found in the event logging and monitoring section of the
           [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
@@ -138,7 +141,7 @@ catalog:
           title: "Control: ism-1509"
           props:
           - name: sort-id
-            value: "catalog[1].group[08].group[2].group[05].control[08]"
+            value: "catalog[1].group[08].group[2].group[05].control[09]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "2"
@@ -163,7 +166,7 @@ catalog:
           title: "Control: ism-1650"
           props:
           - name: sort-id
-            value: "catalog[1].group[08].group[2].group[05].control[10]"
+            value: "catalog[1].group[08].group[2].group[05].control[11]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "1"
@@ -473,20 +476,26 @@ catalog:
           - id: ism-1664_smt
             name: statement
             prose: Blocked PowerShell script execution events are logged.
-    - title: Application hardening
+    - title: User application hardening
       props:
       - name: sort-id
         value: "catalog[1].group[15].group[2]"
       parts:
       - name: overview
         prose: |-
+          # User applications
+
+          This section is applicable to applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) software, and security products (e.g. antivirus software, device access control software, HIPS and software firewalls). Information on server applications can be found in the server application hardening section of these guidelines.
+
           # Further information
 
           Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
           [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
-          Further information on patching or updating applications can be found in the system patching section of the
+          Further information on patching or updating user applications can be found in the system patching section of the
           [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+
+          Further information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.
 
           Further information on securely configuring Microsoft Office can be found in the ACSC’s
           [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.
@@ -497,13 +506,13 @@ catalog:
           Further information on event logging can be found in the event logging and monitoring section of the
           [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
       groups:
-      - title: Hardening application configurations
+      - title: Hardening user application configurations
         props:
         - name: sort-id
           value: "catalog[1].group[15].group[2].group[3]"
         parts:
         - name: overview
-          prose: "When applications are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers, email clients, PDF software and security products as such applications are routinely targeted for exploitation. Many configuration settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, the ACSC and vendors often produce guidance to assist in hardening the configuration of such applications. Note, however, in situations where ACSC and vendor guidance conflicts, preference should be given to implementing ACSC hardening guidance."
+          prose: "When user applications are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many configuration settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, the ACSC and vendors often produce guidance to assist in hardening the configuration of these applications. Note, however, in situations where ACSC and vendor guidance conflicts, preference should be given to implementing ACSC hardening guidance."
         controls:
         - id: ism-1412
           class: ISM-control
@@ -530,84 +539,12 @@ catalog:
           - id: ism-1412_smt
             name: statement
             prose: "ACSC or vendor hardening guidance for web browsers, Microsoft Office and PDF software is implemented."
-        - id: ism-1486
-          class: ISM-control
-          title: "Control: ism-1486"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[05]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Sep-21
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ML3
-          parts:
-          - id: ism-1486_smt
-            name: statement
-            prose: Web browsers do not process Java from the internet.
-        - id: ism-1485
-          class: ISM-control
-          title: "Control: ism-1485"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[06]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Sep-21
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ML3
-          parts:
-          - id: ism-1485_smt
-            name: statement
-            prose: Web browsers do not process web advertisements from the internet.
-        - id: ism-1666
-          class: ISM-control
-          title: "Control: ism-1666"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[07]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "0"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Sep-21
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ALL
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: ML2
-          parts:
-          - id: ism-1666_smt
-            name: statement
-            prose: Internet Explorer 11 does not process content from the internet.
         - id: ism-1667
           class: ISM-control
           title: "Control: ism-1667"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[08]"
+            value: "catalog[1].group[15].group[2].group[3].control[05]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -632,7 +569,7 @@ catalog:
           title: "Control: ism-1668"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[09]"
+            value: "catalog[1].group[15].group[2].group[3].control[06]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -657,7 +594,7 @@ catalog:
           title: "Control: ism-1669"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[10]"
+            value: "catalog[1].group[15].group[2].group[3].control[07]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -682,7 +619,7 @@ catalog:
           title: "Control: ism-1542"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[11]"
+            value: "catalog[1].group[15].group[2].group[3].control[08]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -702,12 +639,134 @@ catalog:
           - id: ism-1542_smt
             name: statement
             prose: Microsoft Office is configured to prevent activation of Object Linking and Embedding packages.
+        - id: ism-1823
+          class: ISM-control
+          title: "Control: ism-1823"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[2].group[3].control[09]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Mar-23
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML3
+          parts:
+          - id: ism-1823_smt
+            name: statement
+            prose: Office productivity suite security settings cannot be changed by users.
+        - id: ism-1486
+          class: ISM-control
+          title: "Control: ism-1486"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[2].group[3].control[10]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "1"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-21
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML3
+          parts:
+          - id: ism-1486_smt
+            name: statement
+            prose: Web browsers do not process Java from the internet.
+        - id: ism-1485
+          class: ISM-control
+          title: "Control: ism-1485"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[2].group[3].control[11]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "1"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-21
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML3
+          parts:
+          - id: ism-1485_smt
+            name: statement
+            prose: Web browsers do not process web advertisements from the internet.
+        - id: ism-1666
+          class: ISM-control
+          title: "Control: ism-1666"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[2].group[3].control[12]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Sep-21
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML2
+          parts:
+          - id: ism-1666_smt
+            name: statement
+            prose: Internet Explorer 11 does not process content from the internet.
+        - id: ism-1585
+          class: ISM-control
+          title: "Control: ism-1585"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[2].group[3].control[13]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "2"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: Mar-23
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ALL
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: ML3
+          parts:
+          - id: ism-1585_smt
+            name: statement
+            prose: Web browser security settings cannot be changed by users.
         - id: ism-1670
           class: ISM-control
           title: "Control: ism-1670"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[12]"
+            value: "catalog[1].group[15].group[2].group[3].control[14]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -727,18 +786,18 @@ catalog:
           - id: ism-1670_smt
             name: statement
             prose: PDF software is blocked from creating child processes.
-        - id: ism-1585
+        - id: ism-1824
           class: ISM-control
-          title: "Control: ism-1585"
+          title: "Control: ism-1824"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[14]"
+            value: "catalog[1].group[15].group[2].group[3].control[15]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: "1"
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
-            value: Sep-21
+            value: Mar-23
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ALL
@@ -749,9 +808,9 @@ catalog:
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: ML3
           parts:
-          - id: ism-1585_smt
+          - id: ism-1824_smt
             name: statement
-            prose: "Web browser, Microsoft Office and PDF software security settings cannot be changed by users."
+            prose: PDF software security settings cannot be changed by users.
       - title: Microsoft Office macros
         props:
         - name: sort-id
@@ -916,7 +975,7 @@ catalog:
     - title: Authentication hardening
       props:
       - name: sort-id
-        value: "catalog[1].group[15].group[3]"
+        value: "catalog[1].group[15].group[4]"
       parts:
       - name: overview
         prose: |-
@@ -939,6 +998,11 @@ catalog:
           [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a
           [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.
 
+          Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s
+          [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679),
+          [AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for
+          [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.
+
           Further information on
           [group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.
 
@@ -951,7 +1015,7 @@ catalog:
       - title: Multi-factor authentication
         props:
         - name: sort-id
-          value: "catalog[1].group[15].group[3].group[02]"
+          value: "catalog[1].group[15].group[4].group[03]"
         parts:
         - name: overview
           prose: |-
@@ -965,7 +1029,7 @@ catalog:
 
             Privileged users, users of remote access solutions and users with access to important data repositories are more likely to be targeted by an adversary due to their access. For this reason, it is especially important that multi-factor authentication is used for these accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing an adversary’s ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.
 
-            When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something a user has should be used as part of multi-factor authentication. Furthermore, for increased security, the use of verifier impersonation resistant authentication factors are recommended to protect against real-time phishing attacks.
+            When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something a user has should be used as part of multi-factor authentication. Furthermore, for increased security, the use of phishing-resistant (also known as verifier impersonation resistant) multi-factor authentication is recommended to protect against real-time phishing attacks.
 
             Finally, multi-factor authentication event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, multi-factor authentication event logs should be captured and stored centrally.
         controls:
@@ -974,7 +1038,7 @@ catalog:
           title: "Control: ism-1173"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[02].control[02]"
+            value: "catalog[1].group[15].group[4].group[03].control[02]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "4"
@@ -999,7 +1063,7 @@ catalog:
           title: "Control: ism-1504"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[02].control[03]"
+            value: "catalog[1].group[15].group[4].group[03].control[03]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "1"
@@ -1024,7 +1088,7 @@ catalog:
           title: "Control: ism-1679"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[02].control[04]"
+            value: "catalog[1].group[15].group[4].group[03].control[04]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -1049,7 +1113,7 @@ catalog:
           title: "Control: ism-1680"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[02].control[05]"
+            value: "catalog[1].group[15].group[4].group[03].control[05]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -1074,7 +1138,7 @@ catalog:
           title: "Control: ism-1681"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[02].control[06]"
+            value: "catalog[1].group[15].group[4].group[03].control[06]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "0"
@@ -1099,7 +1163,7 @@ catalog:
           title: "Control: ism-1401"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[02].control[08]"
+            value: "catalog[1].group[15].group[4].group[03].control[08]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "5"
@@ -1124,7 +1188,7 @@ catalog:
           title: "Control: ism-1683"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[02].control[13]"
+            value: "catalog[1].group[15].group[4].group[03].control[13]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "1"
@@ -1144,29 +1208,23 @@ catalog:
           - id: ism-1683_smt
             name: statement
             prose: Successful and unsuccessful multi-factor authentication events are logged.
-      - title: Protecting credentials
+      - title: Setting credentials for local administrator accounts and service accounts
         props:
         - name: sort-id
-          value: "catalog[1].group[15].group[3].group[07]"
+          value: "catalog[1].group[15].group[4].group[06]"
         parts:
         - name: overview
           prose: |-
             When local administrator accounts and service accounts use common usernames and credentials, it can allow an adversary that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for local administrator accounts and service accounts are long, unique, unpredictable and managed.
 
             To provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically ensures that they are long, unique, unpredictable and managed. This ensures that service account credentials are secure, not misplaced or forgotten, and that they are automatically changed on a regular basis. However, in cases where the use of group Managed Service Accounts is not possible, credentials for service accounts should still be unique and unpredictable with a minimum length of 30 characters.
-
-            Written down credentials (e.g. memorised secrets), and dedicated devices that store or generate credentials (e.g. security keys, smart cards and one-time password tokens), when kept together with systems they are used to authenticate to can increase the likelihood of an adversary gaining unauthorised access to systems. For example, when smart cards are left on desks, one-time password tokens are left in laptop bags, security keys are left connected to computers or passphrases are written down and stuck to computer monitors. Furthermore, obscuring credentials as they are entered into systems can assist in protecting them against screen scrapers and shoulder surfers.
-
-            If storing credentials on systems, sufficient protection should be implemented to prevent them from being compromised. For example, credentials can be stored in a password manager or hardware security module, while credentials stored in a database should be hashed, salted and stretched. In addition, Windows Defender Credential Guard and Windows Defender Remote Credential Guard can be enabled to provide additional protection for credentials.
-
-            When using Microsoft Windows systems, cached credentials are stored in the Security Accounts Manager database and can allow a user to logon to a workstation they have previously logged onto even if the domain is not available. Whilst this functionality may be desirable from an availability perspective, this functionality can be abused by an adversary who can retrieve these cached credentials. To reduce this security risk, cached credentials should be limited to only one previous logon.
         controls:
         - id: ism-1685
           class: ISM-control
           title: "Control: ism-1685"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[3].group[07].control[1]"
+            value: "catalog[1].group[15].group[4].group[06].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: "1"
@@ -1207,7 +1265,7 @@ catalog:
           Further information on system administration can be found in the Australian Cyber Security Centre (ACSC)’s
           [Secure Administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.
 
-          Further information on the use of privileged accounts can be found in the access to systems and their resources section of the
+          Further information on the use of privileged accounts for system administration activities can be found in the access to systems and their resources section of the
           [Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
 
           Further information on multi-factor authentication can be found in the authentication hardening section of the
@@ -1379,8 +1437,13 @@ catalog:
           [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
 
           Further information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in the ACSC’s
-          [End of Support for Microsoft Windows 10](#57d28ba3-6fe4-4c6b-94ad-78a17e3ef995) and
-          [End of Support for Microsoft Windows Server 2008 and Windows Server 2008 R2](#644b3aef-d9c4-4480-8563-df83ad361c08) publications.
+          [End of Support for Microsoft Windows and Microsoft Windows Server](#d36ce452-ec21-4b05-89c1-f29a444a3dca) publication.
+
+          Further information on hardening user applications can be found in the user application hardening section of the
+          [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
+
+          Further information on hardening server applications can be found in the server application hardening section of the
+          [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
       groups:
       - title: Scanning for missing patches or updates
         props:
@@ -1776,7 +1839,12 @@ catalog:
           # Further information
 
           Further information on
-          [preserving digital information](#3ae678b7-dcb5-4ab5-a46e-251900f39425) is available from the National Archives of Australia.
+          [digital preservation planning](#53da8dba-961e-4222-94e0-68cb9510384d) and
+          [data retention](#348be728-4459-4447-990e-1dfb3049c71f) is available from the National Archives of Australia.
+
+          Further information on the collection and retention of personal information can be found in the Office of the Australian Information Commissioner’s
+          [Australian Privacy Principles](#bac2c6f2-9356-46d2-b7c4-9af7393008df) and the associated
+          [Australian Privacy Principles guidelines](#1e4a57a2-2832-441d-8ea4-12a98d2be417).
 
           Further information on business continuity and disaster recovery planning can be found in the Chief Information Security Officer section of the
           [Guidelines for Cyber Security Roles](#626dab35-81ab-45fe-8c12-0faff1c23c07).
@@ -2031,14 +2099,18 @@ catalog:
       title: AV-TEST
       rlinks:
       - href: https://www.av-test.org/en/
+    - uuid: 1e4a57a2-2832-441d-8ea4-12a98d2be417
+      title: Australian Privacy Principles guidelines
+      rlinks:
+      - href: https://www.oaic.gov.au/privacy/australian-privacy-principles-guidelines
+    - uuid: 348be728-4459-4447-990e-1dfb3049c71f
+      title: data retention
+      rlinks:
+      - href: https://www.naa.gov.au/information-management/records-authorities/types-records-authorities/afda-express-version-2-functions
     - uuid: 3a1a00f6-2f56-4d04-b99d-6f1682b95a98
       title: detect or prevent various stages of network intrusions
       rlinks:
       - href: https://attackevals.mitre-engenuity.org/
-    - uuid: 3ae678b7-dcb5-4ab5-a46e-251900f39425
-      title: preserving digital information
-      rlinks:
-      - href: https://www.naa.gov.au/information-management/store-and-preserve-information/preserving-information/preserving-digital-information/digital-preservation-planning
     - uuid: 3ccea9a8-a728-4f5b-a0a8-43f2f206f76b
       title: Restricting Administrative Privileges
       rlinks:
@@ -2047,18 +2119,22 @@ catalog:
       title: Access to information
       rlinks:
       - href: https://www.protectivesecurity.gov.au/publications-library/policy-9-access-information
+    - uuid: 3e5a98e5-9219-46c8-81c2-e3a4d13407ce
+      title: AD Forest Recovery - Resetting the krbtgt password
+      rlinks:
+      - href: https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/ad-forest-recovery-resetting-the-krbtgt-password
     - uuid: 4a3a265f-7772-433b-9906-7f784052f28b
       title: recommended driver block rules
       rlinks:
-      - href: https://docs.microsoft.com/en-au/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules
+      - href: https://learn.microsoft.com/en-au/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules
     - uuid: 4eeff329-cea0-4baf-a80b-8b0b76436075
       title: Implementing Application Control
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control
-    - uuid: 57d28ba3-6fe4-4c6b-94ad-78a17e3ef995
-      title: End of Support for Microsoft Windows 10
+    - uuid: 53da8dba-961e-4222-94e0-68cb9510384d
+      title: digital preservation planning
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/end-support-microsoft-windows-10
+      - href: https://www.naa.gov.au/information-management/information-management-legislation/digital-preservation-planning
     - uuid: 58282062-5c17-476a-98b1-105a627cd28d
       title: randomly generating passphrases
       rlinks:
@@ -2070,15 +2146,11 @@ catalog:
     - uuid: 5a2ed3ef-afcc-485e-8014-5107e9ed97e3
       title: recommended block rules
       rlinks:
-      - href: https://docs.microsoft.com/en-au/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules
+      - href: https://learn.microsoft.com/en-au/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules
     - uuid: 626dab35-81ab-45fe-8c12-0faff1c23c07
       title: Guidelines for Cyber Security Roles
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-cyber-security-roles
-    - uuid: 644b3aef-d9c4-4480-8563-df83ad361c08
-      title: End of Support for Microsoft Windows Server 2008 and Windows Server 2008 R2
-      rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/end-support-microsoft-windows-server-2008-and-windows-server-2008-r2
     - uuid: 6e801c68-61f6-4c28-bf72-df91f7e232cc
       title: Hardening Microsoft Windows 10 version 21H1 Workstations
       rlinks:
@@ -2110,7 +2182,7 @@ catalog:
     - uuid: 91b92563-d991-40fa-9adc-548df9f6c496
       title: group Managed Service Accounts
       rlinks:
-      - href: https://docs.microsoft.com/en-au/azure/active-directory/fundamentals/service-accounts-group-managed
+      - href: https://learn.microsoft.com/en-au/azure/active-directory/fundamentals/service-accounts-group-managed
     - uuid: 92679127-f61d-486a-a93e-df2a26dfb07a
       title: Protective Security Policy Framework
       rlinks:
@@ -2119,14 +2191,22 @@ catalog:
       title: Guidelines for Evaluated Products
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-evaluated-products
+    - uuid: ae426d0a-adb6-43b8-a463-faa33e83b679
+      title: Active Directory accounts
+      rlinks:
+      - href: https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/understand-default-user-accounts
     - uuid: af0810aa-3486-4ca6-a48a-fad8ce9ac193
       title: greater visibility through PowerShell logging
       rlinks:
-      - href: https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html
+      - href: https://www.mandiant.com/resources/blog/greater-visibility
     - uuid: b594c9c0-b42f-4f06-b643-38023275a5c7
       title: Guidelines for Media
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-media
+    - uuid: bac2c6f2-9356-46d2-b7c4-9af7393008df
+      title: Australian Privacy Principles
+      rlinks:
+      - href: https://www.oaic.gov.au/privacy/australian-privacy-principles
     - uuid: c6ca6620-ccd5-4c5d-b97c-9d92f1162948
       title: Guidelines for System Management
       rlinks:
@@ -2138,7 +2218,11 @@ catalog:
     - uuid: d0df96bb-7236-4784-8f54-2cb6335ad228
       title: exploit protection functionality
       rlinks:
-      - href: https://docs.microsoft.com/en-au/microsoft-365/security/defender-endpoint/exploit-protection?view=o365-worldwide
+      - href: https://learn.microsoft.com/en-au/microsoft-365/security/defender-endpoint/exploit-protection?view=o365-worldwide
+    - uuid: d36ce452-ec21-4b05-89c1-f29a444a3dca
+      title: End of Support for Microsoft Windows and Microsoft Windows Server
+      rlinks:
+      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/end-support-microsoft-windows-and-microsoft-windows-server
     - uuid: de7525f3-a466-40a5-abdd-3ae24a6d1b44
       title: Guidelines for System Hardening
       rlinks:
@@ -2159,6 +2243,10 @@ catalog:
       title: Guidelines for Procurement and Outsourcing
       rlinks:
       - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-procurement-and-outsourcing
+    - uuid: f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b
+      title: changing credentials for this service account
+      rlinks:
+      - href: https://www.microsoft.com/en-us/security/blog/2015/02/11/krbtgt-account-password-reset-scripts-now-available-for-customers/
     - uuid: f9fb4c57-8c12-4edf-9e34-cb422664aae9
       title: "Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2"
       rlinks:
