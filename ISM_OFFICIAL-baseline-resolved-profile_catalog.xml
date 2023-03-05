@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-          uuid="9f2002a1-83cb-480b-8470-14f0422e3af9">
+          uuid="4ddef0cb-878d-445b-a74f-11423bfd1cc6">
    <metadata>
       <title>Information Security Manual OFFICIAL Baseline</title>
-      <last-modified>2023-03-03T11:06:41.243118Z</last-modified>
-      <version>2023.03.3</version>
+      <last-modified>2023-03-05T02:56:46.449141Z</last-modified>
+      <version>2023.03.5</version>
       <oscal-version>1.0.4</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-             href="https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_OFFICIAL-baseline_profile.xml"/>
+             href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_OFFICIAL-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -10160,6 +10160,9 @@
                <title>Control: ism-1827</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[5].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10174,6 +10177,9 @@
                <title>Control: ism-1828</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[5].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10188,6 +10194,9 @@
                <title>Control: ism-1829</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[5].control[3]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10202,6 +10211,9 @@
                <title>Control: ism-1830</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[5].control[4]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10240,6 +10252,9 @@
                <title>Control: ism-1832</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[01]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10254,6 +10269,9 @@
                <title>Control: ism-1833</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[02]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10268,6 +10286,9 @@
                <title>Control: ism-1834</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[03]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10282,6 +10303,9 @@
                <title>Control: ism-1835</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[04]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10296,6 +10320,9 @@
                <title>Control: ism-1836</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[05]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10310,6 +10337,9 @@
                <title>Control: ism-1837</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[06]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10324,6 +10354,9 @@
                <title>Control: ism-1838</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[07]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10338,6 +10371,9 @@
                <title>Control: ism-1839</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[08]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10352,6 +10388,9 @@
                <title>Control: ism-1840</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[09]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10366,6 +10405,9 @@
                <title>Control: ism-1841</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[10]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10380,6 +10422,9 @@
                <title>Control: ism-1842</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[11]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10394,6 +10439,9 @@
                <title>Control: ism-1843</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[12]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10408,6 +10456,9 @@
                <title>Control: ism-1844</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[6].control[13]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10446,6 +10497,9 @@
                <title>Control: ism-1845</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[7].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -10460,6 +10514,9 @@
                <title>Control: ism-1846</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[3].group[7].control[3]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>
@@ -11095,6 +11152,9 @@
                <title>Control: ism-1847</title>
                <prop name="sort-id"
                       value="catalog[1].group[15].group[4].group[07].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="Mar-23"/>

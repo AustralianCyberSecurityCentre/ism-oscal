@@ -3,9 +3,9 @@ profile:
   uuid: cfc0b7bb-fe69-4e51-9beb-709c8eef3096
   metadata:
     title: Information Security Manual OFFICIAL Baseline
-    published: 2023-03-03T10:53:31.88948Z
-    last-modified: 2023-03-03T10:53:31.88948Z
-    version: 2023.03.3
+    published: 2023-03-05T02:48:01.678173Z
+    last-modified: 2023-03-05T02:48:01.678173Z
+    version: 2023.03.5
     oscal-version: 1.0.4
     links:
     - href: '#bc354597-fe75-439d-ad87-b9f3631d0d34'
@@ -853,20 +853,20 @@ profile:
     - uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
       title: Information Security Manual
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: bc354597-fe75-439d-ad87-b9f3631d0d34
       title: Information Security Manual OFFICIAL Baseline
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_OFFICIAL-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_OFFICIAL-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_OFFICIAL-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_OFFICIAL-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_OFFICIAL-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_OFFICIAL-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 7d306e56-b336-4286-899c-f19746bd975b
       title: Information Security Manual OFFICIAL Baseline - latest version
@@ -880,18 +880,18 @@ profile:
     - uuid: be77a964-b889-4dde-a476-391d85dacf2d
       title: Information Security Manual OFFICIAL Baseline - predecessor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/predecessor-version/artifacts/ISM_OFFICIAL-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_OFFICIAL-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/predecessor-version/artifacts/ISM_OFFICIAL-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_OFFICIAL-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/predecessor-version/artifacts/ISM_OFFICIAL-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_OFFICIAL-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 4a1961c7-cd9f-4318-896b-e183afab99e6
       title: Information Security Manual OFFICIAL Baseline - successor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/successor-version/artifacts/ISM_OFFICIAL-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_OFFICIAL-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/successor-version/artifacts/ISM_OFFICIAL-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_OFFICIAL-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/successor-version/artifacts/ISM_OFFICIAL-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_OFFICIAL-baseline_profile.yaml
         media-type: application/oscal+yaml

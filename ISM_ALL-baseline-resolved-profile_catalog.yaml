@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: ea29e904-8944-4b7f-aba3-93ae54e75423
+  uuid: 21c64dbf-4d07-4235-819d-3a17fa91fe46
   metadata:
     title: Information Security Manual All Baseline
-    last-modified: 2023-03-03T11:06:38.726972Z
-    version: 2023.03.3
+    last-modified: 2023-03-05T02:56:43.818691Z
+    version: 2023.03.5
     oscal-version: 1.0.4
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_ALL-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_ALL-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -10733,6 +10733,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[5].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10749,6 +10752,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[5].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10765,6 +10771,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[5].control[3]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10781,6 +10790,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[5].control[4]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10824,6 +10836,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[01]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10840,6 +10855,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[02]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10856,6 +10874,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[03]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10872,6 +10893,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[04]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10888,6 +10912,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[05]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10904,6 +10931,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[06]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10920,6 +10950,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[07]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10936,6 +10969,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[08]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10952,6 +10988,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[09]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10968,6 +11007,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[10]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -10984,6 +11026,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[11]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -11000,6 +11045,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[12]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -11016,6 +11064,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[6].control[13]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -11059,6 +11110,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[7].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -11075,6 +11129,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[3].group[7].control[3]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23
@@ -11785,6 +11842,9 @@ catalog:
           props:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[07].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/1.0
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/1.0
             value: Mar-23

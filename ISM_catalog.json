@@ -3,9 +3,9 @@
     "uuid" : "abea4b79-3bd3-4f68-a333-85cbebb5100d",
     "metadata" : {
       "title" : "Information Security Manual",
-      "published" : "2023-03-03T10:53:31.88948Z",
-      "last-modified" : "2023-03-03T10:53:31.88948Z",
-      "version" : "2023.03.3",
+      "published" : "2023-03-05T02:48:01.678173Z",
+      "last-modified" : "2023-03-05T02:48:01.678173Z",
+      "version" : "2023.03.5",
       "oscal-version" : "1.0.4",
       "links" : [ {
         "href" : "#6455b62e-c7af-4987-b87d-60b9575a59ff",
@@ -15613,6 +15613,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[5].control[1]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15633,6 +15637,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[5].control[2]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -15655,6 +15663,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[5].control[3]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15675,6 +15687,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[5].control[4]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -15733,6 +15749,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[01]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15753,6 +15773,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[02]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -15775,6 +15799,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[03]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15795,6 +15823,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[04]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -15817,6 +15849,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[05]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15837,6 +15873,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[06]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -15859,6 +15899,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[07]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15879,6 +15923,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[08]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -15901,6 +15949,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[09]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15921,6 +15973,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[10]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -15943,6 +15999,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[11]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15964,6 +16024,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[12]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -15984,6 +16048,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[6].control[13]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -16042,6 +16110,10 @@
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[7].control[2]"
             }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
               "value" : "Mar-23"
@@ -16062,6 +16134,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[3].group[7].control[3]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -17022,6 +17098,10 @@
             "props" : [ {
               "name" : "sort-id",
               "value" : "catalog[1].group[15].group[4].group[07].control[2]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -29066,13 +29146,13 @@
         "uuid" : "16c8c2ed-5a37-40ac-a29e-3da92ad398dd",
         "title" : "Information Security Manual OSCAL catalog - successor version",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/successor-version/artifacts/ISM_catalog.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_catalog.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/successor-version/artifacts/ISM_catalog.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_catalog.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/successor-version/artifacts/ISM_catalog.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_catalog.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
@@ -29146,13 +29226,13 @@
         "uuid" : "22ed0344-d91c-43e9-80e0-adfed1aa0851",
         "title" : "Information Security Manual OSCAL catalog - predecessor version",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/predecessor-version/artifacts/ISM_catalog.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_catalog.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/predecessor-version/artifacts/ISM_catalog.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_catalog.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/predecessor-version/artifacts/ISM_catalog.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_catalog.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
@@ -29447,13 +29527,13 @@
         "uuid" : "6455b62e-c7af-4987-b87d-60b9575a59ff",
         "title" : "Information Security Manual OSCAL catalog",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_catalog.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_catalog.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_catalog.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {

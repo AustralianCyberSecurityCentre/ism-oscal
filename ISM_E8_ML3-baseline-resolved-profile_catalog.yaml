@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 086db788-11cf-4ea8-9417-43395b22f274
+  uuid: 9a7dea59-17cb-4aa4-a685-8fe2c0f56943
   metadata:
     title: Information Security Manual Essential Eight Maturity Level Three Baseline
-    last-modified: 2023-03-03T11:06:43.290096Z
-    version: 2023.03.3
+    last-modified: 2023-03-05T02:56:48.543291Z
+    version: 2023.03.5
     oscal-version: 1.0.4
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2023.03.3/artifacts/ISM_E8_ML3-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_E8_ML3-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
