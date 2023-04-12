@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: cf0456f4-9221-439a-a9d3-73656a421657
+  uuid: 1fc78072-7312-4fc8-b24e-3ee90992aa0c
   metadata:
     title: Information Security Manual Essential Eight Maturity Level Two Baseline
-    last-modified: 2023-03-05T02:56:41.175897Z
-    version: 2023.03.5
+    last-modified: 2023-04-12T04:35:46.459987Z
+    version: 2023.04.12
     oscal-version: 1.0.4
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_E8_ML2-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_E8_ML2-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -285,7 +285,7 @@ catalog:
 
           Further information on
           [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft while further information on obtaining
-          [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from FireEye.
+          [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Mandiant.
 
           Further information on independent testing of security products’ ability to
           [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.
@@ -999,7 +999,7 @@ catalog:
           [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.
 
           Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s
-          [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679),
+          [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and
           [AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for
           [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.
 
@@ -1107,7 +1107,7 @@ catalog:
           parts:
           - id: ism-1679_smt
             name: statement
-            prose: "Multi-factor authentication is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation's sensitive data."
+            prose: "Multi-factor authentication is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation’s sensitive data."
         - id: ism-1680
           class: ISM-control
           title: "Control: ism-1680"
@@ -1132,7 +1132,7 @@ catalog:
           parts:
           - id: ism-1680_smt
             name: statement
-            prose: "Multi-factor authentication (where available) is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation's non-sensitive data."
+            prose: "Multi-factor authentication (where available) is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation’s non-sensitive data."
         - id: ism-1681
           class: ISM-control
           title: "Control: ism-1681"
@@ -2086,7 +2086,7 @@ catalog:
     - uuid: 02fb4cb5-e4c4-4097-97a2-f1b6aa04131a
       title: Assessing Security Vulnerabilities and Applying Patches
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/assessing-security-vulnerabilities-and-applying-patches
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/assessing-security-vulnerabilities-and-applying-patches
     - uuid: 0508be6f-cb97-44da-b212-42416a0048b0
       title: random dice roller
       rlinks:
@@ -2094,7 +2094,7 @@ catalog:
     - uuid: 131048c7-a2e7-4da3-9257-7a058b06c1f8
       title: Secure Administration
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/secure-administration
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/secure-administration
     - uuid: 18203e18-2aca-492e-be44-770b2f47242f
       title: AV-TEST
       rlinks:
@@ -2114,7 +2114,7 @@ catalog:
     - uuid: 3ccea9a8-a728-4f5b-a0a8-43f2f206f76b
       title: Restricting Administrative Privileges
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/restricting-administrative-privileges
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/restricting-administrative-privileges
     - uuid: 3e4cd135-5fa3-4a1e-a192-1793ff42067c
       title: Access to information
       rlinks:
@@ -2130,7 +2130,7 @@ catalog:
     - uuid: 4eeff329-cea0-4baf-a80b-8b0b76436075
       title: Implementing Application Control
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-application-control
     - uuid: 53da8dba-961e-4222-94e0-68cb9510384d
       title: digital preservation planning
       rlinks:
@@ -2142,7 +2142,7 @@ catalog:
     - uuid: 58c9abfb-58fe-416e-a279-dfbfe123c99f
       title: "Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016"
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016
     - uuid: 5a2ed3ef-afcc-485e-8014-5107e9ed97e3
       title: recommended block rules
       rlinks:
@@ -2150,15 +2150,15 @@ catalog:
     - uuid: 626dab35-81ab-45fe-8c12-0faff1c23c07
       title: Guidelines for Cyber Security Roles
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-cyber-security-roles
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cyber-security-roles
     - uuid: 6e801c68-61f6-4c28-bf72-df91f7e232cc
       title: Hardening Microsoft Windows 10 version 21H1 Workstations
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21H1-workstations
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-version-21h1-workstations
     - uuid: 7d16ae67-87a7-4861-b939-e13ec279b5a2
       title: Guidelines for Personnel Security
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-personnel-security
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-personnel-security
     - uuid: 7d22400c-ddef-4cbb-90f1-7502dc569e5b
       title: the use of PowerShell by blue teams
       rlinks:
@@ -2166,19 +2166,19 @@ catalog:
     - uuid: 8132c47e-a2dc-4dd9-81d6-38db96e5cec6
       title: Hardening Linux Workstations and Servers
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-linux-workstations-and-servers
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers
     - uuid: 824e4353-a9ae-4869-88fb-cb0675dc5d1c
       title: Mitigating the Use of Stolen Credentials
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/mitigating-use-stolen-credentials
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/mitigating-use-stolen-credentials
     - uuid: 83e3a9b1-5057-4531-91dd-03c8d92634b0
       title: Implementing Multi-Factor Authentication
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-multi-factor-authentication
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-multi-factor-authentication
     - uuid: 8ffea524-0974-4b53-a8f5-41166073ede5
       title: Securing PowerShell in the Enterprise
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/securing-powershell-enterprise
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise
     - uuid: 91b92563-d991-40fa-9adc-548df9f6c496
       title: group Managed Service Accounts
       rlinks:
@@ -2190,7 +2190,7 @@ catalog:
     - uuid: a699a3aa-828d-479b-b50b-98127bb19437
       title: Guidelines for Evaluated Products
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-evaluated-products
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-evaluated-products
     - uuid: ae426d0a-adb6-43b8-a463-faa33e83b679
       title: Active Directory accounts
       rlinks:
@@ -2202,7 +2202,7 @@ catalog:
     - uuid: b594c9c0-b42f-4f06-b643-38023275a5c7
       title: Guidelines for Media
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-media
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-media
     - uuid: bac2c6f2-9356-46d2-b7c4-9af7393008df
       title: Australian Privacy Principles
       rlinks:
@@ -2210,7 +2210,7 @@ catalog:
     - uuid: c6ca6620-ccd5-4c5d-b97c-9d92f1162948
       title: Guidelines for System Management
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-management
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-management
     - uuid: c852e735-4920-4616-8e34-2fddfb49eea8
       title: AV-Comparatives
       rlinks:
@@ -2222,27 +2222,27 @@ catalog:
     - uuid: d36ce452-ec21-4b05-89c1-f29a444a3dca
       title: End of Support for Microsoft Windows and Microsoft Windows Server
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/end-support-microsoft-windows-and-microsoft-windows-server
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/end-support-microsoft-windows-and-microsoft-windows-server
     - uuid: de7525f3-a466-40a5-abdd-3ae24a6d1b44
       title: Guidelines for System Hardening
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-hardening
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-hardening
     - uuid: dfb52998-0e7e-420d-97e1-d1313c8f919a
       title: Microsoft Office Macro Security
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/microsoft-office-macro-security
     - uuid: edc24216-f52b-4513-bcda-5fa564661999
       title: Guidelines for System Monitoring
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-monitoring
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-monitoring
     - uuid: f145ff5b-d396-4248-8f48-621349d6f0ed
       title: Guidelines for Networking
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-networking
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-networking
     - uuid: f37a4848-0791-4870-b316-5536c2681c28
       title: Guidelines for Procurement and Outsourcing
       rlinks:
-      - href: https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-procurement-and-outsourcing
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing
     - uuid: f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b
       title: changing credentials for this service account
       rlinks:

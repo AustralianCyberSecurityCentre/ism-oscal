@@ -3,9 +3,9 @@
           uuid="79ef771e-3c85-4fa6-9f0e-7a650c0e32d9">
    <metadata>
       <title>Information Security Manual All Baseline</title>
-      <published>2023-03-05T02:48:01.678173Z</published>
-      <last-modified>2023-03-05T02:48:01.678173Z</last-modified>
-      <version>2023.03.5</version>
+      <published>2023-04-12T04:26:43.705551Z</published>
+      <last-modified>2023-04-12T04:26:43.705551Z</last-modified>
+      <version>2023.04.12</version>
       <oscal-version>1.0.4</oscal-version>
       <link rel="canonical" href="#b6c89b8b-9360-4ae4-b392-fff537c6eda2"/>
       <link rel="latest-version" href="#8a4cd265-98a7-4d6d-b264-614eaf5475ac"/>
@@ -811,20 +811,20 @@
       <resource uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
          <title>Information Security Manual</title>
          <rlink media-type="application/xml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.xml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.json"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_catalog.yaml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="b6c89b8b-9360-4ae4-b392-fff537c6eda2">
          <title>Information Security Manual All Baseline</title>
          <rlink media-type="application/xml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_ALL-baseline_profile.xml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_ALL-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_ALL-baseline_profile.json"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_ALL-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_ALL-baseline_profile.yaml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_ALL-baseline_profile.yaml"/>
       </resource>
       <resource uuid="8a4cd265-98a7-4d6d-b264-614eaf5475ac">
          <title>Information Security Manual All Baseline - latest version</title>
@@ -838,20 +838,20 @@
       <resource uuid="d97f9b45-6ca1-462a-ba81-c9946ef98923">
          <title>Information Security Manual All Baseline - predecessor version</title>
          <rlink media-type="application/xml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_ALL-baseline_profile.xml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/predecessor-version/artifacts/ISM_ALL-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_ALL-baseline_profile.json"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/predecessor-version/artifacts/ISM_ALL-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/predecessor-version/artifacts/ISM_ALL-baseline_profile.yaml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/predecessor-version/artifacts/ISM_ALL-baseline_profile.yaml"/>
       </resource>
       <resource uuid="dbe5932d-0b51-4fcc-9fcd-9bcc6a39c036">
          <title>Information Security Manual All Baseline - successor version</title>
          <rlink media-type="application/xml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_ALL-baseline_profile.xml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/successor-version/artifacts/ISM_ALL-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_ALL-baseline_profile.json"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/successor-version/artifacts/ISM_ALL-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                 href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/successor-version/artifacts/ISM_ALL-baseline_profile.yaml"/>
+                 href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/successor-version/artifacts/ISM_ALL-baseline_profile.yaml"/>
       </resource>
    </back-matter>
 </profile>

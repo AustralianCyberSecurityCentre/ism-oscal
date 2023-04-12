@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-          uuid="9a7dea59-17cb-4aa4-a685-8fe2c0f56943">
+          uuid="0b13bb31-204d-46b1-8f57-b313314e6141">
    <metadata>
       <title>Information Security Manual Essential Eight Maturity Level Three Baseline</title>
-      <last-modified>2023-03-05T02:56:48.543291Z</last-modified>
-      <version>2023.03.5</version>
+      <last-modified>2023-04-12T04:35:41.548478Z</last-modified>
+      <version>2023.04.12</version>
       <oscal-version>1.0.4</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-             href="https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
+             href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -177,9 +177,6 @@
             <h1>Further information</h1>
             <p>Further information on incident response plans can be found in the system-specific security documentation section of the 
           <a href="#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">Guidelines for Security Documentation</a>.
-        </p>
-            <p>Further information on handling and managing data spills can be found in the ACSC’s 
-          <a href="#705a6552-7266-4d4a-9643-77a21c6a2104">Data Spill Management Guide</a> publication.
         </p>
             <p>Further information on handling malicious code infections can be found in National Institute of Standards and Technology Special Publication 800-61 Rev. 2, 
           <a href="#f48c0d05-5173-4c8e-8748-e5591518c1fb">Computer Security Incident Handling Guide</a>.
@@ -530,7 +527,7 @@
         </p>
             <p>Further information on 
           <a href="#7d22400c-ddef-4cbb-90f1-7502dc569e5b">the use of PowerShell by blue teams</a> is available from Microsoft while further information on obtaining 
-          <a href="#af0810aa-3486-4ca6-a48a-fad8ce9ac193">greater visibility through PowerShell logging</a> is available from FireEye.
+          <a href="#af0810aa-3486-4ca6-a48a-fad8ce9ac193">greater visibility through PowerShell logging</a> is available from Mandiant.
         </p>
             <p>Further information on independent testing of security products’ ability to 
           <a href="#3a1a00f6-2f56-4d04-b99d-6f1682b95a98">detect or prevent various stages of network intrusions</a> is available from The MITRE Corporation.
@@ -1529,7 +1526,7 @@
           <a href="#0508be6f-cb97-44da-b212-42416a0048b0">random dice roller</a> is available from RANDOM.ORG.
         </p>
             <p>Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s 
-          <a href="#ae426d0a-adb6-43b8-a463-faa33e83b679">Active Directory accounts</a>, 
+          <a href="#ae426d0a-adb6-43b8-a463-faa33e83b679">Active Directory accounts</a> and 
           <a href="#3e5a98e5-9219-46c8-81c2-e3a4d13407ce">AD Forest Recovery - Resetting the krbtgt password</a> publications. A script for 
           <a href="#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b">changing credentials for this service account</a> is also available from Microsoft.
         </p>
@@ -1624,7 +1621,7 @@
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ML3"/>
                <part id="ism-1679_smt" name="statement">
-                  <p>Multi-factor authentication is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation's sensitive data.</p>
+                  <p>Multi-factor authentication is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation’s sensitive data.</p>
                </part>
             </control>
             <control id="ism-1680" class="ISM-control">
@@ -1647,7 +1644,7 @@
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ML3"/>
                <part id="ism-1680_smt" name="statement">
-                  <p>Multi-factor authentication (where available) is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation's non-sensitive data.</p>
+                  <p>Multi-factor authentication (where available) is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation’s non-sensitive data.</p>
                </part>
             </control>
             <control id="ism-1681" class="ISM-control">
@@ -2866,7 +2863,7 @@
    <back-matter>
       <resource uuid="02fb4cb5-e4c4-4097-97a2-f1b6aa04131a">
          <title>Assessing Security Vulnerabilities and Applying Patches</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/assessing-security-vulnerabilities-and-applying-patches"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/assessing-security-vulnerabilities-and-applying-patches"/>
       </resource>
       <resource uuid="0508be6f-cb97-44da-b212-42416a0048b0">
          <title>random dice roller</title>
@@ -2874,7 +2871,7 @@
       </resource>
       <resource uuid="131048c7-a2e7-4da3-9257-7a058b06c1f8">
          <title>Secure Administration</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/secure-administration"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/secure-administration"/>
       </resource>
       <resource uuid="18203e18-2aca-492e-be44-770b2f47242f">
          <title>AV-TEST</title>
@@ -2898,7 +2895,7 @@
       </resource>
       <resource uuid="3ccea9a8-a728-4f5b-a0a8-43f2f206f76b">
          <title>Restricting Administrative Privileges</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/restricting-administrative-privileges"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/restricting-administrative-privileges"/>
       </resource>
       <resource uuid="3e4cd135-5fa3-4a1e-a192-1793ff42067c">
          <title>Access to information</title>
@@ -2910,7 +2907,7 @@
       </resource>
       <resource uuid="3f349d16-11a1-459a-a299-c9446aea7597">
          <title>Guidelines for Database Systems</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-database-systems"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-database-systems"/>
       </resource>
       <resource uuid="4a3a265f-7772-433b-9906-7f784052f28b">
          <title>recommended driver block rules</title>
@@ -2918,11 +2915,11 @@
       </resource>
       <resource uuid="4eeff329-cea0-4baf-a80b-8b0b76436075">
          <title>Implementing Application Control</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-application-control"/>
       </resource>
       <resource uuid="506198a8-7ae8-4c95-8b7b-2a4833cfab4b">
          <title>Guidelines for Software Development</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-software-development"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-software-development"/>
       </resource>
       <resource uuid="53da8dba-961e-4222-94e0-68cb9510384d">
          <title>digital preservation planning</title>
@@ -2930,7 +2927,7 @@
       </resource>
       <resource uuid="578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">
          <title>Guidelines for Security Documentation</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-security-documentation"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-security-documentation"/>
       </resource>
       <resource uuid="58282062-5c17-476a-98b1-105a627cd28d">
          <title>randomly generating passphrases</title>
@@ -2938,7 +2935,7 @@
       </resource>
       <resource uuid="58c9abfb-58fe-416e-a279-dfbfe123c99f">
          <title>Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016"/>
       </resource>
       <resource uuid="5a2ed3ef-afcc-485e-8014-5107e9ed97e3">
          <title>recommended block rules</title>
@@ -2946,23 +2943,19 @@
       </resource>
       <resource uuid="626d3582-3caf-49d6-89d5-4b8fdbbf1f31">
          <title>reporting cyber security incidents</title>
-         <rlink href="https://www.cyber.gov.au/acsc/report/report-a-cyber-security-incident"/>
+         <rlink href="https://www.cyber.gov.au/report-and-recover/report/report-a-cyber-security-incident"/>
       </resource>
       <resource uuid="626dab35-81ab-45fe-8c12-0faff1c23c07">
          <title>Guidelines for Cyber Security Roles</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-cyber-security-roles"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cyber-security-roles"/>
       </resource>
       <resource uuid="6e801c68-61f6-4c28-bf72-df91f7e232cc">
          <title>Hardening Microsoft Windows 10 version 21H1 Workstations</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21H1-workstations"/>
-      </resource>
-      <resource uuid="705a6552-7266-4d4a-9643-77a21c6a2104">
-         <title>Data Spill Management Guide</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/data-spill-management-guide"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-version-21h1-workstations"/>
       </resource>
       <resource uuid="7d16ae67-87a7-4861-b939-e13ec279b5a2">
          <title>Guidelines for Personnel Security</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-personnel-security"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-personnel-security"/>
       </resource>
       <resource uuid="7d22400c-ddef-4cbb-90f1-7502dc569e5b">
          <title>the use of PowerShell by blue teams</title>
@@ -2970,19 +2963,19 @@
       </resource>
       <resource uuid="8132c47e-a2dc-4dd9-81d6-38db96e5cec6">
          <title>Hardening Linux Workstations and Servers</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-linux-workstations-and-servers"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers"/>
       </resource>
       <resource uuid="824e4353-a9ae-4869-88fb-cb0675dc5d1c">
          <title>Mitigating the Use of Stolen Credentials</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/mitigating-use-stolen-credentials"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/mitigating-use-stolen-credentials"/>
       </resource>
       <resource uuid="83e3a9b1-5057-4531-91dd-03c8d92634b0">
          <title>Implementing Multi-Factor Authentication</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-multi-factor-authentication"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-multi-factor-authentication"/>
       </resource>
       <resource uuid="8ffea524-0974-4b53-a8f5-41166073ede5">
          <title>Securing PowerShell in the Enterprise</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/securing-powershell-enterprise"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise"/>
       </resource>
       <resource uuid="91b92563-d991-40fa-9adc-548df9f6c496">
          <title>group Managed Service Accounts</title>
@@ -2994,7 +2987,7 @@
       </resource>
       <resource uuid="a699a3aa-828d-479b-b50b-98127bb19437">
          <title>Guidelines for Evaluated Products</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-evaluated-products"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-evaluated-products"/>
       </resource>
       <resource uuid="ae426d0a-adb6-43b8-a463-faa33e83b679">
          <title>Active Directory accounts</title>
@@ -3006,7 +2999,7 @@
       </resource>
       <resource uuid="b594c9c0-b42f-4f06-b643-38023275a5c7">
          <title>Guidelines for Media</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-media"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-media"/>
       </resource>
       <resource uuid="bac2c6f2-9356-46d2-b7c4-9af7393008df">
          <title>Australian Privacy Principles</title>
@@ -3014,7 +3007,7 @@
       </resource>
       <resource uuid="c6ca6620-ccd5-4c5d-b97c-9d92f1162948">
          <title>Guidelines for System Management</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-management"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-management"/>
       </resource>
       <resource uuid="c852e735-4920-4616-8e34-2fddfb49eea8">
          <title>AV-Comparatives</title>
@@ -3030,35 +3023,35 @@
       </resource>
       <resource uuid="d36ce452-ec21-4b05-89c1-f29a444a3dca">
          <title>End of Support for Microsoft Windows and Microsoft Windows Server</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/end-support-microsoft-windows-and-microsoft-windows-server"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/end-support-microsoft-windows-and-microsoft-windows-server"/>
       </resource>
       <resource uuid="de239dae-d1e8-4969-9680-ef3444d32a83">
          <title>Windows Event Logging and Forwarding</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/windows-event-logging-and-forwarding"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/windows-event-logging-and-forwarding"/>
       </resource>
       <resource uuid="de7525f3-a466-40a5-abdd-3ae24a6d1b44">
          <title>Guidelines for System Hardening</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-hardening"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-hardening"/>
       </resource>
       <resource uuid="dfb52998-0e7e-420d-97e1-d1313c8f919a">
          <title>Microsoft Office Macro Security</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/microsoft-office-macro-security"/>
       </resource>
       <resource uuid="e8bde527-526c-4a6a-b66f-05228f09dd7b">
          <title>Guidelines for Gateways</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-gateways"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-gateways"/>
       </resource>
       <resource uuid="edc24216-f52b-4513-bcda-5fa564661999">
          <title>Guidelines for System Monitoring</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-monitoring"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-monitoring"/>
       </resource>
       <resource uuid="f145ff5b-d396-4248-8f48-621349d6f0ed">
          <title>Guidelines for Networking</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-networking"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-networking"/>
       </resource>
       <resource uuid="f37a4848-0791-4870-b316-5536c2681c28">
          <title>Guidelines for Procurement and Outsourcing</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-procurement-and-outsourcing"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing"/>
       </resource>
       <resource uuid="f48c0d05-5173-4c8e-8748-e5591518c1fb">
          <title>Computer Security Incident Handling Guide</title>
@@ -3074,7 +3067,7 @@
       </resource>
       <resource uuid="fe0138db-e83b-4a23-85d3-d84e1c22816f">
          <title>Guidelines for Cyber Security Incidents</title>
-         <rlink href="https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-cyber-security-incidents"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cyber-security-incidents"/>
       </resource>
    </back-matter>
 </catalog>

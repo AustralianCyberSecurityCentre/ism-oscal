@@ -1,17 +1,17 @@
 {
   "catalog" : {
-    "uuid" : "9a7dea59-17cb-4aa4-a685-8fe2c0f56943",
+    "uuid" : "0b13bb31-204d-46b1-8f57-b313314e6141",
     "metadata" : {
       "title" : "Information Security Manual Essential Eight Maturity Level Three Baseline",
-      "last-modified" : "2023-03-05T02:56:48.543291Z",
-      "version" : "2023.03.5",
+      "last-modified" : "2023-04-12T04:35:41.548478Z",
+      "version" : "2023.04.12",
       "oscal-version" : "1.0.4",
       "props" : [ {
         "name" : "resolution-tool",
         "value" : "libOSCAL-Java+xslt"
       } ],
       "links" : [ {
-        "href" : "https://www.cyber.gov.au/ism/oscal/v2023.03.5/artifacts/ISM_E8_ML3-baseline_profile.xml",
+        "href" : "https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_E8_ML3-baseline_profile.xml",
         "rel" : "source-profile"
       } ],
       "roles" : [ {
@@ -147,7 +147,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on incident response plans can be found in the system-specific security documentation section of the\n[Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on handling and managing data spills can be found in the ACSC’s\n[Data Spill Management Guide](#705a6552-7266-4d4a-9643-77a21c6a2104) publication.\n\nFurther information on handling malicious code infections can be found in National Institute of Standards and Technology Special Publication 800-61 Rev. 2,\n[Computer Security Incident Handling Guide](#f48c0d05-5173-4c8e-8748-e5591518c1fb)."
+          "prose" : "# Further information\n\nFurther information on incident response plans can be found in the system-specific security documentation section of the\n[Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on handling malicious code infections can be found in National Institute of Standards and Technology Special Publication 800-61 Rev. 2,\n[Computer Security Incident Handling Guide](#f48c0d05-5173-4c8e-8748-e5591518c1fb)."
         } ],
         "groups" : [ {
           "title" : "Enacting incident response plans",
@@ -588,7 +588,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on patching or updating operating systems can be found in the system patching section of the\n[Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on securely configuring Microsoft Windows operating systems can be found in the ACSC’s\n[Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.\n\nFurther information on securely configuring Linux workstations and servers can be found in the ACSC’s\n[Hardening Linux Workstations and Servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.\n\nFurther information on\n[exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.\n\nFurther information on implementing application control can be found in the ACSC’s\n[Implementing Application Control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.\n\nFurther information on Microsoft’s ‘\n[recommended block rules](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3)’ and ‘\n[recommended driver block rules](#4a3a265f-7772-433b-9906-7f784052f28b)’ are available from Microsoft.\n\nFurther information on the use of PowerShell can be found in the ACSC’s\n[Securing PowerShell in the Enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.\n\nFurther information on\n[the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft while further information on obtaining\n[greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from FireEye.\n\nFurther information on independent testing of security products’ ability to\n[detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.\n\nFurther information on independent testing of antivirus software is available from\n[AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and\n[AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).\n\nFurther information on the use of removable media can be found in the media usage section of the\n[Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
+          "prose" : "# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on patching or updating operating systems can be found in the system patching section of the\n[Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on securely configuring Microsoft Windows operating systems can be found in the ACSC’s\n[Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.\n\nFurther information on securely configuring Linux workstations and servers can be found in the ACSC’s\n[Hardening Linux Workstations and Servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.\n\nFurther information on\n[exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.\n\nFurther information on implementing application control can be found in the ACSC’s\n[Implementing Application Control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.\n\nFurther information on Microsoft’s ‘\n[recommended block rules](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3)’ and ‘\n[recommended driver block rules](#4a3a265f-7772-433b-9906-7f784052f28b)’ are available from Microsoft.\n\nFurther information on the use of PowerShell can be found in the ACSC’s\n[Securing PowerShell in the Enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.\n\nFurther information on\n[the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft while further information on obtaining\n[greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Mandiant.\n\nFurther information on independent testing of security products’ ability to\n[detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.\n\nFurther information on independent testing of antivirus software is available from\n[AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and\n[AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).\n\nFurther information on the use of removable media can be found in the media usage section of the\n[Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
         } ],
         "groups" : [ {
           "title" : "Operating system releases and versions",
@@ -1957,7 +1957,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Account and authentication types\n\nThe guidance within this section is equally applicable to all account types. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on implementing multi-factor authentication can be found in the ACSC’s\n[Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on\n[randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a\n[random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.\n\nFurther information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s\n[Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679),\n[AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for\n[changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.\n\nFurther information on\n[group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.\n\nFurther information on mitigating the use of stolen credentials can be found in the ACSC’s\n[Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.\n\nFurther information on mitigating the use of stolen credentials can also be found in Microsoft’s\n[Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication."
+          "prose" : "# Account and authentication types\n\nThe guidance within this section is equally applicable to all account types. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on implementing multi-factor authentication can be found in the ACSC’s\n[Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on\n[randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a\n[random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.\n\nFurther information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s\n[Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and\n[AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for\n[changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.\n\nFurther information on\n[group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.\n\nFurther information on mitigating the use of stolen credentials can be found in the ACSC’s\n[Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.\n\nFurther information on mitigating the use of stolen credentials can also be found in Microsoft’s\n[Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication."
         } ],
         "groups" : [ {
           "title" : "Multi-factor authentication",
@@ -2066,7 +2066,7 @@
             "parts" : [ {
               "id" : "ism-1679_smt",
               "name" : "statement",
-              "prose" : "Multi-factor authentication is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation's sensitive data."
+              "prose" : "Multi-factor authentication is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation’s sensitive data."
             } ]
           }, {
             "id" : "ism-1680",
@@ -2099,7 +2099,7 @@
             "parts" : [ {
               "id" : "ism-1680_smt",
               "name" : "statement",
-              "prose" : "Multi-factor authentication (where available) is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation's non-sensitive data."
+              "prose" : "Multi-factor authentication (where available) is used by an organisation’s users if they authenticate to third-party internet-facing services that process, store or communicate their organisation’s non-sensitive data."
             } ]
           }, {
             "id" : "ism-1681",
@@ -3740,7 +3740,7 @@
         "uuid" : "02fb4cb5-e4c4-4097-97a2-f1b6aa04131a",
         "title" : "Assessing Security Vulnerabilities and Applying Patches",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/assessing-security-vulnerabilities-and-applying-patches"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/assessing-security-vulnerabilities-and-applying-patches"
         } ]
       }, {
         "uuid" : "0508be6f-cb97-44da-b212-42416a0048b0",
@@ -3752,7 +3752,7 @@
         "uuid" : "131048c7-a2e7-4da3-9257-7a058b06c1f8",
         "title" : "Secure Administration",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/secure-administration"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/secure-administration"
         } ]
       }, {
         "uuid" : "18203e18-2aca-492e-be44-770b2f47242f",
@@ -3788,7 +3788,7 @@
         "uuid" : "3ccea9a8-a728-4f5b-a0a8-43f2f206f76b",
         "title" : "Restricting Administrative Privileges",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/restricting-administrative-privileges"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/restricting-administrative-privileges"
         } ]
       }, {
         "uuid" : "3e4cd135-5fa3-4a1e-a192-1793ff42067c",
@@ -3806,7 +3806,7 @@
         "uuid" : "3f349d16-11a1-459a-a299-c9446aea7597",
         "title" : "Guidelines for Database Systems",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-database-systems"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-database-systems"
         } ]
       }, {
         "uuid" : "4a3a265f-7772-433b-9906-7f784052f28b",
@@ -3818,13 +3818,13 @@
         "uuid" : "4eeff329-cea0-4baf-a80b-8b0b76436075",
         "title" : "Implementing Application Control",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-application-control"
         } ]
       }, {
         "uuid" : "506198a8-7ae8-4c95-8b7b-2a4833cfab4b",
         "title" : "Guidelines for Software Development",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-software-development"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-software-development"
         } ]
       }, {
         "uuid" : "53da8dba-961e-4222-94e0-68cb9510384d",
@@ -3836,7 +3836,7 @@
         "uuid" : "578d0434-6b3f-46f3-aad8-c7ac75c2ebcc",
         "title" : "Guidelines for Security Documentation",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-security-documentation"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-security-documentation"
         } ]
       }, {
         "uuid" : "58282062-5c17-476a-98b1-105a627cd28d",
@@ -3848,7 +3848,7 @@
         "uuid" : "58c9abfb-58fe-416e-a279-dfbfe123c99f",
         "title" : "Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016"
         } ]
       }, {
         "uuid" : "5a2ed3ef-afcc-485e-8014-5107e9ed97e3",
@@ -3860,31 +3860,25 @@
         "uuid" : "626d3582-3caf-49d6-89d5-4b8fdbbf1f31",
         "title" : "reporting cyber security incidents",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/report/report-a-cyber-security-incident"
+          "href" : "https://www.cyber.gov.au/report-and-recover/report/report-a-cyber-security-incident"
         } ]
       }, {
         "uuid" : "626dab35-81ab-45fe-8c12-0faff1c23c07",
         "title" : "Guidelines for Cyber Security Roles",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-cyber-security-roles"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cyber-security-roles"
         } ]
       }, {
         "uuid" : "6e801c68-61f6-4c28-bf72-df91f7e232cc",
         "title" : "Hardening Microsoft Windows 10 version 21H1 Workstations",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21H1-workstations"
-        } ]
-      }, {
-        "uuid" : "705a6552-7266-4d4a-9643-77a21c6a2104",
-        "title" : "Data Spill Management Guide",
-        "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/data-spill-management-guide"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-version-21h1-workstations"
         } ]
       }, {
         "uuid" : "7d16ae67-87a7-4861-b939-e13ec279b5a2",
         "title" : "Guidelines for Personnel Security",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-personnel-security"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-personnel-security"
         } ]
       }, {
         "uuid" : "7d22400c-ddef-4cbb-90f1-7502dc569e5b",
@@ -3896,25 +3890,25 @@
         "uuid" : "8132c47e-a2dc-4dd9-81d6-38db96e5cec6",
         "title" : "Hardening Linux Workstations and Servers",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-linux-workstations-and-servers"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers"
         } ]
       }, {
         "uuid" : "824e4353-a9ae-4869-88fb-cb0675dc5d1c",
         "title" : "Mitigating the Use of Stolen Credentials",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/mitigating-use-stolen-credentials"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/mitigating-use-stolen-credentials"
         } ]
       }, {
         "uuid" : "83e3a9b1-5057-4531-91dd-03c8d92634b0",
         "title" : "Implementing Multi-Factor Authentication",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-multi-factor-authentication"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-multi-factor-authentication"
         } ]
       }, {
         "uuid" : "8ffea524-0974-4b53-a8f5-41166073ede5",
         "title" : "Securing PowerShell in the Enterprise",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/securing-powershell-enterprise"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise"
         } ]
       }, {
         "uuid" : "91b92563-d991-40fa-9adc-548df9f6c496",
@@ -3932,7 +3926,7 @@
         "uuid" : "a699a3aa-828d-479b-b50b-98127bb19437",
         "title" : "Guidelines for Evaluated Products",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-evaluated-products"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-evaluated-products"
         } ]
       }, {
         "uuid" : "ae426d0a-adb6-43b8-a463-faa33e83b679",
@@ -3950,7 +3944,7 @@
         "uuid" : "b594c9c0-b42f-4f06-b643-38023275a5c7",
         "title" : "Guidelines for Media",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-media"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-media"
         } ]
       }, {
         "uuid" : "bac2c6f2-9356-46d2-b7c4-9af7393008df",
@@ -3962,7 +3956,7 @@
         "uuid" : "c6ca6620-ccd5-4c5d-b97c-9d92f1162948",
         "title" : "Guidelines for System Management",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-management"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-management"
         } ]
       }, {
         "uuid" : "c852e735-4920-4616-8e34-2fddfb49eea8",
@@ -3986,49 +3980,49 @@
         "uuid" : "d36ce452-ec21-4b05-89c1-f29a444a3dca",
         "title" : "End of Support for Microsoft Windows and Microsoft Windows Server",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/end-support-microsoft-windows-and-microsoft-windows-server"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/end-support-microsoft-windows-and-microsoft-windows-server"
         } ]
       }, {
         "uuid" : "de239dae-d1e8-4969-9680-ef3444d32a83",
         "title" : "Windows Event Logging and Forwarding",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/windows-event-logging-and-forwarding"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/windows-event-logging-and-forwarding"
         } ]
       }, {
         "uuid" : "de7525f3-a466-40a5-abdd-3ae24a6d1b44",
         "title" : "Guidelines for System Hardening",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-hardening"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-hardening"
         } ]
       }, {
         "uuid" : "dfb52998-0e7e-420d-97e1-d1313c8f919a",
         "title" : "Microsoft Office Macro Security",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/microsoft-office-macro-security"
         } ]
       }, {
         "uuid" : "e8bde527-526c-4a6a-b66f-05228f09dd7b",
         "title" : "Guidelines for Gateways",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-gateways"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-gateways"
         } ]
       }, {
         "uuid" : "edc24216-f52b-4513-bcda-5fa564661999",
         "title" : "Guidelines for System Monitoring",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-system-monitoring"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-monitoring"
         } ]
       }, {
         "uuid" : "f145ff5b-d396-4248-8f48-621349d6f0ed",
         "title" : "Guidelines for Networking",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-networking"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-networking"
         } ]
       }, {
         "uuid" : "f37a4848-0791-4870-b316-5536c2681c28",
         "title" : "Guidelines for Procurement and Outsourcing",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-procurement-and-outsourcing"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing"
         } ]
       }, {
         "uuid" : "f48c0d05-5173-4c8e-8748-e5591518c1fb",
@@ -4052,7 +4046,7 @@
         "uuid" : "fe0138db-e83b-4a23-85d3-d84e1c22816f",
         "title" : "Guidelines for Cyber Security Incidents",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/acsc/view-all-content/advice/guidelines-cyber-security-incidents"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cyber-security-incidents"
         } ]
       } ]
     }
