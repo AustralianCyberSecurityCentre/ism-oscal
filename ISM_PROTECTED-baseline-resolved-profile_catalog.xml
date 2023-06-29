@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-          uuid="27fe6050-989a-4f5a-98d6-2e1e71a4be4d">
+          uuid="e38166c8-d6ab-4611-aabc-da2fffd78c59">
    <metadata>
       <title>Information Security Manual PROTECTED Baseline</title>
-      <last-modified>2023-04-12T04:35:42.711748Z</last-modified>
-      <version>2023.04.12</version>
+      <last-modified>2023-06-29T05:57:54.743618Z</last-modified>
+      <version>2023.06.29</version>
       <oscal-version>1.0.4</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-             href="https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
+             href="https://www.cyber.gov.au/ism/oscal/v2023.06.29/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -957,6 +957,9 @@
               Gateways: May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
             </li>
                <li>
+              Multifunction devices: May assist inidentifying anomalous or malicious user behaviour indicating a cyber security incident or malicious insider activity.
+            </li>
+               <li>
               Operating systems: May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.
             </li>
                <li>
@@ -1172,7 +1175,7 @@
             <title>Reporting cyber security incidents</title>
             <prop name="sort-id" value="catalog[1].group[04].group[1].group[5]"/>
             <part name="overview">
-               <p>Reporting cyber security incidents to an organisation’s Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered provides senior management with the opportunity to assess the impact to their organisation and to oversee any incident response activities. Note, an organisation should also be cognisant of any legislative obligations in regards to reporting cyber security incidents to authorities, customers or the public.</p>
+               <p>Reporting cyber security incidents to the Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered provides senior management with the opportunity to assess the impact to their organisation and to oversee any incident response activities. Note, an organisation should also be cognisant of any legislative obligations in regards to reporting cyber security incidents to authorities, customers or the public.</p>
             </part>
             <control id="ism-0123" class="ISM-control">
                <title>Control: ism-0123</title>
@@ -1180,10 +1183,10 @@
                       value="catalog[1].group[04].group[1].group[5].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="3"/>
+                      value="4"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-18"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
@@ -1191,7 +1194,7 @@
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ML3"/>
                <part id="ism-0123_smt" name="statement">
-                  <p>Cyber security incidents are reported to an organisation’s Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered.</p>
+                  <p>Cyber security incidents are reported to the Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered.</p>
                </part>
             </control>
          </group>
@@ -1217,10 +1220,10 @@
                       value="catalog[1].group[04].group[1].group[6].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="6"/>
+                      value="7"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="May-19"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
@@ -1228,7 +1231,7 @@
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ML3"/>
                <part id="ism-0140_smt" name="statement">
-                  <p>Cyber security incidents are reported to the ACSC.</p>
+                  <p>Cyber security incidents are reported to the ACSC as soon as possible after they occur or are discovered.</p>
                </part>
             </control>
          </group>
@@ -2100,15 +2103,15 @@
                       value="catalog[1].group[05].group[2].group[5].control[09]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
+                      value="3"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1572_smt" name="statement">
-                  <p>The regions or availability zones where data will be processed, stored and communicated is documented in contractual arrangements with service providers.</p>
+                  <p>The regions or availability zones where data will be processed, stored and communicated, as well as a minimum notification period for any configuration changes, is documented in contractual arrangements with service providers.</p>
                </part>
             </control>
             <control id="ism-1573" class="ISM-control">
@@ -2545,7 +2548,7 @@
             <prop name="sort-id" value="catalog[1].group[06].group[2].group[3]"/>
             <part name="overview">
                <p>A continuous monitoring plan can assist an organisation in proactively identifying, prioritising and responding to security vulnerabilities. Measures to monitor and manage security vulnerabilities in systems can also provide an organisation with a wealth of valuable information about their exposure to cyber threats, as well as assisting them to determine security risks associated with the operation of their systems. Undertaking continuous monitoring activities is important as cyber threats and the effectiveness of controls will change over time.</p>
-               <p>Three types of continuous monitoring activities are vulnerability assessments, vulnerability scans and penetration tests. A vulnerability assessment typically consists of a review of a system’s architecture or an in-depth hands-on assessment while a vulnerability scan involves using software tools to conduct automated checks for known security vulnerabilities. In each case, the goal is to identify as many security vulnerabilities as possible. A penetration test however is designed to exercise real-world scenarios in an attempt to achieve a specific goal, such as compromising critical system components or data. Regardless of the continuous monitoring activities chosen, they should be conducted by suitably skilled personnel independent of the system being assessed. Such personnel can be internal to an organisation or from a third party. This ensures that there is no conflict of interest, perceived or otherwise, and that the activities are undertaken in an objective manner.</p>
+               <p>Three types of continuous monitoring activities are vulnerability scans, vulnerability assessments and penetration tests. A vulnerability scan involves using software tools to conduct automated checks for known security vulnerabilities whereas a vulnerability assessment typically consists of a review of a system’s architecture or an in-depth hands-on assessment. In each case, the goal is to identify as many security vulnerabilities as possible. A penetration test however is designed to exercise real-world scenarios in an attempt to achieve a specific goal, such as compromising critical system components or data. Regardless of the continuous monitoring activities chosen, they should be conducted by suitably skilled personnel independent of the system being assessed. Such personnel can be internal to an organisation or from a third party. This ensures that there is no conflict of interest, perceived or otherwise, and that the activities are undertaken in an objective manner.</p>
             </part>
             <control id="ism-1163" class="ISM-control">
                <title>Control: ism-1163</title>
@@ -2553,18 +2556,18 @@
                       value="catalog[1].group[06].group[2].group[3].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="8"/>
+                      value="9"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-23"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1163_smt" name="statement">
                   <p>Systems have a continuous monitoring plan that includes:</p>
                   <ul>
-                     <li>conducting vulnerability scans for systems at least monthly</li>
-                     <li>conducting vulnerability assessments or penetration tests for systems at least annually</li>
+                     <li>conducting vulnerability scans for systems at least fortnightly</li>
+                     <li>conducting vulnerability assessments and penetration tests for systems prior to deployment, including prior to deployment of significant changes, and at least annually thereafter</li>
                      <li>analysing identified security vulnerabilities to determine their potential impact</li>
                      <li>implementing mitigations based on risk, effectiveness and cost.</li>
                   </ul>
@@ -3032,7 +3035,7 @@
             <title>Posting work information to online services</title>
             <prop name="sort-id" value="catalog[1].group[08].group[1].group[4]"/>
             <part name="overview">
-               <p>Personnel should be advised to take special care not to post work information to online services unless authorised to do so, especially in internet forums and on social media. Even information that appears to be benign in isolation could, along with other information, have a considerable security impact. In addition, to ensure that personal opinions of individuals are not misinterpreted, personnel should be advised to maintain separate work and personal accounts for online services, especially when using social media.</p>
+               <p>Personnel should be advised to take special care not to post work information to online services unless authorised to do so, especially in chat services, internet forums and on social media. Even information that appears to be benign in isolation could, along with other information, have a considerable security impact. In addition, to ensure that personal opinions of individuals are not misinterpreted, personnel should be advised to maintain separate work and personal accounts for online services, especially when using social media.</p>
             </part>
             <control id="ism-0820" class="ISM-control">
                <title>Control: ism-0820</title>
@@ -3280,10 +3283,27 @@
                   <p>Requests for unprivileged access to systems, applications and data repositories are validated when first requested.</p>
                </part>
             </control>
+            <control id="ism-1852" class="ISM-control">
+               <title>Control: ism-1852</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[03].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1852_smt" name="statement">
+                  <p>Unprivileged access to systems, applications and data repositories is limited to only what is required for users and services to undertake their duties.</p>
+               </part>
+            </control>
             <control id="ism-1566" class="ISM-control">
                <title>Control: ism-1566</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[03].control[2]"/>
+                      value="catalog[1].group[08].group[2].group[03].control[3]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="2"/>
@@ -3300,7 +3320,7 @@
             <control id="ism-1714" class="ISM-control">
                <title>Control: ism-1714</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[03].control[3]"/>
+                      value="catalog[1].group[08].group[2].group[03].control[4]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -3383,10 +3403,27 @@
                   <p>Privileged access to systems and applications is limited to only what is required for users and services to undertake their duties.</p>
                </part>
             </control>
+            <control id="ism-1853" class="ISM-control">
+               <title>Control: ism-1853</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[08].group[2].group[05].control[04]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1853_smt" name="statement">
+                  <p>Privileged access to data repositories is limited to only what is required for users and services to undertake their duties.</p>
+               </part>
+            </control>
             <control id="ism-1175" class="ISM-control">
                <title>Control: ism-1175</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[04]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[05]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="4"/>
@@ -3409,7 +3446,7 @@
             <control id="ism-1653" class="ISM-control">
                <title>Control: ism-1653</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[05]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[06]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -3429,7 +3466,7 @@
             <control id="ism-1649" class="ISM-control">
                <title>Control: ism-1649</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[06]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[07]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -3449,7 +3486,7 @@
             <control id="ism-0445" class="ISM-control">
                <title>Control: ism-0445</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[07]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[08]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="6"/>
@@ -3466,7 +3503,7 @@
             <control id="ism-1263" class="ISM-control">
                <title>Control: ism-1263</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[08]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[09]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="4"/>
@@ -3483,7 +3520,7 @@
             <control id="ism-1509" class="ISM-control">
                <title>Control: ism-1509</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[09]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[10]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="2"/>
@@ -3506,7 +3543,7 @@
             <control id="ism-1651" class="ISM-control">
                <title>Control: ism-1651</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[10]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[11]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -3526,7 +3563,7 @@
             <control id="ism-1650" class="ISM-control">
                <title>Control: ism-1650</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[11]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[12]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -3549,7 +3586,7 @@
             <control id="ism-1652" class="ISM-control">
                <title>Control: ism-1652</title>
                <prop name="sort-id"
-                      value="catalog[1].group[08].group[2].group[05].control[12]"/>
+                      value="catalog[1].group[08].group[2].group[05].control[13]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -5226,6 +5263,9 @@
             <p>Further information on encrypting communications can be found in the cryptographic fundamentals section of the 
           <a href="#195abe87-bb1e-4006-8b42-eaecca4d51f1">Guidelines for Cryptography</a>.
         </p>
+            <p>Further information on event logging can be found in the event logging and monitoring section of the 
+          <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.
+        </p>
          </part>
          <group>
             <title>Fax machine and multifunction device usage policy</title>
@@ -5317,39 +5357,15 @@
             </control>
          </group>
          <group>
-            <title>Connecting multifunction devices to networks</title>
-            <prop name="sort-id" value="catalog[1].group[10].group[3].group[4]"/>
-            <part name="overview">
-               <p>As networked MFDs are considered to be devices that reside on networks, they should have controls of a similar strength to other devices on networks.</p>
-            </part>
-            <control id="ism-0590" class="ISM-control">
-               <title>Control: ism-0590</title>
-               <prop name="sort-id"
-                      value="catalog[1].group[10].group[3].group[4].control[1]"/>
-               <prop name="revision"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="7"/>
-               <prop name="updated"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Jun-22"/>
-               <prop name="applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ALL"/>
-               <part id="ism-0590_smt" name="statement">
-                  <p>Controls for MFDs connected to networks are of a similar strength to those for other devices on networks.</p>
-               </part>
-            </control>
-         </group>
-         <group>
             <title>Connecting multifunction devices to both networks and digital telephone systems</title>
-            <prop name="sort-id" value="catalog[1].group[10].group[3].group[5]"/>
+            <prop name="sort-id" value="catalog[1].group[10].group[3].group[4]"/>
             <part name="overview">
                <p>When an MFD is connected to both a network and a digital telephone system, the MFD can act as a bridge between the two. The digital telephone system therefore needs to operate at the same sensitivity or classification as the network.</p>
             </part>
             <control id="ism-0245" class="ISM-control">
                <title>Control: ism-0245</title>
                <prop name="sort-id"
-                      value="catalog[1].group[10].group[3].group[5].control[1]"/>
+                      value="catalog[1].group[10].group[3].group[4].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="5"/>
@@ -5365,10 +5381,51 @@
             </control>
          </group>
          <group>
-            <title>Copying documents on multifunction devices</title>
+            <title>Authenticating to multifunction devices</title>
+            <prop name="sort-id" value="catalog[1].group[10].group[3].group[5]"/>
+            <part name="overview">
+               <p>To prevent users from printing sensitive or classified documents and forgetting to collect them, as well as assisting with the collection of sufficiently detailed event logs, MFDs should implement authentication measures that are of the same strength as used for other devices on the same network they are connected to, such as user workstations. For example, if user access to workstations on a network requires multi-factor authentication, so should user access to MFDs before users can print, scan or copy documents.</p>
+            </part>
+            <control id="ism-1854" class="ISM-control">
+               <title>Control: ism-1854</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[10].group[3].group[5].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1854_smt" name="statement">
+                  <p>Users authenticate to MFDs before they can print, scan or copy documents.</p>
+               </part>
+            </control>
+            <control id="ism-0590" class="ISM-control">
+               <title>Control: ism-0590</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[10].group[3].group[5].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="8"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-0590_smt" name="statement">
+                  <p>Authentication measures for MFDs are the same strength as those used for workstations on networks they are connected to.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Scanning and copying documents on multifunction devices</title>
             <prop name="sort-id" value="catalog[1].group[10].group[3].group[6]"/>
             <part name="overview">
-               <p>As networked MFDs are capable of sending scanned or copied documents across connected networks, personnel should be aware that if they scan or copy documents at a level higher than that of networks that devices are connected to it will cause a data spill.</p>
+               <p>As MFDs residing on networks are often capable of sending scanned documents across networks they are connected to, personnel should be aware that if they scan documents at a level higher sensitivity or classification than that of the network it will cause a data spill. In addition, MFDs used to copy documents above the sensitivity or classification of the network may cause a localised data spill if copies are retained on non-volatile memory within the devices.</p>
             </part>
             <control id="ism-0589" class="ISM-control">
                <title>Control: ism-0589</title>
@@ -5376,28 +5433,69 @@
                       value="catalog[1].group[10].group[3].group[6].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="6"/>
+                      value="7"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-0589_smt" name="statement">
-                  <p>MFDs connected to networks are not used to copy documents above the sensitivity or classification of connected networks.</p>
+                  <p>MFDs are not used to scan or copy documents above the sensitivity or classification of networks they are connected to.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Auditing multifunction device use</title>
+            <prop name="sort-id" value="catalog[1].group[10].group[3].group[7]"/>
+            <part name="overview">
+               <p>MFD event logs, including metadata and shadow copies of documents printed, scanned or copied by users, can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, MFD event logs should be captured and stored centrally.</p>
+            </part>
+            <control id="ism-1855" class="ISM-control">
+               <title>Control: ism-1855</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[10].group[3].group[7].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1855_smt" name="statement">
+                  <p>Use of MFDs for printing, scanning and copying purposes, including the capture of shadow copies of documents, are logged.</p>
+               </part>
+            </control>
+            <control id="ism-1856" class="ISM-control">
+               <title>Control: ism-1856</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[10].group[3].group[7].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1856_smt" name="statement">
+                  <p>MFD event logs are stored centrally.</p>
                </part>
             </control>
          </group>
          <group>
             <title>Observing fax machine and multifunction device use</title>
-            <prop name="sort-id" value="catalog[1].group[10].group[3].group[7]"/>
+            <prop name="sort-id" value="catalog[1].group[10].group[3].group[8]"/>
             <part name="overview">
                <p>Placing fax machines and MFDs in public areas can help reduce the likelihood of any suspicious use going unnoticed.</p>
             </part>
             <control id="ism-1036" class="ISM-control">
                <title>Control: ism-1036</title>
                <prop name="sort-id"
-                      value="catalog[1].group[10].group[3].group[7].control[1]"/>
+                      value="catalog[1].group[10].group[3].group[8].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="3"/>
@@ -6345,13 +6443,13 @@
             <p>Further information on the installation, configuration, administration and operation of Common Criteria products is available from vendors and can be found in evaluation documentation on the Common Criteria’s 
           <a href="#29b04eaf-5f57-4ea1-a453-8047826dccf5">Certified Products List</a>.
         </p>
-            <p>For information on the installation, configuration, administration and operation of high assurance ICT equipment is available from the ACSC.</p>
+            <p>Further information on the installation, configuration, administration and operation of high assurance ICT equipment is available from the ACSC.</p>
          </part>
          <group>
-            <title>Installation and configuration of evaluated products</title>
+            <title>Using evaluated products</title>
             <prop name="sort-id" value="catalog[1].group[12].group[2].group[1]"/>
             <part name="overview">
-               <p>Product evaluation provides assurance that a product’s security functionality will work as expected when operating in a clearly defined configuration. The scope of the evaluation specifies the security functionality that can be used and how a product is to be configured and operated. Using an evaluated product in an unevaluated configuration could result in the introduction of security risks that were not considered as part of the product’s evaluation.</p>
+               <p>Product evaluation provides assurance that a product’s security functionality will work as expected when operating in a clearly defined configuration. The scope of the evaluation specifies the security functionality that can be used and how a product is to be installed, configured, administered and operated. Using an evaluated product in an unevaluated configuration could result in the introduction of security risks that were not considered as part of the product’s evaluation.</p>
             </part>
             <control id="ism-0289" class="ISM-control">
                <title>Control: ism-0289</title>
@@ -6359,15 +6457,15 @@
                       value="catalog[1].group[12].group[2].group[1].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
+                      value="3"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-18"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-0289_smt" name="statement">
-                  <p>Evaluated products are installed, configured, administered and operated in accordance with vendor guidance and evaluation documentation.</p>
+                  <p>Evaluated products are installed, configured, administered and operated in an evaluated configuration and in accordance with vendor guidance.</p>
                </part>
             </control>
          </group>
@@ -6383,6 +6481,9 @@
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the 
           <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.
+        </p>
+            <p>Further information on secure-by-design behaviours to look for in ICT equipment, especially in Internet of Things devices, can be found in the ACSC’s 
+          <a href="#0d9d5f12-3519-4585-82d9-bc0f42abcd3c">IoT Code of Practice – Guidance for Manufacturers</a> publication.
         </p>
             <p>Further information on securing ICT equipment when not in use can be found in the ICT equipment and media section of the 
           <a href="#4deea7ea-18a2-4fd7-8b25-0b3603215df2">Guidelines for Physical Security</a>.
@@ -6420,15 +6521,63 @@
             </control>
          </group>
          <group>
-            <title>ICT equipment register</title>
+            <title>ICT equipment selection</title>
             <prop name="sort-id" value="catalog[1].group[13].group[1].group[2]"/>
+            <part name="overview">
+               <p>When selecting ICT equipment, it is important that an organisation preferences vendors that have demonstrated a commitment to secure-by-design and secure-by-default principles, use of memory-safe programming languages where possible (such as C#, Go, Java, Ruby, Rust and Swift), secure programming practices, and maintaining the security of their products. This will assist not only with reducing the potential number of security vulnerabilities in ICT equipment, but also increasing the likelihood that timely patches, updates or vendor mitigations will be released to remediate any security vulnerabilities that are found.</p>
+            </part>
+            <control id="ism-1857" class="ISM-control">
+               <title>Control: ism-1857</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[13].group[1].group[2].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1857_smt" name="statement">
+                  <p>ICT equipment is chosen from vendors that have demonstrated a commitment to secure-by-design and secure-by-default principles, use of memory-safe programming languages where possible, secure programming practices, and maintaining the security of their products.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Hardening ICT equipment configurations</title>
+            <prop name="sort-id" value="catalog[1].group[13].group[1].group[3]"/>
+            <part name="overview">
+               <p>When ICT equipment is deployed in its default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. Many configuration settings exist within ICT equipment to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Cyber Security Centre (ACSC) and vendors often produce hardening guidance to assist in hardening the configuration of ICT equipment. Note, however, in situations where ACSC and vendor hardening guidance conflicts, preference should be given to implementing ACSC hardening guidance.</p>
+            </part>
+            <control id="ism-1858" class="ISM-control">
+               <title>Control: ism-1858</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[13].group[1].group[3].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1858_smt" name="statement">
+                  <p>ACSC and vendor hardening guidance for ICT equipment is implemented.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>ICT equipment register</title>
+            <prop name="sort-id" value="catalog[1].group[13].group[1].group[4]"/>
             <part name="overview">
                <p>Developing, implementing, maintaining and regularly verifying a register of authorised ICT equipment can assist an organisation in tracking legitimate ICT equipment as well as determining whether unauthorised ICT equipment, such as workstations, servers and network devices, have been introduced into their organisation.</p>
             </part>
             <control id="ism-0336" class="ISM-control">
                <title>Control: ism-0336</title>
                <prop name="sort-id"
-                      value="catalog[1].group[13].group[1].group[2].control[1]"/>
+                      value="catalog[1].group[13].group[1].group[4].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="7"/>
@@ -6445,7 +6594,7 @@
          </group>
          <group>
             <title>Labelling ICT equipment</title>
-            <prop name="sort-id" value="catalog[1].group[13].group[1].group[3]"/>
+            <prop name="sort-id" value="catalog[1].group[13].group[1].group[5]"/>
             <part name="overview">
                <p>Applying protective markings to ICT equipment assists to reduce the likelihood that a user will accidentally input data into it that it is not approved for processing, storing or communicating.</p>
                <p>While text-based protective markings are typically used for labelling ICT equipment, there may be circumstances where colour-based protective markings or other marking schemes need to be used instead. In such cases, the marking scheme will need to be documented and personnel will need to be trained in its use.</p>
@@ -6453,7 +6602,7 @@
             <control id="ism-0294" class="ISM-control">
                <title>Control: ism-0294</title>
                <prop name="sort-id"
-                      value="catalog[1].group[13].group[1].group[3].control[1]"/>
+                      value="catalog[1].group[13].group[1].group[5].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="4"/>
@@ -6470,7 +6619,7 @@
          </group>
          <group>
             <title>Classifying ICT equipment</title>
-            <prop name="sort-id" value="catalog[1].group[13].group[1].group[5]"/>
+            <prop name="sort-id" value="catalog[1].group[13].group[1].group[7]"/>
             <part name="overview">
                <p>The purpose of classifying ICT equipment is to acknowledge the sensitivity or classification of data that it is approved for processing, storing or communicating.</p>
                <p>Classifying ICT equipment also assists in ensuring that the appropriate sanitisation, destruction and disposal processes are followed at the end of its life.</p>
@@ -6478,7 +6627,7 @@
             <control id="ism-0293" class="ISM-control">
                <title>Control: ism-0293</title>
                <prop name="sort-id"
-                      value="catalog[1].group[13].group[1].group[5].control[1]"/>
+                      value="catalog[1].group[13].group[1].group[7].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="5"/>
@@ -6495,14 +6644,14 @@
          </group>
          <group>
             <title>Handling ICT equipment</title>
-            <prop name="sort-id" value="catalog[1].group[13].group[1].group[6]"/>
+            <prop name="sort-id" value="catalog[1].group[13].group[1].group[8]"/>
             <part name="overview">
                <p>When ICT equipment displays, processes, stores or communicates sensitive or classified data, it will need to be handled as per the sensitivity or classification of that data. However, applying encryption to media within the ICT equipment may change the manner in which it needs to be handled. Any change in handling needs to be based on the original sensitivity or classification of data residing on media within the ICT equipment and the level of assurance in the cryptographic equipment or software being used to encrypt it.</p>
             </part>
             <control id="ism-1599" class="ISM-control">
                <title>Control: ism-1599</title>
                <prop name="sort-id"
-                      value="catalog[1].group[13].group[1].group[6].control[1]"/>
+                      value="catalog[1].group[13].group[1].group[8].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -8340,7 +8489,7 @@
             <title>Hardening operating system configurations</title>
             <prop name="sort-id" value="catalog[1].group[15].group[1].group[04]"/>
             <part name="overview">
-               <p>When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. Many configuration settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Cyber Security Centre (ACSC) and vendors often produce guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ACSC and vendor guidance conflicts, preference should be given to implementing ACSC hardening guidance.</p>
+               <p>When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. Many configuration settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Cyber Security Centre (ACSC) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ACSC and vendor hardening guidance conflicts, preference should be given to implementing ACSC hardening guidance.</p>
             </part>
             <control id="ism-1409" class="ISM-control">
                <title>Control: ism-1409</title>
@@ -8348,15 +8497,15 @@
                       value="catalog[1].group[15].group[1].group[04].control[01]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="1"/>
+                      value="2"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-18"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1409_smt" name="statement">
-                  <p>ACSC and vendor guidance is implemented to assist in hardening the configuration of operating systems.</p>
+                  <p>ACSC and vendor hardening guidance for operating systems is implemented.</p>
                </part>
             </control>
             <control id="ism-0380" class="ISM-control">
@@ -8571,7 +8720,7 @@
             <title>Application control</title>
             <prop name="sort-id" value="catalog[1].group[15].group[1].group[06]"/>
             <part name="overview">
-               <p>Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm), HTML applications (e.g. .hta), control panel applets (e.g. .cpl) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.</p>
+               <p>Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.</p>
                <p>In implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by an adversary.</p>
                <p>Finally, application control event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, application control event logs should be captured and stored centrally.</p>
             </part>
@@ -9266,6 +9415,9 @@
             <p>Further information on securely configuring Microsoft Office can be found in the ACSC’s 
           <a href="#58c9abfb-58fe-416e-a279-dfbfe123c99f">Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</a> publication.
         </p>
+            <p>Further information on securely configuring the Microsoft Edge web browser can be found in the ACSC’s 
+          <a href="#6e801c68-61f6-4c28-bf72-df91f7e232cc">Hardening Microsoft Windows 10 version 21H1 Workstations</a> publication.
+        </p>
             <p>Further information on configuring Microsoft Office macro settings can be found in the ACSC’s 
           <a href="#dfb52998-0e7e-420d-97e1-d1313c8f919a">Microsoft Office Macro Security</a> publication.
         </p>
@@ -9325,7 +9477,7 @@
             <title>Hardening user application configurations</title>
             <prop name="sort-id" value="catalog[1].group[15].group[2].group[3]"/>
             <part name="overview">
-               <p>When user applications are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many configuration settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, the ACSC and vendors often produce guidance to assist in hardening the configuration of these applications. Note, however, in situations where ACSC and vendor guidance conflicts, preference should be given to implementing ACSC hardening guidance.</p>
+               <p>When user applications are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many configuration settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, the ACSC and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ACSC and vendor hardening guidance conflicts, preference should be given to implementing ACSC hardening guidance.</p>
             </part>
             <control id="ism-1806" class="ISM-control">
                <title>Control: ism-1806</title>
@@ -9344,33 +9496,10 @@
                   <p>Default accounts or credentials for user applications, including for any pre-configured accounts, are changed.</p>
                </part>
             </control>
-            <control id="ism-1412" class="ISM-control">
-               <title>Control: ism-1412</title>
-               <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[02]"/>
-               <prop name="revision"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="3"/>
-               <prop name="updated"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-21"/>
-               <prop name="applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ALL"/>
-               <prop name="essential-eight-applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ML2"/>
-               <prop name="essential-eight-applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ML3"/>
-               <part id="ism-1412_smt" name="statement">
-                  <p>ACSC or vendor hardening guidance for web browsers, Microsoft Office and PDF software is implemented.</p>
-               </part>
-            </control>
             <control id="ism-1470" class="ISM-control">
                <title>Control: ism-1470</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[03]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[02]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="5"/>
@@ -9387,7 +9516,7 @@
             <control id="ism-1235" class="ISM-control">
                <title>Control: ism-1235</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[04]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[03]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="4"/>
@@ -9404,7 +9533,7 @@
             <control id="ism-1667" class="ISM-control">
                <title>Control: ism-1667</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[05]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[04]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -9427,7 +9556,7 @@
             <control id="ism-1668" class="ISM-control">
                <title>Control: ism-1668</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[06]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[05]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -9450,7 +9579,7 @@
             <control id="ism-1669" class="ISM-control">
                <title>Control: ism-1669</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[07]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[06]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -9473,7 +9602,7 @@
             <control id="ism-1542" class="ISM-control">
                <title>Control: ism-1542</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[08]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[07]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -9491,6 +9620,29 @@
                       value="ML3"/>
                <part id="ism-1542_smt" name="statement">
                   <p>Microsoft Office is configured to prevent activation of Object Linking and Embedding packages.</p>
+               </part>
+            </control>
+            <control id="ism-1859" class="ISM-control">
+               <title>Control: ism-1859</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[08]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1859_smt" name="statement">
+                  <p>ACSC or vendor hardening guidance for office productivity suites is implemented.</p>
                </part>
             </control>
             <control id="ism-1823" class="ISM-control">
@@ -9582,10 +9734,33 @@
                   <p>Internet Explorer 11 does not process content from the internet.</p>
                </part>
             </control>
+            <control id="ism-1412" class="ISM-control">
+               <title>Control: ism-1412</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[13]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="4"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1412_smt" name="statement">
+                  <p>ACSC or vendor hardening guidance for web browsers is implemented.</p>
+               </part>
+            </control>
             <control id="ism-1585" class="ISM-control">
                <title>Control: ism-1585</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[13]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[14]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="2"/>
@@ -9608,7 +9783,7 @@
             <control id="ism-1670" class="ISM-control">
                <title>Control: ism-1670</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[14]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[15]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -9628,10 +9803,33 @@
                   <p>PDF software is blocked from creating child processes.</p>
                </part>
             </control>
+            <control id="ism-1860" class="ISM-control">
+               <title>Control: ism-1860</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[2].group[3].control[16]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML2"/>
+               <prop name="essential-eight-applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ML3"/>
+               <part id="ism-1860_smt" name="statement">
+                  <p>ACSC or vendor hardening guidance for PDF software is implemented.</p>
+               </part>
+            </control>
             <control id="ism-1824" class="ISM-control">
                <title>Control: ism-1824</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[15]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[17]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -9654,7 +9852,7 @@
             <control id="ism-1601" class="ISM-control">
                <title>Control: ism-1601</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[16]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[18]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -9671,7 +9869,7 @@
             <control id="ism-1748" class="ISM-control">
                <title>Control: ism-1748</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[17]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[19]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -9688,7 +9886,7 @@
             <control id="ism-1825" class="ISM-control">
                <title>Control: ism-1825</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[2].group[3].control[18]"/>
+                      value="catalog[1].group[15].group[2].group[3].control[20]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -10034,7 +10232,7 @@
             <title>Hardening server application configurations</title>
             <prop name="sort-id" value="catalog[1].group[15].group[3].group[3]"/>
             <part name="overview">
-               <p>Poorly configured server applications could provide an opportunity for an adversary to gain unauthorised access to the underlying server. To assist an organisation in deploying server applications, vendors often provide guidance on how to securely configure their products. In addition, server applications will often leave behind temporary installation files and logs during their installation process in case an administrator needs to troubleshoot a failed installation. These files, which can include credentials, could be valuable to an adversary and should be removed following the installation of server applications.</p>
+               <p>When server applications are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. This can be especially risky for server applications as such applications are routinely targeted for exploitation. Many configuration settings exist within server applications to allow them to be configured in a secure state in order to minimise this security risk. As such, the ACSC and vendors often produce hardening guidance to assist in hardening the configuration of server applications. Note, however, in situations where ACSC and vendor hardening guidance conflicts, preference should be given to implementing ACSC hardening guidance.</p>
             </part>
             <control id="ism-1246" class="ISM-control">
                <title>Control: ism-1246</title>
@@ -10042,15 +10240,15 @@
                       value="catalog[1].group[15].group[3].group[3].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="3"/>
+                      value="4"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-23"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1246_smt" name="statement">
-                  <p>ACSC or vendor hardening guidance for server applications is implemented.</p>
+                  <p>ACSC and vendor hardening guidance for server applications is implemented.</p>
                </part>
             </control>
             <control id="ism-1260" class="ISM-control">
@@ -10531,7 +10729,7 @@
          <prop name="sort-id" value="catalog[1].group[15].group[4]"/>
          <part name="overview">
             <h1>Account and authentication types</h1>
-            <p>The guidance within this section is equally applicable to all account types. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.</p>
+            <p>The guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.</p>
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the 
           <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.
@@ -10546,13 +10744,20 @@
           <a href="#58282062-5c17-476a-98b1-105a627cd28d">randomly generating passphrases</a> (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a 
           <a href="#0508be6f-cb97-44da-b212-42416a0048b0">random dice roller</a> is available from RANDOM.ORG.
         </p>
+            <p>Further information on 
+          <a href="#91b92563-d991-40fa-9adc-548df9f6c496">group Managed Service Accounts</a> in Microsoft Windows Server is available from Microsoft.
+        </p>
             <p>Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s 
           <a href="#ae426d0a-adb6-43b8-a463-faa33e83b679">Active Directory accounts</a> and 
           <a href="#3e5a98e5-9219-46c8-81c2-e3a4d13407ce">AD Forest Recovery - Resetting the krbtgt password</a> publications. A script for 
           <a href="#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b">changing credentials for this service account</a> is also available from Microsoft.
         </p>
             <p>Further information on 
-          <a href="#91b92563-d991-40fa-9adc-548df9f6c496">group Managed Service Accounts</a> in Microsoft Windows Server is available from Microsoft.
+          <a href="#8d53ee7f-54c2-4380-8408-f7403db30ba1">Windows Defender Credential Guard</a> and 
+          <a href="#92975dff-58e0-4813-842b-f27c0533ca56">Windows Defender Remote Credential Guard</a> is available from Microsoft.
+        </p>
+            <p>Further information on 
+          <a href="#3f43c8d2-8a8c-4e2f-af80-48a607bce643">Protective Process Light for LSASS</a> is available from Microsoft.
         </p>
             <p>Further information on mitigating the use of stolen credentials can be found in the ACSC’s 
           <a href="#824e4353-a9ae-4869-88fb-cb0675dc5d1c">Mitigating the Use of Stolen Credentials</a> publication.
@@ -10630,15 +10835,15 @@
             <title>Multi-factor authentication</title>
             <prop name="sort-id" value="catalog[1].group[15].group[4].group[03]"/>
             <part name="overview">
-               <p>Multi-factor authentication uses two or more authentication factors. This may include:</p>
+               <p>Multi-factor authentication uses two or more different authentication factors. This may include:</p>
                <ul>
-                  <li>something a user knows, such as a memorised secret (i.e. personal identification number, password or passphrase)</li>
-                  <li>something a user has, such as a security key, smart card, smartphone or one-time password token</li>
-                  <li>something a user is, such as a fingerprint pattern or their facial geometry.</li>
+                  <li>something users know, such as a memorised secret (i.e. personal identification number, password or passphrase)</li>
+                  <li>something users have, such as a security key, smart card, smartphone or one-time password token</li>
+                  <li>something users are, such as a fingerprint pattern or their facial geometry.</li>
                </ul>
-               <p>Note, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that a user has rather than something a user knows.</p>
+               <p>Note, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that users have rather than something users know.</p>
                <p>Privileged users, users of remote access solutions and users with access to important data repositories are more likely to be targeted by an adversary due to their access. For this reason, it is especially important that multi-factor authentication is used for these accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing an adversary’s ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.</p>
-               <p>When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something a user has should be used as part of multi-factor authentication. Furthermore, for increased security, the use of phishing-resistant (also known as verifier impersonation resistant) multi-factor authentication is recommended to protect against real-time phishing attacks.</p>
+               <p>When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something users have should be used with something users know. Alternatively, something users have that is unlocked by something users know or are (often known as passwordless multi-factor authentication) can be used. Furthermore, for increased security, the use of phishing-resistant multi-factor authentication is recommended to protect against real-time phishing attacks.</p>
                <p>Finally, multi-factor authentication event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, multi-factor authentication event logs should be captured and stored centrally.</p>
             </part>
             <control id="ism-0974" class="ISM-control">
@@ -10756,10 +10961,10 @@
                       value="catalog[1].group[15].group[4].group[03].control[06]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="0"/>
+                      value="1"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-21"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
@@ -10770,7 +10975,7 @@
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ML3"/>
                <part id="ism-1681_smt" name="statement">
-                  <p>Multi-factor authentication is enabled by default for non-organisational users (but users can choose to opt out) if they authenticate to an organisation’s internet-facing services.</p>
+                  <p>Multi-factor authentication is enabled by default for an organisation’s non-organisational users (but users can choose to opt out) if they authenticate to the organisation’s internet-facing services.</p>
                </part>
             </control>
             <control id="ism-1505" class="ISM-control">
@@ -11049,10 +11254,10 @@
             </control>
          </group>
          <group>
-            <title>Setting credentials for local administrator accounts and service accounts</title>
+            <title>Setting credentials for break glass accounts, local administrator accounts and service accounts</title>
             <prop name="sort-id" value="catalog[1].group[15].group[4].group[06]"/>
             <part name="overview">
-               <p>When local administrator accounts and service accounts use common usernames and credentials, it can allow an adversary that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for local administrator accounts and service accounts are long, unique, unpredictable and managed.</p>
+               <p>When break glass accounts, local administrator accounts and service accounts use common usernames or weak credentials, it may allow an adversary that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for break glass accounts, local administrator accounts and service accounts are long, unique, unpredictable and managed.</p>
                <p>To provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically ensures that they are long, unique, unpredictable and managed. This ensures that service account credentials are secure, not misplaced or forgotten, and that they are automatically changed on a regular basis. However, in cases where the use of group Managed Service Accounts is not possible, credentials for service accounts should still be unique and unpredictable with a minimum length of 30 characters.</p>
             </part>
             <control id="ism-1685" class="ISM-control">
@@ -11061,10 +11266,10 @@
                       value="catalog[1].group[15].group[4].group[06].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="1"/>
+                      value="2"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
@@ -11075,13 +11280,30 @@
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ML3"/>
                <part id="ism-1685_smt" name="statement">
-                  <p>Credentials for local administrator accounts and service accounts are long, unique, unpredictable and managed.</p>
+                  <p>Credentials for break glass accounts, local administrator accounts and service accounts are long, unique, unpredictable and managed.</p>
+               </part>
+            </control>
+            <control id="ism-1795" class="ISM-control">
+               <title>Control: ism-1795</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[4].group[06].control[2]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="1"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1795_smt" name="statement">
+                  <p>Credentials for break glass accounts, local administrator accounts and service accounts are a minimum of 30 characters.</p>
                </part>
             </control>
             <control id="ism-1619" class="ISM-control">
                <title>Control: ism-1619</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[4].group[06].control[2]"/>
+                      value="catalog[1].group[15].group[4].group[06].control[3]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -11095,29 +11317,12 @@
                   <p>Service accounts are created as group Managed Service Accounts.</p>
                </part>
             </control>
-            <control id="ism-1795" class="ISM-control">
-               <title>Control: ism-1795</title>
-               <prop name="sort-id"
-                      value="catalog[1].group[15].group[4].group[06].control[3]"/>
-               <prop name="revision"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="0"/>
-               <prop name="updated"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-22"/>
-               <prop name="applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ALL"/>
-               <part id="ism-1795_smt" name="statement">
-                  <p>Credentials for local administrator accounts and service accounts are a minimum of 30 characters.</p>
-               </part>
-            </control>
          </group>
          <group>
             <title>Changing credentials</title>
             <prop name="sort-id" value="catalog[1].group[15].group[4].group[07]"/>
             <part name="overview">
-               <p>Generally, credentials should not need to be changed on a frequent basis. However, some events may necessitate the requirement for individual accounts, or groups of accounts, to change their credentials. This can include direct or suspected compromises of credentials, credentials appearing in online data breach databases, credentials being discovered stored on networks in the clear, credentials being transferred across networks in the clear, when membership of shared accounts change, and if credentials haven’t been changed in the past 12 months.</p>
+               <p>Generally, credentials should not need to be changed on a frequent basis. However, some events may necessitate the requirement for individual accounts, or groups of accounts, to change their credentials. This can include credentials being compromised (such as appearing in an online data breach database), being suspected of being compromised (such as when an adversary gains access to a network), being discovered stored on networks in the clear, being transferred across networks in the clear, when membership of shared accounts change and if they haven’t been changed in the past 12 months.</p>
             </part>
             <control id="ism-1590" class="ISM-control">
                <title>Control: ism-1590</title>
@@ -11125,19 +11330,18 @@
                       value="catalog[1].group[15].group[4].group[07].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="1"/>
+                      value="2"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1590_smt" name="statement">
                   <p>Credentials are changed if:</p>
                   <ul>
-                     <li>they are directly compromised</li>
+                     <li>they are compromised</li>
                      <li>they are suspected of being compromised</li>
-                     <li>they appear in an online data breach database</li>
                      <li>they are discovered stored on networks in the clear</li>
                      <li>they are discovered being transferred across networks in the clear</li>
                      <li>membership of a shared account changes</li>
@@ -11173,7 +11377,7 @@
             <prop name="sort-id" value="catalog[1].group[15].group[4].group[08]"/>
             <part name="overview">
                <p>Written down credentials (e.g. memorised secrets), and dedicated devices that store or generate credentials (e.g. security keys, smart cards and one-time password tokens), when kept together with systems they are used to authenticate to can increase the likelihood of an adversary gaining unauthorised access to systems. For example, when smart cards are left on desks, one-time password tokens are left in laptop bags, security keys are left connected to computers or passphrases are written down and stuck to computer monitors. Furthermore, obscuring credentials as they are entered into systems can assist in protecting them against screen scrapers and shoulder surfers.</p>
-               <p>If storing credentials on systems, sufficient protection should be implemented to prevent them from being compromised. For example, credentials can be stored in a password manager or hardware security module, while credentials stored in a database should be hashed, salted and stretched. In addition, Windows Defender Credential Guard and Windows Defender Remote Credential Guard can be enabled to provide additional protection for credentials.</p>
+               <p>If storing credentials on systems, sufficient protection should be implemented to prevent them from being compromised. For example, credentials can be stored in a password manager or hardware security module, while credentials stored in a database should be hashed, salted and stretched. In addition, Windows Defender Credential Guard, Windows Defender Remote Credential Guard and Protective Process Light for the Local Security Authority Subsystem Service (LSASS), preferably with a Unified Extensible Firmware Interface (UEFI) lock, can be enabled to provide additional protection for credentials.</p>
                <p>When using Microsoft Windows systems, cached credentials are stored in the Security Accounts Manager database and can allow a user to logon to a workstation they have previously logged onto even if the domain is not available. Whilst this functionality may be desirable from an availability perspective, this functionality can be abused by an adversary who can retrieve these cached credentials. To reduce this security risk, cached credentials should be limited to only one previous logon.</p>
             </part>
             <control id="ism-0418" class="ISM-control">
@@ -11247,10 +11451,27 @@
                   <p>Windows Defender Credential Guard and Windows Defender Remote Credential Guard are enabled.</p>
                </part>
             </control>
+            <control id="ism-1861" class="ISM-control">
+               <title>Control: ism-1861</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[15].group[4].group[08].control[5]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1861_smt" name="statement">
+                  <p>Protective Process Light for LSASS is enabled with a UEFI lock.</p>
+               </part>
+            </control>
             <control id="ism-1749" class="ISM-control">
                <title>Control: ism-1749</title>
                <prop name="sort-id"
-                      value="catalog[1].group[15].group[4].group[08].control[5]"/>
+                      value="catalog[1].group[15].group[4].group[08].control[6]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -11277,15 +11498,15 @@
                       value="catalog[1].group[15].group[4].group[09].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
+                      value="3"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Oct-19"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1403_smt" name="statement">
-                  <p>Accounts are locked out after a maximum of five failed logon attempts.</p>
+                  <p>Accounts, except for break glass accounts, are locked out after a maximum of five failed logon attempts.</p>
                </part>
             </control>
          </group>
@@ -11714,7 +11935,7 @@
             <title>Administrative infrastructure</title>
             <prop name="sort-id" value="catalog[1].group[16].group[1].group[3]"/>
             <part name="overview">
-               <p>The security of administrative activities can be improved by segregating administrative infrastructure from the wider network. In doing so, the use of a jump server (also known as a jump host or jump box) can be an effective way of simplifying and securing administrative activities. Specifically, a jump server can provide filtering of network management traffic while also acting as a focal point to perform multi-factor authentication; store and manage administrative tools; and perform logging, monitoring and alerting activities. Finally, using separate jump servers for the administration of critical servers, high-value servers and regular servers can further assist in protecting these assets.</p>
+               <p>The security of administrative activities can be improved by segregating administrative infrastructure from the wider network and the internet. In doing so, the use of a jump server (also known as a jump host or jump box) can be an effective way of simplifying and securing administrative activities. Specifically, a jump server can provide filtering of network management traffic while also acting as a focal point to perform multi-factor authentication; store and manage administrative tools; and perform logging, monitoring and alerting activities. Finally, using separate jump servers for the administration of critical servers, high-value servers and regular servers can further assist in protecting these assets.</p>
             </part>
             <control id="ism-1385" class="ISM-control">
                <title>Control: ism-1385</title>
@@ -11722,15 +11943,15 @@
                       value="catalog[1].group[16].group[1].group[3].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="3"/>
+                      value="4"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1385_smt" name="statement">
-                  <p>Administrative infrastructure is segregated from the wider network.</p>
+                  <p>Administrative infrastructure is segregated from the wider network and the internet.</p>
                </part>
             </control>
             <control id="ism-1750" class="ISM-control">
@@ -12033,10 +12254,10 @@
                       value="catalog[1].group[16].group[2].group[3].control[5]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="0"/>
+                      value="1"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-21"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
@@ -12047,7 +12268,7 @@
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ML3"/>
                <part id="ism-1700_smt" name="statement">
-                  <p>A vulnerability scanner is used at least fortnightly to identify missing patches or updates for security vulnerabilities in other applications.</p>
+                  <p>A vulnerability scanner is used at least fortnightly to identify missing patches or updates for security vulnerabilities in applications other than office productivity suites, web browsers and their extensions, email clients, PDF software, and security products.</p>
                </part>
             </control>
             <control id="ism-1701" class="ISM-control">
@@ -12102,15 +12323,15 @@
                       value="catalog[1].group[16].group[2].group[3].control[8]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="0"/>
+                      value="1"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1752_smt" name="statement">
-                  <p>A vulnerability scanner is used at least weekly to identify missing patches or updates for security vulnerabilities in operating systems of other ICT equipment.</p>
+                  <p>A vulnerability scanner is used at least weekly to identify missing patches or updates for security vulnerabilities in operating systems of ICT equipment other than workstations, servers and network devices.</p>
                </part>
             </control>
             <control id="ism-1703" class="ISM-control">
@@ -12211,10 +12432,10 @@
                       value="catalog[1].group[16].group[2].group[4].control[04]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="0"/>
+                      value="1"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-21"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
@@ -12225,7 +12446,7 @@
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ML3"/>
                <part id="ism-1693_smt" name="statement">
-                  <p>Patches, updates or vendor mitigations for security vulnerabilities in other applications are applied within one month of release.</p>
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in applications other than office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within one month of release.</p>
                </part>
             </control>
             <control id="ism-1694" class="ISM-control">
@@ -12300,15 +12521,15 @@
                       value="catalog[1].group[16].group[2].group[4].control[08]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="0"/>
+                      value="1"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1751_smt" name="statement">
-                  <p>Patches, updates or vendor mitigations for security vulnerabilities in operating systems of other ICT equipment are applied within two weeks of release, or within 48 hours if an exploit exists.</p>
+                  <p>Patches, updates or vendor mitigations for security vulnerabilities in operating systems of ICT equipment other than workstations, servers and network devices are applied within two weeks of release, or within 48 hours if an exploit exists.</p>
                </part>
             </control>
             <control id="ism-1697" class="ISM-control">
@@ -12815,6 +13036,9 @@
             <p>Further information on event logging for gateways can be found in the gateways section of the 
           <a href="#e8bde527-526c-4a6a-b66f-05228f09dd7b">Guidelines for Gateways</a>.
         </p>
+            <p>Further information on event logging for multifunction devices can be found in the fax machines and multifunction devices section of the 
+          <a href="#3a7b903b-ed0d-450d-9123-60f6f8fd5dd2">Guidelines for Communications Systems</a>.
+        </p>
             <p>Further information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the 
           <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.
         </p>
@@ -13006,7 +13230,7 @@
             <title>Event log retention</title>
             <prop name="sort-id" value="catalog[1].group[17].group[1].group[5]"/>
             <part name="overview">
-               <p>The retention of event logs is integral to system monitoring, hunt and incident response activities. As such, event logs for Cross Domain Solutions, databases, Domain Name System services, email servers, gateways, operating systems, remote access services, security services, server applications, system access, user applications, web applications and web proxies should be retained for a suitable period of time to facilitate these activities.</p>
+               <p>The retention of event logs is integral to system monitoring, hunt and incident response activities. As such, event logs for Cross Domain Solutions, databases, Domain Name System services, email servers, gateways, multifunction devices, operating systems, remote access services, security services, server applications, system access, user applications, web applications and web proxies should be retained for a suitable period of time to facilitate these activities.</p>
             </part>
             <control id="ism-0859" class="ISM-control">
                <title>Control: ism-0859</title>
@@ -13723,15 +13947,39 @@
             </control>
          </group>
          <group>
-            <title>Web application event logging</title>
+            <title>Web application firewalls</title>
             <prop name="sort-id" value="catalog[1].group[18].group[2].group[8]"/>
+            <part name="overview">
+               <p>When using a web application firewall (WAF), care should be taken with their configuration to ensure that the Internet Protocol (IP) addresses of an organisation’s web servers (referred to as origin servers) are not identifiable by an adversary, as knowledge of origin server IP addresses could allow for protections provided by a WAF to be bypassed. Additionally, appropriate controls should be applied to only allow communication between origin servers, the WAF and authorised management networks.</p>
+            </part>
+            <control id="ism-1862" class="ISM-control">
+               <title>Control: ism-1862</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[18].group[2].group[8].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1862_smt" name="statement">
+                  <p>If using a WAF, disclosing the IP addresses of web servers under an organisation’s control (referred to as origin servers) is avoided and access to the origin servers is restricted to the WAF and authorised management networks.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Web application event logging</title>
+            <prop name="sort-id" value="catalog[1].group[18].group[2].group[9]"/>
             <part name="overview">
                <p>Web application events can assist in monitoring the security posture of web applications, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, web application event logs should be captured and stored centrally.</p>
             </part>
             <control id="ism-1536" class="ISM-control">
                <title>Control: ism-1536</title>
                <prop name="sort-id"
-                      value="catalog[1].group[18].group[2].group[8].control[1]"/>
+                      value="catalog[1].group[18].group[2].group[9].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -13748,7 +13996,7 @@
             <control id="ism-1757" class="ISM-control">
                <title>Control: ism-1757</title>
                <prop name="sort-id"
-                      value="catalog[1].group[18].group[2].group[8].control[2]"/>
+                      value="catalog[1].group[18].group[2].group[9].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -14534,15 +14782,15 @@
                       value="catalog[1].group[20].group[2].group[05].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="6"/>
+                      value="7"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-0574_smt" name="statement">
-                  <p>SPF is used to specify authorised email servers (or lack thereof) for all domains (including subdomains).</p>
+                  <p>SPF is used to specify authorised email servers (or lack thereof) for an organisation’s domains (including subdomains).</p>
                </part>
             </control>
             <control id="ism-1183" class="ISM-control">
@@ -14551,15 +14799,15 @@
                       value="catalog[1].group[20].group[2].group[05].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
+                      value="3"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1183_smt" name="statement">
-                  <p>A hard fail SPF record is used when specifying authorised email servers (or lack thereof) for all domains (including subdomains).</p>
+                  <p>A hard fail SPF record is used when specifying authorised email servers (or lack thereof) for an organisation’s domains (including subdomains).</p>
                </part>
             </control>
             <control id="ism-1151" class="ISM-control">
@@ -14609,15 +14857,15 @@
                       value="catalog[1].group[20].group[2].group[06].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="5"/>
+                      value="6"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Jan-20"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1026_smt" name="statement">
-                  <p>DKIM signatures on received emails are verified.</p>
+                  <p>DKIM signatures on incoming emails are verified.</p>
                </part>
             </control>
             <control id="ism-1027" class="ISM-control">
@@ -14651,15 +14899,15 @@
                       value="catalog[1].group[20].group[2].group[07].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
+                      value="3"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Sep-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1540_smt" name="statement">
-                  <p>DMARC records are configured for all domains (including subdomains) such that emails are rejected if they do not pass DMARC checks.</p>
+                  <p>DMARC records are configured for an organisation’s domains (including subdomains) such that emails are rejected if they do not pass DMARC checks.</p>
                </part>
             </control>
             <control id="ism-1799" class="ISM-control">
@@ -15194,15 +15442,39 @@
             </control>
          </group>
          <group>
-            <title>Network management traffic</title>
+            <title>Networked management interfaces</title>
             <prop name="sort-id" value="catalog[1].group[21].group[1].group[08]"/>
+            <part name="overview">
+               <p>To assist in reducing the attack surface of networks, ICT equipment residing on networks (such as servers), or constituting the makeup of network infrastructure (such as network devices), should not directly expose their networked management interfaces to the internet. In situations where this is not possible, such as for some cloud services and web applications, additional compensating controls will need to be implemented in order to protect weak or vulnerable networked management interfaces from being exploited by an adversary to remotely compromise networks. Ideally, ICT equipment on networks, or constituting the makeup of network infrastructure, should be managed via administrative infrastructure segregated from the wider network and the internet.</p>
+            </part>
+            <control id="ism-1863" class="ISM-control">
+               <title>Control: ism-1863</title>
+               <prop name="sort-id"
+                      value="catalog[1].group[21].group[1].group[08].control[1]"/>
+               <prop name="revision"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="0"/>
+               <prop name="updated"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="Jun-23"/>
+               <prop name="applicability"
+                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
+                      value="ALL"/>
+               <part id="ism-1863_smt" name="statement">
+                  <p>Networked management interfaces for ICT equipment are not directly exposed to the internet.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Network management traffic</title>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[09]"/>
             <part name="overview">
                <p>Implementing security measures specifically for network management traffic provides another layer of defence should an adversary find an opportunity to connect to networks. In addition, this also makes it more difficult for an adversary to enumerate networks.</p>
             </part>
             <control id="ism-1006" class="ISM-control">
                <title>Control: ism-1006</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[08].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[09].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="6"/>
@@ -15219,14 +15491,14 @@
          </group>
          <group>
             <title>Use of Simple Network Management Protocol</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[1].group[09]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[10]"/>
             <part name="overview">
                <p>The Simple Network Management Protocol (SNMP) can be used to monitor the status of network devices. The first two iterations of SNMP were inherently insecure as they used trivial authentication methods. Furthermore, changing all default SNMP community strings on network devices, and limiting their access to read-only, is strongly encouraged.</p>
             </part>
             <control id="ism-1311" class="ISM-control">
                <title>Control: ism-1311</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[09].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[10].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="3"/>
@@ -15243,7 +15515,7 @@
             <control id="ism-1312" class="ISM-control">
                <title>Control: ism-1312</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[09].control[2]"/>
+                      value="catalog[1].group[21].group[1].group[10].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="3"/>
@@ -15260,14 +15532,14 @@
          </group>
          <group>
             <title>Using Network-based Intrusion Detection and Prevention Systems</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[1].group[10]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[11]"/>
             <part name="overview">
                <p>A Network-based Intrusion Detection System (NIDS) or Network-based Intrusion Prevention System (NIPS) can be an effective way of identifying and responding to network intrusions. In addition, generating event logs and alerts for network traffic that contravenes any rule in a firewall ruleset can help identify suspicious or malicious network traffic entering networks due to a failure of, or configuration change to, firewalls.</p>
             </part>
             <control id="ism-1028" class="ISM-control">
                <title>Control: ism-1028</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[10].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[11].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="8"/>
@@ -15284,7 +15556,7 @@
             <control id="ism-1030" class="ISM-control">
                <title>Control: ism-1030</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[10].control[2]"/>
+                      value="catalog[1].group[21].group[1].group[11].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="8"/>
@@ -15301,14 +15573,14 @@
          </group>
          <group>
             <title>Blocking anonymity network traffic</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[1].group[11]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[12]"/>
             <part name="overview">
                <p>Inbound network connections from anonymity networks, such as the Tor network, to an organisation’s internet-facing services can be used by an adversary for reconnaissance and malware delivery purposes with minimal risk of detection and attribution. As such, this network traffic should be blocked. However, an organisation might choose to support anonymous connections to their websites to cater for individuals who want to remain anonymous for privacy reasons. In such cases, it is suggested that network traffic from anonymity networks be logged and monitored instead. Additionally, outbound network connections to anonymity networks can be used by malware for command and control or data exfiltration purposes and should be blocked.</p>
             </part>
             <control id="ism-1627" class="ISM-control">
                <title>Control: ism-1627</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[11].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[12].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -15325,7 +15597,7 @@
             <control id="ism-1628" class="ISM-control">
                <title>Control: ism-1628</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[11].control[2]"/>
+                      value="catalog[1].group[21].group[1].group[12].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -15342,7 +15614,7 @@
          </group>
          <group>
             <title>Protective Domain Name System Services</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[1].group[12]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[13]"/>
             <part name="overview">
                <p>A protective Domain Name System (DNS) service can be an effective way of blocking requests made by an organisation’s users, or an adversary on an organisation’s network, to known malicious domain names – either as part of an initial compromise or subsequent command and control activities. DNS event logs captured by a protective DNS service can also be useful for investigating any exploitation attempt or successful compromise of a network by an adversary.</p>
                <p>In selecting a protective DNS service, many commercial offerings exist. In addition, the Australian Cyber Security Centre (ACSC) also offers a free protective DNS service for all levels of government.</p>
@@ -15350,7 +15622,7 @@
             <control id="ism-1782" class="ISM-control">
                <title>Control: ism-1782</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[12].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[13].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -15367,14 +15639,14 @@
          </group>
          <group>
             <title>Flashing network devices with trusted firmware before first use</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[1].group[13]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[14]"/>
             <part name="overview">
                <p>Flashing network devices with trusted firmware, obtained from vendors via trusted means, before network devices are used for the first time can assist in reducing cyber supply chain risks, such as the introduction of malicious firmware resulting from a cyber supply chain interdiction attack or a compromised vendor development environment or source code repository.</p>
             </part>
             <control id="ism-1800" class="ISM-control">
                <title>Control: ism-1800</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[13].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[14].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -15391,14 +15663,14 @@
          </group>
          <group>
             <title>Default accounts and credentials for network devices</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[1].group[14]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[15]"/>
             <part name="overview">
                <p>Network devices can come pre-configured with default accounts and credentials. For example, wireless access points with an account named ‘admin’ and a password of ‘admin’. Ensuring default accounts or credentials are changed can assist in reducing the likelihood of network devices being exploited by an adversary.</p>
             </part>
             <control id="ism-1304" class="ISM-control">
                <title>Control: ism-1304</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[14].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[15].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="4"/>
@@ -15415,14 +15687,14 @@
          </group>
          <group>
             <title>Disabling unused physical ports on network devices</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[1].group[15]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[16]"/>
             <part name="overview">
                <p>Disabling unused physical ports on network devices reduces the opportunity for an adversary to connect to networks if they can gain physical access to network devices.</p>
             </part>
             <control id="ism-0534" class="ISM-control">
                <title>Control: ism-0534</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[15].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[16].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="2"/>
@@ -15439,14 +15711,14 @@
          </group>
          <group>
             <title>Regularly restarting network devices</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[1].group[16]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[1].group[17]"/>
             <part name="overview">
                <p>Implementing measures to restart network devices on at least a monthly basis can assist in maintaining network device performance as well as removing an adversary that may have compromised a network device but failed to gain persistence.</p>
             </part>
             <control id="ism-1801" class="ISM-control">
                <title>Control: ism-1801</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[1].group[16].control[1]"/>
+                      value="catalog[1].group[21].group[1].group[17].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="0"/>
@@ -15998,7 +16270,7 @@
             <title>Cloud-based hosting of online services</title>
             <prop name="sort-id" value="catalog[1].group[21].group[3].group[1]"/>
             <part name="overview">
-               <p>Using cloud service providers can allow an organisation to build highly resilient online services due to the increased computing resources, bandwidth and multiple separate physical sites made available by the cloud server providers. An organisation can achieve the same results using their own infrastructure. However, doing so may require significant upfront costs and may still result in a limited capability to scale dynamically to meet increased demand. In case of a denial-of-service attack, cloud-based hosting can also provide segregation from self-hosted or other cloud-hosted services ensuring that other systems, such as email, are not affected.</p>
+               <p>Using cloud service providers can allow an organisation to build highly resilient online services due to the increased computing resources, bandwidth and multiple separate physical sites made available by cloud service providers. An organisation can attempt to achieve the same results using their own infrastructure, however, doing so may require significant upfront costs and may still result in a limited capability to scale dynamically to meet a genuine spike in demand. In cases of denial-of-service attacks, cloud-based hosting can also provide segregation from self-hosted or other cloud-hosted services ensuring that other systems, such as email, are not affected.</p>
             </part>
             <control id="ism-1437" class="ISM-control">
                <title>Control: ism-1437</title>
@@ -16019,13 +16291,14 @@
             </control>
          </group>
          <group>
-            <title>Location policies for online services</title>
+            <title>Capacity and availability planning and monitoring for online services</title>
             <prop name="sort-id" value="catalog[1].group[21].group[3].group[2]"/>
             <part name="overview">
-               <p>When using cloud service providers, an organisation will need to consider whether they should lock their data to specific regions or availability zones. In choosing to do so, an organisation will have an expectation that their data will not be relocated to different regions or availability zones by cloud service providers.</p>
+               <p>It is important that connectivity between an organisation and their cloud service providers meets requirements for bandwidth, latency and availability. In support of this, an organisation and their cloud service providers should discuss the ability for resources to dynamically scale in response to a genuine spike in demand, including any authorised activities that can be undertaken to verify measures implemented to support such requirements, especially where a requirement for high availability exists. For example, an organisation and their cloud service providers may discuss whether dedicated communication links or connections over the internet will be used and whether any secondary communications links will provide sufficient capacity to maintain operational requirements should the primary communication link become unavailable.</p>
+               <p>Furthermore, capacity and availability monitoring should be performed in order to manage workloads and monitor the health of online services. This can be achieved through continuous real-time monitoring of metrics, such as latency, jitter, packet loss, throughput and availability. In addition, feedback should be provided to cloud service providers when performance does not meet service level agreement targets. To assist with this, anomaly detection can be performed through network telemetry that is integrated into security monitoring tools.</p>
             </part>
-            <control id="ism-1578" class="ISM-control">
-               <title>Control: ism-1578</title>
+            <control id="ism-1579" class="ISM-control">
+               <title>Control: ism-1579</title>
                <prop name="sort-id"
                       value="catalog[1].group[21].group[3].group[2].control[1]"/>
                <prop name="revision"
@@ -16033,43 +16306,18 @@
                       value="2"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-22"/>
-               <prop name="applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ALL"/>
-               <part id="ism-1578_smt" name="statement">
-                  <p>An organisation is notified by cloud service providers of any change to configured regions or availability zones for online services.</p>
-               </part>
-            </control>
-         </group>
-         <group>
-            <title>Availability planning and monitoring for online services</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[3].group[3]"/>
-            <part name="overview">
-               <p>It is important that connectivity between an organisation and their cloud service providers meets requirements for bandwidth, latency and reliability. In support of this, an organisation and their cloud service providers should discuss any specific network requirements, performance characteristics or planned responses to availability failures, especially when a requirement for high availability exists. Furthermore, an organisation and their cloud service providers should discuss whether dedicated communication links or connections over the internet will be used and whether any secondary communications links will provide sufficient capacity to maintain operational requirements should the primary communication link become unavailable.</p>
-               <p>Furthermore, capacity monitoring should be performed in order to manage workloads and monitor the health of online services. This can be achieved through continuous real-time monitoring of metrics, such as latency, jitter, packet loss, throughput and availability. In addition, feedback should be provided to cloud service providers when performance does not meet service level agreement targets. To assist with this, anomaly detection can be performed through network telemetry that is integrated into security monitoring tools.</p>
-            </part>
-            <control id="ism-1579" class="ISM-control">
-               <title>Control: ism-1579</title>
-               <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[3].control[1]"/>
-               <prop name="revision"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="1"/>
-               <prop name="updated"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-21"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1579_smt" name="statement">
-                  <p>Cloud service providers’ ability to dynamically scale resources due to a genuine spike in demand or a denial-of-service attack is tested as part of capacity planning processes for online services.</p>
+                  <p>Cloud service providers’ ability to dynamically scale resources in response to a genuine spike in demand is discussed and verified as part of capacity and availability planning for online services.</p>
                </part>
             </control>
             <control id="ism-1580" class="ISM-control">
                <title>Control: ism-1580</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[3].control[2]"/>
+                      value="catalog[1].group[21].group[3].group[2].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="1"/>
@@ -16083,53 +16331,36 @@
                   <p>Where a high availability requirement exists for online services, the services are architected to automatically transition between availability zones.</p>
                </part>
             </control>
-            <control id="ism-1441" class="ISM-control">
-               <title>Control: ism-1441</title>
+            <control id="ism-1581" class="ISM-control">
+               <title>Control: ism-1581</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[3].control[3]"/>
+                      value="catalog[1].group[21].group[3].group[2].control[3]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="3"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-21"/>
-               <prop name="applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ALL"/>
-               <part id="ism-1441_smt" name="statement">
-                  <p>Where a requirement for high availability exists for online services, a denial of service mitigation service is used.</p>
-               </part>
-            </control>
-            <control id="ism-1581" class="ISM-control">
-               <title>Control: ism-1581</title>
-               <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[3].control[4]"/>
-               <prop name="revision"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
-               <prop name="updated"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1581_smt" name="statement">
-                  <p>Continuous real-time monitoring of the availability of online services is performed.</p>
+                  <p>Continuous real-time monitoring of the capacity and availability of online services is performed.</p>
                </part>
             </control>
          </group>
          <group>
             <title>Using content delivery networks</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[3].group[4]"/>
+            <prop name="sort-id" value="catalog[1].group[21].group[3].group[3]"/>
             <part name="overview">
                <p>Similar to cloud-based hosting, the use of content delivery networks (CDNs) can allow an organisation to create highly resilient online services by leveraging the large bandwidth, geographically dispersed hosting locations, traffic scrubbing and other controls offered by CDNs.</p>
-               <p>The use of CDNs is particularly effective when serving static bandwidth intensive media, such as images, sound or video files. However, the services offered by CDNs can include more than basic content hosting, such as web response caching, load balancing, web application security and denial of service mitigations.</p>
-               <p>Care should be taken when configuring the use of CDNs to ensure that the IP addresses of an organisation’s web servers are not identifiable by an adversary, as this could allow for protections to be bypassed. Additionally, appropriate controls should be applied to only allow communication between an organisation’s web servers, CDNs and authorised management networks.</p>
+               <p>The use of CDNs is particularly effective when serving static bandwidth intensive media, such as images, sound or video files. However, the services offered by CDNs can include more than basic content hosting, such as web response caching, load balancing, web application security and denial-of-service attack mitigations.</p>
+               <p>In using CDNs, care should be taken with their configuration to ensure that the IP addresses of an organisation’s web servers (referred to as origin servers) are not identifiable by an adversary, as knowledge of origin server IP addresses could allow for protections provided by CDNs to be bypassed. Additionally, appropriate controls should be applied to only allow communication between origin servers, CDNs and authorised management networks.</p>
             </part>
             <control id="ism-1438" class="ISM-control">
                <title>Control: ism-1438</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[4].control[1]"/>
+                      value="catalog[1].group[21].group[3].group[3].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="2"/>
@@ -16146,7 +16377,7 @@
             <control id="ism-1439" class="ISM-control">
                <title>Control: ism-1439</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[4].control[2]"/>
+                      value="catalog[1].group[21].group[3].group[3].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="3"/>
@@ -16162,23 +16393,23 @@
             </control>
          </group>
          <group>
-            <title>Denial of service strategies</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[3].group[5]"/>
+            <title>Denial-of-service attack mitigation strategies</title>
+            <prop name="sort-id" value="catalog[1].group[21].group[3].group[4]"/>
             <part name="overview">
-               <p>Denial-of-service attacks are designed to disrupt or degrade online services, such as website, email and Domain Name System services. To achieve this goal, an adversary may use a number of methods to deny access to legitimate users of online services. This includes using multiple computers to direct a large volume of unwanted network traffic at online services in an attempt to consume all available network bandwidth, using multiple computers to direct tailored network traffic at online services in an attempt to consume the processing resources of online services, or hijacking online services in an attempt to redirect legitimate users away from those services to other services that the adversary controls.</p>
-               <p>Although an organisation cannot avoid being targeted by denial-of-service attacks, there are a number of measures they can implement to prepare for and potentially reduce the impact if targeted. This includes engaging with their cloud service providers to identify the denial of service detection technologies that may be available for their use. For example, real-time capacity reporting dashboards that provide out-of-band and real-time alerts based on organisation-defined thresholds can assist with the rapid identification of denial-of-service attacks.</p>
-               <p>Finally, not all online services offered by an organisation may be business critical. Understanding what online services can be disabled or offered with reduced functionality during denial-of-service attacks can help an organisation reduce or eliminate the impact on essential services. Overall, preparing for denial-of-service attacks before they occur is by far the best strategy as it is very difficult to respond once they begin and efforts at this stage are unlikely to be effective.</p>
+               <p>Denial-of-service attacks are designed to disrupt or degrade online services, such as website, email and Domain Name System services. To achieve this goal, an adversary may use a number of methods to deny access to legitimate users of online services. This includes using multiple computers to direct a large volume of unwanted network traffic at online services in an attempt to consume all available network bandwidth, using multiple computers to direct tailored network traffic at online services in an attempt to consume all processing resources, or hijacking online services in an attempt to redirect legitimate users away from those services to other services that the adversary controls.</p>
+               <p>As an organisation often cannot avoid being targeted by denial-of-service attacks, they should discuss with their cloud service providers any denial-of-service attack detection and monitoring services that may be available for their use. For example, reporting dashboards that provide out-of-band and real-time alerts based on organisation-defined notification thresholds. Furthermore, an organisation should discuss with their cloud service providers what mitigation strategies they can implement to prepare for, and reduce the impact of, being targeted by a denial-of-service attack. Finally, with the express consent of their cloud service providers, an organisation may seek to test the effectiveness of any denial-of-service attack mitigation strategies that have been implemented.</p>
+               <p>Overall, preparing for denial-of-service attacks before they occur, such as by identifying critical online services and implementing preventative denial-of-service attack mitigation strategies, is by far the best approach as it is very difficult to respond to denial-of-service attacks once they begin and efforts at that stage are unlikely to be effective.</p>
             </part>
             <control id="ism-1431" class="ISM-control">
                <title>Control: ism-1431</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[5].control[1]"/>
+                      value="catalog[1].group[21].group[3].group[4].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="4"/>
+                      value="5"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Mar-22"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
@@ -16186,125 +16417,46 @@
                   <p>Denial-of-service attack mitigation strategies are discussed with cloud service providers, specifically:</p>
                   <ul>
                      <li>their capacity to withstand denial-of-service attacks</li>
-                     <li>any costs likely to be incurred as a result of denial-of-service attacks</li>
-                     <li>thresholds for notification of denial-of-service attacks</li>
-                     <li>thresholds for turning off online services during denial-of-service attacks</li>
+                     <li>costs likely to be incurred as a result of denial-of-service attacks</li>
+                     <li>availability monitoring and thresholds for notification of denial-of-service attacks</li>
+                     <li>thresholds for turning off any online services or functionality during denial-of-service attacks</li>
                      <li>pre-approved actions that can be undertaken during denial-of-service attacks</li>
                      <li>any arrangements with upstream service providers to block malicious network traffic as far upstream as possible.</li>
                   </ul>
                </part>
             </control>
-            <control id="ism-1458" class="ISM-control">
-               <title>Control: ism-1458</title>
-               <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[5].control[2]"/>
-               <prop name="revision"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
-               <prop name="updated"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-21"/>
-               <prop name="applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ALL"/>
-               <part id="ism-1458_smt" name="statement">
-                  <p>The functionality and quality of online services, how to maintain such functionality, and what functionality can be lived without during a denial-of-service attack, are determined and documented.</p>
-               </part>
-            </control>
-         </group>
-         <group>
-            <title>Domain name registrar locking</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[3].group[6]"/>
-            <part name="overview">
-               <p>The use of domain name registrar locking can prevent a denial of service caused by unauthorised modification of a domain’s registration details or unauthorised deletion or transfer of a domain.</p>
-            </part>
-            <control id="ism-1432" class="ISM-control">
-               <title>Control: ism-1432</title>
-               <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[6].control[1]"/>
-               <prop name="revision"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
-               <prop name="updated"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-21"/>
-               <prop name="applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ALL"/>
-               <part id="ism-1432_smt" name="statement">
-                  <p>Domain names for online services are protected via registrar locking and confirming domain registration details are correct.</p>
-               </part>
-            </control>
-         </group>
-         <group>
-            <title>Monitoring with real-time alerting for online services</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[3].group[7]"/>
-            <part name="overview">
-               <p>An organisation should perform automated monitoring of online services with real-time alerting to ensure that a denial-of-service attack is detected and responded to as soon as possible.</p>
-            </part>
-            <control id="ism-1435" class="ISM-control">
-               <title>Control: ism-1435</title>
-               <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[7].control[1]"/>
-               <prop name="revision"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
-               <prop name="updated"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-21"/>
-               <prop name="applicability"
-                      ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="ALL"/>
-               <part id="ism-1435_smt" name="statement">
-                  <p>Availability monitoring with real-time alerting is implemented for online services to detect denial-of-service attacks and measure their impact.</p>
-               </part>
-            </control>
-         </group>
-         <group>
-            <title>Segregation of critical online services</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[3].group[8]"/>
-            <part name="overview">
-               <p>Denial-of-service attacks are typically focused on highly visible online services, such as an organisation’s core website, in order to have a publicly noticeable impact. By segregating online services, such as using one internet connection for email and internet access, and a separate internet connection for web hosting services, the impact of a denial-of-service attack can be limited.</p>
-            </part>
             <control id="ism-1436" class="ISM-control">
                <title>Control: ism-1436</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[8].control[1]"/>
+                      value="catalog[1].group[21].group[3].group[4].control[2]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="2"/>
+                      value="3"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-21"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-1436_smt" name="statement">
-                  <p>Critical online services are segregated from other online services that are more likely to be targeted.</p>
+                  <p>Critical online services are segregated from other online services that are more likely to be targeted as part of denial-of-service attacks.</p>
                </part>
             </control>
-         </group>
-         <group>
-            <title>Preparing for service continuity</title>
-            <prop name="sort-id" value="catalog[1].group[21].group[3].group[9]"/>
-            <part name="overview">
-               <p>An organisation’s full-featured website may have higher processing or resource demands due to database integration or the presence of high-resolution images and videos. These additional resource requirements may make the website more susceptible to denial-of-service attacks. As such, depending on the nature of a denial-of-service attack, replacing the full-featured website with a minimal impact static version can help provide a level of service which would otherwise not be possible.</p>
-            </part>
-            <control id="ism-1518" class="ISM-control">
-               <title>Control: ism-1518</title>
+            <control id="ism-1432" class="ISM-control">
+               <title>Control: ism-1432</title>
                <prop name="sort-id"
-                      value="catalog[1].group[21].group[3].group[9].control[1]"/>
+                      value="catalog[1].group[21].group[3].group[4].control[3]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="1"/>
+                      value="3"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-21"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
-               <part id="ism-1518_smt" name="statement">
-                  <p>A static version of a website is pre-prepared that requires minimal processing and bandwidth in order to facilitate at least a basic level of service when under a denial-of-service attack.</p>
+               <part id="ism-1432_smt" name="statement">
+                  <p>Domain names for online services are protected via registrar locking and confirming that domain registration details are correct.</p>
                </part>
             </control>
          </group>
@@ -16554,7 +16706,7 @@
             <title>Reporting cryptographic-related cyber security incidents</title>
             <prop name="sort-id" value="catalog[1].group[22].group[1].group[8]"/>
             <part name="overview">
-               <p>If cryptographic equipment or associated keying material is compromised, or suspected of being compromised, then the confidentiality and integrity of previous and future communications may also be compromised. In such cases, the cyber security incident should be reported to an organisation’s Chief Information Security Officer, or one of their delegates, as soon as possible after it occurs and all keying material should be changed.</p>
+               <p>If cryptographic equipment or associated keying material is compromised, or suspected of being compromised, then the confidentiality and integrity of previous and future communications may also be compromised. In such cases, the cyber security incident should be reported to the Chief Information Security Officer, or one of their delegates, as soon as possible after it occurs and all keying material should be changed.</p>
             </part>
             <control id="ism-0142" class="ISM-control">
                <title>Control: ism-0142</title>
@@ -16562,15 +16714,15 @@
                       value="catalog[1].group[22].group[1].group[8].control[1]"/>
                <prop name="revision"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="4"/>
+                      value="5"/>
                <prop name="updated"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
-                      value="Dec-21"/>
+                      value="Jun-23"/>
                <prop name="applicability"
                       ns="https://cyber.gov.au/ns/ism/oscal/1.0"
                       value="ALL"/>
                <part id="ism-0142_smt" name="statement">
-                  <p>The compromise or suspected compromise of cryptographic equipment or associated keying material is reported to an organisation’s Chief Information Security Officer, or one of their delegates, as soon as possible after it occurs.</p>
+                  <p>The compromise or suspected compromise of cryptographic equipment or associated keying material is reported to the Chief Information Security Officer, or one of their delegates, as soon as possible after it occurs.</p>
                </part>
             </control>
             <control id="ism-1091" class="ISM-control">
@@ -19033,6 +19185,10 @@
          <title>Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations</title>
          <rlink href="https://csrc.nist.gov/publications/detail/sp/800-161/rev-1/final"/>
       </resource>
+      <resource uuid="0d9d5f12-3519-4585-82d9-bc0f42abcd3c">
+         <title>IoT Code of Practice – Guidance for Manufacturers</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/iot-code-practice-guidance-manufacturers"/>
+      </resource>
       <resource uuid="0e982561-93dc-4cf7-9a98-e91411e99ca6">
          <title>Bring Your Own Device for Executives</title>
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/bring-your-own-device-executives"/>
@@ -19160,6 +19316,10 @@
       <resource uuid="3f349d16-11a1-459a-a299-c9446aea7597">
          <title>Guidelines for Database Systems</title>
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-database-systems"/>
+      </resource>
+      <resource uuid="3f43c8d2-8a8c-4e2f-af80-48a607bce643">
+         <title>Protective Process Light for LSASS</title>
+         <rlink href="https://learn.microsoft.com/en-au/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection"/>
       </resource>
       <resource uuid="401ed034-e2bd-43b4-9fde-05d07618039a">
          <title>Center for Memory and Recording Research</title>
@@ -19365,6 +19525,10 @@
          <title>Security governance for contracted goods and service providers</title>
          <rlink href="https://www.protectivesecurity.gov.au/publications-library/policy-6-security-governance-contracted-goods-and-service-providers"/>
       </resource>
+      <resource uuid="8d53ee7f-54c2-4380-8408-f7403db30ba1">
+         <title>Windows Defender Credential Guard</title>
+         <rlink href="https://learn.microsoft.com/en-au/windows/security/identity-protection/credential-guard/credential-guard"/>
+      </resource>
       <resource uuid="8f1965a9-a6a1-4342-bfb8-797ea358db30">
          <title>Information technology – Security techniques – Vulnerability disclosure</title>
          <rlink href="https://www.iso.org/standard/72311.html"/>
@@ -19380,6 +19544,10 @@
       <resource uuid="92679127-f61d-486a-a93e-df2a26dfb07a">
          <title>Protective Security Policy Framework</title>
          <rlink href="https://www.protectivesecurity.gov.au/"/>
+      </resource>
+      <resource uuid="92975dff-58e0-4813-842b-f27c0533ca56">
+         <title>Windows Defender Remote Credential Guard</title>
+         <rlink href="https://learn.microsoft.com/en-au/windows/security/identity-protection/remote-credential-guard"/>
       </resource>
       <resource uuid="971c6452-6e97-4b4f-b5e4-64e457cb8320">
          <title>Cyber supply chain: An approach to assessing risk</title>

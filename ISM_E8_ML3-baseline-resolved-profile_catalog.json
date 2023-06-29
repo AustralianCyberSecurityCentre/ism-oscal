@@ -1,17 +1,17 @@
 {
   "catalog" : {
-    "uuid" : "0b13bb31-204d-46b1-8f57-b313314e6141",
+    "uuid" : "d721e4c5-e197-4d10-8ad6-49381c9fd011",
     "metadata" : {
       "title" : "Information Security Manual Essential Eight Maturity Level Three Baseline",
-      "last-modified" : "2023-04-12T04:35:41.548478Z",
-      "version" : "2023.04.12",
+      "last-modified" : "2023-06-29T05:57:50.102412Z",
+      "version" : "2023.06.29",
       "oscal-version" : "1.0.4",
       "props" : [ {
         "name" : "resolution-tool",
         "value" : "libOSCAL-Java+xslt"
       } ],
       "links" : [ {
-        "href" : "https://www.cyber.gov.au/ism/oscal/v2023.04.12/artifacts/ISM_E8_ML3-baseline_profile.xml",
+        "href" : "https://www.cyber.gov.au/ism/oscal/v2023.06.29/artifacts/ISM_E8_ML3-baseline_profile.xml",
         "rel" : "source-profile"
       } ],
       "roles" : [ {
@@ -56,7 +56,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Cyber security events\n\nA cyber security event is an occurrence of a system, service or network state indicating a possible breach of security policy, failure of safeguards or a previously unknown situation that may be relevant to security.\n\n# Cyber security incidents\n\nA cyber security incident is an unwanted or unexpected cyber security event, or a series of such events, that has either compromised business operations or has a significant probability of compromising business operations.\n\n# Cyber resilience\n\nCyber resilience is the ability to adapt to disruptions caused by cyber security incidents while maintaining continuous business operations. This includes the ability to detect, manage and recover from cyber security incidents.\n\n# Detecting cyber security incidents\n\nOne of the core elements of detecting and investigating cyber security incidents is the availability of appropriate data sources, such as event logs. The following event logs can be used by an organisation to assist with detecting and investigating cyber security incidents:\n\n* Cross Domain Solutions: May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n* Databases: May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n* Domain Name System services: May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.\n* Email servers: May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.\n* Gateways: May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n* Operating systems: May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.\n* Remote access services: May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.\n* Security services: May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.\n* Server applications: May assist in identifying anomalous or malicious application behaviour indicating an exploitation attempt or successful compromise.\n* System access: May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.\n* User applications: May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n* Web applications: May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n* Web proxies: May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n\n# Further information\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on incident response plans can be found in the system-specific security documentation section of the\n[Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s\n[Common Sense Guide to Mitigating Insider Threats](#cad720b4-e47a-437d-b272-6958e738131d) publication.\n\nFurther information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on\n[reporting cybercrime incidents](#188466f6-be12-49ce-b99a-981e54b1663e) and\n[reporting cyber security incidents](#626d3582-3caf-49d6-89d5-4b8fdbbf1f31) is available from the ACSC."
+          "prose" : "# Cyber security events\n\nA cyber security event is an occurrence of a system, service or network state indicating a possible breach of security policy, failure of safeguards or a previously unknown situation that may be relevant to security.\n\n# Cyber security incidents\n\nA cyber security incident is an unwanted or unexpected cyber security event, or a series of such events, that has either compromised business operations or has a significant probability of compromising business operations.\n\n# Cyber resilience\n\nCyber resilience is the ability to adapt to disruptions caused by cyber security incidents while maintaining continuous business operations. This includes the ability to detect, manage and recover from cyber security incidents.\n\n# Detecting cyber security incidents\n\nOne of the core elements of detecting and investigating cyber security incidents is the availability of appropriate data sources, such as event logs. The following event logs can be used by an organisation to assist with detecting and investigating cyber security incidents:\n\n* Cross Domain Solutions: May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n* Databases: May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n* Domain Name System services: May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.\n* Email servers: May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.\n* Gateways: May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n* Multifunction devices: May assist inidentifying anomalous or malicious user behaviour indicating a cyber security incident or malicious insider activity.\n* Operating systems: May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.\n* Remote access services: May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.\n* Security services: May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.\n* Server applications: May assist in identifying anomalous or malicious application behaviour indicating an exploitation attempt or successful compromise.\n* System access: May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.\n* User applications: May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n* Web applications: May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n* Web proxies: May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n\n# Further information\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on incident response plans can be found in the system-specific security documentation section of the\n[Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s\n[Common Sense Guide to Mitigating Insider Threats](#cad720b4-e47a-437d-b272-6958e738131d) publication.\n\nFurther information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on\n[reporting cybercrime incidents](#188466f6-be12-49ce-b99a-981e54b1663e) and\n[reporting cyber security incidents](#626d3582-3caf-49d6-89d5-4b8fdbbf1f31) is available from the ACSC."
         } ],
         "groups" : [ {
           "title" : "Reporting cyber security incidents",
@@ -66,7 +66,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Reporting cyber security incidents to an organisation’s Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered provides senior management with the opportunity to assess the impact to their organisation and to oversee any incident response activities. Note, an organisation should also be cognisant of any legislative obligations in regards to reporting cyber security incidents to authorities, customers or the public."
+            "prose" : "Reporting cyber security incidents to the Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered provides senior management with the opportunity to assess the impact to their organisation and to oversee any incident response activities. Note, an organisation should also be cognisant of any legislative obligations in regards to reporting cyber security incidents to authorities, customers or the public."
           } ],
           "controls" : [ {
             "id" : "ism-0123",
@@ -78,11 +78,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "3"
+              "value" : "4"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-18"
+              "value" : "Jun-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -95,7 +95,7 @@
             "parts" : [ {
               "id" : "ism-0123_smt",
               "name" : "statement",
-              "prose" : "Cyber security incidents are reported to an organisation’s Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered."
+              "prose" : "Cyber security incidents are reported to the Chief Information Security Officer, or one of their delegates, as soon as possible after they occur or are discovered."
             } ]
           } ]
         }, {
@@ -118,11 +118,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "6"
+              "value" : "7"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "May-19"
+              "value" : "Jun-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -135,7 +135,7 @@
             "parts" : [ {
               "id" : "ism-0140_smt",
               "name" : "statement",
-              "prose" : "Cyber security incidents are reported to the ACSC."
+              "prose" : "Cyber security incidents are reported to the ACSC as soon as possible after they occur or are discovered."
             } ]
           } ]
         } ]
@@ -285,7 +285,7 @@
             "title" : "Control: ism-1175",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[05].control[04]"
+              "value" : "catalog[1].group[08].group[2].group[05].control[05]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -318,7 +318,7 @@
             "title" : "Control: ism-1653",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[05].control[05]"
+              "value" : "catalog[1].group[08].group[2].group[05].control[06]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -347,7 +347,7 @@
             "title" : "Control: ism-1649",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[05].control[06]"
+              "value" : "catalog[1].group[08].group[2].group[05].control[07]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -376,7 +376,7 @@
             "title" : "Control: ism-1509",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[05].control[09]"
+              "value" : "catalog[1].group[08].group[2].group[05].control[10]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -409,7 +409,7 @@
             "title" : "Control: ism-1651",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[05].control[10]"
+              "value" : "catalog[1].group[08].group[2].group[05].control[11]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -438,7 +438,7 @@
             "title" : "Control: ism-1650",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[05].control[11]"
+              "value" : "catalog[1].group[08].group[2].group[05].control[12]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -471,7 +471,7 @@
             "title" : "Control: ism-1652",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[05].control[12]"
+              "value" : "catalog[1].group[08].group[2].group[05].control[13]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -638,7 +638,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. Many configuration settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Cyber Security Centre (ACSC) and vendors often produce guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ACSC and vendor guidance conflicts, preference should be given to implementing ACSC hardening guidance."
+            "prose" : "When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. Many configuration settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Cyber Security Centre (ACSC) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ACSC and vendor hardening guidance conflicts, preference should be given to implementing ACSC hardening guidance."
           } ],
           "controls" : [ {
             "id" : "ism-1654",
@@ -707,7 +707,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm), HTML applications (e.g. .hta), control panel applets (e.g. .cpl) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.\n\nIn implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by an adversary.\n\nFinally, application control event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, application control event logs should be captured and stored centrally."
+            "prose" : "Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.\n\nIn implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by an adversary.\n\nFinally, application control event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, application control event logs should be captured and stored centrally."
           } ],
           "controls" : [ {
             "id" : "ism-0843",
@@ -1218,7 +1218,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# User applications\n\nThis section is applicable to applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) software, and security products (e.g. antivirus software, device access control software, HIPS and software firewalls). Information on server applications can be found in the server application hardening section of these guidelines.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on patching or updating user applications can be found in the system patching section of the\n[Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.\n\nFurther information on securely configuring Microsoft Office can be found in the ACSC’s\n[Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.\n\nFurther information on configuring Microsoft Office macro settings can be found in the ACSC’s\n[Microsoft Office Macro Security](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
+          "prose" : "# User applications\n\nThis section is applicable to applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) software, and security products (e.g. antivirus software, device access control software, HIPS and software firewalls). Information on server applications can be found in the server application hardening section of these guidelines.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on patching or updating user applications can be found in the system patching section of the\n[Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.\n\nFurther information on securely configuring Microsoft Office can be found in the ACSC’s\n[Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.\n\nFurther information on securely configuring the Microsoft Edge web browser can be found in the ACSC’s\n[Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.\n\nFurther information on configuring Microsoft Office macro settings can be found in the ACSC’s\n[Microsoft Office Macro Security](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
         } ],
         "groups" : [ {
           "title" : "Hardening user application configurations",
@@ -1228,48 +1228,15 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When user applications are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many configuration settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, the ACSC and vendors often produce guidance to assist in hardening the configuration of these applications. Note, however, in situations where ACSC and vendor guidance conflicts, preference should be given to implementing ACSC hardening guidance."
+            "prose" : "When user applications are deployed in their default state it can lead to an insecure operating environment that may allow an adversary to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many configuration settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, the ACSC and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ACSC and vendor hardening guidance conflicts, preference should be given to implementing ACSC hardening guidance."
           } ],
           "controls" : [ {
-            "id" : "ism-1412",
-            "class" : "ISM-control",
-            "title" : "Control: ism-1412",
-            "props" : [ {
-              "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[02]"
-            }, {
-              "name" : "revision",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "3"
-            }, {
-              "name" : "updated",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ALL"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML2"
-            }, {
-              "name" : "essential-eight-applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "ML3"
-            } ],
-            "parts" : [ {
-              "id" : "ism-1412_smt",
-              "name" : "statement",
-              "prose" : "ACSC or vendor hardening guidance for web browsers, Microsoft Office and PDF software is implemented."
-            } ]
-          }, {
             "id" : "ism-1667",
             "class" : "ISM-control",
             "title" : "Control: ism-1667",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[05]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[04]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1302,7 +1269,7 @@
             "title" : "Control: ism-1668",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[06]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[05]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1335,7 +1302,7 @@
             "title" : "Control: ism-1669",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[07]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[06]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1368,7 +1335,7 @@
             "title" : "Control: ism-1542",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[08]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[07]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1394,6 +1361,39 @@
               "id" : "ism-1542_smt",
               "name" : "statement",
               "prose" : "Microsoft Office is configured to prevent activation of Object Linking and Embedding packages."
+            } ]
+          }, {
+            "id" : "ism-1859",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1859",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[15].group[2].group[3].control[08]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Jun-23"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1859_smt",
+              "name" : "statement",
+              "prose" : "ACSC or vendor hardening guidance for office productivity suites is implemented."
             } ]
           }, {
             "id" : "ism-1823",
@@ -1495,12 +1495,45 @@
               "prose" : "Web browsers do not process web advertisements from the internet."
             } ]
           }, {
+            "id" : "ism-1412",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1412",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[15].group[2].group[3].control[13]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "4"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Jun-23"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1412_smt",
+              "name" : "statement",
+              "prose" : "ACSC or vendor hardening guidance for web browsers is implemented."
+            } ]
+          }, {
             "id" : "ism-1585",
             "class" : "ISM-control",
             "title" : "Control: ism-1585",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[13]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[14]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1533,7 +1566,7 @@
             "title" : "Control: ism-1670",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[14]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[15]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1561,12 +1594,45 @@
               "prose" : "PDF software is blocked from creating child processes."
             } ]
           }, {
+            "id" : "ism-1860",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1860",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[15].group[2].group[3].control[16]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "Jun-23"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ALL"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML2"
+            }, {
+              "name" : "essential-eight-applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
+              "value" : "ML3"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1860_smt",
+              "name" : "statement",
+              "prose" : "ACSC or vendor hardening guidance for PDF software is implemented."
+            } ]
+          }, {
             "id" : "ism-1824",
             "class" : "ISM-control",
             "title" : "Control: ism-1824",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[15]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[17]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -1957,7 +2023,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Account and authentication types\n\nThe guidance within this section is equally applicable to all account types. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on implementing multi-factor authentication can be found in the ACSC’s\n[Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on\n[randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a\n[random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.\n\nFurther information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s\n[Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and\n[AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for\n[changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.\n\nFurther information on\n[group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.\n\nFurther information on mitigating the use of stolen credentials can be found in the ACSC’s\n[Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.\n\nFurther information on mitigating the use of stolen credentials can also be found in Microsoft’s\n[Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication."
+          "prose" : "# Account and authentication types\n\nThe guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the\n[Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on implementing multi-factor authentication can be found in the ACSC’s\n[Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the\n[Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on\n[randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a\n[random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.\n\nFurther information on\n[group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.\n\nFurther information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s\n[Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and\n[AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for\n[changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.\n\nFurther information on\n[Windows Defender Credential Guard](#8d53ee7f-54c2-4380-8408-f7403db30ba1) and\n[Windows Defender Remote Credential Guard](#92975dff-58e0-4813-842b-f27c0533ca56) is available from Microsoft.\n\nFurther information on\n[Protective Process Light for LSASS](#3f43c8d2-8a8c-4e2f-af80-48a607bce643) is available from Microsoft.\n\nFurther information on mitigating the use of stolen credentials can be found in the ACSC’s\n[Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.\n\nFurther information on mitigating the use of stolen credentials can also be found in Microsoft’s\n[Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication."
         } ],
         "groups" : [ {
           "title" : "Multi-factor authentication",
@@ -1967,7 +2033,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Multi-factor authentication uses two or more authentication factors. This may include:\n\n* something a user knows, such as a memorised secret (i.e. personal identification number, password or passphrase)\n* something a user has, such as a security key, smart card, smartphone or one-time password token\n* something a user is, such as a fingerprint pattern or their facial geometry.\n\nNote, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that a user has rather than something a user knows.\n\nPrivileged users, users of remote access solutions and users with access to important data repositories are more likely to be targeted by an adversary due to their access. For this reason, it is especially important that multi-factor authentication is used for these accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing an adversary’s ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.\n\nWhen implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something a user has should be used as part of multi-factor authentication. Furthermore, for increased security, the use of phishing-resistant (also known as verifier impersonation resistant) multi-factor authentication is recommended to protect against real-time phishing attacks.\n\nFinally, multi-factor authentication event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, multi-factor authentication event logs should be captured and stored centrally."
+            "prose" : "Multi-factor authentication uses two or more different authentication factors. This may include:\n\n* something users know, such as a memorised secret (i.e. personal identification number, password or passphrase)\n* something users have, such as a security key, smart card, smartphone or one-time password token\n* something users are, such as a fingerprint pattern or their facial geometry.\n\nNote, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that users have rather than something users know.\n\nPrivileged users, users of remote access solutions and users with access to important data repositories are more likely to be targeted by an adversary due to their access. For this reason, it is especially important that multi-factor authentication is used for these accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing an adversary’s ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.\n\nWhen implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something users have should be used with something users know. Alternatively, something users have that is unlocked by something users know or are (often known as passwordless multi-factor authentication) can be used. Furthermore, for increased security, the use of phishing-resistant multi-factor authentication is recommended to protect against real-time phishing attacks.\n\nFinally, multi-factor authentication event logs can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents. To facilitate such activities, multi-factor authentication event logs should be captured and stored centrally."
           } ],
           "controls" : [ {
             "id" : "ism-1173",
@@ -2111,11 +2177,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Jun-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2132,7 +2198,7 @@
             "parts" : [ {
               "id" : "ism-1681_smt",
               "name" : "statement",
-              "prose" : "Multi-factor authentication is enabled by default for non-organisational users (but users can choose to opt out) if they authenticate to an organisation’s internet-facing services."
+              "prose" : "Multi-factor authentication is enabled by default for an organisation’s non-organisational users (but users can choose to opt out) if they authenticate to the organisation’s internet-facing services."
             } ]
           }, {
             "id" : "ism-1505",
@@ -2289,14 +2355,14 @@
             } ]
           } ]
         }, {
-          "title" : "Setting credentials for local administrator accounts and service accounts",
+          "title" : "Setting credentials for break glass accounts, local administrator accounts and service accounts",
           "props" : [ {
             "name" : "sort-id",
             "value" : "catalog[1].group[15].group[4].group[06]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When local administrator accounts and service accounts use common usernames and credentials, it can allow an adversary that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for local administrator accounts and service accounts are long, unique, unpredictable and managed.\n\nTo provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically ensures that they are long, unique, unpredictable and managed. This ensures that service account credentials are secure, not misplaced or forgotten, and that they are automatically changed on a regular basis. However, in cases where the use of group Managed Service Accounts is not possible, credentials for service accounts should still be unique and unpredictable with a minimum length of 30 characters."
+            "prose" : "When break glass accounts, local administrator accounts and service accounts use common usernames or weak credentials, it may allow an adversary that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for break glass accounts, local administrator accounts and service accounts are long, unique, unpredictable and managed.\n\nTo provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically ensures that they are long, unique, unpredictable and managed. This ensures that service account credentials are secure, not misplaced or forgotten, and that they are automatically changed on a regular basis. However, in cases where the use of group Managed Service Accounts is not possible, credentials for service accounts should still be unique and unpredictable with a minimum length of 30 characters."
           } ],
           "controls" : [ {
             "id" : "ism-1685",
@@ -2308,11 +2374,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "1"
+              "value" : "2"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Dec-22"
+              "value" : "Jun-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2329,7 +2395,7 @@
             "parts" : [ {
               "id" : "ism-1685_smt",
               "name" : "statement",
-              "prose" : "Credentials for local administrator accounts and service accounts are long, unique, unpredictable and managed."
+              "prose" : "Credentials for break glass accounts, local administrator accounts and service accounts are long, unique, unpredictable and managed."
             } ]
           } ]
         }, {
@@ -2340,7 +2406,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Written down credentials (e.g. memorised secrets), and dedicated devices that store or generate credentials (e.g. security keys, smart cards and one-time password tokens), when kept together with systems they are used to authenticate to can increase the likelihood of an adversary gaining unauthorised access to systems. For example, when smart cards are left on desks, one-time password tokens are left in laptop bags, security keys are left connected to computers or passphrases are written down and stuck to computer monitors. Furthermore, obscuring credentials as they are entered into systems can assist in protecting them against screen scrapers and shoulder surfers.\n\nIf storing credentials on systems, sufficient protection should be implemented to prevent them from being compromised. For example, credentials can be stored in a password manager or hardware security module, while credentials stored in a database should be hashed, salted and stretched. In addition, Windows Defender Credential Guard and Windows Defender Remote Credential Guard can be enabled to provide additional protection for credentials.\n\nWhen using Microsoft Windows systems, cached credentials are stored in the Security Accounts Manager database and can allow a user to logon to a workstation they have previously logged onto even if the domain is not available. Whilst this functionality may be desirable from an availability perspective, this functionality can be abused by an adversary who can retrieve these cached credentials. To reduce this security risk, cached credentials should be limited to only one previous logon."
+            "prose" : "Written down credentials (e.g. memorised secrets), and dedicated devices that store or generate credentials (e.g. security keys, smart cards and one-time password tokens), when kept together with systems they are used to authenticate to can increase the likelihood of an adversary gaining unauthorised access to systems. For example, when smart cards are left on desks, one-time password tokens are left in laptop bags, security keys are left connected to computers or passphrases are written down and stuck to computer monitors. Furthermore, obscuring credentials as they are entered into systems can assist in protecting them against screen scrapers and shoulder surfers.\n\nIf storing credentials on systems, sufficient protection should be implemented to prevent them from being compromised. For example, credentials can be stored in a password manager or hardware security module, while credentials stored in a database should be hashed, salted and stretched. In addition, Windows Defender Credential Guard, Windows Defender Remote Credential Guard and Protective Process Light for the Local Security Authority Subsystem Service (LSASS), preferably with a Unified Extensible Firmware Interface (UEFI) lock, can be enabled to provide additional protection for credentials.\n\nWhen using Microsoft Windows systems, cached credentials are stored in the Security Accounts Manager database and can allow a user to logon to a workstation they have previously logged onto even if the domain is not available. Whilst this functionality may be desirable from an availability perspective, this functionality can be abused by an adversary who can retrieve these cached credentials. To reduce this security risk, cached credentials should be limited to only one previous logon."
           } ],
           "controls" : [ {
             "id" : "ism-1686",
@@ -2541,7 +2607,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "The security of administrative activities can be improved by segregating administrative infrastructure from the wider network. In doing so, the use of a jump server (also known as a jump host or jump box) can be an effective way of simplifying and securing administrative activities. Specifically, a jump server can provide filtering of network management traffic while also acting as a focal point to perform multi-factor authentication; store and manage administrative tools; and perform logging, monitoring and alerting activities. Finally, using separate jump servers for the administration of critical servers, high-value servers and regular servers can further assist in protecting these assets."
+            "prose" : "The security of administrative activities can be improved by segregating administrative infrastructure from the wider network and the internet. In doing so, the use of a jump server (also known as a jump host or jump box) can be an effective way of simplifying and securing administrative activities. Specifically, a jump server can provide filtering of network management traffic while also acting as a focal point to perform multi-factor authentication; store and manage administrative tools; and perform logging, monitoring and alerting activities. Finally, using separate jump servers for the administration of critical servers, high-value servers and regular servers can further assist in protecting these assets."
           } ],
           "controls" : [ {
             "id" : "ism-1387",
@@ -2740,11 +2806,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Jun-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2761,7 +2827,7 @@
             "parts" : [ {
               "id" : "ism-1700_smt",
               "name" : "statement",
-              "prose" : "A vulnerability scanner is used at least fortnightly to identify missing patches or updates for security vulnerabilities in other applications."
+              "prose" : "A vulnerability scanner is used at least fortnightly to identify missing patches or updates for security vulnerabilities in applications other than office productivity suites, web browsers and their extensions, email clients, PDF software, and security products."
             } ]
           }, {
             "id" : "ism-1701",
@@ -2945,11 +3011,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
-              "value" : "Sep-21"
+              "value" : "Jun-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/1.0",
@@ -2966,7 +3032,7 @@
             "parts" : [ {
               "id" : "ism-1693_smt",
               "name" : "statement",
-              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in other applications are applied within one month of release."
+              "prose" : "Patches, updates or vendor mitigations for security vulnerabilities in applications other than office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within one month of release."
             } ]
           }, {
             "id" : "ism-1694",
@@ -3592,7 +3658,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on logging intrusion activity can be found in the managing cyber security incidents section of the\n[Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).\n\nFurther information on event logging for Cross Domain Solutions can be found in the Cross Domain Solutions section of the\n[Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for databases can be found in the databases section of the\n[Guidelines for Database Systems](#3f349d16-11a1-459a-a299-c9446aea7597).\n\nFurther information on event logging for gateways can be found in the gateways section of the\n[Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the\n[Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for application-based security services can be found in the operating system hardening section of the\n[Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for network-based security services can be found in the network design and configuration section of the\n[Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).\n\nFurther information on event logging for server applications can be found in the server application hardening section of the\n[Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for system access can be found in the access to systems and their resources section of the\n[Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).\n\nFurther information on event logging for user applications can be found in the user application hardening section of the\n[Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for web applications can be found in the web application development section of the\n[Guidelines for Software Development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for web proxies can be found in the web proxies section of the\n[Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging and forwarding can be found in the Australian Cyber Security Centre’s\n[Windows Event Logging and Forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83) publication."
+          "prose" : "# Further information\n\nFurther information on logging intrusion activity can be found in the managing cyber security incidents section of the\n[Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).\n\nFurther information on event logging for Cross Domain Solutions can be found in the Cross Domain Solutions section of the\n[Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for databases can be found in the databases section of the\n[Guidelines for Database Systems](#3f349d16-11a1-459a-a299-c9446aea7597).\n\nFurther information on event logging for gateways can be found in the gateways section of the\n[Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for multifunction devices can be found in the fax machines and multifunction devices section of the\n[Guidelines for Communications Systems](#3a7b903b-ed0d-450d-9123-60f6f8fd5dd2).\n\nFurther information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the\n[Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for application-based security services can be found in the operating system hardening section of the\n[Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for network-based security services can be found in the network design and configuration section of the\n[Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).\n\nFurther information on event logging for server applications can be found in the server application hardening section of the\n[Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for system access can be found in the access to systems and their resources section of the\n[Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).\n\nFurther information on event logging for user applications can be found in the user application hardening section of the\n[Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for web applications can be found in the web application development section of the\n[Guidelines for Software Development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for web proxies can be found in the web proxies section of the\n[Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging and forwarding can be found in the Australian Cyber Security Centre’s\n[Windows Event Logging and Forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83) publication."
         } ],
         "groups" : [ {
           "title" : "Centralised event logging facility",
@@ -3785,6 +3851,12 @@
           "href" : "https://attackevals.mitre-engenuity.org/"
         } ]
       }, {
+        "uuid" : "3a7b903b-ed0d-450d-9123-60f6f8fd5dd2",
+        "title" : "Guidelines for Communications Systems",
+        "rlinks" : [ {
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-communications-systems"
+        } ]
+      }, {
         "uuid" : "3ccea9a8-a728-4f5b-a0a8-43f2f206f76b",
         "title" : "Restricting Administrative Privileges",
         "rlinks" : [ {
@@ -3807,6 +3879,12 @@
         "title" : "Guidelines for Database Systems",
         "rlinks" : [ {
           "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-database-systems"
+        } ]
+      }, {
+        "uuid" : "3f43c8d2-8a8c-4e2f-af80-48a607bce643",
+        "title" : "Protective Process Light for LSASS",
+        "rlinks" : [ {
+          "href" : "https://learn.microsoft.com/en-au/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection"
         } ]
       }, {
         "uuid" : "4a3a265f-7772-433b-9906-7f784052f28b",
@@ -3905,6 +3983,12 @@
           "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-multi-factor-authentication"
         } ]
       }, {
+        "uuid" : "8d53ee7f-54c2-4380-8408-f7403db30ba1",
+        "title" : "Windows Defender Credential Guard",
+        "rlinks" : [ {
+          "href" : "https://learn.microsoft.com/en-au/windows/security/identity-protection/credential-guard/credential-guard"
+        } ]
+      }, {
         "uuid" : "8ffea524-0974-4b53-a8f5-41166073ede5",
         "title" : "Securing PowerShell in the Enterprise",
         "rlinks" : [ {
@@ -3921,6 +4005,12 @@
         "title" : "Protective Security Policy Framework",
         "rlinks" : [ {
           "href" : "https://www.protectivesecurity.gov.au/"
+        } ]
+      }, {
+        "uuid" : "92975dff-58e0-4813-842b-f27c0533ca56",
+        "title" : "Windows Defender Remote Credential Guard",
+        "rlinks" : [ {
+          "href" : "https://learn.microsoft.com/en-au/windows/security/identity-protection/remote-credential-guard"
         } ]
       }, {
         "uuid" : "a699a3aa-828d-479b-b50b-98127bb19437",
