@@ -3,10 +3,10 @@ catalog:
   uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
   metadata:
     title: Information Security Manual
-    published: 2023-06-29T00:04:16.448931Z
-    last-modified: 2023-06-29T00:04:16.448931Z
-    version: 2023.06.29
-    oscal-version: 1.0.4
+    published: 2023-08-03T08:36:43.172208Z
+    last-modified: 2023-08-03T08:36:43.172208Z
+    version: 2023.08.3
+    oscal-version: 1.1.0
     links:
     - href: '#6455b62e-c7af-4987-b87d-60b9575a59ff'
       rel: canonical
@@ -201,11 +201,11 @@ catalog:
 
             Real-time monitoring of cyber threats, security risks and controls associated with a system and its operating environment, as outlined in a continuous monitoring plan, is essential to maintaining its security posture. In doing so, specific events may necessitate additional risk management activities. Such events may include:
 
-            * changes in security policies relating to the system
-            * detection of new or emerging cyber threats to the system or its operating environment
-            * the discovery that controls for the system are not as effective as planned
-            * a major cyber security incident involving the system
-            * major architectural changes to the system.
+            - changes in security policies relating to the system
+            - detection of new or emerging cyber threats to the system or its operating environment
+            - the discovery that controls for the system are not as effective as planned
+            - a major cyber security incident involving the system
+            - major architectural changes to the system.
 
             Following the implementation or modification of any controls as a result of risk management activities, another security assessment should be completed. In doing so, the system’s authorisation package should be updated. This in turn allows the authorising officer to make an informed risk-based decision as to whether the security risks associated with the system’s operation are still acceptable. Should security risks no longer be acceptable, the authorising officer may choose to either place constraints on the system’s use, such as introducing or amending an expiration date for authorisation to operate, or revoke authorisation to operate altogether.
       - title: Further information
@@ -217,12 +217,12 @@ catalog:
           prose: |-
             Further information on various risk management frameworks and practices can be found in:
 
-            * International Organization for Standardization (ISO) 31000:2018, [Risk management – Guidelines](#5d217b62-2aa7-4d9c-93cc-da3916279802)
-            * ISO Guide 73:2009, [Risk management – Vocabulary](#96e29819-9d5d-4082-aa0d-b8debe59ef32)
-            * International Electrotechnical Commission 31010:2019, [Risk management – Risk assessment techniques](#69c67e26-82cf-426a-8358-0e486b5a9287)
-            * ISO/International Electrotechnical Commission 27005:2022, [Information security, cybersecurity and privacy protection – Guidance on managing information security risks](#941626b7-cfcc-4ab2-83a0-f9a91b2e453e)
-            * NIST SP 800-30 Rev. 1, [Guide for Conducting Risk Assessments](#81401de7-184d-4535-a3f7-4de1c336630f)
-            * NIST SP 800-37 Rev. 2, [Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy](#4ea4e1e9-09f5-46c2-b003-352bc862d5ed).
+            - International Organization for Standardization (ISO) 31000:2018, [Risk management – Guidelines](#5d217b62-2aa7-4d9c-93cc-da3916279802)
+            - ISO Guide 73:2009, [Risk management – Vocabulary](#96e29819-9d5d-4082-aa0d-b8debe59ef32)
+            - International Electrotechnical Commission 31010:2019, [Risk management – Risk assessment techniques](#69c67e26-82cf-426a-8358-0e486b5a9287)
+            - ISO/International Electrotechnical Commission 27005:2022, [Information security, cybersecurity and privacy protection – Guidance on managing information security risks](#941626b7-cfcc-4ab2-83a0-f9a91b2e453e)
+            - NIST SP 800-30 Rev. 1, [Guide for Conducting Risk Assessments](#81401de7-184d-4535-a3f7-4de1c336630f)
+            - NIST SP 800-37 Rev. 2, [Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy](#4ea4e1e9-09f5-46c2-b003-352bc862d5ed).
 
             Further information on [the purpose of IRAP](#84d3cbab-ab84-4981-a4f7-2bd469c8deaf), and [a list of current IRAP assessors](#bdd11ace-cb4e-470a-92ad-556c79b6c14a), is available from the ACSC.
   - title: Cyber Security Principles
@@ -241,20 +241,20 @@ catalog:
 
           The purpose of the cyber security principles is to provide strategic guidance on how an organisation can protect their systems and data from cyber threats. These cyber security principles are grouped into four key activities: govern, protect, detect and respond.
 
-          * **Govern:** Identifying and managing security risks.
-          * **Protect:** Implementing controls to reduce security risks.
-          * **Detect:** Detecting and understanding cyber security events to identify cyber security incidents.
-          * **Respond:** Responding to and recovering from cyber security incidents.
+          - **Govern:** Identifying and managing security risks.
+          - **Protect:** Implementing controls to reduce security risks.
+          - **Detect:** Detecting and understanding cyber security events to identify cyber security incidents.
+          - **Respond:** Responding to and recovering from cyber security incidents.
 
           # Maturity modelling
 
           When implementing the cyber security principles, an organisation can use the following maturity model to assess the implementation of individual principles, groups of principles or the cyber security principles as a whole. The five levels in the maturity model are:
 
-          * **Incomplete:** The cyber security principles are partially implemented or not implemented.
-          * **Initial:** The cyber security principles are implemented, but in a poor or ad hoc manner.
-          * **Developing:** The cyber security principles are sufficiently implemented, but on a project-by-project basis.
-          * **Managing:** The cyber security principles are established as standard business practices and robustly implemented throughout the organisation.
-          * **Optimising:** A deliberate focus on optimisation and continual improvement exists for the implementation of the cyber security principles throughout the organisation.
+          - **Incomplete:** The cyber security principles are partially implemented or not implemented.
+          - **Initial:** The cyber security principles are implemented, but in a poor or ad hoc manner.
+          - **Developing:** The cyber security principles are sufficiently implemented, but on a project-by-project basis.
+          - **Managing:** The cyber security principles are established as standard business practices and robustly implemented throughout the organisation.
+          - **Optimising:** A deliberate focus on optimisation and continual improvement exists for the implementation of the cyber security principles throughout the organisation.
       groups:
       - title: Govern principles
         props:
@@ -773,11 +773,11 @@ catalog:
           prose: |-
             The CISO is responsible for reporting cyber security matters to their organisation’s senior executive or Board. Reporting should cover:
 
-            * the organisation’s security risk profile
-            * the status of key systems and any outstanding security risks
-            * any planned cyber security uplift activities
-            * any recent cyber security incidents
-            * expected returns on cyber security investments.
+            - the organisation’s security risk profile
+            - the status of key systems and any outstanding security risks
+            - any planned cyber security uplift activities
+            - any recent cyber security incidents
+            - expected returns on cyber security investments.
 
             Reporting on cyber security matters should be structured by business functions, regions or legal entities and support a consolidated view of an organisation’s security risks.
 
@@ -1249,20 +1249,20 @@ catalog:
 
           One of the core elements of detecting and investigating cyber security incidents is the availability of appropriate data sources, such as event logs. The following event logs can be used by an organisation to assist with detecting and investigating cyber security incidents:
 
-          * **Cross Domain Solutions:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
-          * **Databases:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
-          * **Domain Name System services:** May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.
-          * **Email servers:** May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.
-          * **Gateways:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
-          * **Multifunction devices: May assist in**identifying anomalous or malicious user behaviour indicating a cyber security incident or malicious insider activity.
-          * **Operating systems:** May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.
-          * **Remote access services:** May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.
-          * **Security services:** May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.
-          * **Server applications:** May assist in identifying anomalous or malicious application behaviour indicating an exploitation attempt or successful compromise.
-          * **System access:** May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.
-          * **User applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
-          * **Web applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
-          * **Web proxies:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
+          - **Cross Domain Solutions:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
+          - **Databases:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
+          - **Domain Name System services:** May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.
+          - **Email servers:** May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.
+          - **Gateways:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
+          - **Multifunction devices: May assist in**identifying anomalous or malicious user behaviour indicating a cyber security incident or malicious insider activity.
+          - **Operating systems:** May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.
+          - **Remote access services:** May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.
+          - **Security services:** May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.
+          - **Server applications:** May assist in identifying anomalous or malicious application behaviour indicating an exploitation attempt or successful compromise.
+          - **System access:** May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.
+          - **User applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
+          - **Web applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
+          - **Web proxies:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
 
           # Further information
 
@@ -1285,9 +1285,9 @@ catalog:
           prose: |-
             Establishing an incident management policy can increase the likelihood of successfully planning for, detecting and responding to malicious activity on networks and hosts, such as cyber security events and cyber security incidents. In doing so, an incident management policy will likely cover the following:
 
-            * responsibilities for planning for, detecting and responding to cyber security incidents
-            * resources assigned to cyber security incident planning, detection and response activities
-            * guidelines for triaging and responding to cyber security events and cyber security incidents.
+            - responsibilities for planning for, detecting and responding to cyber security incidents
+            - resources assigned to cyber security incident planning, detection and response activities
+            - guidelines for triaging and responding to cyber security events and cyber security incidents.
 
             Furthermore, as part of maintaining the incident management policy, it is important that it is, along with its associated incident response plan, exercised at least annually to ensure it remains fit for purpose.
         controls:
@@ -1377,11 +1377,11 @@ catalog:
             prose: |-
               A cyber security incident register contains the following for each cyber security incident:
 
-              * the date the cyber security incident occurred
-              * the date the cyber security incident was discovered
-              * a description of the cyber security incident
-              * any actions taken in response to the cyber security incident
-              * to whom the cyber security incident was reported.
+              - the date the cyber security incident occurred
+              - the date the cyber security incident was discovered
+              - a description of the cyber security incident
+              - any actions taken in response to the cyber security incident
+              - to whom the cyber security incident was reported.
       - title: Trusted insider program
         props:
         - name: sort-id
@@ -1391,13 +1391,13 @@ catalog:
           prose: |-
             As a trusted insider’s system access and knowledge of business processes often makes them harder to detect, establishing and maintaining a trusted insider program can assist an organisation to detect and respond to trusted insider threats before they occur, or limit damage if they do occur. In doing so, an organisation will likely obtain the most benefit by logging and analysing the following user activities:
 
-            * excessive copying or modification of files
-            * unauthorised or excessive use of removable media
-            * connecting devices capable of data storage to systems
-            * unusual system usage outside of normal business hours
-            * excessive data access or printing compared to their peers
-            * data transfers to unauthorised cloud services or webmail
-            * use of unauthorised Virtual Private Networks, file transfer applications or anonymity networks.
+            - excessive copying or modification of files
+            - unauthorised or excessive use of removable media
+            - connecting devices capable of data storage to systems
+            - unusual system usage outside of normal business hours
+            - excessive data access or printing compared to their peers
+            - data transfers to unauthorised cloud services or webmail
+            - use of unauthorised Virtual Private Networks, file transfer applications or anonymity networks.
         controls:
         - id: ism-1625
           class: ISM-control
@@ -1505,13 +1505,13 @@ catalog:
 
             The types of cyber security incidents that should be reported to the ACSC include:
 
-            * suspicious activities, such as privileged account lockouts and unusual remote access activities
-            * compromise of sensitive or classified data
-            * unauthorised access or attempts to access a system
-            * emails with suspicious attachments or links
-            * denial-of-service attacks
-            * ransomware attacks
-            * suspected tampering of ICT equipment.
+            - suspicious activities, such as privileged account lockouts and unusual remote access activities
+            - compromise of sensitive or classified data
+            - unauthorised access or attempts to access a system
+            - emails with suspicious attachments or links
+            - denial-of-service attacks
+            - ransomware attacks
+            - suspected tampering of ICT equipment.
         controls:
         - id: ism-0140
           class: ISM-control
@@ -1634,10 +1634,10 @@ catalog:
             prose: |-
               When malicious code is detected, the following steps are taken to handle the infection:
 
-              * the infected systems are isolated
-              * all previously connected media used in the period leading up to the infection are scanned for signs of infection and isolated if necessary
-              * antivirus software is used to remove the infection from infected systems and media
-              * if the infection cannot be reliably removed, systems are restored from a known good backup or rebuilt.
+              - the infected systems are isolated
+              - all previously connected media used in the period leading up to the infection are scanned for signs of infection and isolated if necessary
+              - antivirus software is used to remove the infection from infected systems and media
+              - if the infection cannot be reliably removed, systems are restored from a known good backup or rebuilt.
       - title: Handling and containing intrusions
         props:
         - name: sort-id
@@ -1775,9 +1775,9 @@ catalog:
             prose: |-
               The integrity of evidence gathered during an investigation is maintained by investigators:
 
-              * recording all of their actions
-              * maintaining a proper chain of custody
-              * following all instructions provided by relevant law enforcement agencies.
+              - recording all of their actions
+              - maintaining a proper chain of custody
+              - following all instructions provided by relevant law enforcement agencies.
   - title: Guidelines for Procurement and Outsourcing
     props:
     - name: sort-id
@@ -1796,10 +1796,10 @@ catalog:
 
           Further information on cyber supply chain risk management can also be found in:
 
-          * Canadian Centre for Cyber Security’s [Cyber supply chain: An approach to assessing risk](#971c6452-6e97-4b4f-b5e4-64e457cb8320)
-          * New Zealand’s National Cyber Security Centre’s [Supply Chain Cyber Security: In Safe Hands](#8a0daed2-8840-443f-a83e-68252d2dcdc5)
-          * United Kingdom’s National Cyber Security Centre’s [Supply chain security guidance](#19947ae5-678c-4dc0-a35e-283e4af1284c).
-          * Further information on cyber supply chain risk management can also be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [ICT supply chain resource library](#014064b7-5b77-4a79-af6c-79a16f4d0cb2).
+          - Canadian Centre for Cyber Security’s [Cyber supply chain: An approach to assessing risk](#971c6452-6e97-4b4f-b5e4-64e457cb8320)
+          - New Zealand’s National Cyber Security Centre’s [Supply Chain Cyber Security: In Safe Hands](#8a0daed2-8840-443f-a83e-68252d2dcdc5)
+          - United Kingdom’s National Cyber Security Centre’s [Supply chain security guidance](#19947ae5-678c-4dc0-a35e-283e4af1284c).
+          - Further information on cyber supply chain risk management can also be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [ICT supply chain resource library](#014064b7-5b77-4a79-af6c-79a16f4d0cb2).
 
           Further information on cyber supply chain integrity can be found in National Institute of Standards and Technology Special Publication 800-161 Rev. 1, [Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations](#0d7243fc-65f0-4b4e-9358-bf4f6e0e34d7).
 
@@ -2189,14 +2189,14 @@ catalog:
             prose: |-
               A managed service register contains the following for each managed service:
 
-              * managed service provider’s name
-              * managed service’s name
-              * purpose for using the managed service
-              * sensitivity or classification of data involved
-              * due date for the next security assessment of the managed service
-              * contractual arrangements for the managed service
-              * point of contact for users of the managed service
-              * 24/7 contact details for the managed service provider.
+              - managed service provider’s name
+              - managed service’s name
+              - purpose for using the managed service
+              - sensitivity or classification of data involved
+              - due date for the next security assessment of the managed service
+              - contractual arrangements for the managed service
+              - point of contact for users of the managed service
+              - 24/7 contact details for the managed service provider.
       - title: Assessment of managed service providers
         props:
         - name: sort-id
@@ -2272,14 +2272,14 @@ catalog:
             prose: |-
               An outsourced cloud service register contains the following for each outsourced cloud service:
 
-              * cloud service provider’s name
-              * cloud service’s name
-              * purpose for using the cloud service
-              * sensitivity or classification of data involved
-              * due date for the next security assessment of the cloud service
-              * contractual arrangements for the cloud service
-              * point of contact for users of the cloud service
-              * 24/7 contact details for the cloud service provider.
+              - cloud service provider’s name
+              - cloud service’s name
+              - purpose for using the cloud service
+              - sensitivity or classification of data involved
+              - due date for the next security assessment of the cloud service
+              - contractual arrangements for the cloud service
+              - point of contact for users of the cloud service
+              - 24/7 contact details for the cloud service provider.
         - id: ism-1529
           class: ISM-control
           title: "Control: ism-1529"
@@ -2877,11 +2877,11 @@ catalog:
 
             There can be many stakeholders involved in developing and maintaining a system security plan. This can include representatives from:
 
-            * cyber security teams
-            * project teams who deliver the capability (including contractors)
-            * support teams who operate and support the capability
-            * data owners for data processed, stored or communicated by the system
-            * users for whom the capability is being developed.
+            - cyber security teams
+            - project teams who deliver the capability (including contractors)
+            - support teams who operate and support the capability
+            - data owners for data processed, stored or communicated by the system
+            - users for whom the capability is being developed.
         controls:
         - id: ism-0041
           class: ISM-control
@@ -2931,14 +2931,14 @@ catalog:
             prose: |-
               Systems have an incident response plan that covers the following:
 
-              * guidelines on what constitutes a cyber security incident
-              * the types of cyber security incidents likely to be encountered and the expected response to each type
-              * how to report cyber security incidents, internally to an organisation and externally to relevant authorities
-              * other parties which need to be informed in the event of a cyber security incident
-              * the authority, or authorities, responsible for investigating and responding to cyber security incidents
-              * the criteria by which an investigation of a cyber security incident would be requested from a law enforcement agency, the Australian Cyber Security Centre or other relevant authority
-              * the steps necessary to ensure the integrity of evidence relating to a cyber security incident
-              * system contingency measures or a reference to such details if they are located in a separate document.
+              - guidelines on what constitutes a cyber security incident
+              - the types of cyber security incidents likely to be encountered and the expected response to each type
+              - how to report cyber security incidents, internally to an organisation and externally to relevant authorities
+              - other parties which need to be informed in the event of a cyber security incident
+              - the authority, or authorities, responsible for investigating and responding to cyber security incidents
+              - the criteria by which an investigation of a cyber security incident would be requested from a law enforcement agency, the Australian Cyber Security Centre or other relevant authority
+              - the steps necessary to ensure the integrity of evidence relating to a cyber security incident
+              - system contingency measures or a reference to such details if they are located in a separate document.
       - title: Continuous monitoring plan
         props:
         - name: sort-id
@@ -2971,10 +2971,10 @@ catalog:
             prose: |-
               Systems have a continuous monitoring plan that includes:
 
-              * conducting vulnerability scans for systems at least fortnightly
-              * conducting vulnerability assessments and penetration tests for systems prior to deployment, including prior to deployment of significant changes, and at least annually thereafter
-              * analysing identified security vulnerabilities to determine their potential impact
-              * implementing mitigations based on risk, effectiveness and cost.
+              - conducting vulnerability scans for systems at least fortnightly
+              - conducting vulnerability assessments and penetration tests for systems prior to deployment, including prior to deployment of significant changes, and at least annually thereafter
+              - analysing identified security vulnerabilities to determine their potential impact
+              - implementing mitigations based on risk, effectiveness and cost.
       - title: Security assessment report
         props:
         - name: sort-id
@@ -3004,11 +3004,11 @@ catalog:
             prose: |-
               At the conclusion of a security assessment for a system, a security assessment report is produced by the assessor and covers:
 
-              * the scope of the security assessment
-              * the system’s strengths and weaknesses
-              * security risks associated with the operation of the system
-              * the effectiveness of the implementation of controls
-              * any recommended remediation actions.
+              - the scope of the security assessment
+              - the system’s strengths and weaknesses
+              - security risks associated with the operation of the system
+              - the effectiveness of the implementation of controls
+              - any recommended remediation actions.
       - title: Plan of action and milestones
         props:
         - name: sort-id
@@ -3359,10 +3359,10 @@ catalog:
           prose: |-
             ICT equipment and media needs to be secured when not in use. This can be achieved by implementing one of the following approaches:
 
-            * securing ICT equipment and media in an appropriate security container or secure room
-            * using ICT equipment without hard drives and sanitising memory at shut down
-            * encrypting hard drives of ICT equipment and sanitising memory at shut down
-            * sanitising memory of ICT equipment at shut down and removing and securing any hard drives.
+            - securing ICT equipment and media in an appropriate security container or secure room
+            - using ICT equipment without hard drives and sanitising memory at shut down
+            - encrypting hard drives of ICT equipment and sanitising memory at shut down
+            - sanitising memory of ICT equipment at shut down and removing and securing any hard drives.
 
             If none of the above approaches are feasible, an organisation may wish to minimise the potential impact of not securing ICT equipment when not in use. This can be achieved by preventing sensitive or classified data from being stored on hard drives, storing user profiles and documents on network shares, removing temporary user data at logoff, scrubbing virtual memory at shut down, and sanitising memory at shut down. It should be noted though that there is no guarantee that such measures will always work effectively or will not be bypassed due to unexpected circumstances, such as the loss of power. Therefore, hard drives in such cases will retain their sensitivity or classification for the purposes of reuse, reclassification, declassification, sanitisation, destruction and disposal.
         controls:
@@ -3450,11 +3450,11 @@ catalog:
             prose: |-
               Cyber security awareness training is undertaken annually by all personnel and covers:
 
-              * the purpose of the cyber security awareness training
-              * security appointments and contacts
-              * authorised use of systems and their resources
-              * protection of systems and their resources
-              * reporting of cyber security incidents and suspected compromises of systems and their resources.
+              - the purpose of the cyber security awareness training
+              - security appointments and contacts
+              - authorised use of systems and their resources
+              - protection of systems and their resources
+              - reporting of cyber security incidents and suspected compromises of systems and their resources.
         - id: ism-1565
           class: ISM-control
           title: "Control: ism-1565"
@@ -3491,10 +3491,10 @@ catalog:
 
             To mitigate business email compromise, personnel should be educated to look for the following warning signs:
 
-            * an unexpected request for a change of banking details
-            * an urgent payment request, or threats of serious consequences if payment is not made
-            * unexpected payment requests from a person in a position of authority, particularly if payment requests are unusual from this person
-            * an email received from a suspicious email address, such as an email address not matching an organisation’s name.
+            - an unexpected request for a change of banking details
+            - an urgent payment request, or threats of serious consequences if payment is not made
+            - unexpected payment requests from a person in a position of authority, particularly if payment requests are unusual from this person
+            - an email received from a suspicious email address, such as an email address not matching an organisation’s name.
 
             In dealing with such situations, personnel should have clear guidance to verify bank account details; think critically before actioning unusual payment requests; and have a process to report threatening demands for immediate action, pressure for secrecy, or requests to circumvent normal business processes and procedures.
         controls:
@@ -4491,13 +4491,13 @@ catalog:
             prose: |-
               A secure record is maintained for the life of each system covering:
 
-              * all personnel authorised to access the system, and their user identification
-              * who provided authorisation for access
-              * when access was granted
-              * the level of access that was granted
-              * when access, and the level of access, was last reviewed
-              * when the level of access was changed, and to what extent (if applicable)
-              * when access was withdrawn (if applicable).
+              - all personnel authorised to access the system, and their user identification
+              - who provided authorisation for access
+              - when access was granted
+              - the level of access that was granted
+              - when access, and the level of access, was last reviewed
+              - when the level of access was changed, and to what extent (if applicable)
+              - when access was withdrawn (if applicable).
       - title: Temporary access to systems
         props:
         - name: sort-id
@@ -4771,12 +4771,12 @@ catalog:
 
           For the purposes of this section, a cable is defined as any fibre optic or copper material housed within a protective sheath for the purposes of transmitting data or control signals from one point in a facility to another. Each cable will form part of a structured cabling system and will need to comply with the Australian Standards associated with that system. In addition to network communications and data systems, some common building management structured cabling systems found within facilities are:
 
-          * fire control and sensor systems
-          * security control and surveillance systems
-          * lighting control systems
-          * access control systems
-          * voice and emergency telephony systems
-          * emergency control alert systems.
+          - fire control and sensor systems
+          - security control and surveillance systems
+          - lighting control systems
+          - access control systems
+          - voice and emergency telephony systems
+          - emergency control alert systems.
 
           # Cable sheaths and conduits
 
@@ -4896,13 +4896,13 @@ catalog:
             prose: |-
               A cable register contains the following for each cable:
 
-              * cable identifier
-              * cable colour
-              * sensitivity/classification
-              * source
-              * destination
-              * location
-              * seal numbers (if applicable).
+              - cable identifier
+              - cable colour
+              - sensitivity/classification
+              - source
+              - destination
+              - location
+              - seal numbers (if applicable).
       - title: Floor plan diagrams
         props:
         - name: sort-id
@@ -4951,11 +4951,11 @@ catalog:
             prose: |-
               Floor plan diagrams contain the following:
 
-              * cable paths (including ingress and egress points between floors)
-              * cable reticulation system and conduit paths
-              * floor concentration boxes
-              * wall outlet boxes
-              * network cabinets.
+              - cable paths (including ingress and egress points between floors)
+              - cable reticulation system and conduit paths
+              - floor concentration boxes
+              - wall outlet boxes
+              - network cabinets.
       - title: Cable labelling processes and procedures
         props:
         - name: sort-id
@@ -5895,9 +5895,9 @@ catalog:
             prose: |-
               Where spatial constraints demand non-TOP SECRET patch panels be installed in the same cabinet as a TOP SECRET patch panel:
 
-              * a physical barrier in the cabinet is provided to separate patch panels
-              * only personnel holding a Positive Vetting security clearance have access to the cabinet
-              * approval from the TOP SECRET system’s authorising officer is obtained prior to installation.
+              - a physical barrier in the cabinet is provided to separate patch panels
+              - only personnel holding a Positive Vetting security clearance have access to the cabinet
+              - approval from the TOP SECRET system’s authorising officer is obtained prior to installation.
         - id: ism-1116
           class: ISM-control
           title: "Control: ism-1116"
@@ -6622,10 +6622,10 @@ catalog:
             prose: |-
               IP telephony is configured such that:
 
-              * IP phones authenticate themselves to the call controller upon registration
-              * auto-registration is disabled and only authorised devices are allowed to access the network
-              * unauthorised devices are blocked by default
-              * all unused and prohibited functionality is disabled.
+              - IP phones authenticate themselves to the call controller upon registration
+              - auto-registration is disabled and only authorised devices are allowed to access the network
+              - unauthorised devices are blocked by default
+              - all unused and prohibited functionality is disabled.
         - id: ism-1014
           class: ISM-control
           title: "Control: ism-1014"
@@ -6824,10 +6824,10 @@ catalog:
             prose: |-
               A denial of service response plan for video conferencing and IP telephony services contains the following:
 
-              * how to identify signs of a denial-of-service attack
-              * how to identify the source of a denial-of-service attack
-              * how capabilities can be maintained during a denial-of-service attack
-              * what actions can be taken to respond to a denial-of-service attack.
+              - how to identify signs of a denial-of-service attack
+              - how to identify the source of a denial-of-service attack
+              - how capabilities can be maintained during a denial-of-service attack
+              - what actions can be taken to respond to a denial-of-service attack.
     - title: Fax machines and multifunction devices
       props:
       - name: sort-id
@@ -7152,9 +7152,9 @@ catalog:
 
           Further information on ASD-approved platforms can be found in the following ACSC publications:
 
-          * [Security Configuration Guide – Apple iOS 14 Devices](#d2910e61-da88-4d29-b860-83c25161fd18)
-          * [Security Configuration Guide – Samsung Galaxy S10, S20 and Note 20 Devices](#616fce77-495b-472a-a552-7593ab64f188)
-          * [Security Configuration Guide – Viasat Mobile Dynamic Defense](#daae37ef-262f-4b20-bfb7-a27901f3c2db).
+          - [Security Configuration Guide – Apple iOS 14 Devices](#d2910e61-da88-4d29-b860-83c25161fd18)
+          - [Security Configuration Guide – Samsung Galaxy S10, S20 and Note 20 Devices](#616fce77-495b-472a-a552-7593ab64f188)
+          - [Security Configuration Guide – Viasat Mobile Dynamic Defense](#daae37ef-262f-4b20-bfb7-a27901f3c2db).
 
           Further information on encrypting mobile devices and their communications can be found in the cryptographic fundamentals section of the [Guidelines for Cryptography](#195abe87-bb1e-4006-8b42-eaecca4d51f1).
 
@@ -7966,9 +7966,9 @@ catalog:
             prose: |-
               If travelling overseas with mobile devices to high or extreme risk countries, personnel are:
 
-              * issued with newly provisioned accounts, mobile devices and removable media from a pool of dedicated travel devices which are used solely for work-related activities
-              * advised on how to apply and inspect tamper seals to key areas of mobile devices
-              * advised to avoid taking any personal mobile devices, especially if rooted or jailbroken.
+              - issued with newly provisioned accounts, mobile devices and removable media from a pool of dedicated travel devices which are used solely for work-related activities
+              - advised on how to apply and inspect tamper seals to key areas of mobile devices
+              - advised to avoid taking any personal mobile devices, especially if rooted or jailbroken.
         - id: ism-1555
           class: ISM-control
           title: "Control: ism-1555"
@@ -7990,13 +7990,13 @@ catalog:
             prose: |-
               Before travelling overseas with mobile devices, personnel take the following actions:
 
-              * record all details of the mobile devices being taken, such as product types, serial numbers and International Mobile Equipment Identity numbers
-              * update all operating systems and applications
-              * remove all non-essential accounts, applications and data
-              * apply security configuration settings, such as lock screens
-              * configure remote locate and wipe functionality
-              * enable encryption, including for any removable media
-              * backup all important data and configuration settings.
+              - record all details of the mobile devices being taken, such as product types, serial numbers and International Mobile Equipment Identity numbers
+              - update all operating systems and applications
+              - remove all non-essential accounts, applications and data
+              - apply security configuration settings, such as lock screens
+              - configure remote locate and wipe functionality
+              - enable encryption, including for any removable media
+              - backup all important data and configuration settings.
       - title: While travelling overseas with mobile devices
         props:
         - name: sort-id
@@ -8026,18 +8026,18 @@ catalog:
             prose: |-
               Personnel take the following precautions when travelling overseas with mobile devices:
 
-              * never leaving mobile devices or removable media unattended for any period of time, including by placing them in checked-in luggage or leaving them in hotel safes
-              * never storing credentials with mobile devices that they grant access to, such as in laptop bags
-              * never lending mobile devices or removable media to untrusted people, even if briefly
-              * never allowing untrusted people to connect their mobile devices or removable media, including for charging
-              * never using designated charging stations, wall outlet charging ports or chargers supplied by untrusted people
-              * avoiding connecting mobile devices to open or untrusted Wi-Fi networks
-              * using a VPN connection to encrypt all mobile device communications
-              * using encrypted messaging apps for communications instead of using foreign telecommunication networks
-              * disabling any communications capabilities of mobile devices when not in use, such as cellular data, wireless, Bluetooth and Near Field Communication
-              * avoiding reuse of removable media once used with other parties’ systems or mobile devices
-              * ensuring any removable media used for data transfers are thoroughly checked for malicious code beforehand
-              * never using any gifted mobile devices, especially removable media, when travelling or upon returning from travelling.
+              - never leaving mobile devices or removable media unattended for any period of time, including by placing them in checked-in luggage or leaving them in hotel safes
+              - never storing credentials with mobile devices that they grant access to, such as in laptop bags
+              - never lending mobile devices or removable media to untrusted people, even if briefly
+              - never allowing untrusted people to connect their mobile devices or removable media, including for charging
+              - never using designated charging stations, wall outlet charging ports or chargers supplied by untrusted people
+              - avoiding connecting mobile devices to open or untrusted Wi-Fi networks
+              - using a VPN connection to encrypt all mobile device communications
+              - using encrypted messaging apps for communications instead of using foreign telecommunication networks
+              - disabling any communications capabilities of mobile devices when not in use, such as cellular data, wireless, Bluetooth and Near Field Communication
+              - avoiding reuse of removable media once used with other parties’ systems or mobile devices
+              - ensuring any removable media used for data transfers are thoroughly checked for malicious code beforehand
+              - never using any gifted mobile devices, especially removable media, when travelling or upon returning from travelling.
         - id: ism-1088
           class: ISM-control
           title: "Control: ism-1088"
@@ -8059,12 +8059,12 @@ catalog:
             prose: |-
               Personnel report the potential compromise of mobile devices, removable media or credentials to their organisation as soon as possible, especially if they:
 
-              * provide credentials to foreign government officials
-              * decrypt mobile devices for foreign government officials
-              * have mobile devices taken out of sight by foreign government officials
-              * have mobile devices or removable media stolen that are later returned
-              * lose mobile devices or removable media that are later found
-              * observe unusual behaviour of mobile devices.
+              - provide credentials to foreign government officials
+              - decrypt mobile devices for foreign government officials
+              - have mobile devices taken out of sight by foreign government officials
+              - have mobile devices or removable media stolen that are later returned
+              - lose mobile devices or removable media that are later found
+              - observe unusual behaviour of mobile devices.
       - title: After travelling overseas with mobile devices
         props:
         - name: sort-id
@@ -8094,9 +8094,9 @@ catalog:
             prose: |-
               Upon returning from travelling overseas with mobile devices, personnel take the following actions:
 
-              * sanitise and reset mobile devices, including all removable media
-              * decommission any credentials that left their possession during their travel
-              * report if significant doubt exists as to the integrity of any mobile devices or removable media.
+              - sanitise and reset mobile devices, including all removable media
+              - decommission any credentials that left their possession during their travel
+              - report if significant doubt exists as to the integrity of any mobile devices or removable media.
         - id: ism-1556
           class: ISM-control
           title: "Control: ism-1556"
@@ -8118,8 +8118,8 @@ catalog:
             prose: |-
               If returning from travelling overseas with mobile devices to high or extreme risk countries, personnel take the following additional actions:
 
-              * reset credentials used with mobile devices, including those used for remote access to their organisation’s systems
-              * monitor accounts for any indicators of compromise, such as failed logon attempts.
+              - reset credentials used with mobile devices, including those used for remote access to their organisation’s systems
+              - monitor accounts for any indicators of compromise, such as failed logon attempts.
   - title: Guidelines for Evaluated Products
     props:
     - name: sort-id
@@ -8136,8 +8136,8 @@ catalog:
 
           An evaluated product provides a level of assurance in its security functionality that an unevaluated product does not. To assist in providing this assurance, the Australian Cyber Security Centre (ACSC) performs product evaluations through the following programs:
 
-          * **Enterprise Mobility Evaluation Program:** For enterprise mobility products used to protect sensitive or classified data.
-          * **High Assurance Evaluation Program:** For products used to protect SECRET and TOP SECRET data.
+          - **Enterprise Mobility Evaluation Program:** For enterprise mobility products used to protect sensitive or classified data.
+          - **High Assurance Evaluation Program:** For products used to protect SECRET and TOP SECRET data.
 
           The ACSC can be contacted for information on products that are in-evaluation via either program as well as those that have completed evaluation.
 
@@ -8263,9 +8263,9 @@ catalog:
 
           An evaluated product is considered to be operating in an evaluated configuration if:
 
-          * functionality that it uses was in the scope of the evaluation and it is implemented in the specified manner
-          * only product updates that have been assessed through maintenance and re-evaluation activities (known as assurance continuity) have been applied
-          * the environment complies with assumptions or organisational security policies stated in the evaluation documentation.
+          - functionality that it uses was in the scope of the evaluation and it is implemented in the specified manner
+          - only product updates that have been assessed through maintenance and re-evaluation activities (known as assurance continuity) have been applied
+          - the environment complies with assumptions or organisational security policies stated in the evaluation documentation.
 
           # Unevaluated configuration
 
@@ -8694,11 +8694,11 @@ catalog:
             prose: |-
               If an uncleared technician is used to undertake maintenance or repairs of ICT equipment, the technician is escorted by someone who:
 
-              * is appropriately cleared and briefed
-              * takes due care to ensure that data is not disclosed
-              * takes all responsible measures to ensure the integrity of the ICT equipment
-              * has the authority to direct the technician
-              * is sufficiently familiar with the ICT equipment to understand the work being performed.
+              - is appropriately cleared and briefed
+              - takes due care to ensure that data is not disclosed
+              - takes all responsible measures to ensure the integrity of the ICT equipment
+              - has the authority to direct the technician
+              - is sufficiently familiar with the ICT equipment to understand the work being performed.
       - title: Off-site maintenance and repairs
         props:
         - name: sort-id
@@ -8833,10 +8833,10 @@ catalog:
 
             Media typically found in ICT equipment includes:
 
-            * electrostatic memory devices, such as laser printer cartridges used in multifunction devices (MFDs)
-            * non-volatile magnetic memory, such as hard disks
-            * non-volatile semiconductor memory, such as flash cards and solid state drives
-            * volatile memory, such as random-access memory sticks.
+            - electrostatic memory devices, such as laser printer cartridges used in multifunction devices (MFDs)
+            - non-volatile magnetic memory, such as hard disks
+            - non-volatile semiconductor memory, such as flash cards and solid state drives
+            - volatile memory, such as random-access memory sticks.
         controls:
         - id: ism-0311
           class: ISM-control
@@ -9163,9 +9163,9 @@ catalog:
             prose: |-
               Memory in network devices is sanitised using the following processes, in order of preference:
 
-              * following device-specific guidance provided in evaluation documentation
-              * following vendor sanitisation guidance
-              * loading a dummy configuration file, performing a factory reset and then reinstalling firmware.
+              - following device-specific guidance provided in evaluation documentation
+              - following vendor sanitisation guidance
+              - loading a dummy configuration file, performing a factory reset and then reinstalling firmware.
       - title: Sanitising fax machines
         props:
         - name: sort-id
@@ -9372,11 +9372,11 @@ catalog:
           prose: |-
             Establishing a removable media usage policy can decrease the likelihood and consequence of data spills, data loss and data theft. In doing so, a removable media usage policy will likely cover the following:
 
-            * permitted types and uses of removable media
-            * registration and labelling of removable media
-            * handling and protection of removable media
-            * reporting of lost or stolen removable media
-            * sanitisation or destruction of removable media at the end of its life.
+            - permitted types and uses of removable media
+            - registration and labelling of removable media
+            - handling and protection of removable media
+            - reporting of lost or stolen removable media
+            - sanitisation or destruction of removable media at the end of its life.
         controls:
         - id: ism-1359
           class: ISM-control
@@ -10157,11 +10157,11 @@ catalog:
             prose: |-
               The following media types are destroyed prior to their disposal:
 
-              * microfiche and microfilm
-              * optical discs
-              * programmable read-only memory
-              * read-only memory
-              * other types of media that cannot be sanitised.
+              - microfiche and microfilm
+              - optical discs
+              - programmable read-only memory
+              - read-only memory
+              - other types of media that cannot be sanitised.
       - title: Media destruction equipment
         props:
         - name: sort-id
@@ -11125,11 +11125,11 @@ catalog:
             prose: |-
               Unprivileged users are prevented from running script execution engines, including:
 
-              * Windows Script Host (cscript.exe and wscript.exe)
-              * PowerShell (powershell.exe, powershell_ise.exe and pwsh.exe)
-              * Command Prompt (cmd.exe)
-              * Windows Management Instrumentation (wmic.exe)
-              * Microsoft Hypertext Markup Language (HTML) Application Host (mshta.exe).
+              - Windows Script Host (cscript.exe and wscript.exe)
+              - PowerShell (powershell.exe, powershell_ise.exe and pwsh.exe)
+              - Command Prompt (cmd.exe)
+              - Windows Management Instrumentation (wmic.exe)
+              - Microsoft Hypertext Markup Language (HTML) Application Host (mshta.exe).
       - title: Application management
         props:
         - name: sort-id
@@ -11807,12 +11807,12 @@ catalog:
             prose: |-
               Antivirus software is implemented on workstations and servers with:
 
-              * signature-based detection functionality enabled and set to a high level
-              * heuristic-based detection functionality enabled and set to a high level
-              * reputation rating functionality enabled
-              * ransomware protection functionality enabled
-              * detection signatures configured to update on at least a daily basis
-              * regular scanning configured for all fixed disks and removable media.
+              - signature-based detection functionality enabled and set to a high level
+              - heuristic-based detection functionality enabled and set to a high level
+              - reputation rating functionality enabled
+              - ransomware protection functionality enabled
+              - detection signatures configured to update on at least a daily basis
+              - regular scanning configured for all fixed disks and removable media.
       - title: Device access control software
         props:
         - name: sort-id
@@ -11910,13 +11910,13 @@ catalog:
             prose: |-
               The following events are logged for operating systems:
 
-              * application and operating system crashes and error messages
-              * changes to security policies and system configurations
-              * successful user logons and logoffs, failed user logons and account lockouts
-              * failures, restarts and changes to important processes and services
-              * requests to access internet resources
-              * security product-related events
-              * system startups and shutdowns.
+              - application and operating system crashes and error messages
+              - changes to security policies and system configurations
+              - successful user logons and logoffs, failed user logons and account lockouts
+              - failures, restarts and changes to important processes and services
+              - requests to access internet resources
+              - security product-related events
+              - system startups and shutdowns.
         - id: ism-1747
           class: ISM-control
           title: "Control: ism-1747"
@@ -13511,9 +13511,9 @@ catalog:
           prose: |-
             Multi-factor authentication uses two or more different authentication factors. This may include:
 
-            * something users know, such as a memorised secret (i.e. personal identification number, password or passphrase)
-            * something users have, such as a security key, smart card, smartphone or one-time password token
-            * something users are, such as a fingerprint pattern or their facial geometry.
+            - something users know, such as a memorised secret (i.e. personal identification number, password or passphrase)
+            - something users have, such as a security key, smart card, smartphone or one-time password token
+            - something users are, such as a fingerprint pattern or their facial geometry.
 
             Note, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that users have rather than something users know.
 
@@ -14152,12 +14152,12 @@ catalog:
             prose: |-
               Credentials are changed if:
 
-              * they are compromised
-              * they are suspected of being compromised
-              * they are discovered stored on networks in the clear
-              * they are discovered being transferred across networks in the clear
-              * membership of a shared account changes
-              * they have not been changed in the past 12 months.
+              - they are compromised
+              - they are suspected of being compromised
+              - they are discovered stored on networks in the clear
+              - they are discovered being transferred across networks in the clear
+              - membership of a shared account changes
+              - they have not been changed in the past 12 months.
         - id: ism-1847
           class: ISM-control
           title: "Control: ism-1847"
@@ -14179,9 +14179,9 @@ catalog:
             prose: |-
               Credentials for the Kerberos Key Distribution Center’s service account (KRBTGT) are changed twice, allowing for replication to all Microsoft Active Directory Domain Services domain controllers in-between each change, if:
 
-              * the domain has been directly compromised
-              * the domain is suspected of being compromised
-              * they have not been changed in the past 12 months.
+              - the domain has been directly compromised
+              - the domain is suspected of being compromised
+              - they have not been changed in the past 12 months.
       - title: Protecting credentials
         props:
         - name: sort-id
@@ -14395,11 +14395,11 @@ catalog:
             prose: |-
               Systems are configured with a session or screen lock that:
 
-              * activates after a maximum of 15 minutes of user inactivity, or if manually activated by users
-              * conceals all session content on the screen
-              * ensures that the screen does not enter a power saving state before the session or screen lock is activated
-              * requires users to authenticate to unlock the session
-              * denies users the ability to disable the session or screen locking mechanism.
+              - activates after a maximum of 15 minutes of user inactivity, or if manually activated by users
+              - conceals all session content on the screen
+              - ensures that the screen does not enter a power saving state before the session or screen lock is activated
+              - requires users to authenticate to unlock the session
+              - denies users the ability to disable the session or screen locking mechanism.
       - title: Logon banner
         props:
         - name: sort-id
@@ -14409,12 +14409,12 @@ catalog:
           prose: |-
             Displaying a logon banner to users before access is granted to a system reminds them of their security responsibilities. Logon banners may cover topics such as:
 
-            * the sensitivity or classification of the system
-            * access to the system being restricted to authorised users
-            * acceptable usage and security policies for the system
-            * an agreement to abide by acceptable usage and security policies for the system
-            * legal ramifications of violating acceptable usage and security policies for the system
-            * details of any monitoring activities for the system.
+            - the sensitivity or classification of the system
+            - access to the system being restricted to authorised users
+            - acceptable usage and security policies for the system
+            - an agreement to abide by acceptable usage and security policies for the system
+            - legal ramifications of violating acceptable usage and security policies for the system
+            - details of any monitoring activities for the system.
         controls:
         - id: ism-0408
           class: ISM-control
@@ -14669,11 +14669,11 @@ catalog:
           prose: |-
             A key component of system administration is ensuring that administrative activities are undertaken in a repeatable and accountable manner using system administration processes and procedures. In doing so, requirements for administrative activities may cover:
 
-            * configuring applications, operating systems, network devices or other ICT equipment
-            * applying patches, updates or vendor mitigations to applications, drivers, operating systems or firmware
-            * installing or removing applications, operating systems, network devices or other ICT equipment
-            * implementing system changes or enhancements
-            * resolving problems identified by users.
+            - configuring applications, operating systems, network devices or other ICT equipment
+            - applying patches, updates or vendor mitigations to applications, drivers, operating systems or firmware
+            - installing or removing applications, operating systems, network devices or other ICT equipment
+            - implementing system changes or enhancements
+            - resolving problems identified by users.
 
             Furthermore, in support of change management processes and procedures, system administrators should document requirements for administrative activities, consider potential security impacts, obtain any necessary approvals, notify users of any disruptions or outages, and maintain system and security documentation.
         controls:
@@ -16332,12 +16332,12 @@ catalog:
 
           Further information on implementing a vulnerability disclosure program can be found in:
 
-          * Google’s [Starting a Vulnerability Disclosure Program](#78a48231-9963-4f78-962a-861c96c58ead)
-          * European Union Agency for Cybersecurity’s [Good Practice Guide on Vulnerability Disclosure](#9a69d597-080f-4d03-b32b-d926f0b87e33)
-          * Netherland’s National Cyber Security Centre’s [Coordinated Vulnerability Disclosure: The Guideline](#dbd0372b-b758-46b1-bf05-d9676689d5b0)
-          * Carnegie Mellon University’s Software Engineering Institute’s [The CERT Guide to Coordinated Vulnerability Disclosure](#7ffd20ed-4f40-43be-a37b-97e7a1b31e2f)
-          * International Organization for Standardization/International Electrotechnical Commission 29147:2018, [Information technology – Security techniques – Vulnerability disclosure](#8f1965a9-a6a1-4342-bfb8-797ea358db30)
-          * International Organization for Standardization/International Electrotechnical Commission 30111:2019, [Information technology – Security techniques – Vulnerability handling processes](#99c117f0-78e0-4196-adc8-705405d996bc).
+          - Google’s [Starting a Vulnerability Disclosure Program](#78a48231-9963-4f78-962a-861c96c58ead)
+          - European Union Agency for Cybersecurity’s [Good Practice Guide on Vulnerability Disclosure](#9a69d597-080f-4d03-b32b-d926f0b87e33)
+          - Netherland’s National Cyber Security Centre’s [Coordinated Vulnerability Disclosure: The Guideline](#dbd0372b-b758-46b1-bf05-d9676689d5b0)
+          - Carnegie Mellon University’s Software Engineering Institute’s [The CERT Guide to Coordinated Vulnerability Disclosure](#7ffd20ed-4f40-43be-a37b-97e7a1b31e2f)
+          - International Organization for Standardization/International Electrotechnical Commission 29147:2018, [Information technology – Security techniques – Vulnerability disclosure](#8f1965a9-a6a1-4342-bfb8-797ea358db30)
+          - International Organization for Standardization/International Electrotechnical Commission 30111:2019, [Information technology – Security techniques – Vulnerability handling processes](#99c117f0-78e0-4196-adc8-705405d996bc).
 
           Further information on [developing a vulnerability disclosure policy](#aab0523a-513e-48c9-978e-32d5b9adeea6) is available from the disclose.io project to assist an organisation with their implementation.
 
@@ -16654,12 +16654,12 @@ catalog:
 
             A vulnerability disclosure program should include processes and procedures for receiving, verifying, resolving and reporting security vulnerabilities disclosed by both internal and external parties. In support of this, a vulnerability disclosure policy should be made publicly available that covers:
 
-            * the purpose of the vulnerability disclosure program
-            * types of security research that are and are not allowed
-            * how to report any security vulnerabilities
-            * actions, and associated timeframes, upon notification of security vulnerabilities
-            * expectations regarding the public disclosure of security vulnerabilities
-            * any recognition or reward for finders of security vulnerabilities.
+            - the purpose of the vulnerability disclosure program
+            - types of security research that are and are not allowed
+            - how to report any security vulnerabilities
+            - actions, and associated timeframes, upon notification of security vulnerabilities
+            - expectations regarding the public disclosure of security vulnerabilities
+            - any recognition or reward for finders of security vulnerabilities.
 
             Finally, the Australian Cyber Security Centre (ACSC) encourages security researchers and other members of the public to responsibly report security vulnerabilities directly to an organisation. However, the ACSC recognises that this is not always practical, initial attempts at communication may be unsuccessful or the person making the report may not wish to do so directly. In such cases, security vulnerabilities can be reported to the ACSC as an independent coordinator.
         controls:
@@ -17524,17 +17524,17 @@ catalog:
             prose: |-
               The following events are logged for databases:
 
-              * access or modification of particularly important content
-              * addition of new users, especially privileged users
-              * changes to user roles or privileges
-              * attempts to elevate user privileges
-              * queries containing comments
-              * queries containing multiple embedded queries
-              * database and query alerts or failures
-              * database structure changes
-              * database administrator actions
-              * use of executable commands
-              * database logons and logoffs.
+              - access or modification of particularly important content
+              - addition of new users, especially privileged users
+              - changes to user roles or privileges
+              - attempts to elevate user privileges
+              - queries containing comments
+              - queries containing multiple embedded queries
+              - database and query alerts or failures
+              - database structure changes
+              - database administrator actions
+              - use of executable commands
+              - database logons and logoffs.
         - id: ism-1758
           class: ISM-control
           title: "Control: ism-1758"
@@ -17819,9 +17819,9 @@ catalog:
 
           Further information on email security can be found in the following National Institute of Standards and Technology (NIST) publications:
 
-          * NIST Special Publication (SP) 800-45 Rev. 2, [Guidelines on Electronic Mail Security](#b383a647-7627-4450-99b6-640ae554c2f1)
-          * NIST SP 800-177 Rev. 1, [Trustworthy Email](#4b0f2fa7-f9d6-48d8-b14c-527939808882)
-          * NIST SP 1800-6, [Domain Name System-Based Electronic Mail Security](#55038d94-7587-4234-a18c-fb459fcdb295).
+          - NIST Special Publication (SP) 800-45 Rev. 2, [Guidelines on Electronic Mail Security](#b383a647-7627-4450-99b6-640ae554c2f1)
+          - NIST SP 800-177 Rev. 1, [Trustworthy Email](#4b0f2fa7-f9d6-48d8-b14c-527939808882)
+          - NIST SP 1800-6, [Domain Name System-Based Electronic Mail Security](#55038d94-7587-4234-a18c-fb459fcdb295).
       groups:
       - title: Centralised email gateways
         props:
@@ -19849,12 +19849,12 @@ catalog:
             prose: |-
               Denial-of-service attack mitigation strategies are discussed with cloud service providers, specifically:
 
-              * their capacity to withstand denial-of-service attacks
-              * costs likely to be incurred as a result of denial-of-service attacks
-              * availability monitoring and thresholds for notification of denial-of-service attacks
-              * thresholds for turning off any online services or functionality during denial-of-service attacks
-              * pre-approved actions that can be undertaken during denial-of-service attacks
-              * any arrangements with upstream service providers to block malicious network traffic as far upstream as possible.
+              - their capacity to withstand denial-of-service attacks
+              - costs likely to be incurred as a result of denial-of-service attacks
+              - availability monitoring and thresholds for notification of denial-of-service attacks
+              - thresholds for turning off any online services or functionality during denial-of-service attacks
+              - pre-approved actions that can be undertaken during denial-of-service attacks
+              - any arrangements with upstream service providers to block malicious network traffic as far upstream as possible.
         - id: ism-1436
           class: ISM-control
           title: "Control: ism-1436"
@@ -20317,11 +20317,11 @@ catalog:
 
           The approved asymmetric/public key algorithms are:
 
-          * Diffie-Hellman (DH) for agreeing on encryption session keys
-          * Digital Signature Algorithm (DSA) for digital signatures
-          * Elliptic Curve Diffie-Hellman (ECDH) for key exchange
-          * Elliptic Curve Digital Signature Algorithm (ECDSA) for digital signatures
-          * Rivest-Shamir-Adleman (RSA) for digital signatures and passing encryption session keys or similar keys.
+          - Diffie-Hellman (DH) for agreeing on encryption session keys
+          - Digital Signature Algorithm (DSA) for digital signatures
+          - Elliptic Curve Diffie-Hellman (ECDH) for key exchange
+          - Elliptic Curve Digital Signature Algorithm (ECDSA) for digital signatures
+          - Rivest-Shamir-Adleman (RSA) for digital signatures and passing encryption session keys or similar keys.
 
           The only approved hashing algorithm is Secure Hashing Algorithm 2 (SHA-2).
 
@@ -20929,13 +20929,13 @@ catalog:
 
           The AACPs are:
 
-          * Transport Layer Security (TLS)
-          * Secure Shell (SSH)
-          * Secure/Multipurpose Internet Mail Extension (S/MIME)
-          * OpenPGP Message Format
-          * Internet Protocol Security (IPsec)
-          * Wi-Fi Protected Access 2
-          * Wi-Fi Protected Access 3.
+          - Transport Layer Security (TLS)
+          - Secure Shell (SSH)
+          - Secure/Multipurpose Internet Mail Extension (S/MIME)
+          - OpenPGP Message Format
+          - Internet Protocol Security (IPsec)
+          - Wi-Fi Protected Access 2
+          - Wi-Fi Protected Access 3.
 
           # Further information
 
@@ -21251,16 +21251,16 @@ catalog:
             prose: |-
               The SSH daemon is configured to:
 
-              * only listen on the required interfaces (ListenAddress xxx.xxx.xxx.xxx)
-              * have a suitable login banner (Banner x)
-              * have a login authentication timeout of no more than 60 seconds (LoginGraceTime 60)
-              * disable host-based authentication (HostbasedAuthentication no)
-              * disable rhosts-based authentication (IgnoreRhosts yes)
-              * disable the ability to login directly as root (PermitRootLogin no)
-              * disable empty passwords (PermitEmptyPasswords no)
-              * disable connection forwarding (AllowTCPForwarding no)
-              * disable gateway ports (GatewayPorts no)
-              * disable X11 forwarding (X11Forwarding no).
+              - only listen on the required interfaces (ListenAddress xxx.xxx.xxx.xxx)
+              - have a suitable login banner (Banner x)
+              - have a login authentication timeout of no more than 60 seconds (LoginGraceTime 60)
+              - disable host-based authentication (HostbasedAuthentication no)
+              - disable rhosts-based authentication (IgnoreRhosts yes)
+              - disable the ability to login directly as root (PermitRootLogin no)
+              - disable empty passwords (PermitEmptyPasswords no)
+              - disable connection forwarding (AllowTCPForwarding no)
+              - disable gateway ports (GatewayPorts no)
+              - disable X11 forwarding (X11Forwarding no).
       - title: Authentication mechanisms
         props:
         - name: sort-id
@@ -21316,11 +21316,11 @@ catalog:
           prose: |-
             If using logins without a passphrase for automated purposes, a number of security risks may arise, specifically:
 
-            * if access from unknown Internet Protocol (IP) addresses is not restricted, an adversary could automatically authenticate to systems without needing to know any passphrases
-            * if port forwarding is not disabled, or it is not configured securely, access may be gained to forwarded ports, thereby, creating a communication channel between an adversary and a host
-            * if agent credential forwarding is enabled, an adversary could connect to the stored authentication credentials and use them to connect to other trusted hosts, or even intranet hosts if port forwarding has been allowed as well
-            * if X11 display remoting is not disabled, an adversary could gain control of displays as well as keyboard and mouse control functions
-            * if console access is allowed, every user who logs into the console could run programs that are normally restricted to authenticated users.
+            - if access from unknown Internet Protocol (IP) addresses is not restricted, an adversary could automatically authenticate to systems without needing to know any passphrases
+            - if port forwarding is not disabled, or it is not configured securely, access may be gained to forwarded ports, thereby, creating a communication channel between an adversary and a host
+            - if agent credential forwarding is enabled, an adversary could connect to the stored authentication credentials and use them to connect to other trusted hosts, or even intranet hosts if port forwarding has been allowed as well
+            - if X11 display remoting is not disabled, an adversary could gain control of displays as well as keyboard and mouse control functions
+            - if console access is allowed, every user who logs into the console could run programs that are normally restricted to authenticated users.
 
             To assist in mitigating these security risks, it is essential that the ‘forced command’ option is used to specify what command is executed and parameter checking is enabled.
         controls:
@@ -21345,11 +21345,11 @@ catalog:
             prose: |-
               When using logins without a passphrase for SSH connections, the following are disabled:
 
-              * access from IP addresses that do not require access
-              * port forwarding
-              * agent credential forwarding
-              * X11 display remoting
-              * console access.
+              - access from IP addresses that do not require access
+              - port forwarding
+              - agent credential forwarding
+              - X11 display remoting
+              - console access.
         - id: ism-0488
           class: ISM-control
           title: "Control: ism-0488"
@@ -22122,9 +22122,9 @@ catalog:
             prose: |-
               The following events are logged for gateways:
 
-              * data packets and data flows permitted through gateways
-              * data packets and data flows attempting to leave gateways
-              * real-time alerts for attempted intrusions.
+              - data packets and data flows permitted through gateways
+              - data packets and data flows attempting to leave gateways
+              - real-time alerts for attempted intrusions.
         - id: ism-1775
           class: ISM-control
           title: "Control: ism-1775"
@@ -22722,11 +22722,11 @@ catalog:
             prose: |-
               The following details are logged for websites accessed via web proxies:
 
-              * address
-              * date and time
-              * user
-              * amount of data uploaded and downloaded
-              * internal and external IP addresses.
+              - address
+              - date and time
+              - user
+              - amount of data uploaded and downloaded
+              - internal and external IP addresses.
         - id: ism-1777
           class: ISM-control
           title: "Control: ism-1777"
@@ -22932,15 +22932,15 @@ catalog:
 
           The following content filtering techniques should be considered as part of an organisation’s content filtering implementation for gateways and CDSs:
 
-          * **Antivirus scans:** Scans files for viruses and other malicious code.
-          * **Automated dynamic analysis:** Analyses executable files run in a sandbox to detect suspicious behaviour.
-          * **File extension checks:** Checks file extensions to determine purported file types.
-          * **File format checks:** Checks files conform to defined file format specifications.
-          * **File type checks:** Checks file headers to determine actual file types.
-          * **Keyword checks:** Checks files for keywords that could indicate undesirable content.
-          * **Metadata checks:** Checks files for metadata that should be removed.
-          * **Protective marking checks:** Checks files for protective markings that may indicate undesirable content.
-          * **Manual inspections:** Involves the manual inspection of files for suspicious or undesirable content that an automated system may miss, which is particularly important for multimedia and content rich files.
+          - **Antivirus scans:** Scans files for viruses and other malicious code.
+          - **Automated dynamic analysis:** Analyses executable files run in a sandbox to detect suspicious behaviour.
+          - **File extension checks:** Checks file extensions to determine purported file types.
+          - **File format checks:** Checks files conform to defined file format specifications.
+          - **File type checks:** Checks file headers to determine actual file types.
+          - **Keyword checks:** Checks files for keywords that could indicate undesirable content.
+          - **Metadata checks:** Checks files for metadata that should be removed.
+          - **Protective marking checks:** Checks files for protective markings that may indicate undesirable content.
+          - **Manual inspections:** Involves the manual inspection of files for suspicious or undesirable content that an automated system may miss, which is particularly important for multimedia and content rich files.
 
           # Further information
 
@@ -23231,10 +23231,10 @@ catalog:
           prose: |-
             Content conversion can be an effective method to render malicious code harmless by converting one file type to another file type. Note, however, some file types will not benefit from content conversion. Examples of content conversion include:
 
-            * converting Microsoft Word documents to PDF files
-            * converting Microsoft PowerPoint presentations to image files
-            * converting Microsoft Excel spreadsheets to comma-separated values files
-            * converting PDF documents to plain text files.
+            - converting Microsoft Word documents to PDF files
+            - converting Microsoft PowerPoint presentations to image files
+            - converting Microsoft Excel spreadsheets to comma-separated values files
+            - converting PDF documents to plain text files.
         controls:
         - id: ism-1286
           class: ISM-control
@@ -24081,8 +24081,6 @@ catalog:
           | wireless network                                   | A network based on the 802.11 standards.                                                                                                                                                                                                                                                                                                                                                         |
           | workstation                                        | A stand-alone or networked single-user computer.                                                                                                                                                                                                                                                                                                                                                 |
           | X11 Forwarding                                     | X11, also known as the X Window System, is a basic method of video display used in a variety of operating systems. X11 Forwarding allows the video display from one device to be shown on another device.                                                                                                                                                                                        |
-
-          <br />
   back-matter:
     resources:
     - uuid: 014064b7-5b77-4a79-af6c-79a16f4d0cb2
@@ -24132,11 +24130,11 @@ catalog:
     - uuid: 16c8c2ed-5a37-40ac-a29e-3da92ad398dd
       title: Information Security Manual OSCAL catalog - successor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/successor-version/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/successor-version/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/successor-version/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/successor-version/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/successor-version/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/successor-version/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: 18203e18-2aca-492e-be44-770b2f47242f
       title: AV-TEST
@@ -24186,11 +24184,11 @@ catalog:
     - uuid: 22ed0344-d91c-43e9-80e0-adfed1aa0851
       title: Information Security Manual OSCAL catalog - predecessor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/predecessor-version/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/predecessor-version/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/predecessor-version/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/predecessor-version/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/predecessor-version/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/predecessor-version/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: 23d977b2-e64e-4ebc-a59f-cd95212045c5
       title: Implementing Network Segmentation and Segregation
@@ -24391,11 +24389,11 @@ catalog:
     - uuid: 6455b62e-c7af-4987-b87d-60b9575a59ff
       title: Information Security Manual OSCAL catalog
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: 672e85cc-2d40-46ba-9e94-c604b9731c75
       title: secure programming practices

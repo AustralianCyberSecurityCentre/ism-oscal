@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 5e011a87-5e5b-4620-b2fc-c035eb3eb1e8
+  uuid: 21562da1-85a1-478a-bc74-22fabc2fa8f7
   metadata:
     title: Information Security Manual Essential Eight Maturity Level Two Baseline
-    last-modified: 2023-06-29T05:57:46.759464Z
-    version: 2023.06.29
-    oscal-version: 1.0.4
+    last-modified: 2023-08-03T08:51:39.962872Z
+    version: 2023.08.3
+    oscal-version: 1.1.0
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2023.06.29/artifacts/ISM_E8_ML2-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_E8_ML2-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -58,20 +58,15 @@ catalog:
 
           # Further information
 
-          Further information on access to government resources, including required security clearances, can be found in the Attorney-General’s Department’s
-          [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a),
-          [Access to information](#3e4cd135-5fa3-4a1e-a192-1793ff42067c) policy.
+          Further information on access to government resources, including required security clearances, can be found in the Attorney-General’s Department’s [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a), [Access to information](#3e4cd135-5fa3-4a1e-a192-1793ff42067c) policy.
 
           Further information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.
 
-          Further information on restricting the use of privileged accounts can be found in the ACSC’s
-          [Restricting Administrative Privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.
+          Further information on restricting the use of privileged accounts can be found in the ACSC’s [Restricting Administrative Privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.
 
-          Further information on administering systems and applications can be found in the system administration section of the
-          [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on administering systems and applications can be found in the system administration section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
-          Further information on event logging can be found in the event logging and monitoring section of the
-          [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
       groups:
       - title: Privileged access to systems
         props:
@@ -258,47 +253,31 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
-          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
-          Further information on patching or updating operating systems can be found in the system patching section of the
-          [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on patching or updating operating systems can be found in the system patching section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
-          Further information on securely configuring Microsoft Windows operating systems can be found in the ACSC’s
-          [Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
+          Further information on securely configuring Microsoft Windows operating systems can be found in the ACSC’s [Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
 
-          Further information on securely configuring Linux workstations and servers can be found in the ACSC’s
-          [Hardening Linux Workstations and Servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.
+          Further information on securely configuring Linux workstations and servers can be found in the ACSC’s [Hardening Linux Workstations and Servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.
 
-          Further information on
-          [exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.
+          Further information on [exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.
 
-          Further information on implementing application control can be found in the ACSC’s
-          [Implementing Application Control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.
+          Further information on implementing application control can be found in the ACSC’s [Implementing Application Control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.
 
-          Further information on Microsoft’s ‘
-          [recommended block rules](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3)’ and ‘
-          [recommended driver block rules](#4a3a265f-7772-433b-9906-7f784052f28b)’ are available from Microsoft.
+          Further information on Microsoft’s ‘[recommended block rules](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3)’ and ‘[recommended driver block rules](#4a3a265f-7772-433b-9906-7f784052f28b)’ are available from Microsoft.
 
-          Further information on the use of PowerShell can be found in the ACSC’s
-          [Securing PowerShell in the Enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.
+          Further information on the use of PowerShell can be found in the ACSC’s [Securing PowerShell in the Enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.
 
-          Further information on
-          [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft while further information on obtaining
-          [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Mandiant.
+          Further information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft while further information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Mandiant.
 
-          Further information on independent testing of security products’ ability to
-          [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.
+          Further information on independent testing of security products’ ability to [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.
 
-          Further information on independent testing of antivirus software is available from
-          [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and
-          [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).
+          Further information on independent testing of antivirus software is available from [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).
 
-          Further information on the use of removable media can be found in the media usage section of the
-          [Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).
+          Further information on the use of removable media can be found in the media usage section of the [Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).
 
-          Further information on event logging can be found in the event logging and monitoring section of the
-          [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
       groups:
       - title: Application control
         props:
@@ -489,25 +468,19 @@ catalog:
 
           # Further information
 
-          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
-          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
-          Further information on patching or updating user applications can be found in the system patching section of the
-          [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on patching or updating user applications can be found in the system patching section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
           Further information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.
 
-          Further information on securely configuring Microsoft Office can be found in the ACSC’s
-          [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.
+          Further information on securely configuring Microsoft Office can be found in the ACSC’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.
 
-          Further information on securely configuring the Microsoft Edge web browser can be found in the ACSC’s
-          [Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
+          Further information on securely configuring the Microsoft Edge web browser can be found in the ACSC’s [Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
 
-          Further information on configuring Microsoft Office macro settings can be found in the ACSC’s
-          [Microsoft Office Macro Security](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.
+          Further information on configuring Microsoft Office macro settings can be found in the ACSC’s [Microsoft Office Macro Security](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.
 
-          Further information on event logging can be found in the event logging and monitoring section of the
-          [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
       groups:
       - title: Hardening user application configurations
         props:
@@ -1038,39 +1011,25 @@ catalog:
 
           # Further information
 
-          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the
-          [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
-          Further information on implementing multi-factor authentication can be found in the ACSC’s
-          [Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.
+          Further information on implementing multi-factor authentication can be found in the ACSC’s [Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.
 
-          Further information on event logging can be found in the event logging and monitoring section of the
-          [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
 
-          Further information on
-          [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a
-          [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.
+          Further information on [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.
 
-          Further information on
-          [group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.
+          Further information on [group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.
 
-          Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s
-          [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and
-          [AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for
-          [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.
+          Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and [AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.
 
-          Further information on
-          [Windows Defender Credential Guard](#8d53ee7f-54c2-4380-8408-f7403db30ba1) and
-          [Windows Defender Remote Credential Guard](#92975dff-58e0-4813-842b-f27c0533ca56) is available from Microsoft.
+          Further information on [Windows Defender Credential Guard](#8d53ee7f-54c2-4380-8408-f7403db30ba1) and [Windows Defender Remote Credential Guard](#92975dff-58e0-4813-842b-f27c0533ca56) is available from Microsoft.
 
-          Further information on
-          [Protective Process Light for LSASS](#3f43c8d2-8a8c-4e2f-af80-48a607bce643) is available from Microsoft.
+          Further information on [Protective Process Light for LSASS](#3f43c8d2-8a8c-4e2f-af80-48a607bce643) is available from Microsoft.
 
-          Further information on mitigating the use of stolen credentials can be found in the ACSC’s
-          [Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.
+          Further information on mitigating the use of stolen credentials can be found in the ACSC’s [Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.
 
-          Further information on mitigating the use of stolen credentials can also be found in Microsoft’s
-          [Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication.
+          Further information on mitigating the use of stolen credentials can also be found in Microsoft’s [Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication.
       groups:
       - title: Multi-factor authentication
         props:
@@ -1081,9 +1040,9 @@ catalog:
           prose: |-
             Multi-factor authentication uses two or more different authentication factors. This may include:
 
-            * something users know, such as a memorised secret (i.e. personal identification number, password or passphrase)
-            * something users have, such as a security key, smart card, smartphone or one-time password token
-            * something users are, such as a fingerprint pattern or their facial geometry.
+            - something users know, such as a memorised secret (i.e. personal identification number, password or passphrase)
+            - something users have, such as a security key, smart card, smartphone or one-time password token
+            - something users are, such as a fingerprint pattern or their facial geometry.
 
             Note, however, that if a memorised secret is written down, or stored in a document on a system, this becomes something that users have rather than something users know.
 
@@ -1322,20 +1281,15 @@ catalog:
 
           # Further information
 
-          Further information on system administration can be found in the Australian Cyber Security Centre (ACSC)’s
-          [Secure Administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.
+          Further information on system administration can be found in the Australian Cyber Security Centre (ACSC)’s [Secure Administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.
 
-          Further information on the use of privileged accounts for system administration activities can be found in the access to systems and their resources section of the
-          [Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
+          Further information on the use of privileged accounts for system administration activities can be found in the access to systems and their resources section of the [Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
 
-          Further information on multi-factor authentication can be found in the authentication hardening section of the
-          [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
+          Further information on multi-factor authentication can be found in the authentication hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
-          Further information on event logging can be found in the event logging and monitoring section of the
-          [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
 
-          Further information on network segmentation and segregation can be found in the network design and configuration section of the
-          [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
+          Further information on network segmentation and segregation can be found in the network design and configuration section of the [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
       groups:
       - title: Separate privileged operating environments
         props:
@@ -1490,20 +1444,15 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on system patching can be found in the ACSC’s
-          [Assessing Security Vulnerabilities and Applying Patches](#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a) publication.
+          Further information on system patching can be found in the ACSC’s [Assessing Security Vulnerabilities and Applying Patches](#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a) publication.
 
-          Further information on patching evaluated products can be found in the evaluated product usage section of the
-          [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
+          Further information on patching evaluated products can be found in the evaluated product usage section of the [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
 
-          Further information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in the ACSC’s
-          [End of Support for Microsoft Windows and Microsoft Windows Server](#d36ce452-ec21-4b05-89c1-f29a444a3dca) publication.
+          Further information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in the ACSC’s [End of Support for Microsoft Windows and Microsoft Windows Server](#d36ce452-ec21-4b05-89c1-f29a444a3dca) publication.
 
-          Further information on hardening user applications can be found in the user application hardening section of the
-          [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
+          Further information on hardening user applications can be found in the user application hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
-          Further information on hardening server applications can be found in the server application hardening section of the
-          [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
+          Further information on hardening server applications can be found in the server application hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
       groups:
       - title: Scanning for missing patches or updates
         props:
@@ -1898,16 +1847,11 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on
-          [digital preservation planning](#53da8dba-961e-4222-94e0-68cb9510384d) and
-          [data retention](#348be728-4459-4447-990e-1dfb3049c71f) is available from the National Archives of Australia.
+          Further information on [digital preservation planning](#53da8dba-961e-4222-94e0-68cb9510384d) and [data retention](#348be728-4459-4447-990e-1dfb3049c71f) is available from the National Archives of Australia.
 
-          Further information on the collection and retention of personal information can be found in the Office of the Australian Information Commissioner’s
-          [Australian Privacy Principles](#bac2c6f2-9356-46d2-b7c4-9af7393008df) and the associated
-          [Australian Privacy Principles guidelines](#1e4a57a2-2832-441d-8ea4-12a98d2be417).
+          Further information on the collection and retention of personal information can be found in the Office of the Australian Information Commissioner’s [Australian Privacy Principles](#bac2c6f2-9356-46d2-b7c4-9af7393008df) and the associated [Australian Privacy Principles guidelines](#1e4a57a2-2832-441d-8ea4-12a98d2be417).
 
-          Further information on business continuity and disaster recovery planning can be found in the Chief Information Security Officer section of the
-          [Guidelines for Cyber Security Roles](#626dab35-81ab-45fe-8c12-0faff1c23c07).
+          Further information on business continuity and disaster recovery planning can be found in the Chief Information Security Officer section of the [Guidelines for Cyber Security Roles](#626dab35-81ab-45fe-8c12-0faff1c23c07).
       groups:
       - title: Performing and retaining backups
         props:
