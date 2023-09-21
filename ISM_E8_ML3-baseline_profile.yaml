@@ -3,9 +3,9 @@ profile:
   uuid: 619c9583-ce5c-49a0-b70c-10f4a68337a4
   metadata:
     title: Information Security Manual Essential Eight Maturity Level Three Baseline
-    published: 2023-08-03T08:36:43.172208Z
-    last-modified: 2023-08-03T08:36:43.172208Z
-    version: 2023.08.3
+    published: 2023-09-21T08:17:13.44059Z
+    last-modified: 2023-09-21T08:17:13.44059Z
+    version: 2023.09.21
     oscal-version: 1.1.0
     links:
     - href: '#16df189f-8af5-4562-b918-f3055f92a7b9'
@@ -55,6 +55,7 @@ profile:
       - ism-1175
       - ism-1653
       - ism-1649
+      - ism-0445
       - ism-1509
       - ism-1651
       - ism-1650
@@ -67,6 +68,8 @@ profile:
       - ism-0843
       - ism-1490
       - ism-1656
+      - ism-1870
+      - ism-1871
       - ism-1657
       - ism-1658
       - ism-1582
@@ -104,13 +107,15 @@ profile:
       - ism-1489
       - ism-1677
       - ism-1678
-      - ism-1173
       - ism-1504
       - ism-1679
       - ism-1680
       - ism-1681
+      - ism-1173
       - ism-1505
       - ism-1401
+      - ism-1872
+      - ism-1874
       - ism-1682
       - ism-1683
       - ism-1684
@@ -128,13 +133,15 @@ profile:
       - ism-1700
       - ism-1701
       - ism-1702
+      - ism-1876
       - ism-1690
-      - ism-1691
       - ism-1692
+      - ism-1691
       - ism-1693
+      - ism-1877
       - ism-1694
-      - ism-1695
       - ism-1696
+      - ism-1695
       - ism-1704
       - ism-0304
       - ism-1501
@@ -160,20 +167,20 @@ profile:
     - uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
       title: Information Security Manual
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: 16df189f-8af5-4562-b918-f3055f92a7b9
       title: Information Security Manual Essential Eight Maturity Level Three Baseline
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_E8_ML3-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_E8_ML3-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_E8_ML3-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_E8_ML3-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/artifacts/ISM_E8_ML3-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_E8_ML3-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: c18c752c-6efd-4b9f-b7e8-b5f153d52933
       title: Information Security Manual Essential Eight Maturity Level Three Baseline - latest version
@@ -187,18 +194,18 @@ profile:
     - uuid: 2b9d0693-4235-4d95-b92b-475b40a70599
       title: Information Security Manual Essential Eight Maturity Level Three Baseline - predecessor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: af35761c-c466-4e0a-840c-40ba07a147dd
       title: Information Security Manual Essential Eight Maturity Level Three Baseline - successor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/successor-version/artifacts/ISM_E8_ML3-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/successor-version/artifacts/ISM_E8_ML3-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/successor-version/artifacts/ISM_E8_ML3-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/successor-version/artifacts/ISM_E8_ML3-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2023.08.3/successor-version/artifacts/ISM_E8_ML3-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/successor-version/artifacts/ISM_E8_ML3-baseline_profile.yaml
         media-type: application/oscal+yaml
