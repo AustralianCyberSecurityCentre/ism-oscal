@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 6a2f63a2-5e8d-444e-96a6-b9216f6cf845
+  uuid: c5c08524-4152-4389-bb27-b08d47597abd
   metadata:
     title: Information Security Manual All Baseline
-    last-modified: 2023-09-21T08:25:59.740769Z
-    version: 2023.09.21
+    last-modified: 2023-09-25T08:05:34.940516Z
+    version: 2023.09.25
     oscal-version: 1.1.0
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_ALL-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2023.09.25/artifacts/ISM_ALL-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by

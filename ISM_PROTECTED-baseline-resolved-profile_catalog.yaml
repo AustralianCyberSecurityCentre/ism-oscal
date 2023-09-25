@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 22a59766-94fa-4ead-920c-357feee97a55
+  uuid: 910228de-52a9-481a-8169-6b3e04a0b216
   metadata:
     title: Information Security Manual PROTECTED Baseline
-    last-modified: 2023-09-21T08:25:48.045715Z
-    version: 2023.09.21
+    last-modified: 2023-09-25T08:05:22.922229Z
+    version: 2023.09.25
     oscal-version: 1.1.0
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_PROTECTED-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2023.09.25/artifacts/ISM_PROTECTED-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by

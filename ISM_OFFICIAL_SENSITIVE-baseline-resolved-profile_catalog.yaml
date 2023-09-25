@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: b442d06c-d061-4ccc-a728-92c76a00810a
+  uuid: c92d8238-56b1-42d3-a470-38620d2cc075
   metadata:
     title: "Information Security Manual OFFICIAL: Sensitive Baseline"
-    last-modified: 2023-09-21T08:25:56.781087Z
-    version: 2023.09.21
+    last-modified: 2023-09-25T08:05:32.08283Z
+    version: 2023.09.25
     oscal-version: 1.1.0
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2023.09.21/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2023.09.25/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
