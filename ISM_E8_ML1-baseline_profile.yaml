@@ -1,0 +1,144 @@
+---
+profile:
+  uuid: 2d849506-2baf-4d5f-83c8-14ff5198efee
+  metadata:
+    title: Information Security Manual Essential Eight Maturity Level One Baseline
+    published: 2023-12-01T02:51:58.457562Z
+    last-modified: 2023-12-01T02:51:58.457562Z
+    version: 2023.12.1
+    oscal-version: 1.1.0
+    links:
+    - href: '#86a2b82e-07ca-4cc2-a196-c1c18936311a'
+      rel: canonical
+    - href: '#14edced5-3501-4be5-8ddf-77fc57c88f8d'
+      rel: latest-version
+    - href: '#be1da205-b3e0-4948-823b-9c5a4b8827cb'
+      rel: predecessor-version
+    - href: '#863bf7f4-95a3-44bf-a471-703e0a081874'
+      rel: successor-version
+    roles:
+    - id: prepared-by
+      title: Document creator
+    parties:
+    - uuid: ae0012b5-2a98-4610-ba74-08928451a4c0
+      type: organization
+      name: Australian Cyber Security Centre
+      short-name: ACSC
+      links:
+      - href: https://www.cyber.gov.au
+        rel: homepage
+      email-addresses:
+      - asd.assist@defence.gov.au
+      addresses:
+      - type: work
+        addr-lines:
+        - Australian Cyber Security Centre
+        - General enquiries
+        - PO Box 5076
+        city: Kingston
+        state: ACT
+        postal-code: "2604"
+        country: AU
+    responsible-parties:
+    - role-id: prepared-by
+      party-uuids:
+      - ae0012b5-2a98-4610-ba74-08928451a4c0
+  imports:
+  - href: '#abea4b79-3bd3-4f68-a333-85cbebb5100d'
+    include-controls:
+    - with-ids:
+      - ism-1507
+      - ism-1175
+      - ism-1883
+      - ism-0445
+      - ism-1654
+      - ism-0843
+      - ism-1870
+      - ism-1657
+      - ism-1486
+      - ism-1485
+      - ism-1585
+      - ism-1671
+      - ism-1488
+      - ism-1672
+      - ism-1489
+      - ism-1504
+      - ism-1679
+      - ism-1680
+      - ism-1892
+      - ism-1893
+      - ism-1681
+      - ism-1401
+      - ism-1380
+      - ism-1688
+      - ism-1689
+      - ism-1807
+      - ism-1808
+      - ism-1698
+      - ism-1699
+      - ism-1701
+      - ism-1702
+      - ism-1876
+      - ism-1690
+      - ism-1691
+      - ism-1877
+      - ism-1694
+      - ism-1695
+      - ism-1905
+      - ism-1704
+      - ism-1501
+      - ism-1511
+      - ism-1810
+      - ism-1811
+      - ism-1812
+      - ism-1814
+      - ism-1515
+  merge:
+    as-is: true
+  back-matter:
+    resources:
+    - uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
+      title: Information Security Manual
+      rlinks:
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_catalog.xml
+        media-type: application/xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_catalog.json
+        media-type: application/json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_catalog.yaml
+        media-type: application/oscal+yaml
+    - uuid: 86a2b82e-07ca-4cc2-a196-c1c18936311a
+      title: Information Security Manual Essential Eight Maturity Level One Baseline
+      rlinks:
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_E8_ML1-baseline_profile.xml
+        media-type: application/xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_E8_ML1-baseline_profile.json
+        media-type: application/json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_E8_ML1-baseline_profile.yaml
+        media-type: application/oscal+yaml
+    - uuid: 14edced5-3501-4be5-8ddf-77fc57c88f8d
+      title: Information Security Manual Essential Eight Maturity Level One Baseline - latest version
+      rlinks:
+      - href: https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_E8_ML1-baseline_profile.xml
+        media-type: application/xml
+      - href: https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_E8_ML1-baseline_profile.json
+        media-type: application/json
+      - href: https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_E8_ML1-baseline_profile.yaml
+        media-type: application/oscal+yaml
+    - uuid: be1da205-b3e0-4948-823b-9c5a4b8827cb
+      title: Information Security Manual Essential Eight Maturity Level One Baseline - predecessor version
+      rlinks:
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.xml
+        media-type: application/xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.json
+        media-type: application/json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.yaml
+        media-type: application/oscal+yaml
+    - uuid: 863bf7f4-95a3-44bf-a471-703e0a081874
+      title: Information Security Manual Essential Eight Maturity Level One Baseline - successor version
+      rlinks:
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/successor-version/artifacts/ISM_E8_ML1-baseline_profile.xml
+        media-type: application/xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/successor-version/artifacts/ISM_E8_ML1-baseline_profile.json
+        media-type: application/json
+      - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/successor-version/artifacts/ISM_E8_ML1-baseline_profile.yaml
+        media-type: application/oscal+yaml
