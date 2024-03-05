@@ -1,17 +1,17 @@
 {
   "catalog" : {
-    "uuid" : "386b7dd4-85a5-4864-bd62-4bcf5f5ff9c7",
+    "uuid" : "d3a4e931-c39b-433c-9dc3-dc114f4a0919",
     "metadata" : {
       "title" : "Information Security Manual OFFICIAL: Sensitive Baseline",
-      "last-modified" : "2023-12-01T03:05:21.915006Z",
-      "version" : "2023.12.1",
+      "last-modified" : "2024-03-05T02:57:28.543667Z",
+      "version" : "2024.03.5",
       "oscal-version" : "1.1.0",
       "props" : [ {
         "name" : "resolution-tool",
         "value" : "libOSCAL-Java+xslt"
       } ],
       "links" : [ {
-        "href" : "https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml",
+        "href" : "https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml",
         "rel" : "source-profile"
       } ],
       "roles" : [ {
@@ -1309,7 +1309,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Cyber security events\n\nA cyber security event is an occurrence of a system, service or network state indicating a possible breach of security policy, failure of safeguards or a previously unknown situation that may be relevant to security.\n\n# Cyber security incidents\n\nA cyber security incident is an unwanted or unexpected cyber security event, or a series of such events, that has either compromised business operations or has a significant probability of compromising business operations.\n\n# Cyber resilience\n\nCyber resilience is the ability to adapt to disruptions caused by cyber security incidents while maintaining continuous business operations. This includes the ability to detect, manage and recover from cyber security incidents.\n\n# Detecting cyber security incidents\n\nOne of the core elements of detecting and investigating cyber security incidents is the availability of appropriate data sources, such as event logs. The following event logs can be used by an organisation to assist with detecting and investigating cyber security incidents:\n\n- **Cross Domain Solutions:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n- **Databases:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n- **Domain Name System services:** May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.\n- **Email servers:** May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.\n- **Gateways:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n- **Multifunction devices: May assist in**identifying anomalous or malicious user behaviour indicating a cyber security incident or malicious insider activity.\n- **Operating systems:** May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.\n- **Remote access services:** May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.\n- **Security services:** May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.\n- **Server applications:** May assist in identifying anomalous or malicious application behaviour indicating an exploitation attempt or successful compromise.\n- **System access:** May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.\n- **User applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n- **Web applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n- **Web proxies:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n\n# Further information\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on cyber security incident response plans can be found in the system-specific security documentation section of the [Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats](#cad720b4-e47a-437d-b272-6958e738131d) publication.\n\nFurther information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on [reporting cybercrime incidents](#188466f6-be12-49ce-b99a-981e54b1663e) and [reporting cyber security incidents](#626d3582-3caf-49d6-89d5-4b8fdbbf1f31) is available from ASD."
+          "prose" : "# Cyber security events\n\nA cyber security event is an occurrence of a system, service or network state indicating a possible breach of security policy, failure of safeguards or a previously unknown situation that may be relevant to security.\n\n# Cyber security incidents\n\nA cyber security incident is an unwanted or unexpected cyber security event, or a series of such events, that has either compromised business operations or has a significant probability of compromising business operations.\n\n# Cyber resilience\n\nCyber resilience is the ability to adapt to disruptions caused by cyber security incidents while maintaining continuous business operations. This includes the ability to detect, manage and recover from cyber security incidents.\n\n# Detecting cyber security incidents\n\nOne of the core elements of detecting and investigating cyber security incidents is the availability of appropriate data sources, such as event logs. The following event logs can be used by an organisation to assist with detecting and investigating cyber security incidents:\n\n- **Cross Domain Solutions:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n- **Databases:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n- **Domain Name System services:** May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.\n- **Email servers:** May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.\n- **Gateways:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n- **Multifunction devices: May assist in**identifying anomalous or malicious user behaviour indicating a cyber security incident or malicious insider activity.\n- **Operating systems:** May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.\n- **Remote access services:** May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.\n- **Security services:** May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.\n- **Server applications:** May assist in identifying anomalous or malicious application behaviour indicating an exploitation attempt or successful compromise.\n- **System access:** May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.\n- **User applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n- **Web applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.\n- **Web proxies:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n\n# Further information\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on cyber security incident response plans can be found in the system-specific security documentation section of the [Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats, Sixth Edition](#cad720b4-e47a-437d-b272-6958e738131d) publication.\n\nFurther information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on [reporting cybercrime incidents](#188466f6-be12-49ce-b99a-981e54b1663e) and [reporting cyber security incidents](#626d3582-3caf-49d6-89d5-4b8fdbbf1f31) is available from ASD."
         } ],
         "groups" : [ {
           "title" : "Cyber security incident management policy",
@@ -2424,7 +2424,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on the use of outsourced cloud services can be found in the service continuity for online services section of the [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).\n\nFurther information on the use of outsourced gateway services can be found in the gateways section of the [Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on managed service providers can be found in ASD’s [How to Manage Your Security When Engaging a Managed Service Provider](#45899752-c83f-4976-bc99-03f6824a0793) and [Questions to Ask Managed Service Providers](#76068c96-8d89-4c37-9eef-03488d5e1b1d) publications.\n\nFurther information on the definition of cloud computing can be found in National Institute of Standards and Technology Special Publication 800-145, [The NIST Definition of Cloud Computing](#c17600e6-8b13-4d6e-a380-035b51a71b73).\n\nFurther information on securing cloud services can be found in ASD’s [Cloud Computing Security Considerations](#d7e72166-b127-4249-bf93-3a7467c53f1d), [Cloud Computing Security for Cloud Service Providers](#347eee88-cb61-44b9-81ce-ab97dd08387c) and [Cloud Computing Security for Tenants](#b959caf4-8b60-4b82-9552-963754841bb7) publications.\n\nFurther information on conducting security assessments of cloud service providers can be found in ASD’s [Cloud Assessment and Authorisation](#b6479d9a-43c9-41f2-9dbc-2bb689c8e6d8) and [Cloud Assessment and Authorisation FAQ](#dda788b6-183b-4e89-8254-8c4b5d0540a0) publications.\n\nFurther information on [the purpose of IRAP](#84d3cbab-ab84-4981-a4f7-2bd469c8deaf), and [a list of current IRAP assessors](#bdd11ace-cb4e-470a-92ad-556c79b6c14a), is available from ASD.\n\nFurther information on reporting cyber security incidents can be found in the reporting cyber security incidents section of the [Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f)."
+          "prose" : "# Further information\n\nFurther information on the use of outsourced cloud services can be found in the service continuity for online services section of the [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).\n\nFurther information on the use of outsourced gateway services can be found in the gateways section of the [Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on managed service providers can be found in ASD’s [How to Manage Your Security When Engaging a Managed Service Provider](#45899752-c83f-4976-bc99-03f6824a0793) and [Questions to Ask Managed Service Providers](#76068c96-8d89-4c37-9eef-03488d5e1b1d) publications.\n\nFurther information on the definition of cloud computing can be found in National Institute of Standards and Technology Special Publication 800-145, [The NIST Definition of Cloud Computing](#c17600e6-8b13-4d6e-a380-035b51a71b73).\n\nFurther information on securing cloud services can be found in ASD’s [Cloud Computing Security for Cloud Service Providers](#347eee88-cb61-44b9-81ce-ab97dd08387c), [Cloud Computing Security for Executives](#c8ee37e4-fb81-4fa7-8f14-132c850974bc) and [Cloud Computing Security for Tenants](#b959caf4-8b60-4b82-9552-963754841bb7) publications.\n\nFurther information on conducting security assessments of cloud service providers can be found in ASD’s [Cloud Assessment and Authorisation](#b6479d9a-43c9-41f2-9dbc-2bb689c8e6d8) and [Cloud Assessment and Authorisation FAQ](#dda788b6-183b-4e89-8254-8c4b5d0540a0) publications.\n\nFurther information on [the purpose of IRAP](#84d3cbab-ab84-4981-a4f7-2bd469c8deaf), and [a list of current IRAP assessors](#bdd11ace-cb4e-470a-92ad-556c79b6c14a), is available from ASD.\n\nFurther information on reporting cyber security incidents can be found in the reporting cyber security incidents section of the [Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f)."
         } ],
         "groups" : [ {
           "title" : "Managed services",
@@ -5038,7 +5038,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Applicability\n\nThis section is only applicable to facilities located within Australia. In addition, this section only applies to new cabling infrastructure installations or upgrades.\n\n# Shared facilities\n\nIn addition to common controls, this section provides additional controls for shared facilities, such as a single floor, or part of a floor, within a multi-tenanted building.\n\n# Cables and structured cabling systems\n\nFor the purposes of this section, a cable is defined as any fibre optic or copper material housed within a protective sheath for the purposes of transmitting data or control signals from one point in a facility to another. Each cable will form part of a structured cabling system and will need to comply with the Australian Standards associated with that system. In addition to network communications and data systems, some common building management structured cabling systems found within facilities are:\n\n- fire control and sensor systems\n- security control and surveillance systems\n- lighting control systems\n- access control systems\n- voice and emergency telephony systems\n- emergency control alert systems.\n\n# Cable sheaths and conduits\n\nA cable’s protective sheath is not considered to be a conduit.\n\n# Cable connector types\n\nThe same cable connector types can be used for all systems within a facility regardless of their sensitivity or classification.\n\n# Further information\n\n[Australian cabling standards and regulations](#7000d51a-6cca-40a0-95d9-f1f15048ea68) can be obtained from the Australian Communications and Media Authority.\n\nFurther information on SCEC-approved tamper-evident seals can be found on the SCEC’s [Security Equipment Evaluated Products List](#f7e13f7b-eb48-4294-bd01-9c22c756d96b).\n\nFurther information on audio secure rooms can be found in the Department of Home Affairs’ [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a), [Physical security for entity resources](#6e456a92-f405-4151-88ca-5621aa23519b) policy."
+          "prose" : "# Applicability\n\nThis section is only applicable to facilities located within Australia.\n\n# Shared facilities\n\nIn addition to common controls, this section provides additional controls for shared facilities, such as a single floor, or part of a floor, within a multi-tenanted building.\n\n# Cables and structured cabling systems\n\nFor the purposes of this section, a cable is defined as any fibre optic or copper material housed within a protective sheath for the purposes of transmitting data or control signals from one point in a facility to another. Each cable will form part of a structured cabling system and will need to comply with the Australian Standards associated with that system. In addition to network communications and data systems, some common building management structured cabling systems found within facilities are:\n\n- fire control and sensor systems\n- security control and surveillance systems\n- lighting control systems\n- access control systems\n- voice and emergency telephony systems\n- emergency control alert systems.\n\n# Cable sheaths and conduits\n\nA cable’s protective sheath is not considered to be a conduit.\n\n# Cable connector types\n\nThe same cable connector types can be used for all systems within a facility regardless of their sensitivity or classification.\n\n# Further information\n\n[Australian cabling standards and regulations](#7000d51a-6cca-40a0-95d9-f1f15048ea68) can be obtained from the Australian Communications and Media Authority.\n\nFurther information on SCEC-approved tamper-evident seals can be found on the SCEC’s [Security Equipment Evaluated Products List](#f7e13f7b-eb48-4294-bd01-9c22c756d96b).\n\nFurther information on audio secure rooms can be found in the Department of Home Affairs’ [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a), [Physical security for entity resources](#6e456a92-f405-4151-88ca-5621aa23519b) policy."
         } ],
         "groups" : [ {
           "title" : "Cabling infrastructure standards",
@@ -7478,7 +7478,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Mobile device management\n\nThis section describes the management of mobile devices, such as smartphones and tablets, that use a mobile operating system. Alternatively guidance for mobile devices that use a desktop operating system is available in the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44) and the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on evaluated products can be found in the evaluated product procurement section of the [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).\n\nFurther information on Common Criteria Protection Profiles for mobile devices can be found in the following United States’ National Information Assurance Partnership publications:\n\n- [Protection Profile for Mobile Device Management Version 4.0](#ed6aa6ab-545d-48eb-92bc-9ad763d4b868)\n- [Protection Profile for Mobile Device Fundamentals Version 3.2](#90cdf149-eb25-4b38-b836-8ee770545b29)\n- [Protection Profile for Mobile Device Fundamentals Version 3.3](#f160b04e-1a32-4dd5-816e-1cba8c97982c).\n\nFurther information on hardening mobile platforms can be found in the following ASD publications:\n\n- [Security Configuration Guide – Apple iOS 14 Devices](#d2910e61-da88-4d29-b860-83c25161fd18)\n- [Security Configuration Guide – Samsung Galaxy S10, S20 and Note 20 Devices](#616fce77-495b-472a-a552-7593ab64f188)\n- [Security Configuration Guide – Viasat Mobile Dynamic Defense](#daae37ef-262f-4b20-bfb7-a27901f3c2db).\n\nFurther information on encrypting mobile devices and their communications can be found in the cryptographic fundamentals section of the [Guidelines for Cryptography](#195abe87-bb1e-4006-8b42-eaecca4d51f1)."
+          "prose" : "# Mobile device management\n\nThis section describes the management of mobile devices, such as smartphones and tablets, that use a mobile operating system. Alternatively guidance for mobile devices that use a desktop operating system is available in the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44) and the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on evaluated products can be found in the evaluated product procurement section of the [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).\n\nFurther information on Common Criteria Protection Profiles for mobile devices can be found in the following United States’ National Information Assurance Partnership publications:\n\n- [Protection Profile for Mobile Device Management Version 4.0](#ed6aa6ab-545d-48eb-92bc-9ad763d4b868)\n- [Protection Profile for Mobile Device Fundamentals Version 3.3](#f160b04e-1a32-4dd5-816e-1cba8c97982c).\n\nFurther information on hardening mobile platforms can be found in the following ASD publications:\n\n- [Security Configuration Guide – Apple iOS 14 Devices](#d2910e61-da88-4d29-b860-83c25161fd18)\n- [Security Configuration Guide – Samsung Galaxy S10, S20 and Note 20 Devices](#616fce77-495b-472a-a552-7593ab64f188)\n- [Security Configuration Guide – Viasat Mobile Dynamic Defense](#daae37ef-262f-4b20-bfb7-a27901f3c2db).\n\nFurther information on encrypting mobile devices and their communications can be found in the cryptographic fundamentals section of the [Guidelines for Cryptography](#195abe87-bb1e-4006-8b42-eaecca4d51f1)."
         } ],
         "groups" : [ {
           "title" : "Mobile device management policy",
@@ -7549,7 +7549,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "In order to ensure an appropriate level of security, mobile devices that access OFFICIAL: Sensitive or PROTECTED systems or data must use mobile platforms that have completed a Common Criteria evaluation against the Protection Profile for Mobile Device Fundamentals, version 3.2 or later, and are operated in accordance with the latest version of their associated ASD security configuration guide. Furthermore, to ensure interoperability and maintain trust, mobile devices that access SECRET or TOP SECRET systems or data must use mobile platforms that have been issued an Approval for Use by ASD and are operated in accordance with the latest version of their associated Australian Communications Security Instruction."
+            "prose" : "In order to ensure an appropriate level of security, mobile devices that access OFFICIAL: Sensitive or PROTECTED systems or data must use mobile platforms that have completed a Common Criteria evaluation against the Protection Profile for Mobile Device Fundamentals, version 3.3 or later, and are operated in accordance with the latest version of their associated ASD security configuration guide. Furthermore, to ensure interoperability and maintain trust, mobile devices that access SECRET or TOP SECRET systems or data must use mobile platforms that have been issued an Approval for Use by ASD and are operated in accordance with the latest version of their associated Australian Communications Security Instruction."
           } ],
           "controls" : [ {
             "id" : "ism-1867",
@@ -7561,11 +7561,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "Sep-23"
+              "value" : "Mar-24"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -7578,7 +7578,7 @@
             "parts" : [ {
               "id" : "ism-1867_smt",
               "name" : "statement",
-              "prose" : "Mobile devices that access OFFICIAL: Sensitive or PROTECTED systems or data use mobile platforms that have completed a Common Criteria evaluation against the Protection Profile for Mobile Device Fundamentals, version 3.2 or later, and are operated in accordance with the latest version of their associated ASD security configuration guide."
+              "prose" : "Mobile devices that access OFFICIAL: Sensitive or PROTECTED systems or data use mobile platforms that have completed a Common Criteria evaluation against the Protection Profile for Mobile Device Fundamentals, version 3.3 or later, and are operated in accordance with the latest version of their associated ASD security configuration guide."
             } ]
           } ]
         }, {
@@ -8686,15 +8686,40 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When ICT equipment is deployed in its default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within ICT equipment to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of ICT equipment. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
+            "prose" : "When ICT equipment is deployed in its default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within ICT equipment to allow them to be configured in an approved secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of ICT equipment. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
           } ],
           "controls" : [ {
+            "id" : "ism-1913",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1913",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[13].group[1].group[3].control[1]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "Mar-24"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "ALL"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1913_smt",
+              "name" : "statement",
+              "prose" : "Approved configurations for ICT equipment are developed, implemented and maintained."
+            } ]
+          }, {
             "id" : "ism-1858",
             "class" : "ISM-control",
             "title" : "Control: ism-1858",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[13].group[1].group[3].control[1]"
+              "value" : "catalog[1].group[13].group[1].group[3].control[2]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -10177,7 +10202,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Non-volatile magnetic media encompasses non-volatile magnetic hard drives, tape drives and floppy disks. While non-volatile magnetic tape drives and floppy disks can be sanitised by overwriting them at least once (or three times if pre-2001 or under 15 GB) in their entirety with a random pattern followed by a read back for verification, additional considerations apply to non-volatile magnetic hard drives due to their use of a host-protected area, device configuration overlay table and growth defects table.\n\nBoth the host-protected area and device configuration overlay table of non-volatile magnetic hard drives are normally not visible to a computer’s Unified Extensible Firmware Interface or operating system. Therefore, any sanitisation of the readable sectors of non-volatile magnetic hard drives will leave any data contained in sectors listed in the host-protected area and device configuration overlay table untouched. Some sanitisation programs include the ability to reset non-volatile magnetic hard drives to their default state, thereby removing any host-protected areas or device configuration overlays. This allows the sanitisation program to see the entire contents of non-volatile magnetic hard drives during subsequent sanitisation processes.\n\nModern non-volatile magnetic hard drives automatically reallocate space for bad sectors at a hardware level. These bad sectors are maintained in what is known as the growth defects table or ‘g-list’. If data was stored in a sector that was subsequently added to the growth defects table, sanitising the non-volatile magnetic hard drive will not overwrite such data. While these sectors may be considered bad by non-volatile magnetic hard drives, quite often this is due to the sectors no longer meeting expected performance norms and not due to an inability to read or write to them. The Advanced Technology Attachment (ATA) secure erase command was built into the firmware of post-2001 non-volatile magnetic hard drives and is able to access sectors that have been added to the growth defects table.\n\nModern non-volatile magnetic hard drives also contain a primary defects table or ‘p-list’. The primary defects table contains a list of bad sectors found during post-production processes. No data is ever stored in sectors listed in the primary defects table as they are marked as inaccessible before non-volatile magnetic hard drives are used for the first time."
+            "prose" : "Non-volatile magnetic media encompasses non-volatile magnetic hard drives, magnetic tape and floppy disks. While non-volatile magnetic tape and floppy disks can be sanitised by overwriting them at least once (or three times if pre-2001 or under 15 GB) in their entirety with a random pattern followed by a read back for verification, additional considerations apply to non-volatile magnetic hard drives due to their use of a host-protected area, device configuration overlay table and growth defects table.\n\nBoth the host-protected area and device configuration overlay table of non-volatile magnetic hard drives are normally not visible to a computer’s Unified Extensible Firmware Interface or operating system. Therefore, any sanitisation of the readable sectors of non-volatile magnetic hard drives will leave any data contained in sectors listed in the host-protected area and device configuration overlay table untouched. Some sanitisation programs include the ability to reset non-volatile magnetic hard drives to their default state, thereby removing any host-protected areas or device configuration overlays. This allows the sanitisation program to see the entire contents of non-volatile magnetic hard drives during subsequent sanitisation processes.\n\nModern non-volatile magnetic hard drives automatically reallocate space for bad sectors at a hardware level. These bad sectors are maintained in what is known as the growth defects table or ‘g-list’. If data was stored in a sector that was subsequently added to the growth defects table, sanitising the non-volatile magnetic hard drive will not overwrite such data. While these sectors may be considered bad by non-volatile magnetic hard drives, quite often this is due to the sectors no longer meeting expected performance norms and not due to an inability to read or write to them. The Advanced Technology Attachment (ATA) secure erase command was built into the firmware of post-2001 non-volatile magnetic hard drives and is able to access sectors that have been added to the growth defects table.\n\nModern non-volatile magnetic hard drives also contain a primary defects table or ‘p-list’. The primary defects table contains a list of bad sectors found during post-production processes. No data is ever stored in sectors listed in the primary defects table as they are marked as inaccessible before non-volatile magnetic hard drives are used for the first time."
           } ],
           "controls" : [ {
             "id" : "ism-0354",
@@ -11360,15 +11385,40 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
+            "prose" : "When operating systems are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in an approved secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
           } ],
           "controls" : [ {
+            "id" : "ism-1914",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1914",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[15].group[1].group[04].control[01]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "Mar-24"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "ALL"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1914_smt",
+              "name" : "statement",
+              "prose" : "Approved configurations for operating systems are developed, implemented and maintained."
+            } ]
+          }, {
             "id" : "ism-1409",
             "class" : "ISM-control",
             "title" : "Control: ism-1409",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[01]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[02]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11393,7 +11443,7 @@
             "title" : "Control: ism-0380",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[02]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[03]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11418,7 +11468,7 @@
             "title" : "Control: ism-0383",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[03]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[04]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11443,7 +11493,7 @@
             "title" : "Control: ism-0341",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[04]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[05]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11468,7 +11518,7 @@
             "title" : "Control: ism-1654",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[05]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[06]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11505,7 +11555,7 @@
             "title" : "Control: ism-1655",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[06]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[07]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11534,7 +11584,7 @@
             "title" : "Control: ism-1492",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[07]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[08]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11559,7 +11609,7 @@
             "title" : "Control: ism-1745",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[08]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[09]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11584,7 +11634,7 @@
             "title" : "Control: ism-1584",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[09]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[10]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -11609,7 +11659,7 @@
             "title" : "Control: ism-1491",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[1].group[04].control[10]"
+              "value" : "catalog[1].group[15].group[1].group[04].control[11]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12624,7 +12674,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# User applications\n\nThis section is applicable to applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) software, and security products (e.g. antivirus software, device access control software, HIPS and software firewalls). Information on server applications can be found in the server application hardening section of these guidelines.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on patching or updating user applications can be found in the system patching section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.\n\nFurther information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).\n\nFurther information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).\n\nFurther information on hardening Google Chrome can be found in Google’s [Chrome Browser Enterprise Security Configuration Guide](#741ab440-5759-4571-894d-e499dea3a54c).\n\nFurther information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s [Security Configuration Guide for Acrobat](#9ad09461-7b3d-4faf-bdcd-61df9952cf49) publication.\n\nFurther information on Microsoft’s attack surface reduction rules can be found on Microsoft’s [attack surface reduction rules overview](#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7) website.\n\nFurther information on configuring Microsoft Office macro settings can be found in ASD’s [Restricting Microsoft Office Macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
+          "prose" : "# User applications\n\nThis section is applicable to applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) software, and security products (e.g. antivirus software, device access control software, HIPS and software firewalls). Information on server applications can be found in the server application hardening section of these guidelines.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on patching or updating user applications can be found in the system patching section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.\n\nFurther information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).\n\nFurther information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).\n\nFurther information on hardening Google Chrome can be found in Google’s [Chrome Browser Enterprise Security Configuration Guide (Windows)](#741ab440-5759-4571-894d-e499dea3a54c).\n\nFurther information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s [Security Configuration Guide for Acrobat](#9ad09461-7b3d-4faf-bdcd-61df9952cf49) publication.\n\nFurther information on Microsoft’s attack surface reduction rules can be found on Microsoft’s [attack surface reduction rules overview](#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7) website.\n\nFurther information on configuring Microsoft Office macro settings can be found in ASD’s [Restricting Microsoft Office Macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
         } ],
         "groups" : [ {
           "title" : "User application selection",
@@ -12706,15 +12756,40 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When user applications are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
+            "prose" : "When user applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
           } ],
           "controls" : [ {
+            "id" : "ism-1915",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1915",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[15].group[2].group[3].control[01]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "Mar-24"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "ALL"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1915_smt",
+              "name" : "statement",
+              "prose" : "Approved configurations for user applications are developed, implemented and maintained."
+            } ]
+          }, {
             "id" : "ism-1806",
             "class" : "ISM-control",
             "title" : "Control: ism-1806",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[01]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[02]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12739,7 +12814,7 @@
             "title" : "Control: ism-1470",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[02]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[03]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12764,7 +12839,7 @@
             "title" : "Control: ism-1235",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[03]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[04]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12789,7 +12864,7 @@
             "title" : "Control: ism-1667",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[04]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[05]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12822,7 +12897,7 @@
             "title" : "Control: ism-1668",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[05]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[06]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12855,7 +12930,7 @@
             "title" : "Control: ism-1669",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[06]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[07]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12888,7 +12963,7 @@
             "title" : "Control: ism-1542",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[07]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[08]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12921,7 +12996,7 @@
             "title" : "Control: ism-1859",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[08]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[09]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12954,7 +13029,7 @@
             "title" : "Control: ism-1823",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[09]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[10]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -12987,7 +13062,7 @@
             "title" : "Control: ism-1486",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[10]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[11]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13024,7 +13099,7 @@
             "title" : "Control: ism-1485",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[11]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[12]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13061,7 +13136,7 @@
             "title" : "Control: ism-1412",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[12]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[13]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13094,7 +13169,7 @@
             "title" : "Control: ism-1585",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[13]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[14]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13131,7 +13206,7 @@
             "title" : "Control: ism-1670",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[14]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[15]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13164,7 +13239,7 @@
             "title" : "Control: ism-1860",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[15]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[16]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13197,7 +13272,7 @@
             "title" : "Control: ism-1824",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[16]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[17]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13230,7 +13305,7 @@
             "title" : "Control: ism-1601",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[17]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[18]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13255,7 +13330,7 @@
             "title" : "Control: ism-1748",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[18]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[19]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13280,7 +13355,7 @@
             "title" : "Control: ism-1825",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[2].group[3].control[19]"
+              "value" : "catalog[1].group[15].group[2].group[3].control[20]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13782,15 +13857,40 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When server applications are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for server applications as such applications are routinely targeted for exploitation. Many settings exist within server applications to allow them to be configured in a secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of server applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
+            "prose" : "When server applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for server applications as such applications are routinely targeted for exploitation. Many settings exist within server applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of server applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
           } ],
           "controls" : [ {
+            "id" : "ism-1916",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1916",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[15].group[3].group[3].control[1]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "Mar-24"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "ALL"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1916_smt",
+              "name" : "statement",
+              "prose" : "Approved configurations for server applications are developed, implemented and maintained."
+            } ]
+          }, {
             "id" : "ism-1246",
             "class" : "ISM-control",
             "title" : "Control: ism-1246",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[3].group[3].control[1]"
+              "value" : "catalog[1].group[15].group[3].group[3].control[2]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13815,7 +13915,7 @@
             "title" : "Control: ism-1260",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[3].group[3].control[2]"
+              "value" : "catalog[1].group[15].group[3].group[3].control[3]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13840,7 +13940,7 @@
             "title" : "Control: ism-1247",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[3].group[3].control[3]"
+              "value" : "catalog[1].group[15].group[3].group[3].control[4]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -13865,7 +13965,7 @@
             "title" : "Control: ism-1245",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[3].group[3].control[4]"
+              "value" : "catalog[1].group[15].group[3].group[3].control[5]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -14488,7 +14588,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Account and authentication types\n\nThe guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on implementing multi-factor authentication can be found in ASD’s [Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.\n\nFurther information on [group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.\n\nFurther information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and [AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.\n\nFurther information [memory integrity functionality](#d446dea3-c36d-45af-9623-05b686624af0) is available from Microsoft.\n\nFurther information on [Local Security Authority protection functionality](#3f43c8d2-8a8c-4e2f-af80-48a607bce643) is available from Microsoft.\n\nFurther information on [Credential Guard functionality](#8d53ee7f-54c2-4380-8408-f7403db30ba1) and [Remote Credential Guard functionality](#92975dff-58e0-4813-842b-f27c0533ca56) is available from Microsoft.\n\nFurther information on mitigating the use of stolen credentials can be found in ASD’s [Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.\n\nFurther information on mitigating the use of stolen credentials can also be found in Microsoft’s [Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication."
+          "prose" : "# Account and authentication types\n\nThe guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on implementing multi-factor authentication can be found in ASD’s [Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.\n\nFurther information on [group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.\n\nFurther information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and [Active Directory Forest Recovery - Reset the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.\n\nFurther information [memory integrity functionality](#d446dea3-c36d-45af-9623-05b686624af0) is available from Microsoft.\n\nFurther information on [Local Security Authority protection functionality](#3f43c8d2-8a8c-4e2f-af80-48a607bce643) is available from Microsoft.\n\nFurther information on [Credential Guard functionality](#8d53ee7f-54c2-4380-8408-f7403db30ba1) and [Remote Credential Guard functionality](#92975dff-58e0-4813-842b-f27c0533ca56) is available from Microsoft.\n\nFurther information on mitigating the use of stolen credentials can be found in ASD’s [Mitigating the Use of Stolen Credentials](#824e4353-a9ae-4869-88fb-cb0675dc5d1c) publication.\n\nFurther information on mitigating the use of stolen credentials can also be found in Microsoft’s [Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication."
         } ],
         "groups" : [ {
           "title" : "Authenticating to systems",
@@ -18686,7 +18786,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Types of application development\n\nThese guidelines are applicable to both traditional application development and mobile application development.\n\n# Further information\n\nFurther information on a secure development life cycle model, known as [The Trustworthy Computing Security Development Lifecycle](#3ec0f0b2-5565-46ad-a1e8-e39cb2219bd2), is available from Microsoft.\n\nFurther information on a secure software development framework can be found in National Institute of Standards and Technology Special Publication 800-218, [Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities](#6f1f2f2b-abe6-46e4-9c9d-8339f1d9dab7).\n\nFurther information on memory-safe programming languages can be found in the United States’ National Security Agency’s [Software Memory Safety](#26137381-dc34-485c-8331-3bc9876ed48c) publication.\n\nFurther information on [secure programming practices](#672e85cc-2d40-46ba-9e94-c604b9731c75) is available from the Carnegie Mellon University’s Software Engineering Institute.\n\nFurther information on [cyber supply chain transparency](#d0ace151-3c21-49af-bde7-eda58ab18a82), and recommended content for a software bill of materials, can be found in the United States’ National Telecommunications and Information Administration’s [The Minimum Elements For a Software Bill of Materials (SBOM)](#70371e26-f3fb-4b05-85ea-7f6e1f2ee184) publication.\n\nFurther information on implementing a vulnerability disclosure program can be found in:\n\n- Google’s [Starting a Vulnerability Disclosure Program](#78a48231-9963-4f78-962a-861c96c58ead)\n- European Union Agency for Cybersecurity’s [Good Practice Guide on Vulnerability Disclosure](#9a69d597-080f-4d03-b32b-d926f0b87e33)\n- Netherland’s National Cyber Security Centre’s [Coordinated Vulnerability Disclosure: The Guideline](#dbd0372b-b758-46b1-bf05-d9676689d5b0)\n- Carnegie Mellon University’s Software Engineering Institute’s [The CERT Guide to Coordinated Vulnerability Disclosure](#7ffd20ed-4f40-43be-a37b-97e7a1b31e2f)\n- International Organization for Standardization/International Electrotechnical Commission 29147:2018, [Information technology – Security techniques – Vulnerability disclosure](#8f1965a9-a6a1-4342-bfb8-797ea358db30)\n- International Organization for Standardization/International Electrotechnical Commission 30111:2019, [Information technology – Security techniques – Vulnerability handling processes](#99c117f0-78e0-4196-adc8-705405d996bc).\n\nFurther information on [developing a vulnerability disclosure policy](#aab0523a-513e-48c9-978e-32d5b9adeea6) is available from the disclose.io project to assist an organisation with their implementation.\n\nFurther information on [recommended contents for a ‘security.txt’ file](#24eb9af8-fb43-4772-a461-2c36dd0f6d7e) is available to assist an organisation with their implementation.\n\nFurther information on [reporting vulnerabilities](#03f761fa-7014-459c-aa16-02c303d50abb) to ASD as an independent coordinator is available from ASD."
+          "prose" : "# Types of application development\n\nThese guidelines are applicable to both traditional application development and mobile application development.\n\n# Further information\n\nFurther information on a secure development life cycle model, known as [The Trustworthy Computing Security Development Lifecycle](#3ec0f0b2-5565-46ad-a1e8-e39cb2219bd2), is available from Microsoft.\n\nFurther information on a secure software development framework can be found in National Institute of Standards and Technology Special Publication 800-218, [Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities](#6f1f2f2b-abe6-46e4-9c9d-8339f1d9dab7).\n\nFurther information on memory-safe programming languages can be found in the United States’ National Security Agency’s [Software Memory Safety](#26137381-dc34-485c-8331-3bc9876ed48c) publication.\n\nFurther information on [secure programming practices](#672e85cc-2d40-46ba-9e94-c604b9731c75) is available from the Carnegie Mellon University’s Software Engineering Institute.\n\nFurther information on [cyber supply chain transparency](#d0ace151-3c21-49af-bde7-eda58ab18a82), and recommended content for a software bill of materials, can be found in the United States’ National Telecommunications and Information Administration’s [The Minimum Elements For a Software Bill of Materials (SBOM)](#70371e26-f3fb-4b05-85ea-7f6e1f2ee184) publication.\n\nFurther information on implementing a vulnerability disclosure program can be found in:\n\n- Google’s [Starting a Vulnerability Disclosure Program](#78a48231-9963-4f78-962a-861c96c58ead)\n- European Union Agency for Cybersecurity’s [Good Practice Guide on Vulnerability Disclosure](#9a69d597-080f-4d03-b32b-d926f0b87e33)\n- Netherland’s National Cyber Security Centre’s [Coordinated Vulnerability Disclosure: the Guideline](#dbd0372b-b758-46b1-bf05-d9676689d5b0)\n- Carnegie Mellon University’s Software Engineering Institute’s [The CERT Guide to Coordinated Vulnerability Disclosure](#7ffd20ed-4f40-43be-a37b-97e7a1b31e2f)\n- International Organization for Standardization/International Electrotechnical Commission 29147:2018, [Information technology – Security techniques – Vulnerability disclosure](#8f1965a9-a6a1-4342-bfb8-797ea358db30)\n- International Organization for Standardization/International Electrotechnical Commission 30111:2019, [Information technology – Security techniques – Vulnerability handling processes](#99c117f0-78e0-4196-adc8-705405d996bc).\n\nFurther information on [developing a vulnerability disclosure policy](#aab0523a-513e-48c9-978e-32d5b9adeea6) is available from the disclose.io project to assist an organisation with their implementation.\n\nFurther information on [recommended contents for a ‘security.txt’ file](#24eb9af8-fb43-4772-a461-2c36dd0f6d7e) is available to assist an organisation with their implementation.\n\nFurther information on [reporting vulnerabilities](#03f761fa-7014-459c-aa16-02c303d50abb) to ASD as an independent coordinator is available from ASD."
         } ],
         "groups" : [ {
           "title" : "Development, testing and production environments",
@@ -19263,7 +19363,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on web application security can be found in the [OWASP Application Security Verification Standard](#d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4) and [OWASP Top Ten Proactive Controls](#18274424-7086-419e-9fae-a6ba64870459) publications.\n\nFurther information on web application security risks can be found in the [OWASP Top 10](#436de247-4c95-4449-89a4-fec912605e7d) publication.\n\nFurther information on implementing HTTPS can be found in ASD’s [Implementing Certificates, TLS, HTTPS and Opportunistic TLS](#b8cdbf18-31cb-4e10-bb43-e8488ee8c2f6) publication.\n\nFurther information on using TLS in HTTPS can be found in the Transport Layer Security section of the [Guidelines for Cryptography](#195abe87-bb1e-4006-8b42-eaecca4d51f1).\n\nFurther information on web application security can be found in ASD’s [Protecting Web Applications and Users](#b3fa2724-3a61-4d68-843a-61cab9e28750) and [Securing Content Management Systems](#baf3f7d2-750f-43c8-b805-8fc10228a6fd) publications.\n\nFurther information on API security can be found in the [OWASP API Security Top 10](#76087ab6-88d4-4610-9a98-6ddc5f7bd7e6) publication.\n\nFurther information on strong authentication can be found in the authentication hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
+          "prose" : "# Further information\n\nFurther information on web application security can be found in the [OWASP Application Security Verification Standard 4.0.3](#d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4) and [OWASP Top 10 Proactive Controls 2018](#18274424-7086-419e-9fae-a6ba64870459) publications.\n\nFurther information on web application security risks can be found in the [OWASP Top 10 2021](#436de247-4c95-4449-89a4-fec912605e7d) publication.\n\nFurther information on implementing HTTPS can be found in ASD’s [Implementing Certificates, TLS, HTTPS and Opportunistic TLS](#b8cdbf18-31cb-4e10-bb43-e8488ee8c2f6) publication.\n\nFurther information on using TLS in HTTPS can be found in the Transport Layer Security section of the [Guidelines for Cryptography](#195abe87-bb1e-4006-8b42-eaecca4d51f1).\n\nFurther information on web application security can be found in ASD’s [Protecting Web Applications and Users](#b3fa2724-3a61-4d68-843a-61cab9e28750) and [Securing Content Management Systems](#baf3f7d2-750f-43c8-b805-8fc10228a6fd) publications.\n\nFurther information on API security can be found in the [OWASP API Security Top 10 2023](#76087ab6-88d4-4610-9a98-6ddc5f7bd7e6) publication.\n\nFurther information on strong authentication can be found in the authentication hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
         } ],
         "groups" : [ {
           "title" : "Open Web Application Security Projects",
@@ -19323,7 +19423,7 @@
             "parts" : [ {
               "id" : "ism-1849_smt",
               "name" : "statement",
-              "prose" : "The OWASP Top Ten Proactive Controls are used in the development of web applications."
+              "prose" : "The OWASP Top 10 Proactive Controls are used in the development of web applications."
             } ]
           }, {
             "id" : "ism-1850",
@@ -21113,7 +21213,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on wireless networks can be found in the wireless networks section of these guidelines.\n\nFurther information on gateways can be found in the gateways section of the [Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on encrypting communications can be found in the cryptographic fundamentals section of the [Guidelines for Cryptography](#195abe87-bb1e-4006-8b42-eaecca4d51f1).\n\nFurther information on network segmentation and segregation can be found in ASD’s [Implementing Network Segmentation and Segregation](#23d977b2-e64e-4ebc-a59f-cd95212045c5) publication.\n\nFurther information on network security zones can be found in the Canadian Centre for Cyber Security’s [Baseline Security Requirements for Network Security Zones (Version 2.0)](#b43b0377-c2e4-4cdc-acec-a9ece7371e36) publication.\n\nFurther information on implementing network segmentation and segregation for system administration purposes can be found in the system administration section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on functional separation of servers using virtualisation can be found in the virtualisation hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on blocking anonymity network traffic can be found in ASD’s [Defending Against the Malicious Use of the Tor Network](#ded13757-3c76-40cb-b46e-f84e46a1c1c7) publication.\n\nFurther information on Domain Name System services can be found in ASD’s [Domain Name System Security for Domain Owners](#b66f8d23-4209-4775-a1fd-bd4dc299a027) and [Domain Name System Security for Domain Resolvers](#b13cb68a-a94a-4a69-b094-b1b68d10239e) publications.\n\nFurther information on selecting a protective DNS service can be found in the United States’ National Security Agency and Cybersecurity \\& Infrastructure Security Agency’s [Selecting a Protective DNS Service](#63b0d043-b6b3-4e2b-bca8-99b42cfd9904) publication.\n\nFurther information on network design and configuration can be found in the United States’ National Security Agency’s [Network Infrastructure Security Guide](#1ecfc41e-f6a8-4c96-ac41-1587718ca459) publication.\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28)."
+          "prose" : "# Further information\n\nFurther information on wireless networks can be found in the wireless networks section of these guidelines.\n\nFurther information on gateways can be found in the gateways section of the [Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on encrypting communications can be found in the cryptographic fundamentals section of the [Guidelines for Cryptography](#195abe87-bb1e-4006-8b42-eaecca4d51f1).\n\nFurther information on network segmentation and segregation can be found in ASD’s [Implementing Network Segmentation and Segregation](#23d977b2-e64e-4ebc-a59f-cd95212045c5) publication.\n\nFurther information on network security zones can be found in the Canadian Centre for Cyber Security’s [Baseline security requirements for network security zones (version 2.0)](#b43b0377-c2e4-4cdc-acec-a9ece7371e36) publication.\n\nFurther information on implementing network segmentation and segregation for system administration purposes can be found in the system administration section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on functional separation of servers using virtualisation can be found in the virtualisation hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on blocking anonymity network traffic can be found in ASD’s [Defending Against the Malicious Use of the Tor Network](#ded13757-3c76-40cb-b46e-f84e46a1c1c7) publication.\n\nFurther information on Domain Name System services can be found in ASD’s [Domain Name System Security for Domain Owners](#b66f8d23-4209-4775-a1fd-bd4dc299a027) and [Domain Name System Security for Domain Resolvers](#b13cb68a-a94a-4a69-b094-b1b68d10239e) publications.\n\nFurther information on selecting a protective DNS service can be found in the United States’ National Security Agency and Cybersecurity \\& Infrastructure Security Agency’s [Selecting a Protective DNS Service](#63b0d043-b6b3-4e2b-bca8-99b42cfd9904) publication.\n\nFurther information on network design and configuration can be found in the United States’ National Security Agency’s [Network Infrastructure Security Guide](#1ecfc41e-f6a8-4c96-ac41-1587718ca459) publication.\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28)."
         } ],
         "groups" : [ {
           "title" : "Network documentation",
@@ -23556,7 +23656,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# High assurance cryptographic algorithms\n\nHigh assurance cryptographic algorithms, which are not covered in this section, can be used for the protection of SECRET and TOP SECRET data if they are suitably implemented in HACE. Further information on high assurance cryptographic algorithms can be obtained from ASD.\n\n# ASD-Approved Cryptographic Algorithms\n\nThere is no guarantee of an algorithm’s resistance to currently unknown attacks. However, the algorithms listed in this section have been extensively scrutinised by industry and academic communities in a practical and theoretical setting. Approval for the use of the algorithms listed in this section is limited to cases where they are implemented in accordance with these guidelines.\n\nThe approved asymmetric/public key algorithms are:\n\n- Diffie-Hellman (DH) for agreeing on encryption session keys\n- Digital Signature Algorithm (DSA) for digital signatures\n- Elliptic Curve Diffie-Hellman (ECDH) for key exchange\n- Elliptic Curve Digital Signature Algorithm (ECDSA) for digital signatures\n- Rivest-Shamir-Adleman (RSA) for digital signatures and passing encryption session keys or similar keys.\n\nThe only approved hashing algorithm is Secure Hashing Algorithm 2 (SHA-2).\n\nThe only approved symmetric encryption algorithm is Advanced Encryption Standard (AES).\n\nWhere there is a range of key sizes for an algorithm, some of the smaller key sizes are not approved as they do not provide an adequate safety margin against possible future attacks. For example, advances in integer factorisation methods could render smaller RSA moduli vulnerable.\n\nThe targets used for the effective security strength of algorithms listed within this section are 112 bits for PROTECTED and below data, 128 bits for SECRET data and 192 bits for TOP SECRET data. However, some key sizes and curves are preferred in order to ensure interoperability with the United States’ initial Commercial National Security Algorithm Suite (now referred to as CNSA 1.0).\n\n# Further information\n\nFurther information on the United States’ [Commercial National Security Algorithm Suite](#e8a28fa5-4ea1-4ef5-a870-4d59e40fab37) is available from the United States’ National Security Agency.\n\nFurther information on post-quantum cryptographic algorithms can be found in ASD’s [Planning for Post-Quantum Cryptography](#0b1a477d-b08a-4491-9cfc-c9d435b28dc8) publication."
+          "prose" : "# High assurance cryptographic algorithms\n\nHigh assurance cryptographic algorithms, which are not covered in this section, can be used for the protection of SECRET and TOP SECRET data if they are suitably implemented in HACE. Further information on high assurance cryptographic algorithms can be obtained from ASD.\n\n# ASD-Approved Cryptographic Algorithms\n\nThere is no guarantee of an algorithm’s resistance to currently unknown attacks. However, the algorithms listed in this section have been extensively scrutinised by industry and academic communities in a practical and theoretical setting. Approval for the use of the algorithms listed in this section is limited to cases where they are implemented in accordance with these guidelines.\n\nThe approved asymmetric/public key algorithms are:\n\n- Diffie-Hellman (DH) for agreeing on encryption session keys\n- Elliptic Curve Diffie-Hellman (ECDH) for key exchange\n- Elliptic Curve Digital Signature Algorithm (ECDSA) for digital signatures\n- Rivest-Shamir-Adleman (RSA) for digital signatures and passing encryption session keys or similar keys.\n\nThe only approved hashing algorithm is Secure Hashing Algorithm 2 (SHA-2).\n\nThe only approved symmetric encryption algorithm is Advanced Encryption Standard (AES).\n\nWhere there is a range of key sizes for an algorithm, some of the smaller key sizes are not approved as they do not provide an adequate safety margin against possible future attacks. For example, advances in integer factorisation methods could render smaller RSA moduli vulnerable.\n\nThe targets used for the effective security strength of algorithms listed within this section are 112 bits for PROTECTED and below data, 128 bits for SECRET data and 192 bits for TOP SECRET data. However, some key sizes and curves are preferred in order to ensure interoperability with the United States’ initial Commercial National Security Algorithm Suite (now referred to as CNSA 1.0).\n\n# Further information\n\nFurther information on the United States’ [Commercial National Security Algorithm Suite](#e8a28fa5-4ea1-4ef5-a870-4d59e40fab37) is available from the United States’ National Security Agency.\n\nFurther information on post-quantum cryptographic algorithms can be found in ASD’s [Planning for Post-Quantum Cryptography](#0b1a477d-b08a-4491-9cfc-c9d435b28dc8) publication."
         } ],
         "groups" : [ {
           "title" : "Using ASD-Approved Cryptographic Algorithms",
@@ -23602,7 +23702,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "DH and DSA are vulnerable to different types of attacks than ECDH and ECDSA. As a result, ECDH and ECDSA offer more effective security per bit increase. This leads to smaller data requirements which in turn means that elliptic curve variants have become de facto global standards. For reduced data cost, and to promote interoperability, ECDH and ECDSA should be used where possible."
+            "prose" : "DH is vulnerable to different types of attacks than ECDH while offering more effective security per bit increase. This leads to smaller data requirements which in turn means that the elliptic curve variant has become a de facto global standard. For reduced data cost, and to promote interoperability, ECDH should be used in preference to DH where possible."
           } ],
           "controls" : [ {
             "id" : "ism-0994",
@@ -23614,11 +23714,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "6"
+              "value" : "7"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "Dec-21"
+              "value" : "Mar-24"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -23627,7 +23727,7 @@
             "parts" : [ {
               "id" : "ism-0994_smt",
               "name" : "statement",
-              "prose" : "ECDH and ECDSA are used in preference to DH and DSA."
+              "prose" : "ECDH is used in preference to DH."
             } ]
           } ]
         }, {
@@ -23696,83 +23796,14 @@
             } ]
           } ]
         }, {
-          "title" : "Using the Digital Signature Algorithm",
+          "title" : "Using Elliptic Curve Cryptography",
           "props" : [ {
             "name" : "sort-id",
             "value" : "catalog[1].group[22].group[2].group[04]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "A modulus of 2048 bits for correctly implemented DSA provides 112 bits of effective security strength. Taking into account projected technological advances, it is assessed that 112 bits of effective security strength will remain secure until 2030."
-          } ],
-          "controls" : [ {
-            "id" : "ism-0473",
-            "class" : "ISM-control",
-            "title" : "Control: ism-0473",
-            "props" : [ {
-              "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[04].control[1]"
-            }, {
-              "name" : "revision",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "5"
-            }, {
-              "name" : "updated",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "Dec-20"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "OS"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "P"
-            } ],
-            "parts" : [ {
-              "id" : "ism-0473_smt",
-              "name" : "statement",
-              "prose" : "When using DSA for digital signatures, a modulus of at least 2048 bits is used."
-            } ]
-          }, {
-            "id" : "ism-1630",
-            "class" : "ISM-control",
-            "title" : "Control: ism-1630",
-            "props" : [ {
-              "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[04].control[2]"
-            }, {
-              "name" : "revision",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "2"
-            }, {
-              "name" : "updated",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "Mar-22"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "OS"
-            }, {
-              "name" : "applicability",
-              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "P"
-            } ],
-            "parts" : [ {
-              "id" : "ism-1630_smt",
-              "name" : "statement",
-              "prose" : "When using DSA for digital signatures, a modulus and associated parameters are generated according to FIPS 186-4."
-            } ]
-          } ]
-        }, {
-          "title" : "Using Elliptic Curve Cryptography",
-          "props" : [ {
-            "name" : "sort-id",
-            "value" : "catalog[1].group[22].group[2].group[05]"
-          } ],
-          "parts" : [ {
-            "name" : "overview",
-            "prose" : "The curve used within an elliptic curve algorithm impacts the security of the algorithm. As such, only suitable curves from FIPS 186-4 should be used."
+            "prose" : "The curve used within an elliptic curve algorithm impacts the security of the algorithm. As such, only suitable curves from NIST SP 800-186 should be used."
           } ],
           "controls" : [ {
             "id" : "ism-1446",
@@ -23780,15 +23811,15 @@
             "title" : "Control: ism-1446",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[05].control[1]"
+              "value" : "catalog[1].group[22].group[2].group[04].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "2"
+              "value" : "3"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
-              "value" : "Dec-21"
+              "value" : "Mar-24"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -23797,18 +23828,18 @@
             "parts" : [ {
               "id" : "ism-1446_smt",
               "name" : "statement",
-              "prose" : "When using elliptic curve cryptography, a curve from FIPS 186-4 is used."
+              "prose" : "When using elliptic curve cryptography, a suitable curve from NIST SP 800-186 is used."
             } ]
           } ]
         }, {
           "title" : "Using Elliptic Curve Diffie-Hellman",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[22].group[2].group[06]"
+            "value" : "catalog[1].group[22].group[2].group[05]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When using a curve from FIPS 186-4, a base point order and key size of at least 224 bits for correctly implemented ECDH provides 112 bits of effective security strength. Security of a curve selected from another source cannot be assumed to have the same security using base point order and key size alone."
+            "prose" : "When identifying a suitable curve from NIST SP 800-186, a base point order and key size of at least 224 bits for correctly implemented ECDH provides 112 bits of effective security strength. Security of a curve selected from another source cannot be assumed to have the same security using base point order and key size alone."
           } ],
           "controls" : [ {
             "id" : "ism-0474",
@@ -23816,7 +23847,7 @@
             "title" : "Control: ism-0474",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[06].control[1]"
+              "value" : "catalog[1].group[22].group[2].group[05].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -23844,11 +23875,11 @@
           "title" : "Using the Elliptic Curve Digital Signature Algorithm",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[22].group[2].group[07]"
+            "value" : "catalog[1].group[22].group[2].group[06]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When using a curve from FIPS 186-4, a base point order and key size of 224 bits for correctly implemented ECDSA provides 112 bits of effective security strength. Security of a curve selected from another source cannot be assumed to have the same security using base point order and key size alone."
+            "prose" : "When identifying a suitable curve from NIST SP 800-186, a base point order and key size of 224 bits for correctly implemented ECDSA provides 112 bits of effective security strength. Security of a curve selected from another source cannot be assumed to have the same security using base point order and key size alone."
           } ],
           "controls" : [ {
             "id" : "ism-0475",
@@ -23856,7 +23887,7 @@
             "title" : "Control: ism-0475",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[07].control[1]"
+              "value" : "catalog[1].group[22].group[2].group[06].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -23884,7 +23915,7 @@
           "title" : "Using Rivest-Shamir-Adleman",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[22].group[2].group[08]"
+            "value" : "catalog[1].group[22].group[2].group[07]"
           } ],
           "parts" : [ {
             "name" : "overview",
@@ -23896,7 +23927,7 @@
             "title" : "Control: ism-0476",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[08].control[1]"
+              "value" : "catalog[1].group[22].group[2].group[07].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -23925,7 +23956,7 @@
             "title" : "Control: ism-0477",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[08].control[3]"
+              "value" : "catalog[1].group[22].group[2].group[07].control[3]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -23949,7 +23980,7 @@
           "title" : "Using hashing algorithms",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[22].group[2].group[09]"
+            "value" : "catalog[1].group[22].group[2].group[08]"
           } ],
           "parts" : [ {
             "name" : "overview",
@@ -23961,7 +23992,7 @@
             "title" : "Control: ism-1766",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[09].control[1]"
+              "value" : "catalog[1].group[22].group[2].group[08].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -23989,7 +24020,7 @@
           "title" : "Using symmetric encryption algorithms",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[22].group[2].group[10]"
+            "value" : "catalog[1].group[22].group[2].group[09]"
           } ],
           "parts" : [ {
             "name" : "overview",
@@ -24001,7 +24032,7 @@
             "title" : "Control: ism-1769",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[10].control[1]"
+              "value" : "catalog[1].group[22].group[2].group[09].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -24034,7 +24065,7 @@
             "title" : "Control: ism-0479",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[22].group[2].group[10].control[3]"
+              "value" : "catalog[1].group[22].group[2].group[09].control[3]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
@@ -24052,6 +24083,42 @@
               "id" : "ism-0479_smt",
               "name" : "statement",
               "prose" : "Symmetric cryptographic algorithms are not used in Electronic Codebook Mode."
+            } ]
+          } ]
+        }, {
+          "title" : "Planning for post-quantum cryptography standards",
+          "props" : [ {
+            "name" : "sort-id",
+            "value" : "catalog[1].group[22].group[2].group[10]"
+          } ],
+          "parts" : [ {
+            "name" : "overview",
+            "prose" : "A cryptographically-relevant quantum computer will render most contemporary public key cryptography insecure, thus making ubiquitous secure communications based on current public key cryptography technology infeasible. As the creation of a cryptographically-relevant quantum computer presents new security risks, organisations are encouraged to consider anticipating future requirements and dependencies of vulnerable systems during the transition to post-quantum cryptography standards."
+          } ],
+          "controls" : [ {
+            "id" : "ism-1917",
+            "class" : "ISM-control",
+            "title" : "Control: ism-1917",
+            "props" : [ {
+              "name" : "sort-id",
+              "value" : "catalog[1].group[22].group[2].group[10].control[1]"
+            }, {
+              "name" : "revision",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "0"
+            }, {
+              "name" : "updated",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "Mar-24"
+            }, {
+              "name" : "applicability",
+              "ns" : "https://cyber.gov.au/ns/ism/oscal/2.0",
+              "value" : "ALL"
+            } ],
+            "parts" : [ {
+              "id" : "ism-1917_smt",
+              "name" : "statement",
+              "prose" : "Future cryptographic requirements and dependencies are considered during the transition to post-quantum cryptographic standards."
             } ]
           } ]
         } ]
@@ -26837,7 +26904,7 @@
         } ]
       }, {
         "uuid" : "18274424-7086-419e-9fae-a6ba64870459",
-        "title" : "OWASP Top Ten Proactive Controls",
+        "title" : "OWASP Top 10 Proactive Controls 2018",
         "rlinks" : [ {
           "href" : "https://owasp.org/www-project-proactive-controls/"
         } ]
@@ -26993,7 +27060,7 @@
         } ]
       }, {
         "uuid" : "3e5a98e5-9219-46c8-81c2-e3a4d13407ce",
-        "title" : "AD Forest Recovery - Resetting the krbtgt password",
+        "title" : "Active Directory Forest Recovery - Reset the krbtgt password",
         "rlinks" : [ {
           "href" : "https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-reset-the-krbtgt-password"
         } ]
@@ -27029,7 +27096,7 @@
         } ]
       }, {
         "uuid" : "436de247-4c95-4449-89a4-fec912605e7d",
-        "title" : "OWASP Top 10",
+        "title" : "OWASP Top 10 2021",
         "rlinks" : [ {
           "href" : "https://owasp.org/www-project-top-ten/"
         } ]
@@ -27061,7 +27128,7 @@
         "uuid" : "4defa9a8-c5f5-4b39-8b0a-537f14d9d14d",
         "title" : "Guidelines for Communications Infrastructure",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-communications-infastructure"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-communications-infrastructure"
         } ]
       }, {
         "uuid" : "4eeff329-cea0-4baf-a80b-8b0b76436075",
@@ -27199,7 +27266,7 @@
         "uuid" : "6fac5a84-b86e-405f-b2b3-8c13ecee4a02",
         "title" : "Privacy Act 1988",
         "rlinks" : [ {
-          "href" : "https://www.legislation.gov.au/Series/C2004A03712"
+          "href" : "https://www.legislation.gov.au/C2004A03712/latest/text"
         } ]
       }, {
         "uuid" : "7000d51a-6cca-40a0-95d9-f1f15048ea68",
@@ -27215,7 +27282,7 @@
         } ]
       }, {
         "uuid" : "741ab440-5759-4571-894d-e499dea3a54c",
-        "title" : "Chrome Browser Enterprise Security Configuration Guide",
+        "title" : "Chrome Browser Enterprise Security Configuration Guide (Windows)",
         "rlinks" : [ {
           "href" : "https://support.google.com/chrome/a/answer/9710898?hl=en"
         } ]
@@ -27227,7 +27294,7 @@
         } ]
       }, {
         "uuid" : "76087ab6-88d4-4610-9a98-6ddc5f7bd7e6",
-        "title" : "OWASP API Security Top 10",
+        "title" : "OWASP API Security Top 10 2023",
         "rlinks" : [ {
           "href" : "https://owasp.org/www-project-api-security/"
         } ]
@@ -27259,7 +27326,7 @@
         "uuid" : "7ffd20ed-4f40-43be-a37b-97e7a1b31e2f",
         "title" : "The CERT Guide to Coordinated Vulnerability Disclosure",
         "rlinks" : [ {
-          "href" : "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=503330"
+          "href" : "https://insights.sei.cmu.edu/library/the-cert-guide-to-coordinated-vulnerability-disclosure-2/"
         } ]
       }, {
         "uuid" : "8132c47e-a2dc-4dd9-81d6-38db96e5cec6",
@@ -27344,12 +27411,6 @@
         "title" : "Securing PowerShell in the Enterprise",
         "rlinks" : [ {
           "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise"
-        } ]
-      }, {
-        "uuid" : "90cdf149-eb25-4b38-b836-8ee770545b29",
-        "title" : "Protection Profile for Mobile Device Fundamentals Version 3.2",
-        "rlinks" : [ {
-          "href" : "https://www.niap-ccevs.org/Profile/Info.cfm?PPID=455&id=455"
         } ]
       }, {
         "uuid" : "91b92563-d991-40fa-9adc-548df9f6c496",
@@ -27491,7 +27552,7 @@
         } ]
       }, {
         "uuid" : "b43b0377-c2e4-4cdc-acec-a9ece7371e36",
-        "title" : "Baseline Security Requirements for Network Security Zones (Version 2.0)",
+        "title" : "Baseline security requirements for network security zones (version 2.0)",
         "rlinks" : [ {
           "href" : "https://www.cyber.gc.ca/en/guidance/baseline-security-requirements-network-security-zones-version-20-itsp80022"
         } ]
@@ -27580,10 +27641,16 @@
           "href" : "https://www.av-comparatives.org/"
         } ]
       }, {
-        "uuid" : "cad720b4-e47a-437d-b272-6958e738131d",
-        "title" : "Common Sense Guide to Mitigating Insider Threats",
+        "uuid" : "c8ee37e4-fb81-4fa7-8f14-132c850974bc",
+        "title" : "Cloud Computing Security for Executives",
         "rlinks" : [ {
-          "href" : "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=540644"
+          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-computing-security-executives"
+        } ]
+      }, {
+        "uuid" : "cad720b4-e47a-437d-b272-6958e738131d",
+        "title" : "Common Sense Guide to Mitigating Insider Threats, Sixth Edition",
+        "rlinks" : [ {
+          "href" : "https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-sixth-edition/"
         } ]
       }, {
         "uuid" : "d0ace151-3c21-49af-bde7-eda58ab18a82",
@@ -27605,7 +27672,7 @@
         } ]
       }, {
         "uuid" : "d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4",
-        "title" : "OWASP Application Security Verification Standard",
+        "title" : "OWASP Application Security Verification Standard 4.0.3",
         "rlinks" : [ {
           "href" : "https://owasp.org/www-project-application-security-verification-standard/"
         } ]
@@ -27628,12 +27695,6 @@
           "href" : "https://support.microsoft.com/en-au/windows/core-isolation-e30ed737-17d8-42f3-a2a9-87521df09b78"
         } ]
       }, {
-        "uuid" : "d7e72166-b127-4249-bf93-3a7467c53f1d",
-        "title" : "Cloud Computing Security Considerations",
-        "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-computing-security-considerations"
-        } ]
-      }, {
         "uuid" : "daae37ef-262f-4b20-bfb7-a27901f3c2db",
         "title" : "Security Configuration Guide – Viasat Mobile Dynamic Defense",
         "rlinks" : [ {
@@ -27647,7 +27708,7 @@
         } ]
       }, {
         "uuid" : "dbd0372b-b758-46b1-bf05-d9676689d5b0",
-        "title" : "Coordinated Vulnerability Disclosure: The Guideline",
+        "title" : "Coordinated Vulnerability Disclosure: the Guideline",
         "rlinks" : [ {
           "href" : "https://english.ncsc.nl/publications/publications/2019/juni/01/coordinated-vulnerability-disclosure-the-guideline"
         } ]
@@ -27691,7 +27752,7 @@
         "uuid" : "e0d3b5ea-6a5a-400c-8daa-8a8059816a06",
         "title" : "Archives Act 1983",
         "rlinks" : [ {
-          "href" : "https://www.legislation.gov.au/Series/C2004A02796"
+          "href" : "https://www.legislation.gov.au/C2004A02796/latest/text"
         } ]
       }, {
         "uuid" : "e19a0c40-0a68-4fba-aea1-142fdd57dc75",
@@ -27709,7 +27770,7 @@
         "uuid" : "e4c07309-9ca8-40b7-9571-4f6c032180a1",
         "title" : "Telecommunications (Interception and Access) Act 1979",
         "rlinks" : [ {
-          "href" : "https://www.legislation.gov.au/Series/C2004A02124"
+          "href" : "https://www.legislation.gov.au/C2004A02124/latest/text"
         } ]
       }, {
         "uuid" : "e4eee462-f6e5-4921-a8fe-26f3de6c6f45",

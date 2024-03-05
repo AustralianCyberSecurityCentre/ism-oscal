@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="24ef4432-98b7-4a18-92c1-17301974bfdd">
+         uuid="5f08d491-1626-4928-b80f-8e3fec9168ad">
    <metadata>
       <title>Information Security Manual Essential Eight Maturity Level Two Baseline</title>
-      <last-modified>2023-12-01T03:05:07.391041Z</last-modified>
-      <version>2023.12.1</version>
+      <last-modified>2024-03-05T02:57:24.854934Z</last-modified>
+      <version>2024.03.5</version>
       <oscal-version>1.1.0</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_E8_ML2-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_E8_ML2-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -79,7 +79,7 @@
             <h1>Further information</h1>
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
             <p>Further information on cyber security incident response plans can be found in the system-specific security documentation section of the <a href="#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">Guidelines for Security Documentation</a>.</p>
-            <p>Further information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s <a href="#cad720b4-e47a-437d-b272-6958e738131d">Common Sense Guide to Mitigating Insider Threats</a> publication.</p>
+            <p>Further information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s <a href="#cad720b4-e47a-437d-b272-6958e738131d">Common Sense Guide to Mitigating Insider Threats, Sixth Edition</a> publication.</p>
             <p>Further information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.</p>
             <p>Further information on <a href="#188466f6-be12-49ce-b99a-981e54b1663e">reporting cybercrime incidents</a> and <a href="#626d3582-3caf-49d6-89d5-4b8fdbbf1f31">reporting cyber security incidents</a> is available from ASD.</p>
          </part>
@@ -450,12 +450,12 @@
             <title>Hardening operating system configurations</title>
             <prop name="sort-id" value="catalog[1].group[15].group[1].group[04]"/>
             <part name="overview">
-               <p>When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
+               <p>When operating systems are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in an approved secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
             </part>
             <control id="ism-1654" class="ISM-control">
                <title>Control: ism-1654</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[05]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[06]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -756,7 +756,7 @@
             <p>Further information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.</p>
             <p>Further information on hardening Microsoft Office can be found in ASD’s <a href="#58c9abfb-58fe-416e-a279-dfbfe123c99f">Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</a> publication and on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
             <p>Further information on hardening Microsoft Edge can be found on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
-            <p>Further information on hardening Google Chrome can be found in Google’s <a href="#741ab440-5759-4571-894d-e499dea3a54c">Chrome Browser Enterprise Security Configuration Guide</a>.</p>
+            <p>Further information on hardening Google Chrome can be found in Google’s <a href="#741ab440-5759-4571-894d-e499dea3a54c">Chrome Browser Enterprise Security Configuration Guide (Windows)</a>.</p>
             <p>Further information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s <a href="#9ad09461-7b3d-4faf-bdcd-61df9952cf49">Security Configuration Guide for Acrobat</a> publication.</p>
             <p>Further information on Microsoft’s attack surface reduction rules can be found on Microsoft’s <a href="#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7">attack surface reduction rules overview</a> website.</p>
             <p>Further information on configuring Microsoft Office macro settings can be found in ASD’s <a href="#dfb52998-0e7e-420d-97e1-d1313c8f919a">Restricting Microsoft Office Macros</a> publication.</p>
@@ -766,12 +766,12 @@
             <title>Hardening user application configurations</title>
             <prop name="sort-id" value="catalog[1].group[15].group[2].group[3]"/>
             <part name="overview">
-               <p>When user applications are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
+               <p>When user applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
             </part>
             <control id="ism-1667" class="ISM-control">
                <title>Control: ism-1667</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[04]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[05]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -794,7 +794,7 @@
             <control id="ism-1668" class="ISM-control">
                <title>Control: ism-1668</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[05]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[06]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -817,7 +817,7 @@
             <control id="ism-1669" class="ISM-control">
                <title>Control: ism-1669</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[06]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[07]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -840,7 +840,7 @@
             <control id="ism-1542" class="ISM-control">
                <title>Control: ism-1542</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[07]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[08]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -863,7 +863,7 @@
             <control id="ism-1859" class="ISM-control">
                <title>Control: ism-1859</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[08]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[09]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -886,7 +886,7 @@
             <control id="ism-1823" class="ISM-control">
                <title>Control: ism-1823</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[09]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[10]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -909,7 +909,7 @@
             <control id="ism-1486" class="ISM-control">
                <title>Control: ism-1486</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[10]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[11]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -935,7 +935,7 @@
             <control id="ism-1485" class="ISM-control">
                <title>Control: ism-1485</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[11]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[12]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -961,7 +961,7 @@
             <control id="ism-1412" class="ISM-control">
                <title>Control: ism-1412</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[12]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[13]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="6"/>
@@ -984,7 +984,7 @@
             <control id="ism-1585" class="ISM-control">
                <title>Control: ism-1585</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[13]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[14]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -1010,7 +1010,7 @@
             <control id="ism-1670" class="ISM-control">
                <title>Control: ism-1670</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[14]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[15]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -1033,7 +1033,7 @@
             <control id="ism-1860" class="ISM-control">
                <title>Control: ism-1860</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[15]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[16]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -1056,7 +1056,7 @@
             <control id="ism-1824" class="ISM-control">
                <title>Control: ism-1824</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[16]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[17]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -1225,7 +1225,7 @@
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
             <p>Further information on <a href="#58282062-5c17-476a-98b1-105a627cd28d">randomly generating passphrases</a> (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a <a href="#0508be6f-cb97-44da-b212-42416a0048b0">random dice roller</a> is available from RANDOM.ORG.</p>
             <p>Further information on <a href="#91b92563-d991-40fa-9adc-548df9f6c496">group Managed Service Accounts</a> in Microsoft Windows Server is available from Microsoft.</p>
-            <p>Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s <a href="#ae426d0a-adb6-43b8-a463-faa33e83b679">Active Directory accounts</a> and <a href="#3e5a98e5-9219-46c8-81c2-e3a4d13407ce">AD Forest Recovery - Resetting the krbtgt password</a> publications. A script for <a href="#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b">changing credentials for this service account</a> is also available from Microsoft.</p>
+            <p>Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s <a href="#ae426d0a-adb6-43b8-a463-faa33e83b679">Active Directory accounts</a> and <a href="#3e5a98e5-9219-46c8-81c2-e3a4d13407ce">Active Directory Forest Recovery - Reset the krbtgt password</a> publications. A script for <a href="#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b">changing credentials for this service account</a> is also available from Microsoft.</p>
             <p>Further information <a href="#d446dea3-c36d-45af-9623-05b686624af0">memory integrity functionality</a> is available from Microsoft.</p>
             <p>Further information on <a href="#3f43c8d2-8a8c-4e2f-af80-48a607bce643">Local Security Authority protection functionality</a> is available from Microsoft.</p>
             <p>Further information on <a href="#8d53ee7f-54c2-4380-8408-f7403db30ba1">Credential Guard functionality</a> and <a href="#92975dff-58e0-4813-842b-f27c0533ca56">Remote Credential Guard functionality</a> is available from Microsoft.</p>
@@ -2623,7 +2623,7 @@
          <rlink href="https://www.protectivesecurity.gov.au/publications-library/policy-9-access-information"/>
       </resource>
       <resource uuid="3e5a98e5-9219-46c8-81c2-e3a4d13407ce">
-         <title>AD Forest Recovery - Resetting the krbtgt password</title>
+         <title>Active Directory Forest Recovery - Reset the krbtgt password</title>
          <rlink href="https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-reset-the-krbtgt-password"/>
       </resource>
       <resource uuid="3f349d16-11a1-459a-a299-c9446aea7597">
@@ -2679,7 +2679,7 @@
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-version-21h1-workstations"/>
       </resource>
       <resource uuid="741ab440-5759-4571-894d-e499dea3a54c">
-         <title>Chrome Browser Enterprise Security Configuration Guide</title>
+         <title>Chrome Browser Enterprise Security Configuration Guide (Windows)</title>
          <rlink href="https://support.google.com/chrome/a/answer/9710898?hl=en"/>
       </resource>
       <resource uuid="7d16ae67-87a7-4861-b939-e13ec279b5a2">
@@ -2759,8 +2759,8 @@
          <rlink href="https://www.av-comparatives.org/"/>
       </resource>
       <resource uuid="cad720b4-e47a-437d-b272-6958e738131d">
-         <title>Common Sense Guide to Mitigating Insider Threats</title>
-         <rlink href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=540644"/>
+         <title>Common Sense Guide to Mitigating Insider Threats, Sixth Edition</title>
+         <rlink href="https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-sixth-edition/"/>
       </resource>
       <resource uuid="d0df96bb-7236-4784-8f54-2cb6335ad228">
          <title>exploit protection functionality</title>

@@ -3,9 +3,9 @@
          uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
    <metadata>
       <title>Information Security Manual</title>
-      <published>2023-12-01T02:51:58.457562Z</published>
-      <last-modified>2023-12-01T02:51:58.457562Z</last-modified>
-      <version>2023.12.1</version>
+      <published>2024-03-05T01:59:03.682064Z</published>
+      <last-modified>2024-03-05T01:59:03.682064Z</last-modified>
+      <version>2024.03.5</version>
       <oscal-version>1.1.0</oscal-version>
       <link rel="canonical" href="#6455b62e-c7af-4987-b87d-60b9575a59ff"/>
       <link rel="latest-version" href="#219fa690-b9c0-4e76-9333-d5136a5582d1"/>
@@ -182,8 +182,6 @@
                <p>Further information on various risk management frameworks and practices can be found in:</p>
                <ul>
                   <li>International Organization for Standardization (ISO) 31000:2018, <a href="#5d217b62-2aa7-4d9c-93cc-da3916279802">Risk management – Guidelines</a>
-                  </li>
-                  <li>ISO Guide 73:2009, <a href="#96e29819-9d5d-4082-aa0d-b8debe59ef32">Risk management – Vocabulary</a>
                   </li>
                   <li>International Electrotechnical Commission 31010:2019, <a href="#69c67e26-82cf-426a-8358-0e486b5a9287">Risk management – Risk assessment techniques</a>
                   </li>
@@ -1117,7 +1115,7 @@
             <h1>Further information</h1>
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
             <p>Further information on cyber security incident response plans can be found in the system-specific security documentation section of the <a href="#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">Guidelines for Security Documentation</a>.</p>
-            <p>Further information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s <a href="#cad720b4-e47a-437d-b272-6958e738131d">Common Sense Guide to Mitigating Insider Threats</a> publication.</p>
+            <p>Further information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s <a href="#cad720b4-e47a-437d-b272-6958e738131d">Common Sense Guide to Mitigating Insider Threats, Sixth Edition</a> publication.</p>
             <p>Further information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.</p>
             <p>Further information on <a href="#188466f6-be12-49ce-b99a-981e54b1663e">reporting cybercrime incidents</a> and <a href="#626d3582-3caf-49d6-89d5-4b8fdbbf1f31">reporting cyber security incidents</a> is available from ASD.</p>
          </part>
@@ -1936,7 +1934,7 @@
             <p>Further information on the use of outsourced gateway services can be found in the gateways section of the <a href="#e8bde527-526c-4a6a-b66f-05228f09dd7b">Guidelines for Gateways</a>.</p>
             <p>Further information on managed service providers can be found in ASD’s <a href="#45899752-c83f-4976-bc99-03f6824a0793">How to Manage Your Security When Engaging a Managed Service Provider</a> and <a href="#76068c96-8d89-4c37-9eef-03488d5e1b1d">Questions to Ask Managed Service Providers</a> publications.</p>
             <p>Further information on the definition of cloud computing can be found in National Institute of Standards and Technology Special Publication 800-145, <a href="#c17600e6-8b13-4d6e-a380-035b51a71b73">The NIST Definition of Cloud Computing</a>.</p>
-            <p>Further information on securing cloud services can be found in ASD’s <a href="#d7e72166-b127-4249-bf93-3a7467c53f1d">Cloud Computing Security Considerations</a>, <a href="#347eee88-cb61-44b9-81ce-ab97dd08387c">Cloud Computing Security for Cloud Service Providers</a> and <a href="#b959caf4-8b60-4b82-9552-963754841bb7">Cloud Computing Security for Tenants</a> publications.</p>
+            <p>Further information on securing cloud services can be found in ASD’s <a href="#347eee88-cb61-44b9-81ce-ab97dd08387c">Cloud Computing Security for Cloud Service Providers</a>, <a href="#c8ee37e4-fb81-4fa7-8f14-132c850974bc">Cloud Computing Security for Executives</a> and <a href="#b959caf4-8b60-4b82-9552-963754841bb7">Cloud Computing Security for Tenants</a> publications.</p>
             <p>Further information on conducting security assessments of cloud service providers can be found in ASD’s <a href="#b6479d9a-43c9-41f2-9dbc-2bb689c8e6d8">Cloud Assessment and Authorisation</a> and <a href="#dda788b6-183b-4e89-8254-8c4b5d0540a0">Cloud Assessment and Authorisation FAQ</a> publications.</p>
             <p>Further information on <a href="#84d3cbab-ab84-4981-a4f7-2bd469c8deaf">the purpose of IRAP</a>, and <a href="#bdd11ace-cb4e-470a-92ad-556c79b6c14a">a list of current IRAP assessors</a>, is available from ASD.</p>
             <p>Further information on reporting cyber security incidents can be found in the reporting cyber security incidents section of the <a href="#fe0138db-e83b-4a23-85d3-d84e1c22816f">Guidelines for Cyber Security Incidents</a>.</p>
@@ -4146,7 +4144,7 @@
          <prop name="sort-id" value="catalog[1].group[09].group[1]"/>
          <part name="overview">
             <h1>Applicability</h1>
-            <p>This section is only applicable to facilities located within Australia. In addition, this section only applies to new cabling infrastructure installations or upgrades.</p>
+            <p>This section is only applicable to facilities located within Australia.</p>
             <h1>Shared facilities</h1>
             <p>In addition to common controls, this section provides additional controls for shared facilities, such as a single floor, or part of a floor, within a multi-tenanted building.</p>
             <h1>Cables and structured cabling systems</h1>
@@ -6430,9 +6428,6 @@
                   <a href="#ed6aa6ab-545d-48eb-92bc-9ad763d4b868">Protection Profile for Mobile Device Management Version 4.0</a>
                </li>
                <li>
-                  <a href="#90cdf149-eb25-4b38-b836-8ee770545b29">Protection Profile for Mobile Device Fundamentals Version 3.2</a>
-               </li>
-               <li>
                   <a href="#f160b04e-1a32-4dd5-816e-1cba8c97982c">Protection Profile for Mobile Device Fundamentals Version 3.3</a>.</li>
             </ul>
             <p>Further information on hardening mobile platforms can be found in the following ASD publications:</p>
@@ -6493,7 +6488,7 @@
             <title>Approved mobile platforms</title>
             <prop name="sort-id" value="catalog[1].group[11].group[2].group[2]"/>
             <part name="overview">
-               <p>In order to ensure an appropriate level of security, mobile devices that access OFFICIAL: Sensitive or PROTECTED systems or data must use mobile platforms that have completed a Common Criteria evaluation against the Protection Profile for Mobile Device Fundamentals, version 3.2 or later, and are operated in accordance with the latest version of their associated ASD security configuration guide. Furthermore, to ensure interoperability and maintain trust, mobile devices that access SECRET or TOP SECRET systems or data must use mobile platforms that have been issued an Approval for Use by ASD and are operated in accordance with the latest version of their associated Australian Communications Security Instruction.</p>
+               <p>In order to ensure an appropriate level of security, mobile devices that access OFFICIAL: Sensitive or PROTECTED systems or data must use mobile platforms that have completed a Common Criteria evaluation against the Protection Profile for Mobile Device Fundamentals, version 3.3 or later, and are operated in accordance with the latest version of their associated ASD security configuration guide. Furthermore, to ensure interoperability and maintain trust, mobile devices that access SECRET or TOP SECRET systems or data must use mobile platforms that have been issued an Approval for Use by ASD and are operated in accordance with the latest version of their associated Australian Communications Security Instruction.</p>
             </part>
             <control id="ism-1867" class="ISM-control">
                <title>Control: ism-1867</title>
@@ -6501,10 +6496,10 @@
                      value="catalog[1].group[11].group[2].group[2].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Sep-23"/>
+                     value="Mar-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="OS"/>
@@ -6512,7 +6507,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="P"/>
                <part name="statement" id="ism-1867_smt">
-                  <p>Mobile devices that access OFFICIAL: Sensitive or PROTECTED systems or data use mobile platforms that have completed a Common Criteria evaluation against the Protection Profile for Mobile Device Fundamentals, version 3.2 or later, and are operated in accordance with the latest version of their associated ASD security configuration guide.</p>
+                  <p>Mobile devices that access OFFICIAL: Sensitive or PROTECTED systems or data use mobile platforms that have completed a Common Criteria evaluation against the Protection Profile for Mobile Device Fundamentals, version 3.3 or later, and are operated in accordance with the latest version of their associated ASD security configuration guide.</p>
                </part>
             </control>
             <control id="ism-0687" class="ISM-control">
@@ -7484,12 +7479,29 @@
             <title>Hardening ICT equipment configurations</title>
             <prop name="sort-id" value="catalog[1].group[13].group[1].group[3]"/>
             <part name="overview">
-               <p>When ICT equipment is deployed in its default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within ICT equipment to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of ICT equipment. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
+               <p>When ICT equipment is deployed in its default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within ICT equipment to allow them to be configured in an approved secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of ICT equipment. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
             </part>
+            <control id="ism-1913" class="ISM-control">
+               <title>Control: ism-1913</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[13].group[1].group[3].control[1]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="Mar-24"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="ALL"/>
+               <part name="statement" id="ism-1913_smt">
+                  <p>Approved configurations for ICT equipment are developed, implemented and maintained.</p>
+               </part>
+            </control>
             <control id="ism-1858" class="ISM-control">
                <title>Control: ism-1858</title>
                <prop name="sort-id"
-                     value="catalog[1].group[13].group[1].group[3].control[1]"/>
+                     value="catalog[1].group[13].group[1].group[3].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -8725,7 +8737,7 @@
             <title>Non-volatile magnetic media sanitisation</title>
             <prop name="sort-id" value="catalog[1].group[14].group[2].group[04]"/>
             <part name="overview">
-               <p>Non-volatile magnetic media encompasses non-volatile magnetic hard drives, tape drives and floppy disks. While non-volatile magnetic tape drives and floppy disks can be sanitised by overwriting them at least once (or three times if pre-2001 or under 15 GB) in their entirety with a random pattern followed by a read back for verification, additional considerations apply to non-volatile magnetic hard drives due to their use of a host-protected area, device configuration overlay table and growth defects table.</p>
+               <p>Non-volatile magnetic media encompasses non-volatile magnetic hard drives, magnetic tape and floppy disks. While non-volatile magnetic tape and floppy disks can be sanitised by overwriting them at least once (or three times if pre-2001 or under 15 GB) in their entirety with a random pattern followed by a read back for verification, additional considerations apply to non-volatile magnetic hard drives due to their use of a host-protected area, device configuration overlay table and growth defects table.</p>
                <p>Both the host-protected area and device configuration overlay table of non-volatile magnetic hard drives are normally not visible to a computer’s Unified Extensible Firmware Interface or operating system. Therefore, any sanitisation of the readable sectors of non-volatile magnetic hard drives will leave any data contained in sectors listed in the host-protected area and device configuration overlay table untouched. Some sanitisation programs include the ability to reset non-volatile magnetic hard drives to their default state, thereby removing any host-protected areas or device configuration overlays. This allows the sanitisation program to see the entire contents of non-volatile magnetic hard drives during subsequent sanitisation processes.</p>
                <p>Modern non-volatile magnetic hard drives automatically reallocate space for bad sectors at a hardware level. These bad sectors are maintained in what is known as the growth defects table or ‘g-list’. If data was stored in a sector that was subsequently added to the growth defects table, sanitising the non-volatile magnetic hard drive will not overwrite such data. While these sectors may be considered bad by non-volatile magnetic hard drives, quite often this is due to the sectors no longer meeting expected performance norms and not due to an inability to read or write to them. The Advanced Technology Attachment (ATA) secure erase command was built into the firmware of post-2001 non-volatile magnetic hard drives and is able to access sectors that have been added to the growth defects table.</p>
                <p>Modern non-volatile magnetic hard drives also contain a primary defects table or ‘p-list’. The primary defects table contains a list of bad sectors found during post-production processes. No data is ever stored in sectors listed in the primary defects table as they are marked as inaccessible before non-volatile magnetic hard drives are used for the first time.</p>
@@ -9671,12 +9683,29 @@
             <title>Hardening operating system configurations</title>
             <prop name="sort-id" value="catalog[1].group[15].group[1].group[04]"/>
             <part name="overview">
-               <p>When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
+               <p>When operating systems are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in an approved secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
             </part>
+            <control id="ism-1914" class="ISM-control">
+               <title>Control: ism-1914</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[15].group[1].group[04].control[01]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="Mar-24"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="ALL"/>
+               <part name="statement" id="ism-1914_smt">
+                  <p>Approved configurations for operating systems are developed, implemented and maintained.</p>
+               </part>
+            </control>
             <control id="ism-1409" class="ISM-control">
                <title>Control: ism-1409</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[01]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[02]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="4"/>
@@ -9693,7 +9722,7 @@
             <control id="ism-0380" class="ISM-control">
                <title>Control: ism-0380</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[02]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[03]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="9"/>
@@ -9710,7 +9739,7 @@
             <control id="ism-0383" class="ISM-control">
                <title>Control: ism-0383</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[03]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[04]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="8"/>
@@ -9727,7 +9756,7 @@
             <control id="ism-0341" class="ISM-control">
                <title>Control: ism-0341</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[04]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[05]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="4"/>
@@ -9744,7 +9773,7 @@
             <control id="ism-1654" class="ISM-control">
                <title>Control: ism-1654</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[05]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[06]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -9770,7 +9799,7 @@
             <control id="ism-1655" class="ISM-control">
                <title>Control: ism-1655</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[06]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[07]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -9790,7 +9819,7 @@
             <control id="ism-1492" class="ISM-control">
                <title>Control: ism-1492</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[07]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[08]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -9807,7 +9836,7 @@
             <control id="ism-1745" class="ISM-control">
                <title>Control: ism-1745</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[08]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[09]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -9824,7 +9853,7 @@
             <control id="ism-1584" class="ISM-control">
                <title>Control: ism-1584</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[09]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[10]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -9841,7 +9870,7 @@
             <control id="ism-1491" class="ISM-control">
                <title>Control: ism-1491</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[1].group[04].control[10]"/>
+                     value="catalog[1].group[15].group[1].group[04].control[11]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="3"/>
@@ -10572,7 +10601,7 @@
             <p>Further information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.</p>
             <p>Further information on hardening Microsoft Office can be found in ASD’s <a href="#58c9abfb-58fe-416e-a279-dfbfe123c99f">Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</a> publication and on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
             <p>Further information on hardening Microsoft Edge can be found on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
-            <p>Further information on hardening Google Chrome can be found in Google’s <a href="#741ab440-5759-4571-894d-e499dea3a54c">Chrome Browser Enterprise Security Configuration Guide</a>.</p>
+            <p>Further information on hardening Google Chrome can be found in Google’s <a href="#741ab440-5759-4571-894d-e499dea3a54c">Chrome Browser Enterprise Security Configuration Guide (Windows)</a>.</p>
             <p>Further information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s <a href="#9ad09461-7b3d-4faf-bdcd-61df9952cf49">Security Configuration Guide for Acrobat</a> publication.</p>
             <p>Further information on Microsoft’s attack surface reduction rules can be found on Microsoft’s <a href="#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7">attack surface reduction rules overview</a> website. </p>
             <p>Further information on configuring Microsoft Office macro settings can be found in ASD’s <a href="#dfb52998-0e7e-420d-97e1-d1313c8f919a">Restricting Microsoft Office Macros</a> publication.</p>
@@ -10630,12 +10659,29 @@
             <title>Hardening user application configurations</title>
             <prop name="sort-id" value="catalog[1].group[15].group[2].group[3]"/>
             <part name="overview">
-               <p>When user applications are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
+               <p>When user applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
             </part>
+            <control id="ism-1915" class="ISM-control">
+               <title>Control: ism-1915</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[15].group[2].group[3].control[01]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="Mar-24"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="ALL"/>
+               <part name="statement" id="ism-1915_smt">
+                  <p>Approved configurations for user applications are developed, implemented and maintained.</p>
+               </part>
+            </control>
             <control id="ism-1806" class="ISM-control">
                <title>Control: ism-1806</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[01]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[02]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -10652,7 +10698,7 @@
             <control id="ism-1470" class="ISM-control">
                <title>Control: ism-1470</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[02]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[03]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="5"/>
@@ -10669,7 +10715,7 @@
             <control id="ism-1235" class="ISM-control">
                <title>Control: ism-1235</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[03]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[04]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="4"/>
@@ -10686,7 +10732,7 @@
             <control id="ism-1667" class="ISM-control">
                <title>Control: ism-1667</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[04]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[05]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -10709,7 +10755,7 @@
             <control id="ism-1668" class="ISM-control">
                <title>Control: ism-1668</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[05]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[06]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -10732,7 +10778,7 @@
             <control id="ism-1669" class="ISM-control">
                <title>Control: ism-1669</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[06]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[07]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -10755,7 +10801,7 @@
             <control id="ism-1542" class="ISM-control">
                <title>Control: ism-1542</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[07]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[08]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -10778,7 +10824,7 @@
             <control id="ism-1859" class="ISM-control">
                <title>Control: ism-1859</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[08]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[09]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -10801,7 +10847,7 @@
             <control id="ism-1823" class="ISM-control">
                <title>Control: ism-1823</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[09]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[10]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -10824,7 +10870,7 @@
             <control id="ism-1486" class="ISM-control">
                <title>Control: ism-1486</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[10]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[11]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -10850,7 +10896,7 @@
             <control id="ism-1485" class="ISM-control">
                <title>Control: ism-1485</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[11]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[12]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -10876,7 +10922,7 @@
             <control id="ism-1412" class="ISM-control">
                <title>Control: ism-1412</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[12]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[13]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="6"/>
@@ -10899,7 +10945,7 @@
             <control id="ism-1585" class="ISM-control">
                <title>Control: ism-1585</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[13]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[14]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -10925,7 +10971,7 @@
             <control id="ism-1670" class="ISM-control">
                <title>Control: ism-1670</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[14]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[15]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -10948,7 +10994,7 @@
             <control id="ism-1860" class="ISM-control">
                <title>Control: ism-1860</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[15]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[16]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -10971,7 +11017,7 @@
             <control id="ism-1824" class="ISM-control">
                <title>Control: ism-1824</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[16]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[17]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -10994,7 +11040,7 @@
             <control id="ism-1601" class="ISM-control">
                <title>Control: ism-1601</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[17]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[18]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -11011,7 +11057,7 @@
             <control id="ism-1748" class="ISM-control">
                <title>Control: ism-1748</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[18]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[19]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -11028,7 +11074,7 @@
             <control id="ism-1825" class="ISM-control">
                <title>Control: ism-1825</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[2].group[3].control[19]"/>
+                     value="catalog[1].group[15].group[2].group[3].control[20]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -11384,12 +11430,29 @@
             <title>Hardening server application configurations</title>
             <prop name="sort-id" value="catalog[1].group[15].group[3].group[3]"/>
             <part name="overview">
-               <p>When server applications are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for server applications as such applications are routinely targeted for exploitation. Many settings exist within server applications to allow them to be configured in a secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of server applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
+               <p>When server applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for server applications as such applications are routinely targeted for exploitation. Many settings exist within server applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of server applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
             </part>
+            <control id="ism-1916" class="ISM-control">
+               <title>Control: ism-1916</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[15].group[3].group[3].control[1]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="Mar-24"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="ALL"/>
+               <part name="statement" id="ism-1916_smt">
+                  <p>Approved configurations for server applications are developed, implemented and maintained.</p>
+               </part>
+            </control>
             <control id="ism-1246" class="ISM-control">
                <title>Control: ism-1246</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[3].control[1]"/>
+                     value="catalog[1].group[15].group[3].group[3].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="6"/>
@@ -11406,7 +11469,7 @@
             <control id="ism-1260" class="ISM-control">
                <title>Control: ism-1260</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[3].control[2]"/>
+                     value="catalog[1].group[15].group[3].group[3].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="4"/>
@@ -11423,7 +11486,7 @@
             <control id="ism-1247" class="ISM-control">
                <title>Control: ism-1247</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[3].control[3]"/>
+                     value="catalog[1].group[15].group[3].group[3].control[4]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="4"/>
@@ -11440,7 +11503,7 @@
             <control id="ism-1245" class="ISM-control">
                <title>Control: ism-1245</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[3].control[4]"/>
+                     value="catalog[1].group[15].group[3].group[3].control[5]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="3"/>
@@ -11871,7 +11934,7 @@
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
             <p>Further information on <a href="#58282062-5c17-476a-98b1-105a627cd28d">randomly generating passphrases</a> (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a <a href="#0508be6f-cb97-44da-b212-42416a0048b0">random dice roller</a> is available from RANDOM.ORG.</p>
             <p>Further information on <a href="#91b92563-d991-40fa-9adc-548df9f6c496">group Managed Service Accounts</a> in Microsoft Windows Server is available from Microsoft.</p>
-            <p>Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s <a href="#ae426d0a-adb6-43b8-a463-faa33e83b679">Active Directory accounts</a> and <a href="#3e5a98e5-9219-46c8-81c2-e3a4d13407ce">AD Forest Recovery - Resetting the krbtgt password</a> publications. A script for <a href="#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b">changing credentials for this service account</a> is also available from Microsoft.</p>
+            <p>Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s <a href="#ae426d0a-adb6-43b8-a463-faa33e83b679">Active Directory accounts</a> and <a href="#3e5a98e5-9219-46c8-81c2-e3a4d13407ce">Active Directory Forest Recovery - Reset the krbtgt password</a> publications. A script for <a href="#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b">changing credentials for this service account</a> is also available from Microsoft.</p>
             <p>Further information <a href="#d446dea3-c36d-45af-9623-05b686624af0">memory integrity functionality</a> is available from Microsoft.</p>
             <p>Further information on <a href="#3f43c8d2-8a8c-4e2f-af80-48a607bce643">Local Security Authority protection functionality</a> is available from Microsoft.</p>
             <p>Further information on <a href="#8d53ee7f-54c2-4380-8408-f7403db30ba1">Credential Guard functionality</a> and <a href="#92975dff-58e0-4813-842b-f27c0533ca56">Remote Credential Guard functionality</a> is available from Microsoft.</p>
@@ -14966,7 +15029,7 @@
                </li>
                <li>European Union Agency for Cybersecurity’s <a href="#9a69d597-080f-4d03-b32b-d926f0b87e33">Good Practice Guide on Vulnerability Disclosure</a>
                </li>
-               <li>Netherland’s National Cyber Security Centre’s <a href="#dbd0372b-b758-46b1-bf05-d9676689d5b0">Coordinated Vulnerability Disclosure: The Guideline</a>
+               <li>Netherland’s National Cyber Security Centre’s <a href="#dbd0372b-b758-46b1-bf05-d9676689d5b0">Coordinated Vulnerability Disclosure: the Guideline</a>
                </li>
                <li>Carnegie Mellon University’s Software Engineering Institute’s <a href="#7ffd20ed-4f40-43be-a37b-97e7a1b31e2f">The CERT Guide to Coordinated Vulnerability Disclosure</a>
                </li>
@@ -15377,12 +15440,12 @@
          <prop name="sort-id" value="catalog[1].group[18].group[2]"/>
          <part name="overview">
             <h1>Further information</h1>
-            <p>Further information on web application security can be found in the <a href="#d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4">OWASP Application Security Verification Standard</a> and <a href="#18274424-7086-419e-9fae-a6ba64870459">OWASP Top Ten Proactive Controls</a> publications.</p>
-            <p>Further information on web application security risks can be found in the <a href="#436de247-4c95-4449-89a4-fec912605e7d">OWASP Top 10</a> publication.</p>
+            <p>Further information on web application security can be found in the <a href="#d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4">OWASP Application Security Verification Standard 4.0.3</a> and <a href="#18274424-7086-419e-9fae-a6ba64870459">OWASP Top 10 Proactive Controls 2018</a> publications.</p>
+            <p>Further information on web application security risks can be found in the <a href="#436de247-4c95-4449-89a4-fec912605e7d">OWASP Top 10 2021</a> publication.</p>
             <p>Further information on implementing HTTPS can be found in ASD’s <a href="#b8cdbf18-31cb-4e10-bb43-e8488ee8c2f6">Implementing Certificates, TLS, HTTPS and Opportunistic TLS</a> publication.</p>
             <p>Further information on using TLS in HTTPS can be found in the Transport Layer Security section of the <a href="#195abe87-bb1e-4006-8b42-eaecca4d51f1">Guidelines for Cryptography</a>.</p>
             <p>Further information on web application security can be found in ASD’s <a href="#b3fa2724-3a61-4d68-843a-61cab9e28750">Protecting Web Applications and Users</a> and <a href="#baf3f7d2-750f-43c8-b805-8fc10228a6fd">Securing Content Management Systems</a> publications.</p>
-            <p>Further information on API security can be found in the <a href="#76087ab6-88d4-4610-9a98-6ddc5f7bd7e6">OWASP API Security Top 10</a> publication.</p>
+            <p>Further information on API security can be found in the <a href="#76087ab6-88d4-4610-9a98-6ddc5f7bd7e6">OWASP API Security Top 10 2023</a> publication.</p>
             <p>Further information on strong authentication can be found in the authentication hardening section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.</p>
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
          </part>
@@ -15423,7 +15486,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
                <part name="statement" id="ism-1849_smt">
-                  <p>The OWASP Top Ten Proactive Controls are used in the development of web applications.</p>
+                  <p>The OWASP Top 10 Proactive Controls are used in the development of web applications.</p>
                </part>
             </control>
             <control id="ism-1850" class="ISM-control">
@@ -16691,7 +16754,7 @@
             <p>Further information on gateways can be found in the gateways section of the <a href="#e8bde527-526c-4a6a-b66f-05228f09dd7b">Guidelines for Gateways</a>.</p>
             <p>Further information on encrypting communications can be found in the cryptographic fundamentals section of the <a href="#195abe87-bb1e-4006-8b42-eaecca4d51f1">Guidelines for Cryptography</a>.</p>
             <p>Further information on network segmentation and segregation can be found in ASD’s <a href="#23d977b2-e64e-4ebc-a59f-cd95212045c5">Implementing Network Segmentation and Segregation</a> publication.</p>
-            <p>Further information on network security zones can be found in the Canadian Centre for Cyber Security’s <a href="#b43b0377-c2e4-4cdc-acec-a9ece7371e36">Baseline Security Requirements for Network Security Zones (Version 2.0)</a> publication.</p>
+            <p>Further information on network security zones can be found in the Canadian Centre for Cyber Security’s <a href="#b43b0377-c2e4-4cdc-acec-a9ece7371e36">Baseline security requirements for network security zones (version 2.0)</a> publication.</p>
             <p>Further information on implementing network segmentation and segregation for system administration purposes can be found in the system administration section of the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for System Management</a>.</p>
             <p>Further information on functional separation of servers using virtualisation can be found in the virtualisation hardening section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.</p>
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
@@ -18504,7 +18567,6 @@
             <p>The approved asymmetric/public key algorithms are:</p>
             <ul>
                <li>Diffie-Hellman (DH) for agreeing on encryption session keys</li>
-               <li>Digital Signature Algorithm (DSA) for digital signatures</li>
                <li>Elliptic Curve Diffie-Hellman (ECDH) for key exchange</li>
                <li>Elliptic Curve Digital Signature Algorithm (ECDSA) for digital signatures</li>
                <li>Rivest-Shamir-Adleman (RSA) for digital signatures and passing encryption session keys or similar keys.</li>
@@ -18545,7 +18607,7 @@
             <title>Asymmetric/public key algorithms</title>
             <prop name="sort-id" value="catalog[1].group[22].group[2].group[02]"/>
             <part name="overview">
-               <p>DH and DSA are vulnerable to different types of attacks than ECDH and ECDSA. As a result, ECDH and ECDSA offer more effective security per bit increase. This leads to smaller data requirements which in turn means that elliptic curve variants have become de facto global standards. For reduced data cost, and to promote interoperability, ECDH and ECDSA should be used where possible.</p>
+               <p>DH is vulnerable to different types of attacks than ECDH while offering more effective security per bit increase. This leads to smaller data requirements which in turn means that the elliptic curve variant has become a de facto global standard. For reduced data cost, and to promote interoperability, ECDH should be used in preference to DH where possible.</p>
             </part>
             <control id="ism-0994" class="ISM-control">
                <title>Control: ism-0994</title>
@@ -18553,15 +18615,15 @@
                      value="catalog[1].group[22].group[2].group[02].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="6"/>
+                     value="7"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Dec-21"/>
+                     value="Mar-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
                <part name="statement" id="ism-0994_smt">
-                  <p>ECDH and ECDSA are used in preference to DH and DSA.</p>
+                  <p>ECDH is used in preference to DH.</p>
                </part>
             </control>
          </group>
@@ -18631,106 +18693,39 @@
             </control>
          </group>
          <group>
-            <title>Using the Digital Signature Algorithm</title>
+            <title>Using Elliptic Curve Cryptography</title>
             <prop name="sort-id" value="catalog[1].group[22].group[2].group[04]"/>
             <part name="overview">
-               <p>A modulus of 2048 bits for correctly implemented DSA provides 112 bits of effective security strength. Taking into account projected technological advances, it is assessed that 112 bits of effective security strength will remain secure until 2030.</p>
-            </part>
-            <control id="ism-0473" class="ISM-control">
-               <title>Control: ism-0473</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[04].control[1]"/>
-               <prop name="revision"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="5"/>
-               <prop name="updated"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Dec-20"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="P"/>
-               <part name="statement" id="ism-0473_smt">
-                  <p>When using DSA for digital signatures, a modulus of at least 2048 bits is used.</p>
-               </part>
-            </control>
-            <control id="ism-1630" class="ISM-control">
-               <title>Control: ism-1630</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[04].control[2]"/>
-               <prop name="revision"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="2"/>
-               <prop name="updated"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Mar-22"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="P"/>
-               <part name="statement" id="ism-1630_smt">
-                  <p>When using DSA for digital signatures, a modulus and associated parameters are generated according to FIPS 186-4.</p>
-               </part>
-            </control>
-            <control id="ism-1760" class="ISM-control">
-               <title>Control: ism-1760</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[04].control[3]"/>
-               <prop name="revision"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="0"/>
-               <prop name="updated"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Mar-22"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="S"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="TS"/>
-               <part name="statement" id="ism-1760_smt">
-                  <p>DSA is not used for digital signatures.</p>
-               </part>
-            </control>
-         </group>
-         <group>
-            <title>Using Elliptic Curve Cryptography</title>
-            <prop name="sort-id" value="catalog[1].group[22].group[2].group[05]"/>
-            <part name="overview">
-               <p>The curve used within an elliptic curve algorithm impacts the security of the algorithm. As such, only suitable curves from FIPS 186-4 should be used.</p>
+               <p>The curve used within an elliptic curve algorithm impacts the security of the algorithm. As such, only suitable curves from NIST SP 800-186 should be used.</p>
             </part>
             <control id="ism-1446" class="ISM-control">
                <title>Control: ism-1446</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[05].control[1]"/>
+                     value="catalog[1].group[22].group[2].group[04].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="2"/>
+                     value="3"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Dec-21"/>
+                     value="Mar-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
                <part name="statement" id="ism-1446_smt">
-                  <p>When using elliptic curve cryptography, a curve from FIPS 186-4 is used.</p>
+                  <p>When using elliptic curve cryptography, a suitable curve from NIST SP 800-186 is used.</p>
                </part>
             </control>
          </group>
          <group>
             <title>Using Elliptic Curve Diffie-Hellman</title>
-            <prop name="sort-id" value="catalog[1].group[22].group[2].group[06]"/>
+            <prop name="sort-id" value="catalog[1].group[22].group[2].group[05]"/>
             <part name="overview">
-               <p>When using a curve from FIPS 186-4, a base point order and key size of at least 224 bits for correctly implemented ECDH provides 112 bits of effective security strength. Security of a curve selected from another source cannot be assumed to have the same security using base point order and key size alone.</p>
+               <p>When identifying a suitable curve from NIST SP 800-186, a base point order and key size of at least 224 bits for correctly implemented ECDH provides 112 bits of effective security strength. Security of a curve selected from another source cannot be assumed to have the same security using base point order and key size alone.</p>
             </part>
             <control id="ism-0474" class="ISM-control">
                <title>Control: ism-0474</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[06].control[1]"/>
+                     value="catalog[1].group[22].group[2].group[05].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="6"/>
@@ -18750,7 +18745,7 @@
             <control id="ism-1761" class="ISM-control">
                <title>Control: ism-1761</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[06].control[2]"/>
+                     value="catalog[1].group[22].group[2].group[05].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -18767,7 +18762,7 @@
             <control id="ism-1762" class="ISM-control">
                <title>Control: ism-1762</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[06].control[3]"/>
+                     value="catalog[1].group[22].group[2].group[05].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -18784,14 +18779,14 @@
          </group>
          <group>
             <title>Using the Elliptic Curve Digital Signature Algorithm</title>
-            <prop name="sort-id" value="catalog[1].group[22].group[2].group[07]"/>
+            <prop name="sort-id" value="catalog[1].group[22].group[2].group[06]"/>
             <part name="overview">
-               <p>When using a curve from FIPS 186-4, a base point order and key size of 224 bits for correctly implemented ECDSA provides 112 bits of effective security strength. Security of a curve selected from another source cannot be assumed to have the same security using base point order and key size alone.</p>
+               <p>When identifying a suitable curve from NIST SP 800-186, a base point order and key size of 224 bits for correctly implemented ECDSA provides 112 bits of effective security strength. Security of a curve selected from another source cannot be assumed to have the same security using base point order and key size alone.</p>
             </part>
             <control id="ism-0475" class="ISM-control">
                <title>Control: ism-0475</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[07].control[1]"/>
+                     value="catalog[1].group[22].group[2].group[06].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="6"/>
@@ -18811,7 +18806,7 @@
             <control id="ism-1763" class="ISM-control">
                <title>Control: ism-1763</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[07].control[2]"/>
+                     value="catalog[1].group[22].group[2].group[06].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -18828,7 +18823,7 @@
             <control id="ism-1764" class="ISM-control">
                <title>Control: ism-1764</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[07].control[3]"/>
+                     value="catalog[1].group[22].group[2].group[06].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -18845,14 +18840,14 @@
          </group>
          <group>
             <title>Using Rivest-Shamir-Adleman</title>
-            <prop name="sort-id" value="catalog[1].group[22].group[2].group[08]"/>
+            <prop name="sort-id" value="catalog[1].group[22].group[2].group[07]"/>
             <part name="overview">
                <p>A modulus of 2048 bits for correctly implemented RSA provides 112 bits of effective security strength. Taking into account projected technological advances, it is assessed that 112 bits of effective security strength will remain secure until 2030.</p>
             </part>
             <control id="ism-0476" class="ISM-control">
                <title>Control: ism-0476</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[08].control[1]"/>
+                     value="catalog[1].group[22].group[2].group[07].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="7"/>
@@ -18872,7 +18867,7 @@
             <control id="ism-1765" class="ISM-control">
                <title>Control: ism-1765</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[08].control[2]"/>
+                     value="catalog[1].group[22].group[2].group[07].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -18892,7 +18887,7 @@
             <control id="ism-0477" class="ISM-control">
                <title>Control: ism-0477</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[08].control[3]"/>
+                     value="catalog[1].group[22].group[2].group[07].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="8"/>
@@ -18909,14 +18904,14 @@
          </group>
          <group>
             <title>Using hashing algorithms</title>
-            <prop name="sort-id" value="catalog[1].group[22].group[2].group[09]"/>
+            <prop name="sort-id" value="catalog[1].group[22].group[2].group[08]"/>
             <part name="overview">
                <p>For most purposes, a hashing algorithm with an output size of 224 bits provides 112 bits of effective security strength. Similarly, a hashing algorithm with an output size of 256 bits provides 128 bits of effective security strength, and an output size of 384 bits provides 192 bits of effective security strength. Only hashing algorithms from the SHA-2 family are approved for use.</p>
             </part>
             <control id="ism-1766" class="ISM-control">
                <title>Control: ism-1766</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[09].control[1]"/>
+                     value="catalog[1].group[22].group[2].group[08].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -18936,7 +18931,7 @@
             <control id="ism-1767" class="ISM-control">
                <title>Control: ism-1767</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[09].control[2]"/>
+                     value="catalog[1].group[22].group[2].group[08].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -18953,7 +18948,7 @@
             <control id="ism-1768" class="ISM-control">
                <title>Control: ism-1768</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[09].control[3]"/>
+                     value="catalog[1].group[22].group[2].group[08].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -18970,14 +18965,14 @@
          </group>
          <group>
             <title>Using symmetric encryption algorithms</title>
-            <prop name="sort-id" value="catalog[1].group[22].group[2].group[10]"/>
+            <prop name="sort-id" value="catalog[1].group[22].group[2].group[09]"/>
             <part name="overview">
                <p>The use of Electronic Codebook Mode with block ciphers allows repeated patterns in plaintext to appear as repeated patterns in ciphertext. Most plaintext, including written language and formatted files, contains significant repeated patterns. As such, malicious actors can use this to deduce possible meanings of ciphertext. The use of other modes, such as Cipher Block Chaining, Cipher Feedback, Galois/Counter Mode or Output Feedback, can prevent such attacks, although each has different properties which can make them inappropriate for certain use cases. AES is the only approved symmetric encryption algorithm.</p>
             </part>
             <control id="ism-1769" class="ISM-control">
                <title>Control: ism-1769</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[10].control[1]"/>
+                     value="catalog[1].group[22].group[2].group[09].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -19000,7 +18995,7 @@
             <control id="ism-1770" class="ISM-control">
                <title>Control: ism-1770</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[10].control[2]"/>
+                     value="catalog[1].group[22].group[2].group[09].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="0"/>
@@ -19017,7 +19012,7 @@
             <control id="ism-0479" class="ISM-control">
                <title>Control: ism-0479</title>
                <prop name="sort-id"
-                     value="catalog[1].group[22].group[2].group[10].control[3]"/>
+                     value="catalog[1].group[22].group[2].group[09].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="5"/>
@@ -19029,6 +19024,30 @@
                      value="ALL"/>
                <part name="statement" id="ism-0479_smt">
                   <p>Symmetric cryptographic algorithms are not used in Electronic Codebook Mode.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Planning for post-quantum cryptography standards</title>
+            <prop name="sort-id" value="catalog[1].group[22].group[2].group[10]"/>
+            <part name="overview">
+               <p>A cryptographically-relevant quantum computer will render most contemporary public key cryptography insecure, thus making ubiquitous secure communications based on current public key cryptography technology infeasible. As the creation of a cryptographically-relevant quantum computer presents new security risks, organisations are encouraged to consider anticipating future requirements and dependencies of vulnerable systems during the transition to post-quantum cryptography standards.</p>
+            </part>
+            <control id="ism-1917" class="ISM-control">
+               <title>Control: ism-1917</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[22].group[2].group[10].control[1]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="Mar-24"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/2.0"
+                     value="ALL"/>
+               <part name="statement" id="ism-1917_smt">
+                  <p>Future cryptographic requirements and dependencies are considered during the transition to post-quantum cryptographic standards.</p>
                </part>
             </control>
          </group>
@@ -21550,10 +21569,6 @@
                   <td>Domain Name System</td>
                </tr>
                <tr>
-                  <td>DSA</td>
-                  <td>Digital Signature Algorithm</td>
-               </tr>
-               <tr>
                   <td>EAL</td>
                   <td>Evaluation Assurance Level</td>
                </tr>
@@ -22766,18 +22781,18 @@
       <resource uuid="16c8c2ed-5a37-40ac-a29e-3da92ad398dd">
          <title>Information Security Manual OSCAL catalog - successor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/successor-version/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/successor-version/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/successor-version/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/successor-version/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/successor-version/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/successor-version/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="18203e18-2aca-492e-be44-770b2f47242f">
          <title>AV-TEST</title>
          <rlink href="https://www.av-test.org/en/"/>
       </resource>
       <resource uuid="18274424-7086-419e-9fae-a6ba64870459">
-         <title>OWASP Top Ten Proactive Controls</title>
+         <title>OWASP Top 10 Proactive Controls 2018</title>
          <rlink href="https://owasp.org/www-project-proactive-controls/"/>
       </resource>
       <resource uuid="188466f6-be12-49ce-b99a-981e54b1663e">
@@ -22820,11 +22835,11 @@
       <resource uuid="22ed0344-d91c-43e9-80e0-adfed1aa0851">
          <title>Information Security Manual OSCAL catalog - predecessor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/predecessor-version/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/predecessor-version/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/predecessor-version/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/predecessor-version/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/predecessor-version/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/predecessor-version/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="23d977b2-e64e-4ebc-a59f-cd95212045c5">
          <title>Implementing Network Segmentation and Segregation</title>
@@ -22899,7 +22914,7 @@
          <rlink href="https://www.protectivesecurity.gov.au/publications-library/policy-9-access-information"/>
       </resource>
       <resource uuid="3e5a98e5-9219-46c8-81c2-e3a4d13407ce">
-         <title>AD Forest Recovery - Resetting the krbtgt password</title>
+         <title>Active Directory Forest Recovery - Reset the krbtgt password</title>
          <rlink href="https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-reset-the-krbtgt-password"/>
       </resource>
       <resource uuid="3ec0f0b2-5565-46ad-a1e8-e39cb2219bd2">
@@ -22923,7 +22938,7 @@
          <rlink href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program"/>
       </resource>
       <resource uuid="436de247-4c95-4449-89a4-fec912605e7d">
-         <title>OWASP Top 10</title>
+         <title>OWASP Top 10 2021</title>
          <rlink href="https://owasp.org/www-project-top-ten/"/>
       </resource>
       <resource uuid="45899752-c83f-4976-bc99-03f6824a0793">
@@ -22944,7 +22959,7 @@
       </resource>
       <resource uuid="4defa9a8-c5f5-4b39-8b0a-537f14d9d14d">
          <title>Guidelines for Communications Infrastructure</title>
-         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-communications-infastructure"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-communications-infrastructure"/>
       </resource>
       <resource uuid="4ea4e1e9-09f5-46c2-b003-352bc862d5ed">
          <title>Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy</title>
@@ -23025,11 +23040,11 @@
       <resource uuid="6455b62e-c7af-4987-b87d-60b9575a59ff">
          <title>Information Security Manual OSCAL catalog</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="672e85cc-2d40-46ba-9e94-c604b9731c75">
          <title>secure programming practices</title>
@@ -23057,7 +23072,7 @@
       </resource>
       <resource uuid="6fac5a84-b86e-405f-b2b3-8c13ecee4a02">
          <title>Privacy Act 1988</title>
-         <rlink href="https://www.legislation.gov.au/Series/C2004A03712"/>
+         <rlink href="https://www.legislation.gov.au/C2004A03712/latest/text"/>
       </resource>
       <resource uuid="7000d51a-6cca-40a0-95d9-f1f15048ea68">
          <title>Australian cabling standards and regulations</title>
@@ -23068,7 +23083,7 @@
          <rlink href="https://www.ntia.doc.gov/report/2021/minimum-elements-software-bill-materials-sbom"/>
       </resource>
       <resource uuid="741ab440-5759-4571-894d-e499dea3a54c">
-         <title>Chrome Browser Enterprise Security Configuration Guide</title>
+         <title>Chrome Browser Enterprise Security Configuration Guide (Windows)</title>
          <rlink href="https://support.google.com/chrome/a/answer/9710898?hl=en"/>
       </resource>
       <resource uuid="76068c96-8d89-4c37-9eef-03488d5e1b1d">
@@ -23076,7 +23091,7 @@
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/managed-services/questions-ask-managed-service-providers"/>
       </resource>
       <resource uuid="76087ab6-88d4-4610-9a98-6ddc5f7bd7e6">
-         <title>OWASP API Security Top 10</title>
+         <title>OWASP API Security Top 10 2023</title>
          <rlink href="https://owasp.org/www-project-api-security/"/>
       </resource>
       <resource uuid="78a48231-9963-4f78-962a-861c96c58ead">
@@ -23085,10 +23100,10 @@
       </resource>
       <resource uuid="79f7a013-97a3-44f2-ba90-fcad6c5e4094">
          <title>Information Security Manual</title>
-         <prop name="published" value="2023-12-01T00:00:00+10:00"/>
-         <prop name="version" value="2023.12.01"/>
+         <prop name="published" value="2024-03-01T00:00:00+10:00"/>
+         <prop name="version" value="2024.03.01"/>
          <rlink media-type="application/pdf"
-                href="https://www.cyber.gov.au/ism/pdf/v2023.12.01-pdf"/>
+                href="https://www.cyber.gov.au/ism/pdf/v2024.03.01-pdf"/>
       </resource>
       <resource uuid="7d16ae67-87a7-4861-b939-e13ec279b5a2">
          <title>Guidelines for Personnel Security</title>
@@ -23104,7 +23119,7 @@
       </resource>
       <resource uuid="7ffd20ed-4f40-43be-a37b-97e7a1b31e2f">
          <title>The CERT Guide to Coordinated Vulnerability Disclosure</title>
-         <rlink href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=503330"/>
+         <rlink href="https://insights.sei.cmu.edu/library/the-cert-guide-to-coordinated-vulnerability-disclosure-2/"/>
       </resource>
       <resource uuid="8132c47e-a2dc-4dd9-81d6-38db96e5cec6">
          <title>Hardening Linux Workstations and Servers</title>
@@ -23170,10 +23185,6 @@
          <title>Securing PowerShell in the Enterprise</title>
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise"/>
       </resource>
-      <resource uuid="90cdf149-eb25-4b38-b836-8ee770545b29">
-         <title>Protection Profile for Mobile Device Fundamentals Version 3.2</title>
-         <rlink href="https://www.niap-ccevs.org/Profile/Info.cfm?PPID=455&amp;id=455"/>
-      </resource>
       <resource uuid="91b92563-d991-40fa-9adc-548df9f6c496">
          <title>group Managed Service Accounts</title>
          <rlink href="https://learn.microsoft.com/en-au/entra/architecture/service-accounts-group-managed"/>
@@ -23189,10 +23200,6 @@
       <resource uuid="941626b7-cfcc-4ab2-83a0-f9a91b2e453e">
          <title>Information security, cybersecurity and privacy protection – Guidance on managing information security risks</title>
          <rlink href="https://www.iso.org/standard/80585.html"/>
-      </resource>
-      <resource uuid="96e29819-9d5d-4082-aa0d-b8debe59ef32">
-         <title>Risk management – Vocabulary</title>
-         <rlink href="https://www.iso.org/standard/44651.html"/>
       </resource>
       <resource uuid="971c6452-6e97-4b4f-b5e4-64e457cb8320">
          <title>Cyber supply chain: An approach to assessing risk</title>
@@ -23275,7 +23282,7 @@
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/protecting-web-applications-and-users"/>
       </resource>
       <resource uuid="b43b0377-c2e4-4cdc-acec-a9ece7371e36">
-         <title>Baseline Security Requirements for Network Security Zones (Version 2.0)</title>
+         <title>Baseline security requirements for network security zones (version 2.0)</title>
          <rlink href="https://www.cyber.gc.ca/en/guidance/baseline-security-requirements-network-security-zones-version-20-itsp80022"/>
       </resource>
       <resource uuid="b594c9c0-b42f-4f06-b643-38023275a5c7">
@@ -23312,11 +23319,11 @@
       </resource>
       <resource uuid="bf76a2ec-3cf5-4a02-839a-7b2ea11cb3fc">
          <title>Intelligence Services Act 2001</title>
-         <rlink href="https://www.legislation.gov.au/Series/C2004A00928"/>
+         <rlink href="https://www.legislation.gov.au/C2004A00928/latest/text"/>
       </resource>
       <resource uuid="c0558477-3987-493c-99de-eeceff99847d">
          <title>Security of Critical Infrastructure Act 2018</title>
-         <rlink href="https://www.legislation.gov.au/Series/C2018A00029"/>
+         <rlink href="https://www.legislation.gov.au/C2018A00029/latest/text"/>
       </resource>
       <resource uuid="c17600e6-8b13-4d6e-a380-035b51a71b73">
          <title>The NIST Definition of Cloud Computing</title>
@@ -23342,9 +23349,13 @@
          <title>AV-Comparatives</title>
          <rlink href="https://www.av-comparatives.org/"/>
       </resource>
+      <resource uuid="c8ee37e4-fb81-4fa7-8f14-132c850974bc">
+         <title>Cloud Computing Security for Executives</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-computing-security-executives"/>
+      </resource>
       <resource uuid="cad720b4-e47a-437d-b272-6958e738131d">
-         <title>Common Sense Guide to Mitigating Insider Threats</title>
-         <rlink href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=540644"/>
+         <title>Common Sense Guide to Mitigating Insider Threats, Sixth Edition</title>
+         <rlink href="https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-sixth-edition/"/>
       </resource>
       <resource uuid="d0ace151-3c21-49af-bde7-eda58ab18a82">
          <title>cyber supply chain transparency</title>
@@ -23359,7 +23370,7 @@
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/security-configuration-guide-apple-ios-14-devices"/>
       </resource>
       <resource uuid="d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4">
-         <title>OWASP Application Security Verification Standard</title>
+         <title>OWASP Application Security Verification Standard 4.0.3</title>
          <rlink href="https://owasp.org/www-project-application-security-verification-standard/"/>
       </resource>
       <resource uuid="d3572f80-d9d6-4023-b6e6-23720bb0d618">
@@ -23374,10 +23385,6 @@
          <title>memory integrity functionality</title>
          <rlink href="https://support.microsoft.com/en-au/windows/core-isolation-e30ed737-17d8-42f3-a2a9-87521df09b78"/>
       </resource>
-      <resource uuid="d7e72166-b127-4249-bf93-3a7467c53f1d">
-         <title>Cloud Computing Security Considerations</title>
-         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-computing-security-considerations"/>
-      </resource>
       <resource uuid="daae37ef-262f-4b20-bfb7-a27901f3c2db">
          <title>Security Configuration Guide – Viasat Mobile Dynamic Defense</title>
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/security-configuration-guide-viasat-mobile-dynamic-defense"/>
@@ -23387,7 +23394,7 @@
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-ict-equipment"/>
       </resource>
       <resource uuid="dbd0372b-b758-46b1-bf05-d9676689d5b0">
-         <title>Coordinated Vulnerability Disclosure: The Guideline</title>
+         <title>Coordinated Vulnerability Disclosure: the Guideline</title>
          <rlink href="https://english.ncsc.nl/publications/publications/2019/juni/01/coordinated-vulnerability-disclosure-the-guideline"/>
       </resource>
       <resource uuid="dda788b6-183b-4e89-8254-8c4b5d0540a0">
@@ -23416,7 +23423,7 @@
       </resource>
       <resource uuid="e0d3b5ea-6a5a-400c-8daa-8a8059816a06">
          <title>Archives Act 1983</title>
-         <rlink href="https://www.legislation.gov.au/Series/C2004A02796"/>
+         <rlink href="https://www.legislation.gov.au/C2004A02796/latest/text"/>
       </resource>
       <resource uuid="e19a0c40-0a68-4fba-aea1-142fdd57dc75">
          <title>Web Conferencing Security</title>
@@ -23428,7 +23435,7 @@
       </resource>
       <resource uuid="e4c07309-9ca8-40b7-9571-4f6c032180a1">
          <title>Telecommunications (Interception and Access) Act 1979</title>
-         <rlink href="https://www.legislation.gov.au/Series/C2004A02124"/>
+         <rlink href="https://www.legislation.gov.au/C2004A02124/latest/text"/>
       </resource>
       <resource uuid="e4eee462-f6e5-4921-a8fe-26f3de6c6f45">
          <title>Marketing and Filtering Email Service Providers</title>

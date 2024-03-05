@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 24ef4432-98b7-4a18-92c1-17301974bfdd
+  uuid: 5f08d491-1626-4928-b80f-8e3fec9168ad
   metadata:
     title: Information Security Manual Essential Eight Maturity Level Two Baseline
-    last-modified: 2023-12-01T03:05:07.391041Z
-    version: 2023.12.1
+    last-modified: 2024-03-05T02:57:24.854934Z
+    version: 2024.03.5
     oscal-version: 1.1.0
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2023.12.1/artifacts/ISM_E8_ML2-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_E8_ML2-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -89,7 +89,7 @@ catalog:
 
           Further information on cyber security incident response plans can be found in the system-specific security documentation section of the [Guidelines for Security Documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).
 
-          Further information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats](#cad720b4-e47a-437d-b272-6958e738131d) publication.
+          Further information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats, Sixth Edition](#cad720b4-e47a-437d-b272-6958e738131d) publication.
 
           Further information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
@@ -526,14 +526,14 @@ catalog:
           value: "catalog[1].group[15].group[1].group[04]"
         parts:
         - name: overview
-          prose: "When operating systems are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in a secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
+          prose: "When operating systems are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in an approved secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
         controls:
         - id: ism-1654
           class: ISM-control
           title: "Control: ism-1654"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[1].group[04].control[05]"
+            value: "catalog[1].group[15].group[1].group[04].control[06]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -872,7 +872,7 @@ catalog:
 
           Further information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
 
-          Further information on hardening Google Chrome can be found in Google’s [Chrome Browser Enterprise Security Configuration Guide](#741ab440-5759-4571-894d-e499dea3a54c).
+          Further information on hardening Google Chrome can be found in Google’s [Chrome Browser Enterprise Security Configuration Guide (Windows)](#741ab440-5759-4571-894d-e499dea3a54c).
 
           Further information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s [Security Configuration Guide for Acrobat](#9ad09461-7b3d-4faf-bdcd-61df9952cf49) publication.
 
@@ -888,14 +888,14 @@ catalog:
           value: "catalog[1].group[15].group[2].group[3]"
         parts:
         - name: overview
-          prose: "When user applications are deployed in their default state it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in a secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
+          prose: "When user applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
         controls:
         - id: ism-1667
           class: ISM-control
           title: "Control: ism-1667"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[04]"
+            value: "catalog[1].group[15].group[2].group[3].control[05]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -920,7 +920,7 @@ catalog:
           title: "Control: ism-1668"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[05]"
+            value: "catalog[1].group[15].group[2].group[3].control[06]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -945,7 +945,7 @@ catalog:
           title: "Control: ism-1669"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[06]"
+            value: "catalog[1].group[15].group[2].group[3].control[07]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -970,7 +970,7 @@ catalog:
           title: "Control: ism-1542"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[07]"
+            value: "catalog[1].group[15].group[2].group[3].control[08]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -995,7 +995,7 @@ catalog:
           title: "Control: ism-1859"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[08]"
+            value: "catalog[1].group[15].group[2].group[3].control[09]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "2"
@@ -1020,7 +1020,7 @@ catalog:
           title: "Control: ism-1823"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[09]"
+            value: "catalog[1].group[15].group[2].group[3].control[10]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -1045,7 +1045,7 @@ catalog:
           title: "Control: ism-1486"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[10]"
+            value: "catalog[1].group[15].group[2].group[3].control[11]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "1"
@@ -1073,7 +1073,7 @@ catalog:
           title: "Control: ism-1485"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[11]"
+            value: "catalog[1].group[15].group[2].group[3].control[12]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "1"
@@ -1101,7 +1101,7 @@ catalog:
           title: "Control: ism-1412"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[12]"
+            value: "catalog[1].group[15].group[2].group[3].control[13]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "6"
@@ -1126,7 +1126,7 @@ catalog:
           title: "Control: ism-1585"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[13]"
+            value: "catalog[1].group[15].group[2].group[3].control[14]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "2"
@@ -1154,7 +1154,7 @@ catalog:
           title: "Control: ism-1670"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[14]"
+            value: "catalog[1].group[15].group[2].group[3].control[15]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -1179,7 +1179,7 @@ catalog:
           title: "Control: ism-1860"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[15]"
+            value: "catalog[1].group[15].group[2].group[3].control[16]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "2"
@@ -1204,7 +1204,7 @@ catalog:
           title: "Control: ism-1824"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[16]"
+            value: "catalog[1].group[15].group[2].group[3].control[17]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -1395,7 +1395,7 @@ catalog:
 
           Further information on [group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.
 
-          Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and [AD Forest Recovery - Resetting the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.
+          Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and [Active Directory Forest Recovery - Reset the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.
 
           Further information [memory integrity functionality](#d446dea3-c36d-45af-9623-05b686624af0) is available from Microsoft.
 
@@ -2956,7 +2956,7 @@ catalog:
       rlinks:
       - href: https://www.protectivesecurity.gov.au/publications-library/policy-9-access-information
     - uuid: 3e5a98e5-9219-46c8-81c2-e3a4d13407ce
-      title: AD Forest Recovery - Resetting the krbtgt password
+      title: Active Directory Forest Recovery - Reset the krbtgt password
       rlinks:
       - href: https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-reset-the-krbtgt-password
     - uuid: 3f349d16-11a1-459a-a299-c9446aea7597
@@ -3012,7 +3012,7 @@ catalog:
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-version-21h1-workstations
     - uuid: 741ab440-5759-4571-894d-e499dea3a54c
-      title: Chrome Browser Enterprise Security Configuration Guide
+      title: Chrome Browser Enterprise Security Configuration Guide (Windows)
       rlinks:
       - href: https://support.google.com/chrome/a/answer/9710898?hl=en
     - uuid: 7d16ae67-87a7-4861-b939-e13ec279b5a2
@@ -3092,9 +3092,9 @@ catalog:
       rlinks:
       - href: https://www.av-comparatives.org/
     - uuid: cad720b4-e47a-437d-b272-6958e738131d
-      title: Common Sense Guide to Mitigating Insider Threats
+      title: "Common Sense Guide to Mitigating Insider Threats, Sixth Edition"
       rlinks:
-      - href: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=540644
+      - href: https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-sixth-edition/
     - uuid: d0df96bb-7236-4784-8f54-2cb6335ad228
       title: exploit protection functionality
       rlinks:
