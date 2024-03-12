@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="0ad59c0d-da98-4fdf-9e50-f8342bff30fb">
+         uuid="7f2a5efd-0c76-4b7d-805a-c1ae26811cda">
    <metadata>
       <title>Information Security Manual PROTECTED Baseline</title>
-      <last-modified>2024-03-05T02:57:20.064132Z</last-modified>
-      <version>2024.03.5</version>
-      <oscal-version>1.1.0</oscal-version>
+      <last-modified>2024-03-12T05:55:53.315974Z</last-modified>
+      <version>2024.03.12</version>
+      <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>

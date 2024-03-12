@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="d3a4e931-c39b-433c-9dc3-dc114f4a0919">
+         uuid="294ca86a-da1b-48a0-ba5c-a2d04be4663e">
    <metadata>
       <title>Information Security Manual OFFICIAL: Sensitive Baseline</title>
-      <last-modified>2024-03-05T02:57:28.543667Z</last-modified>
-      <version>2024.03.5</version>
-      <oscal-version>1.1.0</oscal-version>
+      <last-modified>2024-03-12T05:55:55.694662Z</last-modified>
+      <version>2024.03.12</version>
+      <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>

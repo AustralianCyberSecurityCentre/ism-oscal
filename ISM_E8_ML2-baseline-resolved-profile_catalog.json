@@ -1,17 +1,17 @@
 {
   "catalog" : {
-    "uuid" : "5f08d491-1626-4928-b80f-8e3fec9168ad",
+    "uuid" : "0c488e66-b6ad-4a44-a0a6-9aecd97f9806",
     "metadata" : {
       "title" : "Information Security Manual Essential Eight Maturity Level Two Baseline",
-      "last-modified" : "2024-03-05T02:57:24.854934Z",
-      "version" : "2024.03.5",
-      "oscal-version" : "1.1.0",
+      "last-modified" : "2024-03-12T05:55:51.954116Z",
+      "version" : "2024.03.12",
+      "oscal-version" : "1.1.2",
       "props" : [ {
         "name" : "resolution-tool",
         "value" : "libOSCAL-Java+xslt"
       } ],
       "links" : [ {
-        "href" : "https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_E8_ML2-baseline_profile.xml",
+        "href" : "https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_E8_ML2-baseline_profile.xml",
         "rel" : "source-profile"
       } ],
       "roles" : [ {

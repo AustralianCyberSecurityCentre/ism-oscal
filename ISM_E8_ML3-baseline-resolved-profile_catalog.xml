@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="68e3926c-2670-4e8e-a4cb-3f9a088edb0b">
+         uuid="4e75f38e-e149-41fb-b03e-6f02fe358a16">
    <metadata>
       <title>Information Security Manual Essential Eight Maturity Level Three Baseline</title>
-      <last-modified>2024-03-05T02:57:23.459384Z</last-modified>
-      <version>2024.03.5</version>
-      <oscal-version>1.1.0</oscal-version>
+      <last-modified>2024-03-12T05:55:50.696641Z</last-modified>
+      <version>2024.03.12</version>
+      <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>

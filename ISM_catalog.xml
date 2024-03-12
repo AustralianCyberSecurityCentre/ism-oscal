@@ -3,10 +3,10 @@
          uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
    <metadata>
       <title>Information Security Manual</title>
-      <published>2024-03-05T01:59:03.682064Z</published>
-      <last-modified>2024-03-05T01:59:03.682064Z</last-modified>
-      <version>2024.03.5</version>
-      <oscal-version>1.1.0</oscal-version>
+      <published>2024-03-12T04:46:19.440949Z</published>
+      <last-modified>2024-03-12T04:46:19.440949Z</last-modified>
+      <version>2024.03.12</version>
+      <oscal-version>1.1.2</oscal-version>
       <link rel="canonical" href="#6455b62e-c7af-4987-b87d-60b9575a59ff"/>
       <link rel="latest-version" href="#219fa690-b9c0-4e76-9333-d5136a5582d1"/>
       <link rel="predecessor-version" href="#22ed0344-d91c-43e9-80e0-adfed1aa0851"/>
@@ -22781,11 +22781,11 @@
       <resource uuid="16c8c2ed-5a37-40ac-a29e-3da92ad398dd">
          <title>Information Security Manual OSCAL catalog - successor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/successor-version/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/successor-version/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/successor-version/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/successor-version/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/successor-version/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/successor-version/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="18203e18-2aca-492e-be44-770b2f47242f">
          <title>AV-TEST</title>
@@ -22835,11 +22835,11 @@
       <resource uuid="22ed0344-d91c-43e9-80e0-adfed1aa0851">
          <title>Information Security Manual OSCAL catalog - predecessor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/predecessor-version/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/predecessor-version/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/predecessor-version/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/predecessor-version/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/predecessor-version/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/predecessor-version/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="23d977b2-e64e-4ebc-a59f-cd95212045c5">
          <title>Implementing Network Segmentation and Segregation</title>
@@ -23040,11 +23040,11 @@
       <resource uuid="6455b62e-c7af-4987-b87d-60b9575a59ff">
          <title>Information Security Manual OSCAL catalog</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.5/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="672e85cc-2d40-46ba-9e94-c604b9731c75">
          <title>secure programming practices</title>
