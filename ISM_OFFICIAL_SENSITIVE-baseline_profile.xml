@@ -3,9 +3,9 @@
          uuid="f11a1d4c-6b92-4c2a-877f-21a76c0ea68b">
    <metadata>
       <title>Information Security Manual OFFICIAL: Sensitive Baseline</title>
-      <published>2024-03-12T04:46:19.440949Z</published>
-      <last-modified>2024-03-12T04:46:19.440949Z</last-modified>
-      <version>2024.03.12</version>
+      <published>2024-06-18T11:25:07.945218Z</published>
+      <last-modified>2024-06-18T11:25:07.945218Z</last-modified>
+      <version>2024.06.18</version>
       <oscal-version>1.1.2</oscal-version>
       <link rel="canonical" href="#d906e45a-d402-4dc4-957d-7c815f22d2b8"/>
       <link rel="latest-version" href="#04e23f98-d357-470a-af00-6bd841c9a23d"/>
@@ -35,30 +35,31 @@
    </metadata>
    <import href="#abea4b79-3bd3-4f68-a333-85cbebb5100d">
       <include-controls>
-         <with-id>ism-principle-g1</with-id>
-         <with-id>ism-principle-g2</with-id>
-         <with-id>ism-principle-g3</with-id>
-         <with-id>ism-principle-g4</with-id>
-         <with-id>ism-principle-g5</with-id>
-         <with-id>ism-principle-p1</with-id>
-         <with-id>ism-principle-p2</with-id>
-         <with-id>ism-principle-p3</with-id>
-         <with-id>ism-principle-p4</with-id>
-         <with-id>ism-principle-p5</with-id>
-         <with-id>ism-principle-p6</with-id>
-         <with-id>ism-principle-p7</with-id>
-         <with-id>ism-principle-p8</with-id>
-         <with-id>ism-principle-p9</with-id>
-         <with-id>ism-principle-p10</with-id>
-         <with-id>ism-principle-p11</with-id>
-         <with-id>ism-principle-p12</with-id>
-         <with-id>ism-principle-p13</with-id>
-         <with-id>ism-principle-p14</with-id>
-         <with-id>ism-principle-d1</with-id>
-         <with-id>ism-principle-d2</with-id>
-         <with-id>ism-principle-r1</with-id>
-         <with-id>ism-principle-r2</with-id>
-         <with-id>ism-principle-r3</with-id>
+         <with-id>ism-principle-govern-1</with-id>
+         <with-id>ism-principle-govern-2</with-id>
+         <with-id>ism-principle-govern-3</with-id>
+         <with-id>ism-principle-identify-1</with-id>
+         <with-id>ism-principle-identify-2</with-id>
+         <with-id>ism-principle-identify-3</with-id>
+         <with-id>ism-principle-protect-1</with-id>
+         <with-id>ism-principle-protect-2</with-id>
+         <with-id>ism-principle-protect-3</with-id>
+         <with-id>ism-principle-protect-4</with-id>
+         <with-id>ism-principle-protect-5</with-id>
+         <with-id>ism-principle-protect-6</with-id>
+         <with-id>ism-principle-protect-7</with-id>
+         <with-id>ism-principle-protect-8</with-id>
+         <with-id>ism-principle-protect-9</with-id>
+         <with-id>ism-principle-protect-10</with-id>
+         <with-id>ism-principle-protect-11</with-id>
+         <with-id>ism-principle-protect-12</with-id>
+         <with-id>ism-principle-protect-13</with-id>
+         <with-id>ism-principle-protect-14</with-id>
+         <with-id>ism-principle-detect-1</with-id>
+         <with-id>ism-principle-detect-2</with-id>
+         <with-id>ism-principle-respond-1</with-id>
+         <with-id>ism-principle-respond-2</with-id>
+         <with-id>ism-principle-respond-3</with-id>
          <with-id>ism-0714</with-id>
          <with-id>ism-1478</with-id>
          <with-id>ism-1617</with-id>
@@ -66,6 +67,7 @@
          <with-id>ism-0725</with-id>
          <with-id>ism-0726</with-id>
          <with-id>ism-0718</with-id>
+         <with-id>ism-1918</with-id>
          <with-id>ism-0733</with-id>
          <with-id>ism-1618</with-id>
          <with-id>ism-0734</with-id>
@@ -501,6 +503,7 @@
          <with-id>ism-1892</with-id>
          <with-id>ism-1893</with-id>
          <with-id>ism-1681</with-id>
+         <with-id>ism-1919</with-id>
          <with-id>ism-1173</with-id>
          <with-id>ism-0974</with-id>
          <with-id>ism-1505</with-id>
@@ -511,6 +514,7 @@
          <with-id>ism-1682</with-id>
          <with-id>ism-1894</with-id>
          <with-id>ism-1559</with-id>
+         <with-id>ism-1920</with-id>
          <with-id>ism-1683</with-id>
          <with-id>ism-0417</with-id>
          <with-id>ism-0421</with-id>
@@ -571,6 +575,7 @@
          <with-id>ism-1752</with-id>
          <with-id>ism-1703</with-id>
          <with-id>ism-1900</with-id>
+         <with-id>ism-1921</with-id>
          <with-id>ism-1876</with-id>
          <with-id>ism-1690</with-id>
          <with-id>ism-1691</with-id>
@@ -627,6 +632,9 @@
          <with-id>ism-0401</with-id>
          <with-id>ism-1780</with-id>
          <with-id>ism-1238</with-id>
+         <with-id>ism-1922</with-id>
+         <with-id>ism-1923</with-id>
+         <with-id>ism-1924</with-id>
          <with-id>ism-1796</with-id>
          <with-id>ism-1797</with-id>
          <with-id>ism-1798</with-id>
@@ -874,20 +882,20 @@
       <resource uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
          <title>Information Security Manual</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="d906e45a-d402-4dc4-957d-7c815f22d2b8">
          <title>Information Security Manual OFFICIAL: Sensitive Baseline</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
       </resource>
       <resource uuid="04e23f98-d357-470a-af00-6bd841c9a23d">
          <title>Information Security Manual OFFICIAL: Sensitive Baseline - latest version</title>
@@ -901,20 +909,20 @@
       <resource uuid="eaa8cc4e-4af4-461b-8d1c-2a88844ac66c">
          <title>Information Security Manual OFFICIAL: Sensitive Baseline - predecessor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
       </resource>
       <resource uuid="3e1cdff8-dd29-437e-bad1-8e0f88edea58">
          <title>Information Security Manual OFFICIAL: Sensitive Baseline - successor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
       </resource>
    </back-matter>
 </profile>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="0c488e66-b6ad-4a44-a0a6-9aecd97f9806">
+         uuid="472ec683-bfbb-419b-b1fa-3c88cee18798">
    <metadata>
       <title>Information Security Manual Essential Eight Maturity Level Two Baseline</title>
-      <last-modified>2024-03-12T05:55:51.954116Z</last-modified>
-      <version>2024.03.12</version>
+      <last-modified>2024-06-18T11:36:52.064866Z</last-modified>
+      <version>2024.06.18</version>
       <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_E8_ML2-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_E8_ML2-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -41,7 +41,7 @@
             <h1>Cyber security events</h1>
             <p>A cyber security event is an occurrence of a system, service or network state indicating a possible breach of security policy, failure of safeguards or a previously unknown situation that may be relevant to security.</p>
             <h1>Cyber security incidents</h1>
-            <p>A cyber security incident is an unwanted or unexpected cyber security event, or a series of such events, that has either compromised business operations or has a significant probability of compromising business operations.</p>
+            <p>A cyber security incident is an unwanted or unexpected cyber security event, or a series of such events, that either has compromised business operations or has a significant probability of compromising business operations.</p>
             <h1>Cyber resilience</h1>
             <p>Cyber resilience is the ability to adapt to disruptions caused by cyber security incidents while maintaining continuous business operations. This includes the ability to detect, manage and recover from cyber security incidents.</p>
             <h1>Detecting cyber security incidents</h1>
@@ -58,7 +58,7 @@
                <li>
                   <strong>Gateways:</strong> May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.</li>
                <li>
-                  <strong>Multifunction devices: May assist in</strong>identifying anomalous or malicious user behaviour indicating a cyber security incident or malicious insider activity.</li>
+                  <strong>Multifunction devices:</strong> May assist in identifying anomalous or malicious user behaviour indicating a cyber security incident.</li>
                <li>
                   <strong>Operating systems:</strong> May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.</li>
                <li>
@@ -79,7 +79,9 @@
             <h1>Further information</h1>
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
             <p>Further information on cyber security incident response plans can be found in the system-specific security documentation section of the <a href="#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">Guidelines for Security Documentation</a>.</p>
-            <p>Further information on establishing and operating a trusted insider program can be found in the Carnegie Mellon University’s Software Engineering Institute’s <a href="#cad720b4-e47a-437d-b272-6958e738131d">Common Sense Guide to Mitigating Insider Threats, Sixth Edition</a> publication.</p>
+            <p>Further information on preparing for and responding to cyber security incidents can be found in ASD’s <a href="#403f72c6-3e85-4185-8df3-130b2a6b25b3">Cyber Security Incident Response Planning: Executive Guidance</a> and <a href="#041bce05-55ad-4a2a-93e3-c582d39fce94">Cyber Security Incident Response Planning: Practitioner Guidance</a> publications.</p>
+            <p>Further information on understanding, identifying and preventing the insider threat can be found in the Attorney-General’s Department’s <a href="#fb60e251-ed4c-4781-96db-58a0225bca89">Countering the Insider Threat: A Guide for Australian Government</a> publication.</p>
+            <p>Further information on developing, implementing and maintaining an insider threat mitigation program can be found in the United States’ Cybersecurity &amp; Infrastructure Security Agency’s <a href="#c322926a-13b3-4efe-8573-06624418e8f5">Insider Threat Mitigation Guide</a> and Carnegie Mellon University’s Software Engineering Institute’s <a href="#cad720b4-e47a-437d-b272-6958e738131d">Common Sense Guide to Mitigating Insider Threats, Sixth Edition</a> publication.</p>
             <p>Further information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.</p>
             <p>Further information on <a href="#188466f6-be12-49ce-b99a-981e54b1663e">reporting cybercrime incidents</a> and <a href="#626d3582-3caf-49d6-89d5-4b8fdbbf1f31">reporting cyber security incidents</a> is available from ASD.</p>
          </part>
@@ -120,12 +122,15 @@
                <p>The Australian Signals Directorate (ASD) uses the cyber security incident reports it receives as the basis for providing assistance to organisations. Cyber security incident reports are also used by ASD to identify trends and maintain an accurate threat environment picture. ASD utilises this understanding to assist in the development of new and updated cyber security advice, capabilities, and techniques to better prevent and respond to evolving cyber threats. An organisation is recommended to internally coordinate their reporting of cyber security incidents to ASD. Note, an organisation should also be cognisant of any legislative obligations regarding the reporting of cyber security incidents to ASD.</p>
                <p>The types of cyber security incidents that should be reported to ASD include:</p>
                <ul>
-                  <li>suspicious activities, such as privileged account lockouts and unusual remote access activities</li>
+                  <li>suspicious privileged account lockouts</li>
+                  <li>suspicious remote access authentication events</li>
+                  <li>service accounts suspiciously communicating with internet-based infrastructure</li>
                   <li>compromise of sensitive or classified data</li>
                   <li>unauthorised access or attempts to access a system</li>
                   <li>emails with suspicious attachments or links</li>
                   <li>denial-of-service attacks</li>
-                  <li>ransomware attacks.</li>
+                  <li>ransomware attacks</li>
+                  <li>suspected tampering of electronic devices.</li>
                </ul>
             </part>
             <control id="ism-0140" class="ISM-control">
@@ -1229,7 +1234,6 @@
             <p>Further information <a href="#d446dea3-c36d-45af-9623-05b686624af0">memory integrity functionality</a> is available from Microsoft.</p>
             <p>Further information on <a href="#3f43c8d2-8a8c-4e2f-af80-48a607bce643">Local Security Authority protection functionality</a> is available from Microsoft.</p>
             <p>Further information on <a href="#8d53ee7f-54c2-4380-8408-f7403db30ba1">Credential Guard functionality</a> and <a href="#92975dff-58e0-4813-842b-f27c0533ca56">Remote Credential Guard functionality</a> is available from Microsoft.</p>
-            <p>Further information on mitigating the use of stolen credentials can be found in ASD’s <a href="#824e4353-a9ae-4869-88fb-cb0675dc5d1c">Mitigating the Use of Stolen Credentials</a> publication.</p>
             <p>Further information on mitigating the use of stolen credentials can also be found in Microsoft’s <a href="#f9fb4c57-8c12-4edf-9e34-cb422664aae9">Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2</a> publication.</p>
          </part>
          <group>
@@ -1405,7 +1409,7 @@
             <control id="ism-1173" class="ISM-control">
                <title>Control: ism-1173</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[07]"/>
+                     value="catalog[1].group[15].group[4].group[03].control[08]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="4"/>
@@ -1428,7 +1432,7 @@
             <control id="ism-0974" class="ISM-control">
                <title>Control: ism-0974</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[08]"/>
+                     value="catalog[1].group[15].group[4].group[03].control[09]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="6"/>
@@ -1451,7 +1455,7 @@
             <control id="ism-1401" class="ISM-control">
                <title>Control: ism-1401</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[10]"/>
+                     value="catalog[1].group[15].group[4].group[03].control[11]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="5"/>
@@ -1477,7 +1481,7 @@
             <control id="ism-1872" class="ISM-control">
                <title>Control: ism-1872</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[11]"/>
+                     value="catalog[1].group[15].group[4].group[03].control[12]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -1500,7 +1504,7 @@
             <control id="ism-1873" class="ISM-control">
                <title>Control: ism-1873</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[12]"/>
+                     value="catalog[1].group[15].group[4].group[03].control[13]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="1"/>
@@ -1520,7 +1524,7 @@
             <control id="ism-1682" class="ISM-control">
                <title>Control: ism-1682</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[14]"/>
+                     value="catalog[1].group[15].group[4].group[03].control[15]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="3"/>
@@ -1543,7 +1547,7 @@
             <control id="ism-1683" class="ISM-control">
                <title>Control: ism-1683</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[19]"/>
+                     value="catalog[1].group[15].group[4].group[03].control[21]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="2"/>
@@ -1568,7 +1572,7 @@
             <title>Setting credentials for break glass accounts, local administrator accounts and service accounts</title>
             <prop name="sort-id" value="catalog[1].group[15].group[4].group[06]"/>
             <part name="overview">
-               <p>When break glass accounts, local administrator accounts and service accounts use common usernames or weak credentials, it may allow malicious actors that compromises credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for break glass accounts, local administrator accounts and service accounts are long, unique, unpredictable and managed.</p>
+               <p>When break glass accounts, local administrator accounts and service accounts use common usernames or weak credentials, it may allow malicious actors that compromise credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for break glass accounts, local administrator accounts and service accounts are long, unique, unpredictable and managed.</p>
                <p>To provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically ensures that they are long, unique, unpredictable and managed. This ensures that service account credentials are secure, not misplaced or forgotten, and that they are automatically changed on a regular basis. However, in cases where the use of group Managed Service Accounts is not possible, credentials for service accounts should still be unique and unpredictable with a minimum length of 30 characters.</p>
             </part>
             <control id="ism-1685" class="ISM-control">
@@ -1760,15 +1764,16 @@
             <h1>Further information</h1>
             <p>Further information on system patching can be found in ASD’s <a href="#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a">Patching Applications and Operating Systems</a> publication.</p>
             <p>Further information on patching evaluated products can be found in the evaluated product usage section of the <a href="#a699a3aa-828d-479b-b50b-98127bb19437">Guidelines for Evaluated Products</a>.</p>
+            <p>Further information on managing risks associated with legacy IT can be found in ASD’s <a href="#065263a6-4634-4a52-bd3f-48b83bf437d8">Managing the Risks of Legacy IT: Executive Guidance</a> and <a href="#089badd3-ed47-4597-8b1f-bce3e42f4ac4">Managing the Risks of Legacy IT: Practitioner Guidance</a> publications.</p>
             <p>Further information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in ASD’s <a href="#d36ce452-ec21-4b05-89c1-f29a444a3dca">End of Support for Microsoft Windows and Microsoft Windows Server</a> publication.</p>
             <p>Further information on hardening user applications can be found in the user application hardening section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.</p>
             <p>Further information on hardening server applications can be found in the server application hardening section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.</p>
          </part>
          <group>
-            <title>Scanning for missing patches or updates</title>
+            <title>Scanning for unmitigated vulnerabilities</title>
             <prop name="sort-id" value="catalog[1].group[16].group[2].group[3]"/>
             <part name="overview">
-               <p>To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identifies all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at half the frequency in which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release then vulnerability scanning should be undertaken at least weekly.</p>
+               <p>To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identifies all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at twice the frequency in which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release then vulnerability scanning should be undertaken at least weekly.</p>
             </part>
             <control id="ism-1807" class="ISM-control">
                <title>Control: ism-1807</title>
@@ -1951,12 +1956,12 @@
             </control>
          </group>
          <group>
-            <title>When to patch vulnerabilities</title>
+            <title>Mitigating known vulnerabilities</title>
             <prop name="sort-id" value="catalog[1].group[16].group[2].group[4]"/>
             <part name="overview">
                <p>When patches or updates are released by vendors for vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by malicious actors. For example, by prioritising patches or updates for vulnerabilities in online services as well as operating systems of internet-facing servers and internet-facing network devices. This is especially important when vulnerabilities are assessed as critical by vendors or working exploits exist.</p>
                <p>If no patches or updates are available for vulnerabilities, mitigation advice from vendors, trusted authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.</p>
-               <p>If a patch or update is released for high assurance ICT equipment, ASD will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied.</p>
+               <p>If a patch or update is released for high assurance IT equipment, ASD will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied.</p>
             </part>
             <control id="ism-1876" class="ISM-control">
                <title>Control: ism-1876</title>
@@ -2136,9 +2141,9 @@
             <title>Cessation of support</title>
             <prop name="sort-id" value="catalog[1].group[16].group[2].group[5]"/>
             <part name="overview">
-               <p>When applications, operating systems, network devices and other ICT equipment reach their cessation date for support, an organisation will find it increasingly difficult to protect them against vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and other ICT equipment should be removed or replaced.</p>
-               <p>In planning for cessation of support, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and other ICT equipment may cease to receive support immediately after newer versions are released.</p>
-               <p>Finally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or other ICT equipment is not possible, compensating controls should be implemented until such time that they can be removed or replaced.</p>
+               <p>When applications, operating systems, network devices and other IT equipment reach their cessation date for support, and become legacy IT, an organisation will find it increasingly difficult to protect them against vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and other IT equipment should be removed or replaced.</p>
+               <p>In planning for cessation of support, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and other IT equipment may cease to receive support immediately after newer versions are released.</p>
+               <p>Finally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or other IT equipment is not possible, compensating controls should be implemented until such time that they can be removed or replaced.</p>
             </part>
             <control id="ism-1905" class="ISM-control">
                <title>Control: ism-1905</title>
@@ -2483,6 +2488,7 @@
             <p>Further information on event logging for web applications can be found in the web application development section of the <a href="#506198a8-7ae8-4c95-8b7b-2a4833cfab4b">Guidelines for Software Development</a>.</p>
             <p>Further information on event logging for web proxies can be found in the web proxies section of the <a href="#e8bde527-526c-4a6a-b66f-05228f09dd7b">Guidelines for Gateways</a>.</p>
             <p>Further information on event logging and forwarding can be found in the Australian Signals Directorate’s <a href="#de239dae-d1e8-4969-9680-ef3444d32a83">Windows Event Logging and Forwarding</a> publication.</p>
+            <p>Further information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity &amp; Infrastructure Security Agency’s <a href="#aeba0a2d-b48a-42f0-b047-622b9fea9a91">Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities</a> publication.</p>
          </part>
          <group>
             <title>Centralised event logging facility</title>
@@ -2574,9 +2580,21 @@
          <title>Patching Applications and Operating Systems</title>
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/patching-applications-and-operating-systems"/>
       </resource>
+      <resource uuid="041bce05-55ad-4a2a-93e3-c582d39fce94">
+         <title>Cyber Security Incident Response Planning: Practitioner Guidance</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/cyber-security-incident-response-planning-practitioner-guidance"/>
+      </resource>
       <resource uuid="0508be6f-cb97-44da-b212-42416a0048b0">
          <title>random dice roller</title>
          <rlink href="https://www.random.org/dice/?num=5"/>
+      </resource>
+      <resource uuid="065263a6-4634-4a52-bd3f-48b83bf437d8">
+         <title>Managing the Risks of Legacy IT: Executive Guidance</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-risks-legacy-it-executive-guidance"/>
+      </resource>
+      <resource uuid="089badd3-ed47-4597-8b1f-bce3e42f4ac4">
+         <title>Managing the Risks of Legacy IT: Practitioner Guidance</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-the-risks-of-legacy-it-practitioner-guidance"/>
       </resource>
       <resource uuid="0a1508c0-b062-4d85-8ded-a95316e17a3a">
          <title>command line process logging</title>
@@ -2633,6 +2651,10 @@
       <resource uuid="3f43c8d2-8a8c-4e2f-af80-48a607bce643">
          <title>Local Security Authority protection functionality</title>
          <rlink href="https://learn.microsoft.com/en-au/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection"/>
+      </resource>
+      <resource uuid="403f72c6-3e85-4185-8df3-130b2a6b25b3">
+         <title>Cyber Security Incident Response Planning: Executive Guidance</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/cyber-security-incident-response-planning-executive-guidance"/>
       </resource>
       <resource uuid="4a3a265f-7772-433b-9906-7f784052f28b">
          <title>vulnerable driver blocklist</title>
@@ -2694,10 +2716,6 @@
          <title>Hardening Linux Workstations and Servers</title>
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers"/>
       </resource>
-      <resource uuid="824e4353-a9ae-4869-88fb-cb0675dc5d1c">
-         <title>Mitigating the Use of Stolen Credentials</title>
-         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/mitigating-use-stolen-credentials"/>
-      </resource>
       <resource uuid="82ae76a4-ed9e-4a7b-8bad-f1950c41eab7">
          <title>attack surface reduction rules overview</title>
          <rlink href="https://learn.microsoft.com/en-au/microsoft-365/security/defender-endpoint/attack-surface-reduction?view=o365-worldwide"/>
@@ -2738,6 +2756,10 @@
          <title>Active Directory accounts</title>
          <rlink href="https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/understand-default-user-accounts"/>
       </resource>
+      <resource uuid="aeba0a2d-b48a-42f0-b047-622b9fea9a91">
+         <title>Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities</title>
+         <rlink href="https://www.cisa.gov/sites/default/files/2023-02/TLP%20CLEAR%20-%20Guidance%20for%20Implementing%20M-21-31_Improving%20the%20Federal%20Governments%20Investigative%20and%20Remediation%20Capabilities_.pdf"/>
+      </resource>
       <resource uuid="af0810aa-3486-4ca6-a48a-fad8ce9ac193">
          <title>greater visibility through PowerShell logging</title>
          <rlink href="https://www.mandiant.com/resources/blog/greater-visibility"/>
@@ -2749,6 +2771,10 @@
       <resource uuid="bac2c6f2-9356-46d2-b7c4-9af7393008df">
          <title>Australian Privacy Principles</title>
          <rlink href="https://www.oaic.gov.au/privacy/australian-privacy-principles"/>
+      </resource>
+      <resource uuid="c322926a-13b3-4efe-8573-06624418e8f5">
+         <title>Insider Threat Mitigation Guide</title>
+         <rlink href="https://www.cisa.gov/resources-tools/resources/insider-threat-mitigation-guide"/>
       </resource>
       <resource uuid="c6ca6620-ccd5-4c5d-b97c-9d92f1162948">
          <title>Guidelines for System Management</title>
@@ -2768,7 +2794,7 @@
       </resource>
       <resource uuid="d36ce452-ec21-4b05-89c1-f29a444a3dca">
          <title>End of Support for Microsoft Windows and Microsoft Windows Server</title>
-         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/end-support-microsoft-windows-and-microsoft-windows-server"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/end-support-microsoft-windows-and-microsoft-windows-server"/>
       </resource>
       <resource uuid="d446dea3-c36d-45af-9623-05b686624af0">
          <title>memory integrity functionality</title>
@@ -2813,6 +2839,10 @@
       <resource uuid="f9fb4c57-8c12-4edf-9e34-cb422664aae9">
          <title>Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2</title>
          <rlink href="https://www.microsoft.com/en-au/download/confirmation.aspx?id=36036"/>
+      </resource>
+      <resource uuid="fb60e251-ed4c-4781-96db-58a0225bca89">
+         <title>Countering the Insider Threat: A Guide for Australian Government</title>
+         <rlink href="https://www.ag.gov.au/integrity/publications/countering-insider-threat-guide-australian-government"/>
       </resource>
       <resource uuid="fe0138db-e83b-4a23-85d3-d84e1c22816f">
          <title>Guidelines for Cyber Security Incidents</title>

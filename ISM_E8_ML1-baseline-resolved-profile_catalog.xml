@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="f49c17a6-dddf-4aed-a321-be74e9584ed7">
+         uuid="99f4f219-54c6-480e-8fe1-55a9c84735ae">
    <metadata>
       <title>Information Security Manual Essential Eight Maturity Level One Baseline</title>
-      <last-modified>2024-03-12T05:55:49.372832Z</last-modified>
-      <version>2024.03.12</version>
+      <last-modified>2024-06-18T11:37:03.738046Z</last-modified>
+      <version>2024.06.18</version>
       <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2024.03.12/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -538,7 +538,6 @@
             <p>Further information <a href="#d446dea3-c36d-45af-9623-05b686624af0">memory integrity functionality</a> is available from Microsoft.</p>
             <p>Further information on <a href="#3f43c8d2-8a8c-4e2f-af80-48a607bce643">Local Security Authority protection functionality</a> is available from Microsoft.</p>
             <p>Further information on <a href="#8d53ee7f-54c2-4380-8408-f7403db30ba1">Credential Guard functionality</a> and <a href="#92975dff-58e0-4813-842b-f27c0533ca56">Remote Credential Guard functionality</a> is available from Microsoft.</p>
-            <p>Further information on mitigating the use of stolen credentials can be found in ASD’s <a href="#824e4353-a9ae-4869-88fb-cb0675dc5d1c">Mitigating the Use of Stolen Credentials</a> publication.</p>
             <p>Further information on mitigating the use of stolen credentials can also be found in Microsoft’s <a href="#f9fb4c57-8c12-4edf-9e34-cb422664aae9">Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2</a> publication.</p>
          </part>
          <group>
@@ -714,7 +713,7 @@
             <control id="ism-1401" class="ISM-control">
                <title>Control: ism-1401</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[10]"/>
+                     value="catalog[1].group[15].group[4].group[03].control[11]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="5"/>
@@ -850,15 +849,16 @@
             <h1>Further information</h1>
             <p>Further information on system patching can be found in ASD’s <a href="#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a">Patching Applications and Operating Systems</a> publication.</p>
             <p>Further information on patching evaluated products can be found in the evaluated product usage section of the <a href="#a699a3aa-828d-479b-b50b-98127bb19437">Guidelines for Evaluated Products</a>.</p>
+            <p>Further information on managing risks associated with legacy IT can be found in ASD’s <a href="#065263a6-4634-4a52-bd3f-48b83bf437d8">Managing the Risks of Legacy IT: Executive Guidance</a> and <a href="#089badd3-ed47-4597-8b1f-bce3e42f4ac4">Managing the Risks of Legacy IT: Practitioner Guidance</a> publications.</p>
             <p>Further information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in ASD’s <a href="#d36ce452-ec21-4b05-89c1-f29a444a3dca">End of Support for Microsoft Windows and Microsoft Windows Server</a> publication.</p>
             <p>Further information on hardening user applications can be found in the user application hardening section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.</p>
             <p>Further information on hardening server applications can be found in the server application hardening section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.</p>
          </part>
          <group>
-            <title>Scanning for missing patches or updates</title>
+            <title>Scanning for unmitigated vulnerabilities</title>
             <prop name="sort-id" value="catalog[1].group[16].group[2].group[3]"/>
             <part name="overview">
-               <p>To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identifies all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at half the frequency in which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release then vulnerability scanning should be undertaken at least weekly.</p>
+               <p>To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identifies all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at twice the frequency in which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release then vulnerability scanning should be undertaken at least weekly.</p>
             </part>
             <control id="ism-1807" class="ISM-control">
                <title>Control: ism-1807</title>
@@ -1018,12 +1018,12 @@
             </control>
          </group>
          <group>
-            <title>When to patch vulnerabilities</title>
+            <title>Mitigating known vulnerabilities</title>
             <prop name="sort-id" value="catalog[1].group[16].group[2].group[4]"/>
             <part name="overview">
                <p>When patches or updates are released by vendors for vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by malicious actors. For example, by prioritising patches or updates for vulnerabilities in online services as well as operating systems of internet-facing servers and internet-facing network devices. This is especially important when vulnerabilities are assessed as critical by vendors or working exploits exist.</p>
                <p>If no patches or updates are available for vulnerabilities, mitigation advice from vendors, trusted authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.</p>
-               <p>If a patch or update is released for high assurance ICT equipment, ASD will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied.</p>
+               <p>If a patch or update is released for high assurance IT equipment, ASD will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied.</p>
             </part>
             <control id="ism-1876" class="ISM-control">
                <title>Control: ism-1876</title>
@@ -1180,9 +1180,9 @@
             <title>Cessation of support</title>
             <prop name="sort-id" value="catalog[1].group[16].group[2].group[5]"/>
             <part name="overview">
-               <p>When applications, operating systems, network devices and other ICT equipment reach their cessation date for support, an organisation will find it increasingly difficult to protect them against vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and other ICT equipment should be removed or replaced.</p>
-               <p>In planning for cessation of support, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and other ICT equipment may cease to receive support immediately after newer versions are released.</p>
-               <p>Finally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or other ICT equipment is not possible, compensating controls should be implemented until such time that they can be removed or replaced.</p>
+               <p>When applications, operating systems, network devices and other IT equipment reach their cessation date for support, and become legacy IT, an organisation will find it increasingly difficult to protect them against vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and other IT equipment should be removed or replaced.</p>
+               <p>In planning for cessation of support, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and other IT equipment may cease to receive support immediately after newer versions are released.</p>
+               <p>Finally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or other IT equipment is not possible, compensating controls should be implemented until such time that they can be removed or replaced.</p>
             </part>
             <control id="ism-1905" class="ISM-control">
                <title>Control: ism-1905</title>
@@ -1468,6 +1468,14 @@
          <title>random dice roller</title>
          <rlink href="https://www.random.org/dice/?num=5"/>
       </resource>
+      <resource uuid="065263a6-4634-4a52-bd3f-48b83bf437d8">
+         <title>Managing the Risks of Legacy IT: Executive Guidance</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-risks-legacy-it-executive-guidance"/>
+      </resource>
+      <resource uuid="089badd3-ed47-4597-8b1f-bce3e42f4ac4">
+         <title>Managing the Risks of Legacy IT: Practitioner Guidance</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-the-risks-of-legacy-it-practitioner-guidance"/>
+      </resource>
       <resource uuid="0a1508c0-b062-4d85-8ded-a95316e17a3a">
          <title>command line process logging</title>
          <rlink href="https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/component-updates/command-line-process-auditing"/>
@@ -1560,10 +1568,6 @@
          <title>Hardening Linux Workstations and Servers</title>
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers"/>
       </resource>
-      <resource uuid="824e4353-a9ae-4869-88fb-cb0675dc5d1c">
-         <title>Mitigating the Use of Stolen Credentials</title>
-         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/mitigating-use-stolen-credentials"/>
-      </resource>
       <resource uuid="82ae76a4-ed9e-4a7b-8bad-f1950c41eab7">
          <title>attack surface reduction rules overview</title>
          <rlink href="https://learn.microsoft.com/en-au/microsoft-365/security/defender-endpoint/attack-surface-reduction?view=o365-worldwide"/>
@@ -1630,7 +1634,7 @@
       </resource>
       <resource uuid="d36ce452-ec21-4b05-89c1-f29a444a3dca">
          <title>End of Support for Microsoft Windows and Microsoft Windows Server</title>
-         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/end-support-microsoft-windows-and-microsoft-windows-server"/>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/end-support-microsoft-windows-and-microsoft-windows-server"/>
       </resource>
       <resource uuid="d446dea3-c36d-45af-9623-05b686624af0">
          <title>memory integrity functionality</title>
