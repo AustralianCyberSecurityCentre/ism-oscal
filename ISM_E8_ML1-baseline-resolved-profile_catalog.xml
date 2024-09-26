@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="99f4f219-54c6-480e-8fe1-55a9c84735ae">
+         uuid="fe56f8b7-b24d-45c1-9dfb-3bd50799dbfd">
    <metadata>
       <title>Information Security Manual Essential Eight Maturity Level One Baseline</title>
-      <last-modified>2024-06-18T11:37:03.738046Z</last-modified>
-      <version>2024.06.18</version>
+      <last-modified>2024-09-26T10:01:12.37588Z</last-modified>
+      <version>2024.09.26</version>
       <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -41,9 +41,9 @@
             <h1>Security clearances</h1>
             <p>Where these guidelines refer to security clearances, it applies to Australian security clearances or security clearances from a foreign government which are formally recognised by Australia.</p>
             <h1>Further information</h1>
-            <p>Further information on access to government resources, including required security clearances, can be found in the Department of Home Affairs’ <a href="#92679127-f61d-486a-a93e-df2a26dfb07a">Protective Security Policy Framework</a>, <a href="#3e4cd135-5fa3-4a1e-a192-1793ff42067c">Access to information</a> policy.</p>
+            <p>Further information on access to government resources, including required security clearances, can be found in the Department of Home Affairs’ <a href="#92679127-f61d-486a-a93e-df2a26dfb07a">Protective Security Policy Framework</a>.</p>
             <p>Further information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.</p>
-            <p>Further information on restricting the use of privileged accounts can be found in ASD’s <a href="#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b">Restricting Administrative Privileges</a> publication.</p>
+            <p>Further information on restricting the use of privileged user accounts can be found in ASD’s <a href="#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b">Restricting Administrative Privileges</a> publication.</p>
             <p>Further information on administering systems and applications can be found in the system administration section of the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for System Management</a>.</p>
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
          </part>
@@ -51,9 +51,9 @@
             <title>Privileged access to systems</title>
             <prop name="sort-id" value="catalog[1].group[08].group[2].group[06]"/>
             <part name="overview">
-               <p>Privileged accounts, such as privileged user accounts and privileged service accounts, are considered to be those which can alter or circumvent a system’s controls. This also applies to accounts that may only have limited privileges but still have the ability to bypass some of a system’s controls.</p>
-               <p>Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems. As such, ensuring that privileged accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.</p>
-               <p>Finally, centrally logging and analysing privileged access events, as well as privileged account and group management events, can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.</p>
+               <p>Privileged user accounts are considered to be those which can alter or circumvent a system’s controls. This also applies to accounts that may only have limited privileges but still have the ability to bypass some of a system’s controls.</p>
+               <p>Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.</p>
+               <p>Finally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.</p>
             </part>
             <control id="ism-1507" class="ISM-control">
                <title>Control: ism-1507</title>
@@ -87,10 +87,10 @@
                      value="catalog[1].group[08].group[2].group[06].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="5"/>
+                     value="6"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Dec-23"/>
+                     value="Sep-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
@@ -104,7 +104,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ML3"/>
                <part id="ism-1175_smt" name="statement">
-                  <p>Privileged accounts (excluding those explicitly authorised to access online services) are prevented from accessing the internet, email and web services.</p>
+                  <p>Privileged user accounts (excluding those explicitly authorised to access online services) are prevented from accessing the internet, email and web services.</p>
                </part>
             </control>
             <control id="ism-1883" class="ISM-control">
@@ -113,10 +113,10 @@
                      value="catalog[1].group[08].group[2].group[06].control[4]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Dec-23"/>
+                     value="Sep-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
@@ -130,7 +130,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ML3"/>
                <part id="ism-1883_smt" name="statement">
-                  <p>Privileged accounts explicitly authorised to access online services are strictly limited to only what is required for users and services to undertake their duties.</p>
+                  <p>Privileged user accounts explicitly authorised to access online services are strictly limited to only what is required for users and services to undertake their duties.</p>
                </part>
             </control>
             <control id="ism-0445" class="ISM-control">
@@ -139,10 +139,10 @@
                      value="catalog[1].group[08].group[2].group[06].control[6]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="7"/>
+                     value="8"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Sep-23"/>
+                     value="Sep-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
@@ -156,7 +156,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ML3"/>
                <part id="ism-0445_smt" name="statement">
-                  <p>Privileged users are assigned a dedicated privileged account to be used solely for duties requiring privileged access.</p>
+                  <p>Privileged users are assigned a dedicated privileged user account to be used solely for duties requiring privileged access.</p>
                </part>
             </control>
          </group>
@@ -172,14 +172,16 @@
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.</p>
             <p>Further information on patching or updating operating systems can be found in the system patching section of the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for System Management</a>.</p>
-            <p>Further information on hardening Microsoft Windows operating systems can be found in ASD’s <a href="#6e801c68-61f6-4c28-bf72-df91f7e232cc">Hardening Microsoft Windows 10 version 21H1 Workstations</a> publication and on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
+            <p>Further information on hardening Microsoft Windows operating systems can be found in ASD’s <a href="#6e801c68-61f6-4c28-bf72-df91f7e232cc">Hardening Microsoft Windows 10 and Windows 11 Workstations</a> publication.</p>
+            <p>Further information on hardening Microsoft Windows operating systems can also be found in the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
             <p>Further information on hardening Linux workstations and servers can be found in ASD’s <a href="#8132c47e-a2dc-4dd9-81d6-38db96e5cec6">Hardening Linux Workstations and Servers</a> publication.</p>
             <p>Further information on <a href="#d0df96bb-7236-4784-8f54-2cb6335ad228">exploit protection functionality</a> within Microsoft Windows is available from Microsoft.</p>
             <p>Further information on implementing application control can be found in ASD’s <a href="#4eeff329-cea0-4baf-a80b-8b0b76436075">Implementing Application Control</a> publication.</p>
             <p>Further information on Microsoft’s <a href="#5a2ed3ef-afcc-485e-8014-5107e9ed97e3">recommended application blocklist</a> and <a href="#4a3a265f-7772-433b-9906-7f784052f28b">vulnerable driver blocklist</a> are available from Microsoft.</p>
             <p>Further information on <a href="#0a1508c0-b062-4d85-8ded-a95316e17a3a">command line process logging</a> is available from Microsoft.</p>
             <p>Further information on the use of PowerShell can be found in ASD’s <a href="#8ffea524-0974-4b53-a8f5-41166073ede5">Securing PowerShell in the Enterprise</a> publication.</p>
-            <p>Further information on <a href="#7d22400c-ddef-4cbb-90f1-7502dc569e5b">the use of PowerShell by blue teams</a> is available from Microsoft while further information on obtaining <a href="#af0810aa-3486-4ca6-a48a-fad8ce9ac193">greater visibility through PowerShell logging</a> is available from Mandiant.</p>
+            <p>Further information on <a href="#7d22400c-ddef-4cbb-90f1-7502dc569e5b">the use of PowerShell by blue teams</a> is available from Microsoft.</p>
+            <p>Further information on obtaining <a href="#af0810aa-3486-4ca6-a48a-fad8ce9ac193">greater visibility through PowerShell logging</a> is available from Mandiant.</p>
             <p>Further information on independent testing of security products’ ability to <a href="#3a1a00f6-2f56-4d04-b99d-6f1682b95a98">detect or prevent various stages of network intrusions</a> is available from The MITRE Corporation.</p>
             <p>Further information on independent testing of antivirus software is available from <a href="#c852e735-4920-4616-8e34-2fddfb49eea8">AV-Comparatives</a> and <a href="#18203e18-2aca-492e-be44-770b2f47242f">AV-TEST</a>.</p>
             <p>Further information on the use of removable media can be found in the media usage section of the <a href="#b594c9c0-b42f-4f06-b643-38023275a5c7">Guidelines for Media</a>.</p>
@@ -316,7 +318,8 @@
             <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.</p>
             <p>Further information on patching or updating user applications can be found in the system patching section of the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for System Management</a>.</p>
             <p>Further information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.</p>
-            <p>Further information on hardening Microsoft Office can be found in ASD’s <a href="#58c9abfb-58fe-416e-a279-dfbfe123c99f">Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</a> publication and on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
+            <p>Further information on hardening Microsoft Office can be found in ASD’s <a href="#58c9abfb-58fe-416e-a279-dfbfe123c99f">Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</a> publication.</p>
+            <p>Further information on hardening Microsoft Office can also be found on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
             <p>Further information on hardening Microsoft Edge can be found on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a>.</p>
             <p>Further information on hardening Google Chrome can be found in Google’s <a href="#741ab440-5759-4571-894d-e499dea3a54c">Chrome Browser Enterprise Security Configuration Guide (Windows)</a>.</p>
             <p>Further information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s <a href="#9ad09461-7b3d-4faf-bdcd-61df9952cf49">Security Configuration Guide for Acrobat</a> publication.</p>
@@ -414,7 +417,7 @@
             <prop name="sort-id" value="catalog[1].group[15].group[2].group[4]"/>
             <part name="overview">
                <p>Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed at a later time to automate repetitive tasks. Macros are powerful tools that can be easily created by users to greatly improve their productivity. However, malicious actors can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations in order to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do.</p>
-               <p>Finally, centrally logging and analysing Microsoft Office macro events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.</p>
+               <p>In addition, centrally logging and analysing Microsoft Office macro events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.</p>
             </part>
             <control id="ism-1671" class="ISM-control">
                <title>Control: ism-1671</title>
@@ -527,7 +530,7 @@
          <prop name="sort-id" value="catalog[1].group[15].group[4]"/>
          <part name="overview">
             <h1>Account and authentication types</h1>
-            <p>The guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.</p>
+            <p>The guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which includes break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.</p>
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for Procurement and Outsourcing</a>.</p>
             <p>Further information on implementing multi-factor authentication can be found in ASD’s <a href="#83e3a9b1-5057-4531-91dd-03c8d92634b0">Implementing Multi-Factor Authentication</a> publication.</p>
@@ -750,7 +753,7 @@
             <p>System administration of cloud services brings unique challenges when compared to system administration of on-premises assets. Notably, responsibility for system administration of cloud services is often shared between service providers and their customers. As the system administration processes and procedures implemented by service providers are often opaque to their customers, customers should consider a service provider’s control plane to operate within a different security domain.</p>
             <h1>Further information</h1>
             <p>Further information on system administration can be found in the Australian Signals Directorate (ASD)’s <a href="#131048c7-a2e7-4da3-9257-7a058b06c1f8">Secure Administration</a> publication.</p>
-            <p>Further information on the use of privileged accounts for system administration activities can be found in the access to systems and their resources section of the <a href="#7d16ae67-87a7-4861-b939-e13ec279b5a2">Guidelines for Personnel Security</a>.</p>
+            <p>Further information on the use of privileged user accounts for system administration activities can be found in the access to systems and their resources section of the <a href="#7d16ae67-87a7-4861-b939-e13ec279b5a2">Guidelines for Personnel Security</a>.</p>
             <p>Further information on multi-factor authentication can be found in the authentication hardening section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for System Hardening</a>.</p>
             <p>Further information on event logging can be found in the event logging and monitoring section of the <a href="#edc24216-f52b-4513-bcda-5fa564661999">Guidelines for System Monitoring</a>.</p>
             <p>Further information on network segmentation and segregation can be found in the network design and configuration section of the <a href="#f145ff5b-d396-4248-8f48-621349d6f0ed">Guidelines for Networking</a>.</p>
@@ -759,7 +762,7 @@
             <title>Separate privileged operating environments</title>
             <prop name="sort-id" value="catalog[1].group[16].group[1].group[2]"/>
             <part name="overview">
-               <p>One of the greatest threats to the security of networks is the compromise of privileged accounts. Providing a separate privileged operating environment for system administrators, in addition to their unprivileged operating environment, makes it much harder for administrative activities and privileged accounts to be compromised by malicious actors.</p>
+               <p>One of the greatest threats to the security of networks is the compromise of privileged user accounts. Providing a separate privileged operating environment for system administrators, in addition to their unprivileged operating environment, makes it much harder for administrative activities and privileged user accounts to be compromised by malicious actors.</p>
                <p>Using different physical workstations, with one being a dedicated Secure Admin Workstation, is the most secure approach to separating privileged and unprivileged operating environments for system administrators. However, a trusted and hardened virtualisation-based solution may be sufficient for separating privileged and unprivileged operating environments on the same Secure Admin Workstation. In such cases, privileged operating environments should not be virtualised within unprivileged operating environments.</p>
             </part>
             <control id="ism-1380" class="ISM-control">
@@ -794,10 +797,10 @@
                      value="catalog[1].group[16].group[1].group[2].control[4]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Sep-21"/>
+                     value="Sep-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
@@ -811,7 +814,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ML3"/>
                <part id="ism-1688_smt" name="statement">
-                  <p>Unprivileged accounts cannot logon to privileged operating environments.</p>
+                  <p>Unprivileged user accounts cannot logon to privileged operating environments.</p>
                </part>
             </control>
             <control id="ism-1689" class="ISM-control">
@@ -820,10 +823,10 @@
                      value="catalog[1].group[16].group[1].group[2].control[5]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Sep-21"/>
+                     value="Sep-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
@@ -837,7 +840,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ML3"/>
                <part id="ism-1689_smt" name="statement">
-                  <p>Privileged accounts (excluding local administrator accounts) cannot logon to unprivileged operating environments.</p>
+                  <p>Privileged user accounts (excluding local administrator accounts) cannot logon to unprivileged operating environments.</p>
                </part>
             </control>
          </group>
@@ -1370,10 +1373,10 @@
                      value="catalog[1].group[16].group[3].group[4].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Dec-22"/>
+                     value="Sep-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
@@ -1387,7 +1390,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ML3"/>
                <part id="ism-1812_smt" name="statement">
-                  <p>Unprivileged accounts cannot access backups belonging to other accounts.</p>
+                  <p>Unprivileged user accounts cannot access backups belonging to other accounts.</p>
                </part>
             </control>
          </group>
@@ -1403,10 +1406,10 @@
                      value="catalog[1].group[16].group[3].group[5].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
-                     value="Dec-22"/>
+                     value="Sep-24"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ALL"/>
@@ -1420,7 +1423,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/2.0"
                      value="ML3"/>
                <part id="ism-1814_smt" name="statement">
-                  <p>Unprivileged accounts are prevented from modifying and deleting backups.</p>
+                  <p>Unprivileged user accounts are prevented from modifying and deleting backups.</p>
                </part>
             </control>
          </group>
@@ -1508,10 +1511,6 @@
          <title>Restricting Administrative Privileges</title>
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/restricting-administrative-privileges"/>
       </resource>
-      <resource uuid="3e4cd135-5fa3-4a1e-a192-1793ff42067c">
-         <title>Access to information</title>
-         <rlink href="https://www.protectivesecurity.gov.au/publications-library/policy-9-access-information"/>
-      </resource>
       <resource uuid="3e5a98e5-9219-46c8-81c2-e3a4d13407ce">
          <title>Active Directory Forest Recovery - Reset the krbtgt password</title>
          <rlink href="https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-reset-the-krbtgt-password"/>
@@ -1549,8 +1548,8 @@
          <rlink href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cyber-security-roles"/>
       </resource>
       <resource uuid="6e801c68-61f6-4c28-bf72-df91f7e232cc">
-         <title>Hardening Microsoft Windows 10 version 21H1 Workstations</title>
-         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-version-21h1-workstations"/>
+         <title>Hardening Microsoft Windows 10 and Windows 11 Workstations</title>
+         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-and-windows-11-workstations"/>
       </resource>
       <resource uuid="741ab440-5759-4571-894d-e499dea3a54c">
          <title>Chrome Browser Enterprise Security Configuration Guide (Windows)</title>

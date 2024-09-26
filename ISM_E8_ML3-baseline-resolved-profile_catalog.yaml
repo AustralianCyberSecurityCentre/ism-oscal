@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 94bc7fcd-94fa-4fdb-99c6-d7710ba90071
+  uuid: be0b67d5-d90d-4789-a842-fc464dc6b347
   metadata:
     title: Information Security Manual Essential Eight Maturity Level Three Baseline
-    last-modified: 2024-06-18T11:36:57.018882Z
-    version: 2024.06.18
+    last-modified: 2024-09-26T10:01:00.228889Z
+    version: 2024.09.26
     oscal-version: 1.1.2
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_E8_ML3-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_E8_ML3-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -76,7 +76,7 @@ catalog:
           - **Multifunction devices:** May assist in identifying anomalous or malicious user behaviour indicating a cyber security incident.
           - **Operating systems:** May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.
           - **Remote access services:** May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.
-          - **Security services:** May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.
+          - **Security products:** May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.
           - **Server applications:** May assist in identifying anomalous or malicious application behaviour indicating an exploitation attempt or successful compromise.
           - **System access:** May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.
           - **User applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
@@ -93,7 +93,9 @@ catalog:
 
           Further information on understanding, identifying and preventing the insider threat can be found in the Attorney-General’s Department’s [Countering the Insider Threat: A Guide for Australian Government](#fb60e251-ed4c-4781-96db-58a0225bca89) publication.
 
-          Further information on developing, implementing and maintaining an insider threat mitigation program can be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [Insider Threat Mitigation Guide](#c322926a-13b3-4efe-8573-06624418e8f5) and Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats, Sixth Edition](#cad720b4-e47a-437d-b272-6958e738131d) publication.
+          Further information on developing, implementing and maintaining an insider threat mitigation program can be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [Insider Threat Mitigation Guide](#c322926a-13b3-4efe-8573-06624418e8f5).
+
+          Further information on developing, implementing and maintaining an insider threat mitigation program can also be found in Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats, Sixth Edition](#cad720b4-e47a-437d-b272-6958e738131d) publication.
 
           Further information on reporting of cyber security incidents by service providers can be found in the managed services and cloud services section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
@@ -143,7 +145,7 @@ catalog:
 
             The types of cyber security incidents that should be reported to ASD include:
 
-            - suspicious privileged account lockouts
+            - suspicious privileged user account lockouts
             - suspicious remote access authentication events
             - service accounts suspiciously communicating with internet-based infrastructure
             - compromise of sensitive or classified data
@@ -242,11 +244,11 @@ catalog:
 
           # Further information
 
-          Further information on access to government resources, including required security clearances, can be found in the Department of Home Affairs’ [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a), [Access to information](#3e4cd135-5fa3-4a1e-a192-1793ff42067c) policy.
+          Further information on access to government resources, including required security clearances, can be found in the Department of Home Affairs’ [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a).
 
           Further information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.
 
-          Further information on restricting the use of privileged accounts can be found in ASD’s [Restricting Administrative Privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.
+          Further information on restricting the use of privileged user accounts can be found in ASD’s [Restricting Administrative Privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.
 
           Further information on administering systems and applications can be found in the system administration section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
@@ -259,11 +261,11 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            Privileged accounts, such as privileged user accounts and privileged service accounts, are considered to be those which can alter or circumvent a system’s controls. This also applies to accounts that may only have limited privileges but still have the ability to bypass some of a system’s controls.
+            Privileged user accounts are considered to be those which can alter or circumvent a system’s controls. This also applies to accounts that may only have limited privileges but still have the ability to bypass some of a system’s controls.
 
-            Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems. As such, ensuring that privileged accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.
+            Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.
 
-            Finally, centrally logging and analysing privileged access events, as well as privileged account and group management events, can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
+            Finally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
         controls:
         - id: ism-1507
           class: ISM-control
@@ -323,10 +325,10 @@ catalog:
             value: "catalog[1].group[08].group[2].group[06].control[3]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "5"
+            value: "6"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-23
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -342,7 +344,7 @@ catalog:
           parts:
           - id: ism-1175_smt
             name: statement
-            prose: "Privileged accounts (excluding those explicitly authorised to access online services) are prevented from accessing the internet, email and web services."
+            prose: "Privileged user accounts (excluding those explicitly authorised to access online services) are prevented from accessing the internet, email and web services."
         - id: ism-1883
           class: ISM-control
           title: "Control: ism-1883"
@@ -351,10 +353,10 @@ catalog:
             value: "catalog[1].group[08].group[2].group[06].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-23
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -370,7 +372,7 @@ catalog:
           parts:
           - id: ism-1883_smt
             name: statement
-            prose: Privileged accounts explicitly authorised to access online services are strictly limited to only what is required for users and services to undertake their duties.
+            prose: Privileged user accounts explicitly authorised to access online services are strictly limited to only what is required for users and services to undertake their duties.
         - id: ism-1649
           class: ISM-control
           title: "Control: ism-1649"
@@ -401,10 +403,10 @@ catalog:
             value: "catalog[1].group[08].group[2].group[06].control[6]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "7"
+            value: "8"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Sep-23
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -420,7 +422,7 @@ catalog:
           parts:
           - id: ism-0445_smt
             name: statement
-            prose: Privileged users are assigned a dedicated privileged account to be used solely for duties requiring privileged access.
+            prose: Privileged users are assigned a dedicated privileged user account to be used solely for duties requiring privileged access.
         - id: ism-1509
           class: ISM-control
           title: "Control: ism-1509"
@@ -454,10 +456,10 @@ catalog:
             value: "catalog[1].group[08].group[2].group[06].control[9]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-23
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -470,7 +472,7 @@ catalog:
           parts:
           - id: ism-1650_smt
             name: statement
-            prose: Privileged account and group management events are centrally logged.
+            prose: Privileged user account and security group management events are centrally logged.
       - title: Suspension of access to systems
         props:
         - name: sort-id
@@ -547,7 +549,9 @@ catalog:
 
           Further information on patching or updating operating systems can be found in the system patching section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
-          Further information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 version 21H1 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
+          Further information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 and Windows 11 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
+
+          Further information on hardening Microsoft Windows operating systems can also be found in the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
 
           Further information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux Workstations and Servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.
 
@@ -561,7 +565,9 @@ catalog:
 
           Further information on the use of PowerShell can be found in ASD’s [Securing PowerShell in the Enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.
 
-          Further information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft while further information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Mandiant.
+          Further information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft.
+
+          Further information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Mandiant.
 
           Further information on independent testing of security products’ ability to [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.
 
@@ -1081,7 +1087,9 @@ catalog:
 
           Further information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.
 
-          Further information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
+          Further information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.
+
+          Further information on hardening Microsoft Office can also be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
 
           Further information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
 
@@ -1446,7 +1454,7 @@ catalog:
           prose: |-
             Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed at a later time to automate repetitive tasks. Macros are powerful tools that can be easily created by users to greatly improve their productivity. However, malicious actors can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations in order to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do.
 
-            Finally, centrally logging and analysing Microsoft Office macro events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
+            In addition, centrally logging and analysing Microsoft Office macro events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
         controls:
         - id: ism-1671
           class: ISM-control
@@ -1726,7 +1734,7 @@ catalog:
         prose: |-
           # Account and authentication types
 
-          The guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged accounts, privileged accounts, break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.
+          The guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which includes break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.
 
           # Further information
 
@@ -2156,23 +2164,23 @@ catalog:
           - id: ism-1683_smt
             name: statement
             prose: Successful and unsuccessful multi-factor authentication events are centrally logged.
-      - title: "Setting credentials for break glass accounts, local administrator accounts and service accounts"
+      - title: "Setting credentials for built-in Administrator accounts, break glass accounts, local administrator accounts and service accounts"
         props:
         - name: sort-id
           value: "catalog[1].group[15].group[4].group[06]"
         parts:
         - name: overview
           prose: |-
-            When break glass accounts, local administrator accounts and service accounts use common usernames or weak credentials, it may allow malicious actors that compromise credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for break glass accounts, local administrator accounts and service accounts are long, unique, unpredictable and managed.
+            When built-in Administrator accounts, break glass accounts, local administrator accounts and service accounts use common usernames or weak credentials, it may allow malicious actors that compromise credentials on one workstation or server to easily compromise other workstations and servers. As such, it is critical that credentials for the built-in Administrator account, break glass accounts, local administrator accounts and service accounts in each domain are long, unique, unpredictable and managed.
 
-            To provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically ensures that they are long, unique, unpredictable and managed. This ensures that service account credentials are secure, not misplaced or forgotten, and that they are automatically changed on a regular basis. However, in cases where the use of group Managed Service Accounts is not possible, credentials for service accounts should still be unique and unpredictable with a minimum length of 30 characters.
+            To provide additional security and credential management functionality for service accounts, Microsoft introduced group Managed Service Accounts to Microsoft Windows Server. In doing so, service accounts that are created as group Managed Service Accounts do not require manual credential management by system administrators, as the operating system automatically ensures that they are long, unique, unpredictable and managed. This ensures that service account credentials are secure, not misplaced or forgotten, and that they are automatically changed on a regular basis. However, in cases where the use of group Managed Service Accounts is not possible, credentials for service accounts should still be unique, unpredictable and random with a minimum length of 30 characters.
         controls:
         - id: ism-1685
           class: ISM-control
           title: "Control: ism-1685"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[4].group[06].control[1]"
+            value: "catalog[1].group[15].group[4].group[06].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "2"
@@ -2210,7 +2218,7 @@ catalog:
           title: "Control: ism-1896"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[4].group[08].control[3]"
+            value: "catalog[1].group[15].group[4].group[08].control[03]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -2232,7 +2240,7 @@ catalog:
           title: "Control: ism-1861"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[4].group[08].control[4]"
+            value: "catalog[1].group[15].group[4].group[08].control[04]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "2"
@@ -2254,7 +2262,7 @@ catalog:
           title: "Control: ism-1686"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[4].group[08].control[5]"
+            value: "catalog[1].group[15].group[4].group[08].control[05]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "1"
@@ -2276,7 +2284,7 @@ catalog:
           title: "Control: ism-1897"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[4].group[08].control[6]"
+            value: "catalog[1].group[15].group[4].group[08].control[06]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "0"
@@ -2313,7 +2321,7 @@ catalog:
 
           Further information on system administration can be found in the Australian Signals Directorate (ASD)’s [Secure Administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.
 
-          Further information on the use of privileged accounts for system administration activities can be found in the access to systems and their resources section of the [Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
+          Further information on the use of privileged user accounts for system administration activities can be found in the access to systems and their resources section of the [Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
 
           Further information on multi-factor authentication can be found in the authentication hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
@@ -2328,7 +2336,7 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            One of the greatest threats to the security of networks is the compromise of privileged accounts. Providing a separate privileged operating environment for system administrators, in addition to their unprivileged operating environment, makes it much harder for administrative activities and privileged accounts to be compromised by malicious actors.
+            One of the greatest threats to the security of networks is the compromise of privileged user accounts. Providing a separate privileged operating environment for system administrators, in addition to their unprivileged operating environment, makes it much harder for administrative activities and privileged user accounts to be compromised by malicious actors.
 
             Using different physical workstations, with one being a dedicated Secure Admin Workstation, is the most secure approach to separating privileged and unprivileged operating environments for system administrators. However, a trusted and hardened virtualisation-based solution may be sufficient for separating privileged and unprivileged operating environments on the same Secure Admin Workstation. In such cases, privileged operating environments should not be virtualised within unprivileged operating environments.
         controls:
@@ -2415,10 +2423,10 @@ catalog:
             value: "catalog[1].group[16].group[1].group[2].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Sep-21
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -2434,7 +2442,7 @@ catalog:
           parts:
           - id: ism-1688_smt
             name: statement
-            prose: Unprivileged accounts cannot logon to privileged operating environments.
+            prose: Unprivileged user accounts cannot logon to privileged operating environments.
         - id: ism-1689
           class: ISM-control
           title: "Control: ism-1689"
@@ -2443,10 +2451,10 @@ catalog:
             value: "catalog[1].group[16].group[1].group[2].control[5]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Sep-21
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -2462,14 +2470,14 @@ catalog:
           parts:
           - id: ism-1689_smt
             name: statement
-            prose: Privileged accounts (excluding local administrator accounts) cannot logon to unprivileged operating environments.
+            prose: Privileged user accounts (excluding local administrator accounts) cannot logon to unprivileged operating environments.
       - title: Administrative infrastructure
         props:
         - name: sort-id
           value: "catalog[1].group[16].group[1].group[3]"
         parts:
         - name: overview
-          prose: "The security of administrative activities can be improved by segregating administrative infrastructure from the wider network and the internet. In doing so, the use of a jump server (also known as a jump host or jump box) can be an effective way of simplifying and securing administrative activities. Specifically, a jump server can provide filtering of network management traffic while also acting as a focal point to perform multi-factor authentication; store and manage administrative tools; and perform logging, monitoring and alerting activities. Finally, using separate jump servers for the administration of critical servers, high-value servers and regular servers can further assist in protecting these assets."
+          prose: "The security of administrative activities can be improved by segregating administrative infrastructure from the wider network and the internet. In doing so, the use of a jump server (also known as a jump host or jump box) that allows only necessary ports and services to be used can be an effective way of simplifying and securing administrative activities. Specifically, a jump server can provide filtering of network management traffic while also acting as a focal point to perform multi-factor authentication; store and manage administrative tools; and perform logging, monitoring and alerting activities. In addition, using separate jump servers for the administration of critical servers (such as Microsoft Active Directory Domain Services domain controllers, Microsoft Active Directory Certificate Services Certification Authority servers, Microsoft Active Directory Federation Services servers and Microsoft Entra Connect servers), high-value servers (such as Domain Name System servers, database servers, email servers, file servers and web servers) and regular servers can further assist in protecting these assets."
         controls:
         - id: ism-1387
           class: ISM-control
@@ -3330,10 +3338,10 @@ catalog:
             value: "catalog[1].group[16].group[3].group[4].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-22
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -3349,7 +3357,7 @@ catalog:
           parts:
           - id: ism-1812_smt
             name: statement
-            prose: Unprivileged accounts cannot access backups belonging to other accounts.
+            prose: Unprivileged user accounts cannot access backups belonging to other accounts.
         - id: ism-1813
           class: ISM-control
           title: "Control: ism-1813"
@@ -3358,10 +3366,10 @@ catalog:
             value: "catalog[1].group[16].group[3].group[4].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-22
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -3371,7 +3379,7 @@ catalog:
           parts:
           - id: ism-1813_smt
             name: statement
-            prose: Unprivileged accounts cannot access their own backups.
+            prose: Unprivileged user accounts cannot access their own backups.
         - id: ism-1705
           class: ISM-control
           title: "Control: ism-1705"
@@ -3380,10 +3388,10 @@ catalog:
             value: "catalog[1].group[16].group[3].group[4].control[3]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-22
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -3396,7 +3404,7 @@ catalog:
           parts:
           - id: ism-1705_smt
             name: statement
-            prose: Privileged accounts (excluding backup administrator accounts) cannot access backups belonging to other accounts.
+            prose: Privileged user accounts (excluding backup administrator accounts) cannot access backups belonging to other accounts.
         - id: ism-1706
           class: ISM-control
           title: "Control: ism-1706"
@@ -3405,10 +3413,10 @@ catalog:
             value: "catalog[1].group[16].group[3].group[4].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-22
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -3418,7 +3426,7 @@ catalog:
           parts:
           - id: ism-1706_smt
             name: statement
-            prose: Privileged accounts (excluding backup administrator accounts) cannot access their own backups.
+            prose: Privileged user accounts (excluding backup administrator accounts) cannot access their own backups.
       - title: Backup modification and deletion
         props:
         - name: sort-id
@@ -3435,10 +3443,10 @@ catalog:
             value: "catalog[1].group[16].group[3].group[5].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-22
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -3454,7 +3462,7 @@ catalog:
           parts:
           - id: ism-1814_smt
             name: statement
-            prose: Unprivileged accounts are prevented from modifying and deleting backups.
+            prose: Unprivileged user accounts are prevented from modifying and deleting backups.
         - id: ism-1707
           class: ISM-control
           title: "Control: ism-1707"
@@ -3463,10 +3471,10 @@ catalog:
             value: "catalog[1].group[16].group[3].group[5].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: Dec-22
+            value: Sep-24
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: ALL
@@ -3479,7 +3487,7 @@ catalog:
           parts:
           - id: ism-1707_smt
             name: statement
-            prose: Privileged accounts (excluding backup administrator accounts) are prevented from modifying and deleting backups.
+            prose: Privileged user accounts (excluding backup administrator accounts) are prevented from modifying and deleting backups.
         - id: ism-1708
           class: ISM-control
           title: "Control: ism-1708"
@@ -3550,6 +3558,10 @@ catalog:
       parts:
       - name: overview
         prose: |-
+          # Event logging and monitoring activities
+
+          These guidelines are intended for security-relevant event logs. They are not intended for non-security-relevant event logs, such as system and application performance-related event logs.
+
           # Further information
 
           Further information on logging intrusion activity can be found in the managing cyber security incidents section of the [Guidelines for Cyber Security Incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).
@@ -3564,9 +3576,9 @@ catalog:
 
           Further information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
-          Further information on event logging for application-based security services can be found in the operating system hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
+          Further information on event logging for application-based security products can be found in the operating system hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
-          Further information on event logging for network-based security services can be found in the network design and configuration section of the [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
+          Further information on event logging for network-based security products can be found in the network design and configuration section of the [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
 
           Further information on event logging for server applications can be found in the server application hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
@@ -3578,7 +3590,7 @@ catalog:
 
           Further information on event logging for web proxies can be found in the web proxies section of the [Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).
 
-          Further information on event logging and forwarding can be found in the Australian Signals Directorate’s [Windows Event Logging and Forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83) publication.
+          Further information on event logging and forwarding can be found in the Australian Signals Directorate’s [Best Practices for Event Logging and Threat Detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc) and [Windows Event Logging and Forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83) publications.
 
           Further information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities](#aeba0a2d-b48a-42f0-b047-622b9fea9a91) publication.
       groups:
@@ -3588,7 +3600,7 @@ catalog:
           value: "catalog[1].group[17].group[1].group[3]"
         parts:
         - name: overview
-          prose: "A centralised event logging facility can be used to capture, protect and manage event logs from multiple sources in a coordinated manner. This may be achieved by using a Security Information and Event Management solution. Furthermore, in support of a centralised event logging facility, it is important that an accurate time source is established and used consistently across systems to assist with identifying connections between events."
+          prose: "A centralised event logging facility can be used to capture, protect and manage event logs from multiple sources in a coordinated manner. This may be achieved by using a Security Information and Event Management solution. Furthermore, in support of a centralised event logging facility, it is important that an accurate and consistent time source is used to assist with identifying connections between events."
         controls:
         - id: ism-1815
           class: ISM-control
@@ -3697,7 +3709,7 @@ catalog:
           title: "Control: ism-1228"
           props:
           - name: sort-id
-            value: "catalog[1].group[17].group[1].group[4].control[4]"
+            value: "catalog[1].group[17].group[1].group[4].control[6]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/2.0
             value: "3"
@@ -3779,10 +3791,6 @@ catalog:
       title: Restricting Administrative Privileges
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/restricting-administrative-privileges
-    - uuid: 3e4cd135-5fa3-4a1e-a192-1793ff42067c
-      title: Access to information
-      rlinks:
-      - href: https://www.protectivesecurity.gov.au/publications-library/policy-9-access-information
     - uuid: 3e5a98e5-9219-46c8-81c2-e3a4d13407ce
       title: Active Directory Forest Recovery - Reset the krbtgt password
       rlinks:
@@ -3840,9 +3848,9 @@ catalog:
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cyber-security-roles
     - uuid: 6e801c68-61f6-4c28-bf72-df91f7e232cc
-      title: Hardening Microsoft Windows 10 version 21H1 Workstations
+      title: Hardening Microsoft Windows 10 and Windows 11 Workstations
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-version-21h1-workstations
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-and-windows-11-workstations
     - uuid: 741ab440-5759-4571-894d-e499dea3a54c
       title: Chrome Browser Enterprise Security Configuration Guide (Windows)
       rlinks:
@@ -3911,6 +3919,10 @@ catalog:
       title: Guidelines for Media
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-media
+    - uuid: b95c4745-572a-4121-b4e1-d0baa90a84fc
+      title: Best Practices for Event Logging and Threat Detection
+      rlinks:
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/best-practices-event-logging-threat-detection
     - uuid: bac2c6f2-9356-46d2-b7c4-9af7393008df
       title: Australian Privacy Principles
       rlinks:

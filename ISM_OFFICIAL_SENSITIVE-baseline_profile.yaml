@@ -3,9 +3,9 @@ profile:
   uuid: f11a1d4c-6b92-4c2a-877f-21a76c0ea68b
   metadata:
     title: "Information Security Manual OFFICIAL: Sensitive Baseline"
-    published: 2024-06-18T11:25:07.945218Z
-    last-modified: 2024-06-18T11:25:07.945218Z
-    version: 2024.06.18
+    published: 2024-09-26T09:03:08.944067Z
+    last-modified: 2024-09-26T09:03:08.944067Z
+    version: 2024.09.26
     oscal-version: 1.1.2
     links:
     - href: '#d906e45a-d402-4dc4-957d-7c815f22d2b8'
@@ -486,26 +486,53 @@ profile:
       - ism-1245
       - ism-1249
       - ism-1250
+      - ism-1926
+      - ism-1927
+      - ism-1928
+      - ism-1830
       - ism-1827
+      - ism-1929
       - ism-1828
       - ism-1829
-      - ism-1830
+      - ism-1930
+      - ism-1931
       - ism-1832
-      - ism-1833
+      - ism-1932
+      - ism-1933
       - ism-1834
+      - ism-1833
+      - ism-1934
       - ism-1835
+      - ism-1935
       - ism-1836
       - ism-1837
       - ism-1838
+      - ism-1936
+      - ism-1937
       - ism-1839
       - ism-1840
       - ism-1841
       - ism-1842
       - ism-1843
       - ism-1844
+      - ism-1938
       - ism-1620
+      - ism-1939
+      - ism-1940
+      - ism-1941
+      - ism-1942
       - ism-1845
       - ism-1846
+      - ism-1943
+      - ism-1944
+      - ism-1945
+      - ism-1946
+      - ism-1947
+      - ism-1948
+      - ism-1949
+      - ism-1950
+      - ism-1951
+      - ism-1952
       - ism-1546
       - ism-1603
       - ism-1055
@@ -537,11 +564,15 @@ profile:
       - ism-1594
       - ism-1595
       - ism-1596
+      - ism-1953
       - ism-1685
       - ism-1795
+      - ism-1954
       - ism-1619
       - ism-1590
+      - ism-1955
       - ism-1847
+      - ism-1956
       - ism-0418
       - ism-1597
       - ism-1896
@@ -550,6 +581,7 @@ profile:
       - ism-1897
       - ism-1749
       - ism-1402
+      - ism-1957
       - ism-1875
       - ism-1403
       - ism-0853
@@ -568,6 +600,7 @@ profile:
       - ism-1687
       - ism-1688
       - ism-1689
+      - ism-1958
       - ism-1385
       - ism-1750
       - ism-1386
@@ -627,12 +660,15 @@ profile:
       - ism-1515
       - ism-0580
       - ism-0585
+      - ism-1959
       - ism-1405
       - ism-1815
       - ism-0988
       - ism-1906
       - ism-1907
       - ism-0109
+      - ism-1960
+      - ism-1961
       - ism-1228
       - ism-0859
       - ism-0991
@@ -738,6 +774,7 @@ profile:
       - ism-1479
       - ism-1863
       - ism-1006
+      - ism-1962
       - ism-1311
       - ism-1312
       - ism-1028
@@ -749,6 +786,8 @@ profile:
       - ism-1304
       - ism-0534
       - ism-1801
+      - ism-1963
+      - ism-1964
       - ism-1314
       - ism-0536
       - ism-1315
@@ -873,6 +912,7 @@ profile:
       - ism-1389
       - ism-0649
       - ism-1284
+      - ism-1965
       - ism-1286
       - ism-1287
       - ism-0677
@@ -892,20 +932,20 @@ profile:
     - uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
       title: Information Security Manual
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: d906e45a-d402-4dc4-957d-7c815f22d2b8
       title: "Information Security Manual OFFICIAL: Sensitive Baseline"
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 04e23f98-d357-470a-af00-6bd841c9a23d
       title: "Information Security Manual OFFICIAL: Sensitive Baseline - latest version"
@@ -919,18 +959,18 @@ profile:
     - uuid: eaa8cc4e-4af4-461b-8d1c-2a88844ac66c
       title: "Information Security Manual OFFICIAL: Sensitive Baseline - predecessor version"
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 3e1cdff8-dd29-437e-bad1-8e0f88edea58
       title: "Information Security Manual OFFICIAL: Sensitive Baseline - successor version"
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
         media-type: application/oscal+yaml
