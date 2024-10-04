@@ -3,9 +3,9 @@ catalog:
   uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
   metadata:
     title: Information Security Manual
-    published: 2024-09-26T09:03:08.944067Z
-    last-modified: 2024-09-26T09:03:08.944067Z
-    version: 2024.09.26
+    published: 2024-10-04T03:41:18.745722Z
+    last-modified: 2024-10-04T03:41:18.745722Z
+    version: 2024.10.4
     oscal-version: 1.1.2
     links:
     - href: '#6455b62e-c7af-4987-b87d-60b9575a59ff'
@@ -4123,7 +4123,7 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            Privileged user accounts are considered to be those which can alter or circumvent a system’s controls. This also applies to accounts that may only have limited privileges but still have the ability to bypass some of a system’s controls.
+            Privileged user accounts are considered to be those which can alter or circumvent a system’s controls. This also applies to user accounts that may only have limited privileges but still have the ability to bypass some of a system’s controls.
 
             Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.
 
@@ -4637,7 +4637,7 @@ catalog:
 
             When break glass accounts are used, any administrative activities performed will not be directly attributable to an individual, and systems may not generate event logs. As such, additional controls need to be implemented in order to maintain the system’s integrity. In doing so, an organisation should ensure that any administrative activities performed using a break glass account are identified and documented in support of change management processes and procedures. This includes documenting the individual using the break glass account, the reason for using the break glass account and any administrative activities performed using the break glass account.
 
-            As the custodian of each break glass account should be the only party who knows the account’s credentials, credentials will need to be changed and tested by custodians after any authorised access by another party. Modern password managers that support automated credential changes and testing can assist in reducing the administrative overhead of such activities.
+            As the custodian of each break glass account should be the only party who knows the break glass account’s credentials, credentials will need to be changed and tested by custodians after any authorised access by another party. Modern password managers that support automated credential changes and testing can assist in reducing the administrative overhead of such activities.
 
             Finally, centrally logging and analysing break glass account events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
         controls:
@@ -14212,9 +14212,9 @@ catalog:
       parts:
       - name: overview
         prose: |-
-          # Account and authentication types
+          # User accounts and authentication types
 
-          The guidance within this section is equally applicable to all account types unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which includes break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.
+          The guidance within this section is equally applicable to all user accounts unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which includes break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.
 
           # Further information
 
@@ -14324,7 +14324,7 @@ catalog:
             - something users have, such as a security key, smart card, passkey, smartphone or one-time password token
             - something users are, such as a fingerprint pattern or their facial geometry.
 
-            Users of online services, privileged users of systems and users with access to data repositories are more likely to be targeted by malicious actors due to their access. For this reason, it is especially important that multi-factor authentication is used for these accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing malicious actors’ ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.
+            Users of online services, privileged users of systems and users with access to data repositories are more likely to be targeted by malicious actors due to their access. For this reason, it is especially important that multi-factor authentication is used for these user accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing malicious actors’ ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.
 
             When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something users have should be used with something users know. Alternatively, something users have that is unlocked by something users know or are (often known as passwordless multi-factor authentication) can be used. Furthermore, for increased security, the use of phishing-resistant multi-factor authentication is recommended to protect against real-time phishing attacks.
 
@@ -14841,7 +14841,7 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            A significant threat to the compromise of accounts is credential cracking tools. When malicious actors gain access to a list of usernames and hashed credentials from a system, they can attempt to recover username and credential pairs by comparing the hashes of known credentials with the hashed credentials they have gained access to. By finding a match malicious actors will know the credential associated with a given username.
+            A significant threat to the compromise of user accounts is credential cracking tools. When malicious actors gain access to a list of usernames and hashed credentials from a system, they can attempt to recover username and credential pairs by comparing the hashes of known credentials with the hashed credentials they have gained access to. By finding a match malicious actors will know the credential associated with a given username.
 
             In order to reduce this security risk, an organisation should implement multi-factor authentication. Note, while single-factor authentication is no longer considered suitable for protecting sensitive or classified systems, it may not be possible to implement multi-factor authentication on some systems. In such cases, an organisation will need to increase the time on average it takes malicious actors to compromise a credential by continuing to increase its length over time. Such increases in length can be balanced against useability through the use of passphrases rather than passwords. In cases where systems do not support passphrases, and as an absolute last resort, the strongest password length and password complexity supported by a system will need to be implemented.
 
@@ -15182,7 +15182,7 @@ catalog:
           value: "catalog[1].group[15].group[4].group[07]"
         parts:
         - name: overview
-          prose: "Generally, credentials should not need to be changed on a frequent basis. However, some events may necessitate the requirement for individual accounts, or groups of accounts, to change their credentials. This can include credentials being compromised (such as appearing in an online data breach database), being suspected of being compromised (such as when malicious actors gain access to a network), being discovered stored on networks in the clear, being transferred across networks in the clear, when membership of shared accounts change and if they have not been changed in the past 12 months."
+          prose: "Generally, credentials should not need to be changed on a frequent basis. However, some events may necessitate the requirement for individual user accounts, or groups of user accounts, to change their credentials. This can include credentials being compromised (such as appearing in an online data breach database), being suspected of being compromised (such as when malicious actors gain access to a network), being discovered stored on networks in the clear, being transferred across networks in the clear, when membership of shared user accounts change and if they have not been changed in the past 12 months."
         controls:
         - id: ism-1590
           class: ISM-control
@@ -15209,7 +15209,7 @@ catalog:
               - they are suspected of being compromised
               - they are discovered stored on networks in the clear
               - they are discovered being transferred across networks in the clear
-              - membership of a shared account changes
+              - membership of a shared user account changes
               - they have not been changed in the past 12 months.
         - id: ism-1955
           class: ISM-control
@@ -17354,7 +17354,7 @@ catalog:
           parts:
           - id: ism-1812_smt
             name: statement
-            prose: Unprivileged user accounts cannot access backups belonging to other accounts.
+            prose: Unprivileged user accounts cannot access backups belonging to other user accounts.
         - id: ism-1813
           class: ISM-control
           title: "Control: ism-1813"
@@ -17401,7 +17401,7 @@ catalog:
           parts:
           - id: ism-1705_smt
             name: statement
-            prose: Privileged user accounts (excluding backup administrator accounts) cannot access backups belonging to other accounts.
+            prose: Privileged user accounts (excluding backup administrator accounts) cannot access backups belonging to other user accounts.
         - id: ism-1706
           class: ISM-control
           title: "Control: ism-1706"
@@ -25921,11 +25921,11 @@ catalog:
     - uuid: 16c8c2ed-5a37-40ac-a29e-3da92ad398dd
       title: Information Security Manual OSCAL catalog - successor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/successor-version/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/successor-version/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/successor-version/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/successor-version/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/successor-version/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/successor-version/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: 18203e18-2aca-492e-be44-770b2f47242f
       title: AV-TEST
@@ -25979,11 +25979,11 @@ catalog:
     - uuid: 22ed0344-d91c-43e9-80e0-adfed1aa0851
       title: Information Security Manual OSCAL catalog - predecessor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/predecessor-version/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/predecessor-version/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/predecessor-version/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/predecessor-version/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/predecessor-version/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/predecessor-version/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: 23d977b2-e64e-4ebc-a59f-cd95212045c5
       title: Implementing Network Segmentation and Segregation
@@ -26016,7 +26016,7 @@ catalog:
     - uuid: 331263bc-3314-496b-9d35-76788eb0f403
       title: Detecting and Mitigating Active Directory Compromises
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/detecting-and-mitigating-active-directory-comrpomises/
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/detecting-and-mitigating-active-directory-compromises
     - uuid: 33d26cdd-51fc-45d3-a026-0814d51a4c7e
       title: Security Recommendations for Server-based Hypervisor Platforms
       rlinks:
@@ -26184,11 +26184,11 @@ catalog:
     - uuid: 6455b62e-c7af-4987-b87d-60b9575a59ff
       title: Information Security Manual OSCAL catalog
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.09.26/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: 672e85cc-2d40-46ba-9e94-c604b9731c75
       title: secure programming practices
@@ -26242,11 +26242,11 @@ catalog:
       title: Information Security Manual
       props:
       - name: published
-        value: 2024-09-26T00:00:00+10:00
+        value: 2024-10-04T00:00:00+10:00
       - name: version
-        value: 2024.09.26
+        value: 2024.10.04
       rlinks:
-      - href: https://www.cyber.gov.au/ism/pdf/v2024.09.26-pdf
+      - href: https://www.cyber.gov.au/ism/pdf/v2024.10.04-pdf
         media-type: application/pdf
     - uuid: 7a40de61-7e8c-4b58-bba0-446899b22b9e
       title: OWASP Top 10 for Large Language Model Applications version 1.1.0
