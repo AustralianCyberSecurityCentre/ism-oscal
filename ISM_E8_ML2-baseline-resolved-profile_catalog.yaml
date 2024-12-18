@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: fdc3c9d1-35c0-4f9b-a378-356d9ef5d170
+  uuid: 3dc59ab9-d622-44d4-a5de-77bac2552961
   metadata:
     title: Information Security Manual Essential Eight Maturity Level Two Baseline
-    last-modified: 2024-10-04T03:51:20.888273Z
-    version: 2024.10.4
+    last-modified: 2024-12-18T13:15:30.375161Z
+    version: 2024.12.19
     oscal-version: 1.1.2
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2024.10.4/artifacts/ISM_E8_ML2-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_E8_ML2-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -116,19 +116,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[04].group[1].group[5].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "4"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Jun-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-0123_smt
@@ -162,19 +174,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[04].group[1].group[6].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "8"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-0140_smt
@@ -208,19 +232,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[04].group[2].group[1].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1819_smt
@@ -274,22 +310,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[08].group[2].group[06].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1507_smt
@@ -302,22 +350,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[08].group[2].group[06].control[3]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "6"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1175_smt
@@ -330,22 +390,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[08].group[2].group[06].control[4]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1883_smt
@@ -358,22 +430,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[08].group[2].group[06].control[6]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "8"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-0445_smt
@@ -386,19 +470,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[08].group[2].group[06].control[8]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1509_smt
@@ -411,19 +507,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[08].group[2].group[06].control[9]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1650_smt
@@ -444,19 +552,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[08].group[2].group[08].control[4]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1648_smt
@@ -469,19 +589,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[08].group[2].group[08].control[6]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1647_smt
@@ -532,6 +664,12 @@ catalog:
           Further information on the use of removable media can be found in the media usage section of the [Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).
 
           Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+
+          Further information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:
+
+          - [Best Practices for Event Logging and Threat Detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)
+          - [Hardening Microsoft Windows 10 and Windows 11 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)
+          - [Windows Event Logging and Forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).
       groups:
       - title: Hardening operating system configurations
         props:
@@ -548,22 +686,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[04].control[06]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1654_smt
@@ -589,22 +739,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[06].control[01]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "9"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-0843_smt
@@ -617,19 +779,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[06].control[02]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1490_smt
@@ -642,22 +816,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[06].control[04]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1870_smt
@@ -670,19 +856,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[06].control[05]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1871_smt
@@ -695,22 +893,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[06].control[06]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1657_smt
@@ -723,19 +933,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[06].control[12]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1544_smt
@@ -748,19 +970,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[06].control[14]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1582_smt
@@ -773,19 +1007,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[06].control[16]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1660_smt
@@ -806,19 +1052,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[07].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1889_smt
@@ -844,19 +1102,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[1].group[08].control[3]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1623_smt
@@ -894,8 +1164,6 @@ catalog:
           Further information on Microsoft’s attack surface reduction rules can be found on Microsoft’s [attack surface reduction rules overview](#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7) website.
 
           Further information on configuring Microsoft Office macro settings can be found in ASD’s [Restricting Microsoft Office Macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.
-
-          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
       groups:
       - title: Hardening user application configurations
         props:
@@ -912,19 +1180,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[05]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1667_smt
@@ -937,19 +1217,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[06]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1668_smt
@@ -962,19 +1254,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[07]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1669_smt
@@ -987,19 +1291,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[08]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Jan-19
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1542_smt
@@ -1012,19 +1328,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[09]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1859_smt
@@ -1037,19 +1365,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[10]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Mar-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1823_smt
@@ -1062,22 +1402,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[11]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1486_smt
@@ -1090,22 +1442,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[12]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1485_smt
@@ -1118,19 +1482,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[13]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "6"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1412_smt
@@ -1143,22 +1519,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[14]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Mar-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1585_smt
@@ -1171,19 +1559,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[15]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1670_smt
@@ -1196,19 +1596,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[16]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1860_smt
@@ -1221,19 +1633,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[3].control[17]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Mar-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1824_smt
@@ -1245,10 +1669,7 @@ catalog:
           value: "catalog[1].group[15].group[2].group[4]"
         parts:
         - name: overview
-          prose: |-
-            Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed at a later time to automate repetitive tasks. Macros are powerful tools that can be easily created by users to greatly improve their productivity. However, malicious actors can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations in order to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do.
-
-            In addition, centrally logging and analysing Microsoft Office macro events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
+          prose: "Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed at a later time to automate repetitive tasks. Macros are powerful tools that can be easily created by users to greatly improve their productivity. However, malicious actors can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations in order to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do."
         controls:
         - id: ism-1671
           class: ISM-control
@@ -1257,22 +1678,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[4].control[01]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1671_smt
@@ -1285,22 +1718,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[4].control[02]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1488_smt
@@ -1313,22 +1758,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[4].control[03]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1672_smt
@@ -1341,19 +1798,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[4].control[04]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1673_smt
@@ -1366,22 +1835,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[2].group[4].control[11]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-18
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1489_smt
@@ -1446,22 +1927,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[01]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1504_smt
@@ -1474,22 +1967,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[02]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1679_smt
@@ -1502,22 +2007,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[03]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1680_smt
@@ -1530,22 +2047,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[04]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1892_smt
@@ -1558,22 +2087,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[05]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1893_smt
@@ -1586,22 +2127,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[06]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1681_smt
@@ -1614,19 +2167,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[08]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "4"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1173_smt
@@ -1639,19 +2204,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[09]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "6"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-0974_smt
@@ -1664,22 +2241,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[11]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "5"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1401_smt
@@ -1692,19 +2281,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[12]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1872_smt
@@ -1717,16 +2318,28 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[13]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           parts:
           - id: ism-1873_smt
@@ -1739,19 +2352,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[15]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1682_smt
@@ -1764,19 +2389,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[03].control[21]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1683_smt
@@ -1800,19 +2437,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[15].group[4].group[06].control[2]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Jun-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1685_smt
@@ -1836,13 +2485,9 @@ catalog:
 
           # Further information
 
-          Further information on system administration can be found in the Australian Signals Directorate (ASD)’s [Secure Administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.
+          Further information on system administration can be found in the Australian Signals Directorate’s (ASD) [Secure Administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.
 
           Further information on the use of privileged user accounts for system administration activities can be found in the access to systems and their resources section of the [Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
-
-          Further information on multi-factor authentication can be found in the authentication hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
-
-          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
 
           Further information on network segmentation and segregation can be found in the network design and configuration section of the [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
       groups:
@@ -1864,22 +2509,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[1].group[2].control[2]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "5"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1380_smt
@@ -1892,19 +2549,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[1].group[2].control[3]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1687_smt
@@ -1917,22 +2586,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[1].group[2].control[4]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1688_smt
@@ -1945,22 +2626,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[1].group[2].control[5]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1689_smt
@@ -1981,19 +2674,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[1].group[3].control[4]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1387_smt
@@ -2035,22 +2740,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[3].control[01]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-22
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1807_smt
@@ -2063,22 +2780,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[3].control[02]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-22
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1808_smt
@@ -2091,22 +2820,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[3].control[03]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1698_smt
@@ -2119,22 +2860,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[3].control[04]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1699_smt
@@ -2147,19 +2900,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[3].control[05]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1700_smt
@@ -2172,22 +2937,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[3].control[06]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1701_smt
@@ -2200,22 +2977,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[3].control[07]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1702_smt
@@ -2241,22 +3030,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[4].control[01]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1876_smt
@@ -2269,22 +3070,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[4].control[02]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1690_smt
@@ -2297,19 +3110,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[4].control[03]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           parts:
           - id: ism-1691_smt
@@ -2322,19 +3147,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[4].control[06]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1693_smt
@@ -2347,22 +3184,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[4].control[07]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1877_smt
@@ -2375,22 +3224,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[4].control[08]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1694_smt
@@ -2403,19 +3264,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[4].control[09]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           parts:
           - id: ism-1695_smt
@@ -2428,11 +3301,11 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            When applications, operating systems, network devices and other IT equipment reach their cessation date for support, and become legacy IT, an organisation will find it increasingly difficult to protect them against vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and other IT equipment should be removed or replaced.
+            When applications, operating systems, network devices and networked IT equipment reach their cessation date for support, and become legacy IT, an organisation will find it increasingly difficult to protect them against vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and networked IT equipment should be removed or replaced.
 
-            In planning for cessation of support, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and other IT equipment may cease to receive support immediately after newer versions are released.
+            In planning for cessation of support, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and networked IT equipment may cease to receive support immediately after newer versions are released.
 
-            Finally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or other IT equipment is not possible, compensating controls should be implemented until such time that they can be removed or replaced.
+            Finally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or networked IT equipment is not possible, compensating controls should be implemented until such time that they can be removed or replaced.
         controls:
         - id: ism-1905
           class: ISM-control
@@ -2441,22 +3314,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[5].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1905_smt
@@ -2469,22 +3354,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[5].control[2]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1704_smt
@@ -2497,22 +3394,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[2].group[5].control[4]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-21
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1501_smt
@@ -2548,22 +3457,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[3].group[3].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "4"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1511_smt
@@ -2576,22 +3497,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[3].group[3].control[2]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1810_smt
@@ -2604,22 +3537,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[3].group[3].control[3]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1811_smt
@@ -2640,22 +3585,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[3].group[4].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1812_smt
@@ -2668,19 +3625,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[3].group[4].control[3]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1705_smt
@@ -2701,22 +3670,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[3].group[5].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1814_smt
@@ -2729,19 +3710,31 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[3].group[5].control[2]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Sep-24
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1707_smt
@@ -2762,22 +3755,34 @@ catalog:
           - name: sort-id
             value: "catalog[1].group[16].group[3].group[6].control[1]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "4"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML1
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1515_smt
@@ -2827,14 +3832,21 @@ catalog:
 
           Further information on event logging for web proxies can be found in the web proxies section of the [Guidelines for Gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).
 
-          Further information on event logging and forwarding can be found in the Australian Signals Directorate’s [Best Practices for Event Logging and Threat Detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc) and [Windows Event Logging and Forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83) publications.
+          Further information on event logging can be found in the following Australian Signals Directorate publications:
+
+          - [Best Practices for Event Logging and Threat Detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)
+          - [Detecting and Mitigating Active Directory Compromises](#331263bc-3314-496b-9d35-76788eb0f403)
+          - [Hardening Microsoft Windows 10 and Windows 11 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)
+          - [Windows Event Logging and Forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).
 
           Further information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities](#aeba0a2d-b48a-42f0-b047-622b9fea9a91) publication.
+
+          Further information on the National Archives of Australia’s requirements for event log retention can be found in their [AFDA Express Version 2 – Technology \& Information Management](#cc1a55cb-34ab-4418-b660-53571b3af899) publication.
       groups:
       - title: Centralised event logging facility
         props:
         - name: sort-id
-          value: "catalog[1].group[17].group[1].group[3]"
+          value: "catalog[1].group[17].group[1].group[2]"
         parts:
         - name: overview
           prose: "A centralised event logging facility can be used to capture, protect and manage event logs from multiple sources in a coordinated manner. This may be achieved by using a Security Information and Event Management solution. Furthermore, in support of a centralised event logging facility, it is important that an accurate and consistent time source is used to assist with identifying connections between events."
@@ -2844,21 +3856,33 @@ catalog:
           title: "Control: ism-1815"
           props:
           - name: sort-id
-            value: "catalog[1].group[17].group[1].group[3].control[2]"
+            value: "catalog[1].group[17].group[1].group[2].control[5]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1815_smt
@@ -2877,21 +3901,33 @@ catalog:
           title: "Control: ism-1906"
           props:
           - name: sort-id
-            value: "catalog[1].group[17].group[1].group[4].control[1]"
+            value: "catalog[1].group[17].group[1].group[4].control[2]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Dec-23
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1906_smt
@@ -2902,21 +3938,33 @@ catalog:
           title: "Control: ism-1228"
           props:
           - name: sort-id
-            value: "catalog[1].group[17].group[1].group[4].control[6]"
+            value: "catalog[1].group[17].group[1].group[4].control[8]"
           - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
           - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: Mar-22
           - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
-            value: ALL
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML2
           - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/2.0
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: ML3
           parts:
           - id: ism-1228_smt
@@ -2968,6 +4016,10 @@ catalog:
       title: Australian Privacy Principles guidelines
       rlinks:
       - href: https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines
+    - uuid: 331263bc-3314-496b-9d35-76788eb0f403
+      title: Detecting and Mitigating Active Directory Compromises
+      rlinks:
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/detecting-and-mitigating-active-directory-compromises
     - uuid: 348be728-4459-4447-990e-1dfb3049c71f
       title: data retention
       rlinks:
@@ -3136,6 +4188,10 @@ catalog:
       title: "Common Sense Guide to Mitigating Insider Threats, Sixth Edition"
       rlinks:
       - href: https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-sixth-edition/
+    - uuid: cc1a55cb-34ab-4418-b660-53571b3af899
+      title: AFDA Express Version 2 – Technology \& Information Management
+      rlinks:
+      - href: https://www.naa.gov.au/information-management/records-authorities/types-records-authorities/afda-express-version-2-functions/afda-express-version-2-technology-information-management
     - uuid: d0df96bb-7236-4784-8f54-2cb6335ad228
       title: exploit protection functionality
       rlinks:
