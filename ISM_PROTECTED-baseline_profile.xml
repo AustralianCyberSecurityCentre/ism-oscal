@@ -2,10 +2,10 @@
 <profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
          uuid="c51a6037-bcb6-4f93-a16c-909f9241c735">
    <metadata>
-      <title>Information Security Manual PROTECTED Baseline</title>
-      <published>2024-12-18T13:05:08.940295Z</published>
-      <last-modified>2024-12-18T13:05:08.940295Z</last-modified>
-      <version>2024.12.19</version>
+      <title>Information security manual PROTECTED Baseline</title>
+      <published>2025-03-31T10:37:18.856202Z</published>
+      <last-modified>2025-03-31T10:37:18.856202Z</last-modified>
+      <version>2025.03.31</version>
       <oscal-version>1.1.2</oscal-version>
       <link rel="canonical" href="#df950918-ba93-4289-9991-cdff76e311f1"/>
       <link rel="latest-version" href="#f2de1b40-ef59-42e8-8e26-b8fd43419685"/>
@@ -60,6 +60,16 @@
          <with-id>ism-principle-respond-1</with-id>
          <with-id>ism-principle-respond-2</with-id>
          <with-id>ism-principle-respond-3</with-id>
+         <with-id>ism-1997</with-id>
+         <with-id>ism-1998</with-id>
+         <with-id>ism-1999</with-id>
+         <with-id>ism-2000</with-id>
+         <with-id>ism-2001</with-id>
+         <with-id>ism-2002</with-id>
+         <with-id>ism-2003</with-id>
+         <with-id>ism-2004</with-id>
+         <with-id>ism-2005</with-id>
+         <with-id>ism-2006</with-id>
          <with-id>ism-0714</with-id>
          <with-id>ism-1478</with-id>
          <with-id>ism-1617</with-id>
@@ -150,6 +160,7 @@
          <with-id>ism-1602</with-id>
          <with-id>ism-0041</with-id>
          <with-id>ism-0043</with-id>
+         <with-id>ism-0912</with-id>
          <with-id>ism-1163</with-id>
          <with-id>ism-1563</with-id>
          <with-id>ism-1564</with-id>
@@ -305,7 +316,6 @@
          <with-id>ism-0285</with-id>
          <with-id>ism-0289</with-id>
          <with-id>ism-1551</with-id>
-         <with-id>ism-1857</with-id>
          <with-id>ism-1913</with-id>
          <with-id>ism-1858</with-id>
          <with-id>ism-0336</with-id>
@@ -488,6 +498,7 @@
          <with-id>ism-1832</with-id>
          <with-id>ism-1932</with-id>
          <with-id>ism-1933</with-id>
+         <with-id>ism-2010</with-id>
          <with-id>ism-1834</with-id>
          <with-id>ism-1833</with-id>
          <with-id>ism-1934</with-id>
@@ -544,6 +555,7 @@
          <with-id>ism-1682</with-id>
          <with-id>ism-1894</with-id>
          <with-id>ism-1559</with-id>
+         <with-id>ism-2011</with-id>
          <with-id>ism-1920</with-id>
          <with-id>ism-1683</with-id>
          <with-id>ism-0417</with-id>
@@ -578,6 +590,7 @@
          <with-id>ism-1403</with-id>
          <with-id>ism-0853</with-id>
          <with-id>ism-0428</with-id>
+         <with-id>ism-2012</with-id>
          <with-id>ism-0408</with-id>
          <with-id>ism-1460</with-id>
          <with-id>ism-1604</with-id>
@@ -686,6 +699,19 @@
          <with-id>ism-1797</with-id>
          <with-id>ism-1798</with-id>
          <with-id>ism-1730</with-id>
+         <with-id>ism-1818</with-id>
+         <with-id>ism-2013</with-id>
+         <with-id>ism-1817</with-id>
+         <with-id>ism-2014</with-id>
+         <with-id>ism-1910</with-id>
+         <with-id>ism-2015</with-id>
+         <with-id>ism-1240</with-id>
+         <with-id>ism-2016</with-id>
+         <with-id>ism-1424</with-id>
+         <with-id>ism-1275</with-id>
+         <with-id>ism-1276</with-id>
+         <with-id>ism-1278</with-id>
+         <with-id>ism-1536</with-id>
          <with-id>ism-0402</with-id>
          <with-id>ism-1616</with-id>
          <with-id>ism-1755</with-id>
@@ -694,24 +720,15 @@
          <with-id>ism-1908</with-id>
          <with-id>ism-1754</with-id>
          <with-id>ism-1909</with-id>
+         <with-id>ism-1911</with-id>
          <with-id>ism-0971</with-id>
          <with-id>ism-1849</with-id>
          <with-id>ism-1850</with-id>
          <with-id>ism-1239</with-id>
          <with-id>ism-1552</with-id>
          <with-id>ism-1851</with-id>
-         <with-id>ism-1818</with-id>
-         <with-id>ism-1817</with-id>
-         <with-id>ism-1910</with-id>
-         <with-id>ism-1240</with-id>
          <with-id>ism-1241</with-id>
-         <with-id>ism-1424</with-id>
          <with-id>ism-1862</with-id>
-         <with-id>ism-1275</with-id>
-         <with-id>ism-1276</with-id>
-         <with-id>ism-1278</with-id>
-         <with-id>ism-1536</with-id>
-         <with-id>ism-1911</with-id>
          <with-id>ism-1269</with-id>
          <with-id>ism-1277</with-id>
          <with-id>ism-1270</with-id>
@@ -780,6 +797,7 @@
          <with-id>ism-1030</with-id>
          <with-id>ism-1627</with-id>
          <with-id>ism-1628</with-id>
+         <with-id>ism-2017</with-id>
          <with-id>ism-1782</with-id>
          <with-id>ism-1800</with-id>
          <with-id>ism-1304</with-id>
@@ -891,6 +909,7 @@
          <with-id>ism-0619</with-id>
          <with-id>ism-0622</with-id>
          <with-id>ism-1783</with-id>
+         <with-id>ism-2018</with-id>
          <with-id>ism-0634</with-id>
          <with-id>ism-1037</with-id>
          <with-id>ism-0100</with-id>
@@ -938,25 +957,25 @@
    </merge>
    <back-matter>
       <resource uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
-         <title>Information Security Manual</title>
+         <title>Information security manual</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="df950918-ba93-4289-9991-cdff76e311f1">
-         <title>Information Security Manual PROTECTED Baseline</title>
+         <title>Information security manual PROTECTED Baseline</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_PROTECTED-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_PROTECTED-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_PROTECTED-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_PROTECTED-baseline_profile.yaml"/>
       </resource>
       <resource uuid="f2de1b40-ef59-42e8-8e26-b8fd43419685">
-         <title>Information Security Manual PROTECTED Baseline - latest version</title>
+         <title>Information security manual PROTECTED Baseline - latest version</title>
          <rlink media-type="application/xml"
                 href="https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
          <rlink media-type="application/json"
@@ -965,22 +984,22 @@
                 href="https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_PROTECTED-baseline_profile.yaml"/>
       </resource>
       <resource uuid="6912ea54-6c7d-4e7c-9c3c-560851812ab9">
-         <title>Information Security Manual PROTECTED Baseline - predecessor version</title>
+         <title>Information security manual PROTECTED Baseline - predecessor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.yaml"/>
       </resource>
       <resource uuid="8f16dc4a-2ae7-4365-8da9-dae1c1037f23">
-         <title>Information Security Manual PROTECTED Baseline - successor version</title>
+         <title>Information security manual PROTECTED Baseline - successor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/successor-version/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/successor-version/artifacts/ISM_PROTECTED-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/successor-version/artifacts/ISM_PROTECTED-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/successor-version/artifacts/ISM_PROTECTED-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2024.12.19/successor-version/artifacts/ISM_PROTECTED-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2025.03.31/successor-version/artifacts/ISM_PROTECTED-baseline_profile.yaml"/>
       </resource>
    </back-matter>
 </profile>

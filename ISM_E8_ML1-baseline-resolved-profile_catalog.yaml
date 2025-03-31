@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: c55a30aa-2fb5-48e8-b7d3-55b718782568
+  uuid: 30305b8b-a260-45e9-9a3f-11fdeb476f49
   metadata:
-    title: Information Security Manual Essential Eight Maturity Level One Baseline
-    last-modified: 2024-12-18T13:15:25.769148Z
-    version: 2024.12.19
+    title: Information security manual Essential Eight Maturity Level One Baseline
+    last-modified: 2025-03-31T11:06:17.963543Z
+    version: 2025.03.31
     oscal-version: 1.1.2
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_E8_ML1-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_E8_ML1-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -40,7 +40,7 @@ catalog:
       party-uuids:
       - ae0012b5-2a98-4610-ba74-08928451a4c0
   groups:
-  - title: Guidelines for Personnel Security
+  - title: Guidelines for personnel security
     props:
     - name: sort-id
       value: "catalog[1].group[08]"
@@ -62,11 +62,11 @@ catalog:
 
           Further information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.
 
-          Further information on restricting the use of privileged user accounts can be found in ASD’s [Restricting Administrative Privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.
+          Further information on restricting the use of privileged user accounts can be found in ASD’s [Restricting administrative privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.
 
-          Further information on administering systems and applications can be found in the system administration section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on administering systems and applications can be found in the system administration section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
-          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
       groups:
       - title: Privileged access to systems
         props:
@@ -79,7 +79,7 @@ catalog:
 
             Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.
 
-            Finally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
+            Finally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents.
         controls:
         - id: ism-1507
           class: ISM-control
@@ -241,7 +241,7 @@ catalog:
           - id: ism-0445_smt
             name: statement
             prose: Privileged users are assigned a dedicated privileged user account to be used solely for duties requiring privileged access.
-  - title: Guidelines for System Hardening
+  - title: Guidelines for system hardening
     props:
     - name: sort-id
       value: "catalog[1].group[15]"
@@ -255,25 +255,27 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
-          Further information on patching or updating operating systems can be found in the system patching section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.
 
-          Further information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 and Windows 11 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
+          Further information on patching or updating operating systems can be found in the system patching section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+
+          Further information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
 
           Further information on hardening Microsoft Windows operating systems can also be found in the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
 
-          Further information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux Workstations and Servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.
+          Further information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux workstations and servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.
 
           Further information on [exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.
 
-          Further information on implementing application control can be found in ASD’s [Implementing Application Control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.
+          Further information on implementing application control can be found in ASD’s [Implementing application control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.
 
           Further information on Microsoft’s [recommended application blocklist](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3) and [vulnerable driver blocklist](#4a3a265f-7772-433b-9906-7f784052f28b) are available from Microsoft.
 
           Further information on [command line process logging](#0a1508c0-b062-4d85-8ded-a95316e17a3a) is available from Microsoft.
 
-          Further information on the use of PowerShell can be found in ASD’s [Securing PowerShell in the Enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.
+          Further information on the use of PowerShell can be found in ASD’s [Securing PowerShell in the enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.
 
           Further information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft.
 
@@ -283,15 +285,15 @@ catalog:
 
           Further information on independent testing of antivirus software is available from [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).
 
-          Further information on the use of removable media can be found in the media usage section of the [Guidelines for Media](#b594c9c0-b42f-4f06-b643-38023275a5c7).
+          Further information on the use of removable media can be found in the media usage section of the [Guidelines for media](#b594c9c0-b42f-4f06-b643-38023275a5c7).
 
-          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
 
           Further information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:
 
-          - [Best Practices for Event Logging and Threat Detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)
-          - [Hardening Microsoft Windows 10 and Windows 11 Workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)
-          - [Windows Event Logging and Forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).
+          - [Best practices for event logging and threat detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)
+          - [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)
+          - [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).
       groups:
       - title: Hardening operating system configurations
         props:
@@ -352,7 +354,7 @@ catalog:
 
             In implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by malicious actors.
 
-            Finally, centrally logging and analysing application control events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
+            Finally, centrally logging and analysing application control events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents.
         controls:
         - id: ism-0843
           class: ISM-control
@@ -487,9 +489,11 @@ catalog:
 
           # Further information
 
-          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
-          Further information on patching or updating user applications can be found in the system patching section of the [Guidelines for System Management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.
+
+          Further information on patching or updating user applications can be found in the system patching section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
           Further information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.
 
@@ -505,7 +509,7 @@ catalog:
 
           Further information on Microsoft’s attack surface reduction rules can be found on Microsoft’s [attack surface reduction rules overview](#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7) website.
 
-          Further information on configuring Microsoft Office macro settings can be found in ASD’s [Restricting Microsoft Office Macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.
+          Further information on configuring Microsoft Office macro settings can be found in ASD’s [Restricting Microsoft Office macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.
       groups:
       - title: Hardening user application configurations
         props:
@@ -816,11 +820,9 @@ catalog:
 
           # Further information
 
-          Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for Procurement and Outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
+          Further information on implementing multi-factor authentication can be found in ASD’s [Implementing multi-factor authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.
 
-          Further information on implementing multi-factor authentication can be found in ASD’s [Implementing Multi-Factor Authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.
-
-          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for System Monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
 
           Further information on [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.
 
@@ -853,7 +855,7 @@ catalog:
 
             When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something users have should be used with something users know. Alternatively, something users have that is unlocked by something users know or are (often known as passwordless multi-factor authentication) can be used. Furthermore, for increased security, the use of phishing-resistant multi-factor authentication is recommended to protect against real-time phishing attacks.
 
-            Finally, centrally logging and analysing multi-factor authentication events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.
+            Finally, centrally logging and analysing multi-factor authentication events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents.
         controls:
         - id: ism-1504
           class: ISM-control
@@ -1135,7 +1137,7 @@ catalog:
           - id: ism-1401_smt
             name: statement
             prose: "Multi-factor authentication uses either: something users have and something users know, or something users have that is unlocked by something users know or are."
-  - title: Guidelines for System Management
+  - title: Guidelines for system management
     props:
     - name: sort-id
       value: "catalog[1].group[16]"
@@ -1153,11 +1155,13 @@ catalog:
 
           # Further information
 
-          Further information on system administration can be found in the Australian Signals Directorate’s (ASD) [Secure Administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.
+          Further information on system administration can be found in the Australian Signals Directorate’s (ASD) [Secure administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.
 
-          Further information on the use of privileged user accounts for system administration activities can be found in the access to systems and their resources section of the [Guidelines for Personnel Security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
+          Further information on change and configuration management plans can be found in the system-specific cybersecurity documentation section of the [Guidelines for cybersecurity documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).
 
-          Further information on network segmentation and segregation can be found in the network design and configuration section of the [Guidelines for Networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
+          Further information on the use of privileged user accounts for system administration activities can be found in the access to systems and their resources section of the [Guidelines for personnel security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).
+
+          Further information on network segmentation and segregation can be found in the network design and configuration section of the [Guidelines for networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
       groups:
       - title: Separate privileged operating environments
         props:
@@ -1299,17 +1303,17 @@ catalog:
         prose: |-
           # Further information
 
-          Further information on system patching can be found in ASD’s [Patching Applications and Operating Systems](#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a) publication.
+          Further information on system patching can be found in ASD’s [Patching applications and operating systems](#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a) publication.
 
-          Further information on patching evaluated products can be found in the evaluated product usage section of the [Guidelines for Evaluated Products](#a699a3aa-828d-479b-b50b-98127bb19437).
+          Further information on patching evaluated products can be found in the evaluated product usage section of the [Guidelines for evaluated products](#a699a3aa-828d-479b-b50b-98127bb19437).
 
-          Further information on managing risks associated with legacy IT can be found in ASD’s [Managing the Risks of Legacy IT: Executive Guidance](#065263a6-4634-4a52-bd3f-48b83bf437d8) and [Managing the Risks of Legacy IT: Practitioner Guidance](#089badd3-ed47-4597-8b1f-bce3e42f4ac4) publications.
+          Further information on managing risks associated with legacy IT can be found in ASD’s [Managing the risks of legacy IT: Executive guidance](#065263a6-4634-4a52-bd3f-48b83bf437d8) and [Managing the risks of legacy IT: Practitioner guidance](#089badd3-ed47-4597-8b1f-bce3e42f4ac4) publications.
 
-          Further information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in ASD’s [End of Support for Microsoft Windows and Microsoft Windows Server](#d36ce452-ec21-4b05-89c1-f29a444a3dca) publication.
+          Further information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in ASD’s [End of support for Microsoft Windows and Microsoft Windows Server](#d36ce452-ec21-4b05-89c1-f29a444a3dca) publication.
 
-          Further information on hardening user applications can be found in the user application hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
+          Further information on hardening user applications can be found in the user application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
-          Further information on hardening server applications can be found in the server application hardening section of the [Guidelines for System Hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
+          Further information on hardening server applications can be found in the server application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
       groups:
       - title: Scanning for unmitigated vulnerabilities
         props:
@@ -1952,7 +1956,7 @@ catalog:
 
           Further information on the collection and retention of personal information can be found in the Office of the Australian Information Commissioner’s [Australian Privacy Principles](#bac2c6f2-9356-46d2-b7c4-9af7393008df) and the associated [Australian Privacy Principles guidelines](#1e4a57a2-2832-441d-8ea4-12a98d2be417).
 
-          Further information on business continuity and disaster recovery planning can be found in the Chief Information Security Officer section of the [Guidelines for Cyber Security Roles](#626dab35-81ab-45fe-8c12-0faff1c23c07).
+          Further information on business continuity and disaster recovery planning can be found in the chief information security officer section of the [Guidelines for cybersecurity roles](#626dab35-81ab-45fe-8c12-0faff1c23c07).
       groups:
       - title: Performing and retaining backups
         props:
@@ -2229,7 +2233,7 @@ catalog:
   back-matter:
     resources:
     - uuid: 02fb4cb5-e4c4-4097-97a2-f1b6aa04131a
-      title: Patching Applications and Operating Systems
+      title: Patching applications and operating systems
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/patching-applications-and-operating-systems
     - uuid: 0508be6f-cb97-44da-b212-42416a0048b0
@@ -2237,11 +2241,11 @@ catalog:
       rlinks:
       - href: https://www.random.org/dice/?num=5
     - uuid: 065263a6-4634-4a52-bd3f-48b83bf437d8
-      title: "Managing the Risks of Legacy IT: Executive Guidance"
+      title: "Managing the risks of legacy IT: Executive guidance"
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-risks-legacy-it-executive-guidance
     - uuid: 089badd3-ed47-4597-8b1f-bce3e42f4ac4
-      title: "Managing the Risks of Legacy IT: Practitioner Guidance"
+      title: "Managing the risks of legacy IT: Practitioner guidance"
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-the-risks-of-legacy-it-practitioner-guidance
     - uuid: 0a1508c0-b062-4d85-8ded-a95316e17a3a
@@ -2253,7 +2257,7 @@ catalog:
       rlinks:
       - href: https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines
     - uuid: 131048c7-a2e7-4da3-9257-7a058b06c1f8
-      title: Secure Administration
+      title: Secure administration
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/secure-administration
     - uuid: 18203e18-2aca-492e-be44-770b2f47242f
@@ -2273,7 +2277,7 @@ catalog:
       rlinks:
       - href: https://attackevals.mitre-engenuity.org/
     - uuid: 3ccea9a8-a728-4f5b-a0a8-43f2f206f76b
-      title: Restricting Administrative Privileges
+      title: Restricting administrative privileges
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/restricting-administrative-privileges
     - uuid: 3e5a98e5-9219-46c8-81c2-e3a4d13407ce
@@ -2284,18 +2288,26 @@ catalog:
       title: Local Security Authority protection functionality
       rlinks:
       - href: https://learn.microsoft.com/en-au/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection
+    - uuid: 4974639a-f41a-4280-ae06-33d1f13d6083
+      title: Secure by Design Pledge
+      rlinks:
+      - href: https://www.cisa.gov/securebydesign/pledge
     - uuid: 4a3a265f-7772-433b-9906-7f784052f28b
       title: vulnerable driver blocklist
       rlinks:
       - href: https://learn.microsoft.com/en-au/windows/security/application-security/application-control/windows-defender-application-control/design/microsoft-recommended-driver-block-rules
     - uuid: 4eeff329-cea0-4baf-a80b-8b0b76436075
-      title: Implementing Application Control
+      title: Implementing application control
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-application-control
     - uuid: 53da8dba-961e-4222-94e0-68cb9510384d
       title: digital preservation planning
       rlinks:
       - href: https://www.naa.gov.au/information-management/information-management-legislation/digital-preservation-planning
+    - uuid: 578d0434-6b3f-46f3-aad8-c7ac75c2ebcc
+      title: Guidelines for cybersecurity documentation
+      rlinks:
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-documentation
     - uuid: 58282062-5c17-476a-98b1-105a627cd28d
       title: randomly generating passphrases
       rlinks:
@@ -2309,11 +2321,11 @@ catalog:
       rlinks:
       - href: https://learn.microsoft.com/en-au/windows/security/application-security/application-control/windows-defender-application-control/design/applications-that-can-bypass-wdac
     - uuid: 626dab35-81ab-45fe-8c12-0faff1c23c07
-      title: Guidelines for Cyber Security Roles
+      title: Guidelines for cybersecurity roles
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cyber-security-roles
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-roles
     - uuid: 6e801c68-61f6-4c28-bf72-df91f7e232cc
-      title: Hardening Microsoft Windows 10 and Windows 11 Workstations
+      title: Hardening Microsoft Windows 10 and Windows 11 workstations
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-and-windows-11-workstations
     - uuid: 741ab440-5759-4571-894d-e499dea3a54c
@@ -2321,15 +2333,15 @@ catalog:
       rlinks:
       - href: https://support.google.com/chrome/a/answer/9710898?hl=en
     - uuid: 7d16ae67-87a7-4861-b939-e13ec279b5a2
-      title: Guidelines for Personnel Security
+      title: Guidelines for personnel security
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-personnel-security
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-personnel-security
     - uuid: 7d22400c-ddef-4cbb-90f1-7502dc569e5b
       title: the use of PowerShell by blue teams
       rlinks:
       - href: https://devblogs.microsoft.com/powershell/powershell-the-blue-team/
     - uuid: 8132c47e-a2dc-4dd9-81d6-38db96e5cec6
-      title: Hardening Linux Workstations and Servers
+      title: Hardening Linux workstations and servers
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers
     - uuid: 82ae76a4-ed9e-4a7b-8bad-f1950c41eab7
@@ -2337,7 +2349,7 @@ catalog:
       rlinks:
       - href: https://learn.microsoft.com/en-au/microsoft-365/security/defender-endpoint/attack-surface-reduction?view=o365-worldwide
     - uuid: 83e3a9b1-5057-4531-91dd-03c8d92634b0
-      title: Implementing Multi-Factor Authentication
+      title: Implementing multi-factor authentication
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-multi-factor-authentication
     - uuid: 8d53ee7f-54c2-4380-8408-f7403db30ba1
@@ -2345,7 +2357,7 @@ catalog:
       rlinks:
       - href: https://learn.microsoft.com/en-au/windows/security/identity-protection/credential-guard/
     - uuid: 8ffea524-0974-4b53-a8f5-41166073ede5
-      title: Securing PowerShell in the Enterprise
+      title: Securing PowerShell in the enterprise
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise
     - uuid: 91b92563-d991-40fa-9adc-548df9f6c496
@@ -2365,9 +2377,9 @@ catalog:
       rlinks:
       - href: https://www.adobe.com/devnet-docs/acrobatetk/tools/AppSec/index.html
     - uuid: a699a3aa-828d-479b-b50b-98127bb19437
-      title: Guidelines for Evaluated Products
+      title: Guidelines for evaluated products
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-evaluated-products
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-evaluated-products
     - uuid: ae426d0a-adb6-43b8-a463-faa33e83b679
       title: Active Directory accounts
       rlinks:
@@ -2377,11 +2389,11 @@ catalog:
       rlinks:
       - href: https://www.mandiant.com/resources/blog/greater-visibility
     - uuid: b594c9c0-b42f-4f06-b643-38023275a5c7
-      title: Guidelines for Media
+      title: Guidelines for media
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-media
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-media
     - uuid: b95c4745-572a-4121-b4e1-d0baa90a84fc
-      title: Best Practices for Event Logging and Threat Detection
+      title: Best practices for event logging and threat detection
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/best-practices-event-logging-threat-detection
     - uuid: bac2c6f2-9356-46d2-b7c4-9af7393008df
@@ -2389,9 +2401,9 @@ catalog:
       rlinks:
       - href: https://www.oaic.gov.au/privacy/australian-privacy-principles
     - uuid: c6ca6620-ccd5-4c5d-b97c-9d92f1162948
-      title: Guidelines for System Management
+      title: Guidelines for system management
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-management
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-management
     - uuid: c852e735-4920-4616-8e34-2fddfb49eea8
       title: AV-Comparatives
       rlinks:
@@ -2401,7 +2413,7 @@ catalog:
       rlinks:
       - href: https://learn.microsoft.com/en-au/microsoft-365/security/defender-endpoint/exploit-protection?view=o365-worldwide
     - uuid: d36ce452-ec21-4b05-89c1-f29a444a3dca
-      title: End of Support for Microsoft Windows and Microsoft Windows Server
+      title: End of support for Microsoft Windows and Microsoft Windows Server
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/end-support-microsoft-windows-and-microsoft-windows-server
     - uuid: d446dea3-c36d-45af-9623-05b686624af0
@@ -2409,29 +2421,29 @@ catalog:
       rlinks:
       - href: https://support.microsoft.com/en-au/windows/core-isolation-e30ed737-17d8-42f3-a2a9-87521df09b78
     - uuid: de239dae-d1e8-4969-9680-ef3444d32a83
-      title: Windows Event Logging and Forwarding
+      title: Windows event logging and forwarding
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/windows-event-logging-and-forwarding
     - uuid: de7525f3-a466-40a5-abdd-3ae24a6d1b44
-      title: Guidelines for System Hardening
+      title: Guidelines for system hardening
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-hardening
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-hardening
     - uuid: dfb52998-0e7e-420d-97e1-d1313c8f919a
-      title: Restricting Microsoft Office Macros
+      title: Restricting Microsoft Office macros
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros
     - uuid: edc24216-f52b-4513-bcda-5fa564661999
-      title: Guidelines for System Monitoring
+      title: Guidelines for system monitoring
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-monitoring
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-monitoring
     - uuid: f145ff5b-d396-4248-8f48-621349d6f0ed
-      title: Guidelines for Networking
+      title: Guidelines for networking
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-networking
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-networking
     - uuid: f37a4848-0791-4870-b316-5536c2681c28
-      title: Guidelines for Procurement and Outsourcing
+      title: Guidelines for procurement and outsourcing
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-procurement-and-outsourcing
+      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-procurement-and-outsourcing
     - uuid: f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b
       title: changing credentials for this service account
       rlinks:

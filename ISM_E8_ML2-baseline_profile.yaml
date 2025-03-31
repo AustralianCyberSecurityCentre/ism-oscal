@@ -2,10 +2,10 @@
 profile:
   uuid: d0e81293-52b7-4d60-9c26-bb3eed27af8a
   metadata:
-    title: Information Security Manual Essential Eight Maturity Level Two Baseline
-    published: 2024-12-18T13:05:08.940295Z
-    last-modified: 2024-12-18T13:05:08.940295Z
-    version: 2024.12.19
+    title: Information security manual Essential Eight Maturity Level Two Baseline
+    published: 2025-03-31T10:37:18.856202Z
+    last-modified: 2025-03-31T10:37:18.856202Z
+    version: 2025.03.31
     oscal-version: 1.1.2
     links:
     - href: '#3f19a985-786f-437c-8f65-6336aa50e2d7'
@@ -139,25 +139,25 @@ profile:
   back-matter:
     resources:
     - uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
-      title: Information Security Manual
+      title: Information security manual
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: 3f19a985-786f-437c-8f65-6336aa50e2d7
-      title: Information Security Manual Essential Eight Maturity Level Two Baseline
+      title: Information security manual Essential Eight Maturity Level Two Baseline
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_E8_ML2-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_E8_ML2-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_E8_ML2-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_E8_ML2-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/artifacts/ISM_E8_ML2-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_E8_ML2-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 3c15e69f-263b-4827-be41-28a87e2b314e
-      title: Information Security Manual Essential Eight Maturity Level Two Baseline - latest version
+      title: Information security manual Essential Eight Maturity Level Two Baseline - latest version
       rlinks:
       - href: https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_E8_ML2-baseline_profile.xml
         media-type: application/xml
@@ -166,20 +166,20 @@ profile:
       - href: https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_E8_ML2-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 6587a556-43ff-4ae3-a30a-eb528fa6ef81
-      title: Information Security Manual Essential Eight Maturity Level Two Baseline - predecessor version
+      title: Information security manual Essential Eight Maturity Level Two Baseline - predecessor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/predecessor-version/artifacts/ISM_E8_ML2-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/predecessor-version/artifacts/ISM_E8_ML2-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/predecessor-version/artifacts/ISM_E8_ML2-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/predecessor-version/artifacts/ISM_E8_ML2-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/predecessor-version/artifacts/ISM_E8_ML2-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/predecessor-version/artifacts/ISM_E8_ML2-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 1a7fe4f1-6477-4814-9713-ba33aebf3789
-      title: Information Security Manual Essential Eight Maturity Level Two Baseline - successor version
+      title: Information security manual Essential Eight Maturity Level Two Baseline - successor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/successor-version/artifacts/ISM_E8_ML2-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/successor-version/artifacts/ISM_E8_ML2-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/successor-version/artifacts/ISM_E8_ML2-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/successor-version/artifacts/ISM_E8_ML2-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2024.12.19/successor-version/artifacts/ISM_E8_ML2-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/successor-version/artifacts/ISM_E8_ML2-baseline_profile.yaml
         media-type: application/oscal+yaml
