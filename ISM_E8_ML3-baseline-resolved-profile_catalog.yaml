@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 6d7c3ad7-a8da-4d56-a8b1-4b9a468d41f3
+  uuid: 387ede01-9907-403c-9be9-16ad75d716f4
   metadata:
     title: Information security manual Essential Eight Maturity Level Three Baseline
-    last-modified: 2025-03-31T11:06:27.206957Z
-    version: 2025.03.31
+    last-modified: 2025-07-16T09:55:47.740775104Z
+    version: 2025.07.16
     oscal-version: 1.1.2
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2025.03.31/artifacts/ISM_E8_ML3-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_E8_ML3-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -68,19 +68,21 @@ catalog:
 
           One of the core elements of detecting and investigating cybersecurity incidents is the availability of appropriate data sources, such as event logs. The following event logs can be used by an organisation to assist with detecting and investigating cybersecurity incidents:
 
+          - **Artificial intelligence applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.
           - **Cross Domain Solutions:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
-          - **Databases:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
+          - **Databases:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.
           - **Domain Name System services:** May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.
           - **Email servers:** May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.
           - **Gateways:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
+          - **Mobile applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.
           - **Multifunction devices:** May assist in identifying anomalous or malicious user behaviour indicating a cybersecurity incident.
           - **Operating systems:** May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.
           - **Remote access services:** May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.
-          - **Security products:** May assist in identifying anomalous or malicious application or network traffic indicating an exploitation attempt or successful compromise.
-          - **Server applications:** May assist in identifying anomalous or malicious application behaviour indicating an exploitation attempt or successful compromise.
+          - **Security products:** May assist in identifying anomalous or malicious code or network traffic indicating an exploitation attempt or successful compromise.
+          - **Server applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.
           - **System access:** May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.
-          - **User applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
-          - **Web applications:** May assist in identifying anomalous or malicious application or user behaviour indicating an exploitation attempt or successful compromise.
+          - **User applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.
+          - **Web applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.
           - **Web proxies:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.
 
           # Further information
@@ -95,11 +97,11 @@ catalog:
 
           Further information on understanding, identifying and preventing the insider threat can also be found in the Australian Security Intelligence Organisation’s [Countering the insider threat](#fb60e251-ed4c-4781-96db-58a0225bca89) brochure and [Countering the insider threat: A security manager’s guide](#f6813648-fe24-4d45-9e45-c97b4021506e) publication.
 
-          Further information on understanding, identifying and preventing the insider threat can also be found on the United Kingdom’s National Protective Security Authority’s [Insider Risk](#c2a2f934-c5d6-46a7-86db-7fec1565058e) website.
+          Further information on understanding, identifying and preventing the insider threat can also be found on the United Kingdom’s National Protective Security Authority’s [Insider Risk Guidance](#c2a2f934-c5d6-46a7-86db-7fec1565058e) website.
 
           Further information on developing, implementing and maintaining an insider threat mitigation program can be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [Insider Threat Mitigation Guide](#c322926a-13b3-4efe-8573-06624418e8f5).
 
-          Further information on developing, implementing and maintaining an insider threat mitigation program can also be found in Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats, Sixth Edition](#cad720b4-e47a-437d-b272-6958e738131d) publication.
+          Further information on developing, implementing and maintaining an insider threat mitigation program can also be found in Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats, Seventh Edition](#cad720b4-e47a-437d-b272-6958e738131d) publication.
 
           Further information on reporting of cybersecurity incidents by service providers can be found in the managed services and cloud services section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
@@ -221,7 +223,7 @@ catalog:
 
           Further information on cybersecurity incident response plans can be found in the system-specific cybersecurity documentation section of the [Guidelines for cybersecurity documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).
 
-          Further information on handling malicious code infections can be found in National Institute of Standards and Technology Special Publication 800-61 Rev. 2, [Computer Security Incident Handling Guide](#f48c0d05-5173-4c8e-8748-e5591518c1fb).
+          Further information on handling malicious code infections can be found in National Institute of Standards and Technology Special Publication 800-61 Rev. 3, [Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile](#f48c0d05-5173-4c8e-8748-e5591518c1fb).
       groups:
       - title: Enacting cybersecurity incident response plans
         props:
@@ -292,7 +294,7 @@ catalog:
 
           Further information on restricting the use of privileged user accounts can be found in ASD’s [Restricting administrative privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.
 
-          Further information on administering systems and applications can be found in the system administration section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on administering systems and their resources can be found in the system administration section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
           Further information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
       groups:
@@ -303,11 +305,11 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            Privileged user accounts are considered to be those which can alter or circumvent a system’s controls. This also applies to user accounts that may only have limited privileges but still have the ability to bypass some of a system’s controls.
+            Privileged user accounts are considered those that can alter or circumvent system controls. This also applies to user accounts that may only have limited privileges but still have the ability to bypass some system controls.
 
-            Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.
+            Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems and their resources. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.
 
-            Finally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents.
+            Finally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems and their resources, detecting malicious behaviour and contributing to investigations following cybersecurity incidents.
         controls:
         - id: ism-1507
           class: ISM-control
@@ -317,10 +319,10 @@ catalog:
             value: "catalog[1].group[08].group[2].group[06].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "3"
+            value: "4"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -348,7 +350,7 @@ catalog:
           parts:
           - id: ism-1507_smt
             name: statement
-            prose: "Requests for privileged access to systems, applications and data repositories are validated when first requested."
+            prose: Requests for privileged access to systems and their resources are validated when first requested.
         - id: ism-1508
           class: ISM-control
           title: "Control: ism-1508"
@@ -357,10 +359,10 @@ catalog:
             value: "catalog[1].group[08].group[2].group[06].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "3"
+            value: "4"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -382,7 +384,7 @@ catalog:
           parts:
           - id: ism-1508_smt
             name: statement
-            prose: "Privileged access to systems, applications and data repositories is limited to only what is required for users and services to undertake their duties."
+            prose: Privileged access to systems and their resources is limited to only what is required for users and services to undertake their duties.
         - id: ism-1175
           class: ISM-control
           title: "Control: ism-1175"
@@ -471,10 +473,10 @@ catalog:
             value: "catalog[1].group[08].group[2].group[06].control[5]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-21
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -496,7 +498,7 @@ catalog:
           parts:
           - id: ism-1649_smt
             name: statement
-            prose: Just-in-time administration is used for administering systems and applications.
+            prose: Just-in-time administration is used for the administration of systems and their resources.
         - id: ism-0445
           class: ISM-control
           title: "Control: ism-0445"
@@ -617,7 +619,7 @@ catalog:
           value: "catalog[1].group[08].group[2].group[08]"
         parts:
         - name: overview
-          prose: "Removing or suspending access to systems, applications and data repositories, ideally using an automatic mechanism where possible, can prevent them from being accessed when there is no longer a legitimate business requirement for their use, such as when personnel change duties, leave an organisation or are detected undertaking malicious activities."
+          prose: "Removing or suspending access to systems and their resources, ideally using an automatic mechanism, can prevent them from being accessed when there is no longer a legitimate business requirement for their use, such as when personnel change duties, leave an organisation or are detected undertaking malicious activities."
         controls:
         - id: ism-1648
           class: ISM-control
@@ -627,10 +629,10 @@ catalog:
             value: "catalog[1].group[08].group[2].group[08].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -655,19 +657,19 @@ catalog:
           parts:
           - id: ism-1648_smt
             name: statement
-            prose: Privileged access to systems and applications is disabled after 45 days of inactivity.
+            prose: Privileged access to systems and their resources are disabled after 45 days of inactivity.
         - id: ism-1647
           class: ISM-control
           title: "Control: ism-1647"
           props:
           - name: sort-id
-            value: "catalog[1].group[08].group[2].group[08].control[6]"
+            value: "catalog[1].group[08].group[2].group[08].control[5]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -692,7 +694,7 @@ catalog:
           parts:
           - id: ism-1647_smt
             name: statement
-            prose: "Privileged access to systems, applications and data repositories is disabled after 12 months unless revalidated."
+            prose: Privileged access to systems and their resources are disabled after 12 months unless revalidated.
   - title: Guidelines for system hardening
     props:
     - name: sort-id
@@ -715,7 +717,7 @@ catalog:
 
           Further information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
 
-          Further information on hardening Microsoft Windows operating systems can also be found in the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
+          Further information on hardening Microsoft Windows operating systems can also be found in Microsoft’s [Windows 11 Security Book](#63bba9d2-127e-41d5-b735-e0cf3fe4b9aa) and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.
 
           Further information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux workstations and servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.
 
@@ -731,11 +733,11 @@ catalog:
 
           Further information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft.
 
-          Further information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Mandiant.
+          Further information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Google.
 
-          Further information on independent testing of security products’ ability to [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from The MITRE Corporation.
+          Further information on independent testing of security products’ ability to [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from MITRE.
 
-          Further information on independent testing of antivirus software is available from [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).
+          Further information on independent testing of antivirus applications is available from [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).
 
           Further information on the use of removable media can be found in the media usage section of the [Guidelines for media](#b594c9c0-b42f-4f06-b643-38023275a5c7).
 
@@ -743,8 +745,8 @@ catalog:
 
           Further information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:
 
-          - [Best practices for event logging and threat detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)
           - [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)
+          - [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)
           - [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).
       groups:
       - title: Operating system releases and versions
@@ -1463,7 +1465,7 @@ catalog:
         prose: |-
           # User applications
 
-          This section is applicable to applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) software, and security products (e.g. antivirus software, device access control software, HIPS and software firewalls). Information on server applications can be found in the server application hardening section of these guidelines.
+          This section is applicable to user applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) applications, and security products (e.g. antivirus applications, device access control applications, HIPS and software firewalls). Information on server applications can be found in the server application hardening section of these guidelines.
 
           # Further information
 
@@ -1477,9 +1479,9 @@ catalog:
 
           Further information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.
 
-          Further information on hardening Microsoft Office can also be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
+          Further information on hardening Microsoft Office can also be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.
 
-          Further information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d).
+          Further information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.
 
           Further information on hardening Google Chrome can be found in Google’s [Chrome Browser Enterprise Security Configuration Guide (Windows)](#741ab440-5759-4571-894d-e499dea3a54c).
 
@@ -1495,7 +1497,7 @@ catalog:
           value: "catalog[1].group[15].group[2].group[3]"
         parts:
         - name: overview
-          prose: "When user applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF software, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
+          prose: "When user applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
         controls:
         - id: ism-1667
           class: ISM-control
@@ -1884,10 +1886,10 @@ catalog:
             value: "catalog[1].group[15].group[2].group[3].control[15]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-21
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -1912,7 +1914,7 @@ catalog:
           parts:
           - id: ism-1670_smt
             name: statement
-            prose: PDF software is blocked from creating child processes.
+            prose: PDF applications are blocked from creating child processes.
         - id: ism-1860
           class: ISM-control
           title: "Control: ism-1860"
@@ -1921,10 +1923,10 @@ catalog:
             value: "catalog[1].group[15].group[2].group[3].control[16]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -1949,7 +1951,7 @@ catalog:
           parts:
           - id: ism-1860_smt
             name: statement
-            prose: "PDF software is hardened using ASD and vendor hardening guidance, with the most restrictive guidance taking precedence when conflicts occur."
+            prose: "PDF applications are hardened using ASD and vendor hardening guidance, with the most restrictive guidance taking precedence when conflicts occur."
         - id: ism-1824
           class: ISM-control
           title: "Control: ism-1824"
@@ -1958,10 +1960,10 @@ catalog:
             value: "catalog[1].group[15].group[2].group[3].control[17]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Mar-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -1986,7 +1988,7 @@ catalog:
           parts:
           - id: ism-1824_smt
             name: statement
-            prose: PDF software security settings cannot be changed by users.
+            prose: PDF application security settings cannot be changed by users.
       - title: Microsoft Office macros
         props:
         - name: sort-id
@@ -2415,7 +2417,7 @@ catalog:
 
           Further information on [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.
 
-          Further information on [group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.
+          Further information on how to [secure group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.
 
           Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and [Active Directory Forest Recovery - Reset the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.
 
@@ -2424,8 +2426,6 @@ catalog:
           Further information on [Local Security Authority protection functionality](#3f43c8d2-8a8c-4e2f-af80-48a607bce643) is available from Microsoft.
 
           Further information on [Credential Guard functionality](#8d53ee7f-54c2-4380-8408-f7403db30ba1) and [Remote Credential Guard functionality](#92975dff-58e0-4813-842b-f27c0533ca56) is available from Microsoft.
-
-          Further information on mitigating the use of stolen credentials can also be found in Microsoft’s [Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2](#f9fb4c57-8c12-4edf-9e34-cb422664aae9) publication.
       groups:
       - title: Multi-factor authentication
         props:
@@ -3642,10 +3642,10 @@ catalog:
             value: "catalog[1].group[16].group[2].group[3].control[04]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -3673,7 +3673,7 @@ catalog:
           parts:
           - id: ism-1699_smt
             name: statement
-            prose: "A vulnerability scanner is used at least weekly to identify missing patches or updates for vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF software, and security products."
+            prose: "A vulnerability scanner is used at least weekly to identify missing patches or updates for vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products."
         - id: ism-1700
           class: ISM-control
           title: "Control: ism-1700"
@@ -3682,10 +3682,10 @@ catalog:
             value: "catalog[1].group[16].group[2].group[3].control[05]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -3710,7 +3710,7 @@ catalog:
           parts:
           - id: ism-1700_smt
             name: statement
-            prose: "A vulnerability scanner is used at least fortnightly to identify missing patches or updates for vulnerabilities in applications other than office productivity suites, web browsers and their extensions, email clients, PDF software, and security products."
+            prose: "A vulnerability scanner is used at least fortnightly to identify missing patches or updates for vulnerabilities in applications other than office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products."
         - id: ism-1701
           class: ISM-control
           title: "Control: ism-1701"
@@ -3960,10 +3960,10 @@ catalog:
             value: "catalog[1].group[16].group[2].group[4].control[04]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "1"
+            value: "2"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -3985,7 +3985,7 @@ catalog:
           parts:
           - id: ism-1692_smt
             name: statement
-            prose: "Patches, updates or other vendor mitigations for vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within 48 hours of release when vulnerabilities are assessed as critical by vendors or when working exploits exist."
+            prose: "Patches, updates or other vendor mitigations for vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products are applied within 48 hours of release when vulnerabilities are assessed as critical by vendors or when working exploits exist."
         - id: ism-1901
           class: ISM-control
           title: "Control: ism-1901"
@@ -3994,10 +3994,10 @@ catalog:
             value: "catalog[1].group[16].group[2].group[4].control[05]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -4019,7 +4019,7 @@ catalog:
           parts:
           - id: ism-1901_smt
             name: statement
-            prose: "Patches, updates or other vendor mitigations for vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within two weeks of release when vulnerabilities are assessed as non-critical by vendors and no working exploits exist."
+            prose: "Patches, updates or other vendor mitigations for vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products are applied within two weeks of release when vulnerabilities are assessed as non-critical by vendors and no working exploits exist."
         - id: ism-1693
           class: ISM-control
           title: "Control: ism-1693"
@@ -4028,10 +4028,10 @@ catalog:
             value: "catalog[1].group[16].group[2].group[4].control[06]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -4056,7 +4056,7 @@ catalog:
           parts:
           - id: ism-1693_smt
             name: statement
-            prose: "Patches, updates or other vendor mitigations for vulnerabilities in applications other than office productivity suites, web browsers and their extensions, email clients, PDF software, and security products are applied within one month of release."
+            prose: "Patches, updates or other vendor mitigations for vulnerabilities in applications other than office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products are applied within one month of release."
         - id: ism-1877
           class: ISM-control
           title: "Control: ism-1877"
@@ -4402,10 +4402,10 @@ catalog:
             value: "catalog[1].group[16].group[2].group[5].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "2"
+            value: "3"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -4433,7 +4433,7 @@ catalog:
           parts:
           - id: ism-1704_smt
             name: statement
-            prose: "Office productivity suites, web browsers and their extensions, email clients, PDF software, Adobe Flash Player, and security products that are no longer supported by vendors are removed."
+            prose: "Office productivity suites, web browsers and their extensions, email clients, PDF applications, Adobe Flash Player, and security products that are no longer supported by vendors are removed."
         - id: ism-0304
           class: ISM-control
           title: "Control: ism-0304"
@@ -4442,10 +4442,10 @@ catalog:
             value: "catalog[1].group[16].group[2].group[5].control[3]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "7"
+            value: "8"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
+            value: Jun-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -4467,7 +4467,7 @@ catalog:
           parts:
           - id: ism-0304_smt
             name: statement
-            prose: "Applications other than office productivity suites, web browsers and their extensions, email clients, PDF software, Adobe Flash Player, and security products that are no longer supported by vendors are removed."
+            prose: "Applications other than office productivity suites, web browsers and their extensions, email clients, PDF applications, Adobe Flash Player, and security products that are no longer supported by vendors are removed."
         - id: ism-1501
           class: ISM-control
           title: "Control: ism-1501"
@@ -4985,11 +4985,15 @@ catalog:
         prose: |-
           # Event logging and monitoring activities
 
-          These guidelines are intended for security-relevant event logs. They are not intended for non-security-relevant event logs, such as system and application performance-related event logs.
+          These guidelines are intended for security-relevant event logs. They are not intended for non-security-relevant event logs, such as operating system and application performance-related event logs.
 
           # Further information
 
           Further information on logging intrusion activity can be found in the managing cybersecurity incidents section of the [Guidelines for cybersecurity incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).
+
+          Further information on event logging for application-based security products can be found in the operating system hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
+
+          Further information on event logging for artificial intelligence applications can be found in the software development fundamentals section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).
 
           Further information on event logging for Cross Domain Solutions can be found in the Cross Domain Solutions section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).
 
@@ -4997,13 +5001,13 @@ catalog:
 
           Further information on event logging for gateways can be found in the gateways section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).
 
+          Further information on event logging for mobile applications can be found in the software development fundamentals section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).
+
           Further information on event logging for multifunction devices can be found in the fax machines and multifunction devices section of the [Guidelines for communications systems](#3a7b903b-ed0d-450d-9123-60f6f8fd5dd2).
 
-          Further information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
-
-          Further information on event logging for application-based security products can be found in the operating system hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
-
           Further information on event logging for network-based security products can be found in the network design and configuration section of the [Guidelines for networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).
+
+          Further information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
           Further information on event logging for server applications can be found in the server application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
@@ -5020,7 +5024,13 @@ catalog:
           - [Best practices for event logging and threat detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)
           - [Detecting and mitigating Active Directory compromises](#331263bc-3314-496b-9d35-76788eb0f403)
           - [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)
+          - [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)
           - [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).
+
+          Further information on SIEM and SOAR platforms can be found in the following Australian Signals Directorate publications:
+
+          - [Implementing SIEM and SOAR platforms: Executive guidance](#4bebe303-7a91-4ffa-90d8-8df9f80a6318)
+          - [Implementing SIEM and SOAR platforms: Practitioner guidance](#4e01708d-9c2d-4a84-a08a-cb98077235a6).
 
           Further information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities](#aeba0a2d-b48a-42f0-b047-622b9fea9a91) publication.
 
@@ -5032,7 +5042,7 @@ catalog:
           value: "catalog[1].group[17].group[1].group[2]"
         parts:
         - name: overview
-          prose: "A centralised event logging facility can be used to capture, protect and manage event logs from multiple sources in a coordinated manner. This may be achieved by using a Security Information and Event Management solution. Furthermore, in support of a centralised event logging facility, it is important that an accurate and consistent time source is used to assist with identifying connections between events."
+          prose: "A centralised event logging facility can be used to capture, protect and manage event logs from multiple sources in a coordinated manner. This may be achieved by using a Security Information and Event Management (SIEM) platform, a Security Orchestration, Automation and Response (SOAR) platform, or both. Furthermore, in support of a centralised event logging facility, it is important that an accurate and consistent time source is used to assist with identifying connections between events."
         controls:
         - id: ism-1815
           class: ISM-control
@@ -5263,6 +5273,10 @@ catalog:
       title: reporting cybercrime incidents
       rlinks:
       - href: https://reportapp.cyber.gov.au/
+    - uuid: 1dbda98a-4e8b-4a52-b4f7-9d1a895fd324
+      title: "Priority logs for SIEM ingestion: Practitioner guidance"
+      rlinks:
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/priority-logs-for-siem-ingestion-practitioner-guidance
     - uuid: 1e4a57a2-2832-441d-8ea4-12a98d2be417
       title: Australian Privacy Principles guidelines
       rlinks:
@@ -5278,7 +5292,7 @@ catalog:
     - uuid: 3a1a00f6-2f56-4d04-b99d-6f1682b95a98
       title: detect or prevent various stages of network intrusions
       rlinks:
-      - href: https://attackevals.mitre-engenuity.org/
+      - href: https://evals.mitre.org/
     - uuid: 3a7b903b-ed0d-450d-9123-60f6f8fd5dd2
       title: Guidelines for communications systems
       rlinks:
@@ -5310,7 +5324,15 @@ catalog:
     - uuid: 4a3a265f-7772-433b-9906-7f784052f28b
       title: vulnerable driver blocklist
       rlinks:
-      - href: https://learn.microsoft.com/en-au/windows/security/application-security/application-control/windows-defender-application-control/design/microsoft-recommended-driver-block-rules
+      - href: https://learn.microsoft.com/en-au/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules
+    - uuid: 4bebe303-7a91-4ffa-90d8-8df9f80a6318
+      title: "Implementing SIEM and SOAR platforms: Executive guidance"
+      rlinks:
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/implementing-siem-and-soar-platforms-executive-guidance
+    - uuid: 4e01708d-9c2d-4a84-a08a-cb98077235a6
+      title: "Implementing SIEM and SOAR platforms: Practitioner guidance"
+      rlinks:
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/implementing-siem-and-soar-platforms-practitioner-guidance
     - uuid: 4eeff329-cea0-4baf-a80b-8b0b76436075
       title: Implementing application control
       rlinks:
@@ -5338,7 +5360,7 @@ catalog:
     - uuid: 5a2ed3ef-afcc-485e-8014-5107e9ed97e3
       title: recommended application blocklist
       rlinks:
-      - href: https://learn.microsoft.com/en-au/windows/security/application-security/application-control/windows-defender-application-control/design/applications-that-can-bypass-wdac
+      - href: https://learn.microsoft.com/en-au/windows/security/application-security/application-control/app-control-for-business/design/applications-that-can-bypass-appcontrol
     - uuid: 626d3582-3caf-49d6-89d5-4b8fdbbf1f31
       title: reporting cybersecurity incidents
       rlinks:
@@ -5347,6 +5369,10 @@ catalog:
       title: Guidelines for cybersecurity roles
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-roles
+    - uuid: 63bba9d2-127e-41d5-b735-e0cf3fe4b9aa
+      title: Windows 11 Security Book
+      rlinks:
+      - href: https://learn.microsoft.com/en-au/windows/security/book/
     - uuid: 6e801c68-61f6-4c28-bf72-df91f7e232cc
       title: Hardening Microsoft Windows 10 and Windows 11 workstations
       rlinks:
@@ -5370,7 +5396,7 @@ catalog:
     - uuid: 82ae76a4-ed9e-4a7b-8bad-f1950c41eab7
       title: attack surface reduction rules overview
       rlinks:
-      - href: https://learn.microsoft.com/en-au/microsoft-365/security/defender-endpoint/attack-surface-reduction?view=o365-worldwide
+      - href: https://learn.microsoft.com/en-au/defender-endpoint/attack-surface-reduction?view=o365-worldwide
     - uuid: 83e3a9b1-5057-4531-91dd-03c8d92634b0
       title: Implementing multi-factor authentication
       rlinks:
@@ -5384,7 +5410,7 @@ catalog:
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise
     - uuid: 91b92563-d991-40fa-9adc-548df9f6c496
-      title: group Managed Service Accounts
+      title: secure group Managed Service Accounts
       rlinks:
       - href: https://learn.microsoft.com/en-au/entra/architecture/service-accounts-group-managed
     - uuid: 92679127-f61d-486a-a93e-df2a26dfb07a
@@ -5414,7 +5440,7 @@ catalog:
     - uuid: af0810aa-3486-4ca6-a48a-fad8ce9ac193
       title: greater visibility through PowerShell logging
       rlinks:
-      - href: https://www.mandiant.com/resources/blog/greater-visibility
+      - href: https://cloud.google.com/blog/topics/threat-intelligence/greater-visibility/
     - uuid: b594c9c0-b42f-4f06-b643-38023275a5c7
       title: Guidelines for media
       rlinks:
@@ -5428,9 +5454,9 @@ catalog:
       rlinks:
       - href: https://www.oaic.gov.au/privacy/australian-privacy-principles
     - uuid: c2a2f934-c5d6-46a7-86db-7fec1565058e
-      title: Insider Risk
+      title: Insider Risk Guidance
       rlinks:
-      - href: https://www.npsa.gov.uk/insider-risk
+      - href: https://www.npsa.gov.uk/specialised-guidance/insider-risk-guidance
     - uuid: c322926a-13b3-4efe-8573-06624418e8f5
       title: Insider Threat Mitigation Guide
       rlinks:
@@ -5444,9 +5470,9 @@ catalog:
       rlinks:
       - href: https://www.av-comparatives.org/
     - uuid: cad720b4-e47a-437d-b272-6958e738131d
-      title: "Common Sense Guide to Mitigating Insider Threats, Sixth Edition"
+      title: "Common Sense Guide to Mitigating Insider Threats, Seventh Edition"
       rlinks:
-      - href: https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-sixth-edition/
+      - href: https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-seventh-edition/
     - uuid: cae0ac6b-e69b-4359-bfd7-5ee5eff1049d
       title: limited use obligation
       rlinks:
@@ -5458,7 +5484,7 @@ catalog:
     - uuid: d0df96bb-7236-4784-8f54-2cb6335ad228
       title: exploit protection functionality
       rlinks:
-      - href: https://learn.microsoft.com/en-au/microsoft-365/security/defender-endpoint/exploit-protection?view=o365-worldwide
+      - href: https://learn.microsoft.com/en-au/defender-endpoint/exploit-protection?view=o365-worldwide
     - uuid: d36ce452-ec21-4b05-89c1-f29a444a3dca
       title: End of support for Microsoft Windows and Microsoft Windows Server
       rlinks:
@@ -5466,7 +5492,7 @@ catalog:
     - uuid: d446dea3-c36d-45af-9623-05b686624af0
       title: memory integrity functionality
       rlinks:
-      - href: https://support.microsoft.com/en-au/windows/core-isolation-e30ed737-17d8-42f3-a2a9-87521df09b78
+      - href: https://support.microsoft.com/en-au/windows/device-security-in-the-windows-security-app-afa11526-de57-b1c5-599f-3a4c6a61c5e2
     - uuid: de239dae-d1e8-4969-9680-ef3444d32a83
       title: Windows event logging and forwarding
       rlinks:
@@ -5496,9 +5522,9 @@ catalog:
       rlinks:
       - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-procurement-and-outsourcing
     - uuid: f48c0d05-5173-4c8e-8748-e5591518c1fb
-      title: Computer Security Incident Handling Guide
+      title: "Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile"
       rlinks:
-      - href: https://csrc.nist.gov/pubs/sp/800/61/r2/final
+      - href: https://csrc.nist.gov/pubs/sp/800/61/r3/final
     - uuid: f6813648-fe24-4d45-9e45-c97b4021506e
       title: "Countering the insider threat: A security manager’s guide"
       rlinks:
@@ -5507,10 +5533,6 @@ catalog:
       title: changing credentials for this service account
       rlinks:
       - href: https://www.microsoft.com/en-us/security/blog/2015/02/11/krbtgt-account-password-reset-scripts-now-available-for-customers/
-    - uuid: f9fb4c57-8c12-4edf-9e34-cb422664aae9
-      title: "Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques, Version 1 and 2"
-      rlinks:
-      - href: https://www.microsoft.com/en-au/download/confirmation.aspx?id=36036
     - uuid: fb60e251-ed4c-4781-96db-58a0225bca89
       title: "Countering the Insider Threat: A guide for Australian Government"
       rlinks:
