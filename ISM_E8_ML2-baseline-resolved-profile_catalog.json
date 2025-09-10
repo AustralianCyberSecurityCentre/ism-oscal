@@ -1,17 +1,17 @@
 {
   "catalog" : {
-    "uuid" : "d992c5c3-601f-413d-b81d-523dd9ae3c62",
+    "uuid" : "bf40d3d4-ffd0-4d51-9591-48db40b7be51",
     "metadata" : {
       "title" : "Information security manual Essential Eight Maturity Level Two Baseline",
-      "last-modified" : "2025-07-16T09:55:42.764657038Z",
-      "version" : "2025.07.16",
+      "last-modified" : "2025-09-10T12:51:36.389204381Z",
+      "version" : "2025.09.10",
       "oscal-version" : "1.1.2",
       "props" : [ {
         "name" : "resolution-tool",
         "value" : "libOSCAL-Java+xslt"
       } ],
       "links" : [ {
-        "href" : "https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_E8_ML2-baseline_profile.xml",
+        "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_E8_ML2-baseline_profile.xml",
         "rel" : "source-profile"
       } ],
       "roles" : [ {
@@ -713,7 +713,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.\n\nFurther information on patching or updating operating systems can be found in the system patching section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.\n\nFurther information on hardening Microsoft Windows operating systems can also be found in Microsoft’s [Windows 11 Security Book](#63bba9d2-127e-41d5-b735-e0cf3fe4b9aa) and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.\n\nFurther information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux workstations and servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.\n\nFurther information on [exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.\n\nFurther information on implementing application control can be found in ASD’s [Implementing application control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.\n\nFurther information on Microsoft’s [recommended application blocklist](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3) and [vulnerable driver blocklist](#4a3a265f-7772-433b-9906-7f784052f28b) are available from Microsoft.\n\nFurther information on [command line process logging](#0a1508c0-b062-4d85-8ded-a95316e17a3a) is available from Microsoft.\n\nFurther information on the use of PowerShell can be found in ASD’s [Securing PowerShell in the enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.\n\nFurther information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft.\n\nFurther information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Google.\n\nFurther information on independent testing of security products’ ability to [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from MITRE.\n\nFurther information on independent testing of antivirus applications is available from [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).\n\nFurther information on the use of removable media can be found in the media usage section of the [Guidelines for media](#b594c9c0-b42f-4f06-b643-38023275a5c7).\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:\n\n- [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)\n- [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)\n- [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83)."
+          "prose" : "# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.\n\nFurther information on patching or updating operating systems can be found in the system patching section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093) and [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa) publications.\n\nFurther information on hardening Microsoft Windows operating systems can also be found in Microsoft’s [Windows 11 Security Book](#63bba9d2-127e-41d5-b735-e0cf3fe4b9aa) and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.\n\nFurther information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux workstations and servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.\n\nFurther information on [exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.\n\nFurther information on implementing application control can be found in ASD’s [Implementing application control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.\n\nFurther information on Microsoft’s [recommended application blocklist](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3) and [vulnerable driver blocklist](#4a3a265f-7772-433b-9906-7f784052f28b) are available from Microsoft.\n\nFurther information on [command line process logging](#0a1508c0-b062-4d85-8ded-a95316e17a3a) is available from Microsoft.\n\nFurther information on the use of PowerShell can be found in ASD’s [Securing PowerShell in the enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.\n\nFurther information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft.\n\nFurther information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Google.\n\nFurther information on independent testing of security products’ ability to [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from MITRE.\n\nFurther information on independent testing of antivirus applications is available from [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).\n\nFurther information on the use of removable media can be found in the media usage section of the [Guidelines for media](#b594c9c0-b42f-4f06-b643-38023275a5c7).\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:\n\n- [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093)\n- [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa)\n- [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)\n- [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83)."
         } ],
         "groups" : [ {
           "title" : "Hardening operating system configurations",
@@ -787,7 +787,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.\n\nIn implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by malicious actors.\n\nFinally, centrally logging and analysing application control events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents."
+            "prose" : "Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.\n\nIn implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by malicious actors.\n\nFinally, centrally logging and analysing application control events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents."
           } ],
           "controls" : [ {
             "id" : "ism-0843",
@@ -1003,11 +1003,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "0"
+              "value" : "1"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "Sep-21"
+              "value" : "Sep-25"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -1044,7 +1044,7 @@
             "parts" : [ {
               "id" : "ism-1657_smt",
               "name" : "statement",
-              "prose" : "Application control restricts the execution of executables, software libraries, scripts, installers, compiled HTML, HTML applications and control panel applets to an organisation-approved set."
+              "prose" : "Application control restricts the execution of executables, libraries, scripts, installers, compiled HTML, HTML applications and control panel applets to an organisation-approved set."
             } ]
           }, {
             "id" : "ism-1544",
@@ -3694,7 +3694,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "When patches or updates are released by vendors for vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by malicious actors. For example, by prioritising patches or updates for vulnerabilities in online services as well as operating systems of internet-facing servers and internet-facing network devices. This is especially important when vulnerabilities are assessed as critical by vendors or working exploits exist.\n\nIf no patches or updates are available for vulnerabilities, mitigation advice from vendors, trusted authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.\n\nIf a patch or update is released for high assurance IT equipment, ASD will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied."
+            "prose" : "When patches or updates are released by vendors for vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by malicious actors. For example, by prioritising patches or updates for vulnerabilities in online services as well as operating systems of internet-facing servers and internet-facing network devices. This is especially important when vulnerabilities are assessed as critical by vendors or working exploits exist.\n\nIf no patches or updates are available for vulnerabilities, mitigation advice from vendors, trustworthy authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.\n\nIf a patch or update is released for high assurance IT equipment, ASD will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied."
           } ],
           "controls" : [ {
             "id" : "ism-1876",
@@ -4713,7 +4713,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Event logging and monitoring activities\n\nThese guidelines are intended for security-relevant event logs. They are not intended for non-security-relevant event logs, such as operating system and application performance-related event logs.\n\n# Further information\n\nFurther information on logging intrusion activity can be found in the managing cybersecurity incidents section of the [Guidelines for cybersecurity incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).\n\nFurther information on event logging for application-based security products can be found in the operating system hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for artificial intelligence applications can be found in the software development fundamentals section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for Cross Domain Solutions can be found in the Cross Domain Solutions section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for databases can be found in the databases section of the [Guidelines for database systems](#3f349d16-11a1-459a-a299-c9446aea7597).\n\nFurther information on event logging for gateways can be found in the gateways section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for mobile applications can be found in the software development fundamentals section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for multifunction devices can be found in the fax machines and multifunction devices section of the [Guidelines for communications systems](#3a7b903b-ed0d-450d-9123-60f6f8fd5dd2).\n\nFurther information on event logging for network-based security products can be found in the network design and configuration section of the [Guidelines for networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).\n\nFurther information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for server applications can be found in the server application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for system access can be found in the access to systems and their resources section of the [Guidelines for personnel security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).\n\nFurther information on event logging for user applications can be found in the user application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for web applications can be found in the web application development section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for web proxies can be found in the web proxies section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging can be found in the following Australian Signals Directorate publications:\n\n- [Best practices for event logging and threat detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)\n- [Detecting and mitigating Active Directory compromises](#331263bc-3314-496b-9d35-76788eb0f403)\n- [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)\n- [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)\n- [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).\n\nFurther information on SIEM and SOAR platforms can be found in the following Australian Signals Directorate publications:\n\n- [Implementing SIEM and SOAR platforms: Executive guidance](#4bebe303-7a91-4ffa-90d8-8df9f80a6318)\n- [Implementing SIEM and SOAR platforms: Practitioner guidance](#4e01708d-9c2d-4a84-a08a-cb98077235a6).\n\nFurther information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities](#aeba0a2d-b48a-42f0-b047-622b9fea9a91) publication.\n\nFurther information on the National Archives of Australia’s requirements for event log retention can be found in their [AFDA Express Version 2 – Technology \\& Information Management](#cc1a55cb-34ab-4418-b660-53571b3af899) publication."
+          "prose" : "# Event logging and monitoring activities\n\nThese guidelines are intended for security-relevant event logs. They are not intended for non-security-relevant event logs, such as operating system and application performance-related event logs.\n\n# Further information\n\nFurther information on logging intrusion activity can be found in the managing cybersecurity incidents section of the [Guidelines for cybersecurity incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).\n\nFurther information on event logging for application-based security products can be found in the operating system hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for artificial intelligence applications can be found in the software development fundamentals section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for Cross Domain Solutions can be found in the Cross Domain Solutions section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for databases can be found in the databases section of the [Guidelines for database systems](#3f349d16-11a1-459a-a299-c9446aea7597).\n\nFurther information on event logging for gateways can be found in the gateways section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for mobile applications can be found in the software development fundamentals section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for multifunction devices can be found in the fax machines and multifunction devices section of the [Guidelines for communications systems](#3a7b903b-ed0d-450d-9123-60f6f8fd5dd2).\n\nFurther information on event logging for network-based security products can be found in the network design and configuration section of the [Guidelines for networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).\n\nFurther information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for server applications can be found in the server application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for system access can be found in the access to systems and their resources section of the [Guidelines for personnel security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).\n\nFurther information on event logging for user applications can be found in the user application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for web applications can be found in the software development section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for web proxies can be found in the web proxies section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging can be found in the following Australian Signals Directorate publications:\n\n- [Best practices for event logging and threat detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)\n- [Detecting and mitigating Active Directory compromises](#331263bc-3314-496b-9d35-76788eb0f403)\n- [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093)\n- [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa)\n- [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)\n- [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).\n\nFurther information on SIEM and SOAR platforms can be found in the Australian Signals Directorate’s [Implementing SIEM and SOAR platforms: Executive guidance](#4bebe303-7a91-4ffa-90d8-8df9f80a6318) and [Implementing SIEM and SOAR platforms: Practitioner guidance](#4e01708d-9c2d-4a84-a08a-cb98077235a6) publications.\n\nFurther information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities](#aeba0a2d-b48a-42f0-b047-622b9fea9a91) publication.\n\nFurther information on the National Archives of Australia’s requirements for event log retention can be found in their [AFDA Express Version 2 – Technology \\& Information Management](#cc1a55cb-34ab-4418-b660-53571b3af899) publication."
         } ],
         "groups" : [ {
           "title" : "Centralised event logging facility",
@@ -4892,13 +4892,13 @@
         "uuid" : "02fb4cb5-e4c4-4097-97a2-f1b6aa04131a",
         "title" : "Patching applications and operating systems",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/patching-applications-and-operating-systems"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/patching-applications-operating-systems"
         } ]
       }, {
         "uuid" : "041bce05-55ad-4a2a-93e3-c582d39fce94",
         "title" : "Cybersecurity incident response planning: Practitioner guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/cybersecurity-incident-response-planning-practitioner-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-practitioner-guidance"
         } ]
       }, {
         "uuid" : "0508be6f-cb97-44da-b212-42416a0048b0",
@@ -4910,13 +4910,13 @@
         "uuid" : "065263a6-4634-4a52-bd3f-48b83bf437d8",
         "title" : "Managing the risks of legacy IT: Executive guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-risks-legacy-it-executive-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/managing-risks-legacy-it-executive-guidance"
         } ]
       }, {
         "uuid" : "089badd3-ed47-4597-8b1f-bce3e42f4ac4",
         "title" : "Managing the risks of legacy IT: Practitioner guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-the-risks-of-legacy-it-practitioner-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/managing-risks-legacy-it-practitioner-guidance"
         } ]
       }, {
         "uuid" : "0a1508c0-b062-4d85-8ded-a95316e17a3a",
@@ -4934,7 +4934,7 @@
         "uuid" : "131048c7-a2e7-4da3-9257-7a058b06c1f8",
         "title" : "Secure administration",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/secure-administration"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/secure-administration"
         } ]
       }, {
         "uuid" : "18203e18-2aca-492e-be44-770b2f47242f",
@@ -4952,7 +4952,7 @@
         "uuid" : "1dbda98a-4e8b-4a52-b4f7-9d1a895fd324",
         "title" : "Priority logs for SIEM ingestion: Practitioner guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/priority-logs-for-siem-ingestion-practitioner-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/priority-logs-siem-ingestion-practitioner-guidance"
         } ]
       }, {
         "uuid" : "1e4a57a2-2832-441d-8ea4-12a98d2be417",
@@ -4964,7 +4964,7 @@
         "uuid" : "331263bc-3314-496b-9d35-76788eb0f403",
         "title" : "Detecting and mitigating Active Directory compromises",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/detecting-and-mitigating-active-directory-compromises"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-threats/detecting-mitigating-active-directory-compromises"
         } ]
       }, {
         "uuid" : "348be728-4459-4447-990e-1dfb3049c71f",
@@ -4982,13 +4982,13 @@
         "uuid" : "3a7b903b-ed0d-450d-9123-60f6f8fd5dd2",
         "title" : "Guidelines for communications systems",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-communications-systems"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-communications-systems"
         } ]
       }, {
         "uuid" : "3ccea9a8-a728-4f5b-a0a8-43f2f206f76b",
         "title" : "Restricting administrative privileges",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/restricting-administrative-privileges"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/restricting-administrative-privileges"
         } ]
       }, {
         "uuid" : "3e5a98e5-9219-46c8-81c2-e3a4d13407ce",
@@ -5000,7 +5000,7 @@
         "uuid" : "3f349d16-11a1-459a-a299-c9446aea7597",
         "title" : "Guidelines for database systems",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-database-systems"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-database-systems"
         } ]
       }, {
         "uuid" : "3f43c8d2-8a8c-4e2f-af80-48a607bce643",
@@ -5012,7 +5012,13 @@
         "uuid" : "403f72c6-3e85-4185-8df3-130b2a6b25b3",
         "title" : "Cybersecurity incident response planning: Executive guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/cybersecurity-incident-response-planning-executive-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-executive-guidance"
+        } ]
+      }, {
+        "uuid" : "43fbcaf9-03a3-493a-83be-9340a37778fa",
+        "title" : "Hardening Microsoft Windows 11 workstations",
+        "rlinks" : [ {
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-windows-11-workstations"
         } ]
       }, {
         "uuid" : "4974639a-f41a-4280-ae06-33d1f13d6083",
@@ -5030,25 +5036,25 @@
         "uuid" : "4bebe303-7a91-4ffa-90d8-8df9f80a6318",
         "title" : "Implementing SIEM and SOAR platforms: Executive guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/implementing-siem-and-soar-platforms-executive-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/implementing-siem-soar-platforms-executive-guidance"
         } ]
       }, {
         "uuid" : "4e01708d-9c2d-4a84-a08a-cb98077235a6",
         "title" : "Implementing SIEM and SOAR platforms: Practitioner guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/implementing-siem-and-soar-platforms-practitioner-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/implementing-siem-soar-platforms-practitioner-guidance"
         } ]
       }, {
         "uuid" : "4eeff329-cea0-4baf-a80b-8b0b76436075",
         "title" : "Implementing application control",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-application-control"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/implementing-application-control"
         } ]
       }, {
         "uuid" : "506198a8-7ae8-4c95-8b7b-2a4833cfab4b",
         "title" : "Guidelines for software development",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-software-development"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-software-development"
         } ]
       }, {
         "uuid" : "53da8dba-961e-4222-94e0-68cb9510384d",
@@ -5060,7 +5066,7 @@
         "uuid" : "578d0434-6b3f-46f3-aad8-c7ac75c2ebcc",
         "title" : "Guidelines for cybersecurity documentation",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-documentation"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-documentation"
         } ]
       }, {
         "uuid" : "58282062-5c17-476a-98b1-105a627cd28d",
@@ -5072,7 +5078,7 @@
         "uuid" : "58c9abfb-58fe-416e-a279-dfbfe123c99f",
         "title" : "Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-365-office-2021-office-2019-office-2016"
         } ]
       }, {
         "uuid" : "5a2ed3ef-afcc-485e-8014-5107e9ed97e3",
@@ -5090,19 +5096,13 @@
         "uuid" : "626dab35-81ab-45fe-8c12-0faff1c23c07",
         "title" : "Guidelines for cybersecurity roles",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-roles"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-roles"
         } ]
       }, {
         "uuid" : "63bba9d2-127e-41d5-b735-e0cf3fe4b9aa",
         "title" : "Windows 11 Security Book",
         "rlinks" : [ {
           "href" : "https://learn.microsoft.com/en-au/windows/security/book/"
-        } ]
-      }, {
-        "uuid" : "6e801c68-61f6-4c28-bf72-df91f7e232cc",
-        "title" : "Hardening Microsoft Windows 10 and Windows 11 workstations",
-        "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-and-windows-11-workstations"
         } ]
       }, {
         "uuid" : "741ab440-5759-4571-894d-e499dea3a54c",
@@ -5114,7 +5114,7 @@
         "uuid" : "7d16ae67-87a7-4861-b939-e13ec279b5a2",
         "title" : "Guidelines for personnel security",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-personnel-security"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-personnel-security"
         } ]
       }, {
         "uuid" : "7d22400c-ddef-4cbb-90f1-7502dc569e5b",
@@ -5126,7 +5126,7 @@
         "uuid" : "8132c47e-a2dc-4dd9-81d6-38db96e5cec6",
         "title" : "Hardening Linux workstations and servers",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-linux-workstations-servers"
         } ]
       }, {
         "uuid" : "82ae76a4-ed9e-4a7b-8bad-f1950c41eab7",
@@ -5138,7 +5138,7 @@
         "uuid" : "83e3a9b1-5057-4531-91dd-03c8d92634b0",
         "title" : "Implementing multi-factor authentication",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-multi-factor-authentication"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/implementing-multi-factor-authentication"
         } ]
       }, {
         "uuid" : "8d53ee7f-54c2-4380-8408-f7403db30ba1",
@@ -5150,13 +5150,19 @@
         "uuid" : "8ffea524-0974-4b53-a8f5-41166073ede5",
         "title" : "Securing PowerShell in the enterprise",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/securing-powershell-enterprise"
         } ]
       }, {
         "uuid" : "91b92563-d991-40fa-9adc-548df9f6c496",
         "title" : "secure group Managed Service Accounts",
         "rlinks" : [ {
           "href" : "https://learn.microsoft.com/en-au/entra/architecture/service-accounts-group-managed"
+        } ]
+      }, {
+        "uuid" : "9209d9cd-86c1-486f-890e-1edfa4545093",
+        "title" : "Hardening Microsoft Windows 10 workstations",
+        "rlinks" : [ {
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-windows-10-workstations"
         } ]
       }, {
         "uuid" : "92679127-f61d-486a-a93e-df2a26dfb07a",
@@ -5180,7 +5186,7 @@
         "uuid" : "a699a3aa-828d-479b-b50b-98127bb19437",
         "title" : "Guidelines for evaluated products",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-evaluated-products"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-evaluated-products"
         } ]
       }, {
         "uuid" : "ae426d0a-adb6-43b8-a463-faa33e83b679",
@@ -5204,13 +5210,13 @@
         "uuid" : "b594c9c0-b42f-4f06-b643-38023275a5c7",
         "title" : "Guidelines for media",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-media"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-media"
         } ]
       }, {
         "uuid" : "b95c4745-572a-4121-b4e1-d0baa90a84fc",
         "title" : "Best practices for event logging and threat detection",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/best-practices-event-logging-threat-detection"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/best-practices-event-logging-threat-detection"
         } ]
       }, {
         "uuid" : "bac2c6f2-9356-46d2-b7c4-9af7393008df",
@@ -5234,7 +5240,7 @@
         "uuid" : "c6ca6620-ccd5-4c5d-b97c-9d92f1162948",
         "title" : "Guidelines for system management",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-management"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-management"
         } ]
       }, {
         "uuid" : "c852e735-4920-4616-8e34-2fddfb49eea8",
@@ -5270,7 +5276,7 @@
         "uuid" : "d36ce452-ec21-4b05-89c1-f29a444a3dca",
         "title" : "End of support for Microsoft Windows and Microsoft Windows Server",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/end-support-microsoft-windows-and-microsoft-windows-server"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/end-support-microsoft-windows-microsoft-windows-server"
         } ]
       }, {
         "uuid" : "d446dea3-c36d-45af-9623-05b686624af0",
@@ -5282,43 +5288,43 @@
         "uuid" : "de239dae-d1e8-4969-9680-ef3444d32a83",
         "title" : "Windows event logging and forwarding",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/windows-event-logging-and-forwarding"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/windows-event-logging-forwarding"
         } ]
       }, {
         "uuid" : "de7525f3-a466-40a5-abdd-3ae24a6d1b44",
         "title" : "Guidelines for system hardening",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-hardening"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-hardening"
         } ]
       }, {
         "uuid" : "dfb52998-0e7e-420d-97e1-d1313c8f919a",
         "title" : "Restricting Microsoft Office macros",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros"
+          "href" : "https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/restricting-microsoft-office-macros"
         } ]
       }, {
         "uuid" : "e8bde527-526c-4a6a-b66f-05228f09dd7b",
         "title" : "Guidelines for gateways",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-gateways"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-gateways"
         } ]
       }, {
         "uuid" : "edc24216-f52b-4513-bcda-5fa564661999",
         "title" : "Guidelines for system monitoring",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-monitoring"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-monitoring"
         } ]
       }, {
         "uuid" : "f145ff5b-d396-4248-8f48-621349d6f0ed",
         "title" : "Guidelines for networking",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-networking"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-networking"
         } ]
       }, {
         "uuid" : "f37a4848-0791-4870-b316-5536c2681c28",
         "title" : "Guidelines for procurement and outsourcing",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-procurement-and-outsourcing"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-procurement-outsourcing"
         } ]
       }, {
         "uuid" : "f48c0d05-5173-4c8e-8748-e5591518c1fb",
@@ -5348,7 +5354,7 @@
         "uuid" : "fe0138db-e83b-4a23-85d3-d84e1c22816f",
         "title" : "Guidelines for cybersecurity incidents",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-incidents"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-incidents"
         } ]
       } ]
     }

@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 0c670c96-cbfc-4234-a6fd-c9625b148258
+  uuid: b0a0c61b-fb2a-4678-8ec2-2c38b1218dce
   metadata:
     title: Information security manual non-classified Baseline
-    last-modified: 2025-07-16T09:55:32.598705702Z
-    version: 2025.07.16
+    last-modified: 2025-09-10T12:51:17.51868556Z
+    version: 2025.09.10
     oscal-version: 1.1.2
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -54,13 +54,14 @@ catalog:
         prose: |-
           # Purpose of the cybersecurity principles
 
-          The purpose of the cybersecurity principles is to provide strategic guidance on how an organisation can protect their information technology and operational technology systems from cyberthreats. These cybersecurity principles are grouped into five functions:
+          The purpose of the cybersecurity principles is to provide strategic guidance on how an organisation can protect their information technology and operational technology systems from cyberthreats. These cybersecurity principles are grouped into six functions:
 
           - **Govern (GOV):** Develop and maintain a strong and resilient cybersecurity culture.
           - **Identify (IDE):** Identify assets and associated security risks.
           - **Protect (PRO):** Implement and maintain controls to manage security risks.
           - **Detect (DET):** Detect and analyse cybersecurity events to identify cybersecurity incidents.
-          - **Respond (RES):** Respond to and recover from cybersecurity incidents.
+          - **Respond (RES):** Respond to cybersecurity incidents.
+          - **Recover (REC):** Resume normal business operations following cybersecurity incidents.
       groups:
       - title: Govern principles
         props:
@@ -72,10 +73,12 @@ catalog:
         controls:
         - id: ism-principle-gov-01
           class: ISM-principle
-          title: "Security Principle: GOV-01"
+          title: Executive cybersecurity accountability
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[1].control[1]"
+          - name: label
+            value: GOV-01
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -97,10 +100,12 @@ catalog:
             prose: The board of directors or executive committee is accountable for cybersecurity.
         - id: ism-principle-gov-02
           class: ISM-principle
-          title: "Security Principle: GOV-02"
+          title: Executive cybersecurity leadership
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[1].control[2]"
+          - name: label
+            value: GOV-02
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -122,10 +127,12 @@ catalog:
             prose: A chief information security officer provides leadership and oversight of cybersecurity activities.
         - id: ism-principle-gov-03
           class: ISM-principle
-          title: "Security Principle: GOV-03"
+          title: Security risk management
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[1].control[3]"
+          - name: label
+            value: GOV-03
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -147,10 +154,12 @@ catalog:
             prose: "Security risk management activities for systems (cyber supply chains, infrastructure, operating systems, applications and data) are embedded into organisational risk management frameworks."
         - id: ism-principle-gov-04
           class: ISM-principle
-          title: "Security Principle: GOV-04"
+          title: Cybersecurity resourcing
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[1].control[4]"
+          - name: label
+            value: GOV-04
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -172,10 +181,12 @@ catalog:
             prose: Suitable and sufficient personnel and resources are identified and acquired in support of cybersecurity activities.
         - id: ism-principle-gov-05
           class: ISM-principle
-          title: "Security Principle: GOV-05"
+          title: Security risk acceptance
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[1].control[5]"
+          - name: label
+            value: GOV-05
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -194,13 +205,15 @@ catalog:
           parts:
           - id: ism-principle-gov-05_smt
             name: statement
-            prose: "Security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are accepted before they are authorised for use and continuously monitored and managed throughout their operational life."
+            prose: "Residual security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are accepted before they are authorised for use and continuously monitored and managed throughout their operational life."
         - id: ism-principle-gov-06
           class: ISM-principle
-          title: "Security Principle: GOV-06"
+          title: Security risk communication
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[1].control[6]"
+          - name: label
+            value: GOV-06
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -219,13 +232,15 @@ catalog:
           parts:
           - id: ism-principle-gov-06_smt
             name: statement
-            prose: "Security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are transparently and mutually communicated with stakeholders."
+            prose: "Residual security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are transparently and mutually communicated with stakeholders."
         - id: ism-principle-gov-07
           class: ISM-principle
-          title: "Security Principle: GOV-07"
+          title: Security risk insights
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[1].control[7]"
+          - name: label
+            value: GOV-07
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -255,10 +270,12 @@ catalog:
         controls:
         - id: ism-principle-ide-01
           class: ISM-principle
-          title: "Security Principle: IDE-01"
+          title: Asset identification
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[2].control[1]"
+          - name: label
+            value: IDE-01
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -277,13 +294,15 @@ catalog:
           parts:
           - id: ism-principle-ide-01_smt
             name: statement
-            prose: "The business criticality of systems (cyber supply chains, infrastructure, operating systems, applications and data) is determined and documented."
+            prose: "Systems (cyber supply chains, infrastructure, operating systems, applications and data) are identified and documented."
         - id: ism-principle-ide-02
           class: ISM-principle
-          title: "Security Principle: IDE-02"
+          title: Business criticality identification
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[2].control[2]"
+          - name: label
+            value: IDE-02
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -302,13 +321,15 @@ catalog:
           parts:
           - id: ism-principle-ide-02_smt
             name: statement
-            prose: "The confidentiality, integrity and availability requirements for systems (cyber supply chains, infrastructure, operating systems, applications and data) are determined and documented."
+            prose: "The business criticality of systems (cyber supply chains, infrastructure, operating systems, applications and data) is determined and documented."
         - id: ism-principle-ide-03
           class: ISM-principle
-          title: "Security Principle: IDE-03"
+          title: Security requirements identification
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[2].control[3]"
+          - name: label
+            value: IDE-03
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -327,6 +348,33 @@ catalog:
           parts:
           - id: ism-principle-ide-03_smt
             name: statement
+            prose: "The confidentiality, integrity and availability requirements for systems (cyber supply chains, infrastructure, operating systems, applications and data) are determined and documented."
+        - id: ism-principle-ide-04
+          class: ISM-principle
+          title: Security risk identification
+          props:
+          - name: sort-id
+            value: "catalog[1].group[02].group[1].group[2].control[4]"
+          - name: label
+            value: IDE-04
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          parts:
+          - id: ism-principle-ide-04_smt
+            name: statement
             prose: "Security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are identified and documented along with any associated risk management decisions."
       - title: Protect principles
         props:
@@ -338,10 +386,12 @@ catalog:
         controls:
         - id: ism-principle-pro-01
           class: ISM-principle
-          title: "Security Principle: PRO-01"
+          title: Secure system lifecycle
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[01]"
+          - name: label
+            value: PRO-01
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -363,10 +413,12 @@ catalog:
             prose: "Systems (infrastructure, operating systems and applications) are planned, designed, developed, tested, deployed, maintained and decommissioned according to their business criticality and their confidentiality, integrity and availability requirements."
         - id: ism-principle-pro-02
           class: ISM-principle
-          title: "Security Principle: PRO-02"
+          title: Secure by design
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[02]"
+          - name: label
+            value: PRO-02
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -388,10 +440,12 @@ catalog:
             prose: "Systems (infrastructure, operating systems and applications) are planned, designed, developed, tested, deployed, maintained and decommissioned using Secure by Design and Secure by Default principles and practices."
         - id: ism-principle-pro-03
           class: ISM-principle
-          title: "Security Principle: PRO-03"
+          title: Trustworthy suppliers
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[03]"
+          - name: label
+            value: PRO-03
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -410,13 +464,15 @@ catalog:
           parts:
           - id: ism-principle-pro-03_smt
             name: statement
-            prose: "Systems (infrastructure, operating systems, applications and data) are delivered and supported by trusted suppliers."
+            prose: "Systems (infrastructure, operating systems, applications and data) are delivered and supported by trustworthy suppliers."
         - id: ism-principle-pro-04
           class: ISM-principle
-          title: "Security Principle: PRO-04"
+          title: Attack surface reduction
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[04]"
+          - name: label
+            value: PRO-04
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -438,10 +494,12 @@ catalog:
             prose: "Systems (infrastructure, operating systems and applications) are configured to reduce their attack surface."
         - id: ism-principle-pro-05
           class: ISM-principle
-          title: "Security Principle: PRO-05"
+          title: Secure administration
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[05]"
+          - name: label
+            value: PRO-05
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -463,10 +521,12 @@ catalog:
             prose: "Systems (infrastructure, operating systems, applications and data) are administered in a secure and accountable manner."
         - id: ism-principle-pro-06
           class: ISM-principle
-          title: "Security Principle: PRO-06"
+          title: Vulnerability management
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[06]"
+          - name: label
+            value: PRO-06
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -488,10 +548,12 @@ catalog:
             prose: "Vulnerabilities in systems (cyber supply chains, infrastructure, operating systems, applications and data) are identified and mitigated in a timely manner."
         - id: ism-principle-pro-07
           class: ISM-principle
-          title: "Security Principle: PRO-07"
+          title: Trustworthy software execution
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[07]"
+          - name: label
+            value: PRO-07
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -510,13 +572,15 @@ catalog:
           parts:
           - id: ism-principle-pro-07_smt
             name: statement
-            prose: "Only trusted and supported operating systems, applications and code can execute on systems."
+            prose: "Only trustworthy and supported operating systems, applications and code can execute on systems."
         - id: ism-principle-pro-08
           class: ISM-principle
-          title: "Security Principle: PRO-08"
+          title: Data encryption
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[08]"
+          - name: label
+            value: PRO-08
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -538,10 +602,12 @@ catalog:
             prose: Data is encrypted at rest and in transit.
         - id: ism-principle-pro-09
           class: ISM-principle
-          title: "Security Principle: PRO-09"
+          title: Content filtering
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[09]"
+          - name: label
+            value: PRO-09
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -563,10 +629,12 @@ catalog:
             prose: Data communicated between different security domains is controlled and inspectable.
         - id: ism-principle-pro-10
           class: ISM-principle
-          title: "Security Principle: PRO-10"
+          title: Regular proven backups
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[10]"
+          - name: label
+            value: PRO-10
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -588,10 +656,12 @@ catalog:
             prose: "Operating systems, applications, settings and data are backed up in a secure and proven manner on a regular basis."
         - id: ism-principle-pro-11
           class: ISM-principle
-          title: "Security Principle: PRO-11"
+          title: Trustworthy personnel
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[11]"
+          - name: label
+            value: PRO-11
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -610,13 +680,15 @@ catalog:
           parts:
           - id: ism-principle-pro-11_smt
             name: statement
-            prose: "Only trusted and vetted personnel are granted access to systems (cyber supply chains, infrastructure, operating systems, applications and data)."
+            prose: "Only trustworthy personnel are granted access to systems (cyber supply chains, infrastructure, operating systems, applications and data)."
         - id: ism-principle-pro-12
           class: ISM-principle
-          title: "Security Principle: PRO-12"
+          title: Least privilege access
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[12]"
+          - name: label
+            value: PRO-12
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -635,13 +707,15 @@ catalog:
           parts:
           - id: ism-principle-pro-12_smt
             name: statement
-            prose: "Personnel are granted the minimum access to systems (cyber supply chains, infrastructure, operating systems, applications and data) required to undertake their duties."
+            prose: "Personnel and services are granted the minimum access to systems (cyber supply chains, infrastructure, operating systems, applications and data) required to undertake their duties."
         - id: ism-principle-pro-13
           class: ISM-principle
-          title: "Security Principle: PRO-13"
+          title: Robust access control
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[13]"
+          - name: label
+            value: PRO-13
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -663,10 +737,12 @@ catalog:
             prose: "Robust and secure identity, credential and access management is used to control access to systems (cyber supply chains, infrastructure, operating systems, applications and data)."
         - id: ism-principle-pro-14
           class: ISM-principle
-          title: "Security Principle: PRO-14"
+          title: Cybersecurity awareness training
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[14]"
+          - name: label
+            value: PRO-14
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -688,10 +764,12 @@ catalog:
             prose: Personnel are provided with ongoing cybersecurity awareness training tailored to their duties.
         - id: ism-principle-pro-15
           class: ISM-principle
-          title: "Security Principle: PRO-15"
+          title: Physical access restriction
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[3].control[15]"
+          - name: label
+            value: PRO-15
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -721,10 +799,12 @@ catalog:
         controls:
         - id: ism-principle-det-01
           class: ISM-principle
-          title: "Security Principle: DET-01"
+          title: Centralised event logging
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[4].control[1]"
+          - name: label
+            value: DET-01
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -743,13 +823,15 @@ catalog:
           parts:
           - id: ism-principle-det-01_smt
             name: statement
-            prose: "Security-relevant event logs are centrally collected and stored securely, then analysed in a timely manner to detect cybersecurity events."
+            prose: Security-relevant event logs and all configuration changes are centrally collected and stored securely.
         - id: ism-principle-det-02
           class: ISM-principle
-          title: "Security Principle: DET-02"
+          title: Cybersecurity event detection
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[4].control[2]"
+          - name: label
+            value: DET-02
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -768,13 +850,15 @@ catalog:
           parts:
           - id: ism-principle-det-02_smt
             name: statement
-            prose: "Security-relevant configuration changes are centrally collected and stored securely, then analysed in a timely manner to detect cybersecurity events."
+            prose: Security-relevant event logs and all configuration changes are analysed in a timely manner to detect cybersecurity events.
         - id: ism-principle-det-03
           class: ISM-principle
-          title: "Security Principle: DET-03"
+          title: Cybersecurity incident identification
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[4].control[3]"
+          - name: label
+            value: DET-03
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -804,10 +888,12 @@ catalog:
         controls:
         - id: ism-principle-res-01
           class: ISM-principle
-          title: "Security Principle: RES-01"
+          title: Cybersecurity incident planning
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[5].control[1]"
+          - name: label
+            value: RES-01
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -829,10 +915,12 @@ catalog:
             prose: "Cybersecurity incident response, business continuity and disaster recovery plans support continued business operations during cybersecurity incidents, and the resumption of normal business operations following cybersecurity incidents."
         - id: ism-principle-res-02
           class: ISM-principle
-          title: "Security Principle: RES-02"
+          title: Cybersecurity incident reporting
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[5].control[2]"
+          - name: label
+            value: RES-02
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -854,10 +942,12 @@ catalog:
             prose: "Cybersecurity incidents, including associated response activities, are reported internally and externally to relevant bodies and stakeholders in a timely manner."
         - id: ism-principle-res-03
           class: ISM-principle
-          title: "Security Principle: RES-03"
+          title: Cybersecurity incident response
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[5].control[3]"
+          - name: label
+            value: RES-03
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -879,10 +969,12 @@ catalog:
             prose: "Cybersecurity incidents are contained, eradicated and recovered from in a timely manner."
         - id: ism-principle-res-04
           class: ISM-principle
-          title: "Security Principle: RES-04"
+          title: Cybersecurity incident insights
           props:
           - name: sort-id
             value: "catalog[1].group[02].group[1].group[5].control[4]"
+          - name: label
+            value: RES-04
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -902,12 +994,22 @@ catalog:
           - id: ism-principle-res-04_smt
             name: statement
             prose: "Lessons learnt from cybersecurity incidents are captured, and areas for improvement are identified and actioned in a timely manner."
-        - id: ism-principle-res-05
+      - title: Recover principles
+        props:
+        - name: sort-id
+          value: "catalog[1].group[02].group[1].group[6]"
+        parts:
+        - name: overview
+          prose: 'The recover principles are:'
+        controls:
+        - id: ism-principle-rec-01
           class: ISM-principle
-          title: "Security Principle: RES-05"
+          title: Business operations resumption
           props:
           - name: sort-id
-            value: "catalog[1].group[02].group[1].group[5].control[5]"
+            value: "catalog[1].group[02].group[1].group[6].control[1]"
+          - name: label
+            value: REC-01
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -924,9 +1026,9 @@ catalog:
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: TS
           parts:
-          - id: ism-principle-res-05_smt
+          - id: ism-principle-rec-01_smt
             name: statement
-            prose: "Security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are accepted prior to the resumption of normal business operations following cybersecurity incidents."
+            prose: "Residual security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are accepted prior to the resumption of normal business operations following cybersecurity incidents."
   - title: Guidelines for cybersecurity roles
     props:
     - name: sort-id
@@ -3670,7 +3772,7 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            In sourcing operating systems, applications, IT equipment, OT equipment and services, an organisation should use trusted suppliers that they have previously vetted as part of cyber supply chain risk management assessments and subsequently recorded on their approved supplier list.
+            In sourcing operating systems, applications, IT equipment, OT equipment and services, an organisation should use trustworthy suppliers as part of cyber supply chain risk management assessments and subsequently recorded on their approved supplier list.
 
             Furthermore, in order to support system availability, an organisation should aim to identify multiple potential suppliers for critical operating systems, applications, IT equipment, OT equipment and services. This coupled with keeping sufficient spares of critical IT equipment and OT equipment in reserve, can assist in mitigating the impact of cyber supply chain disruptions.
         controls:
@@ -5392,7 +5494,7 @@ catalog:
       - title: Preventing observation by unauthorised people
         props:
         - name: sort-id
-          value: "catalog[1].group[07].group[1].group[6]"
+          value: "catalog[1].group[07].group[1].group[7]"
         parts:
         - name: overview
           prose: "Without sufficient perimeter security, the inside of a facility is often observable by unauthorised people, such as via direct observation or by using equipment with a telephoto lens. Ensuring systems, in particular workstation displays and keyboards, are not visible through windows, such as via the use of blinds, curtains, privacy films or workstation positioning, will assist in reducing this security risk."
@@ -5402,7 +5504,7 @@ catalog:
           title: "Control: ism-0164"
           props:
           - name: sort-id
-            value: "catalog[1].group[07].group[1].group[6].control[1]"
+            value: "catalog[1].group[07].group[1].group[7].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
@@ -5689,10 +5791,52 @@ catalog:
           - id: ism-1740_smt
             name: statement
             prose: "Personnel dealing with banking details and payment requests are advised of what business email compromise is, how to manage such situations and how to report it."
-      - title: Reporting suspicious contact via online services
+      - title: Managing and reporting suspicious requests to disclose or change user account details
         props:
         - name: sort-id
           value: "catalog[1].group[08].group[1].group[3]"
+        parts:
+        - name: overview
+          prose: |-
+            Suspicious requests to disclose or change user account details, such as changing mobile phone numbers or email addresses, could indicate a malicious actor attempting to access private user details, facilitate password resets or conduct multi-factor authentication bypass attacks against user accounts.
+
+            In dealing with such situations, personnel should have clear guidance to think critically before actioning unusual requests as well as a process to report threatening demands for immediate action, pressure for secrecy or requests to circumvent normal business processes and procedures.
+        controls:
+        - id: ism-2071
+          class: ISM-control
+          title: "Control: ism-2071"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[08].group[1].group[3].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Sep-25
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          parts:
+          - id: ism-2071_smt
+            name: statement
+            prose: "Personnel dealing with user account details are advised of what social engineering attacks are, how to manage such situations and how to report them."
+      - title: Reporting suspicious contact via online services
+        props:
+        - name: sort-id
+          value: "catalog[1].group[08].group[1].group[4]"
         parts:
         - name: overview
           prose: "Online services, such as email, internet forums, messaging apps and direct messaging on social media, can be used by malicious actors in an attempt to elicit sensitive or classified information from personnel. As such, personnel should be advised of what suspicious contact via online services is and how to report it."
@@ -5702,7 +5846,7 @@ catalog:
           title: "Control: ism-0817"
           props:
           - name: sort-id
-            value: "catalog[1].group[08].group[1].group[3].control[1]"
+            value: "catalog[1].group[08].group[1].group[4].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "4"
@@ -5731,7 +5875,7 @@ catalog:
       - title: Posting work information to online services
         props:
         - name: sort-id
-          value: "catalog[1].group[08].group[1].group[4]"
+          value: "catalog[1].group[08].group[1].group[5]"
         parts:
         - name: overview
           prose: "Personnel should be advised to take particular care not to post work information to online services unless authorised to do so, especially for chat services, internet forums, social media and artificial intelligence tools. Even information that appears to be benign in isolation could, along with other information, have a considerable security impact. In addition, to ensure that personal opinions of individuals are not misinterpreted, personnel should be advised to maintain separate work and personal user accounts for online services, especially when using social media."
@@ -5741,7 +5885,7 @@ catalog:
           title: "Control: ism-0820"
           props:
           - name: sort-id
-            value: "catalog[1].group[08].group[1].group[4].control[1]"
+            value: "catalog[1].group[08].group[1].group[5].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "5"
@@ -5772,7 +5916,7 @@ catalog:
           title: "Control: ism-1146"
           props:
           - name: sort-id
-            value: "catalog[1].group[08].group[1].group[4].control[2]"
+            value: "catalog[1].group[08].group[1].group[5].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
@@ -5801,7 +5945,7 @@ catalog:
       - title: Posting personal information to online services
         props:
         - name: sort-id
-          value: "catalog[1].group[08].group[1].group[5]"
+          value: "catalog[1].group[08].group[1].group[6]"
         parts:
         - name: overview
           prose: "Personnel should be advised that any personal information they post to online services, such as social media, could be used by malicious actors to develop a detailed understanding of their lifestyle and interests. In turn, this information could be used to build trust in order to elicit sensitive or classified information from them, or influence them to undertake specific actions, such as opening malicious email attachments or visiting malicious websites. Furthermore, posting information on movements and activities may allow malicious actors to time attempted financial fraud to align with when a person in a position of authority will be uncontactable, such as attending meetings or travelling. Finally, encouraging personnel to use any available privacy settings for online services can reduce security risks by restricting who can view their information as well as their interactions with such services."
@@ -5811,7 +5955,7 @@ catalog:
           title: "Control: ism-0821"
           props:
           - name: sort-id
-            value: "catalog[1].group[08].group[1].group[5].control[1]"
+            value: "catalog[1].group[08].group[1].group[6].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
@@ -5840,7 +5984,7 @@ catalog:
       - title: Sending and receiving files via online services
         props:
         - name: sort-id
-          value: "catalog[1].group[08].group[1].group[6]"
+          value: "catalog[1].group[08].group[1].group[7]"
         parts:
         - name: overview
           prose: "When personnel send and receive files via unauthorised online services, such as messaging apps and social media, they often bypass controls put in place to detect and quarantine malicious code. Advising personnel to send and receive files via authorised online services instead will ensure files are appropriately protected and scanned for malicious code."
@@ -5850,7 +5994,7 @@ catalog:
           title: "Control: ism-0824"
           props:
           - name: sort-id
-            value: "catalog[1].group[08].group[1].group[6].control[1]"
+            value: "catalog[1].group[08].group[1].group[7].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
@@ -8461,9 +8605,7 @@ catalog:
 
           # Video conferencing and Internet Protocol telephony gateways
 
-          Where a video conferencing or IP telephony network is connected to another video conferencing or IP telephony network from a different security domain, the gateways section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b) applies.
-
-          Where an analog telephone network, such as the Public Switched Telephone Network (PSTN), is connected to a data network, the gateways section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b) does not apply.
+          Where a video conferencing or IP telephony network is connected to another network from a different security domain, the gateways section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b) applies.
 
           # Further information
 
@@ -9067,7 +9209,7 @@ catalog:
           value: "catalog[1].group[10].group[3].group[2]"
         parts:
         - name: overview
-          prose: "Once a fax machine or MFD has been connected to cryptographic equipment and used to send a sensitive or classified fax message, it can no longer be trusted when connected directly to unsecured telecommunications infrastructure. For example, if a fax machine fails to send a sensitive or classified fax message the device will continue attempting to send the fax message even if it has been disconnected from cryptographic equipment and re-connected directly to the PSTN. In such cases, the fax machine could send the sensitive or classified fax message in the clear causing a data spill."
+          prose: "Once a fax machine or MFD has been connected to cryptographic equipment and used to send a sensitive or classified fax message, it can no longer be trusted when connected directly to unsecured telecommunications infrastructure. For example, if a fax machine fails to send a sensitive or classified fax message the device will continue attempting to send the fax message even if it has been disconnected from cryptographic equipment and re-connected directly to the telecommunications infrastructure. In such cases, the fax machine could send the sensitive or classified fax message in the clear causing a data spill."
         controls:
         - id: ism-1092
           class: ISM-control
@@ -11144,7 +11286,7 @@ catalog:
           value: "catalog[1].group[13].group[1].group[7]"
         parts:
         - name: overview
-          prose: "When IT equipment displays, processes, stores or communicates sensitive or classified data, it will need to be handled as per the sensitivity or classification of that data. However, applying encryption to media within the IT equipment may change the manner in which it needs to be handled. Any change in handling needs to be based on the original sensitivity or classification of data residing on media within the IT equipment and the level of assurance in the cryptographic equipment or applications being used to encrypt it."
+          prose: "When IT equipment displays, processes, stores or communicates sensitive or classified data, it will need to be handled as per the sensitivity or classification of that data. However, applying encryption to media within the IT equipment may change the manner in which it needs to be handled. Any change in handling needs to be based on the original sensitivity or classification of data residing on media within the IT equipment and the level of assurance in the cryptographic equipment, applications or libraries being used to encrypt it."
         controls:
         - id: ism-1599
           class: ISM-control
@@ -12386,7 +12528,7 @@ catalog:
           value: "catalog[1].group[14].group[1].group[7]"
         parts:
         - name: overview
-          prose: "As media can be easily misplaced or stolen, measures should be put in place to protect data stored on it. In some cases, applying encryption to media may change the manner in which it needs to be handled. Any change in handling needs to be based on the original sensitivity or classification of the media and the level of assurance in the cryptographic equipment or applications being used to encrypt it."
+          prose: "As media can be easily misplaced or stolen, measures should be put in place to protect data stored on it. In some cases, applying encryption to media may change the manner in which it needs to be handled. Any change in handling needs to be based on the original sensitivity or classification of the media and the level of assurance in the cryptographic equipment, applications or libraries being used to encrypt it."
         controls:
         - id: ism-0831
           class: ISM-control
@@ -13760,7 +13902,7 @@ catalog:
 
           Further information on patching or updating operating systems can be found in the system patching section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
-          Further information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc) publication.
+          Further information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093) and [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa) publications.
 
           Further information on hardening Microsoft Windows operating systems can also be found in Microsoft’s [Windows 11 Security Book](#63bba9d2-127e-41d5-b735-e0cf3fe4b9aa) and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.
 
@@ -13790,7 +13932,8 @@ catalog:
 
           Further information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:
 
-          - [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)
+          - [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093)
+          - [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa)
           - [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)
           - [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).
       groups:
@@ -13915,7 +14058,7 @@ catalog:
           prose: |-
             Allowing users to setup, configure and maintain their own workstations and servers can result in an inconsistent operating environment. Such operating environments may assist malicious actors in gaining an initial foothold on networks due to the higher likelihood of poorly configured or maintained workstations and servers. Conversely, a Standard Operating Environment (SOE), provided via an automated build process or a golden image, is designed to facilitate a standardised and consistent operating environment within an organisation.
 
-            When SOEs are obtained from third parties, such as service providers, there are additional cyber supply chain risks that should be considered, such as the accidental or deliberate inclusion of malicious code or configurations. To reduce the likelihood of such occurrences, an organisation should endeavour to obtain their SOEs from trusted third parties while also scanning them for malicious code and configurations.
+            When SOEs are obtained from third parties, such as service providers, there are additional cyber supply chain risks that should be considered, such as the accidental or deliberate inclusion of malicious code or configurations. To reduce the likelihood of such occurrences, an organisation should endeavour to obtain their SOEs from trustworthy third parties while also scanning them for malicious code and configurations.
 
             As operating environments naturally change over time, such as patches or updates are applied, configurations are changed, and applications are added or removed, it is essential that SOEs are reviewed and updated at least annually to ensure that an up-to-date baseline is maintained.
         controls:
@@ -14386,7 +14529,7 @@ catalog:
           value: "catalog[1].group[15].group[1].group[05]"
         parts:
         - name: overview
-          prose: "Unprivileged users’ ability to install any application can be exploited by malicious actors using social engineering in order to convince them to install malicious applications. One way to mitigate this security risk, while also removing burden from system administrators, is to allow unprivileged users the ability to install approved applications from organisation-managed application repositories or from trusted application marketplaces. Furthermore, to prevent unprivileged users from removing security functionality, or breaking system functionality, unprivileged users should not have the ability to uninstall or disable approved applications."
+          prose: "Unprivileged users’ ability to install any application can be exploited by malicious actors using social engineering in order to convince them to install malicious applications. One way to mitigate this security risk, while also removing burden from system administrators, is to allow unprivileged users the ability to install approved applications from organisation-managed application repositories or from trustworthy application marketplaces. Furthermore, to prevent unprivileged users from removing security functionality, or breaking system functionality, unprivileged users should not have the ability to uninstall or disable approved applications."
         controls:
         - id: ism-1592
           class: ISM-control
@@ -14457,7 +14600,7 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), software libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.
+            Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.
 
             In implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by malicious actors.
 
@@ -14659,10 +14802,10 @@ catalog:
             value: "catalog[1].group[15].group[1].group[06].control[06]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-21
+            value: Sep-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -14690,7 +14833,7 @@ catalog:
           parts:
           - id: ism-1657_smt
             name: statement
-            prose: "Application control restricts the execution of executables, software libraries, scripts, installers, compiled HTML, HTML applications and control panel applets to an organisation-approved set."
+            prose: "Application control restricts the execution of executables, libraries, scripts, installers, compiled HTML, HTML applications and control panel applets to an organisation-approved set."
         - id: ism-1658
           class: ISM-control
           title: "Control: ism-1658"
@@ -22197,7 +22340,7 @@ catalog:
           prose: |-
             When patches or updates are released by vendors for vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by malicious actors. For example, by prioritising patches or updates for vulnerabilities in online services as well as operating systems of internet-facing servers and internet-facing network devices. This is especially important when vulnerabilities are assessed as critical by vendors or working exploits exist.
 
-            If no patches or updates are available for vulnerabilities, mitigation advice from vendors, trusted authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.
+            If no patches or updates are available for vulnerabilities, mitigation advice from vendors, trustworthy authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.
 
             If a patch or update is released for high assurance IT equipment, ASD will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied.
         controls:
@@ -23713,7 +23856,7 @@ catalog:
 
           Further information on event logging for user applications can be found in the user application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
-          Further information on event logging for web applications can be found in the web application development section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).
+          Further information on event logging for web applications can be found in the software development section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).
 
           Further information on event logging for web proxies can be found in the web proxies section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).
 
@@ -23721,14 +23864,12 @@ catalog:
 
           - [Best practices for event logging and threat detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)
           - [Detecting and mitigating Active Directory compromises](#331263bc-3314-496b-9d35-76788eb0f403)
-          - [Hardening Microsoft Windows 10 and Windows 11 workstations](#6e801c68-61f6-4c28-bf72-df91f7e232cc)
+          - [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093)
+          - [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa)
           - [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)
           - [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).
 
-          Further information on SIEM and SOAR platforms can be found in the following Australian Signals Directorate publications:
-
-          - [Implementing SIEM and SOAR platforms: Executive guidance](#4bebe303-7a91-4ffa-90d8-8df9f80a6318)
-          - [Implementing SIEM and SOAR platforms: Practitioner guidance](#4e01708d-9c2d-4a84-a08a-cb98077235a6).
+          Further information on SIEM and SOAR platforms can be found in the Australian Signals Directorate’s [Implementing SIEM and SOAR platforms: Executive guidance](#4bebe303-7a91-4ffa-90d8-8df9f80a6318) and [Implementing SIEM and SOAR platforms: Practitioner guidance](#4e01708d-9c2d-4a84-a08a-cb98077235a6) publications.
 
           Further information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities](#aeba0a2d-b48a-42f0-b047-622b9fea9a91) publication.
 
@@ -24401,7 +24542,7 @@ catalog:
         prose: |-
           # Introduction to software development
 
-          This section applies to software development activities for traditional applications (including user applications and server applications), mobile applications, web applications and artificial intelligence applications. Additional sections of these guidelines should also be consulted depending on the type of software development being undertaken. For example, the web application development section should be consulted for additional controls applicable to web applications.
+          This section applies to software development activities for traditional applications (including user applications and server applications), artificial intelligence applications, mobile applications and web applications. Additional sections of these guidelines should also be consulted depending on the type of software development being undertaken. For example, the web application development section should be consulted for additional controls applicable to web applications.
 
           # Further information
 
@@ -24425,25 +24566,13 @@ catalog:
           - United States’ National Security Agency’s [Software Memory Safety](#26137381-dc34-485c-8331-3bc9876ed48c)
           - United States’ National Security Agency and Cybersecurity \& Infrastructure Security Agency’s [Memory Safe Languages: Reducing Vulnerabilities in Modern Software Development](#afe3656f-2a78-488f-9eae-3cb9af69b018).
 
-          Further information on mobile application security can be found in the [OWASP Mobile Application Security Verification Standard version 2.1.0](#5935bbd2-883f-45e1-861e-e33a1e279063) publication.
-
-          Further information on large language model application security risks can be found in the [OWASP Top 10 for Large Language Model Applications version 2025](#7a40de61-7e8c-4b58-bba0-446899b22b9e) publication.
-
-          Further information on artificial intelligence security risks can be found in ASD’s [An introduction to artificial intelligence](#e513ac6b-09fa-4d53-951a-a5142208cf12) and [Engaging with artificial intelligence](#0248ace8-2e08-40f8-b19e-117c76909cf1) publications.
-
-          Further information on artificial intelligence security risks can also be found in the following publications:
-
-          - MITRE’s [Adversarial Threat Landscape for Artificial-Intelligence Systems](#1258a1ce-774a-4701-8d47-80940b988a2d)
-          - National Institute of Standards and Technology AI 100-2 E2023, [Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations](#9af7c141-51de-43f0-97bc-547e24e96545)
-          - United Kingdom’s National Cyber Security Centre and United States’ Cybersecurity \& Infrastructure Security Agency’s [Guidelines for secure AI system development](#353dcc1a-23e6-48d5-8047-950cc614bf0b)
-          - United States’ National Security Agency’s [AI Data Security: Best Practices for Securing Data Used to Train \& Operate AI Systems](#6e17dd11-a1c5-4f2b-87df-c5edde5fc8bd)
-          - United States’ National Security Agency’s [Deploying AI Systems Securely: Best Practices for Deploying Secure and Resilient AI Systems](#c5ca2027-161e-4322-9367-7ec736b4846f).
-
           Further information on [cyber supply chain transparency](#d0ace151-3c21-49af-bde7-eda58ab18a82), and recommended content for a software bill of materials, can be found in the United States’ National Telecommunications and Information Administration’s [The Minimum Elements For a Software Bill of Materials (SBOM)](#70371e26-f3fb-4b05-85ea-7f6e1f2ee184) publication.
+
+          Further information on software bill of materials can also be found in the United States’ Cybersecurity \& Infrastructure Security Agency’s [A Shared Vision of Software Bill of Materials (SBOM) for Cybersecurity](#ea6f8148-55ea-4540-8b39-f35cc3411eb2) publication.
 
           Further information on strong authentication can be found in the authentication hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
 
-          Further information on software security testing can be found on OWASP’s [DevSecOps Guidelines](#5516125f-d0eb-4196-8dc4-f8db55fca032) and [Source Code Analysis Tools](#cc618df8-757e-4d6c-9ad2-405554cb487d) websites.
+          Further information on software security testing can be found on the Open Worldwide Application Security Project’s (OWASP) [DevSecOps Guidelines](#5516125f-d0eb-4196-8dc4-f8db55fca032) and [Source Code Analysis Tools](#cc618df8-757e-4d6c-9ad2-405554cb487d) websites.
 
           Further information on implementing a vulnerability disclosure program can be found in the following publications:
 
@@ -24841,10 +24970,10 @@ catalog:
             value: "catalog[1].group[18].group[1].group[04].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
+            value: "1"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-25
+            value: Sep-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -24863,7 +24992,7 @@ catalog:
           parts:
           - id: ism-2029_smt
             name: statement
-            prose: The authoritative source for software restricts the use and import of third-party libraries and software components to trusted sources.
+            prose: The authoritative source for software restricts the use and import of third-party libraries and software components to trustworthy sources.
         - id: ism-2030
           class: ISM-control
           title: "Control: ism-2030"
@@ -25410,105 +25539,12 @@ catalog:
           - id: ism-2043_smt
             name: statement
             prose: Software is architected and structured to support readability and maintainability.
-        - id: ism-1922
-          class: ISM-control
-          title: "Control: ism-1922"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[15]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-24
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          parts:
-          - id: ism-1922_smt
-            name: statement
-            prose: The Open Worldwide Application Security Project (OWASP) Mobile Application Security Verification Standard is used in the development of mobile applications.
-        - id: ism-1923
-          class: ISM-control
-          title: "Control: ism-1923"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[16]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-24
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          parts:
-          - id: ism-1923_smt
-            name: statement
-            prose: The OWASP Top 10 for Large Language Model Applications are mitigated in the development of large language model applications.
-        - id: ism-1924
-          class: ISM-control
-          title: "Control: ism-1924"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[17]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-24
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          parts:
-          - id: ism-1924_smt
-            name: statement
-            prose: Large language model applications evaluate the sentence perplexity of user prompts to detect and mitigate adversarial suffixes designed to assist in the generation of sensitive or harmful content.
         - id: ism-1796
           class: ISM-control
           title: "Control: ism-1796"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[18]"
+            value: "catalog[1].group[18].group[1].group[06].control[15]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
@@ -25539,7 +25575,7 @@ catalog:
           title: "Control: ism-1797"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[19]"
+            value: "catalog[1].group[18].group[1].group[06].control[16]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
@@ -25570,7 +25606,7 @@ catalog:
           title: "Control: ism-2044"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[20]"
+            value: "catalog[1].group[18].group[1].group[06].control[17]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25601,7 +25637,7 @@ catalog:
           title: "Control: ism-2045"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[21]"
+            value: "catalog[1].group[18].group[1].group[06].control[18]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25632,7 +25668,7 @@ catalog:
           title: "Control: ism-2046"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[22]"
+            value: "catalog[1].group[18].group[1].group[06].control[19]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25663,7 +25699,7 @@ catalog:
           title: "Control: ism-2047"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[23]"
+            value: "catalog[1].group[18].group[1].group[06].control[20]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25694,7 +25730,7 @@ catalog:
           title: "Control: ism-2048"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[24]"
+            value: "catalog[1].group[18].group[1].group[06].control[21]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25725,7 +25761,7 @@ catalog:
           title: "Control: ism-2049"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[25]"
+            value: "catalog[1].group[18].group[1].group[06].control[22]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25756,7 +25792,7 @@ catalog:
           title: "Control: ism-2050"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[26]"
+            value: "catalog[1].group[18].group[1].group[06].control[23]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25787,7 +25823,7 @@ catalog:
           title: "Control: ism-2051"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[27]"
+            value: "catalog[1].group[18].group[1].group[06].control[24]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25818,7 +25854,7 @@ catalog:
           title: "Control: ism-2052"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[28]"
+            value: "catalog[1].group[18].group[1].group[06].control[25]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -25849,7 +25885,7 @@ catalog:
           title: "Control: ism-1798"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[29]"
+            value: "catalog[1].group[18].group[1].group[06].control[26]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
@@ -25880,7 +25916,7 @@ catalog:
           title: "Control: ism-2053"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[1].group[06].control[30]"
+            value: "catalog[1].group[18].group[1].group[06].control[27]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -26957,10 +26993,190 @@ catalog:
           - id: ism-1911_smt
             name: statement
             prose: Security-relevant software crashes and error messages are centrally logged.
-    - title: Web application development
+    - title: Artificial intelligence application development
       props:
       - name: sort-id
         value: "catalog[1].group[18].group[2]"
+      parts:
+      - name: overview
+        prose: |-
+          # Introduction to artificial intelligence application development
+
+          This section describes the controls applicable to artificial intelligence application development and extends upon the prior software development fundamentals section.
+
+          # Further information
+
+          Further information on large language model application security risks can be found in the [OWASP Top 10 for Large Language Model Applications version 2025](#7a40de61-7e8c-4b58-bba0-446899b22b9e) publication.
+
+          Further information on artificial intelligence security risks can be found in ASD’s [An introduction to artificial intelligence](#e513ac6b-09fa-4d53-951a-a5142208cf12) and [Engaging with artificial intelligence](#0248ace8-2e08-40f8-b19e-117c76909cf1) publications.
+
+          Further information on artificial intelligence security risks can also be found in the following publications:
+
+          - MITRE’s [Adversarial Threat Landscape for Artificial-Intelligence Systems](#1258a1ce-774a-4701-8d47-80940b988a2d)
+          - National Institute of Standards and Technology AI 100-2 E2023, [Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations](#9af7c141-51de-43f0-97bc-547e24e96545)
+          - United Kingdom’s National Cyber Security Centre and United States’ Cybersecurity \& Infrastructure Security Agency’s [Guidelines for secure AI system development](#353dcc1a-23e6-48d5-8047-950cc614bf0b)
+          - United States’ National Security Agency’s [AI Data Security: Best Practices for Securing Data Used to Train \& Operate AI Systems](#6e17dd11-a1c5-4f2b-87df-c5edde5fc8bd)
+          - United States’ National Security Agency’s [Deploying AI Systems Securely: Best Practices for Deploying Secure and Resilient AI Systems](#c5ca2027-161e-4322-9367-7ec736b4846f).
+      groups:
+      - title: Secure artificial intelligence application development
+        props:
+        - name: sort-id
+          value: "catalog[1].group[18].group[2].group[1]"
+        parts:
+        - name: overview
+          prose: "OWASP provides comprehensive resources for software developers that should be followed when developing artificial intelligence applications. In addition, artificial intelligence applications should be designed to reduce their attack surface with artificial intelligence models being stored in a file formats that does not allow arbitrary code execution."
+        controls:
+        - id: ism-1923
+          class: ISM-control
+          title: "Control: ism-1923"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[18].group[2].group[1].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Jun-24
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          parts:
+          - id: ism-1923_smt
+            name: statement
+            prose: The OWASP Top 10 for Large Language Model Applications are mitigated in the development of large language model applications.
+        - id: ism-1924
+          class: ISM-control
+          title: "Control: ism-1924"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[18].group[2].group[1].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "1"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Sep-25
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          parts:
+          - id: ism-1924_smt
+            name: statement
+            prose: Generative artificial intelligence applications evaluate user prompts to detect and mitigate adversarial inputs or suffixes designed to illicit unintended behaviour or assist in the generation of sensitive or harmful content.
+        - id: ism-2072
+          class: ISM-control
+          title: "Control: ism-2072"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[18].group[2].group[1].control[3]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Sep-25
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          parts:
+          - id: ism-2072_smt
+            name: statement
+            prose: Artificial intelligence models are stored in a file format that does not allow arbitrary code execution.
+    - title: Mobile application development
+      props:
+      - name: sort-id
+        value: "catalog[1].group[18].group[3]"
+      parts:
+      - name: overview
+        prose: |-
+          # Introduction to mobile application development
+
+          This section describes the controls applicable to mobile application development and extends upon the prior software development fundamentals section.
+
+          # Further information
+
+          Further information on mobile application security can be found in the [OWASP Mobile Application Security Verification Standard version 2.1.0](#5935bbd2-883f-45e1-861e-e33a1e279063) publication.
+      groups:
+      - title: Secure mobile application development
+        props:
+        - name: sort-id
+          value: "catalog[1].group[18].group[3].group[1]"
+        parts:
+        - name: overview
+          prose: OWASP provides comprehensive resources for software developers that should be followed when developing mobile applications.
+        controls:
+        - id: ism-1922
+          class: ISM-control
+          title: "Control: ism-1922"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[18].group[3].group[1].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Jun-24
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          parts:
+          - id: ism-1922_smt
+            name: statement
+            prose: The OWASP Mobile Application Security Verification Standard is used in the development of mobile applications.
+    - title: Web application development
+      props:
+      - name: sort-id
+        value: "catalog[1].group[18].group[4]"
       parts:
       - name: overview
         prose: |-
@@ -26970,7 +27186,7 @@ catalog:
 
           # Further information
 
-          Further information on web application security can be found in the [OWASP Application Security Verification Standard 5.0.](#d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4)0 and [OWASP Top 10 Proactive Controls 2024](#18274424-7086-419e-9fae-a6ba64870459) publications.
+          Further information on web application security can be found in the [OWASP Application Security Verification Standard 5.0.0](#d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4) and [OWASP Top 10 Proactive Controls 2024](#18274424-7086-419e-9fae-a6ba64870459) publications.
 
           Further information on web application security risks can be found in the [OWASP Top 10 2021](#436de247-4c95-4449-89a4-fec912605e7d) publication.
 
@@ -26983,7 +27199,7 @@ catalog:
       - title: Secure web application design and development
         props:
         - name: sort-id
-          value: "catalog[1].group[18].group[2].group[1]"
+          value: "catalog[1].group[18].group[4].group[1]"
         parts:
         - name: overview
           prose: "Web application frameworks can be leveraged by software developers to enhance the security of web applications while decreasing development time. These resources can assist in securely implementing complex software functions, such as session management, input handling and cryptographic operations. In addition, OWASP provides comprehensive resources for software developers that should be followed when developing web applications."
@@ -26993,7 +27209,7 @@ catalog:
           title: "Control: ism-1239"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[1]"
+            value: "catalog[1].group[18].group[4].group[1].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "4"
@@ -27024,7 +27240,7 @@ catalog:
           title: "Control: ism-0971"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[2]"
+            value: "catalog[1].group[18].group[4].group[1].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "8"
@@ -27055,7 +27271,7 @@ catalog:
           title: "Control: ism-1849"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[3]"
+            value: "catalog[1].group[18].group[4].group[1].control[3]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27086,7 +27302,7 @@ catalog:
           title: "Control: ism-1850"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[4]"
+            value: "catalog[1].group[18].group[4].group[1].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27117,7 +27333,7 @@ catalog:
           title: "Control: ism-2063"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[5]"
+            value: "catalog[1].group[18].group[4].group[1].control[5]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27148,7 +27364,7 @@ catalog:
           title: "Control: ism-2064"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[6]"
+            value: "catalog[1].group[18].group[4].group[1].control[6]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27179,7 +27395,7 @@ catalog:
           title: "Control: ism-2065"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[7]"
+            value: "catalog[1].group[18].group[4].group[1].control[7]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27210,7 +27426,7 @@ catalog:
           title: "Control: ism-2066"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[8]"
+            value: "catalog[1].group[18].group[4].group[1].control[8]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27241,7 +27457,7 @@ catalog:
           title: "Control: ism-2067"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[1].control[9]"
+            value: "catalog[1].group[18].group[4].group[1].control[9]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27270,7 +27486,7 @@ catalog:
       - title: Web security policy response headers
         props:
         - name: sort-id
-          value: "catalog[1].group[18].group[2].group[2]"
+          value: "catalog[1].group[18].group[4].group[2]"
         parts:
         - name: overview
           prose: "Web security policy response header measures, such as Content-Security-Policy, Hypertext Transfer Protocol Strict Transport Security and X-Frame-Options, can be applied by web browsers to help protect themselves. This is achieved by web server software specifying security policy in response headers which web browsers then apply."
@@ -27280,7 +27496,7 @@ catalog:
           title: "Control: ism-1424"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[2].control[1]"
+            value: "catalog[1].group[18].group[4].group[2].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "5"
@@ -27309,7 +27525,7 @@ catalog:
       - title: Web application interactions
         props:
         - name: sort-id
-          value: "catalog[1].group[18].group[2].group[3]"
+          value: "catalog[1].group[18].group[4].group[3]"
         parts:
         - name: overview
           prose: Hypertext Transfer Protocol Secure (HTTPS) is the Hypertext Transfer Protocol secured by Transport Layer Security (TLS) encryption. The use of HTTPS for web applications ensures that interactions with web applications are confidential and that the integrity of such interactions are also maintained.
@@ -27319,7 +27535,7 @@ catalog:
           title: "Control: ism-1552"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[3].control[1]"
+            value: "catalog[1].group[18].group[4].group[3].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27348,7 +27564,7 @@ catalog:
       - title: Web application programming interfaces
         props:
         - name: sort-id
-          value: "catalog[1].group[18].group[2].group[4]"
+          value: "catalog[1].group[18].group[4].group[4]"
         parts:
         - name: overview
           prose: "Web APIs can facilitate the exchange of data between computing devices. As such, common security risks associated with their use should be mitigated during their development."
@@ -27358,7 +27574,7 @@ catalog:
           title: "Control: ism-1851"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[4].control[1]"
+            value: "catalog[1].group[18].group[4].group[4].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -27387,7 +27603,7 @@ catalog:
       - title: Web application output encoding
         props:
         - name: sort-id
-          value: "catalog[1].group[18].group[2].group[5]"
+          value: "catalog[1].group[18].group[4].group[5]"
         parts:
         - name: overview
           prose: "The likelihood of cross-site scripting and other content injection attacks can be reduced through the use of output encoding. In particular, output encoding is useful when external data sources, which may not be subject to the same level of input filtering, are output to users. The most common example of output encoding is the conversion of potentially dangerous HTML characters into their encoded equivalents, such as ‘\\<’, ‘\\>’ and ‘\\&’ into ‘\\<’, ‘\\>’ and ‘\\&’."
@@ -27397,7 +27613,7 @@ catalog:
           title: "Control: ism-1241"
           props:
           - name: sort-id
-            value: "catalog[1].group[18].group[2].group[5].control[1]"
+            value: "catalog[1].group[18].group[4].group[5].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "4"
@@ -31561,9 +31777,11 @@ catalog:
 
           # Further information
 
-          Further information on cryptographic key management practices can be found in NIST SP 800-57 Part 1 Rev. 5, [Recommendation for Key Management: Part 1 – General](#ffc8a1f6-f4e3-4ff5-a7f9-f41f766274eb).
+          Further information on cryptographic key management practices can be found in ASD’s [Managing cryptographic keys and secrets](#58589044-8b34-4d46-bf70-103ee8d10bc9) publication.
 
           Further information on cryptographic key management practices for HACE is available from ASD.
+
+          Further information on general cryptographic key management practices can be found in NIST SP 800-57 Part 1 Rev. 5, [Recommendation for Key Management: Part 1 – General](#ffc8a1f6-f4e3-4ff5-a7f9-f41f766274eb).
 
           Further information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).
 
@@ -31571,12 +31789,14 @@ catalog:
 
           Further information on the evaluation of cryptographic modules, including testing requirements, is available as part of the [Cryptographic Module Validation Program](#28cd91d2-e5cb-4896-bcfc-abb32e05e61d) which is jointly operated by NIST and the Canadian Centre for Cyber Security.
 
+          Further information on the evaluation of the implementation of cryptographic algorithms, including testing requirements, is available as part of the [Cryptographic Algorithm Validation Program](#42e7d99d-9709-4355-a54d-98959c552aa1) which is jointly operated by NIST and the Canadian Centre for Cyber Security.
+
           Further information on the protection of IT equipment and media can be found in the Department of Home Affairs’ [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a).
       groups:
       - title: Cryptographic key management processes and procedures
         props:
         - name: sort-id
-          value: "catalog[1].group[22].group[1].group[3]"
+          value: "catalog[1].group[22].group[1].group[03]"
         parts:
         - name: overview
           prose: "Well documented cryptographic key management processes and procedures can assist with the secure use and management of cryptographic keys and associated hardware and software. In doing so, cryptographic key management processes and procedures should cover cryptographic key generation, registration, distribution, installation, usage, protection, storage, access, recovery and destruction."
@@ -31586,7 +31806,7 @@ catalog:
           title: "Control: ism-0507"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[3].control[1]"
+            value: "catalog[1].group[22].group[1].group[03].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "5"
@@ -31615,17 +31835,17 @@ catalog:
       - title: Encrypting data at rest
         props:
         - name: sort-id
-          value: "catalog[1].group[22].group[1].group[4]"
+          value: "catalog[1].group[22].group[1].group[04]"
         parts:
         - name: overview
-          prose: "When encryption is applied to data at rest it provides an additional layer of defence against unauthorised access by malicious actors. In doing so, it is important that full disk encryption is used as it provides a greater level of protection than file-based encryption. This is due to the fact that while file-based encryption may encrypt individual files, there is the possibility that unencrypted copies of files may be left in temporary locations used by an operating system. When selecting cryptographic equipment or applications for this purpose, the level of assurance required will depend on the sensitivity or classification of the data."
+          prose: "When encryption is applied to data at rest it provides an additional layer of defence against unauthorised access by malicious actors. In doing so, it is important that full disk encryption is used as it provides a greater level of protection than file-based encryption. This is due to the fact that while file-based encryption may encrypt individual files, there is the possibility that unencrypted copies of files may be left in temporary locations used by an operating system. When selecting cryptographic equipment, applications or libraries for this purpose, the level of assurance required will depend on the sensitivity or classification of the data."
         controls:
         - id: ism-1080
           class: ISM-control
           title: "Control: ism-1080"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[4].control[1]"
+            value: "catalog[1].group[22].group[1].group[04].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "5"
@@ -31656,7 +31876,7 @@ catalog:
           title: "Control: ism-0459"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[4].control[4]"
+            value: "catalog[1].group[22].group[1].group[04].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "4"
@@ -31685,17 +31905,17 @@ catalog:
       - title: Encrypting data in transit
         props:
         - name: sort-id
-          value: "catalog[1].group[22].group[1].group[5]"
+          value: "catalog[1].group[22].group[1].group[05]"
         parts:
         - name: overview
-          prose: "When data is communicated over network infrastructure, encryption should be used to protect the data from unauthorised access or manipulation. When selecting cryptographic equipment or applications for this purpose, the level of assurance required will depend on the sensitivity or classification of the data and the environment in which it is being applied."
+          prose: "When data is communicated over network infrastructure, encryption should be used to protect the data from unauthorised access or manipulation. When selecting cryptographic equipment, applications or libraries for this purpose, the level of assurance required will depend on the sensitivity or classification of the data and the environment in which it is being applied."
         controls:
         - id: ism-0469
           class: ISM-control
           title: "Control: ism-0469"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[5].control[1]"
+            value: "catalog[1].group[22].group[1].group[05].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "6"
@@ -31724,23 +31944,23 @@ catalog:
       - title: Data recovery
         props:
         - name: sort-id
-          value: "catalog[1].group[22].group[1].group[6]"
+          value: "catalog[1].group[22].group[1].group[07]"
         parts:
         - name: overview
-          prose: "To ensure that access to encrypted data is not lost due to the loss, damage or failure of an encryption key, it is important that where practical cryptographic equipment and applications provide a means of data recovery."
+          prose: "To ensure that access to encrypted data is not lost due to the loss, damage or failure of an encryption key, it is important that where practical cryptographic equipment, applications and libraries provide a means of data recovery."
         controls:
         - id: ism-0455
           class: ISM-control
           title: "Control: ism-0455"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[6].control[1]"
+            value: "catalog[1].group[22].group[1].group[07].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "4"
+            value: "5"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-25
+            value: Sep-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -31759,11 +31979,11 @@ catalog:
           parts:
           - id: ism-0455_smt
             name: statement
-            prose: "Where practical, cryptographic equipment and applications provide a means of data recovery to allow for circumstances where the encryption key is unavailable due to loss, damage or failure."
+            prose: "Where practical, cryptographic equipment, applications and libraries provide a means of data recovery to allow for circumstances where the encryption key is unavailable due to loss, damage or failure."
       - title: Handling encrypted IT equipment and media
         props:
         - name: sort-id
-          value: "catalog[1].group[22].group[1].group[7]"
+          value: "catalog[1].group[22].group[1].group[08]"
         parts:
         - name: overview
           prose: "When a user authenticates to the encryption functionality of IT equipment or media, encrypted data is made available. At such a time, the IT equipment or media should be handled according to its original sensitivity or classification. Once the user deauthenticates from the encryption functionality, such as shutting down a device or activating a lock screen, the IT equipment or media can be considered to be protected by the encryption functionality again."
@@ -31773,7 +31993,7 @@ catalog:
           title: "Control: ism-0462"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[7].control[1]"
+            value: "catalog[1].group[22].group[1].group[08].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "8"
@@ -31802,7 +32022,7 @@ catalog:
       - title: Transporting cryptographic equipment
         props:
         - name: sort-id
-          value: "catalog[1].group[22].group[1].group[8]"
+          value: "catalog[1].group[22].group[1].group[09]"
         parts:
         - name: overview
           prose: "Transporting cryptographic equipment in a keyed state may expose its keying material to potential compromise. Therefore, if cryptographic equipment is transported in a keyed state, it should be done based on the sensitivity or classification of its keying material."
@@ -31812,7 +32032,7 @@ catalog:
           title: "Control: ism-0501"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[8].control[1]"
+            value: "catalog[1].group[22].group[1].group[09].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "6"
@@ -31841,7 +32061,7 @@ catalog:
       - title: Reporting cryptographic-related cybersecurity incidents
         props:
         - name: sort-id
-          value: "catalog[1].group[22].group[1].group[9]"
+          value: "catalog[1].group[22].group[1].group[10]"
         parts:
         - name: overview
           prose: "If cryptographic equipment or associated keying material is compromised, or suspected of being compromised, then the confidentiality and integrity of previous and future communications may also be compromised. In such cases, the cybersecurity incident should be reported to the chief information security officer, or one of their delegates, as soon as possible after it occurs, and all keying material should be changed."
@@ -31851,7 +32071,7 @@ catalog:
           title: "Control: ism-0142"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[9].control[1]"
+            value: "catalog[1].group[22].group[1].group[10].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "5"
@@ -31882,7 +32102,7 @@ catalog:
           title: "Control: ism-1091"
           props:
           - name: sort-id
-            value: "catalog[1].group[22].group[1].group[9].control[2]"
+            value: "catalog[1].group[22].group[1].group[10].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "6"
@@ -31962,7 +32182,7 @@ catalog:
           value: "catalog[1].group[22].group[2].group[01]"
         parts:
         - name: overview
-          prose: "If cryptographic equipment or applications implement unapproved cryptographic algorithms, it is possible that these cryptographic algorithms could be used without a user’s knowledge. In combination with an assumed level of security confidence, this can represent a security risk. As such, an organisation can ensure that only AACAs or high assurance cryptographic algorithms can be used by disabling all unapproved cryptographic algorithms (preferred) or by advising users not to use the unapproved cryptographic algorithms via usage policies."
+          prose: "If cryptographic equipment, applications or libraries implement unapproved cryptographic algorithms, it is possible that these cryptographic algorithms could be used without a user’s knowledge. In combination with an assumed level of security confidence, this can represent a security risk. As such, an organisation can ensure that only AACAs or high assurance cryptographic algorithms can be used by disabling all unapproved cryptographic algorithms (preferred) or by advising users not to use the unapproved cryptographic algorithms via usage policies."
         controls:
         - id: ism-0471
           class: ISM-control
@@ -31972,10 +32192,10 @@ catalog:
             value: "catalog[1].group[22].group[2].group[01].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "8"
+            value: "9"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-25
+            value: Sep-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -31994,7 +32214,7 @@ catalog:
           parts:
           - id: ism-0471_smt
             name: statement
-            prose: Only AACAs or high assurance cryptographic algorithms are used by cryptographic equipment and applications.
+            prose: "Only AACAs or high assurance cryptographic algorithms are used by cryptographic equipment, applications and libraries."
       - title: Asymmetric cryptographic algorithms
         props:
         - name: sort-id
@@ -32606,22 +32826,53 @@ catalog:
           prose: |-
             The consensus model for quantum computing allows for different types of quantum attacks against traditional cryptography. While the direct impact of these quantum attacks varies across different cryptographic algorithms, there is a stark difference in impact between asymmetric cryptographic algorithms and symmetric cryptographic algorithms.
 
-            One known quantum attack (using Shor's algorithm) effectively defeats all traditional cryptography that relies upon asymmetric cryptographic algorithms such as DH, ECDH, ECDSA or RSA. The efficiency of this is such that it is infeasible to securely use these AACAs in the presence of a cryptographically relevant quantum computer (CRQC). While a CRQC does not currently exist, the trajectory of technological advances in quantum computing means that these AACAs will need to be phased out in favour of alternative AACAs that offer greater protection. As such, the development or procurement of new cryptographic equipment and applications, which are intended to be used beyond 2030, should be undertaken with the goal of supporting ASD-approved post-quantum cryptographic algorithms by 2030.
+            One known quantum attack (using Shor's algorithm) effectively defeats all traditional cryptography that relies upon asymmetric cryptographic algorithms such as DH, ECDH, ECDSA or RSA. The efficiency of this is such that it is infeasible to securely use these AACAs in the presence of a cryptographically relevant quantum computer (CRQC). While a CRQC does not currently exist, the trajectory of technological advances in quantum computing means that these AACAs will need to be phased out in favour of alternative AACAs that offer greater protection. As such, the development or procurement of new cryptographic equipment, applications and libraries, which are intended to be used beyond 2030, should be undertaken with the goal of supporting ASD-approved post-quantum cryptographic algorithms by 2030.
 
-            The impact of quantum attacks on hashing algorithms and symmetric cryptographic algorithms, such as SHA-2 and AES, is unlikely to be felt for some time. However, for interoperability reasons, the design and provision of new cryptographic equipment and applications, which are intended to be used beyond 2030, should support SHA-384, SHA-512 and AES-256.
+            The impact of quantum attacks on hashing algorithms and symmetric cryptographic algorithms, such as SHA-2 and AES, is unlikely to be felt for some time. However, for interoperability reasons, the design and provision of new cryptographic equipment, applications and libraries, which are intended to be used beyond 2030, should support SHA-384, SHA-512 and AES-256.
         controls:
-        - id: ism-1917
+        - id: ism-2073
           class: ISM-control
-          title: "Control: ism-1917"
+          title: "Control: ism-2073"
           props:
           - name: sort-id
             value: "catalog[1].group[22].group[2].group[13].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "2"
+            value: "0"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-25
+            value: Sep-25
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          parts:
+          - id: ism-2073_smt
+            name: statement
+            prose: "A post-quantum cryptography transition plan is developed, implemented and maintained."
+        - id: ism-1917
+          class: ISM-control
+          title: "Control: ism-1917"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[22].group[2].group[13].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "3"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Sep-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -32640,7 +32891,7 @@ catalog:
           parts:
           - id: ism-1917_smt
             name: statement
-            prose: "The development and procurement of new cryptographic equipment and applications ensures support for the use of ML-DSA-87, ML-KEM-1024, SHA-384, SHA-512 and AES-256 by no later than 2030."
+            prose: "The development and procurement of new cryptographic equipment, applications and libraries ensures support for the use of ML-DSA-87, ML-KEM-1024, SHA-384, SHA-512 and AES-256 by no later than 2030."
       - title: Post-quantum traditional hybrid schemes
         props:
         - name: sort-id
@@ -32720,7 +32971,7 @@ catalog:
           value: "catalog[1].group[22].group[3].group[1]"
         parts:
         - name: overview
-          prose: "If cryptographic equipment or applications implement unapproved protocols, it is possible that these protocols could be used without a user’s knowledge. In combination with an assumed level of security confidence, this can represent a security risk. As such, an organisation can ensure that only AACPs or high assurance cryptographic protocols can be used by disabling unapproved protocols (preferred) or by advising users not to use unapproved protocols via usage policies."
+          prose: "If cryptographic equipment, applications or libraries implement unapproved protocols, it is possible that these protocols could be used without a user’s knowledge. In combination with an assumed level of security confidence, this can represent a security risk. As such, an organisation can ensure that only AACPs or high assurance cryptographic protocols can be used by disabling unapproved protocols (preferred) or by advising users not to use unapproved protocols via usage policies."
         controls:
         - id: ism-0481
           class: ISM-control
@@ -32730,10 +32981,10 @@ catalog:
             value: "catalog[1].group[22].group[3].group[1].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "7"
+            value: "8"
           - name: updated
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-25
+            value: Sep-25
           - name: applicability
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: NC
@@ -32752,7 +33003,7 @@ catalog:
           parts:
           - id: ism-0481_smt
             name: statement
-            prose: Only AACPs or high assurance cryptographic protocols are used by cryptographic equipment and applications.
+            prose: "Only AACPs or high assurance cryptographic protocols are used by cryptographic equipment, applications and libraries."
     - title: Transport Layer Security
       props:
       - name: sort-id
@@ -33570,7 +33821,7 @@ catalog:
           value: "catalog[1].group[22].group[7].group[4]"
         parts:
         - name: overview
-          prose: "The only approved encryption algorithm for IPsec connections is AES. IKE version 2 supports the use of AES with Cipher Block Chaining, Counter Mode, Counter with Cipher Block Chaining Message Authentication Code, and Galois/Counter Mode. Note, however, supported modes may vary between different cryptographic equipment and applications."
+          prose: "The only approved encryption algorithm for IPsec connections is AES. IKE version 2 supports the use of AES with Cipher Block Chaining, Counter Mode, Counter with Cipher Block Chaining Message Authentication Code, and Galois/Counter Mode. Note, however, supported modes may vary between different cryptographic equipment, applications and libraries."
         controls:
         - id: ism-1771
           class: ISM-control
@@ -36023,19 +36274,19 @@ catalog:
     - uuid: 0248ace8-2e08-40f8-b19e-117c76909cf1
       title: Engaging with artificial intelligence
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/artificial-intelligence/engaging-with-artificial-intelligence
+      - href: https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/engaging-with-artificial-intelligence
     - uuid: 02fb4cb5-e4c4-4097-97a2-f1b6aa04131a
       title: Patching applications and operating systems
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/patching-applications-and-operating-systems
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/patching-applications-operating-systems
     - uuid: 03f761fa-7014-459c-aa16-02c303d50abb
       title: reporting vulnerabilities
       rlinks:
-      - href: https://www.cyber.gov.au/report-and-recover/report/report-a-cybersecurity-vulnerability
+      - href: https://www.cyber.gov.au/report-and-recover/report/report-a-vulnerability
     - uuid: 041bce05-55ad-4a2a-93e3-c582d39fce94
       title: "Cybersecurity incident response planning: Practitioner guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/cybersecurity-incident-response-planning-practitioner-guidance
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-practitioner-guidance
     - uuid: 0508be6f-cb97-44da-b212-42416a0048b0
       title: random dice roller
       rlinks:
@@ -36043,11 +36294,11 @@ catalog:
     - uuid: 065263a6-4634-4a52-bd3f-48b83bf437d8
       title: "Managing the risks of legacy IT: Executive guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-risks-legacy-it-executive-guidance
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/managing-risks-legacy-it-executive-guidance
     - uuid: 089badd3-ed47-4597-8b1f-bce3e42f4ac4
       title: "Managing the risks of legacy IT: Practitioner guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/managing-the-risks-of-legacy-it-practitioner-guidance
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/managing-risks-legacy-it-practitioner-guidance
     - uuid: 0a1508c0-b062-4d85-8ded-a95316e17a3a
       title: command line process logging
       rlinks:
@@ -36055,7 +36306,7 @@ catalog:
     - uuid: 0b1a477d-b08a-4491-9cfc-c9d435b28dc8
       title: Planning for post-quantum cryptography
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/governance/planning-post-quantum-cryptography
+      - href: https://www.cyber.gov.au/business-government/secure-design/planning-post-quantum-cryptography
     - uuid: 0bf3a1ef-031a-419b-80c3-08a08b1cee9d
       title: Microsoft Security Baselines Blog
       rlinks:
@@ -36063,7 +36314,7 @@ catalog:
     - uuid: 0cae2aee-3762-482f-8ffe-850e98d7d605
       title: "Mitigation strategies for edge devices: Practitioner guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/securing-edge-devices/mitigation-strategies-edge-devices-practitioner-guidance
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/securing-edge-devices/mitigation-strategies-edge-devices-practitioner-guidance
     - uuid: 0d7243fc-65f0-4b4e-9358-bf4f6e0e34d7
       title: Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations
       rlinks:
@@ -36071,11 +36322,11 @@ catalog:
     - uuid: 0d9d5f12-3519-4585-82d9-bc0f42abcd3c
       title: IoT Secure by Design guidance for manufacturers
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/iot-secure-design-guidance-manufacturers
+      - href: https://www.cyber.gov.au/business-government/secure-design/secure-by-design/iot-secure-by-design-guidance-manufacturers
     - uuid: 0e982561-93dc-4cf7-9a98-e91411e99ca6
       title: Bring Your Own Device for executives
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/bring-your-own-device-executives
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/remote-working-secure-mobility/secure-mobility/bring-your-own-device-executives
     - uuid: 1258a1ce-774a-4701-8d47-80940b988a2d
       title: Adversarial Threat Landscape for Artificial-Intelligence Systems
       rlinks:
@@ -36083,7 +36334,7 @@ catalog:
     - uuid: 131048c7-a2e7-4da3-9257-7a058b06c1f8
       title: Secure administration
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/secure-administration
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/secure-administration
     - uuid: 18203e18-2aca-492e-be44-770b2f47242f
       title: AV-TEST
       rlinks:
@@ -36099,7 +36350,7 @@ catalog:
     - uuid: 195abe87-bb1e-4006-8b42-eaecca4d51f1
       title: Guidelines for cryptography
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cryptography
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cryptography
     - uuid: 197db872-c6a9-4b29-9888-1552e908252c
       title: "FIPS 140-3 Derived Test Requirements (DTR): CMVP Validation Authority Updates to ISO/IEC 24759"
       rlinks:
@@ -36115,7 +36366,7 @@ catalog:
     - uuid: 1dbda98a-4e8b-4a52-b4f7-9d1a895fd324
       title: "Priority logs for SIEM ingestion: Practitioner guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/priority-logs-for-siem-ingestion-practitioner-guidance
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/priority-logs-siem-ingestion-practitioner-guidance
     - uuid: 1e4a57a2-2832-441d-8ea4-12a98d2be417
       title: Australian Privacy Principles guidelines
       rlinks:
@@ -36127,11 +36378,11 @@ catalog:
     - uuid: 1eefdaf7-3991-4ba2-9439-79565f508c44
       title: Guidelines for data transfers
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-data-transfers
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-data-transfers
     - uuid: 23d977b2-e64e-4ebc-a59f-cd95212045c5
       title: Implementing network segmentation and segregation
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/implementing-network-segmentation-and-segregation
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/implementing-network-segmentation-segregation
     - uuid: 24eb9af8-fb43-4772-a461-2c36dd0f6d7e
       title: recommended contents for a ‘security.txt’ file
       rlinks:
@@ -36143,7 +36394,7 @@ catalog:
     - uuid: 2667c626-d3e8-4ee5-9044-2ada9f133df2
       title: Practical cybersecurity tips for business leaders
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/practical-cybersecurity-tips-business-leaders
+      - href: https://www.cyber.gov.au/business-government/protecting-business-leaders/cyber-security-business-leaders/practical-cybersecurity-tips-business-leaders
     - uuid: 28cd91d2-e5cb-4896-bcfc-abb32e05e61d
       title: Cryptographic Module Validation Program
       rlinks:
@@ -36163,7 +36414,7 @@ catalog:
     - uuid: 331263bc-3314-496b-9d35-76788eb0f403
       title: Detecting and mitigating Active Directory compromises
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/detecting-and-mitigating-active-directory-compromises
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/detecting-mitigating-active-directory-compromises
     - uuid: 33d26cdd-51fc-45d3-a026-0814d51a4c7e
       title: Security Recommendations for Server-based Hypervisor Platforms
       rlinks:
@@ -36171,7 +36422,7 @@ catalog:
     - uuid: 347eee88-cb61-44b9-81ce-ab97dd08387c
       title: Cloud computing security for cloud service providers
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-computing-security-cloud-service-providers
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-computing-security-cloud-service-providers
     - uuid: 348be728-4459-4447-990e-1dfb3049c71f
       title: data retention
       rlinks:
@@ -36187,7 +36438,7 @@ catalog:
     - uuid: 37f65b5b-ce8c-4137-9c84-41678af1e70e
       title: Cyber supply chain risk management
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/cyber-supply-chain-risk-management
+      - href: https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managing-cyber-supply-chains/cyber-supply-chain-risk-management
     - uuid: 39e186f3-d175-4eed-afe6-2b9a7a936a91
       title: MemtestG80
       rlinks:
@@ -36199,15 +36450,15 @@ catalog:
     - uuid: 3a7b903b-ed0d-450d-9123-60f6f8fd5dd2
       title: Guidelines for communications systems
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-communications-systems
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-communications-systems
     - uuid: 3ccea9a8-a728-4f5b-a0a8-43f2f206f76b
       title: Restricting administrative privileges
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/restricting-administrative-privileges
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/restricting-administrative-privileges
     - uuid: 3df21b72-0559-4bbf-a990-5ee509f70747
       title: Gateway security guidance package
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/gateway-hardening
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/gateway-security-guidance-package
     - uuid: 3e5a98e5-9219-46c8-81c2-e3a4d13407ce
       title: Active Directory Forest Recovery - Reset the krbtgt password
       rlinks:
@@ -36215,7 +36466,7 @@ catalog:
     - uuid: 3f349d16-11a1-459a-a299-c9446aea7597
       title: Guidelines for database systems
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-database-systems
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-database-systems
     - uuid: 3f43c8d2-8a8c-4e2f-af80-48a607bce643
       title: Local Security Authority protection functionality
       rlinks:
@@ -36227,7 +36478,7 @@ catalog:
     - uuid: 403f72c6-3e85-4185-8df3-130b2a6b25b3
       title: "Cybersecurity incident response planning: Executive guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/cybersecurity-incident-response-planning-executive-guidance
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-executive-guidance
     - uuid: 42e7d99d-9709-4355-a54d-98959c552aa1
       title: Cryptographic Algorithm Validation Program
       rlinks:
@@ -36236,10 +36487,14 @@ catalog:
       title: OWASP Top 10 2021
       rlinks:
       - href: https://owasp.org/Top10/
+    - uuid: 43fbcaf9-03a3-493a-83be-9340a37778fa
+      title: Hardening Microsoft Windows 11 workstations
+      rlinks:
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-windows-11-workstations
     - uuid: 45899752-c83f-4976-bc99-03f6824a0793
       title: How to manage your security when engaging a managed service provider
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/managed-services/how-manage-your-security-when-engaging-managed-service-provider
+      - href: https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managed-service-providers/how-manage-your-security-when-engaging-managed-service-provider
     - uuid: 490f4622-8562-4333-a263-b64f660620e8
       title: Cyber Security Toolkit for Boards
       rlinks:
@@ -36259,31 +36514,31 @@ catalog:
     - uuid: 4bebe303-7a91-4ffa-90d8-8df9f80a6318
       title: "Implementing SIEM and SOAR platforms: Executive guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/implementing-siem-and-soar-platforms-executive-guidance
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/implementing-siem-soar-platforms-executive-guidance
     - uuid: 4deea7ea-18a2-4fd7-8b25-0b3603215df2
       title: Guidelines for physical security
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-physical-security
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-physical-security
     - uuid: 4defa9a8-c5f5-4b39-8b0a-537f14d9d14d
       title: Guidelines for communications infrastructure
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-communications-infrastructure
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-communications-infrastructure
     - uuid: 4e01708d-9c2d-4a84-a08a-cb98077235a6
       title: "Implementing SIEM and SOAR platforms: Practitioner guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/implementing-siem-and-soar-platforms-practitioner-guidance
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/implementing-siem-soar-platforms-practitioner-guidance
     - uuid: 4e61782a-9118-40e1-bdcd-888cbff03e6c
       title: Questions for the board of directors to ask about cybersecurity
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/governance/questions-board-directors-ask-about-cybersecurity
+      - href: https://www.cyber.gov.au/business-government/protecting-business-leaders/questions-boards-ask-about-cybersecurity
     - uuid: 4eeff329-cea0-4baf-a80b-8b0b76436075
       title: Implementing application control
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-application-control
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/implementing-application-control
     - uuid: 506198a8-7ae8-4c95-8b7b-2a4833cfab4b
       title: Guidelines for software development
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-software-development
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-software-development
     - uuid: 53d281fa-1f25-4d33-9d6b-a5831851df50
       title: Guidance on digital forensics and protective monitoring specifications for producers of network devices and appliances
       rlinks:
@@ -36303,19 +36558,23 @@ catalog:
     - uuid: 578d0434-6b3f-46f3-aad8-c7ac75c2ebcc
       title: Guidelines for cybersecurity documentation
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-documentation
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-documentation
     - uuid: 57c58870-2ebb-4fce-b995-0c86cb64002f
       title: AISEP
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/australian-information-security-evaluation-program
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/australian-information-security-evaluation-program
     - uuid: 58282062-5c17-476a-98b1-105a627cd28d
       title: randomly generating passphrases
       rlinks:
       - href: https://www.eff.org/dice
+    - uuid: 58589044-8b34-4d46-bf70-103ee8d10bc9
+      title: Managing cryptographic keys and secrets
+      rlinks:
+      - href: https://www.cyber.gov.au/business-government/secure-design/secure-by-design/managing-cryptographic-keys-secrets
     - uuid: 58c9abfb-58fe-416e-a279-dfbfe123c99f
       title: "Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-365-office-2021-office-2019-office-2016
     - uuid: 5935bbd2-883f-45e1-861e-e33a1e279063
       title: OWASP Mobile Application Security Verification Standard version 2.1.0
       rlinks:
@@ -36327,11 +36586,11 @@ catalog:
     - uuid: 6136b137-0cc9-4d21-94ee-0abfac2b4e18
       title: Malicious email mitigation strategies
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/malicious-email-mitigation-strategies
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/malicious-email-mitigation-strategies
     - uuid: 616fce77-495b-472a-a552-7593ab64f188
       title: "Security configuration guide: Samsung Galaxy S10, S20 and Note 20 devices"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/security-configuration-guide-samsung-galaxy-s10-s20-and-note-20-devices
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/mobility-hardening/security-configuration-guide-samsung-galaxy-s10-s20-note-20-devices
     - uuid: 626d3582-3caf-49d6-89d5-4b8fdbbf1f31
       title: reporting cybersecurity incidents
       rlinks:
@@ -36339,7 +36598,7 @@ catalog:
     - uuid: 626dab35-81ab-45fe-8c12-0faff1c23c07
       title: Guidelines for cybersecurity roles
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-roles
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-roles
     - uuid: 629818d8-430c-4125-8fd2-5e3f988fce21
       title: MemTest86
       rlinks:
@@ -36355,7 +36614,7 @@ catalog:
     - uuid: 6494bba4-bdb5-4b19-8f6c-8d5506a8bb09
       title: Secure by Design foundations
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/secure-by-design/secure-design-foundations
+      - href: https://www.cyber.gov.au/business-government/secure-design/secure-by-design/secure-by-design-foundations
     - uuid: 672e85cc-2d40-46ba-9e94-c604b9731c75
       title: secure programming practices
       rlinks:
@@ -36368,10 +36627,6 @@ catalog:
       title: "AI Data Security: Best Practices for Securing Data Used to Train \\& Operate AI Systems"
       rlinks:
       - href: https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4192332/nsas-aisc-releases-joint-guidance-on-the-risks-and-best-practices-in-ai-data-se/
-    - uuid: 6e801c68-61f6-4c28-bf72-df91f7e232cc
-      title: Hardening Microsoft Windows 10 and Windows 11 workstations
-      rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-and-windows-11-workstations
     - uuid: 6f1f2f2b-abe6-46e4-9c9d-8339f1d9dab7
       title: "Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities"
       rlinks:
@@ -36391,7 +36646,7 @@ catalog:
     - uuid: 76068c96-8d89-4c37-9eef-03488d5e1b1d
       title: Questions to ask managed service providers
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/managed-services/questions-ask-managed-service-providers
+      - href: https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managed-service-providers/questions-ask-managed-service-providers
     - uuid: 76087ab6-88d4-4610-9a98-6ddc5f7bd7e6
       title: OWASP API Security Top 10 2023
       rlinks:
@@ -36407,7 +36662,7 @@ catalog:
     - uuid: 7d16ae67-87a7-4861-b939-e13ec279b5a2
       title: Guidelines for personnel security
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-personnel-security
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-personnel-security
     - uuid: 7d22400c-ddef-4cbb-90f1-7502dc569e5b
       title: the use of PowerShell by blue teams
       rlinks:
@@ -36423,7 +36678,7 @@ catalog:
     - uuid: 8132c47e-a2dc-4dd9-81d6-38db96e5cec6
       title: Hardening Linux workstations and servers
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-linux-workstations-servers
     - uuid: 82ae76a4-ed9e-4a7b-8bad-f1950c41eab7
       title: attack surface reduction rules overview
       rlinks:
@@ -36431,11 +36686,11 @@ catalog:
     - uuid: 83e3a9b1-5057-4531-91dd-03c8d92634b0
       title: Implementing multi-factor authentication
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-multi-factor-authentication
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/implementing-multi-factor-authentication
     - uuid: 84d3cbab-ab84-4981-a4f7-2bd469c8deaf
       title: the purpose of IRAP
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/infosec-registered-assessors-program
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/irap
     - uuid: 85c9b592-8734-4860-8243-ac0821f78854
       title: Australian cabling standards
       rlinks:
@@ -36443,11 +36698,11 @@ catalog:
     - uuid: 85ee803a-b711-443b-98bf-b279de8fbed0
       title: Identifying cyber supply chain risks
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/identifying-cyber-supply-chain-risks
+      - href: https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managing-cyber-supply-chains/identifying-cyber-supply-chain-risks
     - uuid: 86814651-26b5-43f5-807d-0040c2d71169
       title: "Planning for critical vulnerabilities: What the board of directors needs to know"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/planning-critical-vulnerabilities-what-board-directors-needs-know
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/vulnerability-planning/planning-critical-vulnerabilities-what-boards-need-know
     - uuid: 887c65c3-c853-41c6-89d5-3f297108889e
       title: Application Container Security Guide
       rlinks:
@@ -36463,11 +36718,11 @@ catalog:
     - uuid: 8a67ffd7-61a4-4773-a1e7-e6b146f51d62
       title: Foundations for modern defensible architecture
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/modern-defensible-architecture/foundations-modern-defensible-architecture
+      - href: https://www.cyber.gov.au/business-government/secure-design/secure-by-design/modern-defensible-architecture/foundations-modern-defensible-architecture
     - uuid: 8a965432-7e2e-4020-86e4-b38837f9be60
       title: Using the Information security manual
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/using-information-security-manual
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/using-information-security-manual
     - uuid: 8d53ee7f-54c2-4380-8408-f7403db30ba1
       title: Credential Guard functionality
       rlinks:
@@ -36483,11 +36738,15 @@ catalog:
     - uuid: 8ffea524-0974-4b53-a8f5-41166073ede5
       title: Securing PowerShell in the enterprise
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-administration/securing-powershell-enterprise
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/securing-powershell-enterprise
     - uuid: 91b92563-d991-40fa-9adc-548df9f6c496
       title: secure group Managed Service Accounts
       rlinks:
       - href: https://learn.microsoft.com/en-au/entra/architecture/service-accounts-group-managed
+    - uuid: 9209d9cd-86c1-486f-890e-1edfa4545093
+      title: Hardening Microsoft Windows 10 workstations
+      rlinks:
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-windows-10-workstations
     - uuid: 92679127-f61d-486a-a93e-df2a26dfb07a
       title: Protective Security Policy Framework
       rlinks:
@@ -36507,7 +36766,7 @@ catalog:
     - uuid: 98951624-a06e-4d9a-96a3-f89ac944bcaa
       title: Protecting against business email compromise
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/protecting-against-business-email-compromise
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/protecting-against-business-email-compromise
     - uuid: 9898653e-fc87-4b42-a1fa-f7e323902841
       title: Secure by Design Activities
       rlinks:
@@ -36519,7 +36778,7 @@ catalog:
     - uuid: 9a8f5a63-bcd5-45a8-9f9c-974fc796ac95
       title: Guidelines for enterprise mobility
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-enterprise-mobility
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-enterprise-mobility
     - uuid: 9ad09461-7b3d-4faf-bdcd-61df9952cf49
       title: Security Configuration Guide for Acrobat
       rlinks:
@@ -36539,7 +36798,7 @@ catalog:
     - uuid: a699a3aa-828d-479b-b50b-98127bb19437
       title: Guidelines for evaluated products
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-evaluated-products
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-evaluated-products
     - uuid: a75de67b-9502-47e9-b48b-5e2a45d528e1
       title: Recommendation for Key-Derivation Methods in Key-Establishment Schemes
       rlinks:
@@ -36567,11 +36826,11 @@ catalog:
     - uuid: ab73fa95-f213-4041-915e-a8ccbdf74331
       title: Guidelines for email
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-email
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-email
     - uuid: adc62d2d-87b9-43a0-ae76-6e6828ff3bbb
       title: Choosing secure and verifiable technologies
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/choosing-secure-and-verifiable-technologies
+      - href: https://www.cyber.gov.au/business-government/secure-design/secure-by-design/choosing-secure-verifiable-technologies
     - uuid: ae426d0a-adb6-43b8-a463-faa33e83b679
       title: Active Directory accounts
       rlinks:
@@ -36595,7 +36854,7 @@ catalog:
     - uuid: b13cb68a-a94a-4a69-b094-b1b68d10239e
       title: Domain Name System security for domain resolvers
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/domain-name-system-security-domain-resolvers
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/domain-name-system-security-domain-resolvers
     - uuid: b151e338-c42f-41ef-9f99-2cb98f368637
       title: Best practices for securing Active Directory
       rlinks:
@@ -36615,15 +36874,15 @@ catalog:
     - uuid: b594c9c0-b42f-4f06-b643-38023275a5c7
       title: Guidelines for media
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-media
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-media
     - uuid: b6479d9a-43c9-41f2-9dbc-2bb689c8e6d8
       title: Cloud assessment and authorisation
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-assessment-and-authorisation
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-assessment-authorisation
     - uuid: b66f8d23-4209-4775-a1fd-bd4dc299a027
       title: Domain Name System security for domain owners
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/domain-name-system-security-domain-owners
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/domain-name-system-security-domain-owners
     - uuid: b794a062-2339-48ed-89ac-14aa4c3a61db
       title: "Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Secure by Design Software"
       rlinks:
@@ -36631,19 +36890,19 @@ catalog:
     - uuid: b79c4fe8-4541-401f-a32e-87fd83021c98
       title: "Mitigation strategies for edge devices: Executive guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/securing-edge-devices/mitigating-strategies-edge-devices-executive-guidance
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/securing-edge-devices/mitigation-strategies-edge-devices-executive-guidance
     - uuid: b8cdbf18-31cb-4e10-bb43-e8488ee8c2f6
       title: "Implementing certificates, TLS, HTTPS and opportunistic TLS"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/web-hardening/implementing-certificates-tls-https-and-opportunistic-tls
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/web-hardening/implementing-certificates-tls-https-opportunistic-tls
     - uuid: b959caf4-8b60-4b82-9552-963754841bb7
       title: Cloud computing security for tenants
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-computing-security-tenants
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-computing-security-tenants
     - uuid: b95c4745-572a-4121-b4e1-d0baa90a84fc
       title: Best practices for event logging and threat detection
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/best-practices-event-logging-threat-detection
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/best-practices-event-logging-threat-detection
     - uuid: bac2c6f2-9356-46d2-b7c4-9af7393008df
       title: Australian Privacy Principles
       rlinks:
@@ -36671,7 +36930,7 @@ catalog:
     - uuid: c54cc4db-22f4-4d10-8977-2ce62b647bd2
       title: Preparing for and responding to denial-of-service attacks
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/incident-response/preparing-and-responding-denial-of-service-attacks
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/cyber-security-incident-response/preparing-responding-denial-of-service-attacks
     - uuid: c5ca2027-161e-4322-9367-7ec736b4846f
       title: "Deploying AI Systems Securely: Best Practices for Deploying Secure and Resilient AI Systems"
       rlinks:
@@ -36679,7 +36938,7 @@ catalog:
     - uuid: c6ca6620-ccd5-4c5d-b97c-9d92f1162948
       title: Guidelines for system management
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-management
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-management
     - uuid: c74c6e7a-2209-4337-bb3a-715ce6e792a4
       title: Secure development and deployment guidance
       rlinks:
@@ -36687,7 +36946,7 @@ catalog:
     - uuid: c78caaed-9931-4197-b21e-bc4e9979a51a
       title: Security tips for social media and messaging apps
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/user-education/security-tips-social-media-and-messaging-apps
+      - href: https://www.cyber.gov.au/business-government/protecting-business-leaders/security-tips-social-media-messaging-apps
     - uuid: c852e735-4920-4616-8e34-2fddfb49eea8
       title: AV-Comparatives
       rlinks:
@@ -36695,7 +36954,7 @@ catalog:
     - uuid: c8ee37e4-fb81-4fa7-8f14-132c850974bc
       title: Cloud computing security for executives
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-computing-security-executives
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-computing-security-executives
     - uuid: cad720b4-e47a-437d-b272-6958e738131d
       title: "Common Sense Guide to Mitigating Insider Threats, Seventh Edition"
       rlinks:
@@ -36723,19 +36982,19 @@ catalog:
     - uuid: d2910e61-da88-4d29-b860-83c25161fd18
       title: "Security configuration guide: Apple iOS 14 devices"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/security-configuration-guide-apple-ios-14-devices
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/mobility-hardening/security-configuration-guide-apple-ios-14-devices
     - uuid: d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4
-      title: OWASP Application Security Verification Standard 5.0.
+      title: OWASP Application Security Verification Standard 5.0.0
       rlinks:
       - href: https://owasp.org/www-project-application-security-verification-standard/
     - uuid: d3572f80-d9d6-4023-b6e6-23720bb0d618
       title: How to combat fake emails
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/how-combat-fake-emails
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/how-combat-fake-emails
     - uuid: d36ce452-ec21-4b05-89c1-f29a444a3dca
       title: End of support for Microsoft Windows and Microsoft Windows Server
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/legacy-it-management/end-support-microsoft-windows-and-microsoft-windows-server
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/end-support-microsoft-windows-microsoft-windows-server
     - uuid: d446dea3-c36d-45af-9623-05b686624af0
       title: memory integrity functionality
       rlinks:
@@ -36743,39 +37002,39 @@ catalog:
     - uuid: daae37ef-262f-4b20-bfb7-a27901f3c2db
       title: "Security configuration guide: Viasat Mobile Dynamic Defense"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/security-configuration-guide-viasat-mobile-dynamic-defense
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/mobility-hardening/security-configuration-guide-viasat-mobile-dynamic-defense
     - uuid: db2e237c-2dbc-4a1f-bae7-9cb63a1f1dc3
       title: Guidelines for information technology equipment
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-information-technology-equipment
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-information-technology-equipment
     - uuid: dc0469b3-3901-4d2c-8b22-7c6b6627ab97
       title: Ten things to know about data security
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/governance/ten-things-know-about-data-security
+      - href: https://www.cyber.gov.au/business-government/protecting-business-leaders/cyber-security-business-leaders/ten-things-know-about-data-security
     - uuid: dda788b6-183b-4e89-8254-8c4b5d0540a0
       title: Cloud assessment and authorisation FAQ
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/cloud-security-guidance/cloud-assessment-and-authorisation-faq
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-assessment-authorisation-faq
     - uuid: de239dae-d1e8-4969-9680-ef3444d32a83
       title: Windows event logging and forwarding
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/windows-event-logging-and-forwarding
+      - href: https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/windows-event-logging-forwarding
     - uuid: de7525f3-a466-40a5-abdd-3ae24a6d1b44
       title: Guidelines for system hardening
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-hardening
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-hardening
     - uuid: ded13757-3c76-40cb-b46e-f84e46a1c1c7
       title: Defending against the malicious use of the Tor network
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/network-hardening/defending-against-malicious-use-tor-network
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/defending-against-malicious-use-tor-network
     - uuid: df17ad0f-58d3-4bb8-814a-b60f34c5f841
       title: Emanation Security Program
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/emanation-security-program
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/emanation-security-program
     - uuid: dfb52998-0e7e-420d-97e1-d1313c8f919a
       title: Restricting Microsoft Office macros
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/restricting-microsoft-office-macros
     - uuid: e0d3b5ea-6a5a-400c-8daa-8a8059816a06
       title: Archives Act 1983
       rlinks:
@@ -36783,7 +37042,7 @@ catalog:
     - uuid: e19a0c40-0a68-4fba-aea1-142fdd57dc75
       title: Web conferencing security
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/remote-working/web-conferencing-security
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/remote-working-secure-mobility/remote-working/web-conferencing-security
     - uuid: e2205e57-2bf0-4696-8bd8-94a5a5d5c4f2
       title: Adopting Encrypted DNS in Enterprise Environments
       rlinks:
@@ -36795,19 +37054,19 @@ catalog:
     - uuid: e4eee462-f6e5-4921-a8fe-26f3de6c6f45
       title: Marketing and filtering email service providers
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/marketing-and-filtering-email-service-providers
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/marketing-filtering-email-service-providers
     - uuid: e4ef23da-2683-4356-93c4-a2412c9d52ee
       title: High Assurance Evaluation Program
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/high-assurance-evaluation-program
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/high-assurance-evaluation-program
     - uuid: e513ac6b-09fa-4d53-951a-a5142208cf12
       title: An introduction to artificial intelligence
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/artificial-intelligence/an-introduction-to-artificial-intelligence
+      - href: https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/introduction-artificial-intelligence
     - uuid: e7ce6e23-4bbb-45c1-a657-7e563c0837ed
       title: Information security manual
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism
     - uuid: e8a28fa5-4ea1-4ef5-a870-4d59e40fab37
       title: Commercial National Security Algorithm Suite 2.0
       rlinks:
@@ -36815,11 +37074,15 @@ catalog:
     - uuid: e8bde527-526c-4a6a-b66f-05228f09dd7b
       title: Guidelines for gateways
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-gateways
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-gateways
     - uuid: e8ec7a1f-775d-4b79-a164-0752278177fa
       title: Risk management of enterprise mobility (including Bring Your Own Device)
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/risk-management-enterprise-mobility-including-bring-your-own-device
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/remote-working-secure-mobility/secure-mobility/risk-management-enterprise-mobility-including-bring-your-own-device
+    - uuid: ea6f8148-55ea-4540-8b39-f35cc3411eb2
+      title: A Shared Vision of Software Bill of Materials (SBOM) for Cybersecurity
+      rlinks:
+      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/a-shared-vision-of-software-bill-of-materials-for-cybersecurity
     - uuid: ed6aa6ab-545d-48eb-92bc-9ad763d4b868
       title: Protection Profile for Mobile Device Management Version 4.0
       rlinks:
@@ -36827,7 +37090,7 @@ catalog:
     - uuid: edc24216-f52b-4513-bcda-5fa564661999
       title: Guidelines for system monitoring
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-system-monitoring
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-monitoring
     - uuid: edd67903-94ef-4edd-9789-73e0141cd77c
       title: General requirements for the competence of testing and calibration laboratories
       rlinks:
@@ -36835,11 +37098,11 @@ catalog:
     - uuid: efddc783-51dc-48ac-a53e-a5dd56c17fd0
       title: Detecting socially engineered messages
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/detecting-socially-engineered-messages
+      - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/detecting-socially-engineered-messages
     - uuid: f145ff5b-d396-4248-8f48-621349d6f0ed
       title: Guidelines for networking
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-networking
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-networking
     - uuid: f160b04e-1a32-4dd5-816e-1cba8c97982c
       title: Protection Profile for Mobile Device Fundamentals Version 3.3
       rlinks:
@@ -36847,11 +37110,11 @@ catalog:
     - uuid: f37a4848-0791-4870-b316-5536c2681c28
       title: Guidelines for procurement and outsourcing
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-procurement-and-outsourcing
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-procurement-outsourcing
     - uuid: f41c5403-9070-41ab-968e-cf69ac8bf34a
       title: "Choosing secure and verifiable technologies: Executive guidance"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/choosing-secure-and-verifiable-technologies-executive-guidance
+      - href: https://www.cyber.gov.au/business-government/secure-design/secure-by-design/choosing-secure-verifiable-technologies-executive-guidance
     - uuid: f48c0d05-5173-4c8e-8748-e5591518c1fb
       title: "Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile"
       rlinks:
@@ -36883,11 +37146,11 @@ catalog:
     - uuid: fd4e2255-74ca-4b20-811c-a64a93282f57
       title: "Mergers, acquisitions and Machinery of Government changes"
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/governance-and-user-education/governance/mergers-acquisitions-and-machinery-government-changes
+      - href: https://www.cyber.gov.au/business-government/protecting-business-leaders/cyber-security-business-leaders/mergers-acquisitions-machinery-government-changes
     - uuid: fe0138db-e83b-4a23-85d3-d84e1c22816f
       title: Guidelines for cybersecurity incidents
       rlinks:
-      - href: https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/ism/cybersecurity-guidelines/guidelines-cybersecurity-incidents
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-incidents
     - uuid: ffc8a1f6-f4e3-4ff5-a7f9-f41f766274eb
       title: "Recommendation for Key Management: Part 1 – General"
       rlinks:

@@ -3,9 +3,9 @@ profile:
   uuid: c51a6037-bcb6-4f93-a16c-909f9241c735
   metadata:
     title: Information security manual PROTECTED Baseline
-    published: 2025-07-16T09:27:09.499469724Z
-    last-modified: 2025-07-16T09:27:09.499469724Z
-    version: 2025.07.16
+    published: 2025-09-10T12:33:59.471791966Z
+    last-modified: 2025-09-10T12:33:59.471791966Z
+    version: 2025.09.10
     oscal-version: 1.1.2
     links:
     - href: '#df950918-ba93-4289-9991-cdff76e311f1'
@@ -57,6 +57,7 @@ profile:
       - ism-principle-ide-01
       - ism-principle-ide-02
       - ism-principle-ide-03
+      - ism-principle-ide-04
       - ism-principle-pro-01
       - ism-principle-pro-02
       - ism-principle-pro-03
@@ -79,7 +80,7 @@ profile:
       - ism-principle-res-02
       - ism-principle-res-03
       - ism-principle-res-04
-      - ism-principle-res-05
+      - ism-principle-rec-01
       - ism-1997
       - ism-1998
       - ism-1999
@@ -200,6 +201,7 @@ profile:
       - ism-1565
       - ism-2022
       - ism-1740
+      - ism-2071
       - ism-0817
       - ism-0820
       - ism-1146
@@ -737,9 +739,6 @@ profile:
       - ism-2042
       - ism-1780
       - ism-2043
-      - ism-1922
-      - ism-1923
-      - ism-1924
       - ism-1796
       - ism-1797
       - ism-2044
@@ -784,6 +783,10 @@ profile:
       - ism-1754
       - ism-1909
       - ism-1911
+      - ism-1923
+      - ism-1924
+      - ism-2072
+      - ism-1922
       - ism-1239
       - ism-0971
       - ism-1849
@@ -907,9 +910,9 @@ profile:
       - ism-1432
       - ism-0507
       - ism-1080
-      - ism-0457
       - ism-0459
       - ism-0469
+      - ism-0457
       - ism-0465
       - ism-0455
       - ism-0462
@@ -934,6 +937,7 @@ profile:
       - ism-1766
       - ism-1769
       - ism-0479
+      - ism-2073
       - ism-1917
       - ism-1996
       - ism-0481
@@ -1027,20 +1031,20 @@ profile:
     - uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
       title: Information security manual
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
     - uuid: df950918-ba93-4289-9991-cdff76e311f1
       title: Information security manual PROTECTED Baseline
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_PROTECTED-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_PROTECTED-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_PROTECTED-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_PROTECTED-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/artifacts/ISM_PROTECTED-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_PROTECTED-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: f2de1b40-ef59-42e8-8e26-b8fd43419685
       title: Information security manual PROTECTED Baseline - latest version
@@ -1054,18 +1058,18 @@ profile:
     - uuid: 6912ea54-6c7d-4e7c-9c3c-560851812ab9
       title: Information security manual PROTECTED Baseline - predecessor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/predecessor-version/artifacts/ISM_PROTECTED-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 8f16dc4a-2ae7-4365-8da9-dae1c1037f23
       title: Information security manual PROTECTED Baseline - successor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/successor-version/artifacts/ISM_PROTECTED-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/successor-version/artifacts/ISM_PROTECTED-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/successor-version/artifacts/ISM_PROTECTED-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/successor-version/artifacts/ISM_PROTECTED-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2025.07.16/successor-version/artifacts/ISM_PROTECTED-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2025.09.10/successor-version/artifacts/ISM_PROTECTED-baseline_profile.yaml
         media-type: application/oscal+yaml
