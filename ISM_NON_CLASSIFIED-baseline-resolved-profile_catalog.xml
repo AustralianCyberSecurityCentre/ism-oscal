@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="b0a0c61b-fb2a-4678-8ec2-2c38b1218dce">
+         uuid="5543af40-76e4-4879-aec1-450477d3be95">
    <metadata>
       <title>Information security manual non-classified Baseline</title>
-      <last-modified>2025-09-10T12:51:17.51868556Z</last-modified>
-      <version>2025.09.10</version>
+      <last-modified>2025-09-15T11:58:57.385296104Z</last-modified>
+      <version>2025.09.15</version>
       <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2025.09.10/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2025.09.15/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -33172,11 +33172,11 @@
       </resource>
       <resource uuid="0248ace8-2e08-40f8-b19e-117c76909cf1">
          <title>Engaging with artificial intelligence</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/engaging-with-artificial-intelligence"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/artificial-intelligence/engaging-with-artificial-intelligence"/>
       </resource>
       <resource uuid="02fb4cb5-e4c4-4097-97a2-f1b6aa04131a">
          <title>Patching applications and operating systems</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/patching-applications-operating-systems"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/system-administration/patching-applications-and-operating-systems"/>
       </resource>
       <resource uuid="03f761fa-7014-459c-aa16-02c303d50abb">
          <title>reporting vulnerabilities</title>
@@ -33184,7 +33184,7 @@
       </resource>
       <resource uuid="041bce05-55ad-4a2a-93e3-c582d39fce94">
          <title>Cybersecurity incident response planning: Practitioner guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-practitioner-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-practitioner-guidance"/>
       </resource>
       <resource uuid="0508be6f-cb97-44da-b212-42416a0048b0">
          <title>random dice roller</title>
@@ -33192,11 +33192,11 @@
       </resource>
       <resource uuid="065263a6-4634-4a52-bd3f-48b83bf437d8">
          <title>Managing the risks of legacy IT: Executive guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/managing-risks-legacy-it-executive-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/legacy-it-management/managing-the-risks-of-legacy-it-executive-guidance"/>
       </resource>
       <resource uuid="089badd3-ed47-4597-8b1f-bce3e42f4ac4">
          <title>Managing the risks of legacy IT: Practitioner guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/managing-risks-legacy-it-practitioner-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/legacy-it-management/managing-the-risks-of-legacy-it-practitioner-guidance"/>
       </resource>
       <resource uuid="0a1508c0-b062-4d85-8ded-a95316e17a3a">
          <title>command line process logging</title>
@@ -33204,7 +33204,7 @@
       </resource>
       <resource uuid="0b1a477d-b08a-4491-9cfc-c9d435b28dc8">
          <title>Planning for post-quantum cryptography</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/planning-post-quantum-cryptography"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/planning-for-post-quantum-cryptography"/>
       </resource>
       <resource uuid="0bf3a1ef-031a-419b-80c3-08a08b1cee9d">
          <title>Microsoft Security Baselines Blog</title>
@@ -33212,7 +33212,7 @@
       </resource>
       <resource uuid="0cae2aee-3762-482f-8ffe-850e98d7d605">
          <title>Mitigation strategies for edge devices: Practitioner guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/securing-edge-devices/mitigation-strategies-edge-devices-practitioner-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/network-hardening/securing-edge-devices/mitigation-strategies-for-edge-devices-practitioner-guidance"/>
       </resource>
       <resource uuid="0d7243fc-65f0-4b4e-9358-bf4f6e0e34d7">
          <title>Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations</title>
@@ -33220,11 +33220,11 @@
       </resource>
       <resource uuid="0d9d5f12-3519-4585-82d9-bc0f42abcd3c">
          <title>IoT Secure by Design guidance for manufacturers</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/secure-by-design/iot-secure-by-design-guidance-manufacturers"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/secure-by-design/iot-secure-by-design-guidance-for-manufacturers"/>
       </resource>
       <resource uuid="0e982561-93dc-4cf7-9a98-e91411e99ca6">
          <title>Bring Your Own Device for executives</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/remote-working-secure-mobility/secure-mobility/bring-your-own-device-executives"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/bring-your-own-device-for-executives"/>
       </resource>
       <resource uuid="1258a1ce-774a-4701-8d47-80940b988a2d">
          <title>Adversarial Threat Landscape for Artificial-Intelligence Systems</title>
@@ -33232,7 +33232,7 @@
       </resource>
       <resource uuid="131048c7-a2e7-4da3-9257-7a058b06c1f8">
          <title>Secure administration</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/secure-administration"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/system-administration/secure-administration"/>
       </resource>
       <resource uuid="18203e18-2aca-492e-be44-770b2f47242f">
          <title>AV-TEST</title>
@@ -33248,7 +33248,7 @@
       </resource>
       <resource uuid="195abe87-bb1e-4006-8b42-eaecca4d51f1">
          <title>Guidelines for cryptography</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cryptography"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-cryptography"/>
       </resource>
       <resource uuid="197db872-c6a9-4b29-9888-1552e908252c">
          <title>FIPS 140-3 Derived Test Requirements (DTR): CMVP Validation Authority Updates to ISO/IEC 24759</title>
@@ -33264,7 +33264,7 @@
       </resource>
       <resource uuid="1dbda98a-4e8b-4a52-b4f7-9d1a895fd324">
          <title>Priority logs for SIEM ingestion: Practitioner guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/priority-logs-siem-ingestion-practitioner-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/event-logging/implementing-siem-and-soar-platforms/priority-logs-for-siem-ingestion-practitioner-guidance"/>
       </resource>
       <resource uuid="1e4a57a2-2832-441d-8ea4-12a98d2be417">
          <title>Australian Privacy Principles guidelines</title>
@@ -33276,11 +33276,11 @@
       </resource>
       <resource uuid="1eefdaf7-3991-4ba2-9439-79565f508c44">
          <title>Guidelines for data transfers</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-data-transfers"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-data-transfers"/>
       </resource>
       <resource uuid="23d977b2-e64e-4ebc-a59f-cd95212045c5">
          <title>Implementing network segmentation and segregation</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/implementing-network-segmentation-segregation"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/network-hardening/implementing-network-segmentation-and-segregation"/>
       </resource>
       <resource uuid="24eb9af8-fb43-4772-a461-2c36dd0f6d7e">
          <title>recommended contents for a ‘security.txt’ file</title>
@@ -33292,7 +33292,7 @@
       </resource>
       <resource uuid="2667c626-d3e8-4ee5-9044-2ada9f133df2">
          <title>Practical cybersecurity tips for business leaders</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-business-leaders/cyber-security-business-leaders/practical-cybersecurity-tips-business-leaders"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-business-leaders/cyber-security-for-business-leaders/practical-cybersecurity-tips-for-business-leaders"/>
       </resource>
       <resource uuid="28cd91d2-e5cb-4896-bcfc-abb32e05e61d">
          <title>Cryptographic Module Validation Program</title>
@@ -33312,7 +33312,7 @@
       </resource>
       <resource uuid="331263bc-3314-496b-9d35-76788eb0f403">
          <title>Detecting and mitigating Active Directory compromises</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/detecting-mitigating-active-directory-compromises"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/detecting-and-mitigating-active-directory-compromises"/>
       </resource>
       <resource uuid="33d26cdd-51fc-45d3-a026-0814d51a4c7e">
          <title>Security Recommendations for Server-based Hypervisor Platforms</title>
@@ -33320,7 +33320,7 @@
       </resource>
       <resource uuid="347eee88-cb61-44b9-81ce-ab97dd08387c">
          <title>Cloud computing security for cloud service providers</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-computing-security-cloud-service-providers"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/cloud-computing/cloud-computing-security-for-cloud-service-providers"/>
       </resource>
       <resource uuid="348be728-4459-4447-990e-1dfb3049c71f">
          <title>data retention</title>
@@ -33336,7 +33336,7 @@
       </resource>
       <resource uuid="37f65b5b-ce8c-4137-9c84-41678af1e70e">
          <title>Cyber supply chain risk management</title>
-         <rlink href="https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managing-cyber-supply-chains/cyber-supply-chain-risk-management"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/supplier-cyber-risk-management/managing-cyber-supply-chains/cyber-supply-chain-risk-management"/>
       </resource>
       <resource uuid="39e186f3-d175-4eed-afe6-2b9a7a936a91">
          <title>MemtestG80</title>
@@ -33348,15 +33348,15 @@
       </resource>
       <resource uuid="3a7b903b-ed0d-450d-9123-60f6f8fd5dd2">
          <title>Guidelines for communications systems</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-communications-systems"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-communications-systems"/>
       </resource>
       <resource uuid="3ccea9a8-a728-4f5b-a0a8-43f2f206f76b">
          <title>Restricting administrative privileges</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/restricting-administrative-privileges"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/system-administration/restricting-administrative-privileges"/>
       </resource>
       <resource uuid="3df21b72-0559-4bbf-a990-5ee509f70747">
          <title>Gateway security guidance package</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/gateway-security-guidance-package"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/gateway-security-guidance-package"/>
       </resource>
       <resource uuid="3e5a98e5-9219-46c8-81c2-e3a4d13407ce">
          <title>Active Directory Forest Recovery - Reset the krbtgt password</title>
@@ -33364,7 +33364,7 @@
       </resource>
       <resource uuid="3f349d16-11a1-459a-a299-c9446aea7597">
          <title>Guidelines for database systems</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-database-systems"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-database-systems"/>
       </resource>
       <resource uuid="3f43c8d2-8a8c-4e2f-af80-48a607bce643">
          <title>Local Security Authority protection functionality</title>
@@ -33376,7 +33376,7 @@
       </resource>
       <resource uuid="403f72c6-3e85-4185-8df3-130b2a6b25b3">
          <title>Cybersecurity incident response planning: Executive guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-executive-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-executive-guidance"/>
       </resource>
       <resource uuid="42e7d99d-9709-4355-a54d-98959c552aa1">
          <title>Cryptographic Algorithm Validation Program</title>
@@ -33388,11 +33388,11 @@
       </resource>
       <resource uuid="43fbcaf9-03a3-493a-83be-9340a37778fa">
          <title>Hardening Microsoft Windows 11 workstations</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-windows-11-workstations"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/system-hardening/hardening-microsoft-windows-11-workstations"/>
       </resource>
       <resource uuid="45899752-c83f-4976-bc99-03f6824a0793">
          <title>How to manage your security when engaging a managed service provider</title>
-         <rlink href="https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managed-service-providers/how-manage-your-security-when-engaging-managed-service-provider"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/supplier-cyber-risk-management/managed-service-providers/how-to-manage-your-security-when-engaging-a-managed-service-provider"/>
       </resource>
       <resource uuid="490f4622-8562-4333-a263-b64f660620e8">
          <title>Cyber Security Toolkit for Boards</title>
@@ -33412,31 +33412,31 @@
       </resource>
       <resource uuid="4bebe303-7a91-4ffa-90d8-8df9f80a6318">
          <title>Implementing SIEM and SOAR platforms: Executive guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/implementing-siem-soar-platforms-executive-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/event-logging/implementing-siem-and-soar-platforms/implementing-siem-and-soar-platforms-executive-guidance"/>
       </resource>
       <resource uuid="4deea7ea-18a2-4fd7-8b25-0b3603215df2">
          <title>Guidelines for physical security</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-physical-security"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-physical-security"/>
       </resource>
       <resource uuid="4defa9a8-c5f5-4b39-8b0a-537f14d9d14d">
          <title>Guidelines for communications infrastructure</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-communications-infrastructure"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-communications-infrastructure"/>
       </resource>
       <resource uuid="4e01708d-9c2d-4a84-a08a-cb98077235a6">
          <title>Implementing SIEM and SOAR platforms: Practitioner guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/implementing-siem-soar-platforms/implementing-siem-soar-platforms-practitioner-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/event-logging/implementing-siem-and-soar-platforms/implementing-siem-and-soar-platforms-practitioner-guidance"/>
       </resource>
       <resource uuid="4e61782a-9118-40e1-bdcd-888cbff03e6c">
          <title>Questions for the board of directors to ask about cybersecurity</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-business-leaders/questions-boards-ask-about-cybersecurity"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-business-leaders/questions-for-boards-to-ask-about-cybersecurity"/>
       </resource>
       <resource uuid="4eeff329-cea0-4baf-a80b-8b0b76436075">
          <title>Implementing application control</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/implementing-application-control"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/system-hardening/implementing-application-control"/>
       </resource>
       <resource uuid="506198a8-7ae8-4c95-8b7b-2a4833cfab4b">
          <title>Guidelines for software development</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-software-development"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-software-development"/>
       </resource>
       <resource uuid="53d281fa-1f25-4d33-9d6b-a5831851df50">
          <title>Guidance on digital forensics and protective monitoring specifications for producers of network devices and appliances</title>
@@ -33456,11 +33456,11 @@
       </resource>
       <resource uuid="578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">
          <title>Guidelines for cybersecurity documentation</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-documentation"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-cybersecurity-documentation"/>
       </resource>
       <resource uuid="57c58870-2ebb-4fce-b995-0c86cb64002f">
          <title>AISEP</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/australian-information-security-evaluation-program"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/assessment-and-evaluation-programs/australian-information-security-evaluation-program"/>
       </resource>
       <resource uuid="58282062-5c17-476a-98b1-105a627cd28d">
          <title>randomly generating passphrases</title>
@@ -33468,11 +33468,11 @@
       </resource>
       <resource uuid="58589044-8b34-4d46-bf70-103ee8d10bc9">
          <title>Managing cryptographic keys and secrets</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/secure-by-design/managing-cryptographic-keys-secrets"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/secure-by-design/managing-cryptographic-keys-and-secrets"/>
       </resource>
       <resource uuid="58c9abfb-58fe-416e-a279-dfbfe123c99f">
          <title>Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-365-office-2021-office-2019-office-2016"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016"/>
       </resource>
       <resource uuid="5935bbd2-883f-45e1-861e-e33a1e279063">
          <title>OWASP Mobile Application Security Verification Standard version 2.1.0</title>
@@ -33484,11 +33484,11 @@
       </resource>
       <resource uuid="6136b137-0cc9-4d21-94ee-0abfac2b4e18">
          <title>Malicious email mitigation strategies</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/malicious-email-mitigation-strategies"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/email-hardening/malicious-email-mitigation-strategies"/>
       </resource>
       <resource uuid="616fce77-495b-472a-a552-7593ab64f188">
          <title>Security configuration guide: Samsung Galaxy S10, S20 and Note 20 devices</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/mobility-hardening/security-configuration-guide-samsung-galaxy-s10-s20-note-20-devices"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/mobility-hardening/security-configuration-guide-samsung-galaxy-s10-s20-and-note-20-devices"/>
       </resource>
       <resource uuid="626d3582-3caf-49d6-89d5-4b8fdbbf1f31">
          <title>reporting cybersecurity incidents</title>
@@ -33496,7 +33496,7 @@
       </resource>
       <resource uuid="626dab35-81ab-45fe-8c12-0faff1c23c07">
          <title>Guidelines for cybersecurity roles</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-roles"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-cybersecurity-roles"/>
       </resource>
       <resource uuid="629818d8-430c-4125-8fd2-5e3f988fce21">
          <title>MemTest86</title>
@@ -33512,7 +33512,7 @@
       </resource>
       <resource uuid="6494bba4-bdb5-4b19-8f6c-8d5506a8bb09">
          <title>Secure by Design foundations</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/secure-by-design/secure-by-design-foundations"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/secure-by-design/secure-by-design-foundations"/>
       </resource>
       <resource uuid="672e85cc-2d40-46ba-9e94-c604b9731c75">
          <title>secure programming practices</title>
@@ -33544,7 +33544,7 @@
       </resource>
       <resource uuid="76068c96-8d89-4c37-9eef-03488d5e1b1d">
          <title>Questions to ask managed service providers</title>
-         <rlink href="https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managed-service-providers/questions-ask-managed-service-providers"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/supplier-cyber-risk-management/managed-service-providers/questions-to-ask-managed-service-providers"/>
       </resource>
       <resource uuid="76087ab6-88d4-4610-9a98-6ddc5f7bd7e6">
          <title>OWASP API Security Top 10 2023</title>
@@ -33560,7 +33560,7 @@
       </resource>
       <resource uuid="7d16ae67-87a7-4861-b939-e13ec279b5a2">
          <title>Guidelines for personnel security</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-personnel-security"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-personnel-security"/>
       </resource>
       <resource uuid="7d22400c-ddef-4cbb-90f1-7502dc569e5b">
          <title>the use of PowerShell by blue teams</title>
@@ -33576,7 +33576,7 @@
       </resource>
       <resource uuid="8132c47e-a2dc-4dd9-81d6-38db96e5cec6">
          <title>Hardening Linux workstations and servers</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-linux-workstations-servers"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/system-hardening/hardening-linux-workstations-and-servers"/>
       </resource>
       <resource uuid="82ae76a4-ed9e-4a7b-8bad-f1950c41eab7">
          <title>attack surface reduction rules overview</title>
@@ -33584,11 +33584,11 @@
       </resource>
       <resource uuid="83e3a9b1-5057-4531-91dd-03c8d92634b0">
          <title>Implementing multi-factor authentication</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/implementing-multi-factor-authentication"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/system-hardening/implementing-multi-factor-authentication"/>
       </resource>
       <resource uuid="84d3cbab-ab84-4981-a4f7-2bd469c8deaf">
          <title>the purpose of IRAP</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/irap"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/assessment-and-evaluation-programs/irap"/>
       </resource>
       <resource uuid="85c9b592-8734-4860-8243-ac0821f78854">
          <title>Australian cabling standards</title>
@@ -33596,11 +33596,11 @@
       </resource>
       <resource uuid="85ee803a-b711-443b-98bf-b279de8fbed0">
          <title>Identifying cyber supply chain risks</title>
-         <rlink href="https://www.cyber.gov.au/business-government/supplier-cyber-risk-management/managing-cyber-supply-chains/identifying-cyber-supply-chain-risks"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/supplier-cyber-risk-management/managing-cyber-supply-chains/identifying-cyber-supply-chain-risks"/>
       </resource>
       <resource uuid="86814651-26b5-43f5-807d-0040c2d71169">
          <title>Planning for critical vulnerabilities: What the board of directors needs to know</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/vulnerability-planning/planning-critical-vulnerabilities-what-boards-need-know"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/vulnerability-planning/planning-for-critical-vulnerabilities-what-boards-need-to-know"/>
       </resource>
       <resource uuid="887c65c3-c853-41c6-89d5-3f297108889e">
          <title>Application Container Security Guide</title>
@@ -33616,11 +33616,11 @@
       </resource>
       <resource uuid="8a67ffd7-61a4-4773-a1e7-e6b146f51d62">
          <title>Foundations for modern defensible architecture</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/secure-by-design/modern-defensible-architecture/foundations-modern-defensible-architecture"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/secure-by-design/modern-defensible-architecture/foundations-for-modern-defensible-architecture"/>
       </resource>
       <resource uuid="8a965432-7e2e-4020-86e4-b38837f9be60">
          <title>Using the Information security manual</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/using-information-security-manual"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/using-the-information-security-manual"/>
       </resource>
       <resource uuid="8d53ee7f-54c2-4380-8408-f7403db30ba1">
          <title>Credential Guard functionality</title>
@@ -33636,7 +33636,7 @@
       </resource>
       <resource uuid="8ffea524-0974-4b53-a8f5-41166073ede5">
          <title>Securing PowerShell in the enterprise</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/securing-powershell-enterprise"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/system-administration/securing-powershell-in-the-enterprise"/>
       </resource>
       <resource uuid="91b92563-d991-40fa-9adc-548df9f6c496">
          <title>secure group Managed Service Accounts</title>
@@ -33644,7 +33644,7 @@
       </resource>
       <resource uuid="9209d9cd-86c1-486f-890e-1edfa4545093">
          <title>Hardening Microsoft Windows 10 workstations</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-windows-10-workstations"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/system-hardening/hardening-microsoft-windows-10-workstations"/>
       </resource>
       <resource uuid="92679127-f61d-486a-a93e-df2a26dfb07a">
          <title>Protective Security Policy Framework</title>
@@ -33664,7 +33664,7 @@
       </resource>
       <resource uuid="98951624-a06e-4d9a-96a3-f89ac944bcaa">
          <title>Protecting against business email compromise</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/protecting-against-business-email-compromise"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/email-hardening/protecting-against-business-email-compromise"/>
       </resource>
       <resource uuid="9898653e-fc87-4b42-a1fa-f7e323902841">
          <title>Secure by Design Activities</title>
@@ -33676,7 +33676,7 @@
       </resource>
       <resource uuid="9a8f5a63-bcd5-45a8-9f9c-974fc796ac95">
          <title>Guidelines for enterprise mobility</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-enterprise-mobility"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-enterprise-mobility"/>
       </resource>
       <resource uuid="9ad09461-7b3d-4faf-bdcd-61df9952cf49">
          <title>Security Configuration Guide for Acrobat</title>
@@ -33696,7 +33696,7 @@
       </resource>
       <resource uuid="a699a3aa-828d-479b-b50b-98127bb19437">
          <title>Guidelines for evaluated products</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-evaluated-products"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-evaluated-products"/>
       </resource>
       <resource uuid="a75de67b-9502-47e9-b48b-5e2a45d528e1">
          <title>Recommendation for Key-Derivation Methods in Key-Establishment Schemes</title>
@@ -33724,11 +33724,11 @@
       </resource>
       <resource uuid="ab73fa95-f213-4041-915e-a8ccbdf74331">
          <title>Guidelines for email</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-email"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-email"/>
       </resource>
       <resource uuid="adc62d2d-87b9-43a0-ae76-6e6828ff3bbb">
          <title>Choosing secure and verifiable technologies</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/secure-by-design/choosing-secure-verifiable-technologies"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/secure-by-design/choosing-secure-and-verifiable-technologies"/>
       </resource>
       <resource uuid="ae426d0a-adb6-43b8-a463-faa33e83b679">
          <title>Active Directory accounts</title>
@@ -33752,7 +33752,7 @@
       </resource>
       <resource uuid="b13cb68a-a94a-4a69-b094-b1b68d10239e">
          <title>Domain Name System security for domain resolvers</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/domain-name-system-security-domain-resolvers"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/network-hardening/domain-name-system-security-for-domain-resolvers"/>
       </resource>
       <resource uuid="b151e338-c42f-41ef-9f99-2cb98f368637">
          <title>Best practices for securing Active Directory</title>
@@ -33772,15 +33772,15 @@
       </resource>
       <resource uuid="b594c9c0-b42f-4f06-b643-38023275a5c7">
          <title>Guidelines for media</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-media"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-media"/>
       </resource>
       <resource uuid="b6479d9a-43c9-41f2-9dbc-2bb689c8e6d8">
          <title>Cloud assessment and authorisation</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-assessment-authorisation"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/cloud-computing/cloud-assessment-and-authorisation"/>
       </resource>
       <resource uuid="b66f8d23-4209-4775-a1fd-bd4dc299a027">
          <title>Domain Name System security for domain owners</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/domain-name-system-security-domain-owners"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/network-hardening/domain-name-system-security-for-domain-owners"/>
       </resource>
       <resource uuid="b794a062-2339-48ed-89ac-14aa4c3a61db">
          <title>Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Secure by Design Software</title>
@@ -33788,19 +33788,19 @@
       </resource>
       <resource uuid="b79c4fe8-4541-401f-a32e-87fd83021c98">
          <title>Mitigation strategies for edge devices: Executive guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/securing-edge-devices/mitigation-strategies-edge-devices-executive-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/network-hardening/securing-edge-devices/mitigation-strategies-for-edge-devices-executive-guidance"/>
       </resource>
       <resource uuid="b8cdbf18-31cb-4e10-bb43-e8488ee8c2f6">
          <title>Implementing certificates, TLS, HTTPS and opportunistic TLS</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/web-hardening/implementing-certificates-tls-https-opportunistic-tls"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/web-hardening/implementing-certificates-tls-https-and-opportunistic-tls"/>
       </resource>
       <resource uuid="b959caf4-8b60-4b82-9552-963754841bb7">
          <title>Cloud computing security for tenants</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-computing-security-tenants"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/cloud-computing/cloud-computing-security-for-tenants"/>
       </resource>
       <resource uuid="b95c4745-572a-4121-b4e1-d0baa90a84fc">
          <title>Best practices for event logging and threat detection</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/best-practices-event-logging-threat-detection"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/event-logging/best-practices-for-event-logging-and-threat-detection"/>
       </resource>
       <resource uuid="bac2c6f2-9356-46d2-b7c4-9af7393008df">
          <title>Australian Privacy Principles</title>
@@ -33828,7 +33828,7 @@
       </resource>
       <resource uuid="c54cc4db-22f4-4d10-8977-2ce62b647bd2">
          <title>Preparing for and responding to denial-of-service attacks</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/cyber-security-incident-response/preparing-responding-denial-of-service-attacks"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/cyber-security-incident-response/preparing-for-and-responding-to-denial-of-service-attacks"/>
       </resource>
       <resource uuid="c5ca2027-161e-4322-9367-7ec736b4846f">
          <title>Deploying AI Systems Securely: Best Practices for Deploying Secure and Resilient AI Systems</title>
@@ -33836,7 +33836,7 @@
       </resource>
       <resource uuid="c6ca6620-ccd5-4c5d-b97c-9d92f1162948">
          <title>Guidelines for system management</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-management"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-system-management"/>
       </resource>
       <resource uuid="c74c6e7a-2209-4337-bb3a-715ce6e792a4">
          <title>Secure development and deployment guidance</title>
@@ -33844,7 +33844,7 @@
       </resource>
       <resource uuid="c78caaed-9931-4197-b21e-bc4e9979a51a">
          <title>Security tips for social media and messaging apps</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-business-leaders/security-tips-social-media-messaging-apps"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-business-leaders/security-tips-for-social-media-and-messaging-apps"/>
       </resource>
       <resource uuid="c852e735-4920-4616-8e34-2fddfb49eea8">
          <title>AV-Comparatives</title>
@@ -33852,7 +33852,7 @@
       </resource>
       <resource uuid="c8ee37e4-fb81-4fa7-8f14-132c850974bc">
          <title>Cloud computing security for executives</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-computing-security-executives"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/cloud-computing/cloud-computing-security-for-executives"/>
       </resource>
       <resource uuid="cad720b4-e47a-437d-b272-6958e738131d">
          <title>Common Sense Guide to Mitigating Insider Threats, Seventh Edition</title>
@@ -33880,7 +33880,7 @@
       </resource>
       <resource uuid="d2910e61-da88-4d29-b860-83c25161fd18">
          <title>Security configuration guide: Apple iOS 14 devices</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/mobility-hardening/security-configuration-guide-apple-ios-14-devices"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/mobility-hardening/security-configuration-guide-apple-ios-14-devices"/>
       </resource>
       <resource uuid="d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4">
          <title>OWASP Application Security Verification Standard 5.0.0</title>
@@ -33888,11 +33888,11 @@
       </resource>
       <resource uuid="d3572f80-d9d6-4023-b6e6-23720bb0d618">
          <title>How to combat fake emails</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/how-combat-fake-emails"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/email-hardening/how-to-combat-fake-emails"/>
       </resource>
       <resource uuid="d36ce452-ec21-4b05-89c1-f29a444a3dca">
          <title>End of support for Microsoft Windows and Microsoft Windows Server</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/end-support-microsoft-windows-microsoft-windows-server"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/legacy-it-management/end-of-support-for-microsoft-windows-and-microsoft-windows-server"/>
       </resource>
       <resource uuid="d446dea3-c36d-45af-9623-05b686624af0">
          <title>memory integrity functionality</title>
@@ -33900,39 +33900,39 @@
       </resource>
       <resource uuid="daae37ef-262f-4b20-bfb7-a27901f3c2db">
          <title>Security configuration guide: Viasat Mobile Dynamic Defense</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/mobility-hardening/security-configuration-guide-viasat-mobile-dynamic-defense"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/mobility-hardening/security-configuration-guide-viasat-mobile-dynamic-defense"/>
       </resource>
       <resource uuid="db2e237c-2dbc-4a1f-bae7-9cb63a1f1dc3">
          <title>Guidelines for information technology equipment</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-information-technology-equipment"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-information-technology-equipment"/>
       </resource>
       <resource uuid="dc0469b3-3901-4d2c-8b22-7c6b6627ab97">
          <title>Ten things to know about data security</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-business-leaders/cyber-security-business-leaders/ten-things-know-about-data-security"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-business-leaders/cyber-security-for-business-leaders/ten-things-to-know-about-data-security"/>
       </resource>
       <resource uuid="dda788b6-183b-4e89-8254-8c4b5d0540a0">
          <title>Cloud assessment and authorisation FAQ</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-assessment-authorisation-faq"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/cloud-computing/cloud-assessment-and-authorisation-faq"/>
       </resource>
       <resource uuid="de239dae-d1e8-4969-9680-ef3444d32a83">
          <title>Windows event logging and forwarding</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-threats/event-logging/windows-event-logging-forwarding"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/detecting-and-responding-to-threats/event-logging/windows-event-logging-and-forwarding"/>
       </resource>
       <resource uuid="de7525f3-a466-40a5-abdd-3ae24a6d1b44">
          <title>Guidelines for system hardening</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-hardening"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-system-hardening"/>
       </resource>
       <resource uuid="ded13757-3c76-40cb-b46e-f84e46a1c1c7">
          <title>Defending against the malicious use of the Tor network</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/defending-against-malicious-use-tor-network"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/network-hardening/defending-against-the-malicious-use-of-the-tor-network"/>
       </resource>
       <resource uuid="df17ad0f-58d3-4bb8-814a-b60f34c5f841">
          <title>Emanation Security Program</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/emanation-security-program"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/assessment-and-evaluation-programs/emanation-security-program"/>
       </resource>
       <resource uuid="dfb52998-0e7e-420d-97e1-d1313c8f919a">
          <title>Restricting Microsoft Office macros</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/restricting-microsoft-office-macros"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/system-hardening/restricting-microsoft-office-macros"/>
       </resource>
       <resource uuid="e0d3b5ea-6a5a-400c-8daa-8a8059816a06">
          <title>Archives Act 1983</title>
@@ -33940,7 +33940,7 @@
       </resource>
       <resource uuid="e19a0c40-0a68-4fba-aea1-142fdd57dc75">
          <title>Web conferencing security</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/remote-working-secure-mobility/remote-working/web-conferencing-security"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/remote-working-and-secure-mobility/remote-working/web-conferencing-security"/>
       </resource>
       <resource uuid="e2205e57-2bf0-4696-8bd8-94a5a5d5c4f2">
          <title>Adopting Encrypted DNS in Enterprise Environments</title>
@@ -33952,19 +33952,19 @@
       </resource>
       <resource uuid="e4eee462-f6e5-4921-a8fe-26f3de6c6f45">
          <title>Marketing and filtering email service providers</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/marketing-filtering-email-service-providers"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/email-hardening/marketing-and-filtering-email-service-providers"/>
       </resource>
       <resource uuid="e4ef23da-2683-4356-93c4-a2412c9d52ee">
          <title>High Assurance Evaluation Program</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/high-assurance-evaluation-program"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/assessment-and-evaluation-programs/high-assurance-evaluation-program"/>
       </resource>
       <resource uuid="e513ac6b-09fa-4d53-951a-a5142208cf12">
          <title>An introduction to artificial intelligence</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/introduction-artificial-intelligence"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/artificial-intelligence/an-introduction-to-artificial-intelligence"/>
       </resource>
       <resource uuid="e7ce6e23-4bbb-45c1-a657-7e563c0837ed">
          <title>Information security manual</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism"/>
       </resource>
       <resource uuid="e8a28fa5-4ea1-4ef5-a870-4d59e40fab37">
          <title>Commercial National Security Algorithm Suite 2.0</title>
@@ -33972,15 +33972,15 @@
       </resource>
       <resource uuid="e8bde527-526c-4a6a-b66f-05228f09dd7b">
          <title>Guidelines for gateways</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-gateways"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-gateways"/>
       </resource>
       <resource uuid="e8ec7a1f-775d-4b79-a164-0752278177fa">
          <title>Risk management of enterprise mobility (including Bring Your Own Device)</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/remote-working-secure-mobility/secure-mobility/risk-management-enterprise-mobility-including-bring-your-own-device"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/remote-working-and-secure-mobility/secure-mobility/risk-management-of-enterprise-mobility-including-bring-your-own-device"/>
       </resource>
       <resource uuid="ea6f8148-55ea-4540-8b39-f35cc3411eb2">
          <title>A Shared Vision of Software Bill of Materials (SBOM) for Cybersecurity</title>
-         <rlink href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/outsourcing-and-procurement/cyber-supply-chains/a-shared-vision-of-software-bill-of-materials-for-cybersecurity"/>
+         <rlink href="https://www.cisa.gov/resources-tools/resources/shared-vision-software-bill-materials-sbom-cybersecurity"/>
       </resource>
       <resource uuid="ed6aa6ab-545d-48eb-92bc-9ad763d4b868">
          <title>Protection Profile for Mobile Device Management Version 4.0</title>
@@ -33988,7 +33988,7 @@
       </resource>
       <resource uuid="edc24216-f52b-4513-bcda-5fa564661999">
          <title>Guidelines for system monitoring</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-system-monitoring"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-system-monitoring"/>
       </resource>
       <resource uuid="edd67903-94ef-4edd-9789-73e0141cd77c">
          <title>General requirements for the competence of testing and calibration laboratories</title>
@@ -33996,11 +33996,11 @@
       </resource>
       <resource uuid="efddc783-51dc-48ac-a53e-a5dd56c17fd0">
          <title>Detecting socially engineered messages</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/email-hardening/detecting-socially-engineered-messages"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-devices-and-systems/hardening-systems-and-applications/email-hardening/detecting-socially-engineered-messages"/>
       </resource>
       <resource uuid="f145ff5b-d396-4248-8f48-621349d6f0ed">
          <title>Guidelines for networking</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-networking"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-networking"/>
       </resource>
       <resource uuid="f160b04e-1a32-4dd5-816e-1cba8c97982c">
          <title>Protection Profile for Mobile Device Fundamentals Version 3.3</title>
@@ -34008,11 +34008,11 @@
       </resource>
       <resource uuid="f37a4848-0791-4870-b316-5536c2681c28">
          <title>Guidelines for procurement and outsourcing</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-procurement-outsourcing"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-procurement-and-outsourcing"/>
       </resource>
       <resource uuid="f41c5403-9070-41ab-968e-cf69ac8bf34a">
          <title>Choosing secure and verifiable technologies: Executive guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/secure-design/secure-by-design/choosing-secure-verifiable-technologies-executive-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/secure-design/secure-by-design/choosing-secure-and-verifiable-technologies-executive-guidance"/>
       </resource>
       <resource uuid="f48c0d05-5173-4c8e-8748-e5591518c1fb">
          <title>Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile</title>
@@ -34044,11 +34044,11 @@
       </resource>
       <resource uuid="fd4e2255-74ca-4b20-811c-a64a93282f57">
          <title>Mergers, acquisitions and Machinery of Government changes</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-business-leaders/cyber-security-business-leaders/mergers-acquisitions-machinery-government-changes"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/protecting-business-leaders/cyber-security-for-business-leaders/mergers-acquisitions-and-machinery-of-government-changes"/>
       </resource>
       <resource uuid="fe0138db-e83b-4a23-85d3-d84e1c22816f">
          <title>Guidelines for cybersecurity incidents</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-cybersecurity-incidents"/>
+         <rlink href="https://www.cyber.gov.au/business-and-government/cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-cybersecurity-incidents"/>
       </resource>
       <resource uuid="ffc8a1f6-f4e3-4ff5-a7f9-f41f766274eb">
          <title>Recommendation for Key Management: Part 1 – General</title>
