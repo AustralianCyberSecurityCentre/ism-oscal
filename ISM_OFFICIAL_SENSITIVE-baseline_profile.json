@@ -3,9 +3,9 @@
     "uuid" : "f11a1d4c-6b92-4c2a-877f-21a76c0ea68b",
     "metadata" : {
       "title" : "Information security manual OFFICIAL: Sensitive Baseline",
-      "published" : "2025-09-15T11:39:13.721045489Z",
-      "last-modified" : "2025-09-15T11:39:13.721045489Z",
-      "version" : "2025.09.15",
+      "published" : "2025-10-08T06:18:58.851868228Z",
+      "last-modified" : "2025-10-08T06:18:58.851868228Z",
+      "version" : "2025.10.8",
       "oscal-version" : "1.1.2",
       "links" : [ {
         "href" : "#d906e45a-d402-4dc4-957d-7c815f22d2b8",
@@ -62,26 +62,26 @@
         "uuid" : "abea4b79-3bd3-4f68-a333-85cbebb5100d",
         "title" : "Information security manual",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/artifacts/ISM_catalog.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/artifacts/ISM_catalog.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/artifacts/ISM_catalog.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/artifacts/ISM_catalog.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/artifacts/ISM_catalog.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/artifacts/ISM_catalog.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
         "uuid" : "d906e45a-d402-4dc4-957d-7c815f22d2b8",
         "title" : "Information security manual OFFICIAL: Sensitive Baseline",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
@@ -101,26 +101,26 @@
         "uuid" : "eaa8cc4e-4af4-461b-8d1c-2a88844ac66c",
         "title" : "Information security manual OFFICIAL: Sensitive Baseline - predecessor version",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
         "uuid" : "3e1cdff8-dd29-437e-bad1-8e0f88edea58",
         "title" : "Information security manual OFFICIAL: Sensitive Baseline - successor version",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.09.15/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       } ]
