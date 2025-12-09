@@ -1,17 +1,17 @@
 {
   "catalog" : {
-    "uuid" : "f40a72c1-c8d8-4034-88a2-de300f065be1",
+    "uuid" : "85a8e29b-3701-4a30-8692-959678b71d8c",
     "metadata" : {
       "title" : "Information security manual Essential Eight Maturity Level Two Baseline",
-      "last-modified" : "2025-10-08T08:16:32.223630064Z",
-      "version" : "2025.10.8",
+      "last-modified" : "2025-12-09T05:06:45.799243089Z",
+      "version" : "2025.12.9",
       "oscal-version" : "1.1.2",
       "props" : [ {
         "name" : "resolution-tool",
         "value" : "libOSCAL-Java+xslt"
       } ],
       "links" : [ {
-        "href" : "https://www.cyber.gov.au/ism/oscal/v2025.10.8/artifacts/ISM_E8_ML2-baseline_profile.xml",
+        "href" : "https://www.cyber.gov.au/ism/oscal/v2025.12.9/artifacts/ISM_E8_ML2-baseline_profile.xml",
         "rel" : "source-profile"
       } ],
       "roles" : [ {
@@ -43,30 +43,30 @@
       } ]
     },
     "groups" : [ {
-      "title" : "Guidelines for cybersecurity incidents",
+      "title" : "Guidelines for cyber security incidents",
       "props" : [ {
         "name" : "sort-id",
         "value" : "catalog[1].group[04]"
       } ],
       "groups" : [ {
-        "title" : "Managing cybersecurity incidents",
+        "title" : "Managing cyber security incidents",
         "props" : [ {
           "name" : "sort-id",
           "value" : "catalog[1].group[04].group[1]"
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Cybersecurity events\n\nA cybersecurity event is an occurrence of a system, service or network state indicating a possible breach of security policy, failure of safeguards or a previously unknown situation that may be relevant to security.\n\n# Cybersecurity incidents\n\nA cybersecurity incident is an unwanted or unexpected cybersecurity event, or a series of such events, that either has compromised business operations or has a significant probability of compromising business operations.\n\n# Cyber resilience\n\nCyber resilience is the ability to adapt to disruptions caused by cybersecurity incidents while maintaining continuous business operations. This includes the ability to detect, manage and recover from cybersecurity incidents.\n\n# Detecting cybersecurity incidents\n\nOne of the core elements of detecting and investigating cybersecurity incidents is the availability of appropriate data sources, such as event logs. The following event logs can be used by an organisation to assist with detecting and investigating cybersecurity incidents:\n\n- **Artificial intelligence applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Cross Domain Solutions:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n- **Databases:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Domain Name System services:** May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.\n- **Email servers:** May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.\n- **Gateways:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n- **Mobile applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Multifunction devices:** May assist in identifying anomalous or malicious user behaviour indicating a cybersecurity incident.\n- **Operating systems:** May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.\n- **Remote access services:** May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.\n- **Security products:** May assist in identifying anomalous or malicious code or network traffic indicating an exploitation attempt or successful compromise.\n- **Server applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **System access:** May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.\n- **User applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Web applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Web proxies:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n\n# Further information\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on cybersecurity incident response plans can be found in the system-specific cybersecurity documentation section of the [Guidelines for cybersecurity documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on preparing for and responding to cybersecurity incidents can be found in ASD’s [Cybersecurity incident response planning: Executive guidance](#403f72c6-3e85-4185-8df3-130b2a6b25b3) and [Cybersecurity incident response planning: Practitioner guidance](#041bce05-55ad-4a2a-93e3-c582d39fce94) publications.\n\nFurther information on understanding, identifying and preventing the insider threat can be found in the Attorney-General’s Department’s [Countering the Insider Threat: A guide for Australian Government](#fb60e251-ed4c-4781-96db-58a0225bca89) publication.\n\nFurther information on understanding, identifying and preventing the insider threat can also be found in the Australian Security Intelligence Organisation’s [Countering the insider threat](#fb60e251-ed4c-4781-96db-58a0225bca89) brochure and [Countering the insider threat: A security manager’s guide](#f6813648-fe24-4d45-9e45-c97b4021506e) publication.\n\nFurther information on understanding, identifying and preventing the insider threat can also be found on the United Kingdom’s National Protective Security Authority’s [Insider Risk Guidance](#c2a2f934-c5d6-46a7-86db-7fec1565058e) website.\n\nFurther information on developing, implementing and maintaining an insider threat mitigation program can be found in the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Insider Threat Mitigation Guide](#c322926a-13b3-4efe-8573-06624418e8f5).\n\nFurther information on developing, implementing and maintaining an insider threat mitigation program can also be found in Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats, Seventh Edition](#cad720b4-e47a-437d-b272-6958e738131d) publication.\n\nFurther information on reporting of cybersecurity incidents by service providers can be found in the managed services and cloud services section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on [reporting cybercrime incidents](#188466f6-be12-49ce-b99a-981e54b1663e) and [reporting cybersecurity incidents](#626d3582-3caf-49d6-89d5-4b8fdbbf1f31), including ASD’s [limited use obligation](#cae0ac6b-e69b-4359-bfd7-5ee5eff1049d), is available from ASD."
+          "prose" : "# Cyber security events\n\nA cyber security event is an occurrence of a system, service or network state indicating a possible breach of security policy, failure of safeguards or a previously unknown situation that may be relevant to security.\n\n# Cyber security incidents\n\nA cyber security incident is an unwanted or unexpected cyber security event, or a series of such events, that either has compromised business operations or has a significant probability of compromising business operations.\n\n# Cyber resilience\n\nCyber resilience is the ability to adapt to disruptions caused by cyber security incidents while maintaining continuous business operations. This includes the ability to detect, manage and recover from cyber security incidents.\n\n# Detecting cyber security incidents\n\nOne of the core elements of detecting and investigating cyber security incidents is the availability of appropriate data sources, such as event logs. The following event logs can be used by an organisation to assist with detecting and investigating cyber security incidents:\n\n- **Artificial intelligence applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Cross Domain Solutions:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n- **Databases:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Domain Name System services:** May assist in identifying attempts to resolve malicious domain names or Internet Protocol addresses indicating an exploitation attempt or successful compromise.\n- **Email servers:** May assist in identifying users targeted with phishing emails thereby helping to identify the initial vector of a compromise.\n- **Gateways:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n- **Mobile applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Multifunction devices:** May assist in identifying anomalous or malicious user behaviour indicating a cyber security incident.\n- **Operating systems:** May assist in identifying anomalous or malicious activity indicating an exploitation attempt or successful compromise.\n- **Remote access services:** May assist in identifying unusual locations of access or times of access indicating an exploitation attempt or successful compromise.\n- **Security products:** May assist in identifying anomalous or malicious code or network traffic indicating an exploitation attempt or successful compromise.\n- **Server applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **System access:** May assist in identifying anomalous or malicious user behaviour indicating an exploitation attempt or successful compromise.\n- **User applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Web applications:** May assist in identifying anomalous or malicious code or user behaviour indicating an exploitation attempt or successful compromise.\n- **Web proxies:** May assist in identifying anomalous or malicious network traffic indicating an exploitation attempt or successful compromise.\n\n# Further information\n\nFurther information on event logging can be found in the ‘Event logging and monitoring’ section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on cyber security incident response plans can be found in the ‘System-specific cyber security documentation’ section of the [Guidelines for cyber security documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on preparing for and responding to cyber security incidents can be found in ASD’s [Cyber security incident response planning: Executive guidance](#403f72c6-3e85-4185-8df3-130b2a6b25b3) and [Cyber security incident response planning: Practitioner guidance](#041bce05-55ad-4a2a-93e3-c582d39fce94) publications.\n\nFurther information on understanding, identifying and preventing the insider threat can be found in the Attorney-General’s Department’s [Countering the Insider Threat: A guide for Australian Government](#fb60e251-ed4c-4781-96db-58a0225bca89) publication.\n\nFurther information on understanding, identifying and preventing the insider threat can also be found in the Australian Security Intelligence Organisation’s [Countering the insider threat](#fb60e251-ed4c-4781-96db-58a0225bca89) brochure and [Countering the insider threat: A security manager’s guide](#f6813648-fe24-4d45-9e45-c97b4021506e) publication.\n\nFurther information on understanding, identifying and preventing the insider threat can also be found on the United Kingdom’s National Protective Security Authority’s [Insider Risk Guidance](#c2a2f934-c5d6-46a7-86db-7fec1565058e) website.\n\nFurther information on developing, implementing and maintaining an insider threat mitigation program can be found in the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Insider Threat Mitigation Guide](#c322926a-13b3-4efe-8573-06624418e8f5).\n\nFurther information on developing, implementing and maintaining an insider threat mitigation program can also be found in Carnegie Mellon University’s Software Engineering Institute’s [Common Sense Guide to Mitigating Insider Threats, Seventh Edition](#cad720b4-e47a-437d-b272-6958e738131d) publication.\n\nFurther information on reporting of cyber security incidents by service providers can be found in the ‘Managed services and cloud services’ section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on [reporting cybercrime incidents](#188466f6-be12-49ce-b99a-981e54b1663e) and [reporting cyber security incidents](#626d3582-3caf-49d6-89d5-4b8fdbbf1f31), including ASD’s [limited use obligation](#cae0ac6b-e69b-4359-bfd7-5ee5eff1049d), is available from ASD."
         } ],
         "groups" : [ {
-          "title" : "Reporting cybersecurity incidents",
+          "title" : "Reporting cyber security incidents",
           "props" : [ {
             "name" : "sort-id",
             "value" : "catalog[1].group[04].group[1].group[5]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Reporting cybersecurity incidents to the chief information security officer, or one of their delegates, as soon as possible after they occur or are discovered provides senior management with the opportunity to assess the impact to their organisation and to oversee any cybersecurity incident response activities. Note, an organisation should also be cognisant of any legislative obligations regarding the reporting of cybersecurity incidents to authorities."
+            "prose" : "Reporting cyber security incidents to the chief information security officer, or one of their delegates, as soon as possible after they occur or are discovered provides senior management with the opportunity to assess the impact to their organisation and to oversee any cyber security incident response activities. Note, an organisation should also be cognisant of any legislative obligations regarding the reporting of cyber security incidents to authorities."
           } ],
           "controls" : [ {
             "id" : "ism-0123",
@@ -78,11 +78,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "5"
+              "value" : "4"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "Mar-25"
+              "value" : "Jun-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -115,18 +115,18 @@
             "parts" : [ {
               "id" : "ism-0123_smt",
               "name" : "statement",
-              "prose" : "Cybersecurity incidents are reported to the chief information security officer, or one of their delegates, as soon as possible after they occur or are discovered."
+              "prose" : "Cyber security incidents are reported to the chief information security officer, or one of their delegates, as soon as possible after they occur or are discovered."
             } ]
           } ]
         }, {
-          "title" : "Reporting cybersecurity incidents to ASD",
+          "title" : "Reporting cyber security incidents to ASD",
           "props" : [ {
             "name" : "sort-id",
             "value" : "catalog[1].group[04].group[1].group[6]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "The Australian Signals Directorate (ASD) uses the cybersecurity incident reports it receives as the basis for providing assistance to organisations. In addition, cybersecurity incident reports are used to identify trends and maintain an accurate threat environment picture. Finally, ASD utilises this understanding to assist in the development of new and updated cybersecurity advice, capabilities, and techniques to better prevent and respond to evolving cyberthreats. Note, under ASD’s limited use obligation, information voluntarily provided to ASD about cybersecurity incidents, or potential cybersecurity incidents, cannot be used for regulatory purposes.\n\nAn organisation is recommended to internally coordinate their reporting of cybersecurity incidents to ASD. In doing so, the organisation should be cognisant of any legislative obligations regarding the reporting of cybersecurity incidents to ASD.\n\nThe types of cybersecurity incidents that should be reported to ASD include:\n\n- suspicious privileged user account lockouts\n- suspicious remote access authentication events\n- service accounts suspiciously communicating with internet-based infrastructure\n- compromise of sensitive or classified data\n- unauthorised access or attempts to access a system\n- emails with suspicious attachments or links\n- denial-of-service attacks\n- ransomware attacks\n- suspected tampering of electronic devices."
+            "prose" : "The Australian Signals Directorate (ASD) uses the cyber security incident reports it receives as the basis for providing assistance to organisations. In addition, cyber security incident reports are used to identify trends and maintain an accurate threat environment picture. Finally, ASD utilises this understanding to assist in the development of new and updated cyber security advice, capabilities, and techniques to better prevent and respond to evolving cyber threats. Note, under ASD’s limited use obligation, information voluntarily provided to ASD about cyber security incidents, or potential cyber security incidents, cannot be used for regulatory purposes.\n\nAn organisation is recommended to internally coordinate their reporting of cyber security incidents to ASD. In doing so, the organisation should be cognisant of any legislative obligations regarding the reporting of cyber security incidents to ASD.\n\nThe types of cyber security incidents that should be reported to ASD include:\n\n- suspicious privileged user account lockouts\n- suspicious remote access authentication events\n- service accounts suspiciously communicating with internet-based infrastructure\n- compromise of sensitive or classified data\n- unauthorised access or attempts to access a system\n- emails with suspicious attachments or links\n- denial-of-service attacks\n- ransomware attacks\n- suspected tampering of electronic devices."
           } ],
           "controls" : [ {
             "id" : "ism-0140",
@@ -138,11 +138,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "9"
+              "value" : "8"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "Mar-25"
+              "value" : "Sep-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -175,29 +175,29 @@
             "parts" : [ {
               "id" : "ism-0140_smt",
               "name" : "statement",
-              "prose" : "Cybersecurity incidents are reported to ASD as soon as possible after they occur or are discovered."
+              "prose" : "Cyber security incidents are reported to ASD as soon as possible after they occur or are discovered."
             } ]
           } ]
         } ]
       }, {
-        "title" : "Responding to cybersecurity incidents",
+        "title" : "Responding to cyber security incidents",
         "props" : [ {
           "name" : "sort-id",
           "value" : "catalog[1].group[04].group[2]"
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on cybersecurity incident response plans can be found in the system-specific cybersecurity documentation section of the [Guidelines for cybersecurity documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on handling malicious code infections can be found in National Institute of Standards and Technology Special Publication 800-61 Rev. 3, [Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile](#f48c0d05-5173-4c8e-8748-e5591518c1fb)."
+          "prose" : "# Further information\n\nFurther information on cyber security incident response plans can be found in the ‘System-specific cyber security documentation’ section of the [Guidelines for cyber security documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on handling malicious code infections can be found in National Institute of Standards and Technology Special Publication 800-61 Rev. 3, [Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile](#f48c0d05-5173-4c8e-8748-e5591518c1fb)."
         } ],
         "groups" : [ {
-          "title" : "Enacting cybersecurity incident response plans",
+          "title" : "Enacting cyber security incident response plans",
           "props" : [ {
             "name" : "sort-id",
             "value" : "catalog[1].group[04].group[2].group[1]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Following a cybersecurity incident being identified, an organisation’s cybersecurity incident response plan should be enacted."
+            "prose" : "Following a cyber security incident being identified, an organisation’s cyber security incident response plan should be enacted."
           } ],
           "controls" : [ {
             "id" : "ism-1819",
@@ -209,11 +209,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "3"
+              "value" : "2"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "Mar-25"
+              "value" : "Dec-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -246,7 +246,7 @@
             "parts" : [ {
               "id" : "ism-1819_smt",
               "name" : "statement",
-              "prose" : "Following the identification of a cybersecurity incident, the cybersecurity incident response plan is enacted."
+              "prose" : "Following the identification of a cyber security incident, the cyber security incident response plan is enacted."
             } ]
           } ]
         } ]
@@ -265,17 +265,17 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Security clearances\n\nWhere these guidelines refer to security clearances, it applies to Australian security clearances or security clearances from a foreign government which are formally recognised by Australia.\n\n# Further information\n\nFurther information on access to government resources, including required security clearances, can be found in the Department of Home Affairs’ [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a).\n\nFurther information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.\n\nFurther information on restricting the use of privileged user accounts can be found in ASD’s [Restricting administrative privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.\n\nFurther information on administering systems and their resources can be found in the system administration section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
+          "prose" : "# Security clearances\n\nWhere these guidelines refer to security clearances, it applies to Australian security clearances or security clearances from a foreign government which are formally recognised by Australia.\n\n# Further information\n\nFurther information on access to government resources, including required security clearances, can be found in the Department of Home Affairs’ [Protective Security Policy Framework](#92679127-f61d-486a-a93e-df2a26dfb07a).\n\nFurther information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.\n\nFurther information on restricting the use of privileged user accounts can be found in ASD’s [Restricting administrative privileges](#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b) publication.\n\nFurther information on administering systems and their resources can be found in the ‘System administration’ section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on event logging can be found in the ‘Event logging and monitoring’ section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999)."
         } ],
         "groups" : [ {
           "title" : "Privileged access to systems",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[08].group[2].group[06]"
+            "value" : "catalog[1].group[08].group[2].group[08]"
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Privileged user accounts are considered those that can alter or circumvent system controls. This also applies to user accounts that may only have limited privileges but still have the ability to bypass some system controls.\n\nPrivileged user accounts are often targeted by malicious actors as they can potentially give full access to systems and their resources. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.\n\nFinally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems and their resources, detecting malicious behaviour and contributing to investigations following cybersecurity incidents."
+            "prose" : "Privileged user accounts are considered those that can alter or circumvent system controls. This also applies to user accounts that may only have limited privileges but still have the ability to bypass some system controls.\n\nPrivileged user accounts are often targeted by malicious actors as they can potentially give full access to systems and their resources. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.\n\nFinally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems and their resources, detecting malicious behaviour and contributing to investigations following cyber security incidents."
           } ],
           "controls" : [ {
             "id" : "ism-1507",
@@ -283,7 +283,7 @@
             "title" : "Control: ism-1507",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[06].control[1]"
+              "value" : "catalog[1].group[08].group[2].group[08].control[1]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -336,7 +336,7 @@
             "title" : "Control: ism-1175",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[06].control[3]"
+              "value" : "catalog[1].group[08].group[2].group[08].control[3]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -389,7 +389,7 @@
             "title" : "Control: ism-1883",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[06].control[4]"
+              "value" : "catalog[1].group[08].group[2].group[08].control[4]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -442,7 +442,7 @@
             "title" : "Control: ism-0445",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[06].control[6]"
+              "value" : "catalog[1].group[08].group[2].group[08].control[6]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -495,7 +495,7 @@
             "title" : "Control: ism-1509",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[06].control[8]"
+              "value" : "catalog[1].group[08].group[2].group[08].control[8]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -544,7 +544,7 @@
             "title" : "Control: ism-1650",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[06].control[9]"
+              "value" : "catalog[1].group[08].group[2].group[08].control[9]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -592,7 +592,7 @@
           "title" : "Suspension of access to systems",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[08].group[2].group[08]"
+            "value" : "catalog[1].group[08].group[2].group[10]"
           } ],
           "parts" : [ {
             "name" : "overview",
@@ -604,7 +604,7 @@
             "title" : "Control: ism-1648",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[08].control[4]"
+              "value" : "catalog[1].group[08].group[2].group[10].control[4]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -653,7 +653,7 @@
             "title" : "Control: ism-1647",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[08].group[2].group[08].control[5]"
+              "value" : "catalog[1].group[08].group[2].group[10].control[5]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -713,7 +713,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.\n\nFurther information on patching or updating operating systems can be found in the system patching section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093) and [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa) publications.\n\nFurther information on hardening Microsoft Windows operating systems can also be found in Microsoft’s [Windows 11 Security Book](#63bba9d2-127e-41d5-b735-e0cf3fe4b9aa) and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.\n\nFurther information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux workstations and servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.\n\nFurther information on [exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.\n\nFurther information on implementing application control can be found in ASD’s [Implementing application control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.\n\nFurther information on Microsoft’s [recommended application blocklist](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3) and [vulnerable driver blocklist](#4a3a265f-7772-433b-9906-7f784052f28b) are available from Microsoft.\n\nFurther information on [command line process logging](#0a1508c0-b062-4d85-8ded-a95316e17a3a) is available from Microsoft.\n\nFurther information on the use of PowerShell can be found in ASD’s [Securing PowerShell in the enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.\n\nFurther information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft.\n\nFurther information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Google.\n\nFurther information on independent testing of security products’ ability to [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from MITRE.\n\nFurther information on independent testing of antivirus applications is available from [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).\n\nFurther information on the use of removable media can be found in the media usage section of the [Guidelines for media](#b594c9c0-b42f-4f06-b643-38023275a5c7).\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:\n\n- [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093)\n- [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa)\n- [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)\n- [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83)."
+          "prose" : "# Further information\n\nFurther information on cyber supply chain risk management can be found in the ‘Cyber supply chain risk management’ section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.\n\nFurther information on patching or updating operating systems can be found in the ‘System patching’ section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093) and [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa) publications.\n\nFurther information on hardening Microsoft Windows operating systems can also be found in Microsoft’s [Windows 11 Security Book](#63bba9d2-127e-41d5-b735-e0cf3fe4b9aa) and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.\n\nFurther information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux workstations and servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.\n\nFurther information on [exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.\n\nFurther information on implementing application control can be found in ASD’s [Implementing application control](#4eeff329-cea0-4baf-a80b-8b0b76436075) publication.\n\nFurther information on Microsoft’s [recommended application blocklist](#5a2ed3ef-afcc-485e-8014-5107e9ed97e3) and [vulnerable driver blocklist](#4a3a265f-7772-433b-9906-7f784052f28b) are available from Microsoft.\n\nFurther information on [command line process logging](#0a1508c0-b062-4d85-8ded-a95316e17a3a) is available from Microsoft.\n\nFurther information on the use of PowerShell can be found in ASD’s [Securing PowerShell in the enterprise](#8ffea524-0974-4b53-a8f5-41166073ede5) publication.\n\nFurther information on [the use of PowerShell by blue teams](#7d22400c-ddef-4cbb-90f1-7502dc569e5b) is available from Microsoft.\n\nFurther information on obtaining [greater visibility through PowerShell logging](#af0810aa-3486-4ca6-a48a-fad8ce9ac193) is available from Google.\n\nFurther information on independent testing of security products’ ability to [detect or prevent various stages of network intrusions](#3a1a00f6-2f56-4d04-b99d-6f1682b95a98) is available from MITRE.\n\nFurther information on independent testing of antivirus applications is available from [AV-Comparatives](#c852e735-4920-4616-8e34-2fddfb49eea8) and [AV-TEST](#18203e18-2aca-492e-be44-770b2f47242f).\n\nFurther information on the use of removable media can be found in the ‘Media usage’ section of the [Guidelines for media](#b594c9c0-b42f-4f06-b643-38023275a5c7).\n\nFurther information on event logging can be found in the ‘Event logging and monitoring’ section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:\n\n- [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093)\n- [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa)\n- [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)\n- [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83)."
         } ],
         "groups" : [ {
           "title" : "Hardening operating system configurations",
@@ -787,7 +787,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.\n\nIn implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by malicious actors.\n\nFinally, centrally logging and analysing application control events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents."
+            "prose" : "Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.\n\nIn implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by malicious actors.\n\nFinally, centrally logging and analysing application control events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents."
           } ],
           "controls" : [ {
             "id" : "ism-0843",
@@ -1202,7 +1202,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "The Command shell was the first shell developed by Microsoft to assist with the automation of routine system administration tasks, such as running Windows Commands via batch scripts. However, the Command shell can also be used by malicious actors to run Windows Commands on compromised systems. As such, centrally logging and analysing command line process creation events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents."
+            "prose" : "The Command shell was the first shell developed by Microsoft to assist with the automation of routine system administration tasks, such as running Windows Commands via batch scripts. However, the Command shell can also be used by malicious actors to run Windows Commands on compromised systems. As such, centrally logging and analysing command line process creation events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents."
           } ],
           "controls" : [ {
             "id" : "ism-1889",
@@ -1262,7 +1262,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "PowerShell is a powerful scripting language developed by Microsoft and, due to its ubiquity and ease with which it can be used to fully control operating systems, is an important part of system administrator toolkits. However, PowerShell can also be a dangerous exploitation tool in the hands of malicious actors.\n\nIn order to prevent attacks leveraging vulnerabilities in earlier PowerShell versions, Windows PowerShell 2.0 should be disabled or removed from operating systems. Additionally, PowerShell’s language mode should be set to Constrained Language Mode to achieve a balance between security and functionality.\n\nFinally, centrally logging and analysing PowerShell events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents."
+            "prose" : "PowerShell is a powerful scripting language developed by Microsoft and, due to its ubiquity and ease with which it can be used to fully control operating systems, is an important part of system administrator toolkits. However, PowerShell can also be a dangerous exploitation tool in the hands of malicious actors.\n\nIn order to prevent attacks leveraging vulnerabilities in earlier PowerShell versions, Windows PowerShell 2.0 should be disabled or removed from operating systems. Additionally, PowerShell’s language mode should be set to Constrained Language Mode to achieve a balance between security and functionality.\n\nFinally, centrally logging and analysing PowerShell events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents."
           } ],
           "controls" : [ {
             "id" : "ism-1623",
@@ -1323,7 +1323,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# User applications\n\nThis section is applicable to user applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) applications, and security products (e.g. antivirus applications, device access control applications, HIPS and software firewalls). Information on server applications can be found in the server application hardening section of these guidelines.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the cyber supply chain risk management section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.\n\nFurther information on patching or updating user applications can be found in the system patching section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on the implementation and configuration of security products can be found in the operating system hardening section of these guidelines.\n\nFurther information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.\n\nFurther information on hardening Microsoft Office can also be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.\n\nFurther information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.\n\nFurther information on hardening Google Chrome can be found in Google’s [Chrome Browser Enterprise Security Configuration Guide (Windows)](#741ab440-5759-4571-894d-e499dea3a54c).\n\nFurther information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s [Security Configuration Guide for Acrobat](#9ad09461-7b3d-4faf-bdcd-61df9952cf49) publication.\n\nFurther information on Microsoft’s attack surface reduction rules can be found on Microsoft’s [attack surface reduction rules overview](#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7) website.\n\nFurther information on configuring Microsoft Office macro settings can be found in ASD’s [Restricting Microsoft Office macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication."
+          "prose" : "# User applications\n\nThis section is applicable to user applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) applications, and security products (e.g. antivirus applications, device access control applications, HIPS and software firewalls). Information on server applications can be found in the ‘Server application hardening’ section of these guidelines.\n\n# Further information\n\nFurther information on cyber supply chain risk management can be found in the ‘Cyber supply chain risk management’ section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28).\n\nFurther information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.\n\nFurther information on patching or updating user applications can be found in the ‘System patching’ section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).\n\nFurther information on the implementation and configuration of security products can be found in the ‘Operating system hardening’ section of these guidelines.\n\nFurther information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.\n\nFurther information on hardening Microsoft Office can also be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.\n\nFurther information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.\n\nFurther information on hardening Google Chrome can be found in Google’s [Chrome Browser Enterprise Security Configuration Guide (Windows)](#741ab440-5759-4571-894d-e499dea3a54c).\n\nFurther information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s [Security Configuration Guide for Acrobat](#9ad09461-7b3d-4faf-bdcd-61df9952cf49) publication.\n\nFurther information on Microsoft’s attack surface reduction rules can be found on Microsoft’s [attack surface reduction rules overview](#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7) website.\n\nFurther information on configuring Microsoft Office macro settings can be found in ASD’s [Restricting Microsoft Office macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication."
         } ],
         "groups" : [ {
           "title" : "Hardening user application configurations",
@@ -2266,7 +2266,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# User accounts and authentication types\n\nThe guidance within this section is equally applicable to all user accounts unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which includes break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.\n\n# Further information\n\nFurther information on implementing multi-factor authentication can be found in ASD’s [Implementing multi-factor authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.\n\nFurther information on event logging can be found in the event logging and monitoring section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) (preferably using five dice rolls and a long word list) is available from the Electronic Frontier Foundation while a [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.\n\nFurther information on how to [secure group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.\n\nFurther information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and [Active Directory Forest Recovery - Reset the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.\n\nFurther information [memory integrity functionality](#d446dea3-c36d-45af-9623-05b686624af0) is available from Microsoft.\n\nFurther information on [Local Security Authority protection functionality](#3f43c8d2-8a8c-4e2f-af80-48a607bce643) is available from Microsoft.\n\nFurther information on [Credential Guard functionality](#8d53ee7f-54c2-4380-8408-f7403db30ba1) and [Remote Credential Guard functionality](#92975dff-58e0-4813-842b-f27c0533ca56) is available from Microsoft."
+          "prose" : "# User accounts and authentication types\n\nThe guidance within this section is equally applicable to all user accounts unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which includes break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.\n\n# Further information\n\nFurther information on implementing multi-factor authentication can be found in ASD’s [Implementing multi-factor authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.\n\nFurther information on event logging can be found in the ‘Event logging and monitoring’ section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).\n\nFurther information on [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) is available from the Electronic Frontier Foundation while a [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.\n\nFurther information on how to [secure group Managed Service Accounts](#91b92563-d991-40fa-9adc-548df9f6c496) in Microsoft Windows Server is available from Microsoft.\n\nFurther information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s [Active Directory accounts](#ae426d0a-adb6-43b8-a463-faa33e83b679) and [Active Directory Forest Recovery - Reset the krbtgt password](#3e5a98e5-9219-46c8-81c2-e3a4d13407ce) publications. A script for [changing credentials for this service account](#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b) is also available from Microsoft.\n\nFurther information [memory integrity functionality](#d446dea3-c36d-45af-9623-05b686624af0) is available from Microsoft.\n\nFurther information on [Local Security Authority protection functionality](#3f43c8d2-8a8c-4e2f-af80-48a607bce643) is available from Microsoft.\n\nFurther information on [Credential Guard functionality](#8d53ee7f-54c2-4380-8408-f7403db30ba1) and [Remote Credential Guard functionality](#92975dff-58e0-4813-842b-f27c0533ca56) is available from Microsoft."
         } ],
         "groups" : [ {
           "title" : "Multi-factor authentication",
@@ -2276,7 +2276,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Multi-factor authentication uses two or more different authentication factors. This may include:\n\n- something users know, such as a memorised secret (i.e. personal identification number, password or passphrase)\n- something users have, such as a security key, smart card, passkey, smartphone or one-time password token\n- something users are, such as a fingerprint pattern or their facial geometry.\n\nUsers of online services, privileged users of systems and users with access to data repositories are more likely to be targeted by malicious actors due to their access. For this reason, it is especially important that multi-factor authentication is used for these user accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing malicious actors’ ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.\n\nWhen implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something users have should be used with something users know. Alternatively, something users have that is unlocked by something users know or are (often known as passwordless multi-factor authentication) can be used. Furthermore, for increased security, the use of phishing-resistant multi-factor authentication is recommended to protect against real-time phishing attacks.\n\nFinally, centrally logging and analysing multi-factor authentication events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cybersecurity incidents."
+            "prose" : "Multi-factor authentication uses two or more different authentication factors. This may include:\n\n- something users know, such as a password\n- something users have, such as a security key, smart card, passkey, smartphone or one-time password token\n- something users are, such as a fingerprint pattern or their facial geometry.\n\nUsers of online services, privileged users of systems and users with access to data repositories are more likely to be targeted by malicious actors due to their access. For this reason, it is especially important that multi-factor authentication is used for these user accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing malicious actors’ ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.\n\nWhen implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something users have should be used with something users know. Alternatively, something users have that is unlocked by something users know or are (often known as passwordless multi-factor authentication) can be used. Furthermore, for increased security, the use of phishing-resistant multi-factor authentication is recommended to protect against real-time phishing attacks.\n\nFinally, centrally logging and analysing multi-factor authentication events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents."
           } ],
           "controls" : [ {
             "id" : "ism-1504",
@@ -2896,7 +2896,7 @@
             "title" : "Control: ism-1683",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[4].group[03].control[22]"
+              "value" : "catalog[1].group[15].group[4].group[03].control[19]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -2944,7 +2944,7 @@
           "title" : "Setting credentials for built-in Administrator accounts, break glass accounts, local administrator accounts and service accounts",
           "props" : [ {
             "name" : "sort-id",
-            "value" : "catalog[1].group[15].group[4].group[06]"
+            "value" : "catalog[1].group[15].group[4].group[07]"
           } ],
           "parts" : [ {
             "name" : "overview",
@@ -2956,7 +2956,7 @@
             "title" : "Control: ism-1685",
             "props" : [ {
               "name" : "sort-id",
-              "value" : "catalog[1].group[15].group[4].group[06].control[2]"
+              "value" : "catalog[1].group[15].group[4].group[07].control[2]"
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -3016,7 +3016,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# System administration of cloud services\n\nSystem administration of cloud services brings unique challenges when compared to system administration of on-premises assets. Notably, responsibility for system administration of cloud services is often shared between service providers and their customers. As the system administration processes and procedures implemented by service providers are often opaque to their customers, customers should consider a service provider’s control plane to operate within a different security domain.\n\n# Further information\n\nFurther information on system administration can be found in the Australian Signals Directorate’s (ASD) [Secure administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.\n\nFurther information on change and configuration management plans can be found in the system-specific cybersecurity documentation section of the [Guidelines for cybersecurity documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on the use of privileged user accounts for system administration activities can be found in the access to systems and their resources section of the [Guidelines for personnel security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).\n\nFurther information on network segmentation and segregation can be found in the network design and configuration section of the [Guidelines for networking](#f145ff5b-d396-4248-8f48-621349d6f0ed)."
+          "prose" : "# System administration of cloud services\n\nSystem administration of cloud services brings unique challenges when compared to system administration of on-premises assets. Notably, responsibility for system administration of cloud services is often shared between service providers and their customers. As the system administration processes and procedures implemented by service providers are often opaque to their customers, customers should consider a service provider’s control plane to operate within a different security domain.\n\n# Further information\n\nFurther information on system administration can be found in the Australian Signals Directorate’s (ASD) [Secure administration](#131048c7-a2e7-4da3-9257-7a058b06c1f8) publication.\n\nFurther information on change and configuration management plans can be found in the ‘System-specific cyber security documentation’ section of the [Guidelines for cyber security documentation](#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc).\n\nFurther information on the use of privileged user accounts for system administration activities can be found in the ‘Access to systems and their resources’ section of the [Guidelines for personnel security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).\n\nFurther information on network segmentation and segregation can be found in the ‘Network design and configuration’ section of the [Guidelines for networking](#f145ff5b-d396-4248-8f48-621349d6f0ed)."
         } ],
         "groups" : [ {
           "title" : "Separate privileged operating environments",
@@ -3306,7 +3306,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on system patching can be found in ASD’s [Patching applications and operating systems](#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a) publication.\n\nFurther information on patching evaluated products can be found in the evaluated product usage section of the [Guidelines for evaluated products](#a699a3aa-828d-479b-b50b-98127bb19437).\n\nFurther information on managing risks associated with legacy IT can be found in ASD’s [Managing the risks of legacy IT: Executive guidance](#065263a6-4634-4a52-bd3f-48b83bf437d8) and [Managing the risks of legacy IT: Practitioner guidance](#089badd3-ed47-4597-8b1f-bce3e42f4ac4) publications.\n\nFurther information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in ASD’s [End of support for Microsoft Windows and Microsoft Windows Server](#d36ce452-ec21-4b05-89c1-f29a444a3dca) publication.\n\nFurther information on hardening user applications can be found in the user application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on hardening server applications can be found in the server application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44)."
+          "prose" : "# Further information\n\nFurther information on system patching can be found in ASD’s [Patching applications and operating systems](#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a) publication.\n\nFurther information on patching evaluated products can be found in the ‘Evaluated product usage’ section of the [Guidelines for evaluated products](#a699a3aa-828d-479b-b50b-98127bb19437).\n\nFurther information on managing risks associated with legacy IT can be found in ASD’s [Managing the risks of legacy IT: Executive guidance](#065263a6-4634-4a52-bd3f-48b83bf437d8) and [Managing the risks of legacy IT: Practitioner guidance](#089badd3-ed47-4597-8b1f-bce3e42f4ac4) publications.\n\nFurther information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in ASD’s [End of support for Microsoft Windows and Microsoft Windows Server](#d36ce452-ec21-4b05-89c1-f29a444a3dca) publication.\n\nFurther information on hardening user applications can be found in the ‘User application hardening’ section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on hardening server applications can be found in the ‘Server application hardening’ section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44)."
         } ],
         "groups" : [ {
           "title" : "Scanning for unmitigated vulnerabilities",
@@ -4235,7 +4235,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Further information\n\nFurther information on [digital preservation planning](#53da8dba-961e-4222-94e0-68cb9510384d) and [data retention](#348be728-4459-4447-990e-1dfb3049c71f) is available from the National Archives of Australia.\n\nFurther information on the collection and retention of personal information can be found in the Office of the Australian Information Commissioner’s [Australian Privacy Principles](#bac2c6f2-9356-46d2-b7c4-9af7393008df) and the associated [Australian Privacy Principles guidelines](#1e4a57a2-2832-441d-8ea4-12a98d2be417).\n\nFurther information on business continuity and disaster recovery planning can be found in the chief information security officer section of the [Guidelines for cybersecurity roles](#626dab35-81ab-45fe-8c12-0faff1c23c07)."
+          "prose" : "# Further information\n\nFurther information on [digital preservation planning](#53da8dba-961e-4222-94e0-68cb9510384d) and [data retention](#348be728-4459-4447-990e-1dfb3049c71f) is available from the National Archives of Australia.\n\nFurther information on the collection and retention of personal information can be found in the Office of the Australian Information Commissioner’s [Australian Privacy Principles](#bac2c6f2-9356-46d2-b7c4-9af7393008df) and the associated [Australian Privacy Principles guidelines](#1e4a57a2-2832-441d-8ea4-12a98d2be417).\n\nFurther information on business continuity and disaster recovery planning can be found in the ‘Chief information security officer’ section of the [Guidelines for cyber security roles](#626dab35-81ab-45fe-8c12-0faff1c23c07)."
         } ],
         "groups" : [ {
           "title" : "Performing and retaining backups",
@@ -4713,7 +4713,7 @@
         } ],
         "parts" : [ {
           "name" : "overview",
-          "prose" : "# Event logging and monitoring activities\n\nThese guidelines are intended for security-relevant event logs. They are not intended for non-security-relevant event logs, such as operating system and application performance-related event logs.\n\n# Further information\n\nFurther information on logging intrusion activity can be found in the managing cybersecurity incidents section of the [Guidelines for cybersecurity incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).\n\nFurther information on event logging for application-based security products can be found in the operating system hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for artificial intelligence applications can be found in the software development fundamentals section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for Cross Domain Solutions can be found in the Cross Domain Solutions section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for databases can be found in the databases section of the [Guidelines for database systems](#3f349d16-11a1-459a-a299-c9446aea7597).\n\nFurther information on event logging for gateways can be found in the gateways section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for mobile applications can be found in the software development fundamentals section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for multifunction devices can be found in the fax machines and multifunction devices section of the [Guidelines for communications systems](#3a7b903b-ed0d-450d-9123-60f6f8fd5dd2).\n\nFurther information on event logging for network-based security products can be found in the network design and configuration section of the [Guidelines for networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).\n\nFurther information on event logging for operating systems can be found in the operating system hardening and authentication hardening sections of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for server applications can be found in the server application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for system access can be found in the access to systems and their resources section of the [Guidelines for personnel security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).\n\nFurther information on event logging for user applications can be found in the user application hardening section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for web applications can be found in the software development section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for web proxies can be found in the web proxies section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging can be found in the following Australian Signals Directorate publications:\n\n- [Best practices for event logging and threat detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)\n- [Detecting and mitigating Active Directory compromises](#331263bc-3314-496b-9d35-76788eb0f403)\n- [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093)\n- [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa)\n- [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)\n- [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).\n\nFurther information on SIEM and SOAR platforms can be found in the Australian Signals Directorate’s [Implementing SIEM and SOAR platforms: Executive guidance](#4bebe303-7a91-4ffa-90d8-8df9f80a6318) and [Implementing SIEM and SOAR platforms: Practitioner guidance](#4e01708d-9c2d-4a84-a08a-cb98077235a6) publications.\n\nFurther information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities](#aeba0a2d-b48a-42f0-b047-622b9fea9a91) publication.\n\nFurther information on the National Archives of Australia’s requirements for event log retention can be found in their [AFDA Express Version 2 – Technology \\& Information Management](#cc1a55cb-34ab-4418-b660-53571b3af899) publication."
+          "prose" : "# Event logging and monitoring activities\n\nThese guidelines are intended for security-relevant event logs. They are not intended for non-security-relevant event logs, such as operating system and application performance-related event logs.\n\n# Further information\n\nFurther information on logging intrusion activity can be found in the ‘Managing cyber security incidents’ section of the [Guidelines for cyber security incidents](#fe0138db-e83b-4a23-85d3-d84e1c22816f).\n\nFurther information on event logging for application-based security products can be found in the ‘Operating system hardening’ section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for artificial intelligence applications can be found in the ‘Software development fundamentals’ section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for Cross Domain Solutions can be found in the ‘Cross Domain Solutions’ section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for databases can be found in the ‘Databases’ section of the [Guidelines for database systems](#3f349d16-11a1-459a-a299-c9446aea7597).\n\nFurther information on event logging for gateways can be found in the ‘Gateways’ section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging for mobile applications can be found in the ‘Software development fundamentals’ section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for multifunction devices can be found in the ‘Multifunction devices’ section of the [Guidelines for communications systems](#3a7b903b-ed0d-450d-9123-60f6f8fd5dd2).\n\nFurther information on event logging for network-based security products can be found in the ‘Network design and configuration’ section of the [Guidelines for networking](#f145ff5b-d396-4248-8f48-621349d6f0ed).\n\nFurther information on event logging for operating systems can be found in the ‘Operating system hardening’ and ‘Authentication hardening’ sections of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for server applications can be found in the ‘Server application hardening’ section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for system access can be found in the ‘Access to systems and their resources’ section of the [Guidelines for personnel security](#7d16ae67-87a7-4861-b939-e13ec279b5a2).\n\nFurther information on event logging for user applications can be found in the ‘User application hardening’ section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).\n\nFurther information on event logging for web applications can be found in the ‘Software development’ section of the [Guidelines for software development](#506198a8-7ae8-4c95-8b7b-2a4833cfab4b).\n\nFurther information on event logging for web proxies can be found in the ‘Web proxies’ section of the [Guidelines for gateways](#e8bde527-526c-4a6a-b66f-05228f09dd7b).\n\nFurther information on event logging can be found in the following Australian Signals Directorate publications:\n\n- [Best practices for event logging and threat detection](#b95c4745-572a-4121-b4e1-d0baa90a84fc)\n- [Detecting and mitigating Active Directory compromises](#331263bc-3314-496b-9d35-76788eb0f403)\n- [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093)\n- [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa)\n- [Priority logs for SIEM ingestion: Practitioner guidance](#1dbda98a-4e8b-4a52-b4f7-9d1a895fd324)\n- [Windows event logging and forwarding](#de239dae-d1e8-4969-9680-ef3444d32a83).\n\nFurther information on SIEM and SOAR platforms can be found in the Australian Signals Directorate’s [Implementing SIEM and SOAR platforms: Executive guidance](#4bebe303-7a91-4ffa-90d8-8df9f80a6318) and [Implementing SIEM and SOAR platforms: Practitioner guidance](#4e01708d-9c2d-4a84-a08a-cb98077235a6) publications.\n\nFurther information on prioritising the collection and storage of event logs can be found in the United States’ Cybersecurity \\& Infrastructure Security Agency’s [Guidance for Implementing M-21-31: Improving the Federal Government's Investigative and Remediation Capabilities](#aeba0a2d-b48a-42f0-b047-622b9fea9a91) publication.\n\nFurther information on the National Archives of Australia’s requirements for event log retention can be found in their [AFDA Express Version 2 – Technology \\& Information Management](#cc1a55cb-34ab-4418-b660-53571b3af899) publication."
         } ],
         "groups" : [ {
           "title" : "Centralised event logging facility",
@@ -4783,7 +4783,7 @@
           } ],
           "parts" : [ {
             "name" : "overview",
-            "prose" : "Event log monitoring is critical to maintaining the security posture of systems. Notably, such activities involve analysing event logs in a timely manner to detect cybersecurity events, thereby, leading to the identification of cybersecurity incidents."
+            "prose" : "Event log monitoring is critical to maintaining the security posture of systems. Notably, such activities involve analysing event logs in a timely manner to detect cyber security events, thereby, leading to the identification of cyber security incidents."
           } ],
           "controls" : [ {
             "id" : "ism-1906",
@@ -4795,11 +4795,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "1"
+              "value" : "0"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "Mar-25"
+              "value" : "Dec-23"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -4832,7 +4832,7 @@
             "parts" : [ {
               "id" : "ism-1906_smt",
               "name" : "statement",
-              "prose" : "Event logs from internet-facing servers are analysed in a timely manner to detect cybersecurity events."
+              "prose" : "Event logs from internet-facing servers are analysed in a timely manner to detect cyber security events."
             } ]
           }, {
             "id" : "ism-1228",
@@ -4844,11 +4844,11 @@
             }, {
               "name" : "revision",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "4"
+              "value" : "3"
             }, {
               "name" : "updated",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
-              "value" : "Mar-25"
+              "value" : "Mar-22"
             }, {
               "name" : "applicability",
               "ns" : "https://cyber.gov.au/ns/ism/oscal/3.0",
@@ -4881,7 +4881,7 @@
             "parts" : [ {
               "id" : "ism-1228_smt",
               "name" : "statement",
-              "prose" : "Cybersecurity events are analysed in a timely manner to identify cybersecurity incidents."
+              "prose" : "Cyber security events are analysed in a timely manner to identify cyber security incidents."
             } ]
           } ]
         } ]
@@ -4896,9 +4896,9 @@
         } ]
       }, {
         "uuid" : "041bce05-55ad-4a2a-93e3-c582d39fce94",
-        "title" : "Cybersecurity incident response planning: Practitioner guidance",
+        "title" : "Cyber security incident response planning: Practitioner guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-to-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-practitioner-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-to-threats/cyber-security-incident-response/cyber-security-incident-response-planning-practitioner-guidance"
         } ]
       }, {
         "uuid" : "0508be6f-cb97-44da-b212-42416a0048b0",
@@ -4982,7 +4982,7 @@
         "uuid" : "3a7b903b-ed0d-450d-9123-60f6f8fd5dd2",
         "title" : "Guidelines for communications systems",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-communications-systems"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-communications-systems"
         } ]
       }, {
         "uuid" : "3ccea9a8-a728-4f5b-a0a8-43f2f206f76b",
@@ -5000,7 +5000,7 @@
         "uuid" : "3f349d16-11a1-459a-a299-c9446aea7597",
         "title" : "Guidelines for database systems",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-database-systems"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-database-systems"
         } ]
       }, {
         "uuid" : "3f43c8d2-8a8c-4e2f-af80-48a607bce643",
@@ -5010,9 +5010,9 @@
         } ]
       }, {
         "uuid" : "403f72c6-3e85-4185-8df3-130b2a6b25b3",
-        "title" : "Cybersecurity incident response planning: Executive guidance",
+        "title" : "Cyber security incident response planning: Executive guidance",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-to-threats/cyber-security-incident-response/cybersecurity-incident-response-planning-executive-guidance"
+          "href" : "https://www.cyber.gov.au/business-government/detecting-responding-to-threats/cyber-security-incident-response/cyber-security-incident-response-planning-executive-guidance"
         } ]
       }, {
         "uuid" : "43fbcaf9-03a3-493a-83be-9340a37778fa",
@@ -5054,7 +5054,7 @@
         "uuid" : "506198a8-7ae8-4c95-8b7b-2a4833cfab4b",
         "title" : "Guidelines for software development",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-software-development"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-software-development"
         } ]
       }, {
         "uuid" : "53da8dba-961e-4222-94e0-68cb9510384d",
@@ -5064,9 +5064,9 @@
         } ]
       }, {
         "uuid" : "578d0434-6b3f-46f3-aad8-c7ac75c2ebcc",
-        "title" : "Guidelines for cybersecurity documentation",
+        "title" : "Guidelines for cyber security documentation",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-cybersecurity-documentation"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-cyber-security-documentation"
         } ]
       }, {
         "uuid" : "58282062-5c17-476a-98b1-105a627cd28d",
@@ -5088,15 +5088,15 @@
         } ]
       }, {
         "uuid" : "626d3582-3caf-49d6-89d5-4b8fdbbf1f31",
-        "title" : "reporting cybersecurity incidents",
+        "title" : "reporting cyber security incidents",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/report-and-recover/report/report-a-cybersecurity-incident"
+          "href" : "https://www.cyber.gov.au/report-and-recover/report/report-a-cyber-security-incident"
         } ]
       }, {
         "uuid" : "626dab35-81ab-45fe-8c12-0faff1c23c07",
-        "title" : "Guidelines for cybersecurity roles",
+        "title" : "Guidelines for cyber security roles",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-cybersecurity-roles"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-cyber-security-roles"
         } ]
       }, {
         "uuid" : "63bba9d2-127e-41d5-b735-e0cf3fe4b9aa",
@@ -5114,7 +5114,7 @@
         "uuid" : "7d16ae67-87a7-4861-b939-e13ec279b5a2",
         "title" : "Guidelines for personnel security",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-personnel-security"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
         } ]
       }, {
         "uuid" : "7d22400c-ddef-4cbb-90f1-7502dc569e5b",
@@ -5186,7 +5186,7 @@
         "uuid" : "a699a3aa-828d-479b-b50b-98127bb19437",
         "title" : "Guidelines for evaluated products",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-evaluated-products"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-evaluated-products"
         } ]
       }, {
         "uuid" : "ae426d0a-adb6-43b8-a463-faa33e83b679",
@@ -5210,7 +5210,7 @@
         "uuid" : "b594c9c0-b42f-4f06-b643-38023275a5c7",
         "title" : "Guidelines for media",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-media"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-media"
         } ]
       }, {
         "uuid" : "b95c4745-572a-4121-b4e1-d0baa90a84fc",
@@ -5240,7 +5240,7 @@
         "uuid" : "c6ca6620-ccd5-4c5d-b97c-9d92f1162948",
         "title" : "Guidelines for system management",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-system-management"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-system-management"
         } ]
       }, {
         "uuid" : "c852e735-4920-4616-8e34-2fddfb49eea8",
@@ -5258,7 +5258,7 @@
         "uuid" : "cae0ac6b-e69b-4359-bfd7-5ee5eff1049d",
         "title" : "limited use obligation",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/report-and-recover/how-we-help-during-a-cybersecurity-incident/limited-use"
+          "href" : "https://www.cyber.gov.au/report-and-recover/how-we-help-during-a-cyber-security-incident/limited-use"
         } ]
       }, {
         "uuid" : "cc1a55cb-34ab-4418-b660-53571b3af899",
@@ -5294,7 +5294,7 @@
         "uuid" : "de7525f3-a466-40a5-abdd-3ae24a6d1b44",
         "title" : "Guidelines for system hardening",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-system-hardening"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-system-hardening"
         } ]
       }, {
         "uuid" : "dfb52998-0e7e-420d-97e1-d1313c8f919a",
@@ -5306,25 +5306,25 @@
         "uuid" : "e8bde527-526c-4a6a-b66f-05228f09dd7b",
         "title" : "Guidelines for gateways",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-gateways"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-gateways"
         } ]
       }, {
         "uuid" : "edc24216-f52b-4513-bcda-5fa564661999",
         "title" : "Guidelines for system monitoring",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-system-monitoring"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-system-monitoring"
         } ]
       }, {
         "uuid" : "f145ff5b-d396-4248-8f48-621349d6f0ed",
         "title" : "Guidelines for networking",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-networking"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-networking"
         } ]
       }, {
         "uuid" : "f37a4848-0791-4870-b316-5536c2681c28",
         "title" : "Guidelines for procurement and outsourcing",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-procurement-and-outsourcing"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-procurement-and-outsourcing"
         } ]
       }, {
         "uuid" : "f48c0d05-5173-4c8e-8748-e5591518c1fb",
@@ -5352,9 +5352,9 @@
         } ]
       }, {
         "uuid" : "fe0138db-e83b-4a23-85d3-d84e1c22816f",
-        "title" : "Guidelines for cybersecurity incidents",
+        "title" : "Guidelines for cyber security incidents",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cybersecurity-guidelines/guidelines-for-cybersecurity-incidents"
+          "href" : "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-cyber-security-incidents"
         } ]
       } ]
     }
