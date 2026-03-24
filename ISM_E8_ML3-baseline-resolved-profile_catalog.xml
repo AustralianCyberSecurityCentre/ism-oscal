@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="4cb84bc8-10bd-4af9-81c5-180b1d692bbb">
+         uuid="4761192c-7c3c-4353-88ef-a68c84a5f930">
    <metadata>
       <title>Information security manual Essential Eight Maturity Level Three Baseline</title>
-      <last-modified>2025-12-09T05:06:50.063565474Z</last-modified>
-      <version>2025.12.9</version>
+      <last-modified>2026-03-24T07:59:34.520466631Z</last-modified>
+      <version>2026.03.24</version>
       <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_E8_ML3-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -4856,7 +4856,7 @@
       </resource>
       <resource uuid="0bf3a1ef-031a-419b-80c3-08a08b1cee9d">
          <title>Microsoft Security Baselines Blog</title>
-         <rlink href="https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines"/>
+         <rlink href="https://techcommunity.microsoft.com/category/security-baselines/blog/microsoft-security-baselines"/>
       </resource>
       <resource uuid="131048c7-a2e7-4da3-9257-7a058b06c1f8">
          <title>Secure administration</title>
@@ -5072,7 +5072,7 @@
       </resource>
       <resource uuid="cad720b4-e47a-437d-b272-6958e738131d">
          <title>Common Sense Guide to Mitigating Insider Threats, Seventh Edition</title>
-         <rlink href="https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-seventh-edition/"/>
+         <rlink href="https://www.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-seventh-edition/"/>
       </resource>
       <resource uuid="cae0ac6b-e69b-4359-bfd7-5ee5eff1049d">
          <title>limited use obligation</title>

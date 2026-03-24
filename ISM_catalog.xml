@@ -3,9 +3,9 @@
          uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
    <metadata>
       <title>Information security manual</title>
-      <published>2025-12-09T04:57:24.565986588Z</published>
-      <last-modified>2025-12-09T04:57:24.565986588Z</last-modified>
-      <version>2025.12.9</version>
+      <published>2026-03-24T07:27:00.86569608Z</published>
+      <last-modified>2026-03-24T07:27:00.86569608Z</last-modified>
+      <version>2026.03.24</version>
       <oscal-version>1.1.2</oscal-version>
       <link rel="canonical" href="#6455b62e-c7af-4987-b87d-60b9575a59ff"/>
       <link rel="latest-version" href="#219fa690-b9c0-4e76-9333-d5136a5582d1"/>
@@ -100,10 +100,10 @@
             <prop name="sort-id" value="catalog[1].group[01].group[2].group[2]"/>
             <part name="overview">
                <p>
-                  <strong>Determine the system boundary, business criticality and security objectives for the system based on an assessment of the impact if it were to be compromised.</strong>
+                  <strong>Determine the system boundary, business criticality, and security and resilience objectives for the system based on an assessment of the impact if it were to be compromised or attacked.</strong>
                </p>
-               <p>When embarking upon the design of a system, the system boundary, business criticality and security objectives for the system, based on confidentiality, integrity and availability requirements, should be determined. This will ultimately guide activities, such as selecting and tailoring controls, to meet those security objectives and determine the level of residual security risk that will be accepted before the system is authorised to operate.</p>
-               <p>Following the determination of the system boundary, business criticality and security objectives for a system, a description of the system and its characteristics should be documented in the system’s system security plan.</p>
+               <p>When embarking upon the design of a system, the system boundary, business criticality, and security and resilience objectives for the system should be determined. This will ultimately guide activities, such as selecting and tailoring controls, to meet those security and resilience objectives as well as determining the level of residual security risk that will be accepted before the system is authorised to operate.</p>
+               <p>Following the determination of the system boundary, business criticality, and security and resilience objectives for a system, a description of the system and its characteristics should be documented in the system’s system security plan.</p>
             </part>
          </group>
          <group>
@@ -111,9 +111,9 @@
             <prop name="sort-id" value="catalog[1].group[01].group[2].group[3]"/>
             <part name="overview">
                <p>
-                  <strong>Select controls for the system and tailor them to achieve desired security objectives.</strong>
+                  <strong>Select controls for the system and tailor them to achieve desired security and resilience objectives.</strong>
                </p>
-               <p>Each cyber security guideline discusses security risks associated with the topics it covers. Paired with these discussions are controls that ASD considers to provide efficient and effective mitigations based on their suitability to achieve the security objectives for a system. To assist with selecting and tailoring controls for a system, each control is assigned an applicability marking. For example, ‘NC’ for the protection of non-classified systems (including both government and non-government systems), ‘OS’ for the protection of OFFICIAL: Sensitive systems, ‘P’ for the protection of PROTECTED systems, ‘S’ for the protection of SECRET systems and ‘TS’ for the protection of TOP SECRET systems.</p>
+               <p>Each cyber security guideline discusses security risks associated with the topics it covers. Paired with these discussions are controls that ASD considers to provide efficient and effective mitigations based on their suitability to achieve the security and resilience objectives for a system. To assist with selecting and tailoring controls for a system, each control is assigned an applicability marking. For example, ‘NC’ for the protection of non-classified systems (including both government and non-government systems), ‘OS’ for the protection of OFFICIAL: Sensitive systems, ‘P’ for the protection of PROTECTED systems, ‘S’ for the protection of SECRET systems and ‘TS’ for the protection of TOP SECRET systems.</p>
                <p>While security risks and controls are discussed in the cyber security guidelines, and act as a baseline, they should not be considered an exhaustive list for a specific system type or technology. As such, the cyber security guidelines provide an important input into an organisation’s risk identification and risk treatment activities however do not represent the full extent of such activities.</p>
                <p>While the cyber security guidelines can assist with risk identification and risk treatment activities, an organisation will still need to undertake their own risk analysis and risk evaluation activities due to the unique nature of each system, its operating environment and the organisation’s risk tolerances.</p>
                <p>Following the selection and tailoring of controls for a system, including the identification of any inherited common controls, they should be documented along with the details of their planned implementation in the system’s system security plan annex. In addition, and as appropriate, controls should also be documented in the system’s cyber security incident response plan, change and configuration management plan, and continuous monitoring plan.</p>
@@ -127,7 +127,7 @@
                <p>
                   <strong>Implement controls for the system and its operating environment.</strong>
                </p>
-               <p>Once suitable controls have been identified for a system, and approved by its authorising officer, they should be implemented. In doing so, the details of their actual implementation, if different from their planned implementation, should be documented in the system’s system security plan annex.</p>
+               <p>Once suitable controls have been identified for a system, and approved by the authorising officer, they should be implemented. In doing so, the details of their actual implementation, if different from their planned implementation, should be documented in the system’s system security plan annex.</p>
             </part>
          </group>
          <group>
@@ -149,12 +149,12 @@
                <p>
                   <strong>Authorise the system to operate based on the acceptance of the security risks associated with its operation.</strong>
                </p>
-               <p>Before a system can be granted authorisation to operate, sufficient information should be provided to the authorising officer in order for them to make an informed risk-based decision as to whether the security risks associated with its operation are acceptable or not. This information should take the form of an authorisation package that includes the system’s system security plan, cyber security incident response plan, change and configuration management plan, continuous monitoring plan, security assessment report, and plan of action and milestones.</p>
-               <p>In some cases, the security risks associated with a system’s operation will be acceptable and it will be granted an ongoing authorisation to operate. However, in other cases the security risks associated with the operation of a system may be unacceptable. In such cases, the authorising officer may request further work be undertaken by the system owner. In the intervening time, the authorising officer may choose to grant authorisation to operate but with constraints placed on the system’s use, such as limiting the system’s functionality or specifying an expiration date for authorisation to operate. Finally, if the authorising officer deems the security risks to be unacceptable, regardless of any potential constraints placed on the system’s use, they may deny authorisation to operate until such time that sufficient remediation actions, if possible, have been completed to an acceptable standard.</p>
-               <p>For TOP SECRET systems, including sensitive compartmented information systems, the authorising officer is Director-General ASD (or their delegate). For non-classified, OFFICIAL: Sensitive, PROTECTED and SECRET systems, the authorising officer is an organisation’s CISO (or their delegate).</p>
-               <p>For multinational and multi-organisation systems, the authorising officer should be determined by a formal agreement between the parties involved.</p>
+               <p>Before a system can be granted an authorisation to operate, sufficient information should be provided to the authorising officer in order for them to make an informed decision as to whether to accept the security risks associated with its operation or not. This information should take the form of an authorisation package that includes the system’s system security plan, cyber security incident response plan, change and configuration management plan, continuous monitoring plan, security assessment report, and plan of action and milestones.</p>
+               <p>In some cases, the security risks associated with a system’s operation will be acceptable and it will be granted an ongoing authorisation to operate. However, in other cases the security risks associated with the operation of a system may be unacceptable. In such cases, the authorising officer may request further work be undertaken by the system owner. In the intervening time, the authorising officer may choose to grant an authorisation to operate but with constraints placed on the system’s use, such as limiting the system’s functionality or specifying an expiration date for an authorisation to operate. Finally, if the authorising officer deems the security risks to be unacceptable, regardless of any potential constraints placed on the system’s use, they may deny an authorisation to operate until such time that sufficient remediation actions, if possible, have been completed to an acceptable standard.</p>
+               <p>For non-classified, OFFICIAL: Sensitive, PROTECTED and SECRET systems, the authorising officer is an organisation’s CISO (or their delegate). For TOP SECRET systems, including sensitive compartmented information systems, the authorising officer is Director-General ASD (or their delegate).</p>
                <p>For commercial providers providing services to an organisation, the authorising officer is the CISO of the supported organisation (or their delegate).</p>
-               <p>In all cases, the authorising officer should have an appropriate level of seniority and understanding of security risks they are accepting on behalf of their organisation. In cases where an organisation does not have a CISO, the authorising officer could be a chief security officer, a chief information officer or other senior executive within the organisation.</p>
+               <p>For multinational, multi-organisation and multi-stakeholder systems, a single authorising officer may be identified and assigned, via a formal agreement, to consider whether to accept the security risks associated with a system’s operation and, if so, grant a traditional authorisation to operate. Alternatively, it may be more appropriate for multiple authorising officers to consider jointly whether to accept the security risks associated with a system’s operation and, if so, grant a joint authorisation to operate.</p>
+               <p>In all cases, the authorising officer should have an appropriate level of seniority and understanding of security risks they are accepting. In cases where an organisation does not have a CISO, the authorising officer could be a chief security officer, a chief information officer or other senior executive within the organisation.</p>
             </part>
          </group>
          <group>
@@ -172,7 +172,7 @@
                   <li>a major cyber security incident involving the system</li>
                   <li>major architectural changes to the system.</li>
                </ul>
-               <p>Following the implementation or modification of any controls as a result of risk management activities, another security assessment should be completed. In doing so, the system’s authorisation package should be updated. This in turn allows the authorising officer to make an informed risk-based decision as to whether the security risks associated with the system’s operation are still acceptable. If the security risks are no longer acceptable, the authorising officer may choose to either place constraints on the system’s use, such as introducing or amending an expiration date for authorisation to operate, or revoke authorisation to operate altogether.</p>
+               <p>Following the implementation or modification of any controls as a result of risk management activities, another security assessment should be completed. In doing so, the system’s authorisation package should be updated. This in turn allows the authorising officer to make an informed decision as to whether the security risks associated with the system’s operation are still acceptable. If the security risks are no longer acceptable, the authorising officer may choose to either place constraints on the system’s use, such as introducing or amending an expiration date for an authorisation to operate, or revoke an authorisation to operate altogether.</p>
             </part>
          </group>
          <group>
@@ -207,29 +207,33 @@
             <p>The purpose of the cyber security principles is to provide strategic guidance on how an organisation can protect their information technology and operational technology systems from cyber threats. These cyber security principles are grouped into six functions:</p>
             <ul>
                <li>
-                  <strong>Govern (GOV):</strong> Develop and maintain a strong and resilient cyber security culture.</li>
+                  <strong>Govern:</strong> Develop and maintain a strong and resilient cyber security culture.</li>
                <li>
-                  <strong>Identify (IDE):</strong> Identify assets and associated security risks.</li>
+                  <strong>Identify:</strong> Identify assets and associated security risks.</li>
                <li>
-                  <strong>Protect (PRO):</strong> Implement and maintain controls to manage security risks.</li>
+                  <strong>Protect:</strong> Implement and maintain controls to manage security risks.</li>
                <li>
-                  <strong>Detect (DET):</strong> Detect and analyse cyber security events to identify cyber security incidents.</li>
+                  <strong>Detect:</strong> Detect and analyse cyber security events to identify cyber security incidents.</li>
                <li>
-                  <strong>Respond (RES):</strong> Respond to cyber security incidents.</li>
+                  <strong>Respond:</strong> Respond to cyber security incidents.</li>
                <li>
-                  <strong>Recover (REC):</strong> Resume normal business operations following cyber security incidents.</li>
+                  <strong>Recover:</strong> Resume normal business operations following cyber security incidents.</li>
             </ul>
+            <h1>Implementing the cyber security principles</h1>
+            <p>Within each function, the cyber security principles are listed in a logical sequence that reflects how they should be considered for implementation. The numbers used for the cyber security principles are identifiers only and do not indicate an implementation order.</p>
+            <p>When implementing the cyber security principles, each cyber security principle should be supported by administrative and technical controls proportionate to an organisation’s size, complexity, operating environment and risk profile. These controls should be subject to ongoing risk-based monitoring and assurance activities. Where the term ‘systems’ is used, the elements listed in brackets define the scope of that cyber security principle.</p>
+            <p>Overall, the cyber security principles are interdependent and must be implemented collectively to achieve comprehensive cyber security outcomes.</p>
          </part>
          <group>
-            <title>Govern principles</title>
+            <title>Govern cyber security principles</title>
             <prop name="sort-id" value="catalog[1].group[02].group[1].group[1]"/>
             <part name="overview">
-               <p>The govern principles are:</p>
+               <p>The Govern (GOV) cyber security principles are:</p>
             </part>
             <control id="ism-principle-gov-01" class="ISM-principle">
                <title>Executive cyber security accountability</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[1].control[1]"/>
+                     value="catalog[1].group[02].group[1].group[1].control[01]"/>
                <prop name="label" value="GOV-01"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -250,10 +254,34 @@
                   <p>The board of directors or executive committee is accountable for cyber security.</p>
                </part>
             </control>
-            <control id="ism-principle-gov-02" class="ISM-principle">
-               <title>Executive cyber security leadership</title>
+            <control id="ism-principle-gov-08" class="ISM-principle">
+               <title>Executive artificial intelligence accountability</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[1].control[2]"/>
+                     value="catalog[1].group[02].group[1].group[1].control[02]"/>
+               <prop name="label" value="GOV-08"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-gov-08_smt">
+                  <p>The board of directors or executive committee is accountable for ensuring that artificial intelligence is secure, controllable, human-supervised and used in an ethical and accountable manner.</p>
+               </part>
+            </control>
+            <control id="ism-principle-gov-02" class="ISM-principle">
+               <title>Cyber security leadership</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[1].control[03]"/>
                <prop name="label" value="GOV-02"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -271,37 +299,13 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-gov-02_smt">
-                  <p>A chief information security officer provides leadership and oversight of cyber security activities.</p>
-               </part>
-            </control>
-            <control id="ism-principle-gov-03" class="ISM-principle">
-               <title>Security risk management</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[1].control[3]"/>
-               <prop name="label" value="GOV-03"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="NC"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="P"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="S"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="TS"/>
-               <part name="statement" id="ism-principle-gov-03_smt">
-                  <p>Security risk management activities for systems (cyber supply chains, infrastructure, operating systems, applications and data) are embedded into organisational risk management frameworks.</p>
+                  <p>A chief information security officer provides leadership and oversight of cyber security activities and delivers regular and timely risk-based reporting to the board of directors or executive committee on their organisation’s cyber security posture, the effectiveness of controls, current security risks and emerging cyber threats.</p>
                </part>
             </control>
             <control id="ism-principle-gov-04" class="ISM-principle">
                <title>Cyber security resourcing</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[1].control[4]"/>
+                     value="catalog[1].group[02].group[1].group[1].control[04]"/>
                <prop name="label" value="GOV-04"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -319,13 +323,61 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-gov-04_smt">
-                  <p>Suitable and sufficient personnel and resources are identified and acquired in support of cyber security activities.</p>
+                  <p>Suitable and sufficient personnel and resources are identified, acquired and maintained in support of cyber security activities.</p>
+               </part>
+            </control>
+            <control id="ism-principle-gov-09" class="ISM-principle">
+               <title>Security risk management responsibilities</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[1].control[05]"/>
+               <prop name="label" value="GOV-09"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-gov-09_smt">
+                  <p>Security risk management responsibilities for an organisation and their suppliers, partners and customers, including any shared responsibilities, are documented and communicated to all relevant parties with accountability arrangements in place to ensure their effective implementation.</p>
+               </part>
+            </control>
+            <control id="ism-principle-gov-03" class="ISM-principle">
+               <title>Security risk management assurance</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[1].control[06]"/>
+               <prop name="label" value="GOV-03"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-gov-03_smt">
+                  <p>Security risk management activities for an organisation and their systems (infrastructure, operating systems, applications and data) are embedded into organisational risk management frameworks and subject to ongoing monitoring and assurance activities by the board of directors or executive committee.</p>
                </part>
             </control>
             <control id="ism-principle-gov-05" class="ISM-principle">
                <title>Security risk acceptance</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[1].control[5]"/>
+                     value="catalog[1].group[02].group[1].group[1].control[07]"/>
                <prop name="label" value="GOV-05"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -343,13 +395,13 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-gov-05_smt">
-                  <p>Residual security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are accepted before they are authorised for use and continuously monitored and managed throughout their operational life.</p>
+                  <p>Residual security risks for systems (infrastructure, operating systems, applications and data), including inherited and shared security risks, are accepted before they are authorised for use and continuously monitored and managed throughout their operational life.</p>
                </part>
             </control>
             <control id="ism-principle-gov-06" class="ISM-principle">
                <title>Security risk communication</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[1].control[6]"/>
+                     value="catalog[1].group[02].group[1].group[1].control[08]"/>
                <prop name="label" value="GOV-06"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -367,13 +419,133 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-gov-06_smt">
-                  <p>Residual security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are transparently and mutually communicated with stakeholders.</p>
+                  <p>Residual security risks for systems (infrastructure, operating systems, applications and data), including inherited and shared security risks, are transparently and mutually communicated with stakeholders.</p>
+               </part>
+            </control>
+            <control id="ism-principle-gov-10" class="ISM-principle">
+               <title>System exposure minimisation</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[1].control[09]"/>
+               <prop name="label" value="GOV-10"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-gov-10_smt">
+                  <p>Information about the design, configuration and operation of systems (infrastructure, operating systems, applications and data) is not publicly disclosed or shared externally unless necessary for commercial, legal, regulatory or security purposes, with any disclosure minimised, controlled and logged.</p>
+               </part>
+            </control>
+            <control id="ism-principle-gov-11" class="ISM-principle">
+               <title>Supplier cyber security assurance</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[1].control[10]"/>
+               <prop name="label" value="GOV-11"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-gov-11_smt">
+                  <p>Systems (infrastructure, operating systems, applications and data) are delivered and supported by trustworthy suppliers whose cyber security practices are independently verified, or otherwise risk-assessed, on a regular basis.</p>
+               </part>
+            </control>
+            <control id="ism-principle-gov-12" class="ISM-principle">
+               <title>Personnel suitability assurance</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[1].control[11]"/>
+               <prop name="label" value="GOV-12"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-gov-12_smt">
+                  <p>Only personnel whose suitability and trustworthiness have been established, and are subject to ongoing assurance, are granted access to systems (infrastructure, operating systems, applications and data).</p>
+               </part>
+            </control>
+            <control id="ism-principle-gov-13" class="ISM-principle">
+               <title>Cyber security and safety</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[1].control[12]"/>
+               <prop name="label" value="GOV-13"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-gov-13_smt">
+                  <p>Controls for systems (infrastructure, operating systems, applications and data) do not compromise human, physical or environmental safety.</p>
+               </part>
+            </control>
+            <control id="ism-principle-gov-14" class="ISM-principle">
+               <title>Legacy system management</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[1].control[13]"/>
+               <prop name="label" value="GOV-14"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-gov-14_smt">
+                  <p>Systems (infrastructure, operating systems, applications and data) that are not capable of meeting cyber security requirements are managed using compensating controls, along with enhanced monitoring and assurance activities, to maintain an acceptable level of residual risk until they can be decommissioned or replaced.</p>
                </part>
             </control>
             <control id="ism-principle-gov-07" class="ISM-principle">
-               <title>Security risk insights</title>
+               <title>Continuous cyber security improvement</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[1].control[7]"/>
+                     value="catalog[1].group[02].group[1].group[1].control[14]"/>
                <prop name="label" value="GOV-07"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -391,15 +563,15 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-gov-07_smt">
-                  <p>Security risk management, and associated cyber security activities, are regularly reviewed to identify potential improvements in processes and procedures.</p>
+                  <p>Security risk management and associated cyber security activities are continually measured and reviewed using cyber threat intelligence and assurance activities, including exercises informed by real-world cyber threats, to identify, prioritise and incorporate improvements in governance arrangements, shared responsibilities and the effectiveness of controls.</p>
                </part>
             </control>
          </group>
          <group>
-            <title>Identify principles</title>
+            <title>Identify cyber security principles</title>
             <prop name="sort-id" value="catalog[1].group[02].group[1].group[2]"/>
             <part name="overview">
-               <p>The identify principles are:</p>
+               <p>The Identify (IDE) cyber security principles are:</p>
             </part>
             <control id="ism-principle-ide-01" class="ISM-principle">
                <title>Asset identification</title>
@@ -422,13 +594,37 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-ide-01_smt">
-                  <p>Systems (cyber supply chains, infrastructure, operating systems, applications and data) are identified and documented.</p>
+                  <p>Systems (infrastructure, operating systems, applications, identities, credentials and data) are continually and centrally identified and documented.</p>
+               </part>
+            </control>
+            <control id="ism-principle-ide-05" class="ISM-principle">
+               <title>Asset interdependencies</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[2].control[2]"/>
+               <prop name="label" value="IDE-05"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-ide-05_smt">
+                  <p>Interdependencies between systems (infrastructure, operating systems, applications and data) are continually and centrally identified and documented, including how the compromise of one system could affect the security or business operations of other dependent systems.</p>
                </part>
             </control>
             <control id="ism-principle-ide-02" class="ISM-principle">
-               <title>Business criticality identification</title>
+               <title>Business criticality rating identification</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[2].control[2]"/>
+                     value="catalog[1].group[02].group[1].group[2].control[3]"/>
                <prop name="label" value="IDE-02"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -446,13 +642,13 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-ide-02_smt">
-                  <p>The business criticality of systems (cyber supply chains, infrastructure, operating systems, applications and data) is determined and documented.</p>
+                  <p>Business criticality ratings for systems (infrastructure, operating systems, applications and data) are identified and documented.</p>
                </part>
             </control>
             <control id="ism-principle-ide-03" class="ISM-principle">
-               <title>Security requirements identification</title>
+               <title>Security requirement identification</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[2].control[3]"/>
+                     value="catalog[1].group[02].group[1].group[2].control[4]"/>
                <prop name="label" value="IDE-03"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -470,13 +666,37 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-ide-03_smt">
-                  <p>The confidentiality, integrity and availability requirements for systems (cyber supply chains, infrastructure, operating systems, applications and data) are determined and documented.</p>
+                  <p>Security requirements for systems (infrastructure, operating systems, applications and data) are identified and documented.</p>
+               </part>
+            </control>
+            <control id="ism-principle-ide-06" class="ISM-principle">
+               <title>Resilience requirement identification</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[2].control[5]"/>
+               <prop name="label" value="IDE-06"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-ide-06_smt">
+                  <p>Resilience requirements for systems (infrastructure, operating systems, applications and data) are identified and documented.</p>
                </part>
             </control>
             <control id="ism-principle-ide-04" class="ISM-principle">
                <title>Security risk identification</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[2].control[4]"/>
+                     value="catalog[1].group[02].group[1].group[2].control[6]"/>
                <prop name="label" value="IDE-04"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -494,15 +714,15 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-ide-04_smt">
-                  <p>Security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are identified and documented along with any associated risk management decisions.</p>
+                  <p>Security risks for an organisation and their systems (infrastructure, operating systems, applications and data) are identified, including by using current strategic and sector-specific cyber threat intelligence and threat modelling, and are documented along with any associated risk management decisions.</p>
                </part>
             </control>
          </group>
          <group>
-            <title>Protect principles</title>
+            <title>Protect cyber security principles</title>
             <prop name="sort-id" value="catalog[1].group[02].group[1].group[3]"/>
             <part name="overview">
-               <p>The protect principles are:</p>
+               <p>The Protect (PRO) cyber security principles are:</p>
             </part>
             <control id="ism-principle-pro-01" class="ISM-principle">
                <title>Secure system lifecycle</title>
@@ -525,14 +745,14 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-pro-01_smt">
-                  <p>Systems (infrastructure, operating systems and applications) are planned, designed, developed, tested, deployed, maintained and decommissioned according to their business criticality and their confidentiality, integrity and availability requirements.</p>
+                  <p>Systems (infrastructure, operating systems and applications) are planned, designed, developed, tested, deployed, maintained and decommissioned according to their business criticality ratings and security and resilience requirements using Secure by Design and Secure by Default principles and practices.</p>
                </part>
             </control>
-            <control id="ism-principle-pro-02" class="ISM-principle">
-               <title>Secure by design</title>
+            <control id="ism-principle-pro-16" class="ISM-principle">
+               <title>Cyber supply chain security</title>
                <prop name="sort-id"
                      value="catalog[1].group[02].group[1].group[3].control[02]"/>
-               <prop name="label" value="PRO-02"/>
+               <prop name="label" value="PRO-16"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -548,15 +768,15 @@
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
-               <part name="statement" id="ism-principle-pro-02_smt">
-                  <p>Systems (infrastructure, operating systems and applications) are planned, designed, developed, tested, deployed, maintained and decommissioned using Secure by Design and Secure by Default principles and practices.</p>
+               <part name="statement" id="ism-principle-pro-16_smt">
+                  <p>Cyber supply chains supporting systems (infrastructure, operating systems, applications and data) are secure, resilient and support effective and coordinated cyber security incident response.</p>
                </part>
             </control>
-            <control id="ism-principle-pro-03" class="ISM-principle">
-               <title>Trustworthy suppliers</title>
+            <control id="ism-principle-pro-13" class="ISM-principle">
+               <title>Identity, credential and access management</title>
                <prop name="sort-id"
                      value="catalog[1].group[02].group[1].group[3].control[03]"/>
-               <prop name="label" value="PRO-03"/>
+               <prop name="label" value="PRO-13"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -572,15 +792,15 @@
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
-               <part name="statement" id="ism-principle-pro-03_smt">
-                  <p>Systems (infrastructure, operating systems, applications and data) are delivered and supported by trustworthy suppliers.</p>
+               <part name="statement" id="ism-principle-pro-13_smt">
+                  <p>Robust and secure identity, credential and access management is used to establish, maintain and control access to systems (infrastructure, operating systems, applications and data) and to support effective detection of identity and credential misuse.</p>
                </part>
             </control>
-            <control id="ism-principle-pro-04" class="ISM-principle">
-               <title>Attack surface reduction</title>
+            <control id="ism-principle-pro-12" class="ISM-principle">
+               <title>Least privilege access</title>
                <prop name="sort-id"
                      value="catalog[1].group[02].group[1].group[3].control[04]"/>
-               <prop name="label" value="PRO-04"/>
+               <prop name="label" value="PRO-12"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -596,8 +816,8 @@
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
-               <part name="statement" id="ism-principle-pro-04_smt">
-                  <p>Systems (infrastructure, operating systems and applications) are configured to reduce their attack surface.</p>
+               <part name="statement" id="ism-principle-pro-12_smt">
+                  <p>Personnel and services are granted the minimum access to systems (infrastructure, operating systems, applications and data) required to undertake their duties.</p>
                </part>
             </control>
             <control id="ism-principle-pro-05" class="ISM-principle">
@@ -621,13 +841,37 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-pro-05_smt">
-                  <p>Systems (infrastructure, operating systems, applications and data) are administered in a secure and accountable manner.</p>
+                  <p>Systems (infrastructure, operating systems, applications and data) are administered in a secure, accountable and auditable manner.</p>
+               </part>
+            </control>
+            <control id="ism-principle-pro-04" class="ISM-principle">
+               <title>Secure configuration management</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[3].control[06]"/>
+               <prop name="label" value="PRO-04"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-pro-04_smt">
+                  <p>Systems (infrastructure, operating systems and applications) are securely configured to approved and maintained baselines, including by reducing attack surfaces and attack paths, with configurations continually monitored and consistently enforced.</p>
                </part>
             </control>
             <control id="ism-principle-pro-06" class="ISM-principle">
                <title>Vulnerability management</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[3].control[06]"/>
+                     value="catalog[1].group[02].group[1].group[3].control[07]"/>
                <prop name="label" value="PRO-06"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -645,13 +889,13 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-pro-06_smt">
-                  <p>Vulnerabilities in systems (cyber supply chains, infrastructure, operating systems, applications and data) are identified and mitigated in a timely manner.</p>
+                  <p>Vulnerabilities in systems (infrastructure, operating systems, applications and data) are identified, documented, validated and prioritised for remediation or mitigation in a timely manner, with all remediation and mitigation actions verified for effectiveness.</p>
                </part>
             </control>
             <control id="ism-principle-pro-07" class="ISM-principle">
-               <title>Trustworthy software execution</title>
+               <title>Trustworthy software</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[3].control[07]"/>
+                     value="catalog[1].group[02].group[1].group[3].control[08]"/>
                <prop name="label" value="PRO-07"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -669,13 +913,13 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-pro-07_smt">
-                  <p>Only trustworthy and supported operating systems, applications and code can execute on systems.</p>
+                  <p>Systems (operating systems and applications) only permit the execution of software that is supported, verified and authorised.</p>
                </part>
             </control>
             <control id="ism-principle-pro-08" class="ISM-principle">
-               <title>Data encryption</title>
+               <title>Data protection</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[3].control[08]"/>
+                     value="catalog[1].group[02].group[1].group[3].control[09]"/>
                <prop name="label" value="PRO-08"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -693,14 +937,14 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-pro-08_smt">
-                  <p>Data is encrypted at rest and in transit.</p>
+                  <p>Data is encrypted and authenticated at rest and in transit using ASD-approved algorithms and protocols to protect its confidentiality and integrity.</p>
                </part>
             </control>
-            <control id="ism-principle-pro-09" class="ISM-principle">
-               <title>Content filtering</title>
+            <control id="ism-principle-pro-17" class="ISM-principle">
+               <title>Cryptographic agility</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[3].control[09]"/>
-               <prop name="label" value="PRO-09"/>
+                     value="catalog[1].group[02].group[1].group[3].control[10]"/>
+               <prop name="label" value="PRO-17"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -716,14 +960,14 @@
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
-               <part name="statement" id="ism-principle-pro-09_smt">
-                  <p>Data communicated between different security domains is controlled and inspectable.</p>
+               <part name="statement" id="ism-principle-pro-17_smt">
+                  <p>Systems (infrastructure, operating systems and applications) are designed, configured and managed to support timely, prioritised and orderly changes to cryptography, including post-quantum cryptography.</p>
                </part>
             </control>
             <control id="ism-principle-pro-10" class="ISM-principle">
-               <title>Regular proven backups</title>
+               <title>Regular and proven backups</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[3].control[10]"/>
+                     value="catalog[1].group[02].group[1].group[3].control[11]"/>
                <prop name="label" value="PRO-10"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -741,38 +985,14 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-pro-10_smt">
-                  <p>Operating systems, applications, settings and data are backed up in a secure and proven manner on a regular basis.</p>
+                  <p>Systems (infrastructure, operating systems, applications and data) are backed up in a secure and proven manner on a regular basis, including through the validation of restoration capabilities.</p>
                </part>
             </control>
-            <control id="ism-principle-pro-11" class="ISM-principle">
-               <title>Trustworthy personnel</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[3].control[11]"/>
-               <prop name="label" value="PRO-11"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="NC"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="P"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="S"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="TS"/>
-               <part name="statement" id="ism-principle-pro-11_smt">
-                  <p>Only trustworthy personnel are granted access to systems (cyber supply chains, infrastructure, operating systems, applications and data).</p>
-               </part>
-            </control>
-            <control id="ism-principle-pro-12" class="ISM-principle">
-               <title>Least privilege access</title>
+            <control id="ism-principle-pro-18" class="ISM-principle">
+               <title>Network segmentation and segregation</title>
                <prop name="sort-id"
                      value="catalog[1].group[02].group[1].group[3].control[12]"/>
-               <prop name="label" value="PRO-12"/>
+               <prop name="label" value="PRO-18"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -788,15 +1008,15 @@
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
-               <part name="statement" id="ism-principle-pro-12_smt">
-                  <p>Personnel and services are granted the minimum access to systems (cyber supply chains, infrastructure, operating systems, applications and data) required to undertake their duties.</p>
+               <part name="statement" id="ism-principle-pro-18_smt">
+                  <p>Systems (infrastructure, operating systems and applications) are segmented into network zones based on business criticality and trust levels, with only authorised, controlled and monitored inbound and outbound communication paths between network zones permitted.</p>
                </part>
             </control>
-            <control id="ism-principle-pro-13" class="ISM-principle">
-               <title>Robust access control</title>
+            <control id="ism-principle-pro-19" class="ISM-principle">
+               <title>Operational technology isolation</title>
                <prop name="sort-id"
                      value="catalog[1].group[02].group[1].group[3].control[13]"/>
-               <prop name="label" value="PRO-13"/>
+               <prop name="label" value="PRO-19"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -812,14 +1032,62 @@
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
-               <part name="statement" id="ism-principle-pro-13_smt">
-                  <p>Robust and secure identity, credential and access management is used to control access to systems (cyber supply chains, infrastructure, operating systems, applications and data).</p>
+               <part name="statement" id="ism-principle-pro-19_smt">
+                  <p>Operational technology systems (infrastructure) are logically and physically isolated from information technology systems (infrastructure) and all external infrastructure, with only authorised, controlled and monitored communication paths between systems permitted.</p>
+               </part>
+            </control>
+            <control id="ism-principle-pro-20" class="ISM-principle">
+               <title>Remote access to operational technology</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[3].control[14]"/>
+               <prop name="label" value="PRO-20"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-pro-20_smt">
+                  <p>Access to operational technology systems (infrastructure, operating systems, applications and data) over untrusted infrastructure is authorised, controlled and monitored.</p>
+               </part>
+            </control>
+            <control id="ism-principle-pro-09" class="ISM-principle">
+               <title>Content filtering</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[3].control[15]"/>
+               <prop name="label" value="PRO-09"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-pro-09_smt">
+                  <p>Data communicated between different security domains for systems (infrastructure and applications) is controlled and subject to inspection and verification.</p>
                </part>
             </control>
             <control id="ism-principle-pro-14" class="ISM-principle">
                <title>Cyber security awareness training</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[3].control[14]"/>
+                     value="catalog[1].group[02].group[1].group[3].control[16]"/>
                <prop name="label" value="PRO-14"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -837,13 +1105,13 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-pro-14_smt">
-                  <p>Personnel are provided with ongoing cyber security awareness training tailored to their duties.</p>
+                  <p>Personnel are provided with ongoing cyber security awareness training, including operational security considerations, tailored to their duties, access levels and current cyber threats.</p>
                </part>
             </control>
             <control id="ism-principle-pro-15" class="ISM-principle">
-               <title>Physical access restriction</title>
+               <title>Physical access control</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[3].control[15]"/>
+                     value="catalog[1].group[02].group[1].group[3].control[17]"/>
                <prop name="label" value="PRO-15"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -861,15 +1129,15 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-pro-15_smt">
-                  <p>Physical access to systems (infrastructure) is restricted to authorised personnel and monitored for unusual activities.</p>
+                  <p>Physical access to facilities and systems (infrastructure and data) is restricted to authorised personnel and monitored for unusual activities.</p>
                </part>
             </control>
          </group>
          <group>
-            <title>Detect principles</title>
+            <title>Detect cyber security principles</title>
             <prop name="sort-id" value="catalog[1].group[02].group[1].group[4]"/>
             <part name="overview">
-               <p>The detect principles are:</p>
+               <p>The Detect (DET) cyber security principles are:</p>
             </part>
             <control id="ism-principle-det-01" class="ISM-principle">
                <title>Centralised event logging</title>
@@ -892,13 +1160,37 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-det-01_smt">
-                  <p>Security-relevant event logs and all configuration changes are centrally collected and stored securely.</p>
+                  <p>Security-relevant event logs and configuration changes for systems (infrastructure, operating systems, applications and data) are centrally collected, protected against unauthorised modification or deletion, and retained to support effective cyber security event detection and investigation.</p>
+               </part>
+            </control>
+            <control id="ism-principle-det-04" class="ISM-principle">
+               <title>Baselined high-risk access activities</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[4].control[2]"/>
+               <prop name="label" value="DET-04"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-det-04_smt">
+                  <p>Baseline patterns of identity and credential access activities, privileged access activities, and remote access activities are established and maintained for systems (infrastructure, operating systems, applications and data) to enable the detection of anomalous or unexpected behaviour.</p>
                </part>
             </control>
             <control id="ism-principle-det-02" class="ISM-principle">
                <title>Cyber security event detection</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[4].control[2]"/>
+                     value="catalog[1].group[02].group[1].group[4].control[3]"/>
                <prop name="label" value="DET-02"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -916,13 +1208,13 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-det-02_smt">
-                  <p>Security-relevant event logs and all configuration changes are analysed in a timely manner to detect cyber security events.</p>
+                  <p>Anomalous or unexpected events and behaviours for systems (infrastructure, operating systems, applications and data) are analysed in a timely manner to detect cyber security events.</p>
                </part>
             </control>
             <control id="ism-principle-det-03" class="ISM-principle">
                <title>Cyber security incident identification</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[4].control[3]"/>
+                     value="catalog[1].group[02].group[1].group[4].control[4]"/>
                <prop name="label" value="DET-03"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -943,12 +1235,36 @@
                   <p>Cyber security events are analysed in a timely manner to identify cyber security incidents.</p>
                </part>
             </control>
+            <control id="ism-principle-det-05" class="ISM-principle">
+               <title>Detection capability efficacy</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[4].control[5]"/>
+               <prop name="label" value="DET-05"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-det-05_smt">
+                  <p>Cyber security event detection capabilities are regularly evaluated for effectiveness and continuously refined, including by using current strategic and sector-specific cyber threat intelligence, to improve the detection of cyber security events.</p>
+               </part>
+            </control>
          </group>
          <group>
-            <title>Respond principles</title>
+            <title>Respond cyber security principles</title>
             <prop name="sort-id" value="catalog[1].group[02].group[1].group[5]"/>
             <part name="overview">
-               <p>The respond principles are:</p>
+               <p>The Respond (RES) cyber security principles are:</p>
             </part>
             <control id="ism-principle-res-01" class="ISM-principle">
                <title>Cyber security incident planning</title>
@@ -971,14 +1287,14 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-res-01_smt">
-                  <p>Cyber security incident response, business continuity and disaster recovery plans support continued business operations during cyber security incidents, and the resumption of normal business operations following cyber security incidents.</p>
+                  <p>Cyber security incident response, business continuity and disaster recovery plans for systems (infrastructure, operating systems, applications and data) support continued business operations during cyber security incidents, and the resumption of normal business operations following cyber security incidents.</p>
                </part>
             </control>
-            <control id="ism-principle-res-02" class="ISM-principle">
-               <title>Cyber security incident reporting</title>
+            <control id="ism-principle-res-05" class="ISM-principle">
+               <title>Cyber security incident coordination</title>
                <prop name="sort-id"
                      value="catalog[1].group[02].group[1].group[5].control[2]"/>
-               <prop name="label" value="RES-02"/>
+               <prop name="label" value="RES-05"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -994,8 +1310,8 @@
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
-               <part name="statement" id="ism-principle-res-02_smt">
-                  <p>Cyber security incidents, including associated response activities, are reported internally and externally to relevant bodies and stakeholders in a timely manner.</p>
+               <part name="statement" id="ism-principle-res-05_smt">
+                  <p>Cyber security incident roles and responsibilities are defined, documented and exercised to support the internal and external coordination and management of cyber security incidents, including responsibilities for declaring cyber security incidents and undertaking pre-approved response and recovery activities.</p>
                </part>
             </control>
             <control id="ism-principle-res-03" class="ISM-principle">
@@ -1022,10 +1338,34 @@
                   <p>Cyber security incidents are contained, eradicated and recovered from in a timely manner.</p>
                </part>
             </control>
+            <control id="ism-principle-res-02" class="ISM-principle">
+               <title>Cyber security incident reporting</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[5].control[4]"/>
+               <prop name="label" value="RES-02"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-res-02_smt">
+                  <p>Cyber security incidents, including associated response and recovery activities, are reported internally and externally to relevant bodies and stakeholders in a timely manner.</p>
+               </part>
+            </control>
             <control id="ism-principle-res-04" class="ISM-principle">
                <title>Cyber security incident insights</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[5].control[4]"/>
+                     value="catalog[1].group[02].group[1].group[5].control[5]"/>
                <prop name="label" value="RES-04"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -1043,20 +1383,44 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-res-04_smt">
-                  <p>Lessons learnt from cyber security incidents are captured, and areas for improvement are identified and actioned in a timely manner.</p>
+                  <p>Lessons learnt from cyber security incidents are captured, and areas for improvement are identified, prioritised and actioned in a timely manner.</p>
                </part>
             </control>
          </group>
          <group>
-            <title>Recover principles</title>
+            <title>Recover cyber security principles</title>
             <prop name="sort-id" value="catalog[1].group[02].group[1].group[6]"/>
             <part name="overview">
-               <p>The recover principles are:</p>
+               <p>The Recover (REC) cyber security principles are:</p>
             </part>
+            <control id="ism-principle-rec-02" class="ISM-principle">
+               <title>System recovery assurance</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[02].group[1].group[6].control[1]"/>
+               <prop name="label" value="REC-02"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-principle-rec-02_smt">
+                  <p>Following cyber security incidents, systems (infrastructure, operating systems, applications and data) are verified through assurance activities to ensure they are secure and capable of supporting the resumption of normal business operations.</p>
+               </part>
+            </control>
             <control id="ism-principle-rec-01" class="ISM-principle">
                <title>Business operations resumption</title>
                <prop name="sort-id"
-                     value="catalog[1].group[02].group[1].group[6].control[1]"/>
+                     value="catalog[1].group[02].group[1].group[6].control[2]"/>
                <prop name="label" value="REC-01"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
@@ -1074,7 +1438,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-principle-rec-01_smt">
-                  <p>Residual security risks for systems (cyber supply chains, infrastructure, operating systems, applications and data) are accepted prior to the resumption of normal business operations following cyber security incidents.</p>
+                  <p>Residual security risks for systems (infrastructure, operating systems, applications and data), including inherited and shared security risks, are accepted prior to the resumption of normal business operations following cyber security incidents.</p>
                </part>
             </control>
          </group>
@@ -2133,10 +2497,10 @@
                      value="catalog[1].group[03].group[3].group[2].control[01]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="1"/>
+                     value="2"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Mar-25"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -2153,7 +2517,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1633_smt">
-                  <p>System owners, in consultation with each system’s authorising officer, determine the system boundary, business criticality and security objectives for each system based on an assessment of the impact if it were to be compromised.</p>
+                  <p>System owners, in consultation with each system’s authorising officer, determine the system boundary, business criticality, and security and resilience objectives for each system based on an assessment of the impact if it were to be compromised or attacked.</p>
                </part>
             </control>
             <control id="ism-1203" class="ISM-control">
@@ -2191,10 +2555,10 @@
                      value="catalog[1].group[03].group[3].group[2].control[03]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="2"/>
+                     value="3"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Mar-25"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -2211,7 +2575,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1634_smt">
-                  <p>System owners, in consultation with each system’s authorising officer, select controls for each system and tailor them to achieve desired security objectives.</p>
+                  <p>System owners, in consultation with each system’s authorising officer, select controls for each system and tailor them to achieve desired security and resilience objectives.</p>
                </part>
             </control>
             <control id="ism-0009" class="ISM-control">
@@ -2321,10 +2685,10 @@
                      value="catalog[1].group[03].group[3].group[2].control[08]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="5"/>
+                     value="6"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-24"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -2338,7 +2702,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="S"/>
                <part name="statement" id="ism-0027_smt">
-                  <p>System owners obtain authorisation to operate each non-classified, OFFICIAL: Sensitive, PROTECTED and SECRET system from its authorising officer based on the acceptance of the security risks associated with its operation.</p>
+                  <p>System owners obtain an authorisation to operate for each non-classified, OFFICIAL: Sensitive, PROTECTED and SECRET system from its authorising officer.</p>
                </part>
             </control>
             <control id="ism-1968" class="ISM-control">
@@ -2347,15 +2711,15 @@
                      value="catalog[1].group[03].group[3].group[2].control[09]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-24"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1968_smt">
-                  <p>System owners obtain authorisation to operate each TOP SECRET system, including each sensitive compartmented information system, from Director-General ASD (or their delegate) based on the acceptance of the security risks associated with its operation.</p>
+                  <p>System owners obtain an authorisation to operate for each TOP SECRET system, including for each sensitive compartmented information system, from Director-General ASD (or their delegate).</p>
                </part>
             </control>
             <control id="ism-1526" class="ISM-control">
@@ -2364,10 +2728,10 @@
                      value="catalog[1].group[03].group[3].group[2].control[10]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="2"/>
+                     value="3"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Jun-22"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -2384,7 +2748,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1526_smt">
-                  <p>System owners monitor each system, and associated cyber threats, security risks and controls, on an ongoing basis.</p>
+                  <p>System owners continuously monitor the security of each system, and manage associated cyber threats, security risks and controls.</p>
                </part>
             </control>
             <control id="ism-2021" class="ISM-control">
@@ -8692,10 +9056,6 @@
       <group>
          <title>Emanation security</title>
          <prop name="sort-id" value="catalog[1].group[09].group[2]"/>
-         <part name="overview">
-            <h1>Further information</h1>
-            <p>Further information on ASD’s <a href="#df17ad0f-58d3-4bb8-814a-b60f34c5f841">Emanation Security Program</a>, including a list of certified emanation security providers, is available from ASD.</p>
-         </part>
          <group>
             <title>Electromagnetic interference/electromagnetic compatibility standards</title>
             <prop name="sort-id" value="catalog[1].group[09].group[2].group[1]"/>
@@ -8736,7 +9096,7 @@
             <title>Emanation security doctrine</title>
             <prop name="sort-id" value="catalog[1].group[09].group[2].group[2]"/>
             <part name="overview">
-               <p>The Australian Signals Directorate (ASD) specifies additional emanation security requirements in Australian Communications Security Instructions that must be complied with. Such requirements supplement these guidelines and, where conflicts occur, take precedence.</p>
+               <p>The Australian Signals Directorate (ASD) specifies emanation security requirements in its Emanation security manual and Australian Communications Security Instructions that must be complied with. Such requirements supplement these guidelines and, where conflicts occur, take precedence.</p>
             </part>
             <control id="ism-1884" class="ISM-control">
                <title>Control: ism-1884</title>
@@ -8766,12 +9126,12 @@
             </control>
          </group>
          <group>
-            <title>Emanation security threat assessments</title>
+            <title>Emanation security risk assessments</title>
             <prop name="sort-id" value="catalog[1].group[09].group[2].group[3]"/>
             <part name="overview">
-               <p>Obtaining advice from ASD on emanation security threats is vital to protecting SECRET and TOP SECRET systems, inside and outside of Australian borders. In particular, this can assist in preventing SECRET and TOP SECRET systems from emanating compromising signals, which if intercepted and analysed, could lead to serious consequences. Note, the implementation of such advice is in addition to, and not a replacement for, industry and government standards relating to electromagnetic interference/electromagnetic compatibility.</p>
-               <p>In conducting emanation security threat assessments, it is important that they are sought by system owners as early as possible in a system’s life cycle as development timeframes and costs will be much greater if changes have to be made to systems once they have been designed and implemented.</p>
-               <p>On completion of emanation security threat assessments, system owners will receive a TEMPEST requirements statement that contains recommended actions to be taken to reduce emanation security risks. In doing so, any recommendations not implemented by system owners will need to be accepted by a system’s authorising officer.</p>
+               <p>Obtaining advice from ASD on emanation security risks is vital to protecting SECRET and TOP SECRET systems, inside and outside of Australian borders. In particular, this can assist in preventing SECRET and TOP SECRET systems from emanating compromising signals, which if intercepted and analysed, could lead to serious consequences. Note, the implementation of such advice is in addition to, and not a replacement for, industry and government standards relating to electromagnetic interference/electromagnetic compatibility.</p>
+               <p>In conducting emanation security risk assessments, it is important that they are sought by system owners as early as possible in a system’s life cycle as development timeframes and costs will be much greater if changes have to be made to systems once they have been designed and implemented.</p>
+               <p>On completion of emanation security risk assessments, system owners will receive emanation security mitigation advice that contains recommended actions to be taken to reduce emanation security risks. In doing so, any recommendations not implemented by system owners will need to be accepted by a system’s authorising officer.</p>
             </part>
             <control id="ism-1137" class="ISM-control">
                <title>Control: ism-1137</title>
@@ -8779,10 +9139,10 @@
                      value="catalog[1].group[09].group[2].group[3].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="5"/>
+                     value="6"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-23"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="S"/>
@@ -8790,7 +9150,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1137_smt">
-                  <p>System owners deploying SECRET or TOP SECRET systems within fixed facilities contact ASD for an emanation security threat assessment.</p>
+                  <p>System owners deploying SECRET or TOP SECRET systems within fixed facilities contact ASD for an emanation security risk assessment.</p>
                </part>
             </control>
             <control id="ism-0249" class="ISM-control">
@@ -8799,10 +9159,10 @@
                      value="catalog[1].group[09].group[2].group[3].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="6"/>
+                     value="7"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-23"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="S"/>
@@ -8810,7 +9170,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-0249_smt">
-                  <p>System owners deploying SECRET or TOP SECRET systems in mobile platforms, or as a deployable capability, contact ASD for an emanation security threat assessment.</p>
+                  <p>System owners deploying SECRET or TOP SECRET systems in mobile platforms, or as a deployable capability, contact ASD for an emanation security risk assessment.</p>
                </part>
             </control>
             <control id="ism-0246" class="ISM-control">
@@ -8819,10 +9179,10 @@
                      value="catalog[1].group[09].group[2].group[3].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="6"/>
+                     value="7"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-24"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="S"/>
@@ -8830,7 +9190,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-0246_smt">
-                  <p>When an emanation security threat assessment is required, it is sought as early as possible in a system’s life cycle.</p>
+                  <p>When an emanation security risk assessment is required, it is sought as early as possible in a system’s life cycle.</p>
                </part>
             </control>
             <control id="ism-1885" class="ISM-control">
@@ -8839,10 +9199,10 @@
                      value="catalog[1].group[09].group[2].group[3].control[4]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="1"/>
+                     value="2"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-24"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="S"/>
@@ -8850,7 +9210,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1885_smt">
-                  <p>Recommended actions contained within TEMPEST requirements statements issued for systems are implemented by system owners.</p>
+                  <p>Recommended actions contained within emanation security mitigation advice issued for systems are implemented by system owners.</p>
                </part>
             </control>
          </group>
@@ -10002,7 +10362,7 @@
          <part name="overview">
             <h1>Introduction to enterprise mobility</h1>
             <p>Enterprise mobility generally refers to situations in which personnel work in a mobile manner, such as part of office hot-desking arrangements, when working from home, when travelling or simply when outside the office environment during normal business hours. While enterprise mobility has traditionally been used to refer to the use of mobile devices, such as smartphones, tablets and laptop computers, it is increasingly being applied to the use of desktop computers as part of working from home arrangements.</p>
-            <p>This section applies to mobile devices and desktop computers that use either a mobile operating system or a desktop operating system.</p>
+            <p>This section applies to privately-owned and organisation-owned mobile devices and desktop computers that use either a mobile operating system or a desktop operating system.</p>
             <h1>Further information</h1>
             <p>Further information on allowing the use of privately-owned mobile devices and desktop computers by personnel to access their organisation’s systems or data can be found in the Australian Signals Directorate’s (ASD) <a href="#0e982561-93dc-4cf7-9a98-e91411e99ca6">Bring Your Own Device for executives</a> publication.</p>
             <p>Further information and specific guidance on enterprise mobility can be found in ASD’s <a href="#e8ec7a1f-775d-4b79-a164-0752278177fa">Risk management of enterprise mobility (including Bring Your Own Device)</a> publication.</p>
@@ -10013,7 +10373,7 @@
             <title>Privately-owned mobile devices and desktop computers</title>
             <prop name="sort-id" value="catalog[1].group[11].group[1].group[1]"/>
             <part name="overview">
-               <p>Allowing privately-owned mobile devices and desktop computers to access an organisation’s systems or data can increase liability risk. As such, an organisation should seek legal advice to ascertain whether this scenario affects compliance with relevant legislation, such as the <a href="#6fac5a84-b86e-405f-b2b3-8c13ecee4a02">Privacy Act 1988</a> and the <a href="#e0d3b5ea-6a5a-400c-8daa-8a8059816a06">Archives Act 1983</a>. Furthermore, if an organisation chooses to allow personnel to use privately-owned mobile devices or desktop computers to access their organisation’s classified systems or data, they should ensure that it does not present an unacceptable security risk. This can be achieved in part through the enforced separation of classified data from personal data as well as by preventing the storage of any classified data on privately-owned mobile devices and desktop computers.</p>
+               <p>Allowing privately-owned mobile devices and desktop computers to access an organisation’s systems or data can increase liability risk. As such, an organisation should seek legal advice to ascertain whether this scenario affects compliance with relevant legislation, such as the <a href="#6fac5a84-b86e-405f-b2b3-8c13ecee4a02">Privacy Act 1988</a> and the <a href="#e0d3b5ea-6a5a-400c-8daa-8a8059816a06">Archives Act 1983</a>. Furthermore, if an organisation chooses to allow personnel to use privately-owned mobile devices or desktop computers to access their organisation’s classified systems or data, they should ensure that it does not present an unacceptable security risk. This can be achieved in part through the enforced separation of classified data and personal data, preventing the storage of classified data on privately-owned mobile devices and desktop computers, and disallowing the use of unapproved artificial intelligence agents.</p>
             </part>
             <control id="ism-1297" class="ISM-control">
                <title>Control: ism-1297</title>
@@ -10050,10 +10410,10 @@
                      value="catalog[1].group[11].group[1].group[1].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="9"/>
+                     value="10"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-24"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="OS"/>
@@ -10061,7 +10421,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="P"/>
                <part name="statement" id="ism-1400_smt">
-                  <p>Personnel accessing OFFICIAL: Sensitive or PROTECTED systems or data using privately-owned mobile devices or desktop computers have enforced separation of classified data from personal data.</p>
+                  <p>Personnel using privately-owned mobile devices or desktop computers to access OFFICIAL: Sensitive or PROTECTED systems or data have enforced separation of classified data and personal data.</p>
                </part>
             </control>
             <control id="ism-1866" class="ISM-control">
@@ -10070,10 +10430,10 @@
                      value="catalog[1].group[11].group[1].group[1].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-23"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="OS"/>
@@ -10081,13 +10441,33 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="P"/>
                <part name="statement" id="ism-1866_smt">
-                  <p>Personnel accessing OFFICIAL: Sensitive or PROTECTED systems or data using privately-owned mobile devices or desktop computers are prevented from storing classified data on their privately-owned mobile devices and desktop computers.</p>
+                  <p>Personnel using privately-owned mobile devices or desktop computers to access OFFICIAL: Sensitive or PROTECTED systems or data are prevented from storing classified data on their privately-owned mobile devices and desktop computers.</p>
+               </part>
+            </control>
+            <control id="ism-2095" class="ISM-control">
+               <title>Control: ism-2095</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[11].group[1].group[1].control[4]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <part name="statement" id="ism-2095_smt">
+                  <p>Personnel using privately-owned mobile devices or desktop computers to access OFFICIAL: Sensitive or PROTECTED systems or data are disallowed from granting access to unapproved artificial intelligence agents.</p>
                </part>
             </control>
             <control id="ism-0694" class="ISM-control">
                <title>Control: ism-0694</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[1].group[1].control[4]"/>
+                     value="catalog[1].group[11].group[1].group[1].control[5]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="8"/>
@@ -10109,7 +10489,7 @@
             <title>Organisation-owned mobile devices and desktop computers</title>
             <prop name="sort-id" value="catalog[1].group[11].group[1].group[2]"/>
             <part name="overview">
-               <p>If an organisation chooses to issue personnel with organisation-owned mobile devices or desktop computers to access their organisation’s systems or data, they should ensure that it does not present an unacceptable security risk. This can be achieved in part by enforcing the separation of classified data from any personal data.</p>
+               <p>If an organisation chooses to issue personnel with organisation-owned mobile devices or desktop computers to access their organisation’s classified systems or data, they should ensure that it does not present an unacceptable security risk. This can be achieved in part by enforcing the separation of classified data and personal data.</p>
             </part>
             <control id="ism-1482" class="ISM-control">
                <title>Control: ism-1482</title>
@@ -10117,10 +10497,10 @@
                      value="catalog[1].group[11].group[1].group[2].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="8"/>
+                     value="9"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-24"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="OS"/>
@@ -10134,16 +10514,16 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1482_smt">
-                  <p>Personnel accessing systems or data using an organisation-owned mobile device or desktop computer have enforced separation of classified data from personal data.</p>
+                  <p>Personnel using organisation-owned mobile devices or desktop computers to access classified systems or data have enforced separation of classified data and personal data.</p>
                </part>
             </control>
          </group>
          <group>
-            <title>Connecting mobile devices and desktop computers to the internet</title>
+            <title>Mobile devices and desktop computers accessing the internet</title>
             <prop name="sort-id" value="catalog[1].group[11].group[1].group[3]"/>
             <part name="overview">
-               <p>When connecting mobile devices and desktop computers to the internet, good practice generally involves establishing a Virtual Private Network (VPN) connection to an organisation’s internet gateway rather than a direct connection to the internet. In doing so, mobile devices and desktop computers will typically be protected by additional security functionality, such as web content filtering, provided by an organisation’s internet gateway. Note, however, in some cases an organisation may accept the security risks associated with allowing direct connections to specific online services, such as web conferencing services and collaboration tools, for performance reasons.</p>
-               <p>In connecting mobile devices and desktop computers to an organisation’s internet gateway, a split tunnel VPN can allow access into the organisation’s network from other networks, such as the internet. If split tunnelling is not disabled, there is an increased security risk that the VPN connection will be susceptible to intrusions from other networks.</p>
+               <p>When mobile devices and desktop computers access the internet, doing so via an organisation’s internet gateway rather than directly can allow for the provision of additional security functionality, such as web content filtering and protective Domain Name System services. However, in some cases, an organisation may accept the security risks associated with allowing direct connections to specific online services, such as web conferencing services and collaboration tools, for performance reasons instead.</p>
+               <p>When connecting mobile devices and desktop computers to an organisation’s internet gateway via a Virtual Private Network (VPN) connection, a split tunnel VPN can allow indirect access into the organisation’s network from other networks, such as the internet. As such, if split tunnelling is not disabled, there is an increased security risk that the VPN connection could be used as an intrusion vector by malicious actors.</p>
             </part>
             <control id="ism-0874" class="ISM-control">
                <title>Control: ism-0874</title>
@@ -10151,10 +10531,10 @@
                      value="catalog[1].group[11].group[1].group[3].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="6"/>
+                     value="7"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-23"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -10171,7 +10551,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-0874_smt">
-                  <p>Mobile devices and desktop computers access the internet via a VPN connection to an organisation’s internet gateway rather than via a direct connection to the internet.</p>
+                  <p>Mobile devices and desktop computers access the internet via an organisation’s internet gateway rather than via a direct connection to the internet.</p>
                </part>
             </control>
             <control id="ism-0705" class="ISM-control">
@@ -10210,7 +10590,7 @@
          <prop name="sort-id" value="catalog[1].group[11].group[2]"/>
          <part name="overview">
             <h1>Mobile device management</h1>
-            <p>This section describes the management of mobile devices, such as smartphones and tablets, that use a mobile operating system. Alternatively, guidance for mobile devices that use a desktop operating system is available in the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for system hardening</a> and the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for system management</a>.</p>
+            <p>This section describes the management of privately-owned and organisation-owned mobile devices, such as smartphones and tablets, that use a mobile operating system. Alternatively, guidance for privately-owned and organisation-owned mobile devices that use a desktop operating system is available in the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for system hardening</a> and the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for system management</a>.</p>
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the ‘Cyber supply chain risk management’ section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for procurement and outsourcing</a>.</p>
             <p>Further information on evaluated products can be found in the ‘Evaluated product procurement’ section of the <a href="#a699a3aa-828d-479b-b50b-98127bb19437">Guidelines for evaluated products</a>.</p>
@@ -10474,10 +10854,68 @@
                   <p>Mobile devices are configured to operate in a supervised (or equivalent) mode.</p>
                </part>
             </control>
+            <control id="ism-2096" class="ISM-control">
+               <title>Control: ism-2096</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[11].group[2].group[5].control[2]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-2096_smt">
+                  <p>Mobile devices are configured to enforce separation between organisational and personal mobile applications and data.</p>
+               </part>
+            </control>
+            <control id="ism-2097" class="ISM-control">
+               <title>Control: ism-2097</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[11].group[2].group[5].control[3]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-2097_smt">
+                  <p>Mobile devices are configured with always on VPN functionality.</p>
+               </part>
+            </control>
             <control id="ism-1887" class="ISM-control">
                <title>Control: ism-1887</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[2].group[5].control[2]"/>
+                     value="catalog[1].group[11].group[2].group[5].control[4]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -10506,13 +10944,13 @@
             <control id="ism-1888" class="ISM-control">
                <title>Control: ism-1888</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[2].group[5].control[3]"/>
+                     value="catalog[1].group[11].group[2].group[5].control[5]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-23"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -10529,13 +10967,42 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1888_smt">
-                  <p>Mobile devices are configured with secure lock screens.</p>
+                  <p>Mobile devices are configured with secure password-based lock screens.</p>
+               </part>
+            </control>
+            <control id="ism-2098" class="ISM-control">
+               <title>Control: ism-2098</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[11].group[2].group[5].control[6]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-2098_smt">
+                  <p>Mobile devices are configured to prevent data transfers over Universal Serial Bus connections.</p>
                </part>
             </control>
             <control id="ism-0863" class="ISM-control">
                <title>Control: ism-0863</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[2].group[5].control[4]"/>
+                     value="catalog[1].group[11].group[2].group[5].control[7]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="5"/>
@@ -10564,7 +11031,7 @@
             <control id="ism-0864" class="ISM-control">
                <title>Control: ism-0864</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[2].group[5].control[5]"/>
+                     value="catalog[1].group[11].group[2].group[5].control[8]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="4"/>
@@ -10593,7 +11060,7 @@
             <control id="ism-1366" class="ISM-control">
                <title>Control: ism-1366</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[2].group[5].control[6]"/>
+                     value="catalog[1].group[11].group[2].group[5].control[9]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -10626,7 +11093,7 @@
          <prop name="sort-id" value="catalog[1].group[11].group[3]"/>
          <part name="overview">
             <h1>Mobile device usage</h1>
-            <p>This section describes the usage of mobile devices that use either a mobile operating system or a desktop operating system.</p>
+            <p>This section describes the usage of privately-owned and organisation-owned mobile devices that use either a mobile operating system or a desktop operating system.</p>
             <h1>Further information</h1>
             <p>Further information on Bluetooth security can be found in National Institute of Standards and Technology Special Publication 800-121 Rev. 2, <a href="#315744ea-3523-4c93-838d-fe2848ac4181">Guide to Bluetooth Security</a>.</p>
             <p>Further information on usage of mobile devices in SECRET and TOP SECRET areas can be found in the ‘Facilities and systems’ section of the <a href="#4deea7ea-18a2-4fd7-8b25-0b3603215df2">Guidelines for physical security</a>.</p>
@@ -10906,8 +11373,109 @@
             </control>
          </group>
          <group>
-            <title>Using mobile devices in public spaces</title>
+            <title>Connecting mobile devices to connected vehicles</title>
             <prop name="sort-id" value="catalog[1].group[11].group[3].group[05]"/>
+            <part name="overview">
+               <p>Connected vehicles often monitor, record, aggregate and communicate data on vehicle users, their connected mobile devices and their surrounding environment. In many cases, this data is then sent to the vehicle manufacturer, which could then be sold to or shared with third parties.</p>
+            </part>
+            <control id="ism-2099" class="ISM-control">
+               <title>Control: ism-2099</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[11].group[3].group[05].control[1]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-2099_smt">
+                  <p>Mobile devices are not connected to the infotainment systems of connected vehicles.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Using mobile devices within or near connected vehicles</title>
+            <prop name="sort-id" value="catalog[1].group[11].group[3].group[06]"/>
+            <part name="overview">
+               <p>Personnel should be aware of the environment in which they use mobile devices to view or communicate sensitive or classified data. In particular, personnel should take care to ensure that sensitive or classified data is not viewed or communicated within or near connected vehicles due to the potential for mobile device screens to be recorded by cameras or for conversations to be recorded, retained and communicated by connected vehicle infotainment systems or connected services.</p>
+            </part>
+            <control id="ism-2100" class="ISM-control">
+               <title>Control: ism-2100</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[11].group[3].group[06].control[1]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-2100_smt">
+                  <p>Sensitive or classified data is not viewed on mobile devices within or near connected vehicles.</p>
+               </part>
+            </control>
+            <control id="ism-2101" class="ISM-control">
+               <title>Control: ism-2101</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[11].group[3].group[06].control[2]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-2101_smt">
+                  <p>Sensitive or classified phone calls and conversations are not conducted within or near connected vehicles.</p>
+               </part>
+            </control>
+         </group>
+         <group>
+            <title>Using mobile devices in public spaces</title>
+            <prop name="sort-id" value="catalog[1].group[11].group[3].group[07]"/>
             <part name="overview">
                <p>Personnel should be aware of the environment in which they use mobile devices to view or communicate sensitive or classified data. In particular, personnel should take care to ensure that sensitive or classified data is not observed by other parties in public areas, such as on public transport, in transit lounges and at coffee shops. In some cases, privacy filters can be applied to the screen of a mobile device to prevent onlookers from reading content off its screen.</p>
                <p>In addition, personnel should maintain awareness of the environments from which they conduct sensitive or classified phone calls and the potential for their conversations to be overheard.</p>
@@ -10915,7 +11483,7 @@
             <control id="ism-0866" class="ISM-control">
                <title>Control: ism-0866</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[05].control[1]"/>
+                     value="catalog[1].group[11].group[3].group[07].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="6"/>
@@ -10944,7 +11512,7 @@
             <control id="ism-1145" class="ISM-control">
                <title>Control: ism-1145</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[05].control[2]"/>
+                     value="catalog[1].group[11].group[3].group[07].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="4"/>
@@ -10964,7 +11532,7 @@
             <control id="ism-1644" class="ISM-control">
                <title>Control: ism-1644</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[05].control[3]"/>
+                     value="catalog[1].group[11].group[3].group[07].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -10993,14 +11561,14 @@
          </group>
          <group>
             <title>Maintaining control of mobile devices</title>
-            <prop name="sort-id" value="catalog[1].group[11].group[3].group[06]"/>
+            <prop name="sort-id" value="catalog[1].group[11].group[3].group[08]"/>
             <part name="overview">
                <p>As mobile devices are portable in nature, and can be easily lost or stolen, it is strongly advised that personnel maintain continual direct supervision of them when they are being actively used and carry or store them in a secured state when they are not being activity used. Note, while mobile devices may be encrypted, the effectiveness of encryption might be reduced if they are lost or stolen while in sleep mode or powered on with a locked screen.</p>
             </part>
             <control id="ism-0871" class="ISM-control">
                <title>Control: ism-0871</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[06].control[1]"/>
+                     value="catalog[1].group[11].group[3].group[08].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="3"/>
@@ -11029,7 +11597,7 @@
             <control id="ism-0870" class="ISM-control">
                <title>Control: ism-0870</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[06].control[2]"/>
+                     value="catalog[1].group[11].group[3].group[08].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="3"/>
@@ -11058,7 +11626,7 @@
             <control id="ism-1084" class="ISM-control">
                <title>Control: ism-1084</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[06].control[3]"/>
+                     value="catalog[1].group[11].group[3].group[08].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="4"/>
@@ -11087,14 +11655,14 @@
          </group>
          <group>
             <title>Mobile device emergency sanitisation processes and procedures</title>
-            <prop name="sort-id" value="catalog[1].group[11].group[3].group[07]"/>
+            <prop name="sort-id" value="catalog[1].group[11].group[3].group[09]"/>
             <part name="overview">
                <p>The sanitisation of mobile devices in emergency situations can assist in reducing the potential for compromise of data by malicious actors. This may be achieved through the use of a remote wipe capability or a cryptographic key zeroise or sanitisation function if present.</p>
             </part>
             <control id="ism-0701" class="ISM-control">
                <title>Control: ism-0701</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[07].control[1]"/>
+                     value="catalog[1].group[11].group[3].group[09].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="6"/>
@@ -11123,7 +11691,7 @@
             <control id="ism-0702" class="ISM-control">
                <title>Control: ism-0702</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[07].control[2]"/>
+                     value="catalog[1].group[11].group[3].group[09].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="5"/>
@@ -11143,14 +11711,14 @@
          </group>
          <group>
             <title>Before travelling overseas with mobile devices</title>
-            <prop name="sort-id" value="catalog[1].group[11].group[3].group[08]"/>
+            <prop name="sort-id" value="catalog[1].group[11].group[3].group[10]"/>
             <part name="overview">
                <p>Personnel travelling overseas with mobile devices face additional security risks compared to travelling domestically, especially when travelling to high or extreme risk countries. As such, appropriate precautions should be taken. Personnel should also be aware that when they leave Australian borders they also leave behind any expectations of privacy.</p>
             </part>
             <control id="ism-1298" class="ISM-control">
                <title>Control: ism-1298</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[08].control[1]"/>
+                     value="catalog[1].group[11].group[3].group[10].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -11179,7 +11747,7 @@
             <control id="ism-1554" class="ISM-control">
                <title>Control: ism-1554</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[08].control[2]"/>
+                     value="catalog[1].group[11].group[3].group[10].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -11213,7 +11781,7 @@
             <control id="ism-1555" class="ISM-control">
                <title>Control: ism-1555</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[08].control[3]"/>
+                     value="catalog[1].group[11].group[3].group[10].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="3"/>
@@ -11248,14 +11816,14 @@
          </group>
          <group>
             <title>While travelling overseas with mobile devices</title>
-            <prop name="sort-id" value="catalog[1].group[11].group[3].group[09]"/>
+            <prop name="sort-id" value="catalog[1].group[11].group[3].group[11]"/>
             <part name="overview">
                <p>Personnel lose control of mobile devices and removable media any time they are not on their person. In addition, allowing untrusted people to access mobile devices provides an opportunity for them to be tampered with.</p>
             </part>
             <control id="ism-1088" class="ISM-control">
                <title>Control: ism-1088</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[09].control[1]"/>
+                     value="catalog[1].group[11].group[3].group[11].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="6"/>
@@ -11292,14 +11860,14 @@
          </group>
          <group>
             <title>After travelling overseas with mobile devices</title>
-            <prop name="sort-id" value="catalog[1].group[11].group[3].group[10]"/>
+            <prop name="sort-id" value="catalog[1].group[11].group[3].group[12]"/>
             <part name="overview">
                <p>Following overseas travel with mobile devices, personnel should take appropriate precautions to ensure that they do not pose an undue security risk to their organisation’s systems. In most cases, sanitising and resetting mobile devices, including all removable media, will be sufficient. However, upon returning from high or extreme risk countries, additional precautions will likely be needed.</p>
             </part>
             <control id="ism-1300" class="ISM-control">
                <title>Control: ism-1300</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[10].control[1]"/>
+                     value="catalog[1].group[11].group[3].group[12].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="6"/>
@@ -11333,7 +11901,7 @@
             <control id="ism-1556" class="ISM-control">
                <title>Control: ism-1556</title>
                <prop name="sort-id"
-                     value="catalog[1].group[11].group[3].group[10].control[2]"/>
+                     value="catalog[1].group[11].group[3].group[12].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="3"/>
@@ -18278,39 +18846,10 @@
                   <p>User accounts require Kerberos pre-authentication.</p>
                </part>
             </control>
-            <control id="ism-1837" class="ISM-control">
-               <title>Control: ism-1837</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[11]"/>
-               <prop name="revision"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
-               <prop name="updated"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Mar-23"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="NC"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="P"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="S"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="TS"/>
-               <part name="statement" id="ism-1837_smt">
-                  <p>User accounts are not configured with password never expires or password not required.</p>
-               </part>
-            </control>
             <control id="ism-1838" class="ISM-control">
                <title>Control: ism-1838</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[12]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[11]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -18339,7 +18878,7 @@
             <control id="ism-1936" class="ISM-control">
                <title>Control: ism-1936</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[13]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[12]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -18368,7 +18907,7 @@
             <control id="ism-1937" class="ISM-control">
                <title>Control: ism-1937</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[14]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[13]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -18397,7 +18936,7 @@
             <control id="ism-1839" class="ISM-control">
                <title>Control: ism-1839</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[15]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[14]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -18426,7 +18965,7 @@
             <control id="ism-1840" class="ISM-control">
                <title>Control: ism-1840</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[16]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[15]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -18455,7 +18994,7 @@
             <control id="ism-1841" class="ISM-control">
                <title>Control: ism-1841</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[17]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[16]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -18484,7 +19023,7 @@
             <control id="ism-1842" class="ISM-control">
                <title>Control: ism-1842</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[18]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[17]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -18513,7 +19052,7 @@
             <control id="ism-1843" class="ISM-control">
                <title>Control: ism-1843</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[19]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[18]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -18542,7 +19081,7 @@
             <control id="ism-1844" class="ISM-control">
                <title>Control: ism-1844</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[20]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[19]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -18571,7 +19110,7 @@
             <control id="ism-1938" class="ISM-control">
                <title>Control: ism-1938</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[3].group[07].control[21]"/>
+                     value="catalog[1].group[15].group[3].group[07].control[20]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -24698,7 +25237,7 @@
             <title>Development, testing, staging and production environments</title>
             <prop name="sort-id" value="catalog[1].group[18].group[1].group[01]"/>
             <part name="overview">
-               <p>Segregating development, testing, staging and production environments, and their associated data, can minimise the likelihood of faulty or malicious code being introduced into a production environment. Furthermore, protecting the authoritative source for software is critical to preventing malicious code being surreptitiously introduced into software.</p>
+               <p>Segregating development, testing, staging and production environments, and their associated data, can minimise the likelihood of faulty or malicious content being introduced into a production environment. Furthermore, protecting the authoritative source for software is critical to preventing malicious content being surreptitiously introduced into software.</p>
             </part>
             <control id="ism-0400" class="ISM-control">
                <title>Control: ism-0400</title>
@@ -24951,7 +25490,7 @@
             <title>Software artefacts</title>
             <prop name="sort-id" value="catalog[1].group[18].group[1].group[04]"/>
             <part name="overview">
-               <p>Software artefacts can include compiled code (such as libraries and executables), configuration files and any other file consumed by the software development process. Software artefacts, both internally and externally developed, could include malicious code or specifically crafted vulnerabilities designed to be exploited at a later stage. To assist in preventing the introduction of malicious software artefacts into an authoritative source for software, all software artefacts should be scanned for malicious code, undergo security testing or both before being stored in the authoritative source for software.</p>
+               <p>Software artefacts can include compiled code, third-party libraries, configuration files and any other file consumed by the software development process. Software artefacts, both internally and externally developed, could include malicious content or weaknesses designed to be exploited at a later stage. To assist in preventing the introduction of malicious content or weak software artefacts into an authoritative source for software, all software artefacts should be scanned for malicious content and undergo security testing (where appropriate) before being stored in the authoritative source for software.</p>
             </part>
             <control id="ism-2026" class="ISM-control">
                <title>Control: ism-2026</title>
@@ -24959,10 +25498,10 @@
                      value="catalog[1].group[18].group[1].group[04].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Jun-25"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -24979,7 +25518,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-2026_smt">
-                  <p>All software artefacts are scanned for malicious code before being imported into the authoritative source for software, including all compiled code, third-party libraries and software components.</p>
+                  <p>All software artefacts are scanned for malicious content before being imported into the authoritative source for software.</p>
                </part>
             </control>
             <control id="ism-2027" class="ISM-control">
@@ -25017,10 +25556,10 @@
                      value="catalog[1].group[18].group[1].group[04].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Jun-25"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -25037,13 +25576,42 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-2028_smt">
-                  <p>All imported or referenced third-party software artefacts are tested using static application security testing (SAST), dynamic application security testing (DAST) and software composition analysis (SCA) before being imported into the authoritative source for software and periodically throughout the software development life cycle.</p>
+                  <p>All software artefacts are tested to detect known weaknesses using static application security testing (SAST), dynamic application security testing (DAST) or software composition analysis (SCA), depending on the software artefact type, before being imported into the authoritative source for software.</p>
+               </part>
+            </control>
+            <control id="ism-2102" class="ISM-control">
+               <title>Control: ism-2102</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[18].group[1].group[04].control[4]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-2102_smt">
+                  <p>Existing software artefacts in the authoritative source for software are periodically tested to detect known weaknesses using SAST, DAST or SCA, depending on the software artefact type, throughout the software development life cycle.</p>
                </part>
             </control>
             <control id="ism-2029" class="ISM-control">
                <title>Control: ism-2029</title>
                <prop name="sort-id"
-                     value="catalog[1].group[18].group[1].group[04].control[4]"/>
+                     value="catalog[1].group[18].group[1].group[04].control[5]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -25072,7 +25640,7 @@
             <control id="ism-2030" class="ISM-control">
                <title>Control: ism-2030</title>
                <prop name="sort-id"
-                     value="catalog[1].group[18].group[1].group[04].control[5]"/>
+                     value="catalog[1].group[18].group[1].group[04].control[6]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -26735,8 +27303,8 @@
             <title>Vulnerability disclosure program</title>
             <prop name="sort-id" value="catalog[1].group[18].group[1].group[14]"/>
             <part name="overview">
-               <p>Implementing a vulnerability disclosure program, based on responsible disclosure, can assist an organisation to improve the security of their products and services as it provides a way for security researchers and other members of the public to responsibly notify them of vulnerabilities in a coordinated manner. Furthermore, following the verification and resolution of reported vulnerabilities, it can assist an organisation in notifying their customers of vulnerabilities that have been discovered in their products and services, and any patches, updates or vendor mitigations that should be applied.</p>
-               <p>A vulnerability disclosure program should include processes and procedures for receiving, verifying, resolving and reporting vulnerabilities disclosed by internal and external parties. In support of this, a vulnerability disclosure policy should be made publicly available that covers:</p>
+               <p>Implementing a vulnerability disclosure program, based on responsible disclosure, can assist an organisation to improve the security of their products and services as it provides a way for internal and external parties to responsibly notify the organisation of vulnerabilities in a coordinated manner. Furthermore, following the resolution of reported vulnerabilities, it can assist an organisation in notifying their consumers of vulnerabilities that have been discovered in their products and services, and any patches, updates or vendor mitigations that should be applied.</p>
+               <p>A vulnerability disclosure program should include processes and procedures for receiving, identifying, documenting, validating and prioritising vulnerabilities disclosed by internal and external parties. In support of this, a vulnerability disclosure policy should be made publicly available that covers:</p>
                <ul>
                   <li>the purpose of the vulnerability disclosure program</li>
                   <li>types of security research that are and are not allowed</li>
@@ -27004,7 +27572,17 @@
             <p>This section describes the controls applicable to artificial intelligence application development and extends upon the ‘Software development fundamentals’ section of these guidelines.</p>
             <h1>Further information</h1>
             <p>Further information on large language model application security risks can be found in the <a href="#7a40de61-7e8c-4b58-bba0-446899b22b9e">OWASP Top 10 for Large Language Model Applications version 2025</a> publication.</p>
-            <p>Further information on artificial intelligence security risks can be found in ASD’s <a href="#e513ac6b-09fa-4d53-951a-a5142208cf12">An introduction to artificial intelligence</a> and <a href="#0248ace8-2e08-40f8-b19e-117c76909cf1">Engaging with artificial intelligence</a> publications.</p>
+            <p>Further information on artificial intelligence security risks can be found in the following ASD publications:</p>
+            <ul>
+               <li>
+                  <a href="#e513ac6b-09fa-4d53-951a-a5142208cf12">An introduction to artificial intelligence</a>
+               </li>
+               <li>
+                  <a href="#233c7982-dc01-496e-b761-b24ac06ded49">Artificial intelligence and machine learning: Supply chain risks and mitigations</a>
+               </li>
+               <li>
+                  <a href="#0248ace8-2e08-40f8-b19e-117c76909cf1">Engaging with artificial intelligence</a>.</li>
+            </ul>
             <p>Further information on artificial intelligence security risks can also be found in the following publications:</p>
             <ul>
                <li>MITRE’s <a href="#1258a1ce-774a-4701-8d47-80940b988a2d">Adversarial Threat Landscape for Artificial-Intelligence Systems</a>
@@ -27109,6 +27687,35 @@
                      value="TS"/>
                <part name="statement" id="ism-2085_smt">
                   <p>The exposure of exact artificial intelligence model confidence scores in API responses or user interfaces is prevented.</p>
+               </part>
+            </control>
+            <control id="ism-2103" class="ISM-control">
+               <title>Control: ism-2103</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[18].group[2].group[1].control[4]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="0"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Mar-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <part name="statement" id="ism-2103_smt">
+                  <p>Organisational data generated, collected or processed by artificial intelligence applications is not used for training, fine-tuning or improving artificial intelligence models unless informed and explicit consent has been obtained from data owners in advance.</p>
                </part>
             </control>
          </group>
@@ -27492,7 +28099,7 @@
             <p>This section describes the controls applicable to web application development and extends upon the ‘Software development fundamentals’ section of these guidelines.</p>
             <h1>Further information</h1>
             <p>Further information on web application security can be found in the <a href="#d2f005c5-2ad3-4b5e-9eb1-d0642f3560f4">OWASP Application Security Verification Standard 5.0.0</a> and <a href="#18274424-7086-419e-9fae-a6ba64870459">OWASP Top 10 Proactive Controls 2024</a> publications.</p>
-            <p>Further information on web application security risks can be found in the <a href="#436de247-4c95-4449-89a4-fec912605e7d">OWASP Top 10 2021</a> publication.</p>
+            <p>Further information on web application security risks can be found in the <a href="#b5b7b7fc-d3c7-4861-a036-a037593c575b">OWASP Top 10:2025</a> publication.</p>
             <p>Further information on implementing HTTPS can be found in ASD’s <a href="#b8cdbf18-31cb-4e10-bb43-e8488ee8c2f6">Implementing certificates, TLS, HTTPS and opportunistic TLS</a> publication.</p>
             <p>Further information on using TLS in HTTPS can be found in the ‘Transport Layer Security’ section of the <a href="#195abe87-bb1e-4006-8b42-eaecca4d51f1">Guidelines for cryptography</a>.</p>
             <p>Further information on web API security can be found in the <a href="#76087ab6-88d4-4610-9a98-6ddc5f7bd7e6">OWASP API Security Top 10 2023</a> publication.</p>
@@ -32549,7 +33156,7 @@
             <title>Using post-quantum cryptographic algorithms</title>
             <prop name="sort-id" value="catalog[1].group[22].group[2].group[07]"/>
             <part name="overview">
-               <p>Post-quantum cryptographic algorithms are more complex than their traditional counterparts. To reduce the risk that vulnerabilities are introduced via implementation errors, approval is given to specific post-quantum cryptographic standards and their constituent post-quantum cryptographic algorithms.</p>
+               <p>Post-quantum cryptographic algorithms are more complex than their traditional counterparts. To reduce the risk that vulnerabilities are introduced via implementation errors, approval is given to specific post-quantum cryptographic standards. In doing so, FIPS 204 and FIPS 203 state that other foundational standards must also be adhered to, including the required use of FIPS 140-3 validated cryptographic modules. However, while the use of FIPS 140-3 validated modules is preferred, it is not required.</p>
             </part>
             <control id="ism-1990" class="ISM-control">
                <title>Control: ism-1990</title>
@@ -32557,10 +33164,10 @@
                      value="catalog[1].group[22].group[2].group[07].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-24"/>
+                     value="Mar-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -32577,7 +33184,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="TS"/>
                <part name="statement" id="ism-1990_smt">
-                  <p>When using ML-DSA and ML-KEM, as per FIPS 204 and FIPS 203 respectively, adherence to pre-requisite FIPS publications is preferred.</p>
+                  <p>When using ML-DSA and ML-KEM, as per FIPS 204 and FIPS 203 respectively, adherence to pre-requisite FIPS 140-3 validation is preferred.</p>
                </part>
             </control>
          </group>
@@ -37048,8 +37655,12 @@
                   <td>A protocol used in Internet Protocol Security (IPsec) that provides data integrity and data origin authenticity but not confidentiality.</td>
                </tr>
                <tr>
+                  <td>authorisation to operate</td>
+                  <td>The official management decision by a senior executive or senior executives to authorise a system to operate based on the acceptance of the security risks associated with its operation.</td>
+               </tr>
+               <tr>
                   <td>authorising officer</td>
-                  <td>An executive with the authority to formally accept the security risks associated with the operation of a system and to authorise it to operate.</td>
+                  <td>A senior executive with the authority to authorise the operation of a system at an acceptable level of security risk.</td>
                </tr>
                <tr>
                   <td>availability</td>
@@ -37110,6 +37721,10 @@
                <tr>
                   <td>confidentiality</td>
                   <td>The assurance that data is disclosed only to authorised entities.</td>
+               </tr>
+               <tr>
+                  <td>connected vehicle</td>
+                  <td>Any vehicle that is connected to the internet allowing for the relay of data to or from the vehicle. Connected vehicles may be connected to the internet either via embedded internet connectivity, such as a built-in modem, or via a tethered connection to the driver’s smartphone.</td>
                </tr>
                <tr>
                   <td>connection forwarding</td>
@@ -38004,7 +38619,7 @@
       </resource>
       <resource uuid="0bf3a1ef-031a-419b-80c3-08a08b1cee9d">
          <title>Microsoft Security Baselines Blog</title>
-         <rlink href="https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines"/>
+         <rlink href="https://techcommunity.microsoft.com/category/security-baselines/blog/microsoft-security-baselines"/>
       </resource>
       <resource uuid="0cae2aee-3762-482f-8ffe-850e98d7d605">
          <title>Mitigation strategies for edge devices: Practitioner guidance</title>
@@ -38033,11 +38648,11 @@
       <resource uuid="16c8c2ed-5a37-40ac-a29e-3da92ad398dd">
          <title>Information security manual OSCAL catalog - successor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/successor-version/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/successor-version/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/successor-version/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/successor-version/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/successor-version/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/successor-version/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="18203e18-2aca-492e-be44-770b2f47242f">
          <title>AV-TEST</title>
@@ -38095,11 +38710,15 @@
       <resource uuid="22ed0344-d91c-43e9-80e0-adfed1aa0851">
          <title>Information security manual OSCAL catalog - predecessor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/predecessor-version/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/predecessor-version/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/predecessor-version/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/predecessor-version/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/predecessor-version/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/predecessor-version/artifacts/ISM_catalog.yaml"/>
+      </resource>
+      <resource uuid="233c7982-dc01-496e-b761-b24ac06ded49">
+         <title>Artificial intelligence and machine learning: Supply chain risks and mitigations</title>
+         <rlink href="https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/artificial-intelligence-and-machine-learning-supply-chain-risks-and-mitigations"/>
       </resource>
       <resource uuid="23d977b2-e64e-4ebc-a59f-cd95212045c5">
          <title>Implementing network segmentation and segregation</title>
@@ -38208,10 +38827,6 @@
       <resource uuid="42e7d99d-9709-4355-a54d-98959c552aa1">
          <title>Cryptographic Algorithm Validation Program</title>
          <rlink href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program"/>
-      </resource>
-      <resource uuid="436de247-4c95-4449-89a4-fec912605e7d">
-         <title>OWASP Top 10 2021</title>
-         <rlink href="https://owasp.org/Top10/"/>
       </resource>
       <resource uuid="43fbcaf9-03a3-493a-83be-9340a37778fa">
          <title>Hardening Microsoft Windows 11 workstations</title>
@@ -38348,11 +38963,11 @@
       <resource uuid="6455b62e-c7af-4987-b87d-60b9575a59ff">
          <title>Information security manual OSCAL catalog</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="6494bba4-bdb5-4b19-8f6c-8d5506a8bb09">
          <title>Secure by Design foundations</title>
@@ -38360,7 +38975,7 @@
       </resource>
       <resource uuid="672e85cc-2d40-46ba-9e94-c604b9731c75">
          <title>secure programming practices</title>
-         <rlink href="https://insights.sei.cmu.edu/secure-development/"/>
+         <rlink href="https://www.sei.cmu.edu/secure-development/"/>
       </resource>
       <resource uuid="69c67e26-82cf-426a-8358-0e486b5a9287">
          <title>Risk management – Risk assessment techniques</title>
@@ -38404,10 +39019,10 @@
       </resource>
       <resource uuid="79f7a013-97a3-44f2-ba90-fcad6c5e4094">
          <title>Information security manual</title>
-         <prop name="published" value="2025-12-04T00:00:00+10:00"/>
-         <prop name="version" value="2025.12.04"/>
+         <prop name="published" value="2026-03-17T00:00:00+10:00"/>
+         <prop name="version" value="2026.03.17"/>
          <rlink media-type="application/pdf"
-                href="https://www.cyber.gov.au/ism/pdf/v2025.12.04-pdf"/>
+                href="https://www.cyber.gov.au/ism/pdf/v2026.03.17-pdf"/>
       </resource>
       <resource uuid="7a40de61-7e8c-4b58-bba0-446899b22b9e">
          <title>OWASP Top 10 for Large Language Model Applications version 2025</title>
@@ -38427,7 +39042,7 @@
       </resource>
       <resource uuid="7ffd20ed-4f40-43be-a37b-97e7a1b31e2f">
          <title>The CERT Guide to Coordinated Vulnerability Disclosure</title>
-         <rlink href="https://insights.sei.cmu.edu/library/the-cert-guide-to-coordinated-vulnerability-disclosure-2/"/>
+         <rlink href="https://www.sei.cmu.edu/library/the-cert-guide-to-coordinated-vulnerability-disclosure-2/"/>
       </resource>
       <resource uuid="8132c47e-a2dc-4dd9-81d6-38db96e5cec6">
          <title>Hardening Linux workstations and servers</title>
@@ -38459,7 +39074,7 @@
       </resource>
       <resource uuid="86814651-26b5-43f5-807d-0040c2d71169">
          <title>Planning for critical vulnerabilities: What the board of directors needs to know</title>
-         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-to-threats/vulnerability-planning/planning-for-critical-vulnerabilities-what-boards-need-to-know"/>
+         <rlink href="https://www.cyber.gov.au/business-government/detecting-responding-to-threats/vulnerability-planning/planning-for-critical-vulnerabilities-what-the-board-of-directors-needs-to-know"/>
       </resource>
       <resource uuid="86847be4-3a06-4d2f-9952-447158593e0d">
          <title>Introduction to Cross Domain Solutions</title>
@@ -38475,7 +39090,7 @@
       </resource>
       <resource uuid="8a0daed2-8840-443f-a83e-68252d2dcdc5">
          <title>Supply Chain Cyber Security: In Safe Hands</title>
-         <rlink href="https://www.ncsc.govt.nz/resources/cyber-resilience-guidance/supply-chain/"/>
+         <rlink href="https://www.ncsc.govt.nz/protect-your-organisation/supply-chain-cyber-security-in-safe-hands/"/>
       </resource>
       <resource uuid="8a67ffd7-61a4-4773-a1e7-e6b146f51d62">
          <title>Foundations for modern defensible architecture</title>
@@ -38641,6 +39256,10 @@
          <title>Guidelines for media</title>
          <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-media"/>
       </resource>
+      <resource uuid="b5b7b7fc-d3c7-4861-a036-a037593c575b">
+         <title>OWASP Top 10:2025</title>
+         <rlink href="https://owasp.org/Top10/"/>
+      </resource>
       <resource uuid="b6479d9a-43c9-41f2-9dbc-2bb689c8e6d8">
          <title>Cloud assessment and authorisation</title>
          <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/cloud-computing/cloud-assessment-and-authorisation"/>
@@ -38731,7 +39350,7 @@
       </resource>
       <resource uuid="cad720b4-e47a-437d-b272-6958e738131d">
          <title>Common Sense Guide to Mitigating Insider Threats, Seventh Edition</title>
-         <rlink href="https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-seventh-edition/"/>
+         <rlink href="https://www.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-seventh-edition/"/>
       </resource>
       <resource uuid="cae0ac6b-e69b-4359-bfd7-5ee5eff1049d">
          <title>limited use obligation</title>
@@ -38800,10 +39419,6 @@
       <resource uuid="ded13757-3c76-40cb-b46e-f84e46a1c1c7">
          <title>Defending against the malicious use of the Tor network</title>
          <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/network-hardening/defending-against-the-malicious-use-of-the-tor-network"/>
-      </resource>
-      <resource uuid="df17ad0f-58d3-4bb8-814a-b60f34c5f841">
-         <title>Emanation Security Program</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/assessment-evaluation-programs/emanation-security-program"/>
       </resource>
       <resource uuid="dfb52998-0e7e-420d-97e1-d1313c8f919a">
          <title>Restricting Microsoft Office macros</title>

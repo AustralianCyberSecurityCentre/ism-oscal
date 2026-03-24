@@ -1,17 +1,17 @@
 {
   "catalog" : {
-    "uuid" : "85a8e29b-3701-4a30-8692-959678b71d8c",
+    "uuid" : "17056255-e023-4e59-a07f-ae73b3b203f7",
     "metadata" : {
       "title" : "Information security manual Essential Eight Maturity Level Two Baseline",
-      "last-modified" : "2025-12-09T05:06:45.799243089Z",
-      "version" : "2025.12.9",
+      "last-modified" : "2026-03-24T07:59:23.444297458Z",
+      "version" : "2026.03.24",
       "oscal-version" : "1.1.2",
       "props" : [ {
         "name" : "resolution-tool",
         "value" : "libOSCAL-Java+xslt"
       } ],
       "links" : [ {
-        "href" : "https://www.cyber.gov.au/ism/oscal/v2025.12.9/artifacts/ISM_E8_ML2-baseline_profile.xml",
+        "href" : "https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_E8_ML2-baseline_profile.xml",
         "rel" : "source-profile"
       } ],
       "roles" : [ {
@@ -4928,7 +4928,7 @@
         "uuid" : "0bf3a1ef-031a-419b-80c3-08a08b1cee9d",
         "title" : "Microsoft Security Baselines Blog",
         "rlinks" : [ {
-          "href" : "https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines"
+          "href" : "https://techcommunity.microsoft.com/category/security-baselines/blog/microsoft-security-baselines"
         } ]
       }, {
         "uuid" : "131048c7-a2e7-4da3-9257-7a058b06c1f8",
@@ -5252,7 +5252,7 @@
         "uuid" : "cad720b4-e47a-437d-b272-6958e738131d",
         "title" : "Common Sense Guide to Mitigating Insider Threats, Seventh Edition",
         "rlinks" : [ {
-          "href" : "https://insights.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-seventh-edition/"
+          "href" : "https://www.sei.cmu.edu/library/common-sense-guide-to-mitigating-insider-threats-seventh-edition/"
         } ]
       }, {
         "uuid" : "cae0ac6b-e69b-4359-bfd7-5ee5eff1049d",

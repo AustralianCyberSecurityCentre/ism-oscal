@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="aa5ada3f-5113-4e76-b152-baebc5c180b5">
+         uuid="44df6de4-9db2-4508-b3f9-64559353a248">
    <metadata>
       <title>Information security manual Essential Eight Maturity Level One Baseline</title>
-      <last-modified>2025-12-09T05:06:44.331263817Z</last-modified>
-      <version>2025.12.9</version>
+      <last-modified>2026-03-24T07:59:30.933629113Z</last-modified>
+      <version>2026.03.24</version>
       <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2025.12.9/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -2048,7 +2048,7 @@
       </resource>
       <resource uuid="0bf3a1ef-031a-419b-80c3-08a08b1cee9d">
          <title>Microsoft Security Baselines Blog</title>
-         <rlink href="https://techcommunity.microsoft.com/t5/microsoft-security-baselines/bg-p/Microsoft-Security-Baselines"/>
+         <rlink href="https://techcommunity.microsoft.com/category/security-baselines/blog/microsoft-security-baselines"/>
       </resource>
       <resource uuid="131048c7-a2e7-4da3-9257-7a058b06c1f8">
          <title>Secure administration</title>
