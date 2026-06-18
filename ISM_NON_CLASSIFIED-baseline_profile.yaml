@@ -1,20 +1,20 @@
 ---
 profile:
-  uuid: a7f1c4d4-e256-4cee-a003-28e5a239af6b
+  uuid: 0d230420-0640-4346-9dc3-91af99b8b096
   metadata:
     title: Information security manual non-classified Baseline
-    published: 2026-03-24T07:27:00.86569608Z
-    last-modified: 2026-03-24T07:27:00.86569608Z
-    version: 2026.03.24
+    published: 2026-06-18T08:04:29.980978301Z
+    last-modified: 2026-06-18T08:04:29.980978301Z
+    version: 2026.06.18
     oscal-version: 1.1.2
     links:
-    - href: '#6aa8be32-3bbb-46ff-8641-d3fc86f5f8c4'
+    - href: '#0de26100-1a33-4b19-aa61-6c5abcb4f79b'
       rel: canonical
     - href: '#28edc918-7a02-40da-8044-e3a1deb9a324'
       rel: latest-version
-    - href: '#5c573531-b7e0-4a38-8350-acae8339d4bc'
+    - href: '#04f8a71d-94f4-48ac-8e4e-b71306f95195'
       rel: predecessor-version
-    - href: '#b1d7a321-d887-4b98-a5cb-d3901c98c3ca'
+    - href: '#0437bae6-4b8b-4d21-8605-9b4ce77d920f'
       rel: successor-version
     roles:
     - id: prepared-by
@@ -44,7 +44,7 @@ profile:
       party-uuids:
       - ae0012b5-2a98-4610-ba74-08928451a4c0
   imports:
-  - href: '#abea4b79-3bd3-4f68-a333-85cbebb5100d'
+  - href: '#36766a6f-e174-4292-a03e-fcb3b4b09201'
     include-controls:
     - with-ids:
       - ism-principle-gov-01
@@ -142,7 +142,6 @@ profile:
       - ism-1803
       - ism-1625
       - ism-1626
-      - ism-0120
       - ism-0123
       - ism-0140
       - ism-1880
@@ -219,8 +218,12 @@ profile:
       - ism-2071
       - ism-0817
       - ism-0820
-      - ism-1146
+      - ism-2104
+      - ism-2105
+      - ism-2106
       - ism-0821
+      - ism-1146
+      - ism-2107
       - ism-0824
       - ism-1864
       - ism-2074
@@ -322,6 +325,7 @@ profile:
       - ism-1195
       - ism-0869
       - ism-1085
+      - ism-2108
       - ism-1886
       - ism-2096
       - ism-2097
@@ -394,8 +398,10 @@ profile:
       - ism-0337
       - ism-0325
       - ism-0330
-      - ism-0831
       - ism-1059
+      - ism-0459
+      - ism-2109
+      - ism-0831
       - ism-1600
       - ism-1642
       - ism-0347
@@ -439,6 +445,7 @@ profile:
       - ism-1588
       - ism-1914
       - ism-1409
+      - ism-1601
       - ism-0383
       - ism-0380
       - ism-0341
@@ -484,25 +491,20 @@ profile:
       - ism-0938
       - ism-1467
       - ism-1915
+      - ism-2110
       - ism-1806
       - ism-1470
       - ism-1235
+      - ism-2111
+      - ism-2113
+      - ism-2114
+      - ism-1748
+      - ism-1859
       - ism-1667
       - ism-1668
       - ism-1669
       - ism-1542
-      - ism-1859
       - ism-1823
-      - ism-1486
-      - ism-1485
-      - ism-1412
-      - ism-1585
-      - ism-1670
-      - ism-1860
-      - ism-1824
-      - ism-1601
-      - ism-1748
-      - ism-1825
       - ism-1671
       - ism-1488
       - ism-1672
@@ -514,12 +516,21 @@ profile:
       - ism-1891
       - ism-1676
       - ism-1489
+      - ism-1670
+      - ism-1860
+      - ism-1824
+      - ism-1825
+      - ism-1486
+      - ism-1485
+      - ism-1412
+      - ism-1585
       - ism-1826
       - ism-1483
       - ism-1916
       - ism-1246
       - ism-1260
       - ism-1247
+      - ism-2115
       - ism-1245
       - ism-1249
       - ism-1250
@@ -654,21 +665,10 @@ profile:
       - ism-1386
       - ism-1387
       - ism-1899
-      - ism-1143
-      - ism-0298
       - ism-1493
       - ism-1643
-      - ism-1807
-      - ism-1808
-      - ism-1698
-      - ism-1699
-      - ism-1700
-      - ism-1701
-      - ism-1702
-      - ism-1752
-      - ism-1703
-      - ism-1900
-      - ism-1921
+      - ism-1143
+      - ism-0298
       - ism-1876
       - ism-1690
       - ism-1691
@@ -717,6 +717,9 @@ profile:
       - ism-0988
       - ism-0585
       - ism-1959
+      - ism-0120
+      - ism-2116
+      - ism-2117
       - ism-1986
       - ism-1906
       - ism-1907
@@ -727,6 +730,19 @@ profile:
       - ism-1228
       - ism-1988
       - ism-1989
+      - ism-1807
+      - ism-1808
+      - ism-1698
+      - ism-1699
+      - ism-1700
+      - ism-1701
+      - ism-1702
+      - ism-1752
+      - ism-1703
+      - ism-1900
+      - ism-1921
+      - ism-2118
+      - ism-2119
       - ism-0400
       - ism-1419
       - ism-1420
@@ -743,10 +759,12 @@ profile:
       - ism-2030
       - ism-2031
       - ism-2032
+      - ism-2120
       - ism-2033
       - ism-2034
       - ism-2035
       - ism-2036
+      - ism-2121
       - ism-2037
       - ism-2038
       - ism-0401
@@ -791,10 +809,11 @@ profile:
       - ism-1276
       - ism-1278
       - ism-1536
-      - ism-0402
-      - ism-2060
       - ism-2061
+      - ism-2060
       - ism-2062
+      - ism-0402
+      - ism-2122
       - ism-1616
       - ism-1755
       - ism-1756
@@ -807,6 +826,7 @@ profile:
       - ism-2072
       - ism-2085
       - ism-2103
+      - ism-2123
       - ism-2086
       - ism-2087
       - ism-2088
@@ -940,14 +960,12 @@ profile:
       - ism-1436
       - ism-1432
       - ism-0507
-      - ism-1080
-      - ism-0459
-      - ism-0469
       - ism-0455
       - ism-0462
       - ism-0501
       - ism-0142
       - ism-1091
+      - ism-1080
       - ism-0471
       - ism-0994
       - ism-0472
@@ -969,6 +987,7 @@ profile:
       - ism-2073
       - ism-1917
       - ism-1996
+      - ism-0469
       - ism-0481
       - ism-1139
       - ism-1369
@@ -1056,23 +1075,23 @@ profile:
     as-is: true
   back-matter:
     resources:
-    - uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
+    - uuid: 36766a6f-e174-4292-a03e-fcb3b4b09201
       title: Information security manual
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
-    - uuid: 6aa8be32-3bbb-46ff-8641-d3fc86f5f8c4
+    - uuid: 0de26100-1a33-4b19-aa61-6c5abcb4f79b
       title: Information security manual non-classified Baseline
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_NON_CLASSIFIED-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_NON_CLASSIFIED-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_NON_CLASSIFIED-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_NON_CLASSIFIED-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 28edc918-7a02-40da-8044-e3a1deb9a324
       title: Information security manual non-classified Baseline - latest version
@@ -1083,21 +1102,21 @@ profile:
         media-type: application/json
       - href: https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.yaml
         media-type: application/oscal+yaml
-    - uuid: 5c573531-b7e0-4a38-8350-acae8339d4bc
+    - uuid: 04f8a71d-94f4-48ac-8e4e-b71306f95195
       title: Information security manual non-classified Baseline - predecessor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/predecessor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/predecessor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/predecessor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.yaml
         media-type: application/oscal+yaml
-    - uuid: b1d7a321-d887-4b98-a5cb-d3901c98c3ca
+    - uuid: 0437bae6-4b8b-4d21-8605-9b4ce77d920f
       title: Information security manual non-classified Baseline - successor version
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/successor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/successor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/successor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_NON_CLASSIFIED-baseline_profile.yaml
         media-type: application/oscal+yaml

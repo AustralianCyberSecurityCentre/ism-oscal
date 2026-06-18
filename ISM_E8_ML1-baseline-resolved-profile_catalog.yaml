@@ -1,16 +1,16 @@
 ---
 catalog:
-  uuid: 44df6de4-9db2-4508-b3f9-64559353a248
+  uuid: 6c7938bb-54dc-47f1-93a4-7e39ab00fca9
   metadata:
     title: Information security manual Essential Eight Maturity Level One Baseline
-    last-modified: 2026-03-24T07:59:30.933629113Z
-    version: 2026.03.24
+    last-modified: 2026-06-18T08:44:27.980722588Z
+    version: 2026.06.18
     oscal-version: 1.1.2
     props:
     - name: resolution-tool
       value: libOSCAL-Java+xslt
     links:
-    - href: https://www.cyber.gov.au/ism/oscal/v2026.03.24/artifacts/ISM_E8_ML1-baseline_profile.xml
+    - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_E8_ML1-baseline_profile.xml
       rel: source-profile
     roles:
     - id: prepared-by
@@ -54,7 +54,7 @@ catalog:
         prose: |-
           # Security clearances
 
-          Where these guidelines refer to security clearances, it applies to Australian security clearances or security clearances from a foreign government which are formally recognised by Australia.
+          Where these guidelines refer to security clearances, this includes both Australian security clearances and those from foreign governments that are formally recognised by Australia.
 
           # Further information
 
@@ -66,7 +66,7 @@ catalog:
 
           Further information on administering systems and their resources can be found in the ‘System administration’ section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
-          Further information on event logging can be found in the ‘Event logging and monitoring’ section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the ‘Security monitoring’ section of the [Guidelines for security assurance](#ef60c0e4-acfb-4a8b-b5ed-25675c6e117c).
       groups:
       - title: Privileged access to systems
         props:
@@ -259,13 +259,15 @@ catalog:
 
           Further information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.
 
-          Further information on patching or updating operating systems can be found in the ‘System patching’ section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on patching or updating operating systems can be found in the ‘System maintenance’ section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
           Further information on hardening Microsoft Windows operating systems can be found in ASD’s [Hardening Microsoft Windows 10 workstations](#9209d9cd-86c1-486f-890e-1edfa4545093) and [Hardening Microsoft Windows 11 workstations](#43fbcaf9-03a3-493a-83be-9340a37778fa) publications.
 
           Further information on hardening Microsoft Windows operating systems can also be found in Microsoft’s [Windows 11 Security Book](#63bba9d2-127e-41d5-b735-e0cf3fe4b9aa) and on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.
 
           Further information on hardening Linux workstations and servers can be found in ASD’s [Hardening Linux workstations and servers](#8132c47e-a2dc-4dd9-81d6-38db96e5cec6) publication.
+
+          Further information on Microsoft’s attack surface reduction rules can be found on Microsoft’s [attack surface reduction rules overview](#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7) website.
 
           Further information on [exploit protection functionality](#d0df96bb-7236-4784-8f54-2cb6335ad228) within Microsoft Windows is available from Microsoft.
 
@@ -287,7 +289,7 @@ catalog:
 
           Further information on the use of removable media can be found in the ‘Media usage’ section of the [Guidelines for media](#b594c9c0-b42f-4f06-b643-38023275a5c7).
 
-          Further information on event logging can be found in the ‘Event logging and monitoring’ section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the ‘Security monitoring’ section of the [Guidelines for security assurance](#ef60c0e4-acfb-4a8b-b5ed-25675c6e117c).
 
           Further information on security-relevant events to monitor for Apple macOS, Linux and Microsoft Windows operating systems can be found in the following ASD publications:
 
@@ -302,14 +304,14 @@ catalog:
           value: "catalog[1].group[15].group[1].group[04]"
         parts:
         - name: overview
-          prose: "When operating systems are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems to allow them to be configured in an approved secure state in order to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
+          prose: "When operating systems are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within operating systems enabling them to be configured in an approved secure state to minimise this security risk. As such, the Australian Signals Directorate (ASD) and vendors often produce hardening guidance to assist in hardening the configuration of operating systems. However, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
         controls:
         - id: ism-1654
           class: ISM-control
           title: "Control: ism-1654"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[1].group[04].control[06]"
+            value: "catalog[1].group[15].group[1].group[04].control[07]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -351,7 +353,7 @@ catalog:
         parts:
         - name: overview
           prose: |-
-            Application control can be an effective way to not only prevent malicious code from executing on workstations and servers, but also to ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them on an annual or more frequent basis.
+            Application control can be an effective way to both prevent malicious code from executing on workstations and servers and ensure only approved applications can execute. When developing application control rulesets, determining approved executables (e.g. .exe and .com files), libraries (e.g. .dll and.ocx files), scripts (e.g. .ps1, .bat, .cmd, .vbs and .js files), installers (e.g. .msi, .msp and .mst files), compiled HTML (e.g. .chm files), HTML applications (e.g. .hta files), control panel applets (e.g. .cpl files) and drivers based on business requirements is a more secure method than simply approving those already residing on a workstation or server. Furthermore, it is preferable that an organisation defines their own application control rulesets, rather than relying on those from application control vendors, and validate them at least annually.
 
             In implementing application control, an organisation should use a reliable method, or combination of methods, such as cryptographic hash rules, publisher certificate rules or path rules. Depending on the method chosen, further hardening may be required to ensure that application control mechanisms and application control rulesets cannot be bypassed by malicious actors.
 
@@ -486,7 +488,7 @@ catalog:
         prose: |-
           # User applications
 
-          This section is applicable to user applications typically installed on user workstations, such as office productivity suites, web browsers and their extensions, email clients, Portable Document Format (PDF) applications, and security products (e.g. antivirus applications, device access control applications, HIPS and software firewalls). Information on server applications can be found in the ‘Server application hardening’ section of these guidelines.
+          This section is applicable to user applications typically installed on user workstations, such as artificial intelligence (AI) applications, email clients, office productivity suites, Portable Document Format (PDF) applications, security products (e.g. antivirus applications, device access control applications, HIPS and software firewalls) and web browsers, including their extensions. Additional information on cloud-based versions of user applications can be found in the ‘Managed services and cloud services’ section of the [Guidelines for procurement and outsourcing](#f37a4848-0791-4870-b316-5536c2681c28). Information on server applications can be found in the ‘Server application hardening’ section of these guidelines.
 
           # Further information
 
@@ -494,166 +496,43 @@ catalog:
 
           Further information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity \& Infrastructure Security Agency’s [Secure by Design Pledge](#4974639a-f41a-4280-ae06-33d1f13d6083) website.
 
-          Further information on patching or updating user applications can be found in the ‘System patching’ section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
+          Further information on patching or updating user applications can be found in the ‘System maintenance’ section of the [Guidelines for system management](#c6ca6620-ccd5-4c5d-b97c-9d92f1162948).
 
-          Further information on the implementation and configuration of security products can be found in the ‘Operating system hardening’ section of these guidelines.
+          Further information on the use of AI applications can be found in ASD’s [Careful adoption of agentic AI services](#388c3570-58ed-40be-be5e-bdfba9cfee1d) publication.
 
-          Further information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) publication.
+          Further information on hardening AI applications can be found in the United States’ National Security Agency’s [Deploying AI Systems Securely: Best Practices for Deploying Secure and Resilient AI Systems](#c5ca2027-161e-4322-9367-7ec736b4846f) publication.
+
+          Further information on hardening Microsoft Office can be found in ASD’s [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](#58c9abfb-58fe-416e-a279-dfbfe123c99f) and [Restricting Microsoft Office macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publications.
 
           Further information on hardening Microsoft Office can also be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.
+
+          Further information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s [Security Configuration Guide for Acrobat](#9ad09461-7b3d-4faf-bdcd-61df9952cf49) publication.
+
+          Further information on the implementation and configuration of security products can be found in the ‘Operating system hardening’ section of these guidelines.
 
           Further information on hardening Microsoft Edge can be found on the [Microsoft Security Baselines Blog](#0bf3a1ef-031a-419b-80c3-08a08b1cee9d) website.
 
           Further information on hardening Google Chrome can be found in Google’s [Chrome Browser Enterprise Security Configuration Guide (Windows)](#741ab440-5759-4571-894d-e499dea3a54c).
-
-          Further information on hardening Adobe Reader and Adobe Acrobat can be found in Adobe’s [Security Configuration Guide for Acrobat](#9ad09461-7b3d-4faf-bdcd-61df9952cf49) publication.
-
-          Further information on Microsoft’s attack surface reduction rules can be found on Microsoft’s [attack surface reduction rules overview](#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7) website.
-
-          Further information on configuring Microsoft Office macro settings can be found in ASD’s [Restricting Microsoft Office macros](#dfb52998-0e7e-420d-97e1-d1313c8f919a) publication.
       groups:
-      - title: Hardening user application configurations
+      - title: Office productivity suites
         props:
         - name: sort-id
-          value: "catalog[1].group[15].group[2].group[3]"
+          value: "catalog[1].group[15].group[2].group[6]"
         parts:
         - name: overview
-          prose: "When user applications are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. This can be especially risky for office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products as such applications are routinely targeted for exploitation. Many settings exist within such applications to allow them to be configured in an approved secure state in order to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of these applications. Note, however, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance."
-        controls:
-        - id: ism-1486
-          class: ISM-control
-          title: "Control: ism-1486"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[11]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "1"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-21
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1486_smt
-            name: statement
-            prose: Web browsers do not process Java from the internet.
-        - id: ism-1485
-          class: ISM-control
-          title: "Control: ism-1485"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[12]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "1"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-21
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1485_smt
-            name: statement
-            prose: Web browsers do not process web advertisements from the internet.
-        - id: ism-1585
-          class: ISM-control
-          title: "Control: ism-1585"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[15].group[2].group[3].control[14]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "2"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Mar-23
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1585_smt
-            name: statement
-            prose: Web browser security settings cannot be changed by users.
-      - title: Microsoft Office macros
-        props:
-        - name: sort-id
-          value: "catalog[1].group[15].group[2].group[4]"
-        parts:
-        - name: overview
-          prose: "Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed at a later time to automate repetitive tasks. Macros are powerful tools that can be easily created by users to greatly improve their productivity. However, malicious actors can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations in order to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do."
+          prose: |-
+            When office productivity suites, such as Microsoft Office, are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within office productivity suites enabling them to be configured in an approved secure state to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of office productivity suites. However, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.
+
+            In addition, users’ ability to change the security settings of office productivity suites can be exploited by malicious actors using social engineering. To prevent users from removing security functionality, or breaking security functionality, users should not have the ability to change security settings for office productivity suites.
+
+            Finally, Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed later to automate repetitive tasks. Macros are powerful tools that can be easily created by users to improve their productivity. However, malicious actors can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do.
         controls:
         - id: ism-1671
           class: ISM-control
           title: "Control: ism-1671"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[4].control[01]"
+            value: "catalog[1].group[15].group[2].group[6].control[07]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -693,7 +572,7 @@ catalog:
           title: "Control: ism-1488"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[4].control[02]"
+            value: "catalog[1].group[15].group[2].group[6].control[08]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
@@ -733,7 +612,7 @@ catalog:
           title: "Control: ism-1672"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[4].control[03]"
+            value: "catalog[1].group[15].group[2].group[6].control[09]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -773,7 +652,7 @@ catalog:
           title: "Control: ism-1489"
           props:
           - name: sort-id
-            value: "catalog[1].group[15].group[2].group[4].control[11]"
+            value: "catalog[1].group[15].group[2].group[6].control[17]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -808,6 +687,137 @@ catalog:
           - id: ism-1489_smt
             name: statement
             prose: Microsoft Office macro security settings cannot be changed by users.
+      - title: Web browsers
+        props:
+        - name: sort-id
+          value: "catalog[1].group[15].group[2].group[9]"
+        parts:
+        - name: overview
+          prose: |-
+            When web browsers are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within web browsers enabling them to be configured in an approved secure state to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of web browsers. However, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.
+
+            In addition, users’ ability to change the security settings of web browsers can be exploited by malicious actors using social engineering. To prevent users from removing security functionality, or breaking security functionality, users should not have the ability to change the security settings for web browsers.
+        controls:
+        - id: ism-1486
+          class: ISM-control
+          title: "Control: ism-1486"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[2].group[9].control[1]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "1"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Sep-21
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1486_smt
+            name: statement
+            prose: Web browsers do not process Java from the internet.
+        - id: ism-1485
+          class: ISM-control
+          title: "Control: ism-1485"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[2].group[9].control[2]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "1"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Sep-21
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1485_smt
+            name: statement
+            prose: Web browsers do not process web advertisements from the internet.
+        - id: ism-1585
+          class: ISM-control
+          title: "Control: ism-1585"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[15].group[2].group[9].control[4]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "2"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Mar-23
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1585_smt
+            name: statement
+            prose: Web browser security settings cannot be changed by users.
     - title: Authentication hardening
       props:
       - name: sort-id
@@ -817,13 +827,13 @@ catalog:
         prose: |-
           # User accounts and authentication types
 
-          The guidance within this section is equally applicable to all user accounts unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which includes break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.
+          The guidance within this section is equally applicable to all user accounts unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which include break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.
 
           # Further information
 
           Further information on implementing multi-factor authentication can be found in ASD’s [Implementing multi-factor authentication](#83e3a9b1-5057-4531-91dd-03c8d92634b0) publication.
 
-          Further information on event logging can be found in the ‘Event logging and monitoring’ section of the [Guidelines for system monitoring](#edc24216-f52b-4513-bcda-5fa564661999).
+          Further information on event logging can be found in the ‘Security monitoring’ section of the [Guidelines for security assurance](#ef60c0e4-acfb-4a8b-b5ed-25675c6e117c).
 
           Further information on [randomly generating passphrases](#58282062-5c17-476a-98b1-105a627cd28d) is available from the Electronic Frontier Foundation while a [random dice roller](#0508be6f-cb97-44da-b212-42416a0048b0) is available from RANDOM.ORG.
 
@@ -1150,7 +1160,7 @@ catalog:
         prose: |-
           # System administration of cloud services
 
-          System administration of cloud services brings unique challenges when compared to system administration of on-premises assets. Notably, responsibility for system administration of cloud services is often shared between service providers and their customers. As the system administration processes and procedures implemented by service providers are often opaque to their customers, customers should consider a service provider’s control plane to operate within a different security domain.
+          System administration of cloud services brings unique challenges when compared to system administration of on-premises assets. Importantly, responsibility for system administration of cloud services is often shared between service providers and their customers. As the system administration processes and procedures implemented by service providers are often opaque to their customers, customers should consider a service provider’s control plane to operate within a different security domain.
 
           # Further information
 
@@ -1293,7 +1303,7 @@ catalog:
           - id: ism-1689_smt
             name: statement
             prose: Privileged user accounts (excluding local administrator accounts) cannot logon to unprivileged operating environments.
-    - title: System patching
+    - title: System maintenance
       props:
       - name: sort-id
         value: "catalog[1].group[16].group[2]"
@@ -1314,258 +1324,10 @@ catalog:
 
           Further information on hardening server applications can be found in the ‘Server application hardening’ section of the [Guidelines for system hardening](#de7525f3-a466-40a5-abdd-3ae24a6d1b44).
       groups:
-      - title: Scanning for unmitigated vulnerabilities
-        props:
-        - name: sort-id
-          value: "catalog[1].group[16].group[2].group[3]"
-        parts:
-        - name: overview
-          prose: "To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identifies all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at twice the frequency in which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release then vulnerability scanning should be undertaken at least weekly."
-        controls:
-        - id: ism-1807
-          class: ISM-control
-          title: "Control: ism-1807"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[16].group[2].group[3].control[01]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-22
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1807_smt
-            name: statement
-            prose: An automated method of asset discovery is used at least fortnightly to support the detection of assets for subsequent vulnerability scanning activities.
-        - id: ism-1808
-          class: ISM-control
-          title: "Control: ism-1808"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[16].group[2].group[3].control[02]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "0"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-22
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1808_smt
-            name: statement
-            prose: A vulnerability scanner with an up-to-date vulnerability database is used for vulnerability scanning activities.
-        - id: ism-1698
-          class: ISM-control
-          title: "Control: ism-1698"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[16].group[2].group[3].control[03]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "1"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-23
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1698_smt
-            name: statement
-            prose: A vulnerability scanner is used at least daily to identify missing patches or updates for vulnerabilities in online services.
-        - id: ism-1699
-          class: ISM-control
-          title: "Control: ism-1699"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[16].group[2].group[3].control[04]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "2"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Jun-25
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1699_smt
-            name: statement
-            prose: "A vulnerability scanner is used at least weekly to identify missing patches or updates for vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products."
-        - id: ism-1701
-          class: ISM-control
-          title: "Control: ism-1701"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[16].group[2].group[3].control[06]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "1"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Sep-23
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1701_smt
-            name: statement
-            prose: A vulnerability scanner is used at least daily to identify missing patches or updates for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices.
-        - id: ism-1702
-          class: ISM-control
-          title: "Control: ism-1702"
-          props:
-          - name: sort-id
-            value: "catalog[1].group[16].group[2].group[3].control[07]"
-          - name: revision
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: "2"
-          - name: updated
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: Dec-23
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: NC
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: OS
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: P
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: S
-          - name: applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: TS
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML1
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML2
-          - name: essential-eight-applicability
-            ns: https://cyber.gov.au/ns/ism/oscal/3.0
-            value: ML3
-          parts:
-          - id: ism-1702_smt
-            name: statement
-            prose: "A vulnerability scanner is used at least fortnightly to identify missing patches or updates for vulnerabilities in operating systems of workstations, non-internet-facing servers and non-internet-facing network devices."
       - title: Mitigating known vulnerabilities
         props:
         - name: sort-id
-          value: "catalog[1].group[16].group[2].group[4]"
+          value: "catalog[1].group[16].group[2].group[2]"
         parts:
         - name: overview
           prose: |-
@@ -1573,14 +1335,14 @@ catalog:
 
             If no patches or updates are available for vulnerabilities, mitigation advice from vendors, trustworthy authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.
 
-            If a patch or update is released for high assurance IT equipment, ASD will conduct an assessment of the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied.
+            If a patch or update is released for high assurance IT equipment, ASD will assess the patch or update. Subsequently, if the patch or update is approved for deployment, ASD will provide guidance on the methods and timeframes in which it is to be applied.
         controls:
         - id: ism-1876
           class: ISM-control
           title: "Control: ism-1876"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[4].control[01]"
+            value: "catalog[1].group[16].group[2].group[2].control[01]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -1620,7 +1382,7 @@ catalog:
           title: "Control: ism-1690"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[4].control[02]"
+            value: "catalog[1].group[16].group[2].group[2].control[02]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
@@ -1660,7 +1422,7 @@ catalog:
           title: "Control: ism-1691"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[4].control[03]"
+            value: "catalog[1].group[16].group[2].group[2].control[03]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
@@ -1697,7 +1459,7 @@ catalog:
           title: "Control: ism-1877"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[4].control[07]"
+            value: "catalog[1].group[16].group[2].group[2].control[07]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -1737,7 +1499,7 @@ catalog:
           title: "Control: ism-1694"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[4].control[08]"
+            value: "catalog[1].group[16].group[2].group[2].control[08]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
@@ -1777,7 +1539,7 @@ catalog:
           title: "Control: ism-1695"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[4].control[09]"
+            value: "catalog[1].group[16].group[2].group[2].control[09]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "2"
@@ -1812,7 +1574,7 @@ catalog:
       - title: Cessation of support
         props:
         - name: sort-id
-          value: "catalog[1].group[16].group[2].group[5]"
+          value: "catalog[1].group[16].group[2].group[3]"
         parts:
         - name: overview
           prose: |-
@@ -1827,7 +1589,7 @@ catalog:
           title: "Control: ism-1905"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[5].control[1]"
+            value: "catalog[1].group[16].group[2].group[3].control[1]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "0"
@@ -1867,7 +1629,7 @@ catalog:
           title: "Control: ism-1704"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[5].control[2]"
+            value: "catalog[1].group[16].group[2].group[3].control[2]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "3"
@@ -1907,7 +1669,7 @@ catalog:
           title: "Control: ism-1501"
           props:
           - name: sort-id
-            value: "catalog[1].group[16].group[2].group[5].control[4]"
+            value: "catalog[1].group[16].group[2].group[3].control[4]"
           - name: revision
             ns: https://cyber.gov.au/ns/ism/oscal/3.0
             value: "1"
@@ -1952,6 +1714,8 @@ catalog:
           # Further information
 
           Further information on [digital preservation planning](#53da8dba-961e-4222-94e0-68cb9510384d) and [data retention](#348be728-4459-4447-990e-1dfb3049c71f) is available from the National Archives of Australia.
+
+          Further information on the [retention of records created using artificial intelligence](#c4f9eb1b-753e-4d16-a05e-55e6dca1dd3f) is also available from the National Archives of Australia.
 
           Further information on the collection and retention of personal information can be found in the Office of the Australian Information Commissioner’s [Australian Privacy Principles](#bac2c6f2-9356-46d2-b7c4-9af7393008df) and the associated [Australian Privacy Principles guidelines](#1e4a57a2-2832-441d-8ea4-12a98d2be417).
 
@@ -2091,7 +1855,7 @@ catalog:
           value: "catalog[1].group[16].group[3].group[4]"
         parts:
         - name: overview
-          prose: "To mitigate the security risk of unauthorised access to backups, an organisation should ensure that access to backups is controlled through the use of appropriate access controls."
+          prose: "To mitigate the security risk of unauthorised access to backups, an organisation should ensure that access to backups is controlled by using appropriate access controls."
         controls:
         - id: ism-1812
           class: ISM-control
@@ -2139,7 +1903,7 @@ catalog:
           value: "catalog[1].group[16].group[3].group[5]"
         parts:
         - name: overview
-          prose: "To mitigate the security risk of backups being accidentally or maliciously modified or deleted, an organisation should ensure that backups are sufficiently protected from unauthorised modification and deletion through the use of appropriate access controls during their retention period."
+          prose: "To mitigate the security risk of backups being accidentally or maliciously modified or deleted, an organisation should ensure that backups are sufficiently protected from unauthorised modification and deletion by using appropriate access controls during their retention period."
         controls:
         - id: ism-1814
           class: ISM-control
@@ -2229,6 +1993,272 @@ catalog:
           - id: ism-1515_smt
             name: statement
             prose: "Restoration of data, applications and settings from backups to a common point in time is tested as part of disaster recovery exercises."
+  - title: Guidelines for security assurance
+    props:
+    - name: sort-id
+      value: "catalog[1].group[17]"
+    groups:
+    - title: Security assessments
+      props:
+      - name: sort-id
+        value: "catalog[1].group[17].group[2]"
+      parts:
+      - name: overview
+        prose: |-
+          # Further information
+
+          Further information on responsibilities for security assessment activities as part of continuously monitoring the security of systems can be found in the ‘System owners’ section of the [Guidelines for cyber security roles](#626dab35-81ab-45fe-8c12-0faff1c23c07).
+
+          Further information on using AI models for security assessment activities can be found in ASD’s [Opportunities for AI in cyber defence](#aff92212-4cd2-459a-9ba1-d4dd1815ebec) publication.
+      groups:
+      - title: Vulnerability scanning
+        props:
+        - name: sort-id
+          value: "catalog[1].group[17].group[2].group[1]"
+        parts:
+        - name: overview
+          prose: "To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identify all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at twice the frequency at which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release then vulnerability scanning should be undertaken at least weekly."
+        controls:
+        - id: ism-1807
+          class: ISM-control
+          title: "Control: ism-1807"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[17].group[2].group[1].control[01]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Dec-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1807_smt
+            name: statement
+            prose: An automated method of asset discovery is used at least fortnightly to support the detection of assets for subsequent vulnerability scanning activities.
+        - id: ism-1808
+          class: ISM-control
+          title: "Control: ism-1808"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[17].group[2].group[1].control[02]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "0"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Dec-22
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1808_smt
+            name: statement
+            prose: A vulnerability scanner with an up-to-date vulnerability database is used for vulnerability scanning activities.
+        - id: ism-1698
+          class: ISM-control
+          title: "Control: ism-1698"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[17].group[2].group[1].control[03]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "1"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Sep-23
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1698_smt
+            name: statement
+            prose: A vulnerability scanner is used at least daily to identify missing patches or updates for vulnerabilities in online services.
+        - id: ism-1699
+          class: ISM-control
+          title: "Control: ism-1699"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[17].group[2].group[1].control[04]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "2"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Jun-25
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1699_smt
+            name: statement
+            prose: "A vulnerability scanner is used at least weekly to identify missing patches or updates for vulnerabilities in office productivity suites, web browsers and their extensions, email clients, PDF applications, and security products."
+        - id: ism-1701
+          class: ISM-control
+          title: "Control: ism-1701"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[17].group[2].group[1].control[06]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "1"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Sep-23
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1701_smt
+            name: statement
+            prose: A vulnerability scanner is used at least daily to identify missing patches or updates for vulnerabilities in operating systems of internet-facing servers and internet-facing network devices.
+        - id: ism-1702
+          class: ISM-control
+          title: "Control: ism-1702"
+          props:
+          - name: sort-id
+            value: "catalog[1].group[17].group[2].group[1].control[07]"
+          - name: revision
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: "2"
+          - name: updated
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: Dec-23
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: NC
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: OS
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: P
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: S
+          - name: applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: TS
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML1
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML2
+          - name: essential-eight-applicability
+            ns: https://cyber.gov.au/ns/ism/oscal/3.0
+            value: ML3
+          parts:
+          - id: ism-1702_smt
+            name: statement
+            prose: "A vulnerability scanner is used at least fortnightly to identify missing patches or updates for vulnerabilities in operating systems of workstations, non-internet-facing servers and non-internet-facing network devices."
   back-matter:
     resources:
     - uuid: 02fb4cb5-e4c4-4097-97a2-f1b6aa04131a
@@ -2275,6 +2305,10 @@ catalog:
       title: data retention
       rlinks:
       - href: https://www.naa.gov.au/information-management/records-authorities/types-records-authorities/afda-express-version-2-functions
+    - uuid: 388c3570-58ed-40be-be5e-bdfba9cfee1d
+      title: Careful adoption of agentic AI services
+      rlinks:
+      - href: https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/careful-adoption-of-agentic-ai-services
     - uuid: 3a1a00f6-2f56-4d04-b99d-6f1682b95a98
       title: detect or prevent various stages of network intrusions
       rlinks:
@@ -2399,6 +2433,10 @@ catalog:
       title: greater visibility through PowerShell logging
       rlinks:
       - href: https://cloud.google.com/blog/topics/threat-intelligence/greater-visibility/
+    - uuid: aff92212-4cd2-459a-9ba1-d4dd1815ebec
+      title: Opportunities for AI in cyber defence
+      rlinks:
+      - href: https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/opportunities-for-ai-in-cyber-defence
     - uuid: b594c9c0-b42f-4f06-b643-38023275a5c7
       title: Guidelines for media
       rlinks:
@@ -2407,6 +2445,14 @@ catalog:
       title: Australian Privacy Principles
       rlinks:
       - href: https://www.oaic.gov.au/privacy/australian-privacy-principles
+    - uuid: c4f9eb1b-753e-4d16-a05e-55e6dca1dd3f
+      title: retention of records created using artificial intelligence
+      rlinks:
+      - href: https://www.naa.gov.au/information-management/manage-information-assets/types-information/information-management-records-created-using-artificial-intelligence-ai-technologies
+    - uuid: c5ca2027-161e-4322-9367-7ec736b4846f
+      title: "Deploying AI Systems Securely: Best Practices for Deploying Secure and Resilient AI Systems"
+      rlinks:
+      - href: https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3741371/nsa-publishes-guidance-for-strengthening-ai-system-security/
     - uuid: c6ca6620-ccd5-4c5d-b97c-9d92f1162948
       title: Guidelines for system management
       rlinks:
@@ -2439,10 +2485,10 @@ catalog:
       title: Restricting Microsoft Office macros
       rlinks:
       - href: https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/restricting-microsoft-office-macros
-    - uuid: edc24216-f52b-4513-bcda-5fa564661999
-      title: Guidelines for system monitoring
+    - uuid: ef60c0e4-acfb-4a8b-b5ed-25675c6e117c
+      title: Guidelines for security assurance
       rlinks:
-      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-system-monitoring
+      - href: https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-security-assurance
     - uuid: f145ff5b-d396-4248-8f48-621349d6f0ed
       title: Guidelines for networking
       rlinks:
