@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="6c7938bb-54dc-47f1-93a4-7e39ab00fca9">
+         uuid="a0aaef0d-6af1-4506-9969-23e568cdb97d">
    <metadata>
       <title>Information security manual Essential Eight Maturity Level One Baseline</title>
-      <last-modified>2026-06-18T08:44:27.980722588Z</last-modified>
-      <version>2026.06.18</version>
+      <last-modified>2026-09-03T23:27:09.796167465Z</last-modified>
+      <version>2026.09.4</version>
       <oscal-version>1.1.2</oscal-version>
       <prop name="resolution-tool" value="libOSCAL-Java+xslt"/>
       <link rel="source-profile"
-            href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
+            href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -32,191 +32,14 @@
       </responsible-party>
    </metadata>
    <group>
-      <title>Guidelines for personnel security</title>
-      <prop name="sort-id" value="catalog[1].group[08]"/>
-      <group>
-         <title>Access to systems and their resources</title>
-         <prop name="sort-id" value="catalog[1].group[08].group[2]"/>
-         <part name="overview">
-            <h1>Security clearances</h1>
-            <p>Where these guidelines refer to security clearances, this includes both Australian security clearances and those from foreign governments that are formally recognised by Australia.</p>
-            <h1>Further information</h1>
-            <p>Further information on access to government resources, including required security clearances, can be found in the Department of Home Affairs’ <a href="#92679127-f61d-486a-a93e-df2a26dfb07a">Protective Security Policy Framework</a>.</p>
-            <p>Further information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.</p>
-            <p>Further information on restricting the use of privileged user accounts can be found in ASD’s <a href="#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b">Restricting administrative privileges</a> publication.</p>
-            <p>Further information on administering systems and their resources can be found in the ‘System administration’ section of the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for system management</a>.</p>
-            <p>Further information on event logging can be found in the ‘Security monitoring’ section of the <a href="#ef60c0e4-acfb-4a8b-b5ed-25675c6e117c">Guidelines for security assurance</a>.</p>
-         </part>
-         <group>
-            <title>Privileged access to systems</title>
-            <prop name="sort-id" value="catalog[1].group[08].group[2].group[08]"/>
-            <part name="overview">
-               <p>Privileged user accounts are considered those that can alter or circumvent system controls. This also applies to user accounts that may only have limited privileges but still have the ability to bypass some system controls.</p>
-               <p>Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems and their resources. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users and services to undertake their duties.</p>
-               <p>Finally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems and their resources, detecting malicious behaviour and contributing to investigations following cyber security incidents.</p>
-            </part>
-            <control id="ism-1507" class="ISM-control">
-               <title>Control: ism-1507</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[08].group[2].group[08].control[1]"/>
-               <prop name="revision"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="4"/>
-               <prop name="updated"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Jun-25"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="NC"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="P"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="S"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="TS"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML1"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML2"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML3"/>
-               <part id="ism-1507_smt" name="statement">
-                  <p>Requests for privileged access to systems and their resources are validated when first requested.</p>
-               </part>
-            </control>
-            <control id="ism-1175" class="ISM-control">
-               <title>Control: ism-1175</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[08].group[2].group[08].control[3]"/>
-               <prop name="revision"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="6"/>
-               <prop name="updated"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-24"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="NC"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="P"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="S"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="TS"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML1"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML2"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML3"/>
-               <part id="ism-1175_smt" name="statement">
-                  <p>Privileged user accounts (excluding those explicitly authorised to access online services) are prevented from accessing the internet, email and web services.</p>
-               </part>
-            </control>
-            <control id="ism-1883" class="ISM-control">
-               <title>Control: ism-1883</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[08].group[2].group[08].control[4]"/>
-               <prop name="revision"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="1"/>
-               <prop name="updated"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-24"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="NC"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="P"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="S"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="TS"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML1"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML2"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML3"/>
-               <part id="ism-1883_smt" name="statement">
-                  <p>Privileged user accounts explicitly authorised to access online services are strictly limited to only what is required for users and services to undertake their duties.</p>
-               </part>
-            </control>
-            <control id="ism-0445" class="ISM-control">
-               <title>Control: ism-0445</title>
-               <prop name="sort-id"
-                     value="catalog[1].group[08].group[2].group[08].control[6]"/>
-               <prop name="revision"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="8"/>
-               <prop name="updated"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-24"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="NC"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="OS"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="P"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="S"/>
-               <prop name="applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="TS"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML1"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML2"/>
-               <prop name="essential-eight-applicability"
-                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="ML3"/>
-               <part id="ism-0445_smt" name="statement">
-                  <p>Privileged users are assigned a dedicated privileged user account to be used solely for duties requiring privileged access.</p>
-               </part>
-            </control>
-         </group>
-      </group>
-   </group>
-   <group>
       <title>Guidelines for system hardening</title>
       <prop name="sort-id" value="catalog[1].group[15]"/>
       <group>
          <title>Operating system hardening</title>
          <prop name="sort-id" value="catalog[1].group[15].group[1]"/>
          <part name="overview">
+            <h1>Context</h1>
+            <p>This section describes security controls applicable to operating systems used on workstations and servers. Guidance on the use of mobile operating systems is available in the ‘Mobile device management’ section of the <a href="#9a8f5a63-bcd5-45a8-9f9c-974fc796ac95">Guidelines for enterprise mobility</a>.</p>
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the ‘Cyber supply chain risk management’ section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for procurement and outsourcing</a>.</p>
             <p>Further information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity &amp; Infrastructure Security Agency’s <a href="#4974639a-f41a-4280-ae06-33d1f13d6083">Secure by Design Pledge</a> website.</p>
@@ -226,6 +49,7 @@
             <p>Further information on hardening Linux workstations and servers can be found in ASD’s <a href="#8132c47e-a2dc-4dd9-81d6-38db96e5cec6">Hardening Linux workstations and servers</a> publication.</p>
             <p>Further information on Microsoft’s attack surface reduction rules can be found on Microsoft’s <a href="#82ae76a4-ed9e-4a7b-8bad-f1950c41eab7">attack surface reduction rules overview</a> website.</p>
             <p>Further information on <a href="#d0df96bb-7236-4784-8f54-2cb6335ad228">exploit protection functionality</a> within Microsoft Windows is available from Microsoft.</p>
+            <p>Further information on <a href="#d446dea3-c36d-45af-9623-05b686624af0">memory integrity functionality</a> is available from Microsoft.</p>
             <p>Further information on implementing application control can be found in ASD’s <a href="#4eeff329-cea0-4baf-a80b-8b0b76436075">Implementing application control</a> publication.</p>
             <p>Further information on Microsoft’s <a href="#5a2ed3ef-afcc-485e-8014-5107e9ed97e3">recommended application blocklist</a> and <a href="#4a3a265f-7772-433b-9906-7f784052f28b">vulnerable driver blocklist</a> are available from Microsoft.</p>
             <p>Further information on <a href="#0a1508c0-b062-4d85-8ded-a95316e17a3a">command line process logging</a> is available from Microsoft.</p>
@@ -424,13 +248,13 @@
          <title>User application hardening</title>
          <prop name="sort-id" value="catalog[1].group[15].group[2]"/>
          <part name="overview">
-            <h1>User applications</h1>
-            <p>This section is applicable to user applications typically installed on user workstations, such as artificial intelligence (AI) applications, email clients, office productivity suites, Portable Document Format (PDF) applications, security products (e.g. antivirus applications, device access control applications, HIPS and software firewalls) and web browsers, including their extensions. Additional information on cloud-based versions of user applications can be found in the ‘Managed services and cloud services’ section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for procurement and outsourcing</a>. Information on server applications can be found in the ‘Server application hardening’ section of these guidelines.</p>
+            <h1>Context</h1>
+            <p>This section describes security controls applicable to user applications typically installed on workstations, such as artificial intelligence (AI) applications, email clients, office productivity suites, Portable Document Format (PDF) applications, security products (e.g. antivirus applications, device access control applications, HIPS and software firewalls) and web browsers, including their extensions. Additional information on cloud-based versions of user applications can be found in the ‘Managed services and cloud services’ section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for procurement and outsourcing</a>. Information on server applications can be found in the ‘Server application hardening’ section of these guidelines.</p>
             <h1>Further information</h1>
             <p>Further information on cyber supply chain risk management can be found in the ‘Cyber supply chain risk management’ section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for procurement and outsourcing</a>.</p>
             <p>Further information on vendors that have made a pledge to implement Secure by Design and Secure by Default principles and practices can be found on the United States’ Cybersecurity &amp; Infrastructure Security Agency’s <a href="#4974639a-f41a-4280-ae06-33d1f13d6083">Secure by Design Pledge</a> website.</p>
             <p>Further information on patching or updating user applications can be found in the ‘System maintenance’ section of the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for system management</a>.</p>
-            <p>Further information on the use of AI applications can be found in ASD’s <a href="#388c3570-58ed-40be-be5e-bdfba9cfee1d">Careful adoption of agentic AI services</a> publication.</p>
+            <p>Further information on the use of AI agents can be found in ASD’s <a href="#388c3570-58ed-40be-be5e-bdfba9cfee1d">Careful adoption of agentic AI services</a> publication.</p>
             <p>Further information on hardening AI applications can be found in the United States’ National Security Agency’s <a href="#c5ca2027-161e-4322-9367-7ec736b4846f">Deploying AI Systems Securely: Best Practices for Deploying Secure and Resilient AI Systems</a> publication.</p>
             <p>Further information on hardening Microsoft Office can be found in ASD’s <a href="#58c9abfb-58fe-416e-a279-dfbfe123c99f">Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</a> and <a href="#dfb52998-0e7e-420d-97e1-d1313c8f919a">Restricting Microsoft Office macros</a> publications.</p>
             <p>Further information on hardening Microsoft Office can also be found on the <a href="#0bf3a1ef-031a-419b-80c3-08a08b1cee9d">Microsoft Security Baselines Blog</a> website.</p>
@@ -444,8 +268,8 @@
             <prop name="sort-id" value="catalog[1].group[15].group[2].group[6]"/>
             <part name="overview">
                <p>When office productivity suites, such as Microsoft Office, are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within office productivity suites enabling them to be configured in an approved secure state to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of office productivity suites. However, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
-               <p>In addition, users’ ability to change the security settings of office productivity suites can be exploited by malicious actors using social engineering. To prevent users from removing security functionality, or breaking security functionality, users should not have the ability to change security settings for office productivity suites.</p>
-               <p>Finally, Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed later to automate repetitive tasks. Macros are powerful tools that can be easily created by users to improve their productivity. However, malicious actors can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for users that do not have a demonstrated business requirement and secure their use for the remaining users that do.</p>
+               <p>In addition, human users’ ability to change the security settings of office productivity suites can be exploited by malicious actors using social engineering. To prevent human users from removing security functionality, or breaking security functionality, human users should not have the ability to change security settings for office productivity suites.</p>
+               <p>Finally, Microsoft Office files can contain embedded code, known as a macro, written in the Visual Basic for Applications programming language. A macro can contain a series of commands that can be coded or recorded and replayed later to automate repetitive tasks. Macros are powerful tools that can be easily created by human users to improve their productivity. However, malicious actors can also create macros to perform a variety of malicious activities, such as assisting to compromise workstations to exfiltrate or deny access to data. To reduce this security risk, an organisation should disable Microsoft Office macros for human users that do not have a demonstrated business requirement and secure their use for those that do.</p>
             </part>
             <control id="ism-1671" class="ISM-control">
                <title>Control: ism-1671</title>
@@ -453,10 +277,10 @@
                      value="catalog[1].group[15].group[2].group[6].control[07]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-21"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -482,7 +306,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1671_smt" name="statement">
-                  <p>Microsoft Office macros are disabled for users that do not have a demonstrated business requirement.</p>
+                  <p>Microsoft Office macros are disabled for human users that do not have a demonstrated business requirement.</p>
                </part>
             </control>
             <control id="ism-1488" class="ISM-control">
@@ -567,10 +391,10 @@
                      value="catalog[1].group[15].group[2].group[6].control[17]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-18"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -596,7 +420,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1489_smt" name="statement">
-                  <p>Microsoft Office macro security settings cannot be changed by users.</p>
+                  <p>Microsoft Office macro security settings cannot be changed by human users.</p>
                </part>
             </control>
          </group>
@@ -605,7 +429,7 @@
             <prop name="sort-id" value="catalog[1].group[15].group[2].group[9]"/>
             <part name="overview">
                <p>When web browsers are deployed in their default state, or with an unapproved configuration, it can lead to an insecure operating environment that may allow malicious actors to gain an initial foothold on networks. Many settings exist within web browsers enabling them to be configured in an approved secure state to minimise this security risk. As such, ASD and vendors often produce hardening guidance to assist in hardening the configuration of web browsers. However, in situations where ASD and vendor hardening guidance conflicts, precedence should be given to implementing the most restrictive guidance.</p>
-               <p>In addition, users’ ability to change the security settings of web browsers can be exploited by malicious actors using social engineering. To prevent users from removing security functionality, or breaking security functionality, users should not have the ability to change the security settings for web browsers.</p>
+               <p>In addition, human users’ ability to change the security settings of web browsers can be exploited by malicious actors using social engineering. To prevent human users from removing security functionality, or breaking security functionality, human users should not have the ability to change the security settings for web browsers.</p>
             </part>
             <control id="ism-1486" class="ISM-control">
                <title>Control: ism-1486</title>
@@ -689,10 +513,10 @@
                      value="catalog[1].group[15].group[2].group[9].control[4]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="2"/>
+                     value="3"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Mar-23"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -718,51 +542,217 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1585_smt" name="statement">
-                  <p>Web browser security settings cannot be changed by users.</p>
+                  <p>Web browser security settings cannot be changed by human users.</p>
                </part>
             </control>
          </group>
       </group>
+   </group>
+   <group>
+      <title>Guidelines for system access</title>
+      <prop name="sort-id" value="catalog[1].group[16]"/>
       <group>
-         <title>Authentication hardening</title>
-         <prop name="sort-id" value="catalog[1].group[15].group[4]"/>
+         <title>Identity and access management</title>
+         <prop name="sort-id" value="catalog[1].group[16].group[1]"/>
          <part name="overview">
-            <h1>User accounts and authentication types</h1>
-            <p>The guidance within this section is equally applicable to all user accounts unless specified otherwise. This includes unprivileged user accounts and privileged user accounts, which include break glass accounts and service accounts. In addition, the guidance is equally applicable to interactive authentication and non-interactive authentication.</p>
+            <h1>Context</h1>
+            <p>Where these guidelines refer to security clearances, this includes both Australian security clearances and those from foreign governments that are formally recognised by Australia.</p>
+            <p>In addition, while some security controls in these guidelines apply specifically to human users, security controls for identifying, authenticating, authorising and monitoring users also apply to non-human users, such as services, applications, workloads and artificial intelligence (AI) agents.</p>
             <h1>Further information</h1>
-            <p>Further information on implementing multi-factor authentication can be found in ASD’s <a href="#83e3a9b1-5057-4531-91dd-03c8d92634b0">Implementing multi-factor authentication</a> publication.</p>
+            <p>Further information on access to government resources, including required security clearances, can be found in the Department of Home Affairs’ <a href="#92679127-f61d-486a-a93e-df2a26dfb07a">Protective Security Policy Framework</a>.</p>
+            <p>Further information on access to highly sensitive government resources, including required briefings, can be found in the Government Security Committee’s Australian Government Security Caveat Guidelines. This publication is available from the Protective Security Policy GovTEAMS community or the Australian Security Intelligence Organisation by email.</p>
+            <p>Further information on restricting the use of privileged user accounts can be found in ASD’s <a href="#3ccea9a8-a728-4f5b-a0a8-43f2f206f76b">Restricting administrative privileges</a> publication.</p>
+            <p>Further information on administering systems and their resources can be found in the ‘System administration’ section of the <a href="#c6ca6620-ccd5-4c5d-b97c-9d92f1162948">Guidelines for system management</a>.</p>
             <p>Further information on event logging can be found in the ‘Security monitoring’ section of the <a href="#ef60c0e4-acfb-4a8b-b5ed-25675c6e117c">Guidelines for security assurance</a>.</p>
-            <p>Further information on <a href="#58282062-5c17-476a-98b1-105a627cd28d">randomly generating passphrases</a> is available from the Electronic Frontier Foundation while a <a href="#0508be6f-cb97-44da-b212-42416a0048b0">random dice roller</a> is available from RANDOM.ORG.</p>
-            <p>Further information on how to <a href="#91b92563-d991-40fa-9adc-548df9f6c496">secure group Managed Service Accounts</a> in Microsoft Windows Server is available from Microsoft.</p>
-            <p>Further information on changing credentials for the Kerberos Key Distribution Center’s service account can be found in Microsoft’s <a href="#ae426d0a-adb6-43b8-a463-faa33e83b679">Active Directory accounts</a> and <a href="#3e5a98e5-9219-46c8-81c2-e3a4d13407ce">Active Directory Forest Recovery - Reset the krbtgt password</a> publications. A script for <a href="#f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b">changing credentials for this service account</a> is also available from Microsoft.</p>
-            <p>Further information <a href="#d446dea3-c36d-45af-9623-05b686624af0">memory integrity functionality</a> is available from Microsoft.</p>
-            <p>Further information on <a href="#3f43c8d2-8a8c-4e2f-af80-48a607bce643">Local Security Authority protection functionality</a> is available from Microsoft.</p>
-            <p>Further information on <a href="#8d53ee7f-54c2-4380-8408-f7403db30ba1">Credential Guard functionality</a> and <a href="#92975dff-58e0-4813-842b-f27c0533ca56">Remote Credential Guard functionality</a> is available from Microsoft.</p>
+            <p>Further information on the use of AI agents can be found in ASD’s <a href="#388c3570-58ed-40be-be5e-bdfba9cfee1d">Careful adoption of agentic AI services</a> publication.</p>
+            <p>Further information on implementing multi-factor authentication can be found in ASD’s <a href="#83e3a9b1-5057-4531-91dd-03c8d92634b0">Implementing multi-factor authentication</a> publication.</p>
          </part>
          <group>
+            <title>Privileged access to systems</title>
+            <prop name="sort-id" value="catalog[1].group[16].group[1].group[07]"/>
+            <part name="overview">
+               <p>Privileged user accounts are considered those that can alter or circumvent security controls. This also applies to user accounts that may only have limited privileges but still have the ability to bypass some security controls.</p>
+               <p>Privileged user accounts are often targeted by malicious actors as they can potentially give full access to systems and their resources. As such, ensuring that privileged user accounts are prevented from accessing the internet, email and web services minimises opportunities for these accounts to be compromised. However, if privileged user accounts are explicitly authorised to access online services, they should be strictly limited to only what is required for users to undertake their duties or functions.</p>
+               <p>Finally, centrally logging and analysing privileged access events, as well as privileged user account and security group management events, can assist in monitoring the security posture of systems and their resources, detecting malicious behaviour and contributing to investigations following cyber security incidents.</p>
+            </part>
+            <control id="ism-1507" class="ISM-control">
+               <title>Control: ism-1507</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[16].group[1].group[07].control[1]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="4"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Jun-25"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML1"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML2"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML3"/>
+               <part id="ism-1507_smt" name="statement">
+                  <p>Requests for privileged access to systems and their resources are validated when first requested.</p>
+               </part>
+            </control>
+            <control id="ism-1175" class="ISM-control">
+               <title>Control: ism-1175</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[16].group[1].group[07].control[3]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="6"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Sep-24"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML1"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML2"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML3"/>
+               <part id="ism-1175_smt" name="statement">
+                  <p>Privileged user accounts (excluding those explicitly authorised to access online services) are prevented from accessing the internet, email and web services.</p>
+               </part>
+            </control>
+            <control id="ism-1883" class="ISM-control">
+               <title>Control: ism-1883</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[16].group[1].group[07].control[4]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="2"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Sep-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML1"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML2"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML3"/>
+               <part id="ism-1883_smt" name="statement">
+                  <p>Privileged user accounts explicitly authorised to access online services are strictly limited to only what is required for users to undertake their duties or functions.</p>
+               </part>
+            </control>
+            <control id="ism-0445" class="ISM-control">
+               <title>Control: ism-0445</title>
+               <prop name="sort-id"
+                     value="catalog[1].group[16].group[1].group[07].control[6]"/>
+               <prop name="revision"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="9"/>
+               <prop name="updated"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="Sep-26"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="NC"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="OS"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="P"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="S"/>
+               <prop name="applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="TS"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML1"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML2"/>
+               <prop name="essential-eight-applicability"
+                     ns="https://cyber.gov.au/ns/ism/oscal/3.0"
+                     value="ML3"/>
+               <part id="ism-0445_smt" name="statement">
+                  <p>Privileged human users are assigned a dedicated privileged user account to be used solely for duties requiring privileged access.</p>
+               </part>
+            </control>
+         </group>
+         <group>
             <title>Multi-factor authentication</title>
-            <prop name="sort-id" value="catalog[1].group[15].group[4].group[03]"/>
+            <prop name="sort-id" value="catalog[1].group[16].group[1].group[17]"/>
             <part name="overview">
                <p>Multi-factor authentication uses two or more different authentication factors. This may include:</p>
                <ul>
-                  <li>something users know, such as a password</li>
-                  <li>something users have, such as a security key, smart card, passkey, smartphone or one-time password token</li>
-                  <li>something users are, such as a fingerprint pattern or their facial geometry.</li>
+                  <li>something people know, such as a password</li>
+                  <li>something people have, such as a security key, smart card, smartphone or one-time password token</li>
+                  <li>something people are, such as a fingerprint pattern or their facial geometry.</li>
                </ul>
-               <p>Users of online services, privileged users of systems and users with access to data repositories are more likely to be targeted by malicious actors due to their access. For this reason, it is especially important that multi-factor authentication is used for these user accounts. In addition, multi-factor authentication is vital to any administrative activities as it can limit the consequences of a compromise by preventing or slowing malicious actors’ ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.</p>
-               <p>When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something users have should be used with something users know. Alternatively, something users have that is unlocked by something users know or are (often known as passwordless multi-factor authentication) can be used. Furthermore, for increased security, the use of phishing-resistant multi-factor authentication is recommended to protect against real-time phishing attacks.</p>
+               <p>Human users of online services, privileged human users of systems and human users with access to data repositories are more likely to be targeted by malicious actors due to their access. For this reason, it is especially important that multi-factor authentication is used for these user accounts. In addition, multi-factor authentication is vital when human users perform administrative activities as it can limit the consequences of a compromise by preventing or slowing malicious actors’ ability to gain unrestricted access to assets. In this regard, multi-factor authentication can be implemented as part of jump server authentication where assets being administered do not support multi-factor authentication themselves.</p>
+               <p>When implementing multi-factor authentication, several different authentication factors can be implemented. Unfortunately, some authentication factors, such as biometrics or codes sent via Short Message Service, Voice over Internet Protocol or email, are more susceptible to compromise than others. For this reason, authentication factors that involve something people have should be used with something people know. Alternatively, something people have that is unlocked by something people know or are (often known as passwordless multi-factor authentication) can be used. Furthermore, for increased security, the use of phishing-resistant multi-factor authentication is recommended to protect against real-time phishing attacks.</p>
+               <p>Passkey authentication may provide either single-factor or multi-factor authentication, depending on how it is implemented and used. It typically uses a computer or smartphone, or a separate security key, to store or access a private key. Where use of the private key requires an activation factor, such as a password or biometric, passkey authentication satisfies multi-factor authentication requirements.</p>
                <p>Finally, centrally logging and analysing multi-factor authentication events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.</p>
             </part>
             <control id="ism-1504" class="ISM-control">
                <title>Control: ism-1504</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[01]"/>
+                     value="catalog[1].group[16].group[1].group[17].control[01]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="3"/>
+                     value="4"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-23"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -788,19 +778,19 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1504_smt" name="statement">
-                  <p>Multi-factor authentication is used to authenticate users to their organisation’s online services that process, store or communicate their organisation’s sensitive data.</p>
+                  <p>Multi-factor authentication is used to authenticate human users to their organisation’s online services that process, store or communicate their organisation’s sensitive data.</p>
                </part>
             </control>
             <control id="ism-1679" class="ISM-control">
                <title>Control: ism-1679</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[02]"/>
+                     value="catalog[1].group[16].group[1].group[17].control[02]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="1"/>
+                     value="2"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-23"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -826,19 +816,19 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1679_smt" name="statement">
-                  <p>Multi-factor authentication is used to authenticate users to third-party online services that process, store or communicate their organisation’s sensitive data.</p>
+                  <p>Multi-factor authentication is used to authenticate human users to third-party online services that process, store or communicate their organisation’s sensitive data.</p>
                </part>
             </control>
             <control id="ism-1680" class="ISM-control">
                <title>Control: ism-1680</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[03]"/>
+                     value="catalog[1].group[16].group[1].group[17].control[03]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="1"/>
+                     value="2"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-23"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -864,19 +854,19 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1680_smt" name="statement">
-                  <p>Multi-factor authentication (where available) is used to authenticate users to third-party online services that process, store or communicate their organisation’s non-sensitive data.</p>
+                  <p>Multi-factor authentication (where available) is used to authenticate human users to third-party online services that process, store or communicate their organisation’s non-sensitive data.</p>
                </part>
             </control>
             <control id="ism-1892" class="ISM-control">
                <title>Control: ism-1892</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[04]"/>
+                     value="catalog[1].group[16].group[1].group[17].control[04]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-23"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -902,19 +892,19 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1892_smt" name="statement">
-                  <p>Multi-factor authentication is used to authenticate users to their organisation’s online customer services that process, store or communicate their organisation’s sensitive customer data.</p>
+                  <p>Multi-factor authentication is used to authenticate human users to their organisation’s online customer services that process, store or communicate their organisation’s sensitive customer data.</p>
                </part>
             </control>
             <control id="ism-1893" class="ISM-control">
                <title>Control: ism-1893</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[05]"/>
+                     value="catalog[1].group[16].group[1].group[17].control[05]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="0"/>
+                     value="1"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Dec-23"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -940,13 +930,13 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1893_smt" name="statement">
-                  <p>Multi-factor authentication is used to authenticate users to third-party online customer services that process, store or communicate their organisation’s sensitive customer data.</p>
+                  <p>Multi-factor authentication is used to authenticate human users to third-party online customer services that process, store or communicate their organisation’s sensitive customer data.</p>
                </part>
             </control>
             <control id="ism-1681" class="ISM-control">
                <title>Control: ism-1681</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[06]"/>
+                     value="catalog[1].group[16].group[1].group[17].control[06]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="3"/>
@@ -984,13 +974,13 @@
             <control id="ism-1401" class="ISM-control">
                <title>Control: ism-1401</title>
                <prop name="sort-id"
-                     value="catalog[1].group[15].group[4].group[03].control[11]"/>
+                     value="catalog[1].group[16].group[1].group[17].control[11]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="5"/>
+                     value="6"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-21"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -1016,7 +1006,7 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1401_smt" name="statement">
-                  <p>Multi-factor authentication uses either: something users have and something users know, or something users have that is unlocked by something users know or are.</p>
+                  <p>Multi-factor authentication uses either: something people have and something people know, or something people have that is unlocked by something people know or are.</p>
                </part>
             </control>
          </group>
@@ -1024,22 +1014,22 @@
    </group>
    <group>
       <title>Guidelines for system management</title>
-      <prop name="sort-id" value="catalog[1].group[16]"/>
+      <prop name="sort-id" value="catalog[1].group[17]"/>
       <group>
          <title>System administration</title>
-         <prop name="sort-id" value="catalog[1].group[16].group[1]"/>
+         <prop name="sort-id" value="catalog[1].group[17].group[1]"/>
          <part name="overview">
-            <h1>System administration of cloud services</h1>
+            <h1>Context</h1>
             <p>System administration of cloud services brings unique challenges when compared to system administration of on-premises assets. Importantly, responsibility for system administration of cloud services is often shared between service providers and their customers. As the system administration processes and procedures implemented by service providers are often opaque to their customers, customers should consider a service provider’s control plane to operate within a different security domain.</p>
             <h1>Further information</h1>
             <p>Further information on system administration can be found in the Australian Signals Directorate’s (ASD) <a href="#131048c7-a2e7-4da3-9257-7a058b06c1f8">Secure administration</a> publication.</p>
             <p>Further information on change and configuration management plans can be found in the ‘System-specific cyber security documentation’ section of the <a href="#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">Guidelines for cyber security documentation</a>.</p>
-            <p>Further information on the use of privileged user accounts for system administration activities can be found in the ‘Access to systems and their resources’ section of the <a href="#7d16ae67-87a7-4861-b939-e13ec279b5a2">Guidelines for personnel security</a>.</p>
+            <p>Further information on the use of privileged user accounts for system administration activities can be found in the ‘Identity and access management’ section of the <a href="#76d68682-44dd-4e97-98c8-66db2cce1fda">Guidelines for system access</a>.</p>
             <p>Further information on network segmentation and segregation can be found in the ‘Network design and configuration’ section of the <a href="#f145ff5b-d396-4248-8f48-621349d6f0ed">Guidelines for networking</a>.</p>
          </part>
          <group>
             <title>Separate privileged operating environments</title>
-            <prop name="sort-id" value="catalog[1].group[16].group[1].group[2]"/>
+            <prop name="sort-id" value="catalog[1].group[17].group[1].group[2]"/>
             <part name="overview">
                <p>One of the greatest threats to the security of networks is the compromise of privileged user accounts. Providing a separate privileged operating environment for system administrators, in addition to their unprivileged operating environment, makes it much harder for administrative activities and privileged user accounts to be compromised by malicious actors.</p>
                <p>Using different physical workstations, with one being a dedicated Secure Admin Workstation, is the most secure approach to separating privileged and unprivileged operating environments for system administrators. However, a trusted and hardened virtualisation-based solution may be sufficient for separating privileged and unprivileged operating environments on the same Secure Admin Workstation. In such cases, privileged operating environments should not be virtualised within unprivileged operating environments.</p>
@@ -1047,13 +1037,13 @@
             <control id="ism-1380" class="ISM-control">
                <title>Control: ism-1380</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[1].group[2].control[2]"/>
+                     value="catalog[1].group[17].group[1].group[2].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="5"/>
+                     value="6"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-21"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -1079,19 +1069,19 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1380_smt" name="statement">
-                  <p>Privileged users use separate privileged and unprivileged operating environments.</p>
+                  <p>Privileged human users use separate privileged and unprivileged operating environments.</p>
                </part>
             </control>
             <control id="ism-1688" class="ISM-control">
                <title>Control: ism-1688</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[1].group[2].control[4]"/>
+                     value="catalog[1].group[17].group[1].group[2].control[4]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="1"/>
+                     value="2"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-24"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -1117,19 +1107,19 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1688_smt" name="statement">
-                  <p>Unprivileged user accounts cannot logon to privileged operating environments.</p>
+                  <p>Unprivileged user accounts cannot be used to log on to privileged operating environments.</p>
                </part>
             </control>
             <control id="ism-1689" class="ISM-control">
                <title>Control: ism-1689</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[1].group[2].control[5]"/>
+                     value="catalog[1].group[17].group[1].group[2].control[5]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="1"/>
+                     value="2"/>
                <prop name="updated"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
-                     value="Sep-24"/>
+                     value="Sep-26"/>
                <prop name="applicability"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="NC"/>
@@ -1155,26 +1145,26 @@
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="ML3"/>
                <part id="ism-1689_smt" name="statement">
-                  <p>Privileged user accounts (excluding local administrator accounts) cannot logon to unprivileged operating environments.</p>
+                  <p>Privileged user accounts (excluding local administrator accounts) cannot be used to log on to unprivileged operating environments.</p>
                </part>
             </control>
          </group>
       </group>
       <group>
          <title>System maintenance</title>
-         <prop name="sort-id" value="catalog[1].group[16].group[2]"/>
+         <prop name="sort-id" value="catalog[1].group[17].group[2]"/>
          <part name="overview">
             <h1>Further information</h1>
             <p>Further information on system patching can be found in ASD’s <a href="#02fb4cb5-e4c4-4097-97a2-f1b6aa04131a">Patching applications and operating systems</a> publication.</p>
             <p>Further information on patching evaluated products can be found in the ‘Evaluated product usage’ section of the <a href="#a699a3aa-828d-479b-b50b-98127bb19437">Guidelines for evaluated products</a>.</p>
             <p>Further information on managing risks associated with legacy IT can be found in ASD’s <a href="#065263a6-4634-4a52-bd3f-48b83bf437d8">Managing the risks of legacy IT: Executive guidance</a> and <a href="#089badd3-ed47-4597-8b1f-bce3e42f4ac4">Managing the risks of legacy IT: Practitioner guidance</a> publications.</p>
-            <p>Further information on cessation of support for Microsoft Windows operating systems, including potential compensating controls for use beyond their cessation date for support, can be found in ASD’s <a href="#d36ce452-ec21-4b05-89c1-f29a444a3dca">End of support for Microsoft Windows and Microsoft Windows Server</a> publication.</p>
+            <p>Further information on cessation of support for Microsoft Windows operating systems, including potential compensating security controls for use beyond their cessation date for support, can be found in ASD’s <a href="#d36ce452-ec21-4b05-89c1-f29a444a3dca">End of support for Microsoft Windows and Microsoft Windows Server</a> publication.</p>
             <p>Further information on hardening user applications can be found in the ‘User application hardening’ section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for system hardening</a>.</p>
             <p>Further information on hardening server applications can be found in the ‘Server application hardening’ section of the <a href="#de7525f3-a466-40a5-abdd-3ae24a6d1b44">Guidelines for system hardening</a>.</p>
          </part>
          <group>
             <title>Mitigating known vulnerabilities</title>
-            <prop name="sort-id" value="catalog[1].group[16].group[2].group[2]"/>
+            <prop name="sort-id" value="catalog[1].group[17].group[2].group[2]"/>
             <part name="overview">
                <p>When patches or updates are released by vendors for vulnerabilities, an organisation should apply them in a timeframe commensurate with the likelihood of attempted exploitation by malicious actors. For example, by prioritising patches or updates for vulnerabilities in online services as well as operating systems of internet-facing servers and internet-facing network devices. This is especially important when vulnerabilities are assessed as critical by vendors or working exploits exist.</p>
                <p>If no patches or updates are available for vulnerabilities, mitigation advice from vendors, trustworthy authorities or security researchers may provide some protection until patches or updates are made available. Such mitigation advice may be published in conjunction with, or soon after, announcements made relating to vulnerabilities. Mitigation advice may cover how to disable or block access to vulnerable functionality, how to reconfigure vulnerable functionality, or how to detect attempted or successful exploitation of vulnerable functionality.</p>
@@ -1183,7 +1173,7 @@
             <control id="ism-1876" class="ISM-control">
                <title>Control: ism-1876</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[2].control[01]"/>
+                     value="catalog[1].group[17].group[2].group[2].control[01]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -1221,7 +1211,7 @@
             <control id="ism-1690" class="ISM-control">
                <title>Control: ism-1690</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[2].control[02]"/>
+                     value="catalog[1].group[17].group[2].group[2].control[02]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -1259,7 +1249,7 @@
             <control id="ism-1691" class="ISM-control">
                <title>Control: ism-1691</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[2].control[03]"/>
+                     value="catalog[1].group[17].group[2].group[2].control[03]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -1294,7 +1284,7 @@
             <control id="ism-1877" class="ISM-control">
                <title>Control: ism-1877</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[2].control[07]"/>
+                     value="catalog[1].group[17].group[2].group[2].control[07]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -1332,7 +1322,7 @@
             <control id="ism-1694" class="ISM-control">
                <title>Control: ism-1694</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[2].control[08]"/>
+                     value="catalog[1].group[17].group[2].group[2].control[08]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -1370,7 +1360,7 @@
             <control id="ism-1695" class="ISM-control">
                <title>Control: ism-1695</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[2].control[09]"/>
+                     value="catalog[1].group[17].group[2].group[2].control[09]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -1405,16 +1395,16 @@
          </group>
          <group>
             <title>Cessation of support</title>
-            <prop name="sort-id" value="catalog[1].group[16].group[2].group[3]"/>
+            <prop name="sort-id" value="catalog[1].group[17].group[2].group[3]"/>
             <part name="overview">
                <p>When applications, operating systems, network devices and networked IT equipment reach their cessation date for support, and become legacy IT, an organisation will find it increasingly difficult to protect them against vulnerabilities as patches, updates and other forms of support will no longer be made available by vendors. As such, unsupported applications, operating systems, network devices and networked IT equipment should be removed or replaced.</p>
                <p>In planning for cessation of support, it is important to note that while vendors generally advise the cessation date for support of operating systems well in advance, some applications, network devices and networked IT equipment may cease to receive support immediately after newer versions are released.</p>
-               <p>Finally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or networked IT equipment is not possible, compensating controls should be implemented until such time that they can be removed or replaced.</p>
+               <p>Finally, when the immediate removal or replacement of unsupported applications, operating systems, network devices or networked IT equipment is not possible, compensating security controls should be implemented until such time that they can be removed or replaced.</p>
             </part>
             <control id="ism-1905" class="ISM-control">
                <title>Control: ism-1905</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[3].control[1]"/>
+                     value="catalog[1].group[17].group[2].group[3].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -1452,7 +1442,7 @@
             <control id="ism-1704" class="ISM-control">
                <title>Control: ism-1704</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[3].control[2]"/>
+                     value="catalog[1].group[17].group[2].group[3].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="3"/>
@@ -1490,7 +1480,7 @@
             <control id="ism-1501" class="ISM-control">
                <title>Control: ism-1501</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[2].group[3].control[4]"/>
+                     value="catalog[1].group[17].group[2].group[3].control[4]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -1529,7 +1519,7 @@
       </group>
       <group>
          <title>Data backup and restoration</title>
-         <prop name="sort-id" value="catalog[1].group[16].group[3]"/>
+         <prop name="sort-id" value="catalog[1].group[17].group[3]"/>
          <part name="overview">
             <h1>Further information</h1>
             <p>Further information on <a href="#53da8dba-961e-4222-94e0-68cb9510384d">digital preservation planning</a> and <a href="#348be728-4459-4447-990e-1dfb3049c71f">data retention</a> is available from the National Archives of Australia.</p>
@@ -1539,14 +1529,14 @@
          </part>
          <group>
             <title>Performing and retaining backups</title>
-            <prop name="sort-id" value="catalog[1].group[16].group[3].group[3]"/>
+            <prop name="sort-id" value="catalog[1].group[17].group[3].group[3]"/>
             <part name="overview">
                <p>To mitigate the security risk of losing system availability or data as part of a ransomware attack, or other form of destructive attack, backups of data, applications and settings should be performed and retained in accordance with an organisation’s business criticality and business continuity requirements. In doing so, backups of all data, applications and settings should be synchronised to enable restoration to a common point in time. Furthermore, it is essential that all backups are retained in a secure and resilient manner. This will ensure that should a system fall victim to a ransomware attack, or other form of destructive attack, data will not be lost and, if necessary, systems can be quickly restored.</p>
             </part>
             <control id="ism-1511" class="ISM-control">
                <title>Control: ism-1511</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[3].group[3].control[1]"/>
+                     value="catalog[1].group[17].group[3].group[3].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="4"/>
@@ -1584,7 +1574,7 @@
             <control id="ism-1810" class="ISM-control">
                <title>Control: ism-1810</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[3].group[3].control[2]"/>
+                     value="catalog[1].group[17].group[3].group[3].control[2]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -1622,7 +1612,7 @@
             <control id="ism-1811" class="ISM-control">
                <title>Control: ism-1811</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[3].group[3].control[3]"/>
+                     value="catalog[1].group[17].group[3].group[3].control[3]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -1660,14 +1650,14 @@
          </group>
          <group>
             <title>Backup access</title>
-            <prop name="sort-id" value="catalog[1].group[16].group[3].group[4]"/>
+            <prop name="sort-id" value="catalog[1].group[17].group[3].group[4]"/>
             <part name="overview">
                <p>To mitigate the security risk of unauthorised access to backups, an organisation should ensure that access to backups is controlled by using appropriate access controls.</p>
             </part>
             <control id="ism-1812" class="ISM-control">
                <title>Control: ism-1812</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[3].group[4].control[1]"/>
+                     value="catalog[1].group[17].group[3].group[4].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -1705,14 +1695,14 @@
          </group>
          <group>
             <title>Backup modification and deletion</title>
-            <prop name="sort-id" value="catalog[1].group[16].group[3].group[5]"/>
+            <prop name="sort-id" value="catalog[1].group[17].group[3].group[5]"/>
             <part name="overview">
-               <p>To mitigate the security risk of backups being accidentally or maliciously modified or deleted, an organisation should ensure that backups are sufficiently protected from unauthorised modification and deletion by using appropriate access controls during their retention period.</p>
+               <p>To mitigate the security risk of backups being accidentally or maliciously modified or deleted, an organisation should ensure that backups are sufficiently protected from unauthorised modification and deletion by using appropriate access controls during their retention period. Furthermore, as malicious actors routinely seek to access backup infrastructure using credentials harvested from production environments, backup infrastructure should be segregated from such environments and use a separate authentication mechanism for administrative access.</p>
             </part>
             <control id="ism-1814" class="ISM-control">
                <title>Control: ism-1814</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[3].group[5].control[1]"/>
+                     value="catalog[1].group[17].group[3].group[5].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -1750,14 +1740,14 @@
          </group>
          <group>
             <title>Testing restoration of backups</title>
-            <prop name="sort-id" value="catalog[1].group[16].group[3].group[6]"/>
+            <prop name="sort-id" value="catalog[1].group[17].group[3].group[6]"/>
             <part name="overview">
                <p>To ensure that backups can be restored when the need arises, and that any dependencies can be identified and managed beforehand, it is important that the restoration of data, applications and settings from backups to a common point in time is tested in a coordinated manner as part of disaster recovery exercises.</p>
             </part>
             <control id="ism-1515" class="ISM-control">
                <title>Control: ism-1515</title>
                <prop name="sort-id"
-                     value="catalog[1].group[16].group[3].group[6].control[1]"/>
+                     value="catalog[1].group[17].group[3].group[6].control[1]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="4"/>
@@ -1797,25 +1787,32 @@
    </group>
    <group>
       <title>Guidelines for security assurance</title>
-      <prop name="sort-id" value="catalog[1].group[17]"/>
+      <prop name="sort-id" value="catalog[1].group[18]"/>
       <group>
          <title>Security assessments</title>
-         <prop name="sort-id" value="catalog[1].group[17].group[2]"/>
+         <prop name="sort-id" value="catalog[1].group[18].group[2]"/>
          <part name="overview">
+            <h1>Context</h1>
+            <p>Security assessments are activities designed to provide assurance in the security posture of systems and their operating environments. Security assessments can include security control assessments, vulnerability scanning, vulnerability assessments and penetration tests.</p>
+            <p>Regardless of the security assessment activity performed, they should be conducted by suitably skilled personnel. In doing so, personnel can be internal to an organisation or from a third party, however, such personnel should be independent of the system being assessed. This ensures that there is no conflict of interest, perceived or otherwise, and that the activities are undertaken in an objective manner.</p>
             <h1>Further information</h1>
-            <p>Further information on responsibilities for security assessment activities as part of continuously monitoring the security of systems can be found in the ‘System owners’ section of the <a href="#626dab35-81ab-45fe-8c12-0faff1c23c07">Guidelines for cyber security roles</a>.</p>
+            <p>Further information on responsibilities for ensuring systems undergo a security control assessment can be found in the ‘System owners’ section of the <a href="#626dab35-81ab-45fe-8c12-0faff1c23c07">Guidelines for cyber security roles</a>.</p>
+            <p>Further information on conducting security control assessments for managed service providers and outsourced cloud service providers can be found in the ‘Managed services and cloud services’ section of the <a href="#f37a4848-0791-4870-b316-5536c2681c28">Guidelines for procurement and outsourcing</a>.</p>
+            <p>Further information on conducting security control assessments for gateways can be found in the ‘Gateways’ section of the <a href="#e8bde527-526c-4a6a-b66f-05228f09dd7b">Guidelines for gateways</a>.</p>
+            <p>Further information on the cyber security documentation requirements for security control assessments can be found in the ‘System-specific cyber security documentation’ section of the <a href="#578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">Guidelines for cyber security documentation</a>.</p>
             <p>Further information on using AI models for security assessment activities can be found in ASD’s <a href="#aff92212-4cd2-459a-9ba1-d4dd1815ebec">Opportunities for AI in cyber defence</a> publication.</p>
          </part>
          <group>
             <title>Vulnerability scanning</title>
-            <prop name="sort-id" value="catalog[1].group[17].group[2].group[1]"/>
+            <prop name="sort-id" value="catalog[1].group[18].group[2].group[1]"/>
             <part name="overview">
-               <p>To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identify all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at twice the frequency at which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release then vulnerability scanning should be undertaken at least weekly.</p>
+               <p>To ensure that patches or updates are being applied to applications, operating systems, drivers and firmware, it is essential that an organisation regularly identify all assets within their environment using an automated method of asset discovery, such as an asset discovery tool or a vulnerability scanner with equivalent functionality. To maximise the effectiveness of these activities, asset discovery and vulnerability scanning should be conducted from both internal and external perspectives, where applicable, to identify vulnerabilities based on how assets are exposed to malicious actors.</p>
+               <p>Following asset discovery, identified assets can be scanned for missing patches or updates using a vulnerability scanner with an up-to-date vulnerability database. Ideally, vulnerability scanning should be conducted in an automated manner and take place at twice the frequency at which patches or updates need to be applied. For example, if patches or updates are to be applied within two weeks of release, then vulnerability scanning should be undertaken at least weekly.</p>
             </part>
             <control id="ism-1807" class="ISM-control">
                <title>Control: ism-1807</title>
                <prop name="sort-id"
-                     value="catalog[1].group[17].group[2].group[1].control[01]"/>
+                     value="catalog[1].group[18].group[2].group[1].control[01]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -1853,7 +1850,7 @@
             <control id="ism-1808" class="ISM-control">
                <title>Control: ism-1808</title>
                <prop name="sort-id"
-                     value="catalog[1].group[17].group[2].group[1].control[02]"/>
+                     value="catalog[1].group[18].group[2].group[1].control[02]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="0"/>
@@ -1891,7 +1888,7 @@
             <control id="ism-1698" class="ISM-control">
                <title>Control: ism-1698</title>
                <prop name="sort-id"
-                     value="catalog[1].group[17].group[2].group[1].control[03]"/>
+                     value="catalog[1].group[18].group[2].group[1].control[03]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -1929,7 +1926,7 @@
             <control id="ism-1699" class="ISM-control">
                <title>Control: ism-1699</title>
                <prop name="sort-id"
-                     value="catalog[1].group[17].group[2].group[1].control[04]"/>
+                     value="catalog[1].group[18].group[2].group[1].control[04]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -1967,7 +1964,7 @@
             <control id="ism-1701" class="ISM-control">
                <title>Control: ism-1701</title>
                <prop name="sort-id"
-                     value="catalog[1].group[17].group[2].group[1].control[06]"/>
+                     value="catalog[1].group[18].group[2].group[1].control[06]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="1"/>
@@ -2005,7 +2002,7 @@
             <control id="ism-1702" class="ISM-control">
                <title>Control: ism-1702</title>
                <prop name="sort-id"
-                     value="catalog[1].group[17].group[2].group[1].control[07]"/>
+                     value="catalog[1].group[18].group[2].group[1].control[07]"/>
                <prop name="revision"
                      ns="https://cyber.gov.au/ns/ism/oscal/3.0"
                      value="2"/>
@@ -2048,17 +2045,13 @@
          <title>Patching applications and operating systems</title>
          <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/patching-applications-and-operating-systems"/>
       </resource>
-      <resource uuid="0508be6f-cb97-44da-b212-42416a0048b0">
-         <title>random dice roller</title>
-         <rlink href="https://www.random.org/dice/?num=5"/>
-      </resource>
       <resource uuid="065263a6-4634-4a52-bd3f-48b83bf437d8">
          <title>Managing the risks of legacy IT: Executive guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/managing-the-risks-of-legacy-it-executive-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-technology-management/managing-the-risks-of-legacy-it-executive-guidance"/>
       </resource>
       <resource uuid="089badd3-ed47-4597-8b1f-bce3e42f4ac4">
          <title>Managing the risks of legacy IT: Practitioner guidance</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/managing-the-risks-of-legacy-it-practitioner-guidance"/>
+         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-technology-management/managing-the-risks-of-legacy-it-practitioner-guidance"/>
       </resource>
       <resource uuid="0a1508c0-b062-4d85-8ded-a95316e17a3a">
          <title>command line process logging</title>
@@ -2100,14 +2093,6 @@
          <title>Restricting administrative privileges</title>
          <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/restricting-administrative-privileges"/>
       </resource>
-      <resource uuid="3e5a98e5-9219-46c8-81c2-e3a4d13407ce">
-         <title>Active Directory Forest Recovery - Reset the krbtgt password</title>
-         <rlink href="https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-reset-the-krbtgt-password"/>
-      </resource>
-      <resource uuid="3f43c8d2-8a8c-4e2f-af80-48a607bce643">
-         <title>Local Security Authority protection functionality</title>
-         <rlink href="https://learn.microsoft.com/en-au/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection"/>
-      </resource>
       <resource uuid="43fbcaf9-03a3-493a-83be-9340a37778fa">
          <title>Hardening Microsoft Windows 11 workstations</title>
          <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/hardening-microsoft-windows-11-workstations"/>
@@ -2126,15 +2111,11 @@
       </resource>
       <resource uuid="53da8dba-961e-4222-94e0-68cb9510384d">
          <title>digital preservation planning</title>
-         <rlink href="https://www.naa.gov.au/information-management/information-management-legislation/digital-preservation-planning"/>
+         <rlink href="https://www.naa.gov.au/information-management/legislation/digital-preservation-planning"/>
       </resource>
       <resource uuid="578d0434-6b3f-46f3-aad8-c7ac75c2ebcc">
          <title>Guidelines for cyber security documentation</title>
          <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-cyber-security-documentation"/>
-      </resource>
-      <resource uuid="58282062-5c17-476a-98b1-105a627cd28d">
-         <title>randomly generating passphrases</title>
-         <rlink href="https://www.eff.org/dice"/>
       </resource>
       <resource uuid="58c9abfb-58fe-416e-a279-dfbfe123c99f">
          <title>Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016</title>
@@ -2156,9 +2137,9 @@
          <title>Chrome Browser Enterprise Security Configuration Guide (Windows)</title>
          <rlink href="https://support.google.com/chrome/a/answer/9710898?hl=en"/>
       </resource>
-      <resource uuid="7d16ae67-87a7-4861-b939-e13ec279b5a2">
-         <title>Guidelines for personnel security</title>
-         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"/>
+      <resource uuid="76d68682-44dd-4e97-98c8-66db2cce1fda">
+         <title>Guidelines for system access</title>
+         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-system-access"/>
       </resource>
       <resource uuid="7d22400c-ddef-4cbb-90f1-7502dc569e5b">
          <title>the use of PowerShell by blue teams</title>
@@ -2170,23 +2151,15 @@
       </resource>
       <resource uuid="82ae76a4-ed9e-4a7b-8bad-f1950c41eab7">
          <title>attack surface reduction rules overview</title>
-         <rlink href="https://learn.microsoft.com/en-au/defender-endpoint/attack-surface-reduction?view=o365-worldwide"/>
+         <rlink href="https://learn.microsoft.com/en-au/defender-endpoint/attack-surface-reduction-rules-overview?view=o365-worldwide"/>
       </resource>
       <resource uuid="83e3a9b1-5057-4531-91dd-03c8d92634b0">
          <title>Implementing multi-factor authentication</title>
          <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/implementing-multi-factor-authentication"/>
       </resource>
-      <resource uuid="8d53ee7f-54c2-4380-8408-f7403db30ba1">
-         <title>Credential Guard functionality</title>
-         <rlink href="https://learn.microsoft.com/en-au/windows/security/identity-protection/credential-guard/"/>
-      </resource>
       <resource uuid="8ffea524-0974-4b53-a8f5-41166073ede5">
          <title>Securing PowerShell in the enterprise</title>
          <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/system-administration/securing-powershell-in-the-enterprise"/>
-      </resource>
-      <resource uuid="91b92563-d991-40fa-9adc-548df9f6c496">
-         <title>secure group Managed Service Accounts</title>
-         <rlink href="https://learn.microsoft.com/en-au/entra/architecture/service-accounts-group-managed"/>
       </resource>
       <resource uuid="9209d9cd-86c1-486f-890e-1edfa4545093">
          <title>Hardening Microsoft Windows 10 workstations</title>
@@ -2196,9 +2169,9 @@
          <title>Protective Security Policy Framework</title>
          <rlink href="https://www.protectivesecurity.gov.au/"/>
       </resource>
-      <resource uuid="92975dff-58e0-4813-842b-f27c0533ca56">
-         <title>Remote Credential Guard functionality</title>
-         <rlink href="https://learn.microsoft.com/en-au/windows/security/identity-protection/remote-credential-guard/"/>
+      <resource uuid="9a8f5a63-bcd5-45a8-9f9c-974fc796ac95">
+         <title>Guidelines for enterprise mobility</title>
+         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-enterprise-mobility"/>
       </resource>
       <resource uuid="9ad09461-7b3d-4faf-bdcd-61df9952cf49">
          <title>Security Configuration Guide for Acrobat</title>
@@ -2207,10 +2180,6 @@
       <resource uuid="a699a3aa-828d-479b-b50b-98127bb19437">
          <title>Guidelines for evaluated products</title>
          <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-evaluated-products"/>
-      </resource>
-      <resource uuid="ae426d0a-adb6-43b8-a463-faa33e83b679">
-         <title>Active Directory accounts</title>
-         <rlink href="https://learn.microsoft.com/en-au/windows-server/identity/ad-ds/manage/understand-default-user-accounts"/>
       </resource>
       <resource uuid="af0810aa-3486-4ca6-a48a-fad8ce9ac193">
          <title>greater visibility through PowerShell logging</title>
@@ -2242,7 +2211,7 @@
       </resource>
       <resource uuid="c852e735-4920-4616-8e34-2fddfb49eea8">
          <title>AV-Comparatives</title>
-         <rlink href="https://www.av-comparatives.org/"/>
+         <rlink href="https://av-comparatives.org/"/>
       </resource>
       <resource uuid="d0df96bb-7236-4784-8f54-2cb6335ad228">
          <title>exploit protection functionality</title>
@@ -2250,11 +2219,11 @@
       </resource>
       <resource uuid="d36ce452-ec21-4b05-89c1-f29a444a3dca">
          <title>End of support for Microsoft Windows and Microsoft Windows Server</title>
-         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-it-management/end-of-support-for-microsoft-windows-and-microsoft-windows-server"/>
+         <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/legacy-technology-management/end-of-support-for-microsoft-windows-and-microsoft-windows-server"/>
       </resource>
       <resource uuid="d446dea3-c36d-45af-9623-05b686624af0">
          <title>memory integrity functionality</title>
-         <rlink href="https://support.microsoft.com/en-au/windows/device-security-in-the-windows-security-app-afa11526-de57-b1c5-599f-3a4c6a61c5e2"/>
+         <rlink href="https://support.microsoft.com/en-us/windows/security/windows-security/device-security-in-the-windows-security-app"/>
       </resource>
       <resource uuid="de239dae-d1e8-4969-9680-ef3444d32a83">
          <title>Windows event logging and forwarding</title>
@@ -2268,6 +2237,10 @@
          <title>Restricting Microsoft Office macros</title>
          <rlink href="https://www.cyber.gov.au/business-government/protecting-devices-systems/hardening-systems-applications/system-hardening/restricting-microsoft-office-macros"/>
       </resource>
+      <resource uuid="e8bde527-526c-4a6a-b66f-05228f09dd7b">
+         <title>Guidelines for gateways</title>
+         <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-gateways"/>
+      </resource>
       <resource uuid="ef60c0e4-acfb-4a8b-b5ed-25675c6e117c">
          <title>Guidelines for security assurance</title>
          <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-security-assurance"/>
@@ -2279,10 +2252,6 @@
       <resource uuid="f37a4848-0791-4870-b316-5536c2681c28">
          <title>Guidelines for procurement and outsourcing</title>
          <rlink href="https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-procurement-and-outsourcing"/>
-      </resource>
-      <resource uuid="f74ba095-a7f7-4b8c-9e60-5fe84f2a2d0b">
-         <title>changing credentials for this service account</title>
-         <rlink href="https://www.microsoft.com/en-us/security/blog/2015/02/11/krbtgt-account-password-reset-scripts-now-available-for-customers/"/>
       </resource>
    </back-matter>
 </catalog>

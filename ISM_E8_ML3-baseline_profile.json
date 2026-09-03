@@ -1,23 +1,23 @@
 {
   "profile" : {
-    "uuid" : "7ff72e15-8a9b-4ada-a2de-2131a28ae383",
+    "uuid" : "656ae07f-2ba4-4e3b-b2a8-f6586e5a99b0",
     "metadata" : {
       "title" : "Information security manual Essential Eight Maturity Level Three Baseline",
-      "published" : "2026-06-18T08:04:29.980978301Z",
-      "last-modified" : "2026-06-18T08:04:29.980978301Z",
-      "version" : "2026.06.18",
+      "published" : "2026-09-03T23:10:47.63884244Z",
+      "last-modified" : "2026-09-03T23:10:47.63884244Z",
+      "version" : "2026.09.4",
       "oscal-version" : "1.1.2",
       "links" : [ {
-        "href" : "#83abbe6f-0816-42ec-9bc4-6a0c261c2764",
+        "href" : "#0c5db31d-9a27-4c3b-86ea-455d25d195f6",
         "rel" : "canonical"
       }, {
         "href" : "#c18c752c-6efd-4b9f-b7e8-b5f153d52933",
         "rel" : "latest-version"
       }, {
-        "href" : "#0c657137-267b-4d8b-988c-3d244008b3f3",
+        "href" : "#494227a4-511f-4d73-9fcf-2e47f30c88c2",
         "rel" : "predecessor-version"
       }, {
-        "href" : "#9343273c-9df2-4a86-9fe8-6a3ada77738a",
+        "href" : "#ded88189-94ba-4d9d-8e47-dd6fdb9f170d",
         "rel" : "successor-version"
       } ],
       "roles" : [ {
@@ -49,9 +49,9 @@
       } ]
     },
     "imports" : [ {
-      "href" : "#36766a6f-e174-4292-a03e-fcb3b4b09201",
+      "href" : "#3de3ba7d-99df-47e9-bb1c-366caed7b5ac",
       "include-controls" : [ {
-        "with-ids" : [ "ism-0123", "ism-0140", "ism-1819", "ism-1507", "ism-1508", "ism-1175", "ism-1883", "ism-1649", "ism-0445", "ism-1509", "ism-1650", "ism-1648", "ism-1647", "ism-1407", "ism-1654", "ism-1655", "ism-0843", "ism-1490", "ism-1656", "ism-1870", "ism-1871", "ism-1657", "ism-1658", "ism-1544", "ism-1659", "ism-1582", "ism-1660", "ism-1889", "ism-1621", "ism-1622", "ism-1623", "ism-1859", "ism-1667", "ism-1668", "ism-1669", "ism-1542", "ism-1823", "ism-1671", "ism-1488", "ism-1672", "ism-1673", "ism-1674", "ism-1890", "ism-1487", "ism-1675", "ism-1891", "ism-1676", "ism-1489", "ism-1670", "ism-1860", "ism-1824", "ism-1486", "ism-1485", "ism-1412", "ism-1585", "ism-1504", "ism-1679", "ism-1680", "ism-1892", "ism-1893", "ism-1681", "ism-1173", "ism-0974", "ism-1505", "ism-1401", "ism-1872", "ism-1874", "ism-1682", "ism-1894", "ism-1683", "ism-1685", "ism-1896", "ism-1861", "ism-1686", "ism-1897", "ism-1898", "ism-1380", "ism-1687", "ism-1688", "ism-1689", "ism-1387", "ism-1876", "ism-1690", "ism-1692", "ism-1901", "ism-1693", "ism-1877", "ism-1694", "ism-1696", "ism-1902", "ism-1879", "ism-1697", "ism-1903", "ism-1904", "ism-1905", "ism-1704", "ism-0304", "ism-1501", "ism-1511", "ism-1810", "ism-1811", "ism-1812", "ism-1813", "ism-1705", "ism-1706", "ism-1814", "ism-1707", "ism-1708", "ism-1515", "ism-1815", "ism-1906", "ism-1907", "ism-0109", "ism-1228", "ism-1807", "ism-1808", "ism-1698", "ism-1699", "ism-1700", "ism-1701", "ism-1702", "ism-1703", "ism-1900" ]
+        "with-ids" : [ "ism-0123", "ism-0140", "ism-1819", "ism-1407", "ism-1654", "ism-1655", "ism-1896", "ism-0843", "ism-1490", "ism-1656", "ism-1870", "ism-1871", "ism-1657", "ism-1658", "ism-1544", "ism-1659", "ism-1582", "ism-1660", "ism-1889", "ism-1621", "ism-1622", "ism-1623", "ism-1859", "ism-1667", "ism-1668", "ism-1669", "ism-1542", "ism-1823", "ism-1671", "ism-1488", "ism-1672", "ism-1673", "ism-1674", "ism-1890", "ism-1487", "ism-1675", "ism-1891", "ism-1676", "ism-1489", "ism-1670", "ism-1860", "ism-1824", "ism-1486", "ism-1485", "ism-1412", "ism-1585", "ism-1507", "ism-1508", "ism-1175", "ism-1883", "ism-1649", "ism-0445", "ism-1509", "ism-1650", "ism-1648", "ism-1647", "ism-1504", "ism-1679", "ism-1680", "ism-1892", "ism-1893", "ism-1681", "ism-1173", "ism-0974", "ism-1505", "ism-1401", "ism-1872", "ism-1874", "ism-1682", "ism-1894", "ism-1683", "ism-1685", "ism-1861", "ism-1686", "ism-1897", "ism-1898", "ism-1380", "ism-1687", "ism-1688", "ism-1689", "ism-1387", "ism-1876", "ism-1690", "ism-1692", "ism-1901", "ism-1693", "ism-1877", "ism-1694", "ism-1696", "ism-1902", "ism-1879", "ism-1697", "ism-1903", "ism-1904", "ism-1905", "ism-1704", "ism-0304", "ism-1501", "ism-1511", "ism-1810", "ism-1811", "ism-1812", "ism-1813", "ism-1705", "ism-1706", "ism-1814", "ism-1707", "ism-1708", "ism-1515", "ism-1815", "ism-1906", "ism-1907", "ism-0109", "ism-1228", "ism-1807", "ism-1808", "ism-1698", "ism-1699", "ism-1700", "ism-1701", "ism-1702", "ism-1703", "ism-1900" ]
       } ]
     } ],
     "merge" : {
@@ -59,29 +59,29 @@
     },
     "back-matter" : {
       "resources" : [ {
-        "uuid" : "36766a6f-e174-4292-a03e-fcb3b4b09201",
+        "uuid" : "3de3ba7d-99df-47e9-bb1c-366caed7b5ac",
         "title" : "Information security manual",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
-        "uuid" : "83abbe6f-0816-42ec-9bc4-6a0c261c2764",
+        "uuid" : "0c5db31d-9a27-4c3b-86ea-455d25d195f6",
         "title" : "Information security manual Essential Eight Maturity Level Three Baseline",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_E8_ML3-baseline_profile.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_E8_ML3-baseline_profile.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_E8_ML3-baseline_profile.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_E8_ML3-baseline_profile.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_E8_ML3-baseline_profile.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_E8_ML3-baseline_profile.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
@@ -98,29 +98,29 @@
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
-        "uuid" : "0c657137-267b-4d8b-988c-3d244008b3f3",
+        "uuid" : "494227a4-511f-4d73-9fcf-2e47f30c88c2",
         "title" : "Information security manual Essential Eight Maturity Level Three Baseline - predecessor version",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_E8_ML3-baseline_profile.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       }, {
-        "uuid" : "9343273c-9df2-4a86-9fe8-6a3ada77738a",
+        "uuid" : "ded88189-94ba-4d9d-8e47-dd6fdb9f170d",
         "title" : "Information security manual Essential Eight Maturity Level Three Baseline - successor version",
         "rlinks" : [ {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_E8_ML3-baseline_profile.xml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_E8_ML3-baseline_profile.xml",
           "media-type" : "application/xml"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_E8_ML3-baseline_profile.json",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_E8_ML3-baseline_profile.json",
           "media-type" : "application/json"
         }, {
-          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_E8_ML3-baseline_profile.yaml",
+          "href" : "https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_E8_ML3-baseline_profile.yaml",
           "media-type" : "application/oscal+yaml"
         } ]
       } ]

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="3af0bfe9-64ec-4b3b-a861-af78d77ca66a">
+         uuid="a84d0459-a9a2-4bdf-9eca-b738226e5006">
    <metadata>
       <title>Information security manual Essential Eight Maturity Level One Baseline</title>
-      <published>2026-06-18T08:04:29.980978301Z</published>
-      <last-modified>2026-06-18T08:04:29.980978301Z</last-modified>
-      <version>2026.06.18</version>
+      <published>2026-09-03T23:10:47.63884244Z</published>
+      <last-modified>2026-09-03T23:10:47.63884244Z</last-modified>
+      <version>2026.09.4</version>
       <oscal-version>1.1.2</oscal-version>
-      <link rel="canonical" href="#72fce63b-9dc5-46ef-bd80-e6a41f6345a9"/>
+      <link rel="canonical" href="#f9007469-92a8-4bbf-964d-b2f87dcf3835"/>
       <link rel="latest-version" href="#14edced5-3501-4be5-8ddf-77fc57c88f8d"/>
-      <link rel="predecessor-version" href="#e8ffc4a7-b574-4e70-ac73-7a52db46caa1"/>
-      <link rel="successor-version" href="#500dc8bc-6434-42dd-a017-744419d93463"/>
+      <link rel="predecessor-version" href="#5c65ec29-deea-4511-87d8-1bb9a0cac827"/>
+      <link rel="successor-version" href="#95e0a124-f7e0-4ab3-a0e5-7968ce3ab4fd"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -33,12 +33,8 @@
          <party-uuid>ae0012b5-2a98-4610-ba74-08928451a4c0</party-uuid>
       </responsible-party>
    </metadata>
-   <import href="#36766a6f-e174-4292-a03e-fcb3b4b09201">
+   <import href="#3de3ba7d-99df-47e9-bb1c-366caed7b5ac">
       <include-controls>
-         <with-id>ism-1507</with-id>
-         <with-id>ism-1175</with-id>
-         <with-id>ism-1883</with-id>
-         <with-id>ism-0445</with-id>
          <with-id>ism-1654</with-id>
          <with-id>ism-0843</with-id>
          <with-id>ism-1870</with-id>
@@ -50,6 +46,10 @@
          <with-id>ism-1486</with-id>
          <with-id>ism-1485</with-id>
          <with-id>ism-1585</with-id>
+         <with-id>ism-1507</with-id>
+         <with-id>ism-1175</with-id>
+         <with-id>ism-1883</with-id>
+         <with-id>ism-0445</with-id>
          <with-id>ism-1504</with-id>
          <with-id>ism-1679</with-id>
          <with-id>ism-1680</with-id>
@@ -87,23 +87,23 @@
       <as-is>true</as-is>
    </merge>
    <back-matter>
-      <resource uuid="36766a6f-e174-4292-a03e-fcb3b4b09201">
+      <resource uuid="3de3ba7d-99df-47e9-bb1c-366caed7b5ac">
          <title>Information security manual</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.yaml"/>
       </resource>
-      <resource uuid="72fce63b-9dc5-46ef-bd80-e6a41f6345a9">
+      <resource uuid="f9007469-92a8-4bbf-964d-b2f87dcf3835">
          <title>Information security manual Essential Eight Maturity Level One Baseline</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_E8_ML1-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_E8_ML1-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_E8_ML1-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_E8_ML1-baseline_profile.yaml"/>
       </resource>
       <resource uuid="14edced5-3501-4be5-8ddf-77fc57c88f8d">
          <title>Information security manual Essential Eight Maturity Level One Baseline - latest version</title>
@@ -114,23 +114,23 @@
          <rlink media-type="application/oscal+yaml"
                 href="https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_E8_ML1-baseline_profile.yaml"/>
       </resource>
-      <resource uuid="e8ffc4a7-b574-4e70-ac73-7a52db46caa1">
+      <resource uuid="5c65ec29-deea-4511-87d8-1bb9a0cac827">
          <title>Information security manual Essential Eight Maturity Level One Baseline - predecessor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_E8_ML1-baseline_profile.yaml"/>
       </resource>
-      <resource uuid="500dc8bc-6434-42dd-a017-744419d93463">
+      <resource uuid="95e0a124-f7e0-4ab3-a0e5-7968ce3ab4fd">
          <title>Information security manual Essential Eight Maturity Level One Baseline - successor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_E8_ML1-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_E8_ML1-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_E8_ML1-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_E8_ML1-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_E8_ML1-baseline_profile.yaml"/>
       </resource>
    </back-matter>
 </profile>

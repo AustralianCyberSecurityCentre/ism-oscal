@@ -1,20 +1,20 @@
 ---
 profile:
-  uuid: c7c88710-77c2-4fe4-94c0-494a03180068
+  uuid: 9d8ece01-7874-44b7-8231-e5889f269cfa
   metadata:
     title: "Information security manual OFFICIAL: Sensitive Baseline"
-    published: 2026-06-18T08:04:29.980978301Z
-    last-modified: 2026-06-18T08:04:29.980978301Z
-    version: 2026.06.18
+    published: 2026-09-03T23:10:47.63884244Z
+    last-modified: 2026-09-03T23:10:47.63884244Z
+    version: 2026.09.4
     oscal-version: 1.1.2
     links:
-    - href: '#c23d458c-e315-41aa-af5b-ca47c07b9c26'
+    - href: '#96c1b5f8-1434-4c76-8907-f3a856c4f1bf'
       rel: canonical
     - href: '#04e23f98-d357-470a-af00-6bd841c9a23d'
       rel: latest-version
-    - href: '#54a4f1f7-b748-4661-a1e6-81a48c0a3635'
+    - href: '#ce140f46-a360-49f3-8377-b203011c7083'
       rel: predecessor-version
-    - href: '#43807904-58e6-49ab-aaa1-863ecad0b2c6'
+    - href: '#c5b34440-f536-4cde-8e47-0f9730a28e4c'
       rel: successor-version
     roles:
     - id: prepared-by
@@ -44,7 +44,7 @@ profile:
       party-uuids:
       - ae0012b5-2a98-4610-ba74-08928451a4c0
   imports:
-  - href: '#36766a6f-e174-4292-a03e-fcb3b4b09201'
+  - href: '#3de3ba7d-99df-47e9-bb1c-366caed7b5ac'
     include-controls:
     - with-ids:
       - ism-principle-gov-01
@@ -191,7 +191,9 @@ profile:
       - ism-1574
       - ism-1575
       - ism-1073
+      - ism-2124
       - ism-1576
+      - ism-2125
       - ism-0039
       - ism-0047
       - ism-1739
@@ -214,8 +216,11 @@ profile:
       - ism-0252
       - ism-1565
       - ism-2022
+      - ism-2074
+      - ism-0258
       - ism-1740
       - ism-2071
+      - ism-2126
       - ism-0817
       - ism-0820
       - ism-2104
@@ -225,41 +230,6 @@ profile:
       - ism-1146
       - ism-2107
       - ism-0824
-      - ism-1864
-      - ism-2074
-      - ism-0258
-      - ism-0432
-      - ism-0434
-      - ism-0435
-      - ism-1865
-      - ism-0414
-      - ism-0415
-      - ism-1583
-      - ism-0405
-      - ism-1852
-      - ism-1566
-      - ism-1507
-      - ism-1508
-      - ism-1175
-      - ism-1883
-      - ism-1649
-      - ism-0445
-      - ism-1263
-      - ism-1509
-      - ism-1650
-      - ism-0430
-      - ism-1591
-      - ism-1404
-      - ism-1648
-      - ism-1647
-      - ism-0407
-      - ism-0441
-      - ism-1610
-      - ism-1611
-      - ism-1612
-      - ism-1614
-      - ism-1615
-      - ism-1613
       - ism-0181
       - ism-1111
       - ism-0211
@@ -461,6 +431,9 @@ profile:
       - ism-1655
       - ism-1492
       - ism-1745
+      - ism-2127
+      - ism-1896
+      - ism-2128
       - ism-1584
       - ism-1491
       - ism-1592
@@ -486,6 +459,7 @@ profile:
       - ism-1622
       - ism-1623
       - ism-1624
+      - ism-2129
       - ism-1341
       - ism-1034
       - ism-1416
@@ -586,13 +560,60 @@ profile:
       - ism-1946
       - ism-1947
       - ism-1948
+      - ism-2130
+      - ism-2131
+      - ism-2132
       - ism-1949
       - ism-1950
       - ism-1951
       - ism-1952
       - ism-1978
       - ism-1979
+      - ism-1460
+      - ism-1604
+      - ism-1605
+      - ism-1606
+      - ism-1848
+      - ism-1607
+      - ism-1864
+      - ism-0432
+      - ism-0434
+      - ism-0435
+      - ism-1865
+      - ism-0408
+      - ism-0414
+      - ism-0415
+      - ism-1583
+      - ism-2133
+      - ism-0405
+      - ism-1852
+      - ism-1566
+      - ism-1507
+      - ism-1508
+      - ism-1175
+      - ism-1883
+      - ism-1649
+      - ism-0445
+      - ism-1263
+      - ism-1509
+      - ism-1650
+      - ism-0407
+      - ism-2134
+      - ism-2135
+      - ism-0430
+      - ism-1591
+      - ism-1404
+      - ism-1648
+      - ism-1647
+      - ism-0441
+      - ism-1610
+      - ism-1611
+      - ism-1612
+      - ism-1614
+      - ism-1615
+      - ism-1613
       - ism-1546
+      - ism-2136
       - ism-1603
       - ism-1055
       - ism-2076
@@ -618,6 +639,14 @@ profile:
       - ism-1683
       - ism-0417
       - ism-1895
+      - ism-1403
+      - ism-0428
+      - ism-2012
+      - ism-0853
+      - ism-2137
+      - ism-2138
+      - ism-2139
+      - ism-2140
       - ism-1559
       - ism-0421
       - ism-1558
@@ -635,32 +664,28 @@ profile:
       - ism-1795
       - ism-1954
       - ism-1619
+      - ism-2141
+      - ism-2142
+      - ism-2143
       - ism-1590
+      - ism-2144
       - ism-1955
       - ism-1847
       - ism-1956
+      - ism-2145
+      - ism-2146
       - ism-1597
       - ism-1980
       - ism-0418
       - ism-1402
       - ism-1957
-      - ism-1896
       - ism-1861
       - ism-1686
       - ism-1897
       - ism-1749
       - ism-1875
-      - ism-1403
-      - ism-0853
-      - ism-0428
-      - ism-2012
-      - ism-0408
-      - ism-1460
-      - ism-1604
-      - ism-1605
-      - ism-1606
-      - ism-1848
-      - ism-1607
+      - ism-2147
+      - ism-2148
       - ism-0042
       - ism-1211
       - ism-1898
@@ -674,6 +699,8 @@ profile:
       - ism-1386
       - ism-1387
       - ism-1899
+      - ism-2149
+      - ism-2150
       - ism-1493
       - ism-1643
       - ism-1143
@@ -716,6 +743,8 @@ profile:
       - ism-1814
       - ism-1707
       - ism-1708
+      - ism-2151
+      - ism-2152
       - ism-1515
       - ism-0580
       - ism-1405
@@ -737,6 +766,7 @@ profile:
       - ism-1960
       - ism-1961
       - ism-1228
+      - ism-2153
       - ism-1988
       - ism-1989
       - ism-1807
@@ -760,14 +790,6 @@ profile:
       - ism-1422
       - ism-1816
       - ism-2025
-      - ism-2026
-      - ism-2027
-      - ism-2028
-      - ism-2102
-      - ism-2029
-      - ism-2030
-      - ism-2031
-      - ism-2032
       - ism-2120
       - ism-2033
       - ism-2034
@@ -797,6 +819,16 @@ profile:
       - ism-2052
       - ism-1798
       - ism-2053
+      - ism-2026
+      - ism-2027
+      - ism-2028
+      - ism-2102
+      - ism-2029
+      - ism-2154
+      - ism-2030
+      - ism-2031
+      - ism-2155
+      - ism-2032
       - ism-2054
       - ism-1730
       - ism-2082
@@ -844,6 +876,10 @@ profile:
       - ism-2091
       - ism-2092
       - ism-2093
+      - ism-2156
+      - ism-2157
+      - ism-2158
+      - ism-2159
       - ism-1924
       - ism-2094
       - ism-1922
@@ -911,16 +947,23 @@ profile:
       - ism-1364
       - ism-2068
       - ism-1863
+      - ism-2160
       - ism-0385
       - ism-1479
       - ism-1781
-      - ism-0521
       - ism-1186
       - ism-1428
       - ism-1429
       - ism-1430
       - ism-0520
       - ism-1182
+      - ism-1321
+      - ism-1711
+      - ism-1322
+      - ism-1323
+      - ism-1324
+      - ism-1327
+      - ism-1454
       - ism-1006
       - ism-1962
       - ism-1311
@@ -932,11 +975,18 @@ profile:
       - ism-2017
       - ism-1782
       - ism-1800
+      - ism-2161
       - ism-1304
+      - ism-2162
       - ism-0534
       - ism-1801
       - ism-1963
       - ism-1964
+      - ism-2163
+      - ism-2164
+      - ism-2165
+      - ism-2166
+      - ism-2167
       - ism-1314
       - ism-0536
       - ism-1315
@@ -947,15 +997,8 @@ profile:
       - ism-1320
       - ism-1319
       - ism-1332
-      - ism-1321
-      - ism-1711
-      - ism-1322
-      - ism-1324
-      - ism-1323
-      - ism-1327
       - ism-1330
       - ism-1712
-      - ism-1454
       - ism-1334
       - ism-1335
       - ism-1338
@@ -1000,24 +1043,6 @@ profile:
       - ism-1996
       - ism-0469
       - ism-0481
-      - ism-1139
-      - ism-1369
-      - ism-1370
-      - ism-1372
-      - ism-1448
-      - ism-1373
-      - ism-1374
-      - ism-1375
-      - ism-1553
-      - ism-1453
-      - ism-1506
-      - ism-0484
-      - ism-0485
-      - ism-1449
-      - ism-0487
-      - ism-0488
-      - ism-0489
-      - ism-0490
       - ism-0494
       - ism-0496
       - ism-1233
@@ -1027,6 +1052,23 @@ profile:
       - ism-0999
       - ism-0498
       - ism-1000
+      - ism-1506
+      - ism-0484
+      - ism-0485
+      - ism-1449
+      - ism-0487
+      - ism-0488
+      - ism-0489
+      - ism-0490
+      - ism-1139
+      - ism-1369
+      - ism-1370
+      - ism-1372
+      - ism-1373
+      - ism-1374
+      - ism-1375
+      - ism-1553
+      - ism-1453
       - ism-0628
       - ism-0637
       - ism-0631
@@ -1086,23 +1128,23 @@ profile:
     as-is: true
   back-matter:
     resources:
-    - uuid: 36766a6f-e174-4292-a03e-fcb3b4b09201
+    - uuid: 3de3ba7d-99df-47e9-bb1c-366caed7b5ac
       title: Information security manual
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.yaml
         media-type: application/oscal+yaml
-    - uuid: c23d458c-e315-41aa-af5b-ca47c07b9c26
+    - uuid: 96c1b5f8-1434-4c76-8907-f3a856c4f1bf
       title: "Information security manual OFFICIAL: Sensitive Baseline"
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
         media-type: application/oscal+yaml
     - uuid: 04e23f98-d357-470a-af00-6bd841c9a23d
       title: "Information security manual OFFICIAL: Sensitive Baseline - latest version"
@@ -1113,21 +1155,21 @@ profile:
         media-type: application/json
       - href: https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
         media-type: application/oscal+yaml
-    - uuid: 54a4f1f7-b748-4661-a1e6-81a48c0a3635
+    - uuid: ce140f46-a360-49f3-8377-b203011c7083
       title: "Information security manual OFFICIAL: Sensitive Baseline - predecessor version"
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
         media-type: application/oscal+yaml
-    - uuid: 43807904-58e6-49ab-aaa1-863ecad0b2c6
+    - uuid: c5b34440-f536-4cde-8e47-0f9730a28e4c
       title: "Information security manual OFFICIAL: Sensitive Baseline - successor version"
       rlinks:
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml
         media-type: application/xml
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json
         media-type: application/json
-      - href: https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
+      - href: https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml
         media-type: application/oscal+yaml

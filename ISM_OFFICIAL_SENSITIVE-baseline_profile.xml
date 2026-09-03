@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-         uuid="c7c88710-77c2-4fe4-94c0-494a03180068">
+         uuid="9d8ece01-7874-44b7-8231-e5889f269cfa">
    <metadata>
       <title>Information security manual OFFICIAL: Sensitive Baseline</title>
-      <published>2026-06-18T08:04:29.980978301Z</published>
-      <last-modified>2026-06-18T08:04:29.980978301Z</last-modified>
-      <version>2026.06.18</version>
+      <published>2026-09-03T23:10:47.63884244Z</published>
+      <last-modified>2026-09-03T23:10:47.63884244Z</last-modified>
+      <version>2026.09.4</version>
       <oscal-version>1.1.2</oscal-version>
-      <link rel="canonical" href="#c23d458c-e315-41aa-af5b-ca47c07b9c26"/>
+      <link rel="canonical" href="#96c1b5f8-1434-4c76-8907-f3a856c4f1bf"/>
       <link rel="latest-version" href="#04e23f98-d357-470a-af00-6bd841c9a23d"/>
-      <link rel="predecessor-version" href="#54a4f1f7-b748-4661-a1e6-81a48c0a3635"/>
-      <link rel="successor-version" href="#43807904-58e6-49ab-aaa1-863ecad0b2c6"/>
+      <link rel="predecessor-version" href="#ce140f46-a360-49f3-8377-b203011c7083"/>
+      <link rel="successor-version" href="#c5b34440-f536-4cde-8e47-0f9730a28e4c"/>
       <role id="prepared-by">
          <title>Document creator</title>
       </role>
@@ -33,7 +33,7 @@
          <party-uuid>ae0012b5-2a98-4610-ba74-08928451a4c0</party-uuid>
       </responsible-party>
    </metadata>
-   <import href="#36766a6f-e174-4292-a03e-fcb3b4b09201">
+   <import href="#3de3ba7d-99df-47e9-bb1c-366caed7b5ac">
       <include-controls>
          <with-id>ism-principle-gov-01</with-id>
          <with-id>ism-principle-gov-08</with-id>
@@ -179,7 +179,9 @@
          <with-id>ism-1574</with-id>
          <with-id>ism-1575</with-id>
          <with-id>ism-1073</with-id>
+         <with-id>ism-2124</with-id>
          <with-id>ism-1576</with-id>
+         <with-id>ism-2125</with-id>
          <with-id>ism-0039</with-id>
          <with-id>ism-0047</with-id>
          <with-id>ism-1739</with-id>
@@ -202,8 +204,11 @@
          <with-id>ism-0252</with-id>
          <with-id>ism-1565</with-id>
          <with-id>ism-2022</with-id>
+         <with-id>ism-2074</with-id>
+         <with-id>ism-0258</with-id>
          <with-id>ism-1740</with-id>
          <with-id>ism-2071</with-id>
+         <with-id>ism-2126</with-id>
          <with-id>ism-0817</with-id>
          <with-id>ism-0820</with-id>
          <with-id>ism-2104</with-id>
@@ -213,41 +218,6 @@
          <with-id>ism-1146</with-id>
          <with-id>ism-2107</with-id>
          <with-id>ism-0824</with-id>
-         <with-id>ism-1864</with-id>
-         <with-id>ism-2074</with-id>
-         <with-id>ism-0258</with-id>
-         <with-id>ism-0432</with-id>
-         <with-id>ism-0434</with-id>
-         <with-id>ism-0435</with-id>
-         <with-id>ism-1865</with-id>
-         <with-id>ism-0414</with-id>
-         <with-id>ism-0415</with-id>
-         <with-id>ism-1583</with-id>
-         <with-id>ism-0405</with-id>
-         <with-id>ism-1852</with-id>
-         <with-id>ism-1566</with-id>
-         <with-id>ism-1507</with-id>
-         <with-id>ism-1508</with-id>
-         <with-id>ism-1175</with-id>
-         <with-id>ism-1883</with-id>
-         <with-id>ism-1649</with-id>
-         <with-id>ism-0445</with-id>
-         <with-id>ism-1263</with-id>
-         <with-id>ism-1509</with-id>
-         <with-id>ism-1650</with-id>
-         <with-id>ism-0430</with-id>
-         <with-id>ism-1591</with-id>
-         <with-id>ism-1404</with-id>
-         <with-id>ism-1648</with-id>
-         <with-id>ism-1647</with-id>
-         <with-id>ism-0407</with-id>
-         <with-id>ism-0441</with-id>
-         <with-id>ism-1610</with-id>
-         <with-id>ism-1611</with-id>
-         <with-id>ism-1612</with-id>
-         <with-id>ism-1614</with-id>
-         <with-id>ism-1615</with-id>
-         <with-id>ism-1613</with-id>
          <with-id>ism-0181</with-id>
          <with-id>ism-1111</with-id>
          <with-id>ism-0211</with-id>
@@ -449,6 +419,9 @@
          <with-id>ism-1655</with-id>
          <with-id>ism-1492</with-id>
          <with-id>ism-1745</with-id>
+         <with-id>ism-2127</with-id>
+         <with-id>ism-1896</with-id>
+         <with-id>ism-2128</with-id>
          <with-id>ism-1584</with-id>
          <with-id>ism-1491</with-id>
          <with-id>ism-1592</with-id>
@@ -474,6 +447,7 @@
          <with-id>ism-1622</with-id>
          <with-id>ism-1623</with-id>
          <with-id>ism-1624</with-id>
+         <with-id>ism-2129</with-id>
          <with-id>ism-1341</with-id>
          <with-id>ism-1034</with-id>
          <with-id>ism-1416</with-id>
@@ -574,13 +548,60 @@
          <with-id>ism-1946</with-id>
          <with-id>ism-1947</with-id>
          <with-id>ism-1948</with-id>
+         <with-id>ism-2130</with-id>
+         <with-id>ism-2131</with-id>
+         <with-id>ism-2132</with-id>
          <with-id>ism-1949</with-id>
          <with-id>ism-1950</with-id>
          <with-id>ism-1951</with-id>
          <with-id>ism-1952</with-id>
          <with-id>ism-1978</with-id>
          <with-id>ism-1979</with-id>
+         <with-id>ism-1460</with-id>
+         <with-id>ism-1604</with-id>
+         <with-id>ism-1605</with-id>
+         <with-id>ism-1606</with-id>
+         <with-id>ism-1848</with-id>
+         <with-id>ism-1607</with-id>
+         <with-id>ism-1864</with-id>
+         <with-id>ism-0432</with-id>
+         <with-id>ism-0434</with-id>
+         <with-id>ism-0435</with-id>
+         <with-id>ism-1865</with-id>
+         <with-id>ism-0408</with-id>
+         <with-id>ism-0414</with-id>
+         <with-id>ism-0415</with-id>
+         <with-id>ism-1583</with-id>
+         <with-id>ism-2133</with-id>
+         <with-id>ism-0405</with-id>
+         <with-id>ism-1852</with-id>
+         <with-id>ism-1566</with-id>
+         <with-id>ism-1507</with-id>
+         <with-id>ism-1508</with-id>
+         <with-id>ism-1175</with-id>
+         <with-id>ism-1883</with-id>
+         <with-id>ism-1649</with-id>
+         <with-id>ism-0445</with-id>
+         <with-id>ism-1263</with-id>
+         <with-id>ism-1509</with-id>
+         <with-id>ism-1650</with-id>
+         <with-id>ism-0407</with-id>
+         <with-id>ism-2134</with-id>
+         <with-id>ism-2135</with-id>
+         <with-id>ism-0430</with-id>
+         <with-id>ism-1591</with-id>
+         <with-id>ism-1404</with-id>
+         <with-id>ism-1648</with-id>
+         <with-id>ism-1647</with-id>
+         <with-id>ism-0441</with-id>
+         <with-id>ism-1610</with-id>
+         <with-id>ism-1611</with-id>
+         <with-id>ism-1612</with-id>
+         <with-id>ism-1614</with-id>
+         <with-id>ism-1615</with-id>
+         <with-id>ism-1613</with-id>
          <with-id>ism-1546</with-id>
+         <with-id>ism-2136</with-id>
          <with-id>ism-1603</with-id>
          <with-id>ism-1055</with-id>
          <with-id>ism-2076</with-id>
@@ -606,6 +627,14 @@
          <with-id>ism-1683</with-id>
          <with-id>ism-0417</with-id>
          <with-id>ism-1895</with-id>
+         <with-id>ism-1403</with-id>
+         <with-id>ism-0428</with-id>
+         <with-id>ism-2012</with-id>
+         <with-id>ism-0853</with-id>
+         <with-id>ism-2137</with-id>
+         <with-id>ism-2138</with-id>
+         <with-id>ism-2139</with-id>
+         <with-id>ism-2140</with-id>
          <with-id>ism-1559</with-id>
          <with-id>ism-0421</with-id>
          <with-id>ism-1558</with-id>
@@ -623,32 +652,28 @@
          <with-id>ism-1795</with-id>
          <with-id>ism-1954</with-id>
          <with-id>ism-1619</with-id>
+         <with-id>ism-2141</with-id>
+         <with-id>ism-2142</with-id>
+         <with-id>ism-2143</with-id>
          <with-id>ism-1590</with-id>
+         <with-id>ism-2144</with-id>
          <with-id>ism-1955</with-id>
          <with-id>ism-1847</with-id>
          <with-id>ism-1956</with-id>
+         <with-id>ism-2145</with-id>
+         <with-id>ism-2146</with-id>
          <with-id>ism-1597</with-id>
          <with-id>ism-1980</with-id>
          <with-id>ism-0418</with-id>
          <with-id>ism-1402</with-id>
          <with-id>ism-1957</with-id>
-         <with-id>ism-1896</with-id>
          <with-id>ism-1861</with-id>
          <with-id>ism-1686</with-id>
          <with-id>ism-1897</with-id>
          <with-id>ism-1749</with-id>
          <with-id>ism-1875</with-id>
-         <with-id>ism-1403</with-id>
-         <with-id>ism-0853</with-id>
-         <with-id>ism-0428</with-id>
-         <with-id>ism-2012</with-id>
-         <with-id>ism-0408</with-id>
-         <with-id>ism-1460</with-id>
-         <with-id>ism-1604</with-id>
-         <with-id>ism-1605</with-id>
-         <with-id>ism-1606</with-id>
-         <with-id>ism-1848</with-id>
-         <with-id>ism-1607</with-id>
+         <with-id>ism-2147</with-id>
+         <with-id>ism-2148</with-id>
          <with-id>ism-0042</with-id>
          <with-id>ism-1211</with-id>
          <with-id>ism-1898</with-id>
@@ -662,6 +687,8 @@
          <with-id>ism-1386</with-id>
          <with-id>ism-1387</with-id>
          <with-id>ism-1899</with-id>
+         <with-id>ism-2149</with-id>
+         <with-id>ism-2150</with-id>
          <with-id>ism-1493</with-id>
          <with-id>ism-1643</with-id>
          <with-id>ism-1143</with-id>
@@ -704,6 +731,8 @@
          <with-id>ism-1814</with-id>
          <with-id>ism-1707</with-id>
          <with-id>ism-1708</with-id>
+         <with-id>ism-2151</with-id>
+         <with-id>ism-2152</with-id>
          <with-id>ism-1515</with-id>
          <with-id>ism-0580</with-id>
          <with-id>ism-1405</with-id>
@@ -725,6 +754,7 @@
          <with-id>ism-1960</with-id>
          <with-id>ism-1961</with-id>
          <with-id>ism-1228</with-id>
+         <with-id>ism-2153</with-id>
          <with-id>ism-1988</with-id>
          <with-id>ism-1989</with-id>
          <with-id>ism-1807</with-id>
@@ -748,14 +778,6 @@
          <with-id>ism-1422</with-id>
          <with-id>ism-1816</with-id>
          <with-id>ism-2025</with-id>
-         <with-id>ism-2026</with-id>
-         <with-id>ism-2027</with-id>
-         <with-id>ism-2028</with-id>
-         <with-id>ism-2102</with-id>
-         <with-id>ism-2029</with-id>
-         <with-id>ism-2030</with-id>
-         <with-id>ism-2031</with-id>
-         <with-id>ism-2032</with-id>
          <with-id>ism-2120</with-id>
          <with-id>ism-2033</with-id>
          <with-id>ism-2034</with-id>
@@ -785,6 +807,16 @@
          <with-id>ism-2052</with-id>
          <with-id>ism-1798</with-id>
          <with-id>ism-2053</with-id>
+         <with-id>ism-2026</with-id>
+         <with-id>ism-2027</with-id>
+         <with-id>ism-2028</with-id>
+         <with-id>ism-2102</with-id>
+         <with-id>ism-2029</with-id>
+         <with-id>ism-2154</with-id>
+         <with-id>ism-2030</with-id>
+         <with-id>ism-2031</with-id>
+         <with-id>ism-2155</with-id>
+         <with-id>ism-2032</with-id>
          <with-id>ism-2054</with-id>
          <with-id>ism-1730</with-id>
          <with-id>ism-2082</with-id>
@@ -832,6 +864,10 @@
          <with-id>ism-2091</with-id>
          <with-id>ism-2092</with-id>
          <with-id>ism-2093</with-id>
+         <with-id>ism-2156</with-id>
+         <with-id>ism-2157</with-id>
+         <with-id>ism-2158</with-id>
+         <with-id>ism-2159</with-id>
          <with-id>ism-1924</with-id>
          <with-id>ism-2094</with-id>
          <with-id>ism-1922</with-id>
@@ -899,16 +935,23 @@
          <with-id>ism-1364</with-id>
          <with-id>ism-2068</with-id>
          <with-id>ism-1863</with-id>
+         <with-id>ism-2160</with-id>
          <with-id>ism-0385</with-id>
          <with-id>ism-1479</with-id>
          <with-id>ism-1781</with-id>
-         <with-id>ism-0521</with-id>
          <with-id>ism-1186</with-id>
          <with-id>ism-1428</with-id>
          <with-id>ism-1429</with-id>
          <with-id>ism-1430</with-id>
          <with-id>ism-0520</with-id>
          <with-id>ism-1182</with-id>
+         <with-id>ism-1321</with-id>
+         <with-id>ism-1711</with-id>
+         <with-id>ism-1322</with-id>
+         <with-id>ism-1323</with-id>
+         <with-id>ism-1324</with-id>
+         <with-id>ism-1327</with-id>
+         <with-id>ism-1454</with-id>
          <with-id>ism-1006</with-id>
          <with-id>ism-1962</with-id>
          <with-id>ism-1311</with-id>
@@ -920,11 +963,18 @@
          <with-id>ism-2017</with-id>
          <with-id>ism-1782</with-id>
          <with-id>ism-1800</with-id>
+         <with-id>ism-2161</with-id>
          <with-id>ism-1304</with-id>
+         <with-id>ism-2162</with-id>
          <with-id>ism-0534</with-id>
          <with-id>ism-1801</with-id>
          <with-id>ism-1963</with-id>
          <with-id>ism-1964</with-id>
+         <with-id>ism-2163</with-id>
+         <with-id>ism-2164</with-id>
+         <with-id>ism-2165</with-id>
+         <with-id>ism-2166</with-id>
+         <with-id>ism-2167</with-id>
          <with-id>ism-1314</with-id>
          <with-id>ism-0536</with-id>
          <with-id>ism-1315</with-id>
@@ -935,15 +985,8 @@
          <with-id>ism-1320</with-id>
          <with-id>ism-1319</with-id>
          <with-id>ism-1332</with-id>
-         <with-id>ism-1321</with-id>
-         <with-id>ism-1711</with-id>
-         <with-id>ism-1322</with-id>
-         <with-id>ism-1324</with-id>
-         <with-id>ism-1323</with-id>
-         <with-id>ism-1327</with-id>
          <with-id>ism-1330</with-id>
          <with-id>ism-1712</with-id>
-         <with-id>ism-1454</with-id>
          <with-id>ism-1334</with-id>
          <with-id>ism-1335</with-id>
          <with-id>ism-1338</with-id>
@@ -988,24 +1031,6 @@
          <with-id>ism-1996</with-id>
          <with-id>ism-0469</with-id>
          <with-id>ism-0481</with-id>
-         <with-id>ism-1139</with-id>
-         <with-id>ism-1369</with-id>
-         <with-id>ism-1370</with-id>
-         <with-id>ism-1372</with-id>
-         <with-id>ism-1448</with-id>
-         <with-id>ism-1373</with-id>
-         <with-id>ism-1374</with-id>
-         <with-id>ism-1375</with-id>
-         <with-id>ism-1553</with-id>
-         <with-id>ism-1453</with-id>
-         <with-id>ism-1506</with-id>
-         <with-id>ism-0484</with-id>
-         <with-id>ism-0485</with-id>
-         <with-id>ism-1449</with-id>
-         <with-id>ism-0487</with-id>
-         <with-id>ism-0488</with-id>
-         <with-id>ism-0489</with-id>
-         <with-id>ism-0490</with-id>
          <with-id>ism-0494</with-id>
          <with-id>ism-0496</with-id>
          <with-id>ism-1233</with-id>
@@ -1015,6 +1040,23 @@
          <with-id>ism-0999</with-id>
          <with-id>ism-0498</with-id>
          <with-id>ism-1000</with-id>
+         <with-id>ism-1506</with-id>
+         <with-id>ism-0484</with-id>
+         <with-id>ism-0485</with-id>
+         <with-id>ism-1449</with-id>
+         <with-id>ism-0487</with-id>
+         <with-id>ism-0488</with-id>
+         <with-id>ism-0489</with-id>
+         <with-id>ism-0490</with-id>
+         <with-id>ism-1139</with-id>
+         <with-id>ism-1369</with-id>
+         <with-id>ism-1370</with-id>
+         <with-id>ism-1372</with-id>
+         <with-id>ism-1373</with-id>
+         <with-id>ism-1374</with-id>
+         <with-id>ism-1375</with-id>
+         <with-id>ism-1553</with-id>
+         <with-id>ism-1453</with-id>
          <with-id>ism-0628</with-id>
          <with-id>ism-0637</with-id>
          <with-id>ism-0631</with-id>
@@ -1076,23 +1118,23 @@
       <as-is>true</as-is>
    </merge>
    <back-matter>
-      <resource uuid="36766a6f-e174-4292-a03e-fcb3b4b09201">
+      <resource uuid="3de3ba7d-99df-47e9-bb1c-366caed7b5ac">
          <title>Information security manual</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_catalog.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_catalog.yaml"/>
       </resource>
-      <resource uuid="c23d458c-e315-41aa-af5b-ca47c07b9c26">
+      <resource uuid="96c1b5f8-1434-4c76-8907-f3a856c4f1bf">
          <title>Information security manual OFFICIAL: Sensitive Baseline</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
       </resource>
       <resource uuid="04e23f98-d357-470a-af00-6bd841c9a23d">
          <title>Information security manual OFFICIAL: Sensitive Baseline - latest version</title>
@@ -1103,23 +1145,23 @@
          <rlink media-type="application/oscal+yaml"
                 href="https://www.cyber.gov.au/ism/oscal/latest-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
       </resource>
-      <resource uuid="54a4f1f7-b748-4661-a1e6-81a48c0a3635">
+      <resource uuid="ce140f46-a360-49f3-8377-b203011c7083">
          <title>Information security manual OFFICIAL: Sensitive Baseline - predecessor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/predecessor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
       </resource>
-      <resource uuid="43807904-58e6-49ab-aaa1-863ecad0b2c6">
+      <resource uuid="c5b34440-f536-4cde-8e47-0f9730a28e4c">
          <title>Information security manual OFFICIAL: Sensitive Baseline - successor version</title>
          <rlink media-type="application/xml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.xml"/>
          <rlink media-type="application/json"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="https://www.cyber.gov.au/ism/oscal/v2026.06.18/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
+                href="https://www.cyber.gov.au/ism/oscal/v2026.09.4/successor-version/artifacts/ISM_OFFICIAL_SENSITIVE-baseline_profile.yaml"/>
       </resource>
    </back-matter>
 </profile>
